@@ -1,0 +1,32 @@
+[
+  {
+    "index": 0,
+    "args_file": "/workspace/.cursor/mcp_invoke_0.json",
+    "payload_chars": 15000
+  },
+  {
+    "index": 1,
+    "args_file": "/workspace/.cursor/mcp_invoke_1.json",
+    "payload_chars": 15000
+  },
+  {
+    "index": 2,
+    "args_file": "/workspace/.cursor/mcp_invoke_2.json",
+    "payload_chars": 15000
+  },
+  {
+    "index": 3,
+    "args_file": "/workspace/.cursor/mcp_invoke_3.json",
+    "payload_chars": 15000
+  },
+  {
+    "index": 4,
+    "args_file": "/workspace/.cursor/mcp_invoke_4.json",
+    "payload_chars": 15000
+  },
+  {
+    "index": 5,
+    "args_file": "/workspace/.cursor/mcp_invoke_5.json",
+    "payload_chars": 5945
+  }
+]

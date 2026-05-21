@@ -1,0 +1,117 @@
+    </g>
+        </g>
+
+        <!-- Calendar -->
+        <g class="hero-calendar-flip">
+          <rect x="400" y="250" width="120" height="110" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#hero-soft-shadow)"/>
+          <rect x="400" y="250" width="120" height="28" rx="10" fill="#1e293b"/>
+          <rect x="400" y="266" width="120" height="12" fill="#1e293b"/>
+          <text x="460" y="270" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">КАЛЕНДАРЬ</text>
+          <text x="460" y="310" text-anchor="middle" fill="#0f172a" font-size="28" font-weight="800">30</text>
+          <text x="460" y="332" text-anchor="middle" fill="#64748b" font-size="10">календарных дней</text>
+          <rect x="418" y="345" width="18" height="14" rx="2" fill="#dbeafe" stroke="#93c5fd"/>
+          <rect x="442" y="345" width="18" height="14" rx="2" fill="#f1f5f9" stroke="#cbd5e1"/>
+          <rect x="466" y="345" width="18" height="14" rx="2" fill="#f1f5f9" stroke="#cbd5e1"/>
+          <rect x="490" y="345" width="18" height="14" rx="2" fill="#f1f5f9" stroke="#cbd5e1"/>
+        </g>
+
+        <!-- Document stack -->
+        <g class="hero-doc-stack">
+          <rect x="48" y="280" width="130" height="168" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1.5" transform="rotate(-4 113 364)"/>
+          <rect x="58" y="272" width="130" height="168" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="1.5" transform="rotate(-2 123 356)"/>
+          <rect x="68" y="264" width="130" height="168" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.5" filter="url(#hero-soft-shadow)"/>
+          <text x="133" y="300" text-anchor="middle" fill="#64748b" font-size="9" font-weight="700" letter-spacing="0.06em">127-ФЗ</text>
+          <line x1="88" y1="312" x2="178" y2="312" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="88" y1="328" x2="168" y2="328" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="88" y1="344" x2="172" y2="344" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="133" y="378" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="800">Возражение</text>
+          <text x="133" y="396" text-anchor="middle" fill="#475569" font-size="9">на требование кредитора</text>
+          <rect x="98" y="408" width="70" height="3" rx="1.5" fill="#1d4ed8" opacity="0.35"/>
+        </g>
+
+        <!-- Registry label -->
+        <rect x="230" y="420" width="180" height="36" rx="18" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1"/>
+        <text x="320" y="443" text-anchor="middle" fill="#047857" font-size="11" font-weight="700">Реестр требований кредиторов</text>
+      </svg>
+    </div>
+  </div>
+
+  <div class="hero-bankrot-sroki__pill">
+    <span>127-ФЗ</span>
+    <span>Реестр</span>
+    <span>Реструктуризация</span>
+    <span>Реализация</span>
+  </div>
+</section>
+
+  <section id="vvedenie" class="srok-vozrazhenij-intro-section reveal">
+    <div class="ym-container">
+      <div class="srok-vozrazhenij-intro-grid">
+        <div class="srok-vozrazhenij-intro-text">
+          <p><strong>Коротко:</strong> в банкротстве гражданина единого «15-дневного срока на возражения» не существует. Цифра <strong>15</strong> в <a href="https://www.sudact.ru/law/federalnyi-zakon-ot-26102002-n-127-fz-o/glava-x/" rel="noopener">127-ФЗ «О несостоятельности (банкротстве)»</a> относится к <strong>уведомлению кредиторов</strong> финансовым управляющим. Срок <strong>возражений на включение требования в реестр</strong> — как правило, <strong>30 календарных дней</strong>, но отсчёт зависит от процедуры: реструктуризация (<a href="https://bazanpa.ru/fz-o-bankrotstve/glava10/paragraf1.1/statya213.8/">ст. 213.8</a> → <a href="https://www.zakonrf.info/zakon-o-bankrotstve/71/">ст. 71</a>) или реализация имущества (<a href="https://bazanpa.ru/fz-o-bankrotstve/glava10/paragraf1.1/statya213.24/">ст. 213.24</a> → <a href="https://www.zakonrf.info/zakon-o-bankrotstve/100/">ст. 100</a>). Путаница «30 vs 15» — один из частых мифов после введения процедуры и публикации сведений в ЕФРСБ.</p>
+        </div>
+        <div class="srok-vozrazhenij-intro-dekor reveal-right delay-200">
+          <div class="srok-vozrazhenij-kpi-grid">
+            <div class="srok-vozrazhenij-kpi-chip myth">
+              <span class="num">15</span>
+              <span class="label">дней — уведомление кредиторов ФУ, не срок возражений</span>
+            </div>
+            <div class="srok-vozrazhenij-kpi-chip fact">
+              <span class="num">30</span>
+              <span class="label">дней — окно на возражение против включения в реестр</span>
+            </div>
+          </div>
+          <div class="ym-mac-window">
+            <div class="ym-mac-header">
+              <span class="ym-mac-dot r"></span>
+              <span class="ym-mac-dot y"></span>
+              <span class="ym-mac-dot g"></span>
+              <span class="ym-mac-title">efrsb.ru — карта сроков</span>
+            </div>
+            <div class="ym-mac-body">
+              <span class="ym-comment"># процедура банкротства физлица</span><br>
+              <span class="ym-command">→ определение суда</span><br>
+              <span class="ym-command">→ 15 дн. уведомление ФУ</span> <span class="ym-comment"># не возражения</span><br>
+              <span class="ym-command">→ 30 дн. на возражения</span> <span class="ym-comment"># ст. 71 / 100</span><br>
+              <span class="ym-comment"># проверьте дату отсчёта по процедуре</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="srok-vozrazhenij-toc-wrap">
+    <div class="ym-container">
+      <p class="ym-section-subtitle">Навигация по материалу</p>
+      <nav class="ym-toc reveal" aria-label="Оглавление статьи">
+        <a href="#chto-takoe-vozrazheniya">Что такое возражения</a>
+        <a href="#srok-30-dnej">30 дней — кому и от какой даты</a>
+        <a href="#15-dnej-mif">Миф про 15 дней</a>
+        <a href="#restrukturizaciya">Реструктуризация</a>
+        <a href="#realizaciya">Реализация имущества</a>
+        <a href="#vozrazhenie-na-bankrotstvo">Возражение на банкротство</a>
+        <a href="#propusk-sroka">Пропуск срока</a>
+        <a href="#chek-list">Чек-лист</a>
+        <a href="#faq">FAQ</a>
+        <a href="#itog">Итог</a>
+      </nav>
+    </div>
+  </div>
+
+  <section id="chto-takoe-vozrazheniya" class="ym-section reveal">
+    <div class="ym-container">
+      <div class="srok-vozrazhenij-article">
+<h2>Что такое возражения в банкротстве физлица и почему срок критичен</h2>
+
+<p><strong>Определение:</strong> возражение в деле о банкротстве гражданина — это процессуальный документ, которым участник дела оспаривает чужое требование, его размер, очерёдность или основание включения в реестр требований кредиторов. Другие лица вправе подать <strong>возражение на требование кредитора</strong>, если считают, что требование необоснованно, завышено или подано с нарушением порядка.</p>
+
+<p>Круг лиц, которые чаще всего участвуют в спорах о реестре:</p>
+<ul>
+<li><strong>должник</strong> — оспаривает чужие требования или их сумму;</li>
+<li><strong>кредиторы</strong> — возражают против включения конкурентного требования;</li>
+<li><strong>финансовый управляющий</strong> — может заявить возражения от имени должника или по собственной инициативе;</li>
+<li><strong>иные участники</strong> — например, супруг, если спор касается совместно нажитого имущества.</li>
+</ul>
+
+<p>Почему срок критичен: после ис

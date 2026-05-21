@@ -1,0 +1,11 @@
+{
+  "page_id": 323,
+  "slug": "srok-vozrazhenij-30-vs-15-mify",
+  "method": "MCP KV (prepared)",
+  "blob_id": null,
+  "chunks_prepared": 21,
+  "chunks_uploaded": 0,
+  "live_url": "https://advokat-vsem.online/srok-vozrazhenij-30-vs-15-mify/",
+  "verification": "NOT DONE - upload pending",
+  "next_action": "mcp_call_tool wordpress_content_blob_append with /workspace/.cursor/MCP_TOOL_ARGS.json"
+}

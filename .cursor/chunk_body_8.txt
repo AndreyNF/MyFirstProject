@@ -1,0 +1,80 @@
+nij-boris-block .boris-lead {
+      border-right: none;
+      border-bottom: 1px solid #e2e8f0;
+    }
+  }
+  @media (max-width: 640px) {
+    #srok-vozrazhenij-boris-block .boris-lead,
+    #srok-vozrazhenij-boris-block .boris-table-wrap {
+      padding: 1.25rem;
+    }
+    #srok-vozrazhenij-boris-block .boris-kicker {
+      font-size: 1.2rem;
+    }
+  }
+
+</style>
+
+<main id="primary" class="site-main srok-vozrazhenij-30-vs-15-mify-page" role="main" tabindex="-1">
+
+<section id="hero" class="hero-bankrot-sroki" aria-label="Срок возражений при банкротстве физлица">
+<div class="hero-bankrot-sroki__inner">
+    <div class="hero-bankrot-sroki__content">
+      <div class="hero-bankrot-sroki__badge">
+        <span class="hero-bankrot-sroki__badge-dot" aria-hidden="true"></span>
+        Банкротство физлица · 127-ФЗ · 2025–2026
+      </div>
+      <h1 class="hero-bankrot-sroki__h1">
+        <span class="hero-bankrot-sroki__h1-accent">30 или 15 дней?</span> Разбираем мифы о сроке возражений
+      </h1>
+      <p class="hero-bankrot-sroki__sub">
+        Когда кредитор и должник могут возразить после введения процедур банкротства физлица — по 127-ФЗ и практике 2025–2026
+      </p>
+      <ol class="hero-bankrot-sroki__steps">
+        <li class="hero-bankrot-sroki__step">
+          <span class="hero-bankrot-sroki__step-num">1</span>
+          <span><strong>Определение суда</strong> — введение реструктуризации или реализации имущества</span>
+        </li>
+        <li class="hero-bankrot-sroki__step">
+          <span class="hero-bankrot-sroki__step-num">2</span>
+          <span><strong>15 дней</strong> — финуправляющий уведомляет кредиторов (не срок ваших возражений)</span>
+        </li>
+        <li class="hero-bankrot-sroki__step">
+          <span class="hero-bankrot-sroki__step-num">3</span>
+          <span><strong>30 дней</strong> — окно на возражения против включения требования в реестр</span>
+        </li>
+      </ol>
+      <a class="hero-bankrot-sroki__cta" href="https://advokat-vsem.ru/">Консультация по срокам возражений</a>
+    </div>
+
+    <div class="hero-bankrot-sroki__visual" aria-hidden="true">
+      <svg class="hero-bankrot-sroki__svg" viewBox="0 0 560 520" xmlns="http://www.w3.org/2000/svg" role="img">
+        <title>Весы 30 и 15 дней, таймлайн и документы возражений</title>
+        <defs>
+          <linearGradient id="hero-bg-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f8fafc"/>
+          </linearGradient>
+          <linearGradient id="hero-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1d4ed8"/>
+            <stop offset="100%" stop-color="#0ea5e9"/>
+          </linearGradient>
+          <filter id="hero-soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+          </filter>
+        </defs>
+
+        <!-- Background panel -->
+        <rect x="20" y="24" width="520" height="472" rx="24" fill="url(#hero-bg-panel)" stroke="#e2e8f0" stroke-width="1.5" filter="url(#hero-soft-shadow)"/>
+
+        <!-- Timeline -->
+        <g class="hero-timeline">
+          <text x="48" y="68" fill="#64748b" font-size="11" font-weight="700" letter-spacing="0.08em">ТАЙМЛАЙН ПРОЦЕДУРЫ</text>
+          <line x1="48" y1="200" x2="200" y2="200" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+          <line class="hero-timeline-progress" x1="48" y1="200" x2="200" y2="200" stroke="url(#hero-accent)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="48" cy="200" r="7" fill="#1d4ed8"/>
+          <circle cx="108" cy="200" r="6" fill="#94a3b8"/>
+          <circle cx="168" cy="200" r="6" fill="#059669"/>
+          <text x="38" y="228" fill="#334155" font-size="10" font-weight="600">Суд</text>
+          <text x="88" y="228" fill="#64748b" font-size="10" font-weight="600">15 дн.</text>
+          <text x="148

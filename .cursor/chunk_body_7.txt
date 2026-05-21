@@ -1,0 +1,143 @@
+hadow: 0 18px 48px rgba(15, 23, 42, 0.07);
+    overflow: hidden;
+  }
+  #srok-vozrazhenij-boris-block .boris-split {
+    display: grid;
+    grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.35fr);
+    gap: 0;
+  }
+  #srok-vozrazhenij-boris-block .boris-lead {
+    padding: 2rem 2rem 2rem 2.25rem;
+    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+    border-right: 1px solid #e2e8f0;
+    border-left: 4px solid #ff0000;
+  }
+  #srok-vozrazhenij-boris-block .boris-eyebrow {
+    display: inline-block;
+    margin: 0 0 0.75rem;
+    padding: 0.28rem 0.65rem;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #64748b;
+    background: #f1f5f9;
+    border-radius: 999px;
+  }
+  #srok-vozrazhenij-boris-block .boris-kicker {
+    margin: 0 0 0.85rem;
+    font-size: 1.375rem;
+    line-height: 1.25;
+    font-weight: 800;
+    color: #0f172a;
+  }
+  #srok-vozrazhenij-boris-block .boris-bridge {
+    margin: 0 0 1.35rem;
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: #475569;
+  }
+  #srok-vozrazhenij-boris-block .boris-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+  #srok-vozrazhenij-boris-block .boris-chip {
+    flex: 1 1 8.5rem;
+    min-width: 0;
+    padding: 0.85rem 0.95rem;
+    border-radius: 14px;
+    border: 1px solid #e2e8f0;
+    background: #fff;
+  }
+  #srok-vozrazhenij-boris-block .boris-chip-num {
+    display: block;
+    font-size: 1.625rem;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+  }
+  #srok-vozrazhenij-boris-block .boris-chip-num.is-myth { color: #dc2626; }
+  #srok-vozrazhenij-boris-block .boris-chip-num.is-fact { color: #059669; }
+  #srok-vozrazhenij-boris-block .boris-chip-label {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.35;
+    color: #64748b;
+  }
+  #srok-vozrazhenij-boris-block .boris-table-wrap {
+    padding: 1.5rem 1.5rem 1.65rem;
+    overflow-x: auto;
+  }
+  #srok-vozrazhenij-boris-block .boris-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+  #srok-vozrazhenij-boris-block .boris-table caption {
+    caption-side: top;
+    text-align: left;
+    margin: 0 0 0.85rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: #334155;
+  }
+  #srok-vozrazhenij-boris-block .boris-table thead th {
+    padding: 0.75rem 0.85rem;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background: #0f172a;
+    border: 1px solid #0f172a;
+  }
+  #srok-vozrazhenij-boris-block .boris-table thead th:first-child {
+    border-radius: 12px 0 0 0;
+    background: #991b1b;
+    border-color: #991b1b;
+  }
+  #srok-vozrazhenij-boris-block .boris-table thead th:last-child {
+    border-radius: 0 12px 0 0;
+    background: #065f46;
+    border-color: #065f46;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody td {
+    padding: 0.8rem 0.85rem;
+    vertical-align: top;
+    border: 1px solid #e2e8f0;
+    background: #fff;
+    color: #334155;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody tr:nth-child(even) td {
+    background: #f8fafc;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 12px;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 12px 0;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody td:first-child {
+    color: #7f1d1d;
+    font-weight: 600;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody td:last-child strong {
+    color: #0f172a;
+  }
+  #srok-vozrazhenij-boris-block .boris-footnote {
+    margin: 0.85rem 0 0;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #cbd5e1;
+    font-size: 0.75rem;
+    line-height: 1.45;
+    color: #64748b;
+  }
+  @media (max-width: 960px) {
+    #srok-vozrazhenij-boris-block .boris-split {
+      grid-template-columns: 1fr;
+    }
+    #srok-vozrazhe

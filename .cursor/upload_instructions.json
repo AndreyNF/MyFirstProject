@@ -1,0 +1,13 @@
+{
+  "method": "MCP KV blob flow",
+  "page_id": 323,
+  "slug": "srok-vozrazhenij-30-vs-15-mify",
+  "chunks_dir": "/workspace/.cursor/payload4k",
+  "total_chunks": 21,
+  "current_chunk": 0,
+  "next_call_file": "/workspace/.cursor/invoke_chunk0.json",
+  "title": "Срок возражений при банкротстве: 30 или 15 дней — мифы",
+  "excerpt": "Сроки подачи возражений кредитора и должника после введения банкротства физлица: 30 и 15 дней, реестр, реструктуризация. Актуальные нормы 127-ФЗ на 2025–2026 год.",
+  "status": "prepared_not_uploaded",
+  "note": "Agent must call mcp_call_tool wordpress_content_blob_append for each chunk, then wordpress_update_page_from_blob"
+}

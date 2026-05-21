@@ -1,0 +1,10 @@
+{
+  "next_chunk": 0,
+  "total_chunks": 11,
+  "blob_id": null,
+  "payload_chars": 8000,
+  "flags": {
+    "reset": true
+  },
+  "chunk_len": 7707
+}

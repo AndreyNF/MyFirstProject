@@ -1,0 +1,148 @@
+is-table thead th:last-child {
+    border-radius: 0 12px 0 0;
+    background: #065f46;
+    border-color: #065f46;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody td {
+    padding: 0.8rem 0.85rem;
+    vertical-align: top;
+    border: 1px solid #e2e8f0;
+    background: #fff;
+    color: #334155;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody tr:nth-child(even) td {
+    background: #f8fafc;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 12px;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 12px 0;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody td:first-child {
+    color: #7f1d1d;
+    font-weight: 600;
+  }
+  #srok-vozrazhenij-boris-block .boris-table tbody td:last-child strong {
+    color: #0f172a;
+  }
+  #srok-vozrazhenij-boris-block .boris-footnote {
+    margin: 0.85rem 0 0;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #cbd5e1;
+    font-size: 0.75rem;
+    line-height: 1.45;
+    color: #64748b;
+  }
+  @media (max-width: 960px) {
+    #srok-vozrazhenij-boris-block .boris-split {
+      grid-template-columns: 1fr;
+    }
+    #srok-vozrazhenij-boris-block .boris-lead {
+      border-right: none;
+      border-bottom: 1px solid #e2e8f0;
+    }
+  }
+  @media (max-width: 640px) {
+    #srok-vozrazhenij-boris-block .boris-lead,
+    #srok-vozrazhenij-boris-block .boris-table-wrap {
+      padding: 1.25rem;
+    }
+    #srok-vozrazhenij-boris-block .boris-kicker {
+      font-size: 1.2rem;
+    }
+  }
+
+</style>
+
+<main id="primary" class="site-main srok-vozrazhenij-30-vs-15-mify-page" role="main" tabindex="-1">
+
+<section id="hero" class="hero-bankrot-sroki" aria-label="Срок возражений при банкротстве физлица">
+<div class="hero-bankrot-sroki__inner">
+    <div class="hero-bankrot-sroki__content">
+      <div class="hero-bankrot-sroki__badge">
+        <span class="hero-bankrot-sroki__badge-dot" aria-hidden="true"></span>
+        Банкротство физлица · 127-ФЗ · 2025–2026
+      </div>
+      <h1 class="hero-bankrot-sroki__h1">
+        <span class="hero-bankrot-sroki__h1-accent">30 или 15 дней?</span> Разбираем мифы о сроке возражений
+      </h1>
+      <p class="hero-bankrot-sroki__sub">
+        Когда кредитор и должник могут возразить после введения процедур банкротства физлица — по 127-ФЗ и практике 2025–2026
+      </p>
+      <ol class="hero-bankrot-sroki__steps">
+        <li class="hero-bankrot-sroki__step">
+          <span class="hero-bankrot-sroki__step-num">1</span>
+          <span><strong>Определение суда</strong> — введение реструктуризации или реализации имущества</span>
+        </li>
+        <li class="hero-bankrot-sroki__step">
+          <span class="hero-bankrot-sroki__step-num">2</span>
+          <span><strong>15 дней</strong> — финуправляющий уведомляет кредиторов (не срок ваших возражений)</span>
+        </li>
+        <li class="hero-bankrot-sroki__step">
+          <span class="hero-bankrot-sroki__step-num">3</span>
+          <span><strong>30 дней</strong> — окно на возражения против включения требования в реестр</span>
+        </li>
+      </ol>
+      <a class="hero-bankrot-sroki__cta" href="https://advokat-vsem.ru/">Консультация по срокам возражений</a>
+    </div>
+
+    <div class="hero-bankrot-sroki__visual" aria-hidden="true">
+      <svg class="hero-bankrot-sroki__svg" viewBox="0 0 560 520" xmlns="http://www.w3.org/2000/svg" role="img">
+        <title>Весы 30 и 15 дней, таймлайн и документы возражений</title>
+        <defs>
+          <linearGradient id="hero-bg-panel" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f8fafc"/>
+          </linearGradient>
+          <linearGradient id="hero-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1d4ed8"/>
+            <stop offset="100%" stop-color="#0ea5e9"/>
+          </linearGradient>
+          <filter id="hero-soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.08"/>
+          </filter>
+        </defs>
+
+        <!-- Background panel -->
+        <rect x="20" y="24" width="520" height="472" rx="24" fill="url(#hero-bg-panel)" stroke="#e2e8f0" stroke-width="1.5" filter="url(#hero-soft-shadow)"/>
+
+        <!-- Timeline -->
+        <g class="hero-timeline">
+          <text x="48" y="68" fill="#64748b" font-size="11" font-weight="700" letter-spacing="0.08em">ТАЙМЛАЙН ПРОЦЕДУРЫ</text>
+          <line x1="48" y1="200" x2="200" y2="200" stroke="#cbd5e1" stroke-width="4" stroke-linecap="round"/>
+          <line class="hero-timeline-progress" x1="48" y1="200" x2="200" y2="200" stroke="url(#hero-accent)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="48" cy="200" r="7" fill="#1d4ed8"/>
+          <circle cx="108" cy="200" r="6" fill="#94a3b8"/>
+          <circle cx="168" cy="200" r="6" fill="#059669"/>
+          <text x="38" y="228" fill="#334155" font-size="10" font-weight="600">Суд</text>
+          <text x="88" y="228" fill="#64748b" font-size="10" font-weight="600">15 дн.</text>
+          <text x="148" y="228" fill="#059669" font-size="10" font-weight="700">30 дн.</text>
+          <text x="48" y="98" fill="#475569" font-size="11">ЕФРСБ → требования → возражения</text>
+        </g>
+
+        <!-- Scales of justice -->
+        <g class="hero-scales-group">
+          <line x1="280" y1="100" x2="280" y2="175" stroke="#334155" stroke-width="3"/>
+          <line x1="220" y1="120" x2="340" y2="120" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+          <polygon points="280,175 260,195 300,195" fill="#475569"/>
+          <!-- Left pan: 15 days (myth) -->
+          <g class="hero-pan-left">
+            <line x1="220" y1="120" x2="220" y2="155" stroke="#64748b" stroke-width="2"/>
+            <ellipse cx="220" cy="168" rx="52" ry="10" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1.5"/>
+            <path d="M168 155 Q220 145 272 155 L272 175 Q220 185 168 175 Z" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="220" y="162" text-anchor="middle" fill="#64748b" font-size="22" font-weight="800">15</text>
+            <text x="220" y="178" text-anchor="middle" fill="#94a3b8" font-size="9" font-weight="600">уведомление ФУ</text>
+            <g class="hero-myth-stamp">
+              <rect x="188" y="188" width="64" height="22" rx="4" fill="none" stroke="#ef4444" stroke-width="2" transform="rotate(-12 220 199)"/>
+              <text x="220" y="203" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="800" transform="rotate(-12 220 199)">МИФ</text>
+            </g>
+          </g>
+          <!-- Right pan: 30 days (real) -->
+          <g class="hero-pan-right">
+            <line x1="340" y1="120" x2="340" y2="155" stroke="#334155" stroke-width="2"/>
+            <ellipse cx="340" cy="168" rx="52" ry="10" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+            <path d="M288 155 Q340 145 392 155 L392 175 Q340 185 288 175 Z" fill="#eff6ff" stroke="#2563eb" stroke-width="1.5"/>
+            <text class="hero-day-30" x="340" y="162" text-anchor="middle" fill="#1d4ed8" font-size="22" font-weight="800">30</text>
+            <text x="340" y="178" text-anchor="middle" fill="#2563eb" font-size="9" font-weight="600">возражения в реестр</text>
+      

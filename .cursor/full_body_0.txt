@@ -1,0 +1,531 @@
+<style>
+
+/* Theme reset & breadcrumbs */
+.breadcrumbs, .breadcrumb, .breadcrumb-list, .breadcrumb-item,
+nav[aria-label="Хлебные крошки"],
+.woocommerce-breadcrumb, .rank-math-breadcrumb, .rank-math-breadcrumbs, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Hero viewport */
+.hero-bankrot-sroki {
+  min-height: 100vh;
+  min-height: 100dvh;
+  position: relative;
+}
+
+/* Intro block */
+.srok-vozrazhenij-intro-section {
+  padding: 80px 0 40px;
+  background: var(--ym-bg);
+}
+.srok-vozrazhenij-intro-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 48px;
+  align-items: start;
+}
+.srok-vozrazhenij-intro-text {
+  text-align: left !important;
+  border-left: 4px solid var(--ym-primary);
+  padding-left: 28px;
+}
+.srok-vozrazhenij-intro-text p {
+  text-align: left !important;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0 0 16px;
+}
+.srok-vozrazhenij-intro-text p:last-child { margin-bottom: 0; }
+.srok-vozrazhenij-intro-dekor { position: relative; }
+.srok-vozrazhenij-kpi-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.srok-vozrazhenij-kpi-chip {
+  background: var(--ym-surface);
+  border: 1px solid var(--ym-border);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--ym-shadow-sm);
+  text-align: center;
+}
+.srok-vozrazhenij-kpi-chip .num {
+  display: block;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+.srok-vozrazhenij-kpi-chip.myth .num { color: #dc2626; }
+.srok-vozrazhenij-kpi-chip.fact .num { color: #059669; }
+.srok-vozrazhenij-kpi-chip .label {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.4;
+}
+.srok-vozrazhenij-toc-wrap {
+  padding: 20px 0 60px;
+  text-align: center;
+}
+.srok-vozrazhenij-toc-wrap .ym-section-subtitle {
+  margin-bottom: 24px;
+}
+
+/* Article content */
+.srok-vozrazhenij-article { max-width: 900px; margin: 0 auto; }
+.srok-vozrazhenij-article h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 24px;
+  letter-spacing: -0.5px;
+}
+.srok-vozrazhenij-article h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 32px 0 16px;
+}
+.srok-vozrazhenij-article p { margin: 0 0 16px; line-height: 1.7; }
+.srok-vozrazhenij-article ul, .srok-vozrazhenij-article ol {
+  margin: 0 0 20px;
+  padding-left: 24px;
+  line-height: 1.7;
+}
+.srok-vozrazhenij-article li { margin-bottom: 8px; }
+.srok-vozrazhenij-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow-x: auto;
+  display: block;
+}
+.srok-vozrazhenij-article table caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--ym-heading);
+}
+.srok-vozrazhenij-article table th,
+.srok-vozrazhenij-article table td {
+  border: 1px solid var(--ym-border);
+  padding: 12px 14px;
+  vertical-align: top;
+  text-align: left;
+}
+.srok-vozrazhenij-article table th {
+  background: #f1f5f9;
+  font-weight: 700;
+  color: var(--ym-heading);
+}
+.srok-vozrazhenij-article table tbody tr:nth-child(even) td {
+  background: #f8fafc;
+}
+.srok-vozrazhenij-article a { color: var(--ym-accent); }
+
+@media (max-width: 900px) {
+  .srok-vozrazhenij-intro-grid { grid-template-columns: 1fr; }
+  .srok-vozrazhenij-kpi-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  .srok-vozrazhenij-kpi-grid { grid-template-columns: 1fr; }
+}
+
+/**
+ * ЭТАЛОННЫЕ СТИЛИ ЛОНГРИДА (страница «Яндекс Метрика Skill» из эталонной темы владельца).
+ *
+ * Исходник темы: page-yandex-metrika-skill.php (inline <style>).
+ * Для дизайнера Наташи: открывай этот файл «как есть» — не ходи на сайт за CSS.
+ *
+ * Как использовать на новой странице:
+ * - Скопируй в тему или в блок <style>; в селекторах замени класс обёртки
+ *   `.srok-vozrazhenij-30-vs-15-mify-page` на свой, например `.my-slug-page` (везде, где он есть).
+ * - В :root подставь --ym-primary / --ym-accent под тему (остальное можно оставить).
+ * - Блоки `.ym-hero` … — из эталона Метрики; если первым идёт hero от Алины (Canvas),
+ *   не дублируй второй hero — эти классы пригодятся для других страниц или опциональных секций.
+ *
+ * В :root добавлена переменная --ym-success (в исходном PHP использовалась в CSS, но не была объявлена).
+ */
+
+/* CRITICAL FIX FOR STICKY SIDEBAR & OVERFLOW */
+body, html {
+    /* max-width: 100vw; removed to fix mobile menu */
+}
+.site-main {
+    display: block !important;
+}
+.srok-vozrazhenij-30-vs-15-mify-page {
+    overflow-x: hidden;
+}
+
+/* METRIKA SKILL PREMIUM THEME & ANIMATIONS */
+:root {
+    --ym-bg: #f8fafc;
+    --ym-surface: #ffffff;
+    --ym-text: #334155;
+    --ym-heading: #0f172a;
+    --ym-border: #e2e8f0;
+    --ym-primary: #ff0000;
+    --ym-accent: #3b82f6;
+    --ym-code-bg: #0f172a;
+    --ym-code-text: #38bdf8;
+    --ym-success: #10b981;
+    --ym-shadow-sm: 0 4px 6px -1px rgba(15, 23, 42, 0.05);
+    --ym-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.08);
+    --ym-shadow-lg: 0 20px 40px -10px rgba(255, 0, 0, 0.15);
+}
+
+.srok-vozrazhenij-30-vs-15-mify-page {
+    background-color: var(--ym-bg);
+    color: var(--ym-text);
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 100px;
+}
+
+.srok-vozrazhenij-30-vs-15-mify-page h1,
+.srok-vozrazhenij-30-vs-15-mify-page h2,
+.srok-vozrazhenij-30-vs-15-mify-page h3,
+.srok-vozrazhenij-30-vs-15-mify-page h4,
+.srok-vozrazhenij-30-vs-15-mify-page h5,
+.srok-vozrazhenij-30-vs-15-mify-page h6 {
+    color: #0f172a !important;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+}
+.srok-vozrazhenij-30-vs-15-mify-page p,
+.srok-vozrazhenij-30-vs-15-mify-page li,
+.srok-vozrazhenij-30-vs-15-mify-page span:not(.ym-mac-dot):not(.ym-comment):not(.ym-command):not(.ym-btn-primary span),
+.srok-vozrazhenij-30-vs-15-mify-page strong,
+.srok-vozrazhenij-30-vs-15-mify-page em {
+    color: #334155 !important;
+    word-wrap: break-word;
+    overflow-wrap: anywhere;
+}
+.srok-vozrazhenij-30-vs-15-mify-page pre, .srok-vozrazhenij-30-vs-15-mify-page code {
+    white-space: pre-wrap !important;
+    word-break: break-all !important;
+    overflow-x: hidden !important;
+}
+
+/* ANIMATIONS (SCROLL REVEAL) */
+.reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.5, 0, 0, 1); }
+.reveal.active { opacity: 1; transform: translateY(0); }
+.reveal-left { opacity: 0; transform: translateX(-40px); transition: all 0.8s cubic-bezier(0.5, 0, 0, 1); }
+.reveal-left.active { opacity: 1; transform: translateX(0); }
+.reveal-right { opacity: 0; transform: translateX(40px); transition: all 0.8s cubic-bezier(0.5, 0, 0, 1); }
+.reveal-right.active { opacity: 1; transform: translateX(0); }
+.reveal-scale { opacity: 0; transform: scale(0.9); transition: all 0.8s cubic-bezier(0.5, 0, 0, 1); }
+.reveal-scale.active { opacity: 1; transform: scale(1); }
+
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+.delay-500 { transition-delay: 500ms; }
+
+/* Hero Section (эталон Метрики; при странице с hero Алины — не дублировать) */
+.ym-hero {
+    position: relative;
+    padding: 160px 20px 120px;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(248, 250, 252, 0.95), rgba(241, 245, 249, 0.95)),
+                url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M10 10h80v80h-80z" fill="none" stroke="%23ff0000" stroke-width="0.5" stroke-dasharray="2 4"/></svg>');
+    border-bottom: 1px solid var(--ym-border);
+    overflow: hidden;
+}
+
+.ym-hero-bg-anim {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px; height: 800px;
+    background: radial-gradient(circle, rgba(255,0,0,0.05) 0%, rgba(248,250,252,0) 70%);
+    border-radius: 50%;
+    animation: pulseBg 8s infinite alternate;
+    z-index: 0;
+    pointer-events: none;
+}
+@keyframes pulseBg {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+    100% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.8; }
+}
+
+.ym-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+}
+
+.ym-hero-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    background: rgba(255, 0, 0, 0.1);
+    color: var(--ym-primary) !important;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ym-hero h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 24px;
+    letter-spacing: -1.5px;
+    text-wrap: balance;
+}
+.ym-hero h1 span {
+    background: linear-gradient(90deg, #ff0000, #ff4b4b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent !important;
+}
+
+.ym-hero-desc {
+    font-size: 20px;
+    color: var(--ym-text) !important;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.ym-breadcrumbs {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #64748b;
+    text-align: left;
+}
+.ym-breadcrumbs a {
+    color: var(--ym-accent);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.ym-breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.ym-toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.ym-toc a {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--ym-border);
+    border-radius: 30px;
+    color: var(--ym-heading);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+    backdrop-filter: blur(4px);
+    box-shadow: var(--ym-shadow-sm);
+}
+.ym-toc a:hover {
+    background: var(--ym-primary);
+    color: #ffffff !important;
+    border-color: var(--ym-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255,0,0,0.2);
+}
+
+.ym-article-meta {
+    background: var(--ym-surface);
+    border: 1px solid var(--ym-border);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--ym-shadow-sm);
+}
+.ym-author-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.ym-author-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #e2e8f0;
+}
+.ym-author-details h4 {
+    margin: 0 0 4px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.ym-author-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #64748b !important;
+}
+.ym-date-box {
+    text-align: right;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.ym-related-block {
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, #f8fafc, #ffffff);
+    border-radius: 20px;
+    border: 1px solid var(--ym-border);
+}
+.ym-related-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.ym-related-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.ym-related-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid var(--ym-border);
+    border-radius: 16px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.ym-related-card:hover {
+    border-color: var(--ym-accent);
+    transform: translateY(-3px);
+    box-shadow: var(--ym-shadow);
+}
+.ym-related-card-icon {
+    width: 48px; height: 48px;
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    font-size: 24px;
+}
+.ym-related-card-text span {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #64748b;
+    margin-bottom: 4px;
+}
+.ym-related-card-text strong {
+    font-size: 16px;
+    color: var(--ym-heading);
+    line-height: 1.4;
+}
+
+.ym-btn-group {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ym-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.ym-btn-primary {
+    background: var(--ym-primary);
+    color: #fff !important;
+    box-shadow: 0 10px 20px -5px rgba(255, 0, 0, 0.4);
+}
+.ym-btn-primary span { color: #fff !important; }
+.ym-btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 25px -5px rgba(255, 0, 0, 0.5);
+    background: #e60000;
+    color: #fff !important;
+}
+.ym-btn-secondary {
+    background: var(--ym-surface);
+    color: var(--ym-heading) !important;
+    border: 1px solid var(--ym-border);
+    box-shadow: var(--ym-shadow-sm);
+}
+.ym-btn-secondary:hover {
+    border-color: #cbd5e1;
+    transform: translateY(-3px);
+    box-shadow: var(--ym-shadow);
+}
+
+.ym-section { padding: 100px 0; }
+.ym-section-alt { background: var(--ym-surface); border-top: 1px solid var(--ym-border); border-bottom: 1px solid var(--ym-border); }
+
+.ym-section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.ym-section-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #64748b !important;
+    max-width: 600px;
+    margin: 0 auto 60px;
+    line-height: 1.6;
+}
+
+.ym-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.ym-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.ym-grid-2-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+
+.ym-card {
+    background: var(--ym-surface);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: var(--ym-shadow-sm);
+    border: 1px solid var(--ym-border);
+    transition: all 0.4s ease;
+    height: 100%;
+}
+.ym-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--ym-shadow-lg);
+    border-color: rgba(255, 0, 0, 0.2);
+}
+.ym-card-icon {
+    width: 60px; height: 60px;
+    background: rgba(255, 0, 0, 0.05);
+    color: var(--ym-primary) !important;
+    border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 24px;
+    transition: all 0.3s ease;
+}
+.y

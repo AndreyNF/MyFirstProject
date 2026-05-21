@@ -1,0 +1,186 @@
+events: none;
+}
+@keyframes pulseBg {
+    0% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+    100% { transform: translate(-50%, -50%) scale(1.2); opacity: 0.8; }
+}
+
+.ym-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+}
+
+.ym-hero-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    background: rgba(255, 0, 0, 0.1);
+    color: var(--ym-primary) !important;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.ym-hero h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 24px;
+    letter-spacing: -1.5px;
+    text-wrap: balance;
+}
+.ym-hero h1 span {
+    background: linear-gradient(90deg, #ff0000, #ff4b4b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent !important;
+}
+
+.ym-hero-desc {
+    font-size: 20px;
+    color: var(--ym-text) !important;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.ym-breadcrumbs {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #64748b;
+    text-align: left;
+}
+.ym-breadcrumbs a {
+    color: var(--ym-accent);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.ym-breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.ym-toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.ym-toc a {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--ym-border);
+    border-radius: 30px;
+    color: var(--ym-heading);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s;
+    backdrop-filter: blur(4px);
+    box-shadow: var(--ym-shadow-sm);
+}
+.ym-toc a:hover {
+    background: var(--ym-primary);
+    color: #ffffff !important;
+    border-color: var(--ym-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255,0,0,0.2);
+}
+
+.ym-article-meta {
+    background: var(--ym-surface);
+    border: 1px solid var(--ym-border);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--ym-shadow-sm);
+}
+.ym-author-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.ym-author-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #e2e8f0;
+}
+.ym-author-details h4 {
+    margin: 0 0 4px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.ym-author-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #64748b !important;
+}
+.ym-date-box {
+    text-align: right;
+    font-size: 14px;
+    color: #64748b;
+}
+
+.ym-related-block {
+    margin-top: 60px;
+    padding: 40px;
+    background: linear-gradient(135deg, #f8fafc, #ffffff);
+    border-radius: 20px;
+    border: 1px solid var(--ym-border);
+}
+.ym-related-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.ym-related-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.ym-related-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid var(--ym-border);
+    border-radius: 16px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.ym-related-card:hover {
+    border-color: var(--ym-accent);
+    transform: translateY(-3px);
+    box-shadow: var(--ym-shadow);
+}
+.ym-related-card-icon {
+    width: 48px; height: 48px;
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    font-size: 24px;
+}
+.ym-related-card-text span {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #64748b;
+    margin-bottom: 4px;
+}
+.ym-related-card

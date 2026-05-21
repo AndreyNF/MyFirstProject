@@ -1,0 +1,36 @@
+анкротство в судебное (мнение практиков, в т.ч. <a href="https://harant.ru/questions/q-94465/">harant.ru</a>, 2025). Советы про «1 месяц на возражения при МФЦ» не находят прямого подтверждения в <strong>гл. XI 127-ФЗ</strong>: процедура длится <strong>6 месяцев</strong> (<strong>ст. 223.6 п. 1</strong>), а спорный механизм — через <strong>223.5</strong>, а не через 30-дневное окно ст. 100.</p>
+
+<p>Если речь о <strong>судебном</strong> банкротстве, «возражение на банкротство» чаще подаётся <strong>до</strong> введения процедуры — на стадии рассмотрения заявления (<strong>ст. 213.3–213.6</strong>). После введения реструктуризации или реализации оспаривание «банкротства как такового» уступает место спорам о реестре, плане и отчёте управляющего.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="propusk-sroka" class="ym-section ym-section-alt reveal">
+    <div class="ym-container">
+      <div class="srok-vozrazhenij-article">
+<h2>Что будет, если пропустить срок возражений</h2>
+
+<p>Пропуск 30-дневного окна — серьёзный процессуальный риск. Судебная практика 2024–2026 годов показывает: апелляции <strong>строго</strong> отказывают во включении требований при пропуске срока предъявления без уважительных причин (например, <strong>14 ААС, 21.08.2024</strong> — кредитор опоздал на 2 месяца; см. <a href="https://pandektum.ru/vkljuchenie-v-reestr-kreditorov-iskljuchen-pri-propuske-sroka/">pandektum.ru</a>).</p>
+
+<p>Для возражений логика схожа: если вы не успели оспорить требование в установленный срок, суд может включить его в реестр на основании имеющихся документов — особенно после <strong>107-ФЗ</strong>, когда рассмотрение без заседания стало типовым сценарием.</p>
+
+<p>На форумах (<a href="http://www.bankrot.org/threads/vozrazhenija-na-zajavlenie-o-vkljuchenii-v-reestr-trebovanij-kreditorov.49987/">bankrot.org</a>) иногда пишут, что «суды принимают возражения за пределами 15 дней». Это <strong>не общее правило</strong>: в отдельных случаях суд принимает документы после ходатайства о <strong>восстановлении пропущенного срока</strong>, но рассчитывать на это нельзя.</p>
+
+<h3 id="vosstanovlenie-sroka">Можно ли восстановить срок</h3>
+
+<p>Да, в исключительных случаях — по общим правилам процессуального законодательства и разъяснениям <strong>ППВС № 40 от 17.12.2024</strong>. Нужно доказать <strong>уважительные причины</strong> пропуска: болезнь, ненадлежащее извещение, сбой почтовой доставки, иные обстоятельства, не зависящие от заявителя.</p>
+
+<p>Практика до и после 2024 года подтверждает: суды могут восстановить срок и включить требование, если должник или кредитор своевременно не узнал о заявлении конкурента (см. обзор на <a href="https://lex-pravo.ru/cases/bankrotstvo/trebovaniya-klienta-vkljucheny-v-reestr-trebovanij-kreditorov-dolzhnika-nesmotrya-na-propusk-sroka/">lex-pravo.ru</a>). Но наличие возражений <strong>само по себе</strong> не обязывает суд назначать заседание — это прямо следует из ППВС № 40.</p>
+
+<p>Если первичное окно упущено, остаётся путь через заявление об <strong>исключении или изменении</strong> уже включённого требования (<strong>ст. 71 п. 8</strong>, <strong>100 п. 8</strong>) — но там другой срок (<strong>3 месяца</strong> с момента, когда лицу стало или должно было стать известно о включении) и более высокая планка доказывания.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="ym-container"><div class="srok-vozrazhenij-article">
+<aside class="ym-cta-block reveal" style="margin: 2.5rem 0; padding: 2rem; background: var(--ym-surface); border-radius: 16px; border: 1px solid var(--ym-border); box-shadow: var(--ym-shadow-sm); text-align: center;">
+<p style="margin: 0 0 1.25rem; font-size: 1.125rem; color: var(--ym-heading);"><strong>Пропустили 30 дней?</strong> Специалисты разберут, можно ли восстановить срок или оспорить требование через исключение из реестра.</p>
+<div class="ym-btn-group">
+<a href="https://advokat-vsem.ru/" class="ym-btn ym-btn-primary"><span>Обсудить ваш случай</span></a>
+</div>
+</aside

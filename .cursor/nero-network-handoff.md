@@ -632,13 +632,27 @@ SECONDARY_CTA_URL: https://advokat-vsem.ru/
 **Публикация:** скопировать содержимое `/workspace/.cursor/page-content-natasha.html` в шаблон `page-srok-vozrazhenij-30-vs-15-mify.php` или Custom HTML блок страницы; применить hero-first шаблон со сбросом padding.
 
 === ЮРА (ПУБЛИКАЦИЯ) ===
-## Публикация от Юры
+## Публикация от Юры (цикл 2 — fix republish)
 Способ: MCP KV (wordpress_content_blob_append → wordpress_update_page_from_blob). НЕ FTP.
 page_id: 323
-blob_id: 2TQd06NW0muKsu0QW8GtQhsd
-sha256: b85dbabba4f4159a1f017153cfde8cc6eb62f6bb9785819e65b6fc08016c9bf7
+slug: srok-vozrazhenij-30-vs-15-mify
+blob_id: ML8z3SJXDL3ZF8PKlNrgomNI
+sha256: c7ed315aeec9b182d59e350ff77b637b63d281a3d69a0e26ad89cfe16dd4c308
+bytes: 92414
 URL: https://advokat-vsem.online/srok-vozrazhenij-30-vs-15-mify/
 Статус: опубликовано (publish)
-Проверка: HTTP 200 ✓, main#primary ✓, srok-vozrazhenij-30-vs-15-mify-page ✓, hero-bankrot-sroki ✓
+excerpt: Description
+meta _yoast_wpseo_metadesc: обновлено
+Проверка live (цикл 2): HTTP 200 ✓, section#chek-list ✓, section#faq ✓, section#itog ✓, section#propusk-sroka ✓ (не обрезан), сырой JSON в paragraph ✗ (нет), partner-ad ✓
 Журнал публикаций: /workspace/nero-network-office-page/shared/published-pages.md updated (запись A3)
 Журнал Кирилла: not applicable
+
+=== МАКС (QA) ===
+Статус: ✅ ГОТОВО (цикл 2)
+URL: https://advokat-vsem.online/srok-vozrazhenij-30-vs-15-mify/
+Hero, блок Бориса, TOC, 3× CTA → advokat-vsem.ru, chek-list/faq/itog, main#primary — OK. Мелочь: пустой alt логотипа Divi (тема).
+
+=== ЛЁНЯ (SEO-АУДИТ) ===
+Статус: ⚠️ ЧАСТИЧНО (цикл 2, лимит циклов)
+URL: https://advokat-vsem.online/srok-vozrazhenij-30-vs-15-mify/
+Контент полный ✅; canonical ✅. Осталось: meta description в head (Yoast), дубль H1 Divi entry-title — правка темы/Yoast.
