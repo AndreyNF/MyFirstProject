@@ -656,3 +656,6 @@ Hero, блок Бориса, TOC, 3× CTA → advokat-vsem.ru, chek-list/faq/ito
 Статус: ⚠️ ЧАСТИЧНО (цикл 2, лимит циклов)
 URL: https://advokat-vsem.online/srok-vozrazhenij-30-vs-15-mify/
 Контент полный ✅; canonical ✅. Осталось: meta description в head (Yoast), дубль H1 Divi entry-title — правка темы/Yoast.
+
+=== ЮРА (HOTFIX reveal) ===
+2026-05-21: .reveal {opacity:0} без script — контент после hero пустой. Fix: opacity:1 !important в CSS. Republish blob_id OHXgnXyqXx8qwLkhhIYA page_id 323.
