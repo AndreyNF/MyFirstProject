@@ -597,3 +597,48 @@ SECONDARY_CTA_URL: https://advokat-vsem.ru/
 
 ## Лонгрид с рекламой
 Полный HTML лонгрида с встроенными CTA — см. блок «=== АРТУР (CTA И РЕКЛАМА) ===», раздел «### Полный текст».
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+## Структура страницы
+1. **Hero Алины** (`#hero`) — SVG + CSS, без canvas/script
+2. **Введение** (`#vvedenie`) — лид слева + KPI-чипы и терминал справа
+3. **Оглавление** (`.ym-toc`) — pill-якоря по H2
+4. **Лонгрид** — секции `#chto-takoe-vozrazheniya` → `#srok-30-dnej` → **блок Бориса** (`#srok-vozrazhenij-boris-block`) → `#15-dnej-mif` → `#restrukturizaciya` → `#realizaciya` → `#vozrazhenie-na-bankrotstvo` → `#propusk-sroka` → `#chek-list` → `#faq` → `#itog`
+5. **CTA Артура** — после `#chto-takoe-vozrazheniya`, `#propusk-sroka`, в `#itog`; партнёрский блок `#partner-ad`
+6. **Reveal** — IntersectionObserver inline в конце; JSON-LD FAQPage
+
+## Файл
+Полный HTML: `/workspace/.cursor/page-content-natasha.html` (95817 байт)
+
+Обёртка: `<main id="primary" class="site-main srok-vozrazhenij-30-vs-15-mify-page">`
+Один `<style>` в начале: сброс `#primary`/`.site-main`, скрытие breadcrumbs, ym-* токены, `--ym-primary: #ff0000`.
+
+## Передача Юре
+
+**SLUG:** `srok-vozrazhenij-30-vs-15-mify`
+
+**Title:** Срок возражений при банкротстве: 30 или 15 дней — мифы
+
+**Description:** Сроки подачи возражений кредитора и должника после введения банкротства физлица: 30 и 15 дней, реестр, реструктуризация. Актуальные нормы 127-ФЗ на 2025–2026 год.
+
+**Keywords:** срок возражений на требование кредитора, возражение на требование кредитора, возражения на включение в реестр кредиторов, возражение на банкротство физического лица, возражение финансового управляющего, возражение на план реструктуризации, 30 дней возражения банкротство, 15 дней возражения банкротство, реализация имущества возражение, 127-ФЗ банкротство срок
+
+**H1 (hero):** 30 или 15 дней? Разбираем мифы о сроке возражений
+
+**ВНИМАНИЕ:** контент содержит `<script>` (reveal + JSON-LD) — при публикации в WordPress обернуть в `<!-- wp:html -->`, чтобы WP не сломал теги. Hero и блок Бориса **без** `<canvas>` (MCP-only, SVG/CSS).
+
+**Публикация:** скопировать содержимое `/workspace/.cursor/page-content-natasha.html` в шаблон `page-srok-vozrazhenij-30-vs-15-mify.php` или Custom HTML блок страницы; применить hero-first шаблон со сбросом padding.
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+## Публикация от Юры
+Способ: MCP KV (wordpress_content_blob_append → wordpress_update_page_from_blob). НЕ FTP.
+page_id: 323
+blob_id: 2TQd06NW0muKsu0QW8GtQhsd
+sha256: b85dbabba4f4159a1f017153cfde8cc6eb62f6bb9785819e65b6fc08016c9bf7
+URL: https://advokat-vsem.online/srok-vozrazhenij-30-vs-15-mify/
+Статус: опубликовано (publish)
+Проверка: HTTP 200 ✓, main#primary ✓, srok-vozrazhenij-30-vs-15-mify-page ✓, hero-bankrot-sroki ✓
+Журнал публикаций: /workspace/nero-network-office-page/shared/published-pages.md updated (запись A3)
+Журнал Кирилла: not applicable
