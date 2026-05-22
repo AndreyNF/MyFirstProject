@@ -1405,3 +1405,39 @@ AD_BANNER: не настроен (нижний блок — ym-cta--legis24)
 
 **Паспорт блока (для Наташи):** slug `ugolovnye-riski-pri-dolgah-chto-vazhno-znat`; тип UG / A7; визуализирует сквозную шкалу из лонгрида Жени и матрицу Артёма; цифры: **&gt; 2&nbsp;250&nbsp;000 ₽** (177), **250&nbsp;001 / 1&nbsp;000&nbsp;001 ₽** (159), **10 дней** на отмену приказа, предупреждение пристава (ФССП 03.10.2016); без canvas/script.
 
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** `ugolovnye-riski-pri-dolgah-chto-vazhno-znat`  
+**Класс страницы:** `ugolovnye-riski-pri-dolgah-chto-vazhno-znat-page`  
+**Файл HTML:** `/workspace/.cursor/page-content-natasha-A7.html` (~77 KB; полный код не дублируется в handoff)
+
+**Сборка:**
+- Обёртка `<!-- wp:html -->` в начале файла
+- Сброс breadcrumbs/sidebar, стили лонгрида по эталону A6/tz-ip
+- `<main id="primary" class="site-main ugolovnye-riski-pri-dolgah-chto-vazhno-znat-page" …>`
+- Hero Алины (`l24-hero-ug-dolg`) — static SVG/CSS, без `<script>` и `<canvas>`
+- Intro grid: лид слева + чипы ст. 159 / 177 / ФССП / 2,25 млн / ППВС № 48
+- `ym-toc` по H2 (7 якорей, включая FAQ)
+- Лонгрид Артура: H2/H3, таблицы, 3× `ym-cta--primary` + inline-ссылки
+- Блок Бориса `l24-boris-ug-risk-track` после «Сквозной шкалы риска», перед H2 «Мошенничество…»
+- FAQ (5 вопросов) + итог + нижний `ym-cta--legis24`
+
+## Передача Юре
+**SLUG:** `ugolovnye-riski-pri-dolgah-chto-vazhno-znat`  
+**Путь к HTML:** `/workspace/.cursor/page-content-natasha-A7.html`  
+**Публикация MCP:** вставить содержимое файла в блок **Custom HTML** (`<!-- wp:html -->` уже в файле). **Без** `<script>`, reveal, canvas и JSON-LD script — только static HTML/CSS/SVG.  
+**Title / Description / Keywords:** из блоков Коля и Артур (мета в handoff).  
+**Hero + Борис:** не пересобирать — уже в файле как static.  
+**CTA:** `https://advokat-vsem.ru/` (PRIMARY/SECONDARY); AD_BANNER не настроен — нижний Legis24 CTA в HTML.  
+**JSON-LD FAQ:** при необходимости — Rank Math / отдельно Юре (в HTML не включён).
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ опубликовано
+URL: https://advokat-vsem.online/ugolovnye-riski-pri-dolgah-chto-vazhno-znat/
+page_id: 341
+slug: ugolovnye-riski-pri-dolgah-chto-vazhno-znat
+Способ: MCP Kovcheg blob → wordpress_update_page_from_blob
+Проверка live: HTTP 200, main#primary, l24-hero-ug-dolg, l24-boris-ug-risk-track ✓
+Журналы: published-pages.md, content-plan-legis24.md (#5 A7 ✅)
+

@@ -1,0 +1,124 @@
+: #fff;
+  line-height: 1.2;
+}
+.l24-boris-ug-risk__thresh-note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ug-muted);
+}
+.l24-boris-ug-risk__thresh-note em {
+  font-style: normal;
+  color: var(--ug-safe);
+  font-weight: 600;
+}
+.l24-boris-ug-risk__vs-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 8px;
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+.l24-boris-ug-risk__vs-col {
+  padding: 10px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.25);
+}
+.l24-boris-ug-risk__vs-col--159 { border-top: 2px solid var(--ug-accent); }
+.l24-boris-ug-risk__vs-col--177 { border-top: 2px solid var(--ug-safe); }
+.l24-boris-ug-risk__vs-col strong {
+  display: block;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ug-risk__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ug-risk__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-risk__tag--159 { border: 1px solid var(--ug-accent); color: #feb2b2; }
+.l24-boris-ug-risk__tag--177 { border: 1px solid var(--ug-safe); color: #9ae6b4; }
+@media (max-width: 900px) {
+  .l24-boris-ug-risk__split { grid-template-columns: 1fr; }
+  .l24-boris-ug-risk__steps { grid-template-columns: 1fr 1fr; }
+  .l24-boris-ug-risk__thresh-grid { grid-template-columns: 1fr; }
+  .l24-boris-ug-risk__vs-row { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-ug-risk__steps { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-ug-risk__shell">
+    <p class="l24-boris-ug-risk__eyebrow">УК РФ · ст. 159 / 159.1 / 177 · 2025–2026</p>
+    <h3 class="l24-boris-ug-risk__title">Просрочка → суд → ФССП → ст. 177: где включается уголовка</h3>
+    <p class="l24-boris-ug-risk__lead">Обычная <strong>просрочка</strong> остаётся гражданкой. Цепочка к <strong>ст. 177</strong> — только после <strong>решения суда</strong>, исполнительного производства у приставов и <strong>злостного</strong> уклонения при сумме <strong>свыше 2&nbsp;250&nbsp;000&nbsp;₽</strong>. Слева — маршрут; справа — пороги и отличие от <strong>ст. 159</strong> (обман до получения денег).</p>
+
+    <div class="l24-boris-ug-risk__split">
+      <div class="l24-boris-ug-risk__panel">
+        <p class="l24-boris-ug-risk__panel-title">Маршрут должника</p>
+        <svg class="l24-boris-ug-risk__timeline-svg" viewBox="0 0 560 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="ug-risk-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#a0aec0"/>
+              <stop offset="35%" stop-color="#ed8936"/>
+              <stop offset="65%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#68d391"/>
+            </linearGradient>
+          </defs>
+          <line x1="40" y1="72" x2="520" y2="72" stroke="url(#ug-risk-line)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="64" cy="72" r="20" fill="#4a5568" stroke="#fff" stroke-width="2"/>
+          <text x="64" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">0</text>
+          <circle cx="200" cy="72" r="20" fill="#c05621" stroke="#fff" stroke-width="2"/>
+          <text x="200" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">⚖</text>
+          <circle cx="336" cy="72" r="20" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="336" y="76" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="700">ФССП</text>
+          <circle cx="496" cy="72" r="22" fill="#c53030" stroke="#ecc94b" stroke-width="2"/>
+          <text x="496" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">177</text>
+          <text x="64" y="38" text-anchor="middle" fill="#cbd5e0" font-size="9" font-weight="600">Просрочка</text>
+          <text x="200" y="38" text-anchor="middle" fill="#fbd38d" font-size="9" font-weight="600">Суд / приказ</text>
+          <text x="336" y="38" text-anchor="middle" fill="#faf089" font-size="9" font-weight="600">ИП</text>
+          <text x="496" y="38" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="600">ст. 177 УК</text>
+          <rect x="12" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="71" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">гражданка</text>
+          <rect x="148" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="207" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">10 дн. отмена приказа</text>
+          <rect x="284" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="343" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">предупреждение</text>
+          <rect x="420" y="108" width="130" height="28" rx="5" fill="rgba(197,48,48,0.35)"/>
+          <text x="485" y="126" text-anchor="middle" fill="#fed7d7" font-size="8">&gt; 2,25 млн + злость</text>
+        </svg>
+        <ol class="l24-boris-ug-risk__steps">
+          <li class="l24-boris-ug-risk__step">
+            <strong>Просрочка</strong>
+            Кредит, расписка, МФО — взыскание по договору, без ст. 177.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>Суд</strong>
+            Иск, судебный приказ; игнор суда — мост к ИП и рискам формулировок.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>ФССП</strong>
+            Исполнительное производство: арест, запрет выезда; рапорт / заявление кредитора.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>ст. 177</strong>
+            После акта в силу — злостное уклонение при возможности платить.
+          </li>
+        </ol>
+      </div>
+
+      <div class="l24-boris-ug-risk__panel

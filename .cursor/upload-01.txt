@@ -1,0 +1,156 @@
+x;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(15, 23, 42, 0.12);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-ug-dolg__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #0f2744;
+      flex-shrink: 0;
+    }
+    .hero-ug-dolg__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.65rem, 3.8vw, 2.45rem);
+      line-height: 1.18;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-ug-dolg__h1-accent {
+      color: #1e3a8a;
+    }
+    .hero-ug-dolg__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-ug-dolg__steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-ug-dolg__step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-ug-dolg__step-num {
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #0f2744;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-ug-dolg__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+    }
+    .hero-ug-dolg__cta:hover {
+      background: #8b1528;
+    }
+    .hero-ug-dolg__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ug-dolg__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-ug-dolg__visual {
+        order: -1;
+        max-height: 300px;
+      }
+    }
+  </style>
+  <div class="hero-ug-dolg__inner">
+    <div class="hero-ug-dolg__content">
+      <div class="hero-ug-dolg__badge">
+        <span class="hero-ug-dolg__badge-dot" aria-hidden="true"></span>
+        УГ · долги · ст. 159 / 177 · карта рисков · 2026
+      </div>
+      <h1 class="hero-ug-dolg__h1">
+        <span class="hero-ug-dolg__h1-accent">Уголовные риски при долгах:</span> мошенничество и злостное уклонение
+      </h1>
+      <p class="hero-ug-dolg__sub">
+        Ст. 159 и 177 УК: когда долг становится уголовным делом, что делать при проверке и как защититься
+      </p>
+      <ol class="hero-ug-dolg__steps">
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">1</span>
+          <span><strong>Просрочка и суд</strong> — претензия, приказ (10 дней), пока в основном гражданское взыскание</span>
+        </li>
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">2</span>
+          <span><strong>Исполнительное производство</strong> — пристав, арест счетов, предупреждение о ст. 177 при крупной сумме</span>
+        </li>
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">3</span>
+          <span><strong>Уголовные риски</strong> — ст. 159 / 159.1 (обман), ст. 177 (злостное уклонение), проверка и защита</span>
+        </li>
+      </ol>
+      <a class="hero-ug-dolg__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовным рискам при долге</a>
+    </div>
+    <div class="hero-ug-dolg__visual" aria-hidden="true">
+      <svg viewBox="0 0 420 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px" role="img" aria-label="Весы правосудия и карта рисков должника: просрочка, суд, пристав, статьи 159 и 177">
+        <defs>
+          <linearGradient id="hero-ug-scene" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0f2744"/>
+            <stop offset="55%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#172554"/>
+          </linearGradient>
+          <linearGradient id="hero-ug-panel" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-ug-card" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hero-ug-road" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#93c5fd"/>
+            <stop offset="50%" stop-color="#60a5fa"/>
+            <stop offset="100%" stop-color="#fbbf24"/>
+          </linearGradient>
+          <filter id="hero-ug-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity="0.28"/>
+          </filter>
+          <filter id="hero-ug-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1e293b" flood-opacity="0.14"/>
+          </filter>
+          <marker id="hero-ug-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#93c5fd"/>
+          </marker>
+        </defs>
+        <!-- тёмно-синяя юридическая сцена -->
+        <rect x="16" y="24" width="388" height="352" rx="18" fill="url(#hero-ug-scene)" stroke="#0c1a33" stroke-width="1.5"/>
+        <text x="210" y="52" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="700" letter-spacing="0.14em">КАРТА РИСКОВ ДОЛЖНИКА</text>
+        <line x1="48" y1="62" x2="372" y2="62" stroke="rgba(148,163,184,0.35)" stroke-width="1"/>
+        <!-- дорожная карта стадий -->
+        <g transform="translate(36, 78)">
+          <rect x="0" y

@@ -1,0 +1,369 @@
+197,253,0.55)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 3">
+          <path d="M86,216 C120,200 150,188 168,178"/>
+          <path d="M334,216 C300,200 270,188 252,178"/>
+          <path d="M110,358 C150,300 180,260 195,248"/>
+          <path d="M310,358 C270,300 240,260 225,248"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-ug" aria-label="Введение">
+  <div class="l24-intro-ug__grid">
+    <div class="l24-intro-ug__text">
+      <p>Просрочка по кредиту, невозврат займа по расписке или долг после решения суда пугают одним вопросом: <strong>уголовная ответственность за долги</strong> — реальность или миф? Сам по себе долг в России почти никогда не ведёт к лишению свободы.</p>
+      <p>Ниже — карта рисков для гражданина: от гражданского взыскания до статей <strong>159</strong>, <strong>159.1</strong>, <strong>177</strong> и <strong>198–199</strong> УК РФ, с практикой 2025–2026 года.</p>
+      <div class="l24-intro-ug__brief">
+        <strong>Кратко:</strong> уголовка — не за просрочку, а за обман при получении денег, злостное уклонение после суда при сумме <strong>свыше 2,25 млн ₽</strong> или налоговую недоимку. На проверке — адвокат и единая позиция с гражданским процессом.
+      </div>
+    </div>
+    <aside class="l24-intro-ug__decor" aria-label="Статьи и стадии">
+      <ul class="l24-intro-ug__chips">
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--accent">ст. 159</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--navy">ст. 177</li>
+        <li class="l24-intro-ug__chip">ФССП</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--warn">2,25 млн ₽</li>
+        <li class="l24-intro-ug__chip">ППВС № 48</li>
+        <li class="l24-intro-ug__chip">198–199</li>
+      </ul>
+      <svg class="l24-intro-ug__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: просрочка, суд, пристав, уголовка">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">СКВОЗНАЯ ШКАЛА РИСКА</text>
+        <circle cx="48" cy="88" r="18" fill="#64748b"/><text x="48" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">0</text>
+        <circle cx="120" cy="88" r="18" fill="#2563eb"/><text x="120" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">СУД</text>
+        <circle cx="192" cy="88" r="18" fill="#d97706"/><text x="192" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">ИП</text>
+        <circle cx="264" cy="88" r="18" fill="#a31830"/><text x="264" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">УГ</text>
+        <line x1="66" y1="88" x2="102" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="138" y1="88" x2="174" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="210" y1="88" x2="246" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <text x="48" y="130" text-anchor="middle" fill="#475569" font-size="8">просрочка</text>
+        <text x="120" y="130" text-anchor="middle" fill="#475569" font-size="8">приказ 10д</text>
+        <text x="192" y="130" text-anchor="middle" fill="#475569" font-size="8">пристав</text>
+        <text x="264" y="130" text-anchor="middle" fill="#475569" font-size="8">159 / 177</text>
+        <rect x="24" y="148" width="272" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+        <text x="160" y="170" text-anchor="middle" fill="#0f2744" font-size="10" font-weight="700">гражданка → уголовка</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#ug-otvetstvennost">Ответственность за долги</a></li>
+    <li><a href="#ug-159">Мошенничество, ст. 159</a></li>
+    <li><a href="#ug-177">Ст. 177 и ФССП</a></li>
+    <li><a href="#ug-delo">Проверка и возбуждение</a></li>
+    <li><a href="#ug-zashchita">Защита и адвокат</a></li>
+    <li><a href="#ug-snizit">Как снизить риски</a></li>
+    <li><a href="#ug-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div class="l24-longread-wrap">
+
+<h2 id="ug-otvetstvennost">Уголовная ответственность за долги: когда долг перестаёт быть только гражданским</h2>
+
+<p>Гражданское право отвечает на вопрос «как взыскать долг»: иск, судебный приказ, исполнительное производство у приставов, банкротство. Уголовное право спрашивает иное: <strong>было ли хищение или злостное уклонение</strong> при объективной возможности исполнить обязательство. Путать эти плоскости опасно: формулировки в гражданском иске, показания на допросе и переписка с кредитором потом читают следователем и судом.</p>
+
+<h3>Есть ли уголовная ответственность за долги и за какие долги она наступает</h3>
+
+<p><strong>Есть ли уголовная ответственность за долги</strong> в буквальном смысле «за каждый рубль задолженности» — нет. Отдельной статьи «за долг» в УК нет. Ответственность наступает за <strong>конкретные деяния</strong>: мошенничество (ст. 159, 159.1), злостное уклонение от судебного и иного имущественного обязательства (ст. 177), уклонение от уплаты налогов (ст. 198–199). За какие долги уголовная ответственность реально обсуждается на практике:</p>
+
+<ul>
+
+<li><strong>Долг физлицу или организации</strong> без обмана при получении — обычно только гражданка.</li>
+
+<li><strong>Кредит или займ</strong>, если при оформлении были <strong>ложные сведения</strong> и не было намерения возвращать — ст. 159.1 (см. п. 13 ППВС № 48).</li>
+
+<li><strong>Задолженность по вступившему в силу решению суда</strong> при злостном уклонении и сумме <strong>свыше 2 250 000 ₽</strong> — ст. 177.</li>
+
+<li><strong>Недоимка перед бюджетом</strong> — ст. 198–199, а не ст. 177.</li>
+
+</ul>
+
+<h3>Уголовная ответственность за долги по кредитам и исполнительному производству</h3>
+
+<p>За <strong>неуплату кредита</strong> без суда уголовная ответственность за долги по кредитам не наступает: банк взыскивает по договору, через суд или приказ. <strong>Могут ли посадить за неуплату кредита</strong> — да, но не за просрочку платежа как таковую, а когда доказан <strong>умысел на хищение до выдачи кредита</strong> (159.1) либо после суда — <strong>злостное уклонение</strong> при крупном размере (177). Пока нет решения суда, исполнительное производство по кредиту не запущено в полном объёме — ст. 177 обычно не применима.</p>
+
+<h3>Граница гражданского взыскания и уголовного преследования</h3>
+
+<p>Граница гражданского и уголовного долга — в <strong>умысле и способе поведения</strong>. По <strong>Постановлению Пленума ВС № 48 от 30.11.2017</strong> (ред. 15.12.2022) мошенничество — хищение через <strong>обман</strong> или <strong>злоупотребление доверием</strong>; принятие обязательств при <strong>заведомом отсутствии намерения исполнять</strong> (кредит, аванс, предоплата) указывает на умысел на хищение, а не на «тяжёлую жизнь» и просрочку. Игнорирование суда, смена версии событий между гражданским процессом и допросом, агрессивные формулировки в переписке — типичные мосты из гражданки в уголовку.</p>
+
+<p><strong>Матрица: что вам грозит (гражданка vs уголовка)</strong></p>
+
+<table><thead><tr><th>Ситуация</th><th>Гражданское взыскание</th><th>Уголовная статья</th><th>Порог / кто возбуждает</th></tr></thead><tbody>
+
+<tr><td>Не вернули займ, обмана при выдаче не было</td><td>Иск, приставы</td><td>Обычно нет</td><td>—</td></tr>
+
+<tr><td>Ложные документы при кредите, не собирались возвращать</td><td>Взыскание с банком</td><td><strong>ст. 159.1 УК</strong></td><td>Обман + отсутствие намерения вернуть (ППВС № 48, п. 13)</td></tr>
+
+<tr><td>Не платите после <strong>решения суда</strong>, уклоняетесь злостно</td><td>ИП у ФССП</td><td><strong>ст. 177 УК</strong></td><td>Задолженность <strong>свыше 2 250 000 ₽</strong> (2,25 млн ровно — ещё не крупный размер); дознаватели ФССП</td></tr>
+
+<tr><td>Недоимка ФНС</td><td>Требования, камеральная/выездная проверка</td><td><strong>ст. 198–199 УК</strong></td><td>За <strong>3 финансовых года подряд</strong>, доля + абсолютные пороги в примечаниях</td></tr>
+
+<tr><td>Контрагент «обманул» в бизнесе</td><td>Арбитраж, иск</td><td><strong>ст. 159 ч. 5–7</strong></td><td>Крупный от <strong>3,5 млн ₽</strong>, особо крупный от <strong>13,5 млн ₽</strong>; по заявлению потерпевшего</td></tr>
+
+</tbody></table>
+
+<p><em>Сквозная шкала риска:</em> просрочка → претензия/суд → судебный приказ (10 дней на отмену) → исполнительное производство → предупреждение пристава о ст. 177 → проверка/уголовное дело → защита.</p>
+
+
+
+<section id="l24-boris-ug-risk-track" class="l24-boris-ug-risk" aria-label="Уголовные риски при долгах: путь к ст. 177 и пороги статей 159 и 177">
+<style>
+.l24-boris-ug-risk {
+  --ug-navy: #0f2744;
+  --ug-navy-soft: #1a365d;
+  --ug-accent: #c53030;
+  --ug-warn: #ecc94b;
+  --ug-safe: #68d391;
+  --ug-ink: #e2e8f0;
+  --ug-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ug-risk__shell {
+  background: linear-gradient(145deg, var(--ug-navy) 0%, #152a45 55%, var(--ug-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.22);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-risk__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ug-warn);
+}
+.l24-boris-ug-risk__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.4rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ug-risk__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ug-muted);
+  max-width: 62ch;
+}
+.l24-boris-ug-risk__lead strong { color: #fff; }
+.l24-boris-ug-risk__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ug-risk__panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ug-risk__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ug-warn);
+}
+.l24-boris-ug-risk__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+}
+.l24-boris-ug-risk__steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ug-risk__step {
+  margin: 0;
+  padding: 11px 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-left: 3px solid var(--ug-accent);
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.l24-boris-ug-risk__step:nth-child(2) { border-left-color: #ed8936; }
+.l24-boris-ug-risk__step:nth-child(3) { border-left-color: var(--ug-warn); }
+.l24-boris-ug-risk__step:nth-child(4) { border-left-color: var(--ug-safe); }
+.l24-boris-ug-risk__step strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ug-risk__thresh-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 12px;
+}
+.l24-boris-ug-risk__thresh-card {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ug-risk__thresh-card--177 {
+  border-color: rgba(104, 211, 145, 0.4);
+}
+.l24-boris-ug-risk__thresh-card--159 {
+  border-color: rgba(197, 48, 48, 0.45);
+}
+.l24-boris-ug-risk__thresh-card--vs {
+  grid-column: 1 / -1;
+  background: rgba(197, 48, 48, 0.12);
+  border-color: rgba(236, 201, 75, 0.35);
+}
+.l24-boris-ug-risk__thresh-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ug-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-ug-risk__thresh-value {
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-ug-risk__thresh-note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ug-muted);
+}
+.l24-boris-ug-risk__thresh-note em {
+  font-style: normal;
+  color: var(--ug-safe);
+  font-weight: 600;
+}
+.l24-boris-ug-risk__vs-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 8px;
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+.l24-boris-ug-risk__vs-col {
+  padding: 10px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.25);
+}
+.l24-boris-ug-risk__vs-col--159 { border-top: 2px solid var(--ug-accent); }
+.l24-boris-ug-risk__vs-col--177 { border-top: 2px solid var(--ug-safe); }
+.l24-boris-ug-risk__vs-col strong {
+  display: block;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ug-risk__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ug-risk__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-risk__tag--159 { border: 1px solid var(--ug-accent); color: #feb2b2; }
+.l24-boris-ug-risk__tag--177 { border: 1px solid var(--ug-safe); color: #9ae6b4; }
+@media (max-width: 900px) {
+  .l24-boris-ug-risk__split { grid-template-columns: 1fr; }
+  .l24-boris-ug-risk__steps { grid-template-columns: 1fr 1fr; }
+  .l24-boris-ug-risk__thresh-grid { grid-template-columns: 1fr; }
+  .l24-boris-ug-risk__vs-row { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-ug-risk__steps { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-ug-risk__shell">
+    <p class="l24-boris-ug-risk__eyebrow">УК РФ · ст. 159 / 159.1 / 177 · 2025–2026</p>
+    <h3 class="l24-boris-ug-risk__title">Просрочка → суд → ФССП → ст. 177: где включается уголовка</h3>
+    <p class="l24-boris-ug-risk__lead">Обычная <strong>просрочка</strong> остаётся гражданкой. Цепочка к <strong>ст. 177</strong> — только после <strong>решения суда</strong>, исполнительного производства у приставов и <strong>злостного</strong> уклонения при сумме <strong>свыше 2&nbsp;250&nbsp;000&nbsp;₽</strong>. Слева — маршрут; справа — пороги и отличие от <strong>ст. 159</strong> (обман до получения денег).</p>
+
+    <div class="l24-boris-ug-risk__split">
+      <div class="l24-boris-ug-risk__panel">
+        <p class="l24-boris-ug-risk__panel-title">Маршрут должника</p>
+        <svg class="l24-boris-ug-risk__timeline-svg" viewBox="0 0 560 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="ug-risk-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#a0aec0"/>
+              <stop offset="35%" stop-color="#ed8936"/>
+              <stop offset="65%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#68d391"/>
+            </linearGradient>
+          </defs>
+          <line x1="40" y1="72" x2="520" y2="72" stroke="url(#ug-risk-line)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="64" cy="72" r="20" fill="#4a5568" stroke="#fff" stroke-width="2"/>
+          <text x="64" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">0</text>
+          <circle cx="200" cy="72" r="20" fill="#c05621" stroke="#fff" stroke-width="2"/>
+          <text x="200" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">⚖</text>
+          <circle cx="336" cy="72" r="20" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="336" y="76" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="700">ФССП</text>
+          <circle cx="496" cy="72" r="22" fill="#c53030" stroke="#ecc94b" stroke-width="2"/>
+          <text x="496" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">177</text>
+          <text x="64" y="38" text-anchor="middle" fill="#cbd5e0" font-size="9" font-weight="600">Просрочка</text>
+          <text x="200" y="38" text-anchor="middle" fill="#fbd38d" font-size="9" font-weight="600">Суд / приказ</text>
+          <text x="336" y="38" text-anchor="middle" fill="#faf089" font-size="9" font-weight="600">ИП</text>
+          <text x="496" y="38" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="600">ст. 177 УК</text>
+          <rect x="12" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="71" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">гражданка</text>
+          <rect x="148" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="207" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">10 дн. отмена приказа</text>
+          <rect x="284" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="343" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">предупреждение</text>
+          <rect x="420" y="108" width="130" height="28" rx="5" fill="rgba(197,48,48,0.35)"/>
+          <text x="485" y="126" text-anchor="middle" fill="#fed7d7" font-size="8">&gt; 2,25 млн + злость</text>
+        </svg>
+        <ol class="l24-boris-ug-risk__steps">
+          <li class="l24-boris-ug-risk__step">
+            <strong>Просрочка</strong>
+            Кредит, расписка, МФО — взыскание по договору, без ст. 177.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>Суд</strong>
+            Иск, судебный приказ; игнор суда — мост к ИП и рискам формулировок.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>ФССП</strong>
+            Исполнительное производство: арест, запрет выезда; рапорт / заявление кредитора.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>ст. 177</strong>
+            После акта в силу — злостное уклонение при возможности платить.
+          </li>
+        </ol>
+      </div>
+
+      <div class="l24-boris-ug-risk__panel
