@@ -14,7 +14,7 @@ python3 scripts/nero-precheck-queue.py --mark-done --write-handoff
 
 Подробно: [AUTOMATION.md](AUTOMATION.md) — **полный промпт для Cursor Automation** (скопировать из `cursor-automation-prompt.txt` или блока в AUTOMATION.md).
 
-**Расписание:** cron `0 3 * * *` → **03:00 UTC / 06:00 МСК**, один раз в сутки.
+**Расписание:** cron `0 3,9,15 * * *` → **3 статьи/сутки** (06:00 / 12:00 / 18:00 МСК): арбитраж → ИС → уголовное.
 
 ## Журналы
 

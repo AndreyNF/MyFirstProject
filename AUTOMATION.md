@@ -3,82 +3,15 @@
 **Репозиторий:** `AndreyNF/MyFirstProject`  
 **Ветка разработки:** `cursor/a3-a2ec` (base: `main`)  
 **Сайт:** https://advokat-vsem.online/  
-**Расписание cron (текущее):** `0 3 * * *` → **каждый день в 03:00 UTC** (06:00 МСК). Других слотов в automation нет — **второй автопубликации «сегодня» не будет**, только один запуск в сутки.
+**Расписание cron (настроить в Cursor Automation):** `0 3,9,15 * * *` → **3 статьи в сутки**, интервал **6 часов** (03:00 / 09:00 / 15:00 UTC = 06:00 / 12:00 / 18:00 МСК).
 
 ---
 
 ## Полный промпт для Cursor Automation
 
-Скопируйте блок ниже **целиком** в поле Instructions / Prompt automation (замените старый текст).
+Скопируйте **целиком** файл [`cursor-automation-prompt.txt`](cursor-automation-prompt.txt) в Instructions automation.
 
-```text
-Ты — Cloud Agent для Legis24 (банкротство физлиц). Сайт: https://advokat-vsem.online/
-Репозиторий: AndreyNF/MyFirstProject. Ветка: cursor/a3-a2ec. Коммить и пушить только в эту ветку.
-
-═══════════════════════════════════════════════════════════════
-Шаг 0 — PRE-CHECK (ОБЯЗАТЕЛЬНО ПЕРВЫМ, ДО Director и ДО Task)
-═══════════════════════════════════════════════════════════════
-
-Выполни в shell:
-  python3 scripts/nero-precheck-queue.py --mark-done --write-handoff
-
-Коды выхода (жёсткий гейт):
-  • exit 1 (SKIP) — тема уже в published-pages.md. НЕ сбрасывай handoff на «новая сессия».
-    НЕ запускай Task(subagents). Ответ: «Уже опубликовано» + URL + page_id из вывода/JSON.
-  • exit 2 (BLOCKER) — нет H1/SLUG в очереди (TBD) или битый план. СТОП с причиной из скрипта.
-  • exit 0 + action PROCEED — новая строка очереди → только тогда полный пайплайн.
-  • exit 0 + action KIRILL — все 16 строк ✅ → только Task(kirill), не полная страница.
-
-Журналы (канон, читать до публикации):
-  • nero-network-office-page/shared/content-plan-legis24.md — очередь #1–#16
-  • nero-network-office-page/shared/published-pages.md — slug + page_id + URL
-
-После успешной публикации Юрой — допиши строку в published-pages.md и ✅ + page_id в content-plan.
-Перед публикацией сверь slug с журналом; алиас A3: …-30-dnej-… vs …-30-vs-… (канон в журнале).
-
-Если журнал пуст, а страница есть на WP — допиши published-pages.md, снова precheck → SKIP.
-
-═══════════════════════════════════════════════════════════════
-Режим публикации — Cloud MCP-only (Legis24)
-═══════════════════════════════════════════════════════════════
-
-Публикация ТОЛЬКО через MCP Kovcheg по commands/nero-publish-mcp.md:
-  wordpress_create_page → wordpress_content_blob_append (чанки ≤20000, finalize на последнем)
-  → wordpress_update_page_from_blob → wordpress_update_page (publish, excerpt=Description)
-
-ЗАПРЕЩЕНО: Aura, FTP, SSH, page-{slug}.php, WordPress API с <script> в теле.
-Hero (Алина) и блок Бориса: только static SVG/CSS, БЕЗ <script> и canvas/script.
-
-═══════════════════════════════════════════════════════════════
-CTA (обязательно)
-═══════════════════════════════════════════════════════════════
-
-• href только https://advokat-vsem.ru/
-• В ВИДИМОМ тексте кнопки/ссылки — БЕЗ домена, URL и названия сайта (никакого advokat-vsem.ru).
-• Только смысловой призыв: «Консультация по…», «Помощь с…».
-
-═══════════════════════════════════════════════════════════════
-Пайплайн (после precheck PROCEED)
-═══════════════════════════════════════════════════════════════
-
-Читай .cursor/agents/director.md и выполняй роли ТОЛЬКО через Task (или Task generalPurpose с промптом из .cursor/agents/<role>.md).
-Single-agent pipeline ЗАПРЕЩЁН. Директор не пишет лонгрид/hero/публикацию сам.
-
-Цепочка: Director → (precheck) → Коля||Артём → Женя → Артур → Алина||Борис → Наташа → Юра (MCP) → QA||Лёня.
-
-Handoff: .cursor/nero-network-handoff.md
-Фрагменты: .cursor/nero-network-fragments/
-
-Сброс handoff «# Nero Network — новая сессия» — ТОЛЬКО после exit 0 PROCEED (не при SKIP).
-
-Юра для Legis24: commands/nero-publish-mcp.md (НЕ FTP из yura.md).
-
-Кирилл (новость дня) — только когда все 16 строк очереди имеют ✅ в content-plan.
-
-Прочитай nero-network-office-page/shared/agent-pipeline-pitfalls.md §0 перед стартом.
-
-Git: commit + push -u origin cursor/a3-a2ec после изменений в репо (журналы, HTML, план).
-```
+**Cron в настройках automation (обязательно):** `0 3,9,15 * * *`
 
 ---
 
@@ -97,21 +30,23 @@ python3 scripts/nero-precheck-queue.py --mark-done --write-handoff
 
 ---
 
-## Расписание публикаций
+## Расписание публикаций (3 слота / сутки)
 
-| Параметр | Значение |
-|----------|----------|
-| Cron automation | `0 3 * * *` |
-| Время UTC | **03:00** каждый день |
-| Время МСК (UTC+3) | **06:00** каждый день |
-| Запусков в сутки | **1** |
-| Следующий после 22.05.2026 03:00 UTC | **23.05.2026 03:00 UTC** (06:00 МСК) |
+| Слот | Cron UTC | МСК | Тип | Первая тема в очереди |
+|------|----------|-----|-----|------------------------|
+| 1 | **03:00** | 06:00 | **ARB** — арбитраж | A5 |
+| 2 | **09:00** | 12:00 | **IP** — ИС, товарный знак, ответ на иск | A6 |
+| 3 | **15:00** | 18:00 | **UG** — уголовное право | A7 |
 
-Чтобы публиковать **несколько раз в день**, в настройках automation добавьте слоты, например: `0 9,14,19 * * *` (09:00, 14:00, 19:00 UTC).
+**Cron в Cursor Automation:** `0 3,9,15 * * *`
 
-**Сегодня (22.05.2026):** cron уже отработал в **03:00:14 UTC**. Повторного автозапуска до завтра 03:00 UTC **нет**, если не добавить расписание или не запустить automation вручную.
+Подробные углы: `nero-network-office-page/shared/article-types-legis24.md`
 
-**Почему завтра может не выйти статья:** очередь #3 A5 — H1/SLUG = TBD → precheck вернёт **BLOCKER**. Заполните строку A5 в `content-plan-legis24.md` до следующего cron.
+### Масштаб: 300 статей в день?
+
+Полный пайплайн Nero (субагенты, лонгрид 8k+, hero, QA) — **не рассчитан на сотни статей/сутки**. Реалистично **3 качественных лонгрида/день** при текущем cron. Для десятков/сотен нужен отдельный «лёгкий» шаблон без hero/canvas и много параллельных automation — это отдельная задача.
+
+Ручной прогон вне окна слота: `python3 scripts/nero-precheck-queue.py --slot 1|2|3 --mark-done --write-handoff`
 
 ---
 
