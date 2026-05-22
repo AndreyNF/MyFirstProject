@@ -45,9 +45,21 @@ is_background: false
 
 Директор после каждой параллельной пары сам переносит фрагменты в `nero-network-handoff.md` и проверяет, что одноимённые секции не задублированы.
 
-Перед запуском полной страницы прочитай `shared/agent-pipeline-pitfalls.md`: там собраны типовые сбои публикации, hero, handoff и SEO-аудита.
+Перед запуском полной страницы прочитай `nero-network-office-page/shared/agent-pipeline-pitfalls.md` (§0 pre-check) и `AUTOMATION.md`.
+
+## Шаг 0 — pre-check очереди (ДО сброса handoff, ДО любых Task)
+
+1. Запусти: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff`.
+2. **Exit 1 (SKIP)** — тема уже в `published-pages.md`: **не** сбрасывай handoff, **не** запускай субагентов; ответ: URL + page_id из вывода.
+3. **Exit 2** — блокер → стоп.
+4. **Exit 0 + KIRILL** — все 16 строк ✅ → только Task(kirill).
+5. **Exit 0 + PROCEED** — новая тема → сброс handoff и полный пайплайн.
+
+Если журнал пуст, а страница есть на WP — допиши `published-pages.md`, снова precheck → SKIP.
 
 ## Сброс handoff перед новой страницей
+
+Только после precheck **PROCEED** (или новая тема от Кирилла).
 
 1. Полностью перезапиши `<PROJECT_ROOT>/.cursor/nero-network-handoff.md` одной строкой: `# Nero Network — новая сессия`.
 2. Очисти/перезапиши временные фрагменты текущей сессии в `.cursor\nero-network-fragments\`.
@@ -57,7 +69,8 @@ is_background: false
 
 ## Полная цепочка страницы-лонгрида
 
-1. **Сбрось handoff**.
+0. **Precheck** (см. Шаг 0). При SKIP — цепочку не начинать.
+1. **Сбрось handoff** (только если PROCEED).
 2. **Если пользователь просит новость дня / актуальный инфоповод / самую горячую тему или не даёт точную тему страницы** — сначала **Task**(`kirill`) — «Сам найди сегодняшнюю лучшую новость по нейросетям, AI-инструментам, автоматизации, Cursor, MCP, Make, SEO/GEO или контент-заводам. Перед выбором прочитай `<PROJECT_ROOT>/shared/kirill-news-ledger.md` и `<PROJECT_ROOT>/nero-network-office-page/shared/published-pages.md`, не бери уже выбранные/опубликованные новости. Проверь спрос через Wordstat, оцени лидовый потенциал Nero Network, выбери одну тему. Запиши выбранную новость в `<PROJECT_ROOT>/shared/kirill-news-ledger.md` со статусом `selected`. Не пиши текст. Не удаляй чужие секции handoff, добавь только блок `=== КИРИЛЛ (НОВОСТЬ ДНЯ) ===`».
 3. **Если Кирилл запускался, перечитай handoff** и проверь маркер `=== КИРИЛЛ (НОВОСТЬ ДНЯ) ===`.
   Если блок отсутствует, `Статус: ❌ БЛОКЕР` или в `<PROJECT_ROOT>/shared/kirill-news-ledger.md` нет строки `selected` по выбранной новости, не запускай Колю и Артёма. Дозапусти Кирилла или выдай блокер пользователю.
@@ -93,6 +106,7 @@ is_background: false
 
 Каждый агент пишет свой блок с точным маркером:
 
+- `=== PRECHECK (ГЕЙТ) ===`
 - `=== КИРИЛЛ (НОВОСТЬ ДНЯ) ===`
 - `=== КОЛЯ (SEO-ЯДРО) ===`
 - `=== АРТЁМ (RESEARCH) ===`
