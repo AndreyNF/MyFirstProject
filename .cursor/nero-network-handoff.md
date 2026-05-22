@@ -1314,3 +1314,987 @@ AD_BANNER: не настроен
 ```
 
 **Паспорт блока (для Наташи):** slug `zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti`; тема — сквозная шкала из research Артёма; ключевые цифры: 24 ч МП, 30 дн. претензия, 10/20 млн, 10–500 тыс., ст. 1252.1 «один товар — одно нарушение».
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+SLUG: zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti
+ВНИМАНИЕ: без `<script>` и `<canvas>` — MCP publish удаляет scripts; hero и Борис — static SVG + inline CSS. FAQ — microdata FAQPage; JSON-LD для Rank Math — в «Передача Юре» (не в blob).
+
+```html
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page th,
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page th { background: #edf2f7; }
+.zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page a { color: #1e40af; }
+.l24-intro-tz {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-tz__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-tz__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-tz__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-tz__text p:last-child { margin-bottom: 0; }
+.l24-intro-tz__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-tz__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-tz__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+.l24-intro-tz__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-tz__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-tz__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-tz__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list { list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-tz {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-tz h2 { margin-top: 0 !important; }
+.l24-faq-tz__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-tz__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-tz__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-tz__a { margin: 0; color: #334155; }
+.l24-jsonld-note {
+  display: none; /* JSON-LD для Rank Math — см. блок Передача Юре */
+}
+@media (max-width: 900px) {
+  .l24-intro-tz__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<section id="l24-hero-tz-ip" class="hero-tz-ip" aria-label="Защита товарного знака и бренда">
+  <style>
+    .hero-tz-ip {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(165deg, #f8fafc 0%, #eef2f7 42%, #f5f0eb 100%);
+      color: #1a2332;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-tz-ip::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 50% at 85% 20%, rgba(30, 64, 175, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 40% at 10% 80%, rgba(163, 24, 48, 0.05) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-tz-ip__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-tz-ip__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid rgba(26, 35, 50, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-tz-ip__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e40af;
+      flex-shrink: 0;
+    }
+    .hero-tz-ip__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.65rem, 3.8vw, 2.45rem);
+      line-height: 1.18;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-tz-ip__h1-accent {
+      color: #1e40af;
+    }
+    .hero-tz-ip__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-tz-ip__steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-tz-ip__step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-tz-ip__step-num {
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #1e40af;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-tz-ip__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+    }
+    .hero-tz-ip__cta:hover {
+      background: #8b1528;
+    }
+    .hero-tz-ip__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-tz-ip__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-tz-ip__visual {
+        order: -1;
+        max-height: 280px;
+      }
+    }
+  </style>
+  <div class="hero-tz-ip__inner">
+    <div class="hero-tz-ip__content">
+      <div class="hero-tz-ip__badge">
+        <span class="hero-tz-ip__badge-dot" aria-hidden="true"></span>
+        ИС · товарный знак · ГК РФ ч. 4 · 2026
+      </div>
+      <h1 class="hero-tz-ip__h1">
+        <span class="hero-tz-ip__h1-accent">Товарный знак:</span> как защитить бренд и что делать, если подали иск
+      </h1>
+      <p class="hero-tz-ip__sub">
+        Нарушение прав, претензия и иск по товарному знаку: судебная защита, компенсация и ответ на требования правообладателя
+      </p>
+      <ol class="hero-tz-ip__steps">
+        <li class="hero-tz-ip__step">
+          <span class="hero-tz-ip__step-num">1</span>
+          <span><strong>Реестр и бренд</strong> — регистрация в Роспатенте, проверка коллизий, класс 35 МКТУ</span>
+        </li>
+        <li class="hero-tz-ip__step">
+          <span class="hero-tz-ip__step-num">2</span>
+          <span><strong>Претензия 30 дней</strong> — досудебный ответ до иска, маркетплейс и расчёт компенсации</span>
+        </li>
+        <li class="hero-tz-ip__step">
+          <span class="hero-tz-ip__step-num">3</span>
+          <span><strong>Иск и защита</strong> — отзыв по ст. 131 АПК, ст. 1486 и снижение по ст. 1252.1</span>
+        </li>
+      </ol>
+      <a class="hero-tz-ip__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда и ответу на иск</a>
+    </div>
+    <div class="hero-tz-ip__visual" aria-hidden="true">
+      <svg viewBox="0 0 420 380" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px" role="img" aria-label="Щит, товарный знак и правовая защита бренда">
+        <defs>
+          <linearGradient id="hero-tz-shield" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1e40af"/>
+            <stop offset="100%" stop-color="#3b82f6"/>
+          </linearGradient>
+          <linearGradient id="hero-tz-card" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <filter id="hero-tz-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1e293b" flood-opacity="0.12"/>
+          </filter>
+        </defs>
+        <!-- фоновая сетка реестра -->
+        <g opacity="0.35" stroke="#94a3b8" stroke-width="0.6">
+          <line x1="40" y1="60" x2="380" y2="60"/>
+          <line x1="40" y1="100" x2="380" y2="100"/>
+          <line x1="40" y1="140" x2="380" y2="140"/>
+          <line x1="40" y1="180" x2="380" y2="180"/>
+          <line x1="80" y1="40" x2="80" y2="340"/>
+          <line x1="160" y1="40" x2="160" y2="340"/>
+          <line x1="240" y1="40" x2="240" y2="340"/>
+          <line x1="320" y1="40" x2="320" y2="340"/>
+        </g>
+        <!-- карточка бренда -->
+        <g filter="url(#hero-tz-shadow)" transform="translate(28, 52)">
+          <rect width="118" height="72" rx="10" fill="url(#hero-tz-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="14" y="16" width="48" height="10" rx="3" fill="#e2e8f0"/>
+          <rect x="14" y="34" width="88" height="8" rx="2" fill="#e2e8f0"/>
+          <rect x="14" y="48" width="64" height="8" rx="2" fill="#e2e8f0"/>
+          <circle cx="96" cy="22" r="14" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
+          <text x="96" y="27" text-anchor="middle" fill="#92400e" font-size="14" font-weight="800" font-family="Georgia, serif">®</text>
+          <text x="59" y="68" text-anchor="middle" fill="#64748b" font-size="9" font-weight="600">БРЕНД</text>
+        </g>
+        <!-- претензия -->
+        <g filter="url(#hero-tz-shadow)" transform="translate(268, 48)">
+          <rect width="124" height="88" rx="10" fill="url(#hero-tz-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <text x="62" y="22" text-anchor="middle" fill="#a31830" font-size="10" font-weight="700">ПРЕТЕНЗИЯ</text>
+          <line x1="18" y1="34" x2="106" y2="34" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+          <line x1="18" y1="48" x2="90" y2="48" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+          <line x1="18" y1="62" x2="78" y2="62" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+          <rect x="18" y="72" width="52" height="10" rx="4" fill="#fef2f2" stroke="#fecaca"/>
+          <text x="44" y="80" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">30 дней</text>
+        </g>
+        <!-- центральный щит с ® -->
+        <g filter="url(#hero-tz-shadow)" transform="translate(210, 168)">
+          <path d="M0,-72 L52,-52 L52,8 C52,42 26,62 0,78 C-26,62 -52,42 -52,8 L-52,-52 Z" fill="url(#hero-tz-shield)" stroke="#1e3a8a" stroke-width="2"/>
+          <circle cx="0" cy="-8" r="28" fill="rgba(255,255,255,0.18)"/>
+          <text x="0" y="2" text-anchor="middle" fill="#ffffff" font-size="36" font-weight="800" font-family="Georgia, serif">®</text>
+          <text x="0" y="58" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" letter-spacing="0.08em">ЗАЩИТА</text>
+        </g>
+        <!-- иск / суд -->
+        <g filter="url(#hero-tz-shadow)" transform="translate(52, 248)">
+          <rect width="130" height="76" rx="10" fill="url(#hero-tz-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <path d="M20,24 L45,24 L52,14 L59,24 L84,24 L84,58 L20,58 Z" fill="none" stroke="#1e40af" stroke-width="1.8" stroke-linejoin="round"/>
+          <line x1="32" y1="36" x2="72" y2="36" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+          <line x1="32" y1="48" x2="58" y2="48" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+          <text x="65" y="70" text-anchor="middle" fill="#475569" font-size="9" font-weight="700">ИСК · СИП</text>
+        </g>
+        <!-- компенсация -->
+        <g filter="url(#hero-tz-shadow)" transform="translate(238, 252)">
+          <rect width="134" height="72" rx="10" fill="url(#hero-tz-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <text x="67" y="22" text-anchor="middle" fill="#0f172a" font-size="10" font-weight="700">214-ФЗ · 2026</text>
+          <text x="67" y="44" text-anchor="middle" fill="#1e40af" font-size="18" font-weight="800">10 млн ₽</text>
+          <text x="67" y="58" text-anchor="middle" fill="#64748b" font-size="8" font-weight="600">ст. 1252.1 · 1515</text>
+        </g>
+        <!-- стрелки цепочки -->
+        <g fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" marker-end="url(#hero-tz-arrow)">
+          <defs>
+            <marker id="hero-tz-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
+            </marker>
+          </defs>
+          <path d="M146,88 C180,110 200,130 210,150" stroke-dasharray="none"/>
+          <path d="M330,120 C300,150 250,170 210,195"/>
+          <path d="M210,246 C180,260 150,268 120,280"/>
+          <path d="M210,246 C250,262 290,272 305,288"/>
+        </g>
+        <!-- весы правосудия (упрощённо) -->
+        <g transform="translate(340, 300)" opacity="0.85">
+          <line x1="0" y1="0" x2="0" y2="36" stroke="#475569" stroke-width="2"/>
+          <line x1="-28" y1="8" x2="28" y2="8" stroke="#475569" stroke-width="2"/>
+          <path d="M-28,8 L-38,24 L-18,24 Z" fill="#e2e8f0" stroke="#94a3b8"/>
+          <path d="M28,8 L18,24 L38,24 Z" fill="#e2e8f0" stroke="#94a3b8"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-tz" aria-label="Введение">
+  <div class="l24-intro-tz__grid">
+    <div class="l24-intro-tz__text">
+      <p>Спор вокруг товарного знака в 2026 году редко начинается в суде. Чаще цепочка выглядит так: проверка реестра Роспатента → запуск карточки на маркетплейсе → жалоба правообладателя и блокировка за сутки → досудебная претензия → иск → отзыв по ст. 131 АПК РФ → встречные меры (в том числе по ст. 1486 ГК РФ) и оспаривание компенсации по новой ст. 1252.1 ГК РФ после реформы ФЗ № 214-ФЗ.</p>
+      <p>Ниже — практическая дорожная карта для двух ролей: вы защищаете бренд или на вас/ваш магазин пришли с требованиями по интеллектуальной собственности.</p>
+      <div class="l24-intro-tz__brief">
+        <strong>Кратко:</strong> исключительное право на товарный знак возникает после регистрации; нарушение — использование сходного обозначения без согласия; до иска обычно нужна претензия (30 дней); «твёрдая» компенсация с 04.01.2026 — до 10 млн ₽ (при грубом нарушении — до 20 млн), альтернативно — 2× стоимость товаров или права использования без потолка; ответчику важны отзыв, доказательства отсутствия вины и контрход по неиспользованию знака истца.
+      </div>
+    </div>
+    <aside class="l24-intro-tz__decor" aria-label="Маршрут спора">
+      <ul class="l24-intro-tz__chips">
+        <li class="l24-intro-tz__chip l24-intro-tz__chip--accent">Роспатент</li>
+        <li class="l24-intro-tz__chip">WB / Ozon</li>
+        <li class="l24-intro-tz__chip l24-intro-tz__chip--warn">30 дней</li>
+        <li class="l24-intro-tz__chip">СИП</li>
+        <li class="l24-intro-tz__chip">ст. 1252.1</li>
+        <li class="l24-intro-tz__chip">ст. 1486</li>
+      </ul>
+      <svg class="l24-intro-tz__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: реестр, маркетплейс, претензия, суд">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">СКВОЗНАЯ ШКАЛА</text>
+        <circle cx="48" cy="88" r="18" fill="#1e40af"/><text x="48" y="93" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">®</text>
+        <circle cx="120" cy="88" r="18" fill="#a31830"/><text x="120" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">МП</text>
+        <circle cx="192" cy="88" r="18" fill="#d97706"/><text x="192" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">30д</text>
+        <circle cx="264" cy="88" r="18" fill="#2f855a"/><text x="264" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">иск</text>
+        <line x1="66" y1="88" x2="102" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="138" y1="88" x2="174" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="210" y1="88" x2="246" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <text x="48" y="130" text-anchor="middle" fill="#475569" font-size="8">реестр</text>
+        <text x="120" y="130" text-anchor="middle" fill="#475569" font-size="8">блокировка</text>
+        <text x="192" y="130" text-anchor="middle" fill="#475569" font-size="8">претензия</text>
+        <text x="264" y="130" text-anchor="middle" fill="#475569" font-size="8">отзыв</text>
+        <rect x="24" y="148" width="272" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+        <text x="160" y="170" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="700">10 млн · 1252.1 · 1486</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#tz-brand">Товарный знак и бренд</a></li>
+    <li><a href="#tz-violation">Нарушение</a></li>
+    <li><a href="#tz-pretension">Претензия</a></li>
+    <li><a href="#tz-lawsuit">Иск в суде</a></li>
+    <li><a href="#tz-compensation">Компенсация</a></li>
+    <li><a href="#tz-practice">Практика</a></li>
+    <li><a href="#tz-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div class="l24-longread-wrap" itemprop="articleBody">
+
+<h2 id="tz-brand">Товарный знак и бренд: что защищает право и кто правообладатель</h2>
+
+<p>Товарный знак — зарегистрированное обозначение для индивидуализации товаров и услуг (ст. 1477, 1481 ГК РФ ч. 4). <strong>Защита бренда</strong> в разговорном смысле шире: сюда попадают фирменное наименование, коммерческое обозначение, домен, упаковка. Но в спорах с селлерами и в судах по интеллектуальной собственности чаще всего решающим становится именно <strong>исключительное право на товарный знак</strong> — оно даёт правообладателю запретить чужое использование сходного знака в отношении однородных товаров и услуг.</p>
+
+<p><strong>Правообладатель товарного знака</strong> — лицо, внесённое в Госреестр (ст. 1229, 1240 ГК РФ). Права можно передать по договору отчуждения или предоставить по лицензии; без этого любое коммерческое использование чужого знака — зона риска.</p>
+
+<h3>Исключительное право на товарный знак — срок и действие</h3>
+
+<p>Исключительное право действует <strong>10 лет</strong> с даты подачи заявки в Роспатент, продлевается неограниченно (ст. 1491 ГК РФ). Охрана распространяется на обозначение в зарегистрированном виде и <strong>сходные до степени смешения</strong> знаки в отношении товаров и услуг из перечня заявки (классы МКТУ). Суды оценивают восприятие <strong>в целом</strong>, а не «выдёргивают» отдельное слово: так, в 2026 году СИП при отказе в регистрации «IT Таблетка» и «ЦИФРОВОЙ АВТОМОБИЛЬ» (дело С01-1849/2025) подчёркивал необходимость анализа по каждому товару и услуге — это же логика при спорах о нарушении.</p>
+
+<h3>Регистрация товарного знака в Роспатенте как основа защиты</h3>
+
+<p><strong>Регистрация товарного знака</strong> — не формальность, а фундамент судебной защиты. По итогам 2025 года Роспатент принял <strong>156 365</strong> заявок; в реестре — более <strong>1 014 647</strong> действующих знаков; свыше <strong>25 000</strong> заявок — от самозанятых. Класс <strong>35 МКТУ</strong> (реклама, торговля, маркетплейсы) — около <strong>40%</strong> всех регистраций; эксперты указывают на порядка <strong>400 000</strong> знаков только в этом классе — высокий риск коллизий для e-commerce.</p>
+
+<p>Перед выводом бренда на Wildberries или Ozon имеет смысл проверить реестр и сходные обозначения в нужных классах. С <strong>01.03.2026</strong> действуют ограничения на иностранные слова в публичном пространстве (ФЗ № 168-ФЗ) — дополнительный мотив оформить российскую регистрацию заранее.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Планируете выход на маркетплейс или обновляете бренд? Юрист поможет подобрать классы МКТУ, проверить реестр на коллизии и выстроить защиту до первой продажи.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда</a></p>
+</aside>
+
+<h3>Защита бренда и товарного знака: в чём разница для бизнеса</h3>
+
+<table>
+  <thead><tr><th>Понятие</th><th>Что даёт</th><th>Типичный риск</th></tr></thead>
+  <tbody>
+    <tr><td>Бренд (имя, слоган, визуал)</td><td>Узнаваемость</td><td>Спор без регистрации — сложнее доказать приоритет</td></tr>
+    <tr><td>Товарный знак ®</td><td>Исключительное право, запись в реестре</td><td>Коллизия с чужим знаком в том же классе</td></tr>
+    <tr><td>НМПТ, дизайн, фото</td><td>Отдельные объекты ИС</td><td>Кратное взыскание за одну карточку после 2026 ограничено (ст. 1252.1)</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Защита интеллектуальной собственности</strong> в широком смысле включает мониторинг маркетплейсов, фиксацию нарушений, претензии и иски. Для предпринимателя практичнее мыслить пакетом: знак + доказательства использования + договоры с производителем/дистрибьютором.</p>
+
+<h2 id="tz-violation">Нарушение товарного знака: признаки, риски и ответственность</h2>
+
+<p><strong>Нарушение товарного знака</strong> — использование без согласия правообладателя обозначения, сходного с зарегистрированным, в отношении однородных товаров/услуг, в том числе в сети, на вывеске, в домене, в метаданных карточки (ст. 1484, 1229 ГК РФ). Оборот контрафакта в РФ оценивают эксперты в <strong>~5 трлн ₽</strong> (~10% рынка); число споров в сфере ИС в 2024 году — порядка <strong>55,1 тыс.</strong> (+35% по ряду категорий). Стоимость ошибки после реформы компенсаций выросла — но для добросовестных ответчиков появились и предсказуемые способы снижения требований.</p>
+
+<h3>Нарушение прав на товарный знак и использование без согласия</h3>
+
+<p>Признаки, на которые смотрят правообладатель и суд:</p>
+<ul>
+  <li>сходство знаков (фонетика, графика, смысл);</li>
+  <li>однородность товаров/услуг (классы МКТУ);</li>
+  <li>использование в предпринимательской деятельности (карточка МП, упаковка, реклама);</li>
+  <li>отсутствие лицензии или иного законного основания.</li>
+</ul>
+
+<p><strong>Контрафакт</strong> — товар, маркировка или упаковка которого незаконно несут чужой знак (уточнено в рамках реформы). <strong>Параллельный импорт</strong> оригинальной продукции — отдельный режим: такие товары не уничтожают как контрафакт, хотя споры по знаку возможны в иных конфигурациях.</p>
+
+<h3>Нарушение исключительного права: когда достаточно претензии</h3>
+
+<p>Не каждое обнаруженное совпадение сразу ведёт в суд. Правообладатель часто направляет <strong>претензию по товарному знаку</strong>, требует прекратить использование, снять карточку, выплатить компенсацию или заключить лицензию. Для ответчика критично не игнорировать письмо: молчание укрепляет позицию истца по вине и размеру требований.</p>
+
+<h3>Ответственность за нарушение и компенсация по ГК РФ</h3>
+
+<p>Ответственность — через <strong>защиту исключительного права</strong> (ст. 1250, 1252 ГК РФ): прекращение нарушения, изъятие, публикация решения, <strong>компенсация</strong> вместо доказывания убытков (ст. 1515). С <strong>04.01.2026</strong> (ФЗ № 214-ФЗ от 07.07.2025) действуют обновлённые пределы и новая <strong>ст. 1252.1 ГК РФ</strong> «Компенсация за нарушение исключительного права».</p>
+
+<p><strong>Принцип «один товар — одно нарушение»:</strong> нельзя умножать взыскание за товарный знак, дизайн, фотографию и текст на одной карточке маркетплейса, если каждый способ не имеет самостоятельного экономического значения. Это прямой ответ на практику «наращивания» суммы исков.</p>
+
+<h2 id="tz-pretension">Досудебная защита: претензия по товарному знаку и ответ</h2>
+
+<p>Досудебный этап — обязательная часть <strong>защиты права на товарный знак</strong> по имущественным требованиям: иск по правилам ст. 1252 ГК РФ подаётся, если в течение <strong>30 дней</strong> с направления претензии спор не урегулирован (если стороны не договорились об ином сроке).</p>
+
+<h3>Претензия по использованию товарного знака — сроки и содержание</h3>
+
+<p>В претензии обычно указывают: сведения о правообладателе и знаке (номер свидетельства), описание нарушения (скриншоты карточек, ссылки, даты), требования (прекратить, удалить, выплатить компенсацию, раскрыть поставщика), срок ответа, расчёт компенсации. <strong>Претензия по товарным знакам</strong> на маркетплейсе может дублироваться жалобой в службу бренда площадки — блокировка нередко наступает <strong>до</strong> судебного решения.</p>
+
+<h3>Досудебная претензия: обязательна ли перед судом</h3>
+
+<p>Да, для стандартных требований о компенсации и прекращении нарушения — с соблюдением 30-дневного срока. Исключения и особые процедуры возможны в иных составах (например, обеспечительные меры), но для селлера типовой сценарий — претензия → иск.</p>
+
+<h3>Ответ на претензию по товарному знаку — типовые ошибки</h3>
+
+<ol>
+  <li><strong>Игнорирование срока</strong> — истец фиксирует злостность, суд учитывает вину при компенсации.</li>
+  <li><strong>Признание «всего подряд»</strong> без анализа сходства и однородности.</li>
+  <li><strong>Отсутствие доказательств добросовестности</strong> — закуп по документам, проверка реестра, согласование с дизайнером.</li>
+  <li><strong>Публичные споры без стратегии</strong> — до проверки реестра и классов МКТУ.</li>
+  <li><strong>Не фиксировать переписку и снятие карточки</strong> — при добровольном урегулировании это основа для снижения суммы.</li>
+</ol>
+
+<p>Грамотный <strong>ответ на претензию по товарному знаку</strong> — это возражения по сходству, однородности, наличию прав на ваш знак, предложение лицензии или рассрочки, оговорка о проверке расчёта компенсации.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Получили претензию с расчётом компенсации или требованием снять карточку? До подачи иска у вас окно для переговоров и юридической позиции — важно не пропустить срок и не признать лишнего.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь при ответе на претензию по товарному знаку</a></p>
+</aside>
+
+<section id="l24-boris-tz-ip-track" class="l24-boris-tz-ip" aria-label="Товарный знак: маркетплейс, претензия, суд и компенсация 2026">
+<style>
+.l24-boris-tz-ip {
+  --tz-navy: #0f2744;
+  --tz-navy-soft: #1a365d;
+  --tz-accent: #c53030;
+  --tz-gold: #ecc94b;
+  --tz-mint: #68d391;
+  --tz-ink: #e2e8f0;
+  --tz-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-tz-ip__shell {
+  background: linear-gradient(145deg, var(--tz-navy) 0%, #152a45 55%, var(--tz-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.22);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
+  color: var(--tz-ink);
+}
+.l24-boris-tz-ip__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tz-gold);
+}
+.l24-boris-tz-ip__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.4rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-tz-ip__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--tz-muted);
+  max-width: 62ch;
+}
+.l24-boris-tz-ip__lead strong { color: #fff; }
+.l24-boris-tz-ip__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-tz-ip__panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-tz-ip__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tz-gold);
+}
+.l24-boris-tz-ip__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+}
+.l24-boris-tz-ip__steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-tz-ip__step {
+  margin: 0;
+  padding: 12px 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-left: 3px solid var(--tz-accent);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+.l24-boris-tz-ip__step:nth-child(2) { border-left-color: var(--tz-gold); }
+.l24-boris-tz-ip__step:nth-child(3) { border-left-color: var(--tz-mint); }
+.l24-boris-tz-ip__step strong {
+  display: block;
+  color: #fff;
+  font-size: 0.82rem;
+  margin-bottom: 4px;
+}
+.l24-boris-tz-ip__comp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 14px;
+}
+.l24-boris-tz-ip__comp-card {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-tz-ip__comp-card--wide {
+  grid-column: 1 / -1;
+  border-color: rgba(236, 201, 75, 0.35);
+  background: rgba(197, 48, 48, 0.15);
+}
+.l24-boris-tz-ip__comp-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--tz-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-tz-ip__comp-value {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-tz-ip__comp-note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--tz-muted);
+}
+.l24-boris-tz-ip__comp-note em {
+  font-style: normal;
+  color: var(--tz-mint);
+  font-weight: 600;
+}
+.l24-boris-tz-ip__roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-tz-ip__role {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--tz-ink);
+}
+.l24-boris-tz-ip__role--owner { border: 1px solid var(--tz-gold); color: var(--tz-gold); }
+.l24-boris-tz-ip__role--def { border: 1px solid var(--tz-mint); color: var(--tz-mint); }
+@media (max-width: 900px) {
+  .l24-boris-tz-ip__split { grid-template-columns: 1fr; }
+  .l24-boris-tz-ip__steps { grid-template-columns: 1fr; }
+  .l24-boris-tz-ip__comp-grid { grid-template-columns: 1fr; }
+  .l24-boris-tz-ip__comp-card--wide { grid-column: auto; }
+}
+</style>
+
+  <div class="l24-boris-tz-ip__shell">
+    <p class="l24-boris-tz-ip__eyebrow">214-ФЗ · с 04.01.2026 · ГК РФ ч. 4</p>
+    <h3 class="l24-boris-tz-ip__title">МП → претензия → суд: одна шкала времени и «цена ошибки»</h3>
+    <p class="l24-boris-tz-ip__lead">Спор по <strong>товарному знаку</strong> у селлера редко стартует в СИП: сначала <strong>маркетплейс</strong> (жалоба и блокировка), затем <strong>досудебная претензия</strong> (30 дней по ст. 1252 ГК РФ), затем <strong>иск</strong> и отзыв по ст. 131 АПК. Справа — лимиты компенсации после реформы и поле для снижения по ст. 1252.1.</p>
+
+    <div class="l24-boris-tz-ip__split">
+      <div class="l24-boris-tz-ip__panel">
+        <p class="l24-boris-tz-ip__panel-title">Сквозной маршрут</p>
+        <svg class="l24-boris-tz-ip__timeline-svg" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="tz-ip-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#c53030"/>
+              <stop offset="50%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#68d391"/>
+            </linearGradient>
+          </defs>
+          <line x1="48" y1="70" x2="472" y2="70" stroke="url(#tz-ip-line)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="72" cy="70" r="22" fill="#c53030" stroke="#fff" stroke-width="2"/>
+          <text x="72" y="76" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">МП</text>
+          <circle cx="260" cy="70" r="22" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="260" y="74" text-anchor="middle" fill="#1a202c" font-size="10" font-weight="700">30д</text>
+          <circle cx="448" cy="70" r="22" fill="#2f855a" stroke="#fff" stroke-width="2"/>
+          <text x="448" y="76" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">СИП</text>
+          <rect x="24" y="108" width="130" height="26" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="89" y="125" text-anchor="middle" fill="#e2e8f0" font-size="9">~24 ч апелляция</text>
+          <rect x="195" y="108" width="130" height="26" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="260" y="125" text-anchor="middle" fill="#e2e8f0" font-size="9">ст. 1252 ГК РФ</text>
+          <rect x="366" y="108" width="130" height="26" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="431" y="125" text-anchor="middle" fill="#e2e8f0" font-size="9">отзыв ст. 131 АПК</text>
+          <text x="72" y="38" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="600">WB / Ozon</text>
+          <text x="260" y="38" text-anchor="middle" fill="#faf089" font-size="9" font-weight="600">претензия</text>
+          <text x="448" y="38" text-anchor="middle" fill="#9ae6b4" font-size="9" font-weight="600">компенсация</text>
+        </svg>
+        <ol class="l24-boris-tz-ip__steps">
+          <li class="l24-boris-tz-ip__step">
+            <strong>Маркетплейс</strong>
+            Жалоба → блокировка карточки; WB до 10 раб. дн., Ozon 5–14 раб. дн. Пакет: свидетельство, лицензия, сравнение знаков.
+          </li>
+          <li class="l24-boris-tz-ip__step">
+            <strong>Претензия</strong>
+            30 дней до иска (ст. 1252). Ответ: сходство, однородность, расчёт компенсации, добросовестность.
+          </li>
+          <li class="l24-boris-tz-ip__step">
+            <strong>Суд</strong>
+            Иск в СИП → отзыв → ст. 1486 (неиспользование знака истца) + оспаривание суммы по ст. 1252.1.
+          </li>
+        </ol>
+      </div>
+
+      <div class="l24-boris-tz-ip__panel">
+        <p class="l24-boris-tz-ip__panel-title">Компенсация 2026 (ст. 1515, 1252.1)</p>
+        <div class="l24-boris-tz-ip__comp-grid">
+          <div class="l24-boris-tz-ip__comp-card">
+            <span class="l24-boris-tz-ip__comp-label">Твёрдая</span>
+            <span class="l24-boris-tz-ip__comp-value">10–20 млн ₽</span>
+          </div>
+          <div class="l24-boris-tz-ip__comp-card">
+            <span class="l24-boris-tz-ip__comp-label">Снижение без вины</span>
+            <span class="l24-boris-tz-ip__comp-value">10–500 тыс.</span>
+          </div>
+          <div class="l24-boris-tz-ip__comp-card l24-boris-tz-ip__comp-card--wide">
+            <span class="l24-boris-tz-ip__comp-label">2× товар или 2× лицензия — без потолка</span>
+            <span class="l24-boris-tz-ip__comp-value">десятки–сотни млн</span>
+          </div>
+        </div>
+        <p class="l24-boris-tz-ip__comp-note"><em>Один товар — одно нарушение</em> (ст. 1252.1): нельзя умножать ТЗ + дизайн + фото на одной карточке без самостоятельной ценности каждого способа.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-tz-ip__roles" aria-label="Две роли в одном маршруте">
+      <span class="l24-boris-tz-ip__role l24-boris-tz-ip__role--owner">Правообладатель: мониторинг МП → претензия → иск</span>
+      <span class="l24-boris-tz-ip__role l24-boris-tz-ip__role--def">Ответчик: апелляция → ответ 30 дн. → отзыв + 1486 / 1252.1</span>
+    </div>
+  </div>
+</section>
+
+<h2 id="tz-lawsuit">Иск по товарному знаку и защита интеллектуальной собственности в суде</h2>
+
+<p>Если досудебка не сработала, правообладатель подаёт <strong>иск по товарному знаку</strong> (иск о нарушении исключительных прав, <strong>иск на нарушение товарного знака</strong>). Подсудность — арбитраж для юрлиц и ИП, суды общей юрисдикции — для потребительских сюжетов; значимые споры по ИС часто попадают в <strong>Суд по интеллектуальным правам (СИП)</strong>.</p>
+
+<h3>Иск на нарушение товарного знака и иск о нарушении исключительных прав</h3>
+
+<p>Исковые требования типовые: прекратить нарушение, взыскать <strong>компенсацию</strong>, иногда — опубликовать решение, изъять контрафакт. Истец должен доказать принадлежность права и факт нарушения; <strong>бремя доказывания отсутствия вины</strong> на ответчике (презумпция ст. 1250). По размеру компенсации истец представляет <strong>расчёт и доказательства</strong> (п. 61 ППВС № 10 от 23.04.2019) — это точка для оспаривания завышенных цифр.</p>
+
+<h3>Иск по интеллектуальной собственности: если вы ответчик</h3>
+
+<p>Сценарий «<strong>подали иск по интеллектуальной собственности</strong>» или «<strong>иск по товарному знаку</strong> против магазина» в 2026 году включает:</p>
+<ol>
+  <li>Получение искового заявления и приложений (копия свидетельства, протоколы осмотра карточек, расчёт).</li>
+  <li>Подготовка <strong>отзыва на иск</strong> (ст. 131 АПК РФ) — по каждому доводу истца, с доказательствами.</li>
+  <li>Проверка <strong>исковой давности</strong> — суды обязаны учитывать момент, когда истец узнал или должен был узнать о нарушении (актуальна практика ВС, в т.ч. определение № 305-ЭС25-4071 от 14.08.2025).</li>
+  <li>Параллельная подача <strong>возражений</strong> на регистрацию или заявление о <strong>досрочном прекращении</strong> охраны знака истца при неиспользовании (ст. 1486).</li>
+  <li>Ходатайства о снижении компенсации по п. 7 ст. 1252.1 при отсутствии вины.</li>
+</ol>
+
+<p><strong>Ответ на иск по интеллектуальной собственности</strong> и <strong>отзыв на иск товарный знак</strong> — разные документы по смыслу: отзыв — процессуальный ответ в суд; «ответ на иск» в быту — вся стратегия защиты.</p>
+
+<h3>Что делать, если подали иск — сроки, возражения, доказательства</h3>
+
+<table>
+  <thead><tr><th>Шаг</th><th>Срок/действие</th><th>Содержание</th></tr></thead>
+  <tbody>
+    <tr><td>Отзыв</td><td>В срок, установленный судом (ст. 131 АПК)</td><td>Возражения по доводам, доказательства, направление другой стороне</td></tr>
+    <tr><td>Доказательства</td><td>До заседания</td><td>Лицензия, договоры поставки, экспертиза несходства, ваш знак</td></tr>
+    <tr><td>Встречный иск / заявление</td><td>По стратегии</td><td>Неиспользование знака истца 3 года (ст. 1486)</td></tr>
+    <tr><td>Обеспечительные меры</td><td>По обстоятельствам</td><td>Запрет требований или блокировка исполнения</td></tr>
+  </tbody>
+</table>
+
+<p>Подать <strong>отзыв на исковое заявление</strong> можно через систему «Мой арбитр» или заказным письмом с доказательством вручения. Формальный отказ от отзыва лишает суд аргументов ответчика — ошибка, которую исправляют не всегда.</p>
+
+<h3>Судебная защита товарных знаков и судебная практика</h3>
+
+<p><strong>Судебная защита товарных знаков</strong> в 2025–2026 годах опирается на мотивированное обоснование компенсации: известность знака, характер нарушения, срок, вина, разумность (постановление СИП по делу <strong>С01-1833/2025</strong> от 24.04.2026). Ответчику выгодно поднимать: кратность объектов на одной карточке (ст. 1252.1), отсутствие вины, завышенный расчёт 2× лицензии, <strong>досрочное прекращение охраны</strong> знака истца при неиспользовании — бремя доказывания использования лежит на правообладателе (справка СП-23/20; активизация практики в 2025 году).</p>
+
+<h2 id="tz-compensation">Компенсация и взыскание: как снизить сумму требований</h2>
+
+<p>С 04.01.2026 <strong>верхний предел «твёрдой» компенсации</strong> по товарному знаку — <strong>10 000 000 ₽</strong> (ранее — 5 млн); при <strong>грубом</strong> или <strong>множественном</strong> нарушении — до <strong>20 000 000 ₽</strong> (ст. 1515 ГК РФ в новой редакции). Нижний предел — <strong>10 000 ₽</strong>.</p>
+
+<p>Правообладатель выбирает один из <strong>трёх способов</strong> расчёта (п. 4 ст. 1515):</p>
+<ol>
+  <li><strong>От 10 тыс. до 10 млн</strong> — по усмотрению суда в указанном диапазоне.</li>
+  <li><strong>Двукратная стоимость контрафактных товаров</strong> — зависит от объёма продаж.</li>
+  <li><strong>Двукратная стоимость права использования</strong> (лицензионный эквивалент) — <strong>без числового потолка</strong>; в крупных брендах эксперты указывают на суммы в десятки и сотни миллионов рублей.</li>
+</ol>
+
+<h3>Компенсация за нарушение товарного знака — расчёт</h3>
+
+<p>Истец обязан показать основания выбора способа и цифры. Ответчик оспаривает: метод (например, завышенная «лицензия»), объём нарушения, период, <strong>один товар — одно нарушение</strong>, отсутствие вины. Суд вправе снизить «твёрдую» компенсацию, если нарушитель <strong>не знал и не должен был знать</strong> о нарушении, — <strong>вплоть до диапазона 10 000–500 000 ₽</strong> (п. 7 ст. 1252.1). Ожидается развитие практики с учётом публичности реестра ТЗ — добросовестный селлер, проверивший реестр, сильнее аргументирует позицию.</p>
+
+<h3>Взыскание компенсации за использование товарного знака</h3>
+
+<p><strong>Взыскание компенсации</strong> может сопровождаться требованиями о прекращении использования и удалении карточек. На маркетплейсах блокировка часто наступает <strong>до суда</strong> — у продавца около <strong>24 часов</strong> на апелляцию с пакетом: свидетельство на ваш знак, лицензия, сравнение обозначений, документы на товар. Wildberries Brand Analytics рассматривает жалобы до <strong>10 рабочих дней</strong>, Ozon «Защита бренда» — <strong>5–14 рабочих дней</strong>.</p>
+
+<p>Переходный период реформы: нарушения, начавшиеся до 04.01.2026, могут оцениваться по правилам, действовавшим на момент нарушения — это важно в длительных спорах.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Иск в СИП, расчёт на миллионы по 2× лицензии или претензия с компенсацией до 10–20 млн — спор, где ошибка в отзыве и доказательствах дороже консультации. Обсудите стратегию: отзыв, ст. 1486, снижение по ст. 1252.1.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь при иске по интеллектуальной собственности</a></p>
+</aside>
+
+<h2 id="tz-practice">Как защитить товарный знак и бренд на практике</h2>
+
+<h3>Способы защиты прав на товарный знак (гражданско-правовые меры)</h3>
+
+<p><strong>Защита товарного знака</strong> и <strong>защита прав правообладателя товарного знака</strong> включают:</p>
+<ul>
+  <li>подачу претензии и иска о прекращении нарушения;</li>
+  <li>взыскание компенсации;</li>
+  <li>обращение в таможню (при импорте контрафакта);</li>
+  <li>жалобу на маркетплейс (Brand Analytics, «Защита бренда»);</li>
+  <li><strong>защиту исключительного права на товарный знак</strong> через публикацию судебного акта.</li>
+</ul>
+
+<p>Для ответчика зеркальные инструменты: отзыв, оспаривание расчёта, <strong>возражение на исковое заявление</strong> по существу, заявление по ст. 1486.</p>
+
+<h3>Защита права на товарный знак в РФ и в интернете</h3>
+
+<p><strong>Правовая защита бренда</strong> в онлайне — мониторинг карточек конкурентов, фиксация осмотра сайта (нотариус, протокол), своевременное обновление реестра (продление, изменение адреса). При выходе на МП — отдельная проверка класса 35 и смежных (09, 16, 25 и т.д. по ассортименту).</p>
+
+<p><strong>Как защитить товарный знак</strong> до конфликта:</p>
+<ol>
+  <li>Регистрация в нужных классах МКТУ.</li>
+  <li>Документирование первого использования (если спор о неохраняемом элементе).</li>
+  <li>Лицензии и сублицензии в цепочке поставок.</li>
+  <li>Мониторинг реестра и маркетплейсов.</li>
+  <li>Быстрая реакция на копирование карточки (жалоба + претензия).</li>
+</ol>
+
+<h3>Когда нужен юрист по интеллектуальной собственности</h3>
+
+<p>Обращение к специалисту оправдано, если:</p>
+<ul>
+  <li>сумма компенсации в претензии или иске <strong>сопоставима с оборотом</strong> или превышает его;</li>
+  <li>заблокированы ключевые карточки на WB/Ozon;</li>
+  <li>истец — крупный бренд с расчётом <strong>2× лицензии</strong>;</li>
+  <li>возможен <strong>иск о защите интеллектуальной собственности</strong> в СИП;</li>
+  <li>вы правообладатель и нужна связка «мониторинг МП → претензия → иск».</li>
+</ul>
+
+<p><strong>Иски о защите интеллектуальной собственности</strong> и <strong>защита товарного знака иск</strong> — одна матрица: роль (истец/ответчик), стадия (МП, претензия, суд), инструмент (отзыв, 1486, 1252.1). На любом этапе можно <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">обсудить ситуацию с юристом по ИС</a> — от регистрации знака до ответа на иск.</p>
+
+<h2>Маркетплейсы: что происходит до суда</h2>
+
+<p>Типовой сценарий для селлера:</p>
+<ol>
+  <li>Жалоба правообладателя → <strong>блокировка карточки</strong> (иногда в течение суток).</li>
+  <li>Апелляция с документами (свидетельство, лицензия, сравнение знаков).</li>
+  <li>Параллельно — <strong>досудебная претензия</strong> с требованием компенсации.</li>
+  <li>При отказе — <strong>иск по товарному знаку</strong>.</li>
+</ol>
+
+<p>Чек-лист доказательств для апелляции и суда: скриншоты карточек, классы МКТУ, заключение о несходстве, договоры на товар, ваш знак в реестре, переписка с правообладателем.</p>
+
+
+<section id="tz-faq" class="l24-faq-tz" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2>FAQ: короткие ответы</h2>
+
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Что такое нарушение товарного знака?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Использование сходного обозначения без согласия правообладателя в отношении однородных товаров/услуг.</p>
+    </div>
+  </div>
+
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Обязательна ли претензия перед иском?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">По общему правилу ст. 1252 ГК РФ — да, 30 дней с направления претензии по имущественным требованиям.</p>
+    </div>
+  </div>
+
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Какой максимум «твёрдой» компенсации с 2026 года?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">10 млн ₽ (до 20 млн при грубом/множественном нарушении); альтернатива 2× товар или 2× лицензия — без потолка.</p>
+    </div>
+  </div>
+
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Что такое ст. 1252.1 ГК РФ?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Правила компенсации, в т.ч. «один товар — одно нарушение» и снижение при отсутствии вины до 10–500 тыс. ₽.</p>
+    </div>
+  </div>
+
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Что делать, если подали иск по товарному знаку?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Подготовить отзыв по ст. 131 АПК, собрать доказательства, проверить давность, рассмотреть заявление по ст. 1486 о неиспользовании знака истца.</p>
+    </div>
+  </div>
+
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Как снизить компенсацию?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Доказать отсутствие вины, оспорить расчёт, применить п. 7 ст. 1252.1, указать на кратное взыскание за несколько объектов на одной карточке.</p>
+    </div>
+  </div>
+
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Можно ли отменить чужой товарный знак?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">При неиспользовании более 3 лет подряд — досрочное прекращение охраны (ст. 1486); бремя доказывания использования — на правообладателе.</p>
+    </div>
+  </div>
+</section>
+
+<h2>Итог</h2>
+<p><strong>Защита товарного знака</strong> и <strong>защита бренда</strong> в 2026 году — это регистрация и проверка коллизий (особенно класс 35 МКТУ), быстрая реакция на маркетплейсах, грамотный ответ на претензию и <strong>отзыв на иск</strong> с контрходами по компенсации (214-ФЗ, ст. 1252.1) и <strong>неиспользованию</strong> знака истца (ст. 1486). Независимо от роли — правообладатель или ответчик — выигрывает тот, кто заранее фиксирует доказательства и связывает досудебку, МП и суд в одну стратегию.</p>
+<p><em>Материал носит информационный характер и не заменяет юридическую консультацию. Нормы ГК РФ ч. 4, АПК РФ, ФЗ № 214-ФЗ уточняйте по официальным текстам и с учётом вашей ситуации.</em></p>
+</div>
+</main>
+<!-- /wp:html -->
+
+```
+
+## Передача Юре
+
+**Title:** Защита товарного знака и бренда: иск, претензия, компенсация — что делать  
+**Description:** Нарушение товарного знака и иск по ИС: как защитить бренд, ответить на претензию и снизить компенсацию. Регистрация, права правообладателя, суд — консультация юриста Legis24.  
+**slug:** `zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti`  
+**page_id:** `PLACEHOLDER` (заполнить после `wordpress_create_page`)
+
+**Публикация:** `commands/nero-publish-mcp.md` — blob flow, удалить `<script>` если появятся; обернуть в `<!-- wp:html -->`.
+
+**JSON-LD** (добавить через Rank Math / Custom HTML head, не в blob):
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Товарный знак: как защитить бренд и что делать, если подали иск по интеллектуальной собственности",
+      "description": "Нарушение товарного знака и иск по ИС: как защитить бренд, ответить на претензию и снизить компенсацию. Регистрация, права правообладателя, суд — консультация юриста Legis24.",
+      "author": {"@type": "Organization", "name": "Legis24"},
+      "publisher": {"@type": "Organization", "name": "Legis24"},
+      "dateModified": "2026-05-22",
+      "inLanguage": "ru-RU"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Что такое нарушение товарного знака?", "acceptedAnswer": {"@type": "Answer", "text": "Использование сходного обозначения без согласия правообладателя в отношении однородных товаров/услуг."}},
+        {"@type": "Question", "name": "Обязательна ли претензия перед иском?", "acceptedAnswer": {"@type": "Answer", "text": "По общему правилу ст. 1252 ГК РФ — да, 30 дней с направления претензии по имущественным требованиям."}},
+        {"@type": "Question", "name": "Какой максимум твёрдой компенсации с 2026 года?", "acceptedAnswer": {"@type": "Answer", "text": "10 млн ₽ (до 20 млн при грубом/множественном нарушении); альтернатива 2× товар или 2× лицензия — без потолка."}},
+        {"@type": "Question", "name": "Что делать, если подали иск по товарному знаку?", "acceptedAnswer": {"@type": "Answer", "text": "Подготовить отзыв по ст. 131 АПК, собрать доказательства, проверить давность, рассмотреть заявление по ст. 1486."}}
+      ]
+    }
+  ]
+}
+```
+
+**Проверка live:** `main#primary`, класс `zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti-page`, hero `#l24-hero-tz-ip`, блок `#l24-boris-tz-ip-track`, breadcrumbs скрыты, CTA только https://advokat-vsem.ru/
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО
+
+Код: A6  
+page_id: 339  
+slug: zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti  
+URL: https://advokat-vsem.online/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/
+
+MCP Kovcheg (без FTP):
+1. `wordpress_content_blob_append` — publish-chunk-0.json (reset=true), publish-chunk-1.json, publish-chunk-2.json (finalize=true); blob_id `1CPzauu7UCFD3K2QxUxtsFCL`, sha256 `7a372237b3efbd58803e8370ae91fca29dbd7bf5198b925c713e9e0f661fd0a0`
+2. `wordpress_update_page_from_blob` — page_id 339
+3. `wordpress_update_page` — status=publish, excerpt из publish-meta.json
+
+Excerpt: Нарушение товарного знака и иск по ИС: как защитить бренд, ответить на претензию и снизить компенсацию. Регистрация, права правообладателя, суд — консультация юриста Legis24.
+
+Обновлено: published-pages.md, content-plan-legis24.md (строка A6 ✅ page_id 339)
