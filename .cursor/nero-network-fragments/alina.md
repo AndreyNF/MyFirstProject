@@ -1,9 +1,9 @@
 === АЛИНА (HERO) ===
 Статус: ✅ ГОТОВО
 
-<section id="l24-hero-tz-ip" class="hero-tz-ip" aria-label="Защита товарного знака и бренда">
+<section id="l24-hero-ug-dolg" class="hero-ug-dolg" aria-label="Уголовные риски при долгах">
   <style>
-    .hero-tz-ip {
+    .hero-ug-dolg {
       position: relative;
       min-height: 100vh;
       min-height: 100dvh;
@@ -11,21 +11,21 @@
       display: flex;
       align-items: center;
       padding: 120px 24px 80px;
-      background: linear-gradient(165deg, #f8fafc 0%, #eef2f7 42%, #f5f0eb 100%);
-      color: #1a2332;
+      background: linear-gradient(165deg, #f8fafc 0%, #eef2f7 45%, #e8eef6 100%);
+      color: #0f172a;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .hero-tz-ip::before {
+    .hero-ug-dolg::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 70% 50% at 85% 20%, rgba(30, 64, 175, 0.07) 0%, transparent 55%),
-        radial-gradient(ellipse 50% 40% at 10% 80%, rgba(163, 24, 48, 0.05) 0%, transparent 50%);
+        radial-gradient(ellipse 65% 55% at 88% 18%, rgba(15, 23, 42, 0.08) 0%, transparent 58%),
+        radial-gradient(ellipse 45% 40% at 8% 85%, rgba(30, 58, 138, 0.06) 0%, transparent 52%);
       pointer-events: none;
     }
-    .hero-tz-ip__inner {
+    .hero-ug-dolg__inner {
       position: relative;
       z-index: 1;
       max-width: 1200px;
@@ -36,28 +36,28 @@
       gap: 48px;
       align-items: center;
     }
-    .hero-tz-ip__badge {
+    .hero-ug-dolg__badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
       margin: 0 0 18px;
       padding: 8px 14px;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.85);
-      border: 1px solid rgba(26, 35, 50, 0.1);
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(15, 23, 42, 0.12);
       font-size: 0.82rem;
       font-weight: 600;
       letter-spacing: 0.02em;
       color: #334155;
     }
-    .hero-tz-ip__badge-dot {
+    .hero-ug-dolg__badge-dot {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #1e40af;
+      background: #0f2744;
       flex-shrink: 0;
     }
-    .hero-tz-ip__h1 {
+    .hero-ug-dolg__h1 {
       margin: 0 0 18px;
       font-size: clamp(1.65rem, 3.8vw, 2.45rem);
       line-height: 1.18;
@@ -65,22 +65,22 @@
       color: #0f172a;
       letter-spacing: -0.02em;
     }
-    .hero-tz-ip__h1-accent {
-      color: #1e40af;
+    .hero-ug-dolg__h1-accent {
+      color: #1e3a8a;
     }
-    .hero-tz-ip__sub {
+    .hero-ug-dolg__sub {
       margin: 0 0 28px;
       max-width: 38em;
       font-size: clamp(1rem, 1.6vw, 1.12rem);
       line-height: 1.55;
       color: #475569;
     }
-    .hero-tz-ip__steps {
+    .hero-ug-dolg__steps {
       list-style: none;
       padding: 0;
       margin: 0 0 32px;
     }
-    .hero-tz-ip__step {
+    .hero-ug-dolg__step {
       display: flex;
       gap: 14px;
       align-items: flex-start;
@@ -89,12 +89,12 @@
       line-height: 1.45;
       color: #334155;
     }
-    .hero-tz-ip__step-num {
+    .hero-ug-dolg__step-num {
       flex-shrink: 0;
       width: 30px;
       height: 30px;
       border-radius: 50%;
-      background: #1e40af;
+      background: #0f2744;
       color: #fff;
       font-weight: 700;
       font-size: 0.82rem;
@@ -102,7 +102,7 @@
       align-items: center;
       justify-content: center;
     }
-    .hero-tz-ip__cta {
+    .hero-ug-dolg__cta {
       display: inline-block;
       background: #a31830;
       color: #fff !important;
@@ -113,139 +113,164 @@
       text-decoration: none;
       box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
     }
-    .hero-tz-ip__cta:hover {
+    .hero-ug-dolg__cta:hover {
       background: #8b1528;
     }
-    .hero-tz-ip__visual {
+    .hero-ug-dolg__visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
     @media (max-width: 900px) {
-      .hero-tz-ip__inner {
+      .hero-ug-dolg__inner {
         grid-template-columns: 1fr;
         gap: 32px;
       }
-      .hero-tz-ip__visual {
+      .hero-ug-dolg__visual {
         order: -1;
-        max-height: 280px;
+        max-height: 300px;
       }
     }
   </style>
-  <div class="hero-tz-ip__inner">
-    <div class="hero-tz-ip__content">
-      <div class="hero-tz-ip__badge">
-        <span class="hero-tz-ip__badge-dot" aria-hidden="true"></span>
-        ИС · товарный знак · ГК РФ ч. 4 · 2026
+  <div class="hero-ug-dolg__inner">
+    <div class="hero-ug-dolg__content">
+      <div class="hero-ug-dolg__badge">
+        <span class="hero-ug-dolg__badge-dot" aria-hidden="true"></span>
+        УГ · долги · ст. 159 / 177 · карта рисков · 2026
       </div>
-      <h1 class="hero-tz-ip__h1">
-        <span class="hero-tz-ip__h1-accent">Товарный знак:</span> как защитить бренд и что делать, если подали иск
+      <h1 class="hero-ug-dolg__h1">
+        <span class="hero-ug-dolg__h1-accent">Уголовные риски при долгах:</span> мошенничество и злостное уклонение
       </h1>
-      <p class="hero-tz-ip__sub">
-        Нарушение прав, претензия и иск по товарному знаку: судебная защита, компенсация и ответ на требования правообладателя
+      <p class="hero-ug-dolg__sub">
+        Ст. 159 и 177 УК: когда долг становится уголовным делом, что делать при проверке и как защититься
       </p>
-      <ol class="hero-tz-ip__steps">
-        <li class="hero-tz-ip__step">
-          <span class="hero-tz-ip__step-num">1</span>
-          <span><strong>Реестр и бренд</strong> — регистрация в Роспатенте, проверка коллизий, класс 35 МКТУ</span>
+      <ol class="hero-ug-dolg__steps">
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">1</span>
+          <span><strong>Просрочка и суд</strong> — претензия, приказ (10 дней), пока в основном гражданское взыскание</span>
         </li>
-        <li class="hero-tz-ip__step">
-          <span class="hero-tz-ip__step-num">2</span>
-          <span><strong>Претензия 30 дней</strong> — досудебный ответ до иска, маркетплейс и расчёт компенсации</span>
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">2</span>
+          <span><strong>Исполнительное производство</strong> — пристав, арест счетов, предупреждение о ст. 177 при крупной сумме</span>
         </li>
-        <li class="hero-tz-ip__step">
-          <span class="hero-tz-ip__step-num">3</span>
-          <span><strong>Иск и защита</strong> — отзыв по ст. 131 АПК, ст. 1486 и снижение по ст. 1252.1</span>
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">3</span>
+          <span><strong>Уголовные риски</strong> — ст. 159 / 159.1 (обман), ст. 177 (злостное уклонение), проверка и защита</span>
         </li>
       </ol>
-      <a class="hero-tz-ip__cta" href="https://advokat-vsem.ru/">Консультация по защите бренда и ответу на иск</a>
+      <a class="hero-ug-dolg__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовным рискам при долге</a>
     </div>
-    <div class="hero-tz-ip__visual" aria-hidden="true">
-      <svg viewBox="0 0 420 380" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px" role="img" aria-label="Щит, товарный знак и правовая защита бренда">
+    <div class="hero-ug-dolg__visual" aria-hidden="true">
+      <svg viewBox="0 0 420 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px" role="img" aria-label="Весы правосудия и карта рисков должника: просрочка, суд, пристав, статьи 159 и 177">
         <defs>
-          <linearGradient id="hero-tz-shield" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#1e40af"/>
-            <stop offset="100%" stop-color="#3b82f6"/>
+          <linearGradient id="hero-ug-scene" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0f2744"/>
+            <stop offset="55%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#172554"/>
           </linearGradient>
-          <linearGradient id="hero-tz-card" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-ug-panel" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-ug-card" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#ffffff"/>
             <stop offset="100%" stop-color="#f1f5f9"/>
           </linearGradient>
-          <filter id="hero-tz-shadow" x="-10%" y="-10%" width="120%" height="120%">
-            <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#1e293b" flood-opacity="0.12"/>
+          <linearGradient id="hero-ug-road" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#93c5fd"/>
+            <stop offset="50%" stop-color="#60a5fa"/>
+            <stop offset="100%" stop-color="#fbbf24"/>
+          </linearGradient>
+          <filter id="hero-ug-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity="0.28"/>
           </filter>
+          <filter id="hero-ug-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1e293b" flood-opacity="0.14"/>
+          </filter>
+          <marker id="hero-ug-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#93c5fd"/>
+          </marker>
         </defs>
-        <!-- фоновая сетка реестра -->
-        <g opacity="0.35" stroke="#94a3b8" stroke-width="0.6">
-          <line x1="40" y1="60" x2="380" y2="60"/>
-          <line x1="40" y1="100" x2="380" y2="100"/>
-          <line x1="40" y1="140" x2="380" y2="140"/>
-          <line x1="40" y1="180" x2="380" y2="180"/>
-          <line x1="80" y1="40" x2="80" y2="340"/>
-          <line x1="160" y1="40" x2="160" y2="340"/>
-          <line x1="240" y1="40" x2="240" y2="340"/>
-          <line x1="320" y1="40" x2="320" y2="340"/>
+        <!-- тёмно-синяя юридическая сцена -->
+        <rect x="16" y="24" width="388" height="352" rx="18" fill="url(#hero-ug-scene)" stroke="#0c1a33" stroke-width="1.5"/>
+        <text x="210" y="52" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="700" letter-spacing="0.14em">КАРТА РИСКОВ ДОЛЖНИКА</text>
+        <line x1="48" y1="62" x2="372" y2="62" stroke="rgba(148,163,184,0.35)" stroke-width="1"/>
+        <!-- дорожная карта стадий -->
+        <g transform="translate(36, 78)">
+          <rect x="0" y="0" width="348" height="56" rx="10" fill="rgba(15,23,42,0.45)" stroke="rgba(147,197,253,0.25)" stroke-width="1"/>
+          <line x1="28" y1="28" x2="320" y2="28" stroke="url(#hero-ug-road)" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+          <g fill="none" stroke="#93c5fd" stroke-width="1.6" marker-end="url(#hero-ug-arrow)">
+            <line x1="72" y1="28" x2="118" y2="28"/>
+            <line x1="166" y1="28" x2="212" y2="28"/>
+            <line x1="260" y1="28" x2="306" y2="28"/>
+          </g>
+          <circle cx="44" cy="28" r="14" fill="#1e40af" stroke="#bfdbfe" stroke-width="2"/>
+          <text x="44" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">1</text>
+          <text x="44" y="50" text-anchor="middle" fill="#cbd5e1" font-size="7.5" font-weight="700">ПРОСРОЧКА</text>
+          <circle cx="140" cy="28" r="14" fill="#2563eb" stroke="#bfdbfe" stroke-width="2"/>
+          <text x="140" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">2</text>
+          <text x="140" y="50" text-anchor="middle" fill="#cbd5e1" font-size="7.5" font-weight="700">СУД</text>
+          <circle cx="236" cy="28" r="14" fill="#1d4ed8" stroke="#fde68a" stroke-width="2"/>
+          <text x="236" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">3</text>
+          <text x="236" y="50" text-anchor="middle" fill="#fde68a" font-size="7.5" font-weight="700">ПРИСТАВ</text>
+          <circle cx="332" cy="28" r="14" fill="#a31830" stroke="#fecaca" stroke-width="2"/>
+          <text x="332" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">!</text>
+          <text x="332" y="50" text-anchor="middle" fill="#fecaca" font-size="7.5" font-weight="700">УГ · 177</text>
         </g>
-        <!-- карточка бренда -->
-        <g filter="url(#hero-tz-shadow)" transform="translate(28, 52)">
-          <rect width="118" height="72" rx="10" fill="url(#hero-tz-card)" stroke="#cbd5e1" stroke-width="1.2"/>
-          <rect x="14" y="16" width="48" height="10" rx="3" fill="#e2e8f0"/>
-          <rect x="14" y="34" width="88" height="8" rx="2" fill="#e2e8f0"/>
-          <rect x="14" y="48" width="64" height="8" rx="2" fill="#e2e8f0"/>
-          <circle cx="96" cy="22" r="14" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-          <text x="96" y="27" text-anchor="middle" fill="#92400e" font-size="14" font-weight="800" font-family="Georgia, serif">®</text>
-          <text x="59" y="68" text-anchor="middle" fill="#64748b" font-size="9" font-weight="600">БРЕНД</text>
+        <!-- весы правосудия (центр) -->
+        <g filter="url(#hero-ug-shadow)" transform="translate(210, 218)">
+          <ellipse cx="0" cy="52" rx="58" ry="10" fill="rgba(0,0,0,0.25)"/>
+          <rect x="-5" y="-8" width="10" height="72" rx="3" fill="url(#hero-ug-panel)" stroke="#93c5fd" stroke-width="1.2"/>
+          <line x1="-52" y1="4" x2="52" y2="4" stroke="#e2e8f0" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="0" y1="4" x2="0" y2="-8" stroke="#e2e8f0" stroke-width="2"/>
+          <path d="M-52,4 L-68,28 L-36,28 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M52,4 L36,28 L68,28 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4"/>
+          <text x="-52" y="42" text-anchor="middle" fill="#64748b" font-size="7" font-weight="700">ГРАЖД.</text>
+          <text x="52" y="42" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">УГОЛ.</text>
+          <circle cx="0" cy="-22" r="20" fill="#1e40af" stroke="#bfdbfe" stroke-width="2"/>
+          <text x="0" y="-17" text-anchor="middle" fill="#fff" font-size="11" font-weight="800">§</text>
         </g>
-        <!-- претензия -->
-        <g filter="url(#hero-tz-shadow)" transform="translate(268, 48)">
-          <rect width="124" height="88" rx="10" fill="url(#hero-tz-card)" stroke="#cbd5e1" stroke-width="1.2"/>
-          <text x="62" y="22" text-anchor="middle" fill="#a31830" font-size="10" font-weight="700">ПРЕТЕНЗИЯ</text>
-          <line x1="18" y1="34" x2="106" y2="34" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
-          <line x1="18" y1="48" x2="90" y2="48" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
-          <line x1="18" y1="62" x2="78" y2="62" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
-          <rect x="18" y="72" width="52" height="10" rx="4" fill="#fef2f2" stroke="#fecaca"/>
-          <text x="44" y="80" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">30 дней</text>
+        <!-- ст. 159 -->
+        <g filter="url(#hero-ug-shadow-soft)" transform="translate(32, 152)">
+          <rect width="108" height="64" rx="10" fill="url(#hero-ug-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="108" height="22" rx="10" fill="#1e3a8a"/>
+          <rect x="0" y="12" width="108" height="10" fill="#1e3a8a"/>
+          <text x="54" y="15" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">ст. 159 УК</text>
+          <text x="54" y="36" text-anchor="middle" fill="#0f172a" font-size="8" font-weight="700">Мошенничество</text>
+          <text x="54" y="50" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">обман · долг · кредит</text>
         </g>
-        <!-- центральный щит с ® -->
-        <g filter="url(#hero-tz-shadow)" transform="translate(210, 168)">
-          <path d="M0,-72 L52,-52 L52,8 C52,42 26,62 0,78 C-26,62 -52,42 -52,8 L-52,-52 Z" fill="url(#hero-tz-shield)" stroke="#1e3a8a" stroke-width="2"/>
-          <circle cx="0" cy="-8" r="28" fill="rgba(255,255,255,0.18)"/>
-          <text x="0" y="2" text-anchor="middle" fill="#ffffff" font-size="36" font-weight="800" font-family="Georgia, serif">®</text>
-          <text x="0" y="58" text-anchor="middle" fill="#ffffff" font-size="9" font-weight="700" letter-spacing="0.08em">ЗАЩИТА</text>
+        <!-- ст. 177 -->
+        <g filter="url(#hero-ug-shadow-soft)" transform="translate(280, 152)">
+          <rect width="108" height="64" rx="10" fill="url(#hero-ug-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="108" height="22" rx="10" fill="#0f2744"/>
+          <rect x="0" y="12" width="108" height="10" fill="#0f2744"/>
+          <text x="54" y="15" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">ст. 177 УК</text>
+          <text x="54" y="36" text-anchor="middle" fill="#0f172a" font-size="8" font-weight="700">Злостное уклонение</text>
+          <text x="54" y="50" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">суд · ФССП · &gt;2,25 млн</text>
         </g>
-        <!-- иск / суд -->
-        <g filter="url(#hero-tz-shadow)" transform="translate(52, 248)">
-          <rect width="130" height="76" rx="10" fill="url(#hero-tz-card)" stroke="#cbd5e1" stroke-width="1.2"/>
-          <path d="M20,24 L45,24 L52,14 L59,24 L84,24 L84,58 L20,58 Z" fill="none" stroke="#1e40af" stroke-width="1.8" stroke-linejoin="round"/>
-          <line x1="32" y1="36" x2="72" y2="36" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
-          <line x1="32" y1="48" x2="58" y2="48" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
-          <text x="65" y="70" text-anchor="middle" fill="#475569" font-size="9" font-weight="700">ИСК · СИП</text>
+        <!-- исполнительное производство -->
+        <g filter="url(#hero-ug-shadow-soft)" transform="translate(48, 300)">
+          <rect width="124" height="58" rx="10" fill="url(#hero-ug-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <path d="M22,18 L38,18 L44,12 L50,18 L66,18 L66,42 L22,42 Z" fill="none" stroke="#1e40af" stroke-width="1.6" stroke-linejoin="round"/>
+          <line x1="30" y1="28" x2="58" y2="28" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="30" y1="36" x2="48" y2="36" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <text x="62" y="52" text-anchor="middle" fill="#475569" font-size="8" font-weight="700">ИП · ПРИСТАВ</text>
         </g>
-        <!-- компенсация -->
-        <g filter="url(#hero-tz-shadow)" transform="translate(238, 252)">
-          <rect width="134" height="72" rx="10" fill="url(#hero-tz-card)" stroke="#cbd5e1" stroke-width="1.2"/>
-          <text x="67" y="22" text-anchor="middle" fill="#0f172a" font-size="10" font-weight="700">214-ФЗ · 2026</text>
-          <text x="67" y="44" text-anchor="middle" fill="#1e40af" font-size="18" font-weight="800">10 млн ₽</text>
-          <text x="67" y="58" text-anchor="middle" fill="#64748b" font-size="8" font-weight="600">ст. 1252.1 · 1515</text>
+        <!-- доследственная проверка -->
+        <g filter="url(#hero-ug-shadow-soft)" transform="translate(248, 300)">
+          <rect width="124" height="58" rx="10" fill="url(#hero-ug-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <circle cx="34" cy="28" r="14" fill="#fef2f2" stroke="#a31830" stroke-width="1.4"/>
+          <text x="34" y="32" text-anchor="middle" fill="#a31830" font-size="12" font-weight="800">!</text>
+          <text x="78" y="24" text-anchor="middle" fill="#0f172a" font-size="8" font-weight="700">Проверка</text>
+          <text x="78" y="38" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">доследств. · защита</text>
+          <text x="78" y="50" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="700">ст. 51 Конституции</text>
         </g>
-        <!-- стрелки цепочки -->
-        <g fill="none" stroke="#64748b" stroke-width="1.8" stroke-linecap="round" marker-end="url(#hero-tz-arrow)">
-          <defs>
-            <marker id="hero-tz-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
-            </marker>
-          </defs>
-          <path d="M146,88 C180,110 200,130 210,150" stroke-dasharray="none"/>
-          <path d="M330,120 C300,150 250,170 210,195"/>
-          <path d="M210,246 C180,260 150,268 120,280"/>
-          <path d="M210,246 C250,262 290,272 305,288"/>
-        </g>
-        <!-- весы правосудия (упрощённо) -->
-        <g transform="translate(340, 300)" opacity="0.85">
-          <line x1="0" y1="0" x2="0" y2="36" stroke="#475569" stroke-width="2"/>
-          <line x1="-28" y1="8" x2="28" y2="8" stroke="#475569" stroke-width="2"/>
-          <path d="M-28,8 L-38,24 L-18,24 Z" fill="#e2e8f0" stroke="#94a3b8"/>
-          <path d="M28,8 L18,24 L38,24 Z" fill="#e2e8f0" stroke="#94a3b8"/>
+        <!-- связи к весам -->
+        <g fill="none" stroke="rgba(147,197,253,0.55)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 3">
+          <path d="M86,216 C120,200 150,188 168,178"/>
+          <path d="M334,216 C300,200 270,188 252,178"/>
+          <path d="M110,358 C150,300 180,260 195,248"/>
+          <path d="M310,358 C270,300 240,260 225,248"/>
         </g>
       </svg>
     </div>
