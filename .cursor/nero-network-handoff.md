@@ -813,3 +813,595 @@ H1_для_hero: Уголовные риски при долгах: мошенн�
 PRIMARY_CTA_URL: https://advokat-vsem.ru/
 SECONDARY_CTA_URL: https://advokat-vsem.ru/
 AD_BANNER: не настроен (нижний блок — ym-cta--legis24)
+
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+<section id="l24-hero-ug-dolg" class="hero-ug-dolg" aria-label="Уголовные риски при долгах">
+  <style>
+    .hero-ug-dolg {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(165deg, #f8fafc 0%, #eef2f7 45%, #e8eef6 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ug-dolg::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 65% 55% at 88% 18%, rgba(15, 23, 42, 0.08) 0%, transparent 58%),
+        radial-gradient(ellipse 45% 40% at 8% 85%, rgba(30, 58, 138, 0.06) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .hero-ug-dolg__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-ug-dolg__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(15, 23, 42, 0.12);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-ug-dolg__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #0f2744;
+      flex-shrink: 0;
+    }
+    .hero-ug-dolg__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.65rem, 3.8vw, 2.45rem);
+      line-height: 1.18;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-ug-dolg__h1-accent {
+      color: #1e3a8a;
+    }
+    .hero-ug-dolg__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-ug-dolg__steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-ug-dolg__step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-ug-dolg__step-num {
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #0f2744;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-ug-dolg__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+    }
+    .hero-ug-dolg__cta:hover {
+      background: #8b1528;
+    }
+    .hero-ug-dolg__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ug-dolg__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-ug-dolg__visual {
+        order: -1;
+        max-height: 300px;
+      }
+    }
+  </style>
+  <div class="hero-ug-dolg__inner">
+    <div class="hero-ug-dolg__content">
+      <div class="hero-ug-dolg__badge">
+        <span class="hero-ug-dolg__badge-dot" aria-hidden="true"></span>
+        УГ · долги · ст. 159 / 177 · карта рисков · 2026
+      </div>
+      <h1 class="hero-ug-dolg__h1">
+        <span class="hero-ug-dolg__h1-accent">Уголовные риски при долгах:</span> мошенничество и злостное уклонение
+      </h1>
+      <p class="hero-ug-dolg__sub">
+        Ст. 159 и 177 УК: когда долг становится уголовным делом, что делать при проверке и как защититься
+      </p>
+      <ol class="hero-ug-dolg__steps">
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">1</span>
+          <span><strong>Просрочка и суд</strong> — претензия, приказ (10 дней), пока в основном гражданское взыскание</span>
+        </li>
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">2</span>
+          <span><strong>Исполнительное производство</strong> — пристав, арест счетов, предупреждение о ст. 177 при крупной сумме</span>
+        </li>
+        <li class="hero-ug-dolg__step">
+          <span class="hero-ug-dolg__step-num">3</span>
+          <span><strong>Уголовные риски</strong> — ст. 159 / 159.1 (обман), ст. 177 (злостное уклонение), проверка и защита</span>
+        </li>
+      </ol>
+      <a class="hero-ug-dolg__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовным рискам при долге</a>
+    </div>
+    <div class="hero-ug-dolg__visual" aria-hidden="true">
+      <svg viewBox="0 0 420 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px" role="img" aria-label="Весы правосудия и карта рисков должника: просрочка, суд, пристав, статьи 159 и 177">
+        <defs>
+          <linearGradient id="hero-ug-scene" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0f2744"/>
+            <stop offset="55%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#172554"/>
+          </linearGradient>
+          <linearGradient id="hero-ug-panel" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-ug-card" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hero-ug-road" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#93c5fd"/>
+            <stop offset="50%" stop-color="#60a5fa"/>
+            <stop offset="100%" stop-color="#fbbf24"/>
+          </linearGradient>
+          <filter id="hero-ug-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#020617" flood-opacity="0.28"/>
+          </filter>
+          <filter id="hero-ug-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#1e293b" flood-opacity="0.14"/>
+          </filter>
+          <marker id="hero-ug-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#93c5fd"/>
+          </marker>
+        </defs>
+        <!-- тёмно-синяя юридическая сцена -->
+        <rect x="16" y="24" width="388" height="352" rx="18" fill="url(#hero-ug-scene)" stroke="#0c1a33" stroke-width="1.5"/>
+        <text x="210" y="52" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="700" letter-spacing="0.14em">КАРТА РИСКОВ ДОЛЖНИКА</text>
+        <line x1="48" y1="62" x2="372" y2="62" stroke="rgba(148,163,184,0.35)" stroke-width="1"/>
+        <!-- дорожная карта стадий -->
+        <g transform="translate(36, 78)">
+          <rect x="0" y="0" width="348" height="56" rx="10" fill="rgba(15,23,42,0.45)" stroke="rgba(147,197,253,0.25)" stroke-width="1"/>
+          <line x1="28" y1="28" x2="320" y2="28" stroke="url(#hero-ug-road)" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+          <g fill="none" stroke="#93c5fd" stroke-width="1.6" marker-end="url(#hero-ug-arrow)">
+            <line x1="72" y1="28" x2="118" y2="28"/>
+            <line x1="166" y1="28" x2="212" y2="28"/>
+            <line x1="260" y1="28" x2="306" y2="28"/>
+          </g>
+          <circle cx="44" cy="28" r="14" fill="#1e40af" stroke="#bfdbfe" stroke-width="2"/>
+          <text x="44" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">1</text>
+          <text x="44" y="50" text-anchor="middle" fill="#cbd5e1" font-size="7.5" font-weight="700">ПРОСРОЧКА</text>
+          <circle cx="140" cy="28" r="14" fill="#2563eb" stroke="#bfdbfe" stroke-width="2"/>
+          <text x="140" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">2</text>
+          <text x="140" y="50" text-anchor="middle" fill="#cbd5e1" font-size="7.5" font-weight="700">СУД</text>
+          <circle cx="236" cy="28" r="14" fill="#1d4ed8" stroke="#fde68a" stroke-width="2"/>
+          <text x="236" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">3</text>
+          <text x="236" y="50" text-anchor="middle" fill="#fde68a" font-size="7.5" font-weight="700">ПРИСТАВ</text>
+          <circle cx="332" cy="28" r="14" fill="#a31830" stroke="#fecaca" stroke-width="2"/>
+          <text x="332" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">!</text>
+          <text x="332" y="50" text-anchor="middle" fill="#fecaca" font-size="7.5" font-weight="700">УГ · 177</text>
+        </g>
+        <!-- весы правосудия (центр) -->
+        <g filter="url(#hero-ug-shadow)" transform="translate(210, 218)">
+          <ellipse cx="0" cy="52" rx="58" ry="10" fill="rgba(0,0,0,0.25)"/>
+          <rect x="-5" y="-8" width="10" height="72" rx="3" fill="url(#hero-ug-panel)" stroke="#93c5fd" stroke-width="1.2"/>
+          <line x1="-52" y1="4" x2="52" y2="4" stroke="#e2e8f0" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="0" y1="4" x2="0" y2="-8" stroke="#e2e8f0" stroke-width="2"/>
+          <path d="M-52,4 L-68,28 L-36,28 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4"/>
+          <path d="M52,4 L36,28 L68,28 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.4"/>
+          <text x="-52" y="42" text-anchor="middle" fill="#64748b" font-size="7" font-weight="700">ГРАЖД.</text>
+          <text x="52" y="42" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">УГОЛ.</text>
+          <circle cx="0" cy="-22" r="20" fill="#1e40af" stroke="#bfdbfe" stroke-width="2"/>
+          <text x="0" y="-17" text-anchor="middle" fill="#fff" font-size="11" font-weight="800">§</text>
+        </g>
+        <!-- ст. 159 -->
+        <g filter="url(#hero-ug-shadow-soft)" transform="translate(32, 152)">
+          <rect width="108" height="64" rx="10" fill="url(#hero-ug-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="108" height="22" rx="10" fill="#1e3a8a"/>
+          <rect x="0" y="12" width="108" height="10" fill="#1e3a8a"/>
+          <text x="54" y="15" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">ст. 159 УК</text>
+          <text x="54" y="36" text-anchor="middle" fill="#0f172a" font-size="8" font-weight="700">Мошенничество</text>
+          <text x="54" y="50" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">обман · долг · кредит</text>
+        </g>
+        <!-- ст. 177 -->
+        <g filter="url(#hero-ug-shadow-soft)" transform="translate(280, 152)">
+          <rect width="108" height="64" rx="10" fill="url(#hero-ug-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="108" height="22" rx="10" fill="#0f2744"/>
+          <rect x="0" y="12" width="108" height="10" fill="#0f2744"/>
+          <text x="54" y="15" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">ст. 177 УК</text>
+          <text x="54" y="36" text-anchor="middle" fill="#0f172a" font-size="8" font-weight="700">Злостное уклонение</text>
+          <text x="54" y="50" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">суд · ФССП · &gt;2,25 млн</text>
+        </g>
+        <!-- исполнительное производство -->
+        <g filter="url(#hero-ug-shadow-soft)" transform="translate(48, 300)">
+          <rect width="124" height="58" rx="10" fill="url(#hero-ug-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <path d="M22,18 L38,18 L44,12 L50,18 L66,18 L66,42 L22,42 Z" fill="none" stroke="#1e40af" stroke-width="1.6" stroke-linejoin="round"/>
+          <line x1="30" y1="28" x2="58" y2="28" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="30" y1="36" x2="48" y2="36" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <text x="62" y="52" text-anchor="middle" fill="#475569" font-size="8" font-weight="700">ИП · ПРИСТАВ</text>
+        </g>
+        <!-- доследственная проверка -->
+        <g filter="url(#hero-ug-shadow-soft)" transform="translate(248, 300)">
+          <rect width="124" height="58" rx="10" fill="url(#hero-ug-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <circle cx="34" cy="28" r="14" fill="#fef2f2" stroke="#a31830" stroke-width="1.4"/>
+          <text x="34" y="32" text-anchor="middle" fill="#a31830" font-size="12" font-weight="800">!</text>
+          <text x="78" y="24" text-anchor="middle" fill="#0f172a" font-size="8" font-weight="700">Проверка</text>
+          <text x="78" y="38" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">доследств. · защита</text>
+          <text x="78" y="50" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="700">ст. 51 Конституции</text>
+        </g>
+        <!-- связи к весам -->
+        <g fill="none" stroke="rgba(147,197,253,0.55)" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 3">
+          <path d="M86,216 C120,200 150,188 168,178"/>
+          <path d="M334,216 C300,200 270,188 252,178"/>
+          <path d="M110,358 C150,300 180,260 195,248"/>
+          <path d="M310,358 C270,300 240,260 225,248"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+**Режим:** контраст к светлому hero Алины (витрина 159/177) → плотная тёмная карта риска в теле лонгрида.  
+**Якорь для Наташи:** вставить сразу после абзаца с *«Сквозная шкала риска»* (конец H2 «Уголовная ответственность за долги: когда долг перестаёт быть только гражданским»), перед H2 «Мошенничество и статья 159 УК»; альтернатива — после вводного абзаца H2 «Статья 177 УК: злостное уклонение…».  
+**ID секции:** `l24-boris-ug-risk-track` (не пересекается с hero Алины).
+
+### Чеклист отличий от hero
+- [x] Не первый экран, не fullscreen
+- [x] Без `<canvas>` и `<script>` — только static SVG + CSS (образец A6)
+- [x] Свой `id`: `l24-boris-ug-risk-track`
+- [x] Контраст: тёмный inset (#0f2744) vs светлый hero
+- [x] Сплит: таймлайн «Просрочка → суд → ФССП → ст. 177» + мини-сетка порогов 159 vs 177
+- [x] `aria-label` и семантика `<section>`
+
+---
+
+```html
+<section id="l24-boris-ug-risk-track" class="l24-boris-ug-risk" aria-label="Уголовные риски при долгах: путь к ст. 177 и пороги статей 159 и 177">
+<style>
+.l24-boris-ug-risk {
+  --ug-navy: #0f2744;
+  --ug-navy-soft: #1a365d;
+  --ug-accent: #c53030;
+  --ug-warn: #ecc94b;
+  --ug-safe: #68d391;
+  --ug-ink: #e2e8f0;
+  --ug-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ug-risk__shell {
+  background: linear-gradient(145deg, var(--ug-navy) 0%, #152a45 55%, var(--ug-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.22);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-risk__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ug-warn);
+}
+.l24-boris-ug-risk__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.4rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ug-risk__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ug-muted);
+  max-width: 62ch;
+}
+.l24-boris-ug-risk__lead strong { color: #fff; }
+.l24-boris-ug-risk__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ug-risk__panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ug-risk__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ug-warn);
+}
+.l24-boris-ug-risk__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+}
+.l24-boris-ug-risk__steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ug-risk__step {
+  margin: 0;
+  padding: 11px 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-left: 3px solid var(--ug-accent);
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.l24-boris-ug-risk__step:nth-child(2) { border-left-color: #ed8936; }
+.l24-boris-ug-risk__step:nth-child(3) { border-left-color: var(--ug-warn); }
+.l24-boris-ug-risk__step:nth-child(4) { border-left-color: var(--ug-safe); }
+.l24-boris-ug-risk__step strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ug-risk__thresh-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 12px;
+}
+.l24-boris-ug-risk__thresh-card {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ug-risk__thresh-card--177 {
+  border-color: rgba(104, 211, 145, 0.4);
+}
+.l24-boris-ug-risk__thresh-card--159 {
+  border-color: rgba(197, 48, 48, 0.45);
+}
+.l24-boris-ug-risk__thresh-card--vs {
+  grid-column: 1 / -1;
+  background: rgba(197, 48, 48, 0.12);
+  border-color: rgba(236, 201, 75, 0.35);
+}
+.l24-boris-ug-risk__thresh-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ug-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-ug-risk__thresh-value {
+  font-size: 1.02rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-ug-risk__thresh-note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ug-muted);
+}
+.l24-boris-ug-risk__thresh-note em {
+  font-style: normal;
+  color: var(--ug-safe);
+  font-weight: 600;
+}
+.l24-boris-ug-risk__vs-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 8px;
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+.l24-boris-ug-risk__vs-col {
+  padding: 10px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.25);
+}
+.l24-boris-ug-risk__vs-col--159 { border-top: 2px solid var(--ug-accent); }
+.l24-boris-ug-risk__vs-col--177 { border-top: 2px solid var(--ug-safe); }
+.l24-boris-ug-risk__vs-col strong {
+  display: block;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ug-risk__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ug-risk__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-risk__tag--159 { border: 1px solid var(--ug-accent); color: #feb2b2; }
+.l24-boris-ug-risk__tag--177 { border: 1px solid var(--ug-safe); color: #9ae6b4; }
+@media (max-width: 900px) {
+  .l24-boris-ug-risk__split { grid-template-columns: 1fr; }
+  .l24-boris-ug-risk__steps { grid-template-columns: 1fr 1fr; }
+  .l24-boris-ug-risk__thresh-grid { grid-template-columns: 1fr; }
+  .l24-boris-ug-risk__vs-row { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-ug-risk__steps { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-ug-risk__shell">
+    <p class="l24-boris-ug-risk__eyebrow">УК РФ · ст. 159 / 159.1 / 177 · 2025–2026</p>
+    <h3 class="l24-boris-ug-risk__title">Просрочка → суд → ФССП → ст. 177: где включается уголовка</h3>
+    <p class="l24-boris-ug-risk__lead">Обычная <strong>просрочка</strong> остаётся гражданкой. Цепочка к <strong>ст. 177</strong> — только после <strong>решения суда</strong>, исполнительного производства у приставов и <strong>злостного</strong> уклонения при сумме <strong>свыше 2&nbsp;250&nbsp;000&nbsp;₽</strong>. Слева — маршрут; справа — пороги и отличие от <strong>ст. 159</strong> (обман до получения денег).</p>
+
+    <div class="l24-boris-ug-risk__split">
+      <div class="l24-boris-ug-risk__panel">
+        <p class="l24-boris-ug-risk__panel-title">Маршрут должника</p>
+        <svg class="l24-boris-ug-risk__timeline-svg" viewBox="0 0 560 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="ug-risk-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#a0aec0"/>
+              <stop offset="35%" stop-color="#ed8936"/>
+              <stop offset="65%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#68d391"/>
+            </linearGradient>
+          </defs>
+          <line x1="40" y1="72" x2="520" y2="72" stroke="url(#ug-risk-line)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="64" cy="72" r="20" fill="#4a5568" stroke="#fff" stroke-width="2"/>
+          <text x="64" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">0</text>
+          <circle cx="200" cy="72" r="20" fill="#c05621" stroke="#fff" stroke-width="2"/>
+          <text x="200" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">⚖</text>
+          <circle cx="336" cy="72" r="20" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="336" y="76" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="700">ФССП</text>
+          <circle cx="496" cy="72" r="22" fill="#c53030" stroke="#ecc94b" stroke-width="2"/>
+          <text x="496" y="77" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">177</text>
+          <text x="64" y="38" text-anchor="middle" fill="#cbd5e0" font-size="9" font-weight="600">Просрочка</text>
+          <text x="200" y="38" text-anchor="middle" fill="#fbd38d" font-size="9" font-weight="600">Суд / приказ</text>
+          <text x="336" y="38" text-anchor="middle" fill="#faf089" font-size="9" font-weight="600">ИП</text>
+          <text x="496" y="38" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="600">ст. 177 УК</text>
+          <rect x="12" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="71" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">гражданка</text>
+          <rect x="148" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="207" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">10 дн. отмена приказа</text>
+          <rect x="284" y="108" width="118" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="343" y="126" text-anchor="middle" fill="#e2e8f0" font-size="8">предупреждение</text>
+          <rect x="420" y="108" width="130" height="28" rx="5" fill="rgba(197,48,48,0.35)"/>
+          <text x="485" y="126" text-anchor="middle" fill="#fed7d7" font-size="8">&gt; 2,25 млн + злость</text>
+        </svg>
+        <ol class="l24-boris-ug-risk__steps">
+          <li class="l24-boris-ug-risk__step">
+            <strong>Просрочка</strong>
+            Кредит, расписка, МФО — взыскание по договору, без ст. 177.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>Суд</strong>
+            Иск, судебный приказ; игнор суда — мост к ИП и рискам формулировок.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>ФССП</strong>
+            Исполнительное производство: арест, запрет выезда; рапорт / заявление кредитора.
+          </li>
+          <li class="l24-boris-ug-risk__step">
+            <strong>ст. 177</strong>
+            После акта в силу — злостное уклонение при возможности платить.
+          </li>
+        </ol>
+      </div>
+
+      <div class="l24-boris-ug-risk__panel">
+        <p class="l24-boris-ug-risk__panel-title">Пороги: 2,25 млн и 159 vs 177</p>
+        <div class="l24-boris-ug-risk__thresh-grid">
+          <div class="l24-boris-ug-risk__thresh-card l24-boris-ug-risk__thresh-card--177">
+            <span class="l24-boris-ug-risk__thresh-label">ст. 177 · крупный размер</span>
+            <span class="l24-boris-ug-risk__thresh-value">&gt; 2,25 млн ₽</span>
+          </div>
+          <div class="l24-boris-ug-risk__thresh-card l24-boris-ug-risk__thresh-card--159">
+            <span class="l24-boris-ug-risk__thresh-label">ст. 159 · крупный / особо крупный</span>
+            <span class="l24-boris-ug-risk__thresh-value">250 001 / 1 млн ₽</span>
+          </div>
+          <div class="l24-boris-ug-risk__thresh-card l24-boris-ug-risk__thresh-card--vs">
+            <span class="l24-boris-ug-risk__thresh-label">159 vs 177 — не путать</span>
+            <div class="l24-boris-ug-risk__vs-row">
+              <div class="l24-boris-ug-risk__vs-col l24-boris-ug-risk__vs-col--159">
+                <strong>ст. 159 / 159.1</strong>
+                Обман или злоупотребление доверием <em>до</em> получения денег; ложный кредит без намерения вернуть (ППВС № 48, п. 13).
+              </div>
+              <div class="l24-boris-ug-risk__vs-col l24-boris-ug-risk__vs-col--177">
+                <strong>ст. 177</strong>
+                Решение суда в силе + злостность + сумма по исп. документу <em>свыше</em> 2,25 млн; дознаватели ФССП.
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="l24-boris-ug-risk__thresh-note"><em>2,25 млн ровно</em> — ещё не крупный размер по гл. 22 УК. Налоги — <strong>ст. 198–199</strong>, не 177. Просрочка кредита без суда — не «посадка за неплатёж».</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-ug-risk__foot" aria-label="Ключевые статьи материала">
+      <span class="l24-boris-ug-risk__tag l24-boris-ug-risk__tag--159">159 / 159.1 — умысел при получении</span>
+      <span class="l24-boris-ug-risk__tag l24-boris-ug-risk__tag--177">177 — после суда и ФССП</span>
+      <span class="l24-boris-ug-risk__tag">198–199 — долг бюджету, другие пороги</span>
+    </div>
+  </div>
+</section>
+```
+
+**Паспорт блока (для Наташи):** slug `ugolovnye-riski-pri-dolgah-chto-vazhno-znat`; тип UG / A7; визуализирует сквозную шкалу из лонгрида Жени и матрицу Артёма; цифры: **&gt; 2&nbsp;250&nbsp;000 ₽** (177), **250&nbsp;001 / 1&nbsp;000&nbsp;001 ₽** (159), **10 дней** на отмену приказа, предупреждение пристава (ФССП 03.10.2016); без canvas/script.
+
