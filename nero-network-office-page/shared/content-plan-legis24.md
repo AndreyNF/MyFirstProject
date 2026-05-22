@@ -5,7 +5,7 @@
 | # | Код | H1 | SLUG | Статус |
 |---|-----|-----|------|--------|
 | 1 | A3 | Срок возражений: 30 дней vs 15 (мифы) | srok-vozrazhenij-30-dnej-vs-15-mify | ✅ page_id 323 |
-| 2 | A4 | TBD | TBD | |
+| 2 | A4 | План реструктуризации долгов гражданина: сроки, утверждение и возражения | plan-restrukturizacii-dolgov-grazhdanina-sroki | ✅ лонгрид |
 | 3 | A5 | TBD | TBD | |
 | 4 | A6 | TBD | TBD | |
 | 5 | A7 | TBD | TBD | |
