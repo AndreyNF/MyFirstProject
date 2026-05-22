@@ -22,7 +22,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 2 | A4 | — | План реструктуризации долгов гражданина: сроки, утверждение и возражения | plan-restrukturizacii-dolgov-grazhdanina-sroki | ✅ page_id 335 |
 | 3 | A5 | ARB | Арбитражный спор с кредитором: сроки, подсудность и первая стратегия ответа | arbitrazhnyj-spor-s-kreditorom-sroki-strategiya | |
 | 4 | A6 | IP | Товарный знак: как защитить бренд и что делать, если подали иск по интеллектуальной собственности | zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti | ✅ page_id 339 |
-| 5 | A7 | UG | Уголовные риски при долгах: мошенничество, злостное уклонение — что важно знать гражданину | ugolovnye-riski-pri-dolgah-chto-vazhno-znat | |
+| 5 | A7 | UG | Уголовные риски при долгах: мошенничество, злостное уклонение — что важно знать гражданину | ugolovnye-riski-pri-dolgah-chto-vazhno-znat | ✅ page_id 341 |
 | 6 | A8 | ARB | Иск в арбитраже при банкротстве: когда подавать и как оспорить требования | isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat | |
 | 7 | A9 | IP | Нарушение товарного знака: доказательства, компенсация и защита в суде | narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya | |
 | 8 | A10 | UG | Защита по уголовному делу на стадии проверки и в суде: права и тактика | zashchita-po-ugolovnomu-delu-stadiya-proverki | |
