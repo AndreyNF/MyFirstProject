@@ -34,7 +34,7 @@ python3 scripts/nero-precheck-queue.py --mark-done --write-handoff
 
 - Публикация: `commands/nero-publish-mcp.md`, Kovcheg `wordpress_*_from_blob`
 - Без Aura, FTP, `page-{slug}.php`, canvas/script в hero/Борисе
-- CTA: только https://advokat-vsem.ru/
+- CTA: только https://advokat-vsem.ru/ в `href`; в **тексте** кнопки/ссылки — без домена и названия сайта
 
 ## Клон плагина (если пустой workspace)
 
