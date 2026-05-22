@@ -1,0 +1,5 @@
+node_modules/
+package-lock.json
+.cursor/blob-chunk-*.txt
+.cursor/publish-chunk-*.json
+.cursor/publish-meta.json
