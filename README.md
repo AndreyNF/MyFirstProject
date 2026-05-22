@@ -12,7 +12,9 @@ python3 scripts/nero-precheck-queue.py --mark-done --write-handoff
 
 Если скрипт вернул **SKIP** (exit 1) — статья уже в журнале, **не** гонять Коля/Женю/Юру повторно.
 
-Подробно: [AUTOMATION.md](AUTOMATION.md)
+Подробно: [AUTOMATION.md](AUTOMATION.md) — **полный промпт для Cursor Automation** (скопировать из `cursor-automation-prompt.txt` или блока в AUTOMATION.md).
+
+**Расписание:** cron `0 3 * * *` → **03:00 UTC / 06:00 МСК**, один раз в сутки.
 
 ## Журналы
 

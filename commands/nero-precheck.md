@@ -2,6 +2,8 @@
 description: Обязательный pre-check очереди Legis24 перед пайплайном (уже опубликовано → SKIP)
 ---
 
+Полный текст для Cursor Automation: `cursor-automation-prompt.txt` или `AUTOMATION.md`.
+
 **Первый шаг каждого cron-запуска.** Русский ответ.
 
 ```bash
