@@ -890,3 +890,614 @@ H1_для_hero: Арбитражный спор с кредитором: сро�
 PRIMARY_CTA_URL: https://advokat-vsem.ru/
 SECONDARY_CTA_URL: https://advokat-vsem.ru/
 AD_BANNER: не настроен
+
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+<section id="l24-hero-arb-kred" class="hero-arb-kred" aria-label="Арбитражный спор с кредитором">
+  <style>
+    .hero-arb-kred {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(168deg, #f8fafc 0%, #eef2f7 42%, #e8eef6 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-arb-kred::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 92% 12%, rgba(30, 58, 138, 0.09) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 45% at 6% 88%, rgba(15, 39, 68, 0.07) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-arb-kred__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-arb-kred__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(15, 23, 42, 0.12);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-arb-kred__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e3a8a;
+      flex-shrink: 0;
+    }
+    .hero-arb-kred__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.6rem, 3.6vw, 2.4rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-arb-kred__h1-accent {
+      color: #1e3a8a;
+    }
+    .hero-arb-kred__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-arb-kred__tracks {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-arb-kred__track {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-arb-kred__track-label {
+      flex-shrink: 0;
+      min-width: 118px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      background: #0f2744;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .hero-arb-kred__track--bank .hero-arb-kred__track-label {
+      background: #1e3a8a;
+    }
+    .hero-arb-kred__track--dual .hero-arb-kred__track-label {
+      background: #a31830;
+    }
+    .hero-arb-kred__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+    }
+    .hero-arb-kred__cta:hover {
+      background: #8b1528;
+    }
+    .hero-arb-kred__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-arb-kred__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-arb-kred__visual {
+        order: -1;
+        max-height: 320px;
+      }
+      .hero-arb-kred__track-label {
+        min-width: 96px;
+        font-size: 0.68rem;
+      }
+    }
+  </style>
+  <div class="hero-arb-kred__inner">
+    <div class="hero-arb-kred__content">
+      <div class="hero-arb-kred__badge">
+        <span class="hero-arb-kred__badge-dot" aria-hidden="true"></span>
+        АПК · 127-ФЗ · защита ответчика · три трека · 2026
+      </div>
+      <h1 class="hero-arb-kred__h1">
+        <span class="hero-arb-kred__h1-accent">Арбитражный спор с кредитором:</span> сроки, подсудность и первая стратегия ответа
+      </h1>
+      <p class="hero-arb-kred__sub">
+        Иск в арбитраж или требование в банкротстве — разберём подсудность, сроки и план защиты ответчика до первого заседания.
+      </p>
+      <ul class="hero-arb-kred__tracks">
+        <li class="hero-arb-kred__track hero-arb-kred__track--isk">
+          <span class="hero-arb-kred__track-label">Иск в АС</span>
+          <span><strong>Подсудность и сроки</strong> — отзыв, возражения, ходатайства до первого заседания по АПК</span>
+        </li>
+        <li class="hero-arb-kred__track hero-arb-kred__track--bank">
+          <span class="hero-arb-kred__track-label">Банкротство</span>
+          <span><strong>Требование в реестр</strong> — возражения, оспаривание, связка с арбитражным иском кредитора</span>
+        </li>
+        <li class="hero-arb-kred__track hero-arb-kred__track--dual">
+          <span class="hero-arb-kred__track-label">Двойной фронт</span>
+          <span><strong>Иск + дело о банкротстве</strong> — единая стратегия ответчика, чтобы не проиграть на одном треке</span>
+        </li>
+      </ul>
+      <a class="hero-arb-kred__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию по арбитражному спору с кредитором — стратегия ответа и представительство в суде</a>
+    </div>
+    <div class="hero-arb-kred__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Три трека защиты ответчика: арбитражный иск, банкротство кредитора, двойной фронт">
+        <defs>
+          <linearGradient id="hero-arb-scene" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0f2744"/>
+            <stop offset="50%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#172554"/>
+          </linearGradient>
+          <linearGradient id="hero-arb-panel" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e40af"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-arb-card" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hero-arb-fork" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stop-color="#93c5fd"/>
+            <stop offset="45%" stop-color="#60a5fa"/>
+            <stop offset="100%" stop-color="#f87171"/>
+          </linearGradient>
+          <filter id="hero-arb-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.26"/>
+          </filter>
+          <filter id="hero-arb-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1e293b" flood-opacity="0.12"/>
+          </filter>
+          <marker id="hero-arb-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#93c5fd"/>
+          </marker>
+        </defs>
+        <rect x="14" y="18" width="412" height="364" rx="18" fill="url(#hero-arb-scene)" stroke="#0c1a33" stroke-width="1.5" filter="url(#hero-arb-shadow)"/>
+        <text x="220" y="48" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="700" letter-spacing="0.12em">СТРАТЕГИЯ ОТВЕТЧИКА</text>
+        <line x1="44" y1="58" x2="396" y2="58" stroke="rgba(148,163,184,0.35)" stroke-width="1"/>
+        <!-- центр: ответчик -->
+        <circle cx="220" cy="118" r="34" fill="url(#hero-arb-card)" stroke="#93c5fd" stroke-width="2" filter="url(#hero-arb-shadow-soft)"/>
+        <text x="220" y="114" text-anchor="middle" fill="#0f2744" font-size="9" font-weight="700">ОТВЕТЧИК</text>
+        <text x="220" y="128" text-anchor="middle" fill="#475569" font-size="8">защита</text>
+        <!-- развилка -->
+        <path d="M220 152 L220 178" stroke="url(#hero-arb-fork)" stroke-width="3" fill="none"/>
+        <path d="M220 178 L92 210" stroke="#60a5fa" stroke-width="2.5" fill="none" marker-end="url(#hero-arb-arrow)"/>
+        <path d="M220 178 L220 210" stroke="#93c5fd" stroke-width="2.5" fill="none"/>
+        <path d="M220 178 L348 210" stroke="#f87171" stroke-width="2.5" fill="none"/>
+        <!-- трек 1: арбитраж -->
+        <g transform="translate(28, 218)">
+          <rect width="128" height="148" rx="10" fill="url(#hero-arb-panel)" opacity="0.95"/>
+          <text x="64" y="22" text-anchor="middle" fill="#bfdbfe" font-size="8" font-weight="700" letter-spacing="0.08em">ИСК В АС</text>
+          <rect x="14" y="34" width="100" height="36" rx="6" fill="rgba(255,255,255,0.12)"/>
+          <text x="22" y="52" fill="#fff" font-size="8">ст. 35–37 АПК</text>
+          <text x="22" y="64" fill="#cbd5e1" font-size="7">подсудность</text>
+          <rect x="14" y="78" width="100" height="28" rx="5" fill="rgba(255,255,255,0.08)"/>
+          <text x="22" y="96" fill="#e2e8f0" font-size="7">отзыв · возражения</text>
+          <rect x="14" y="114" width="100" height="22" rx="5" fill="#a31830"/>
+          <text x="64" y="129" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">1-е заседание</text>
+        </g>
+        <!-- трек 2: банкротство -->
+        <g transform="translate(156, 218)">
+          <rect width="128" height="148" rx="10" fill="url(#hero-arb-card)" stroke="#1e3a8a" stroke-width="1.2" filter="url(#hero-arb-shadow-soft)"/>
+          <text x="64" y="22" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="700" letter-spacing="0.08em">БАНКРОТСТВО</text>
+          <rect x="14" y="34" width="100" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+          <text x="22" y="52" fill="#1e3a8a" font-size="8">127-ФЗ</text>
+          <text x="22" y="64" fill="#64748b" font-size="7">требование в реестр</text>
+          <rect x="14" y="78" width="100" height="28" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
+          <text x="22" y="96" fill="#334155" font-size="7">возражения · оспаривание</text>
+          <rect x="14" y="114" width="100" height="22" rx="5" fill="#1e3a8a"/>
+          <text x="64" y="129" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">реестр</text>
+        </g>
+        <!-- трек 3: двойной фронт -->
+        <g transform="translate(284, 218)">
+          <rect width="128" height="148" rx="10" fill="#7f1d1d" opacity="0.92"/>
+          <text x="64" y="22" text-anchor="middle" fill="#fecaca" font-size="8" font-weight="700" letter-spacing="0.06em">ДВОЙНОЙ ФРОНТ</text>
+          <line x1="20" y1="50" x2="108" y2="50" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+          <text x="64" y="72" text-anchor="middle" fill="#fff" font-size="8">иск + банкротство</text>
+          <text x="64" y="88" text-anchor="middle" fill="#fecaca" font-size="7">синхрон сроков</text>
+          <rect x="14" y="98" width="100" height="38" rx="6" fill="rgba(0,0,0,0.2)" stroke="#fca5a5"/>
+          <text x="64" y="116" text-anchor="middle" fill="#fff" font-size="7">единый план</text>
+          <text x="64" y="128" text-anchor="middle" fill="#fecaca" font-size="7">ответчика</text>
+        </g>
+        <!-- сроки внизу -->
+        <rect x="44" y="372" width="352" height="2" rx="1" fill="rgba(148,163,184,0.4)"/>
+        <text x="72" y="390" fill="#94a3b8" font-size="7">сроки АПК</text>
+        <text x="200" y="390" text-anchor="middle" fill="#94a3b8" font-size="7">2 мес. требования</text>
+        <text x="368" y="390" text-anchor="end" fill="#fca5a5" font-size="7">до 1-го заседания</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+## Передача Наташе
+SLUG: arbitrazhnyj-spor-s-kreditorom-sroki-strategiya
+ВНИМАНИЕ: hero — только static SVG + inline CSS; без `<canvas>` и `<script>` (MCP publish удаляет scripts).
+
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+**Тема:** A5 / ARB — арбитражный спор с кредитором  
+**Режим:** контраст к светлому hero Алины (тёмный inset в теле статьи)  
+**Техника:** static SVG + inline CSS — без `<canvas>` и `<script>`
+
+```html
+<section id="l24-boris-arb-kreditor-track" class="l24-boris-arb-kred" aria-label="Арбитражный спор с кредитором: развилка треков и первые 14 дней защиты">
+<style>
+.l24-boris-arb-kred {
+  --arb-navy: #0c1f33;
+  --arb-navy-soft: #152a45;
+  --arb-gold: #d4a853;
+  --arb-mint: #5eead4;
+  --arb-accent: #f56565;
+  --arb-blue: #63b3ed;
+  --arb-ink: #e2e8f0;
+  --arb-muted: #94a3b8;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-arb-kred__shell {
+  background: linear-gradient(148deg, var(--arb-navy) 0%, #122640 52%, var(--arb-navy-soft) 100%);
+  border: 1px solid rgba(212, 168, 83, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(12, 31, 51, 0.35);
+  color: var(--arb-ink);
+}
+.l24-boris-arb-kred__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--arb-gold);
+}
+.l24-boris-arb-kred__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-arb-kred__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--arb-muted);
+  max-width: 68ch;
+}
+.l24-boris-arb-kred__lead strong { color: #fff; }
+.l24-boris-arb-kred__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-arb-kred__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-arb-kred__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--arb-gold);
+}
+.l24-boris-arb-kred__fork-svg,
+.l24-boris-arb-kred__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-arb-kred__fork-svg { max-height: 200px; margin-bottom: 12px; }
+.l24-boris-arb-kred__timeline-svg { max-height: 150px; }
+.l24-boris-arb-kred__tracks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-arb-kred__track {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 3px solid var(--arb-blue);
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.l24-boris-arb-kred__track:nth-child(2) { border-top-color: var(--arb-mint); }
+.l24-boris-arb-kred__track:nth-child(3) { border-top-color: var(--arb-accent); }
+.l24-boris-arb-kred__track strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+.l24-boris-arb-kred__days {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-arb-kred__day {
+  margin: 0;
+  padding: 10px 7px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border-left: 3px solid var(--arb-gold);
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+.l24-boris-arb-kred__day:nth-child(2) { border-left-color: var(--arb-blue); }
+.l24-boris-arb-kred__day:nth-child(3) { border-left-color: var(--arb-mint); }
+.l24-boris-arb-kred__day:nth-child(4) { border-left-color: var(--arb-accent); }
+.l24-boris-arb-kred__day strong {
+  display: block;
+  color: #fff;
+  font-size: 0.76rem;
+  margin-bottom: 3px;
+}
+.l24-boris-arb-kred__nums {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 12px;
+}
+.l24-boris-arb-kred__num {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-arb-kred__num--wide {
+  grid-column: 1 / -1;
+  border-color: rgba(212, 168, 83, 0.35);
+  background: rgba(212, 168, 83, 0.08);
+}
+.l24-boris-arb-kred__num-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--arb-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-arb-kred__num-value {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-arb-kred__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--arb-muted);
+}
+.l24-boris-arb-kred__note em {
+  font-style: normal;
+  color: var(--arb-mint);
+  font-weight: 600;
+}
+.l24-boris-arb-kred__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-arb-kred__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--arb-ink);
+}
+.l24-boris-arb-kred__tag--a { border: 1px solid var(--arb-blue); color: #bee3f8; }
+.l24-boris-arb-kred__tag--b { border: 1px solid var(--arb-accent); color: #feb2b2; }
+.l24-boris-arb-kred__tag--c { border: 1px solid var(--arb-gold); color: #faf089; }
+@media (max-width: 900px) {
+  .l24-boris-arb-kred__split { grid-template-columns: 1fr; }
+  .l24-boris-arb-kred__tracks { grid-template-columns: 1fr; }
+  .l24-boris-arb-kred__days { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-arb-kred__days { grid-template-columns: 1fr; }
+  .l24-boris-arb-kred__nums { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-arb-kred__shell">
+    <p class="l24-boris-arb-kred__eyebrow">АПК · 127-ФЗ · ст. 131 / 196 / 61 · 2025–2026</p>
+    <h3 class="l24-boris-arb-kred__title">Иск кредитора → три трека и 14 дней: не «15 дней по закону»</h3>
+    <p class="l24-boris-arb-kred__lead">Слева — <strong>развилка</strong>: государственный арбитражный суд, <strong>третейский</strong> (при действующей оговорке) или <strong>банкротное дело</strong>. Справа — <strong>первые 14 дней</strong> после получения иска: срок отзыва берётся из <strong>определения суда</strong>, а не из мифа «15/30 дней»; параллельно — давность, обеспечение и контроль апелляции в банкротстве.</p>
+
+    <div class="l24-boris-arb-kred__split">
+      <div class="l24-boris-arb-kred__panel">
+        <p class="l24-boris-arb-kred__panel-title">Развилка: куда ушёл спор</p>
+        <svg class="l24-boris-arb-kred__fork-svg" viewBox="0 0 520 168" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="arb-fork-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1e3a5f"/>
+              <stop offset="100%" stop-color="#0f2744"/>
+            </linearGradient>
+          </defs>
+          <rect width="520" height="168" rx="8" fill="url(#arb-fork-bg)" opacity="0.5"/>
+          <text x="260" y="22" text-anchor="middle" fill="#d4a853" font-size="9" font-weight="700" letter-spacing="0.12em">ИСК / ТРЕБОВАНИЕ КРЕДИТОРА</text>
+          <rect x="200" y="30" width="120" height="28" rx="6" fill="#2d3748" stroke="#d4a853" stroke-width="1.2"/>
+          <text x="260" y="49" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">Ответчик</text>
+          <path d="M260 58 L260 72" stroke="#718096" stroke-width="1.5"/>
+          <path d="M260 72 L80 100" stroke="#63b3ed" stroke-width="1.5" fill="none"/>
+          <path d="M260 72 L260 100" stroke="#5eead4" stroke-width="1.5" fill="none"/>
+          <path d="M260 72 L440 100" stroke="#f56565" stroke-width="1.5" fill="none"/>
+          <rect x="24" y="104" width="112" height="52" rx="8" fill="rgba(99,179,237,0.15)" stroke="#63b3ed" stroke-width="1.2"/>
+          <text x="80" y="124" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="700">Трек A</text>
+          <text x="80" y="140" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="600">АС · иск о долге</text>
+          <text x="80" y="152" text-anchor="middle" fill="#94a3b8" font-size="7">ст. 131 · 39 АПК</text>
+          <rect x="204" y="104" width="112" height="52" rx="8" fill="rgba(94,234,212,0.12)" stroke="#5eead4" stroke-width="1.2"/>
+          <text x="260" y="124" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="700">Оговорка</text>
+          <text x="260" y="140" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="600">Третейский суд</text>
+          <text x="260" y="152" text-anchor="middle" fill="#94a3b8" font-size="7">не гос. АС</text>
+          <rect x="384" y="104" width="112" height="52" rx="8" fill="rgba(245,101,101,0.12)" stroke="#f56565" stroke-width="1.2"/>
+          <text x="440" y="124" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="700">Трек B/C</text>
+          <text x="440" y="140" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="600">127-ФЗ · реестр</text>
+          <text x="440" y="152" text-anchor="middle" fill="#94a3b8" font-size="7">ст. 61 · 1 мес.</text>
+        </svg>
+        <ul class="l24-boris-arb-kred__tracks">
+          <li class="l24-boris-arb-kred__track">
+            <strong>Трек A — АС</strong>
+            Отзыв, давность, подсудность, отмена обеспечения (ст. 93 АПК).
+          </li>
+          <li class="l24-boris-arb-kred__track">
+            <strong>Третейский</strong>
+            Проверить оговорку до отзыва; при действительности — не гос. арбитраж.
+          </li>
+          <li class="l24-boris-arb-kred__track">
+            <strong>Трек B — банкротство</strong>
+            Реестр, обособленный спор; не второй фронт по залогу вне дела.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-arb-kred__panel">
+        <p class="l24-boris-arb-kred__panel-title">14 дней + цифры из практики</p>
+        <svg class="l24-boris-arb-kred__timeline-svg" viewBox="0 0 520 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <line x1="40" y1="58" x2="480" y2="58" stroke="#4a5568" stroke-width="2" stroke-dasharray="6 4"/>
+          <circle cx="56" cy="58" r="14" fill="#d4a853"/><text x="56" y="63" text-anchor="middle" fill="#1a202c" font-size="9" font-weight="800">0</text>
+          <circle cx="168" cy="58" r="14" fill="#63b3ed"/><text x="168" y="63" text-anchor="middle" fill="#1a202c" font-size="9" font-weight="800">3</text>
+          <circle cx="280" cy="58" r="14" fill="#5eead4"/><text x="280" y="63" text-anchor="middle" fill="#1a202c" font-size="9" font-weight="800">7</text>
+          <circle cx="392" cy="58" r="14" fill="#ed8936"/><text x="392" y="63" text-anchor="middle" fill="#1a202c" font-size="9" font-weight="800">10</text>
+          <circle cx="464" cy="58" r="14" fill="#f56565"/><text x="464" y="63" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">14</text>
+          <text x="56" y="38" text-anchor="middle" fill="#d4a853" font-size="8" font-weight="600">иск получен</text>
+          <text x="168" y="38" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="600">оговорка</text>
+          <text x="280" y="38" text-anchor="middle" fill="#99f6e4" font-size="8" font-weight="600">определение</text>
+          <text x="392" y="38" text-anchor="middle" fill="#faf089" font-size="8" font-weight="600">отзыв</text>
+          <text x="464" y="38" text-anchor="middle" fill="#feb2b2" font-size="8" font-weight="600">заседание</text>
+          <text x="56" y="92" text-anchor="middle" fill="#94a3b8" font-size="7">ст. 37 АПК</text>
+          <text x="280" y="92" text-anchor="middle" fill="#94a3b8" font-size="7">срок ст. 131</text>
+          <text x="464" y="92" text-anchor="middle" fill="#94a3b8" font-size="7">до начала</text>
+        </svg>
+        <ol class="l24-boris-arb-kred__days">
+          <li class="l24-boris-arb-kred__day">
+            <strong>День 0–1</strong>
+            Определение о принятии: выписать срок отзыва из акта, не из «15 дней».
+          </li>
+          <li class="l24-boris-arb-kred__day">
+            <strong>День 2–4</strong>
+            Договор: третейский / договорная подсудность (ст. 37, 39 АПК).
+          </li>
+          <li class="l24-boris-arb-kred__day">
+            <strong>День 5–9</strong>
+            Заявление о давности (ст. 199 ГК): 3 года + 10 лет предел.
+          </li>
+          <li class="l24-boris-arb-kred__day">
+            <strong>День 10–14</strong>
+            Отзыв по каждому доводу; отмена обеспечения; зачёт / встречный иск.
+          </li>
+        </ol>
+        <div class="l24-boris-arb-kred__nums" style="margin-top:16px">
+          <div class="l24-boris-arb-kred__num l24-boris-arb-kred__num--wide">
+            <span class="l24-boris-arb-kred__num-label">Отзыв (ст. 131 АПК)</span>
+            <span class="l24-boris-arb-kred__num-value">Срок из определения суда</span>
+          </div>
+          <div class="l24-boris-arb-kred__num">
+            <span class="l24-boris-arb-kred__num-label">Исковая давность</span>
+            <span class="l24-boris-arb-kred__num-value">3 года</span>
+          </div>
+          <div class="l24-boris-arb-kred__num">
+            <span class="l24-boris-arb-kred__num-label">Предельный срок</span>
+            <span class="l24-boris-arb-kred__num-value">10 лет</span>
+          </div>
+          <div class="l24-boris-arb-kred__num">
+            <span class="l24-boris-arb-kred__num-label">Банкротство · обособленный спор</span>
+            <span class="l24-boris-arb-kred__num-value">1 месяц</span>
+          </div>
+          <div class="l24-boris-arb-kred__num">
+            <span class="l24-boris-arb-kred__num-label">ст. 61 127-ФЗ</span>
+            <span class="l24-boris-arb-kred__num-value">апелляция</span>
+          </div>
+        </div>
+        <p class="l24-boris-arb-kred__note"><em>10 лет</em> — с даты сделки при оспаривании в банкротстве (ВС 04.07.2025 № 307-ЭС14-7082). <em>3 года</em> — только по заявлению стороны (ст. 199 ГК).</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-arb-kred__foot" aria-label="Треки защиты ответчика">
+      <span class="l24-boris-arb-kred__tag l24-boris-arb-kred__tag--a">Трек A: отзыв + давность + подсудность</span>
+      <span class="l24-boris-arb-kred__tag l24-boris-arb-kred__tag--b">Трек B: реестр · 1 мес. апелляция</span>
+      <span class="l24-boris-arb-kred__tag l24-boris-arb-kred__tag--c">Трек C: иск + угроза банкротства — единая линия</span>
+    </div>
+  </div>
+</section>
+```
+
+**Паспорт блока**
+
+| Поле | Значение |
+|------|----------|
+| **id секции** | `l24-boris-arb-kreditor-track` |
+| **Якорь для Наташи** | `#l24-boris-arb-kreditor-track` — вставка после H2 «Три трека защиты» (маркер `<!-- BORIS_ANCHOR -->` в теле лонгрида) |
+| **Класс корня** | `l24-boris-arb-kred` |
+| **Режим** | Контраст к светлому hero Алины: тёмный inset, золотой акцент |
+| **Техника** | Только inline `<style>` + SVG; без canvas и script |
+| **Цифры research** | Отзыв — из определения суда (ст. 131 АПК); **3 года** давность; **10 лет** предел; **1 месяц** апелляция в банкротстве (ст. 61 127-ФЗ); чеклист **14 дней** |
+
+**Чеклист отличий от hero Алины**
+
+- [x] Не первый экран — блок в теле статьи после 1–2 секций
+- [x] Другой `id` (не hero canvas id Алины)
+- [x] Тёмная сцена vs светлый hero
+- [x] Сплит: развилка АС / третейский / банкротство + таймлайн 14 дней
+- [x] Static SVG/CSS only
