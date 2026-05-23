@@ -1,0 +1,74 @@
+           <marker id="hero-tz-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
+            </marker>
+          </defs>
+          <path d="M146,88 C180,110 200,130 210,150" stroke-dasharray="none"/>
+          <path d="M330,120 C300,150 250,170 210,195"/>
+          <path d="M210,246 C180,260 150,268 120,280"/>
+          <path d="M210,246 C250,262 290,272 305,288"/>
+        </g>
+        <!-- весы правосудия (упрощённо) -->
+        <g transform="translate(340, 300)" opacity="0.85">
+          <line x1="0" y1="0" x2="0" y2="36" stroke="#475569" stroke-width="2"/>
+          <line x1="-28" y1="8" x2="28" y2="8" stroke="#475569" stroke-width="2"/>
+          <path d="M-28,8 L-38,24 L-18,24 Z" fill="#e2e8f0" stroke="#94a3b8"/>
+          <path d="M28,8 L18,24 L38,24 Z" fill="#e2e8f0" stroke="#94a3b8"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-a9" aria-label="Введение">
+  <div class="l24-intro-a9__grid">
+    <div class="l24-intro-a9__text">
+      <p>Спор вокруг товарного знака в 2026 году редко начинается в суде. Чаще цепочка выглядит так: проверка реестра Роспатента → запуск карточки на маркетплейсе → жалоба правообладателя и блокировка за сутки → досудебная претензия → иск → отзыв по ст. 131 АПК РФ → встречные меры (в том числе по ст. 1486 ГК РФ) и оспаривание компенсации по новой ст. 1252.1 ГК РФ после реформы ФЗ № 214-ФЗ.</p>
+      <p>Ниже — практическая дорожная карта для двух ролей: вы защищаете бренд или на вас/ваш магазин пришли с требованиями по интеллектуальной собственности.</p>
+      <div class="l24-intro-a9__brief">
+        <strong>Кратко:</strong> исключительное право на товарный знак возникает после регистрации; нарушение — использование сходного обозначения без согласия; до иска обычно нужна претензия (30 дней); «твёрдая» компенсация с 04.01.2026 — до 10 млн ₽ (при грубом нарушении — до 20 млн), альтернативно — 2× стоимость товаров или права использования без потолка; ответчику важны отзыв, доказательства отсутствия вины и контрход по неиспользованию знака истца.
+      </div>
+    </div>
+    <aside class="l24-intro-a9__decor" aria-label="Маршрут спора">
+      <ul class="l24-intro-a9__chips">
+        <li class="l24-intro-a9__chip l24-intro-a9__chip--accent">Роспатент</li>
+        <li class="l24-intro-a9__chip">WB / Ozon</li>
+        <li class="l24-intro-a9__chip l24-intro-a9__chip--warn">30 дней</li>
+        <li class="l24-intro-a9__chip">СИП</li>
+        <li class="l24-intro-a9__chip">ст. 1252.1</li>
+        <li class="l24-intro-a9__chip">ст. 1486</li>
+      </ul>
+      <svg class="l24-intro-a9__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: реестр, маркетплейс, претензия, суд">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">СКВОЗНАЯ ШКАЛА</text>
+        <circle cx="48" cy="88" r="18" fill="#1e40af"/><text x="48" y="93" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">®</text>
+        <circle cx="120" cy="88" r="18" fill="#a31830"/><text x="120" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">МП</text>
+        <circle cx="192" cy="88" r="18" fill="#d97706"/><text x="192" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">30д</text>
+        <circle cx="264" cy="88" r="18" fill="#2f855a"/><text x="264" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">иск</text>
+        <line x1="66" y1="88" x2="102" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="138" y1="88" x2="174" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="210" y1="88" x2="246" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <text x="48" y="130" text-anchor="middle" fill="#475569" font-size="8">реестр</text>
+        <text x="120" y="130" text-anchor="middle" fill="#475569" font-size="8">блокировка</text>
+        <text x="192" y="130" text-anchor="middle" fill="#475569" font-size="8">претензия</text>
+        <text x="264" y="130" text-anchor="middle" fill="#475569" font-size="8">отзыв</text>
+        <rect x="24" y="148" width="272" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+        <text x="160" y="170" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="700">10 млн · 1252.1 · 1486</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#tz-brand">Товарный знак и бренд</a></li>
+    <li><a href="#tz-violation">Нарушение</a></li>
+    <li><a href="#tz-pretension">Претензия</a></li>
+    <li><a href="#tz-lawsuit">Иск в суде</a></li>
+    <li><a href="#tz-compensation">Компенсация</a></li>
+    <li><a href="#tz-practice">Практика</a></li>
+    <li><a href="#tz-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div 

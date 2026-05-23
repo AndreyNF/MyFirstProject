@@ -1,0 +1,68 @@
+
+          <text x="72" y="76" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">МП</text>
+          <circle cx="260" cy="70" r="22" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="260" y="74" text-anchor="middle" fill="#1a202c" font-size="10" font-weight="700">30д</text>
+          <circle cx="448" cy="70" r="22" fill="#2f855a" stroke="#fff" stroke-width="2"/>
+          <text x="448" y="76" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">СИП</text>
+          <rect x="24" y="108" width="130" height="26" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="89" y="125" text-anchor="middle" fill="#e2e8f0" font-size="9">~24 ч апелляция</text>
+          <rect x="195" y="108" width="130" height="26" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="260" y="125" text-anchor="middle" fill="#e2e8f0" font-size="9">ст. 1252 ГК РФ</text>
+          <rect x="366" y="108" width="130" height="26" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="431" y="125" text-anchor="middle" fill="#e2e8f0" font-size="9">отзыв ст. 131 АПК</text>
+          <text x="72" y="38" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="600">WB / Ozon</text>
+          <text x="260" y="38" text-anchor="middle" fill="#faf089" font-size="9" font-weight="600">претензия</text>
+          <text x="448" y="38" text-anchor="middle" fill="#9ae6b4" font-size="9" font-weight="600">компенсация</text>
+        </svg>
+        <ol class="l24-boris-ip-tz-kompensaciya__steps">
+          <li class="l24-boris-ip-tz-kompensaciya__step">
+            <strong>Маркетплейс</strong>
+            Жалоба → блокировка карточки; WB до 10 раб. дн., Ozon 5–14 раб. дн. Пакет: свидетельство, лицензия, сравнение знаков.
+          </li>
+          <li class="l24-boris-ip-tz-kompensaciya__step">
+            <strong>Претензия</strong>
+            30 дней до иска (ст. 1252). Ответ: сходство, однородность, расчёт компенсации, добросовестность.
+          </li>
+          <li class="l24-boris-ip-tz-kompensaciya__step">
+            <strong>Суд</strong>
+            Иск в СИП → отзыв → ст. 1486 (неиспользование знака истца) + оспаривание суммы по ст. 1252.1.
+          </li>
+        </ol>
+      </div>
+
+      <div class="l24-boris-ip-tz-kompensaciya__panel">
+        <p class="l24-boris-ip-tz-kompensaciya__panel-title">Компенсация 2026 (ст. 1515, 1252.1)</p>
+        <div class="l24-boris-ip-tz-kompensaciya__comp-grid">
+          <div class="l24-boris-ip-tz-kompensaciya__comp-card">
+            <span class="l24-boris-ip-tz-kompensaciya__comp-label">Твёрдая</span>
+            <span class="l24-boris-ip-tz-kompensaciya__comp-value">10–20 млн ₽</span>
+          </div>
+          <div class="l24-boris-ip-tz-kompensaciya__comp-card">
+            <span class="l24-boris-ip-tz-kompensaciya__comp-label">Снижение без вины</span>
+            <span class="l24-boris-ip-tz-kompensaciya__comp-value">10–500 тыс.</span>
+          </div>
+          <div class="l24-boris-ip-tz-kompensaciya__comp-card l24-boris-ip-tz-kompensaciya__comp-card--wide">
+            <span class="l24-boris-ip-tz-kompensaciya__comp-label">2× товар или 2× лицензия — без потолка</span>
+            <span class="l24-boris-ip-tz-kompensaciya__comp-value">десятки–сотни млн</span>
+          </div>
+        </div>
+        <p class="l24-boris-ip-tz-kompensaciya__comp-note"><em>Один товар — одно нарушение</em> (ст. 1252.1): нельзя умножать ТЗ + дизайн + фото на одной карточке без самостоятельной ценности каждого способа.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-ip-tz-kompensaciya__roles" aria-label="Две роли в одном маршруте">
+      <span class="l24-boris-ip-tz-kompensaciya__role l24-boris-ip-tz-kompensaciya__role--owner">Правообладатель: мониторинг МП → претензия → иск</span>
+      <span class="l24-boris-ip-tz-kompensaciya__role l24-boris-ip-tz-kompensaciya__role--def">Ответчик: апелляция → ответ 30 дн. → отзыв + 1486 / 1252.1</span>
+    </div>
+  </div>
+</section>
+
+<h2 id="tz-lawsuit">Иск по товарному знаку и защита интеллектуальной собственности в суде</h2>
+
+<p>Если досудебка не сработала, правообладатель подаёт <strong>иск по товарному знаку</strong> (иск о нарушении исключительных прав, <strong>иск на нарушение товарного знака</strong>). Подсудность — арбитраж для юрлиц и ИП, суды общей юрисдикции — для потребительских сюжетов; значимые споры по ИС часто попадают в <strong>Суд по интеллектуальным правам (СИП)</strong>.</p>
+
+<h3>Иск на нарушение товарного знака и иск о нарушении исключительных прав</h3>
+
+<p>Исковые требования типовые: прекратить нарушение, взыскать <strong>компенсацию</strong>, иногда — опубликовать решение, изъять контрафакт. Истец должен доказать принадлежность права и факт нарушения; <strong>бремя доказывания отсутствия вины</strong> на ответчике (презумпция ст. 1250). По размеру компенсации истец представляет <strong>расчёт и доказательства</strong> (п. 61 ППВС № 10 от 23.04.2019) — это точка для оспаривания завышенных цифр.</p>
+
+<h3>Иск по интеллектуально

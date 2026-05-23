@@ -1,0 +1,252 @@
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page th,
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page th { background: #edf2f7; }
+.narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page a { color: #1e40af; }
+.l24-intro-a9 {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-a9__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-a9__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-a9__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-a9__text p:last-child { margin-bottom: 0; }
+.l24-intro-a9__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-a9__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-a9__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+.l24-intro-a9__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-a9__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-a9__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-a9__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list { list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-a9 {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-a9 h2 { margin-top: 0 !important; }
+.l24-faq-a9__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-a9__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-a9__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-a9__a { margin: 0; color: #334155; }
+.l24-jsonld-note {
+  display: none; /* JSON-LD для Rank Math — см. блок Передача Юре */
+}
+@media (max-width: 900px) {
+  .l24-intro-a9__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<section id="l24-hero-ip-tz-nar" class="hero-ip-tz-nar" aria-label="Защита товарного знака и бренда">
+  <style>
+    .hero-ip-tz-nar {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(165deg, #f8fafc 0%, #eef2f7 42%, #f5f0eb 100%);
+      color: #1a2332;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ip-tz-nar::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 50% at 85% 20%, rgba(30, 64, 175, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 40% at 10% 80%, rgba(163, 24, 48, 0.05) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-ip-tz-nar__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-ip-tz-nar__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid rgba(26, 35, 50, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-ip-tz-nar__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e40af;
+      flex-shrink: 0;
+    }
+    .hero-ip-tz-nar__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.65rem, 3.8vw, 2.45rem);
+      line-height: 1.18;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-ip-tz-nar__h1-accent {
+      color: #1e40af;
+    }
+    .hero-ip-tz-nar__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-ip-tz-nar__steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-ip-tz-nar__step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-ip-tz-nar__step-num {
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #1e40af;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-ip-tz-nar__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+    }
+    .hero-ip-tz-nar__cta:hover {
+      background: #8b1528;
+    }
+    .hero-ip-tz-nar__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ip-tz-nar__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-ip-tz-nar__visual {
+        order: -1;
+        max-height: 280px;
+      }
+    }
+  </style>
+  <div class="hero-ip-tz-nar__inner">
+    <div class="hero-ip-tz-nar__content">
+      <div class="hero-ip-tz-nar__badge">
+        <span class="hero-ip-tz-nar__badge-dot" aria-hidden="true"></span>
+        ИС · товарный знак · ГК РФ ч. 4 · 2026
+      </div>
+      <h1 class="hero-ip-tz-nar__h1">
+        <span class="hero-ip-tz-nar__h1-accent">Товарный знак:</span> как защитить бренд и что делать, если подали иск
+      </h1>
+      <p class="hero-ip-tz-nar__sub">
+        Нарушение прав, претензия и иск по товарному знаку: судебная защита, компенсация и ответ на требования правообладателя
+      </p>
+      <ol class="hero-ip-tz-nar__steps">
+        <li class="hero-ip-tz-nar__step">
+          <span

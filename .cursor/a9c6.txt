@@ -1,0 +1,149 @@
+ight: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ip-tz-kompensaciya__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--tz-muted);
+  max-width: 62ch;
+}
+.l24-boris-ip-tz-kompensaciya__lead strong { color: #fff; }
+.l24-boris-ip-tz-kompensaciya__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.95fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ip-tz-kompensaciya__panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ip-tz-kompensaciya__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tz-gold);
+}
+.l24-boris-ip-tz-kompensaciya__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+}
+.l24-boris-ip-tz-kompensaciya__steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ip-tz-kompensaciya__step {
+  margin: 0;
+  padding: 12px 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  border-left: 3px solid var(--tz-accent);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+.l24-boris-ip-tz-kompensaciya__step:nth-child(2) { border-left-color: var(--tz-gold); }
+.l24-boris-ip-tz-kompensaciya__step:nth-child(3) { border-left-color: var(--tz-mint); }
+.l24-boris-ip-tz-kompensaciya__step strong {
+  display: block;
+  color: #fff;
+  font-size: 0.82rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ip-tz-kompensaciya__comp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 14px;
+}
+.l24-boris-ip-tz-kompensaciya__comp-card {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ip-tz-kompensaciya__comp-card--wide {
+  grid-column: 1 / -1;
+  border-color: rgba(236, 201, 75, 0.35);
+  background: rgba(197, 48, 48, 0.15);
+}
+.l24-boris-ip-tz-kompensaciya__comp-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--tz-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-ip-tz-kompensaciya__comp-value {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-ip-tz-kompensaciya__comp-note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--tz-muted);
+}
+.l24-boris-ip-tz-kompensaciya__comp-note em {
+  font-style: normal;
+  color: var(--tz-mint);
+  font-weight: 600;
+}
+.l24-boris-ip-tz-kompensaciya__roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ip-tz-kompensaciya__role {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--tz-ink);
+}
+.l24-boris-ip-tz-kompensaciya__role--owner { border: 1px solid var(--tz-gold); color: var(--tz-gold); }
+.l24-boris-ip-tz-kompensaciya__role--def { border: 1px solid var(--tz-mint); color: var(--tz-mint); }
+@media (max-width: 900px) {
+  .l24-boris-ip-tz-kompensaciya__split { grid-template-columns: 1fr; }
+  .l24-boris-ip-tz-kompensaciya__steps { grid-template-columns: 1fr; }
+  .l24-boris-ip-tz-kompensaciya__comp-grid { grid-template-columns: 1fr; }
+  .l24-boris-ip-tz-kompensaciya__comp-card--wide { grid-column: auto; }
+}
+</style>
+
+  <div class="l24-boris-ip-tz-kompensaciya__shell">
+    <p class="l24-boris-ip-tz-kompensaciya__eyebrow">214-ФЗ · с 04.01.2026 · ГК РФ ч. 4</p>
+    <h3 class="l24-boris-ip-tz-kompensaciya__title">МП → претензия → суд: одна шкала времени и «цена ошибки»</h3>
+    <p class="l24-boris-ip-tz-kompensaciya__lead">Спор по <strong>товарному знаку</strong> у селлера редко стартует в СИП: сначала <strong>маркетплейс</strong> (жалоба и блокировка), затем <strong>досудебная претензия</strong> (30 дней по ст. 1252 ГК РФ), затем <strong>иск</strong> и отзыв по ст. 131 АПК. Справа — лимиты компенсации после реформы и поле для снижения по ст. 1252.1.</p>
+
+    <div class="l24-boris-ip-tz-kompensaciya__split">
+      <div class="l24-boris-ip-tz-kompensaciya__panel">
+        <p class="l24-boris-ip-tz-kompensaciya__panel-title">Сквозной маршрут</p>
+        <svg class="l24-boris-ip-tz-kompensaciya__timeline-svg" viewBox="0 0 520 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="tz-ip-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#c53030"/>
+              <stop offset="50%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#68d391"/>
+            </linearGradient>
+          </defs>
+          <line x1="48" y1="70" x2="472" y2="70" stroke="url(#tz-ip-line)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="72" cy="70" r="22" fill="#c53030" stroke="#fff" stroke-width="2"/>
