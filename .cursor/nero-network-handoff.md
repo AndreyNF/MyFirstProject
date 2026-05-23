@@ -1055,3 +1055,1759 @@ H1: Защита по уголовному делу на стадии прове
 === /АРТУР ===
 
 
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+<section id="l24-hero-ug-defense" class="hero-ug-defense" aria-label="Защита по уголовному делу на стадии проверки и в суде">
+  <style>
+    .hero-ug-defense {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(162deg, #fafaf9 0%, #f5f4f1 38%, #eceae4 100%);
+      color: #1c1917;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ug-defense::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 58% 48% at 94% 14%, rgba(127, 29, 29, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 42% at 4% 90%, rgba(28, 25, 23, 0.06) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-ug-defense__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-ug-defense__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(28, 25, 23, 0.14);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #44403c;
+    }
+    .hero-ug-defense__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #7f1d1d;
+      flex-shrink: 0;
+    }
+    .hero-ug-defense__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #1c1917;
+      letter-spacing: -0.02em;
+    }
+    .hero-ug-defense__h1-accent {
+      color: #7f1d1d;
+    }
+    .hero-ug-defense__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #57534e;
+    }
+    .hero-ug-defense__tracks {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-ug-defense__track {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #44403c;
+    }
+    .hero-ug-defense__track-label {
+      flex-shrink: 0;
+      min-width: 108px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      background: #292524;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .hero-ug-defense__track--proverka .hero-ug-defense__track-label {
+      background: #57534e;
+    }
+    .hero-ug-defense__track--sledstvie .hero-ug-defense__track-label {
+      background: #1e3a5f;
+    }
+    .hero-ug-defense__track--sud .hero-ug-defense__track-label {
+      background: #7f1d1d;
+    }
+    .hero-ug-defense__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+      line-height: 1.35;
+      max-width: 36em;
+    }
+    .hero-ug-defense__cta:hover {
+      background: #8b1528;
+    }
+    .hero-ug-defense__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ug-defense__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-ug-defense__visual {
+        order: -1;
+        max-height: 320px;
+      }
+      .hero-ug-defense__track-label {
+        min-width: 92px;
+        font-size: 0.68rem;
+      }
+    }
+  </style>
+  <div class="hero-ug-defense__inner">
+    <div class="hero-ug-defense__content">
+      <div class="hero-ug-defense__badge">
+        <span class="hero-ug-defense__badge-dot" aria-hidden="true"></span>
+        УПК · ст. 144–148 · права подозреваемого · три стадии · 2026
+      </div>
+      <h1 class="hero-ug-defense__h1">
+        <span class="hero-ug-defense__h1-accent">Защита по уголовному делу</span> на стадии проверки и в суде: права и тактика
+      </h1>
+      <p class="hero-ug-defense__sub">
+        От проверки сообщения о преступлении до суда — права подозреваемого и обвиняемого, допрос, ходатайства и линия защиты с адвокатом.
+      </p>
+      <ul class="hero-ug-defense__tracks">
+        <li class="hero-ug-defense__track hero-ug-defense__track--proverka">
+          <span class="hero-ug-defense__track-label">Проверка</span>
+          <span><strong>ст. 144–148 УПК</strong> — ч. 1.1 ст. 144: адвокат и отказ от объяснений; сроки 3 / 10 / 30 суток; жалобы по гл. 16</span>
+        </li>
+        <li class="hero-ug-defense__track hero-ug-defense__track--sledstvie">
+          <span class="hero-ug-defense__track-label">Следствие</span>
+          <span><strong>Допрос и обвинение</strong> — ст. 46–47, 216; меры пресечения; ознакомление по ст. 217; ходатайства защитника</span>
+        </li>
+        <li class="hero-ug-defense__track hero-ug-defense__track--sud">
+          <span class="hero-ug-defense__track-label">Суд</span>
+          <span><strong>Судебная защита</strong> — ст. 51 УПК, доказательства, прения; последнее слово; линия после досудебной тактики</span>
+        </li>
+      </ul>
+      <a class="hero-ug-defense__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию по защите в уголовном деле и оценке уголовных рисков — разбор ситуации на проверке, следствии или в суде</a>
+    </div>
+    <div class="hero-ug-defense__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Таймлайн уголовного процесса: проверка, следствие, суд; щит прав защиты подозреваемого">
+        <defs>
+          <linearGradient id="hero-ugdef-scene" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#292524"/>
+            <stop offset="45%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#450a0a"/>
+          </linearGradient>
+          <linearGradient id="hero-ugdef-panel" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#334155"/>
+            <stop offset="100%" stop-color="#1e293b"/>
+          </linearGradient>
+          <linearGradient id="hero-ugdef-shield" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fef3c7"/>
+            <stop offset="50%" stop-color="#fde68a"/>
+            <stop offset="100%" stop-color="#d97706"/>
+          </linearGradient>
+          <linearGradient id="hero-ugdef-road" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stop-color="#a8a29e"/>
+            <stop offset="35%" stop-color="#64748b"/>
+            <stop offset="70%" stop-color="#3b82f6"/>
+            <stop offset="100%" stop-color="#b91c1c"/>
+          </linearGradient>
+          <filter id="hero-ugdef-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0c0a09" flood-opacity="0.3"/>
+          </filter>
+          <filter id="hero-ugdef-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1c1917" flood-opacity="0.14"/>
+          </filter>
+          <marker id="hero-ugdef-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#d6d3d1"/>
+          </marker>
+        </defs>
+        <rect x="14" y="18" width="412" height="364" rx="18" fill="url(#hero-ugdef-scene)" stroke="#1c1917" stroke-width="1.5" filter="url(#hero-ugdef-shadow)"/>
+        <text x="220" y="46" text-anchor="middle" fill="#e7e5e4" font-size="10" font-weight="700" letter-spacing="0.12em">ПРАВА И СТАДИИ ЗАЩИТЫ</text>
+        <line x1="44" y1="56" x2="396" y2="56" stroke="rgba(168,162,158,0.35)" stroke-width="1"/>
+        <!-- таймлайн -->
+        <line x1="52" y1="108" x2="388" y2="108" stroke="url(#hero-ugdef-road)" stroke-width="4" stroke-linecap="round"/>
+        <line x1="118" y1="108" x2="168" y2="108" stroke="#d6d3d1" stroke-width="2" marker-end="url(#hero-ugdef-arrow)"/>
+        <line x1="272" y1="108" x2="322" y2="108" stroke="#93c5fd" stroke-width="2" marker-end="url(#hero-ugdef-arrow)"/>
+        <circle cx="72" cy="108" r="16" fill="#57534e" stroke="#fafaf9" stroke-width="2"/>
+        <text x="72" y="113" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">1</text>
+        <circle cx="220" cy="108" r="16" fill="#1e3a5f" stroke="#93c5fd" stroke-width="2"/>
+        <text x="220" y="113" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">2</text>
+        <circle cx="368" cy="108" r="16" fill="#7f1d1d" stroke="#fecaca" stroke-width="2"/>
+        <text x="368" y="113" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">3</text>
+        <text x="72" y="88" text-anchor="middle" fill="#d6d3d1" font-size="8" font-weight="700">ПРОВЕРКА</text>
+        <text x="220" y="88" text-anchor="middle" fill="#93c5fd" font-size="8" font-weight="700">СЛЕДСТВИЕ</text>
+        <text x="368" y="88" text-anchor="middle" fill="#fecaca" font-size="8" font-weight="700">СУД</text>
+        <text x="72" y="132" text-anchor="middle" fill="#a8a29e" font-size="7">ст. 144</text>
+        <text x="220" y="132" text-anchor="middle" fill="#94a3b8" font-size="7">ст. 217</text>
+        <text x="368" y="132" text-anchor="middle" fill="#fca5a5" font-size="7">ст. 51</text>
+        <!-- щит прав в центре -->
+        <g transform="translate(220, 218)">
+          <path d="M0,-52 L44,-28 L44,18 C44,42 0,58 0,58 C0,58 -44,42 -44,18 L-44,-28 Z" fill="url(#hero-ugdef-shield)" stroke="#b45309" stroke-width="2" filter="url(#hero-ugdef-shadow-soft)"/>
+          <text y="-6" text-anchor="middle" fill="#78350f" font-size="9" font-weight="800">ПРАВА</text>
+          <text y="8" text-anchor="middle" fill="#92400e" font-size="7" font-weight="600">ст. 46–53</text>
+          <circle cx="0" cy="24" r="10" fill="#1e3a5f" stroke="#fff" stroke-width="1"/>
+          <text y="28" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">УПК</text>
+        </g>
+        <!-- три колонки стадий -->
+        <g transform="translate(28, 248)">
+          <rect width="118" height="118" rx="10" fill="rgba(87,83,78,0.35)" stroke="#a8a29e" stroke-width="1.2"/>
+          <text x="59" y="20" text-anchor="middle" fill="#e7e5e4" font-size="8" font-weight="700" letter-spacing="0.06em">ПРОВЕРКА</text>
+          <rect x="12" y="30" width="94" height="26" rx="5" fill="rgba(255,255,255,0.1)"/>
+          <text x="20" y="46" fill="#fafaf9" font-size="7">ч. 1.1 ст. 144</text>
+          <rect x="12" y="62" width="94" height="22" rx="5" fill="rgba(255,255,255,0.08)"/>
+          <text x="20" y="76" fill="#d6d3d1" font-size="7">адвокат · молчание</text>
+          <rect x="12" y="90" width="94" height="18" rx="4" fill="#57534e"/>
+          <text x="59" y="102" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">3 / 10 / 30 сут.</text>
+        </g>
+        <g transform="translate(161, 248)">
+          <rect width="118" height="118" rx="10" fill="url(#hero-ugdef-panel)" opacity="0.95"/>
+          <text x="59" y="20" text-anchor="middle" fill="#bfdbfe" font-size="8" font-weight="700" letter-spacing="0.06em">СЛЕДСТВИЕ</text>
+          <rect x="12" y="30" width="94" height="26" rx="5" fill="rgba(255,255,255,0.12)"/>
+          <text x="20" y="46" fill="#fff" font-size="7">допрос · ст. 216</text>
+          <rect x="12" y="62" width="94" height="22" rx="5" fill="rgba(255,255,255,0.08)"/>
+          <text x="20" y="76" fill="#cbd5e1" font-size="7">меры пресечения</text>
+          <rect x="12" y="90" width="94" height="18" rx="4" fill="#1e3a5f"/>
+          <text x="59" y="102" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">ст. 217</text>
+        </g>
+        <g transform="translate(294, 248)">
+          <rect width="118" height="118" rx="10" fill="#7f1d1d" opacity="0.92"/>
+          <text x="59" y="20" text-anchor="middle" fill="#fecaca" font-size="8" font-weight="700" letter-spacing="0.06em">СУД</text>
+          <rect x="12" y="30" width="94" height="26" rx="5" fill="rgba(0,0,0,0.2)" stroke="#fca5a5"/>
+          <text x="20" y="46" fill="#fff" font-size="7">защитник ст. 51</text>
+          <rect x="12" y="62" width="94" height="22" rx="5" fill="rgba(0,0,0,0.18)"/>
+          <text x="20" y="76" fill="#fecaca" font-size="7">прения · доказательства</text>
+          <rect x="12" y="90" width="94" height="18" rx="4" fill="#450a0a"/>
+          <text x="59" y="102" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">последнее слово</text>
+        </g>
+        <!-- иконки прав -->
+        <g transform="translate(52, 168)">
+          <rect width="56" height="28" rx="6" fill="rgba(255,255,255,0.08)" stroke="#a8a29e"/>
+          <text x="28" y="18" text-anchor="middle" fill="#e7e5e4" font-size="7" font-weight="600">жалоба</text>
+        </g>
+        <g transform="translate(332, 168)">
+          <rect width="56" height="28" rx="6" fill="rgba(255,255,255,0.08)" stroke="#fca5a5"/>
+          <text x="28" y="18" text-anchor="middle" fill="#fecaca" font-size="7" font-weight="600">ходатайство</text>
+        </g>
+        <text x="220" y="382" text-anchor="middle" fill="#78716c" font-size="7">проверка → следствие → суд · линия защиты подозреваемого</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+## Передача Наташе
+SLUG: zashchita-po-ugolovnomu-delu-stadiya-proverki
+id секции: `l24-hero-ug-defense`
+класс корня: `hero-ug-defense`
+H1: Защита по уголовному делу на стадии проверки и в суде: права и тактика
+Треки hero: Проверка / Следствие / Суд (бейджи как A5, контент UG)
+CTA: `https://advokat-vsem.ru/` — текст без домена
+Визуал: таймлайн уголовного процесса + щит прав (ст. 46–53), тёплый светлый фон — контраст к тёмному inset Бориса
+ВНИМАНИЕ: hero — только static SVG + inline CSS; без `<canvas>` и `<script>` (MCP publish удаляет scripts).
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+**Тема:** A10 / UG — защита на стадии проверки и в суде (два трека, 72 ч, ст. 144)  
+**Режим:** контраст к светлому hero Алины (тёмный inset в теле статьи)  
+**Техника:** static SVG + inline CSS — без `<canvas>` и `<script>`
+
+```html
+<section id="l24-boris-ug-defense-stages" class="l24-boris-ug-def" aria-label="Уголовная защита: стадии проверки и подозреваемого, сроки ст. 144 и чеклист 72 часа">
+<style>
+.l24-boris-ug-def {
+  --ug-navy: #0f1a24;
+  --ug-navy-soft: #1a2d3d;
+  --ug-amber: #e8b84a;
+  --ug-crimson: #e85d6a;
+  --ug-teal: #4fd1c5;
+  --ug-blue: #63b3ed;
+  --ug-ink: #e8edf2;
+  --ug-muted: #8fa3b8;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ug-def__shell {
+  background: linear-gradient(152deg, var(--ug-navy) 0%, #152535 48%, var(--ug-navy-soft) 100%);
+  border: 1px solid rgba(232, 184, 74, 0.26);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 20px 52px rgba(15, 26, 36, 0.4);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-def__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ug-amber);
+}
+.l24-boris-ug-def__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ug-def__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ug-muted);
+  max-width: 68ch;
+}
+.l24-boris-ug-def__lead strong { color: #fff; }
+.l24-boris-ug-def__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ug-def__panel {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ug-def__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ug-amber);
+}
+.l24-boris-ug-def__fork-svg,
+.l24-boris-ug-def__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-ug-def__fork-svg { max-height: 200px; margin-bottom: 12px; }
+.l24-boris-ug-def__timeline-svg { max-height: 148px; margin-bottom: 10px; }
+.l24-boris-ug-def__stages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ug-def__stage {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.24);
+  border-top: 3px solid var(--ug-blue);
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.l24-boris-ug-def__stage:nth-child(2) { border-top-color: var(--ug-crimson); }
+.l24-boris-ug-def__stage:nth-child(3) { border-top-color: var(--ug-teal); }
+.l24-boris-ug-def__stage strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ug-def__hours {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ug-def__hour {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-left: 3px solid var(--ug-amber);
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+.l24-boris-ug-def__hour:nth-child(2) { border-left-color: var(--ug-crimson); }
+.l24-boris-ug-def__hour:nth-child(3) { border-left-color: var(--ug-blue); }
+.l24-boris-ug-def__hour:nth-child(4) { border-left-color: var(--ug-teal); }
+.l24-boris-ug-def__hour:nth-child(5) { border-left-color: var(--ug-amber); grid-column: 1 / -1; }
+.l24-boris-ug-def__hour strong {
+  display: block;
+  color: #fff;
+  font-size: 0.76rem;
+  margin-bottom: 3px;
+}
+.l24-boris-ug-def__nums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0 0 10px;
+}
+.l24-boris-ug-def__num {
+  padding: 11px 9px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+.l24-boris-ug-def__num--wide {
+  grid-column: 1 / -1;
+  border-color: rgba(232, 184, 74, 0.32);
+  background: rgba(232, 184, 74, 0.07);
+}
+.l24-boris-ug-def__num-label {
+  display: block;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ug-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-ug-def__num-value {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-ug-def__rights {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.72rem;
+  line-height: 1.42;
+  color: var(--ug-muted);
+}
+.l24-boris-ug-def__rights li {
+  margin: 0 0 6px;
+  padding-left: 14px;
+  position: relative;
+}
+.l24-boris-ug-def__rights li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--ug-teal);
+}
+.l24-boris-ug-def__rights strong { color: #fff; }
+.l24-boris-ug-def__note {
+  margin: 10px 0 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ug-muted);
+}
+.l24-boris-ug-def__note em {
+  font-style: normal;
+  color: var(--ug-teal);
+  font-weight: 600;
+}
+.l24-boris-ug-def__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-ug-def__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-def__tag--t1 { border: 1px solid var(--ug-crimson); color: #feb2b2; }
+.l24-boris-ug-def__tag--t2 { border: 1px solid var(--ug-teal); color: #99f6e4; }
+.l24-boris-ug-def__tag--law { border: 1px solid var(--ug-amber); color: #faf089; }
+@media (max-width: 900px) {
+  .l24-boris-ug-def__split { grid-template-columns: 1fr; }
+  .l24-boris-ug-def__stages { grid-template-columns: 1fr; }
+  .l24-boris-ug-def__nums { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-ug-def__hours { grid-template-columns: 1fr; }
+  .l24-boris-ug-def__nums { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-ug-def__shell">
+    <p class="l24-boris-ug-def__eyebrow">УПК · ст. 144.1.1 · 46–53 · 217 · 2025–2026</p>
+    <h3 class="l24-boris-ug-def__title">Проверка → подозреваемый → суд: два трека и 72 часа без самооговора</h3>
+    <p class="l24-boris-ug-def__lead">Слева — <strong>развилка стадий</strong>: материал проверки (КРСП), дознание/следствие после возбуждения, суд. Справа — <strong>чеклист 72 часов</strong> и сроки из research: <strong>3 / 10 / 30 суток</strong> по ст. 144, <strong>48 ч</strong> задержание, <strong>2 месяца</strong> предварительное следствие. Не путать «проверку» с уже возбуждённым делом — права по ч. 1.1 ст. 144 действуют ещё до статуса подозреваемого.</p>
+
+    <div class="l24-boris-ug-def__split">
+      <div class="l24-boris-ug-def__panel">
+        <p class="l24-boris-ug-def__panel-title">Стадии: куда вы сейчас</p>
+        <svg class="l24-boris-ug-def__fork-svg" viewBox="0 0 520 172" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="ug-fork-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1e3348"/>
+              <stop offset="100%" stop-color="#0f1f2e"/>
+            </linearGradient>
+          </defs>
+          <rect width="520" height="172" rx="8" fill="url(#ug-fork-bg)" opacity="0.55"/>
+          <text x="260" y="20" text-anchor="middle" fill="#e8b84a" font-size="9" font-weight="700" letter-spacing="0.1em">КОНТАКТ С ОРГАНОМ / ВЫЗОВ / ОБЫСК</text>
+          <rect x="200" y="28" width="120" height="26" rx="6" fill="#243447" stroke="#e8b84a" stroke-width="1.2"/>
+          <text x="260" y="45" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">Уточнить статус</text>
+          <path d="M260 54 L260 68" stroke="#5a6f82" stroke-width="1.5"/>
+          <path d="M260 68 L72 98" stroke="#63b3ed" stroke-width="1.5" fill="none"/>
+          <path d="M260 68 L260 98" stroke="#e85d6a" stroke-width="1.5" fill="none"/>
+          <path d="M260 68 L448 98" stroke="#4fd1c5" stroke-width="1.5" fill="none"/>
+          <rect x="16" y="102" width="112" height="58" rx="8" fill="rgba(99,179,237,0.14)" stroke="#63b3ed" stroke-width="1.2"/>
+          <text x="72" y="122" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="700">Проверка</text>
+          <text x="72" y="138" text-anchor="middle" fill="#e8edf2" font-size="8" font-weight="600">КРСП · ст. 144</text>
+          <text x="72" y="152" text-anchor="middle" fill="#8fa3b8" font-size="7">ч. 1.1 — адвокат, молчание</text>
+          <rect x="204" y="102" width="112" height="58" rx="8" fill="rgba(232,93,106,0.12)" stroke="#e85d6a" stroke-width="1.2"/>
+          <text x="260" y="122" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="700">Подозреваемый</text>
+          <text x="260" y="138" text-anchor="middle" fill="#e8edf2" font-size="8" font-weight="600">дознание / следствие</text>
+          <text x="260" y="152" text-anchor="middle" fill="#8fa3b8" font-size="7">ст. 46–53 · 216 · 217</text>
+          <rect x="392" y="102" width="112" height="58" rx="8" fill="rgba(79,209,197,0.1)" stroke="#4fd1c5" stroke-width="1.2"/>
+          <text x="448" y="122" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="700">Суд</text>
+          <text x="448" y="138" text-anchor="middle" fill="#e8edf2" font-size="8" font-weight="600">подсудимый</text>
+          <text x="448" y="152" text-anchor="middle" fill="#8fa3b8" font-size="7">Пленум № 29 · ст. 51</text>
+        </svg>
+        <ul class="l24-boris-ug-def__stages">
+          <li class="l24-boris-ug-def__stage">
+            <strong>Проверка</strong>
+            Часто без статуса подозреваемого; ч. 1.1 ст. 144 — отказ от объяснений, адвокат, жалобы гл. 16.
+          </li>
+          <li class="l24-boris-ug-def__stage">
+            <strong>После возбуждения</strong>
+            Подозреваемый → обвиняемый; допрос с защитником (ст. 51); дознание 30 сут. / следствие 2 мес.
+          </li>
+          <li class="l24-boris-ug-def__stage">
+            <strong>Суд</strong>
+            Линия после ст. 217: недопустимые (ст. 75) → судебное следствие → последнее слово.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-ug-def__panel">
+        <p class="l24-boris-ug-def__panel-title">72 часа + сроки ст. 144 / 91 / 162</p>
+        <svg class="l24-boris-ug-def__timeline-svg" viewBox="0 0 520 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <line x1="36" y1="56" x2="484" y2="56" stroke="#3d5266" stroke-width="2" stroke-dasharray="5 4"/>
+          <circle cx="52" cy="56" r="13" fill="#e8b84a"/><text x="52" y="61" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">0</text>
+          <circle cx="148" cy="56" r="13" fill="#e85d6a"/><text x="148" y="61" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">24</text>
+          <circle cx="244" cy="56" r="13" fill="#63b3ed"/><text x="244" y="61" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">3</text>
+          <circle cx="340" cy="56" r="13" fill="#4fd1c5"/><text x="340" y="61" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">48</text>
+          <circle cx="468" cy="56" r="13" fill="#e8b84a"/><text x="468" y="61" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">72</text>
+          <text x="52" y="36" text-anchor="middle" fill="#e8b84a" font-size="7.5" font-weight="600">ордер</text>
+          <text x="148" y="36" text-anchor="middle" fill="#feb2b2" font-size="7.5" font-weight="600">задержание</text>
+          <text x="244" y="36" text-anchor="middle" fill="#bee3f8" font-size="7.5" font-weight="600">ст. 144</text>
+          <text x="340" y="36" text-anchor="middle" fill="#99f6e4" font-size="7.5" font-weight="600">допрос</text>
+          <text x="468" y="36" text-anchor="middle" fill="#faf089" font-size="7.5" font-weight="600">ст. 217</text>
+          <text x="52" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">0–2 ч</text>
+          <text x="148" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">свидание</text>
+          <text x="244" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">решение</text>
+          <text x="340" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">ст. 91</text>
+          <text x="468" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">подготовка</text>
+        </svg>
+        <div class="l24-boris-ug-def__nums">
+          <div class="l24-boris-ug-def__num l24-boris-ug-def__num--wide">
+            <span class="l24-boris-ug-def__num-label">Проверка сообщения · ст. 144 УПК</span>
+            <span class="l24-boris-ug-def__num-value">3 → 10 → 30 суток</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Задержание</span>
+            <span class="l24-boris-ug-def__num-value">до 48 ч</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Допрос задержанного</span>
+            <span class="l24-boris-ug-def__num-value">24 ч</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Следствие · ст. 162</span>
+            <span class="l24-boris-ug-def__num-value">2 месяца</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Жалоба / ходатайство</span>
+            <span class="l24-boris-ug-def__num-value">3 / 10 сут.</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Дознание · ст. 223</span>
+            <span class="l24-boris-ug-def__num-value">30 суток</span>
+          </div>
+        </div>
+        <ol class="l24-boris-ug-def__hours">
+          <li class="l24-boris-ug-def__hour">
+            <strong>0–2 ч</strong>
+            Ордер адвоката; не давать объяснений без защитника; ФИО должностных, № КРСП/дела.
+          </li>
+          <li class="l24-boris-ug-def__hour">
+            <strong>До 24 ч</strong>
+            При задержании — свидание с адвокатом; не подписывать незнакомые бумаги (ст. 91, ч. 2 ст. 46).
+          </li>
+          <li class="l24-boris-ug-def__hour">
+            <strong>3 суток</strong>
+            Решение по ст. 144; при затягивании — жалоба на незаконное продление (гл. 16).
+          </li>
+          <li class="l24-boris-ug-def__hour">
+            <strong>При возбуждении</strong>
+            Копия постановления; не «объяснять версию» без стратегии; ходатайства по мерам.
+          </li>
+          <li class="l24-boris-ug-def__hour">
+            <strong>До ст. 216–217</strong>
+            Документы по треку 2; 3–5 целевых ходатайств по слабым местам обвинения.
+          </li>
+        </ol>
+        <ul class="l24-boris-ug-def__rights" aria-label="Ключевые права на проверке и следствии">
+          <li><strong>Молчание:</strong> п. 2 ч. 4 ст. 46 / п. 3 ст. 47 — не признание вины</li>
+          <li><strong>Адвокат:</strong> ч. 1.1 ст. 144, ст. 49–50; досудебно — только адвокат</li>
+          <li><strong>Обыск:</strong> защитник присутствует (ч. 11 ст. 182); ст. 450.1 — тайна</li>
+        </ul>
+        <p class="l24-boris-ug-def__note"><em>3 / 10 / 30</em> — продления проверки только с конкретными фактами в постановлении. <em>2 месяца</em> — базовый срок следствия (+ до 3 / 12 / далее по ст. 162). По ряду статей УК задержание — до <em>72 ч</em>.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-ug-def__foot" aria-label="Два трека защиты">
+      <span class="l24-boris-ug-def__tag l24-boris-ug-def__tag--t1">Трек 1: статус · адвокат · молчание · жалобы</span>
+      <span class="l24-boris-ug-def__tag l24-boris-ug-def__tag--t2">Трек 2: факты документами · ст. 217 · ст. 75</span>
+      <span class="l24-boris-ug-def__tag l24-boris-ug-def__tag--law">Не A7: без таблиц составов 159/177</span>
+    </div>
+  </div>
+</section>
+```
+
+**Паспорт блока**
+
+| Поле | Значение |
+|------|----------|
+| **id секции** | `l24-boris-ug-defense-stages` |
+| **Якорь для Наташи** | `#l24-boris-ug-defense-stages` — вставка после H2 «Два трека защиты и чеклист первых 72 часов» (маркер `<!-- BORIS_ANCHOR -->` в теле лонгрида) |
+| **Класс корня** | `l24-boris-ug-def` |
+| **Режим** | Контраст к светлому hero Алины: тёмный inset, янтарный/бирюзовый акцент UG |
+| **Техника** | Только inline `<style>` + SVG; без canvas и script |
+| **Цифры research** | **3 / 10 / 30 суток** проверка (ч. 1, 3 ст. 144); **48 ч** задержание (ст. 91); **24 ч** допрос задержанного; **2 месяца** следствие (ст. 162); **30 суток** дознание; жалоба **3** / ходатайство **10** суток (гл. 16); чеклист **72 часа** |
+
+**Чеклист отличий от hero Алины**
+
+- [x] Не первый экран — блок в теле статьи после 1–2 секций
+- [x] Другой `id` (не hero canvas id Алины)
+- [x] Тёмная сцена vs светлый hero
+- [x] Сплит: развилка проверка / подозреваемый / суд + таймлайн 72 ч и сроки ст. 144
+- [x] Static SVG/CSS only
+- [x] Два трека в футере блока (процесс vs факты)
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**Файл:** `.cursor/page-content-natasha-A10.html`
+**SLUG:** `zashchita-po-ugolovnomu-delu-stadiya-proverki`
+**Title:** Защита по уголовному делу на стадии проверки и в суде: права и тактика | Legis24
+**Description:** Права подозреваемого и обвиняемого на проверке сообщения о преступлении, при допросе и следственных действиях; роль адвоката, ходатайства и защита в суде. Консультация по уголовному делу и рискам.
+
+ВНИМАНИЕ: без `<script>` и `<canvas>` — hero и Борис static SVG + inline CSS (MCP publish удаляет scripts).
+
+```html
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page th, .zashchita-po-ugolovnomu-delu-stadiya-proverki-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page th { background: #edf2f7; }
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page a { color: #1e40af; }
+.zashchita-po-ugolovnomu-delu-stadiya-proverki-page code {
+  font-size: 0.9em; background: #f1f5f9; padding: 2px 6px; border-radius: 4px;
+}
+.l24-intro-ug {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-ug__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-ug__text {
+  border-left: 4px solid #7f1d1d; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-ug__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-ug__text p:last-child { margin-bottom: 0; }
+.l24-intro-ug__brief {
+  background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-ug__decor {
+  background: linear-gradient(160deg, #f5f4f1 0%, #fff 100%);
+  border: 1px solid #e7e5e4; border-radius: 12px; padding: 18px;
+}
+.l24-intro-ug__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-ug__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-ug__chip--accent { border-color: #1e3a5f; color: #1e3a5f; }
+.l24-intro-ug__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-ug__chip--navy { border-color: #57534e; color: #44403c; }
+.l24-intro-ug__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-ug {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-ug > h2 { margin-top: 0 !important; }
+.l24-faq-ug__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-ug__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-ug__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-ug__a { margin: 0; color: #334155; }
+.ym-section { display: block; }
+@media (max-width: 900px) {
+  .l24-intro-ug__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main zashchita-po-ugolovnomu-delu-stadiya-proverki-page" role="main" tabindex="-1">
+
+<section id="l24-hero-ug-defense" class="hero-ug-defense" aria-label="Защита по уголовному делу на стадии проверки и в суде">
+  <style>
+    .hero-ug-defense {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(162deg, #fafaf9 0%, #f5f4f1 38%, #eceae4 100%);
+      color: #1c1917;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ug-defense::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 58% 48% at 94% 14%, rgba(127, 29, 29, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 42% at 4% 90%, rgba(28, 25, 23, 0.06) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-ug-defense__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-ug-defense__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(28, 25, 23, 0.14);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #44403c;
+    }
+    .hero-ug-defense__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #7f1d1d;
+      flex-shrink: 0;
+    }
+    .hero-ug-defense__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #1c1917;
+      letter-spacing: -0.02em;
+    }
+    .hero-ug-defense__h1-accent {
+      color: #7f1d1d;
+    }
+    .hero-ug-defense__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #57534e;
+    }
+    .hero-ug-defense__tracks {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-ug-defense__track {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #44403c;
+    }
+    .hero-ug-defense__track-label {
+      flex-shrink: 0;
+      min-width: 108px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      background: #292524;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .hero-ug-defense__track--proverka .hero-ug-defense__track-label {
+      background: #57534e;
+    }
+    .hero-ug-defense__track--sledstvie .hero-ug-defense__track-label {
+      background: #1e3a5f;
+    }
+    .hero-ug-defense__track--sud .hero-ug-defense__track-label {
+      background: #7f1d1d;
+    }
+    .hero-ug-defense__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+      line-height: 1.35;
+      max-width: 36em;
+    }
+    .hero-ug-defense__cta:hover {
+      background: #8b1528;
+    }
+    .hero-ug-defense__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ug-defense__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-ug-defense__visual {
+        order: -1;
+        max-height: 320px;
+      }
+      .hero-ug-defense__track-label {
+        min-width: 92px;
+        font-size: 0.68rem;
+      }
+    }
+  </style>
+  <div class="hero-ug-defense__inner">
+    <div class="hero-ug-defense__content">
+      <div class="hero-ug-defense__badge">
+        <span class="hero-ug-defense__badge-dot" aria-hidden="true"></span>
+        УПК · ст. 144–148 · права подозреваемого · три стадии · 2026
+      </div>
+      <h1 class="hero-ug-defense__h1">
+        <span class="hero-ug-defense__h1-accent">Защита по уголовному делу</span> на стадии проверки и в суде: права и тактика
+      </h1>
+      <p class="hero-ug-defense__sub">
+        От проверки сообщения о преступлении до суда — права подозреваемого и обвиняемого, допрос, ходатайства и линия защиты с адвокатом.
+      </p>
+      <ul class="hero-ug-defense__tracks">
+        <li class="hero-ug-defense__track hero-ug-defense__track--proverka">
+          <span class="hero-ug-defense__track-label">Проверка</span>
+          <span><strong>ст. 144–148 УПК</strong> — ч. 1.1 ст. 144: адвокат и отказ от объяснений; сроки 3 / 10 / 30 суток; жалобы по гл. 16</span>
+        </li>
+        <li class="hero-ug-defense__track hero-ug-defense__track--sledstvie">
+          <span class="hero-ug-defense__track-label">Следствие</span>
+          <span><strong>Допрос и обвинение</strong> — ст. 46–47, 216; меры пресечения; ознакомление по ст. 217; ходатайства защитника</span>
+        </li>
+        <li class="hero-ug-defense__track hero-ug-defense__track--sud">
+          <span class="hero-ug-defense__track-label">Суд</span>
+          <span><strong>Судебная защита</strong> — ст. 51 УПК, доказательства, прения; последнее слово; линия после досудебной тактики</span>
+        </li>
+      </ul>
+      <a class="hero-ug-defense__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию по защите в уголовном деле и оценке уголовных рисков — разбор ситуации на проверке, следствии или в суде</a>
+    </div>
+    <div class="hero-ug-defense__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Таймлайн уголовного процесса: проверка, следствие, суд; щит прав защиты подозреваемого">
+        <defs>
+          <linearGradient id="hero-ugdef-scene" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#292524"/>
+            <stop offset="45%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#450a0a"/>
+          </linearGradient>
+          <linearGradient id="hero-ugdef-panel" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#334155"/>
+            <stop offset="100%" stop-color="#1e293b"/>
+          </linearGradient>
+          <linearGradient id="hero-ugdef-shield" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fef3c7"/>
+            <stop offset="50%" stop-color="#fde68a"/>
+            <stop offset="100%" stop-color="#d97706"/>
+          </linearGradient>
+          <linearGradient id="hero-ugdef-road" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stop-color="#a8a29e"/>
+            <stop offset="35%" stop-color="#64748b"/>
+            <stop offset="70%" stop-color="#3b82f6"/>
+            <stop offset="100%" stop-color="#b91c1c"/>
+          </linearGradient>
+          <filter id="hero-ugdef-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0c0a09" flood-opacity="0.3"/>
+          </filter>
+          <filter id="hero-ugdef-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1c1917" flood-opacity="0.14"/>
+          </filter>
+          <marker id="hero-ugdef-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#d6d3d1"/>
+          </marker>
+        </defs>
+        <rect x="14" y="18" width="412" height="364" rx="18" fill="url(#hero-ugdef-scene)" stroke="#1c1917" stroke-width="1.5" filter="url(#hero-ugdef-shadow)"/>
+        <text x="220" y="46" text-anchor="middle" fill="#e7e5e4" font-size="10" font-weight="700" letter-spacing="0.12em">ПРАВА И СТАДИИ ЗАЩИТЫ</text>
+        <line x1="44" y1="56" x2="396" y2="56" stroke="rgba(168,162,158,0.35)" stroke-width="1"/>
+        <!-- таймлайн -->
+        <line x1="52" y1="108" x2="388" y2="108" stroke="url(#hero-ugdef-road)" stroke-width="4" stroke-linecap="round"/>
+        <line x1="118" y1="108" x2="168" y2="108" stroke="#d6d3d1" stroke-width="2" marker-end="url(#hero-ugdef-arrow)"/>
+        <line x1="272" y1="108" x2="322" y2="108" stroke="#93c5fd" stroke-width="2" marker-end="url(#hero-ugdef-arrow)"/>
+        <circle cx="72" cy="108" r="16" fill="#57534e" stroke="#fafaf9" stroke-width="2"/>
+        <text x="72" y="113" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">1</text>
+        <circle cx="220" cy="108" r="16" fill="#1e3a5f" stroke="#93c5fd" stroke-width="2"/>
+        <text x="220" y="113" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">2</text>
+        <circle cx="368" cy="108" r="16" fill="#7f1d1d" stroke="#fecaca" stroke-width="2"/>
+        <text x="368" y="113" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">3</text>
+        <text x="72" y="88" text-anchor="middle" fill="#d6d3d1" font-size="8" font-weight="700">ПРОВЕРКА</text>
+        <text x="220" y="88" text-anchor="middle" fill="#93c5fd" font-size="8" font-weight="700">СЛЕДСТВИЕ</text>
+        <text x="368" y="88" text-anchor="middle" fill="#fecaca" font-size="8" font-weight="700">СУД</text>
+        <text x="72" y="132" text-anchor="middle" fill="#a8a29e" font-size="7">ст. 144</text>
+        <text x="220" y="132" text-anchor="middle" fill="#94a3b8" font-size="7">ст. 217</text>
+        <text x="368" y="132" text-anchor="middle" fill="#fca5a5" font-size="7">ст. 51</text>
+        <!-- щит прав в центре -->
+        <g transform="translate(220, 218)">
+          <path d="M0,-52 L44,-28 L44,18 C44,42 0,58 0,58 C0,58 -44,42 -44,18 L-44,-28 Z" fill="url(#hero-ugdef-shield)" stroke="#b45309" stroke-width="2" filter="url(#hero-ugdef-shadow-soft)"/>
+          <text y="-6" text-anchor="middle" fill="#78350f" font-size="9" font-weight="800">ПРАВА</text>
+          <text y="8" text-anchor="middle" fill="#92400e" font-size="7" font-weight="600">ст. 46–53</text>
+          <circle cx="0" cy="24" r="10" fill="#1e3a5f" stroke="#fff" stroke-width="1"/>
+          <text y="28" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">УПК</text>
+        </g>
+        <!-- три колонки стадий -->
+        <g transform="translate(28, 248)">
+          <rect width="118" height="118" rx="10" fill="rgba(87,83,78,0.35)" stroke="#a8a29e" stroke-width="1.2"/>
+          <text x="59" y="20" text-anchor="middle" fill="#e7e5e4" font-size="8" font-weight="700" letter-spacing="0.06em">ПРОВЕРКА</text>
+          <rect x="12" y="30" width="94" height="26" rx="5" fill="rgba(255,255,255,0.1)"/>
+          <text x="20" y="46" fill="#fafaf9" font-size="7">ч. 1.1 ст. 144</text>
+          <rect x="12" y="62" width="94" height="22" rx="5" fill="rgba(255,255,255,0.08)"/>
+          <text x="20" y="76" fill="#d6d3d1" font-size="7">адвокат · молчание</text>
+          <rect x="12" y="90" width="94" height="18" rx="4" fill="#57534e"/>
+          <text x="59" y="102" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">3 / 10 / 30 сут.</text>
+        </g>
+        <g transform="translate(161, 248)">
+          <rect width="118" height="118" rx="10" fill="url(#hero-ugdef-panel)" opacity="0.95"/>
+          <text x="59" y="20" text-anchor="middle" fill="#bfdbfe" font-size="8" font-weight="700" letter-spacing="0.06em">СЛЕДСТВИЕ</text>
+          <rect x="12" y="30" width="94" height="26" rx="5" fill="rgba(255,255,255,0.12)"/>
+          <text x="20" y="46" fill="#fff" font-size="7">допрос · ст. 216</text>
+          <rect x="12" y="62" width="94" height="22" rx="5" fill="rgba(255,255,255,0.08)"/>
+          <text x="20" y="76" fill="#cbd5e1" font-size="7">меры пресечения</text>
+          <rect x="12" y="90" width="94" height="18" rx="4" fill="#1e3a5f"/>
+          <text x="59" y="102" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">ст. 217</text>
+        </g>
+        <g transform="translate(294, 248)">
+          <rect width="118" height="118" rx="10" fill="#7f1d1d" opacity="0.92"/>
+          <text x="59" y="20" text-anchor="middle" fill="#fecaca" font-size="8" font-weight="700" letter-spacing="0.06em">СУД</text>
+          <rect x="12" y="30" width="94" height="26" rx="5" fill="rgba(0,0,0,0.2)" stroke="#fca5a5"/>
+          <text x="20" y="46" fill="#fff" font-size="7">защитник ст. 51</text>
+          <rect x="12" y="62" width="94" height="22" rx="5" fill="rgba(0,0,0,0.18)"/>
+          <text x="20" y="76" fill="#fecaca" font-size="7">прения · доказательства</text>
+          <rect x="12" y="90" width="94" height="18" rx="4" fill="#450a0a"/>
+          <text x="59" y="102" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">последнее слово</text>
+        </g>
+        <!-- иконки прав -->
+        <g transform="translate(52, 168)">
+          <rect width="56" height="28" rx="6" fill="rgba(255,255,255,0.08)" stroke="#a8a29e"/>
+          <text x="28" y="18" text-anchor="middle" fill="#e7e5e4" font-size="7" font-weight="600">жалоба</text>
+        </g>
+        <g transform="translate(332, 168)">
+          <rect width="56" height="28" rx="6" fill="rgba(255,255,255,0.08)" stroke="#fca5a5"/>
+          <text x="28" y="18" text-anchor="middle" fill="#fecaca" font-size="7" font-weight="600">ходатайство</text>
+        </g>
+        <text x="220" y="382" text-anchor="middle" fill="#78716c" font-size="7">проверка → следствие → суд · линия защиты подозреваемого</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="l24-intro-ug ym-section" aria-label="Введение">
+  <div class="l24-intro-ug__grid">
+    <div class="l24-intro-ug__text">
+      <p>Вызов в отдел, обыск, постановление о возбуждении — для гражданина и предпринимателя это не «теория стадий», а угроза свободе и бизнесу. <strong>Защита по уголовному делу</strong> начинается в первые часы контакта с органом, а не в зале суда.</p>
+      <p>Ниже — операционная карта стороны защиты: статус (проверка, подозреваемый, обвиняемый), права по <strong>ч. 1.1 ст. 144</strong> и ст. 46–53 УПК, допрос, ходатайства и линия до <strong>ст. 217</strong> и суда. Без энциклопедии УК — только процесс и тактика.</p>
+      <div class="l24-intro-ug__brief">
+        <strong>Кратко:</strong> на проверке уже действуют адвокат и отказ от объяснений; сроки по ст. 144 — <strong>3 / 10 / 30 суток</strong>; задержание — до <strong>48 ч</strong> (по ряду статей — 72); следствие — <strong>2 месяца</strong> с продлениями.
+      </div>
+    </div>
+    <aside class="l24-intro-ug__decor" aria-label="Стадии и нормы УПК">
+      <ul class="l24-intro-ug__chips">
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--navy">ч. 1.1 ст. 144</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--accent">ст. 46–53</li>
+        <li class="l24-intro-ug__chip">ст. 216–217</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--warn">3 / 10 / 30</li>
+        <li class="l24-intro-ug__chip">гл. 16 жалобы</li>
+        <li class="l24-intro-ug__chip">72 часа</li>
+      </ul>
+      <svg class="l24-intro-ug__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Проверка, следствие, суд: линия защиты подозреваемого">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#d6d3d1"/>
+        <text x="24" y="32" fill="#57534e" font-size="10" font-weight="700">СТАДИИ ЗАЩИТЫ</text>
+        <circle cx="56" cy="96" r="20" fill="#57534e"/><text x="56" y="101" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">144</text>
+        <text x="56" y="130" text-anchor="middle" fill="#44403c" font-size="8">проверка</text>
+        <circle cx="160" cy="96" r="20" fill="#1e3a5f"/><text x="160" y="101" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">216</text>
+        <text x="160" y="130" text-anchor="middle" fill="#1e3a5f" font-size="8">следствие</text>
+        <circle cx="264" cy="96" r="20" fill="#7f1d1d"/><text x="264" y="101" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">51</text>
+        <text x="264" y="130" text-anchor="middle" fill="#7f1d1d" font-size="8">суд</text>
+        <line x1="76" y1="96" x2="140" y2="96" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="180" y1="96" x2="244" y2="96" stroke="#94a3b8" stroke-width="2"/>
+        <rect x="24" y="148" width="272" height="36" rx="6" fill="#fafaf9" stroke="#e7e5e4"/>
+        <text x="160" y="170" text-anchor="middle" fill="#1c1917" font-size="10" font-weight="700">адвокат · молчание · ст. 217</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+
+<nav class="ym-toc ym-section" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#ug-stadii">Стадии: проверка → суд</a></li>
+    <li><a href="#ug-prava">Права по УПК</a></li>
+    <li><a href="#ug-advokat">Адвокат и защитник</a></li>
+    <li><a href="#ug-sledstvie">Допрос и обыск</a></li>
+    <li><a href="#ug-obvinenie">Обвинение и ст. 217</a></li>
+    <li><a href="#ug-mery">Меры пресечения</a></li>
+    <li><a href="#ug-hodataystva">Ходатайства</a></li>
+    <li><a href="#ug-sud">Защита в суде</a></li>
+    <li><a href="#ug-treki">Два трека · 72 часа</a></li>
+    <li><a href="#ug-oshibki">Типовые ошибки</a></li>
+    <li><a href="#ug-praktika">Практика 2024–2026</a></li>
+    <li><a href="#ug-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+
+<section class="ym-section">
+<div class="l24-longread-wrap">
+
+<h2 id="ug-stadii">Зачем подключать защиту сразу: стадии от проверки до суда</h2>
+
+<p><strong>Стадии уголовного процесса</strong> и <strong>стадии уголовного дела в уголовном процессе</strong> часто смешивают в быту. Для защиты важна развилка: идёт ли ещё <strong>проверка сообщения о преступлении</strong> (материал проверки, КРСП) или уже возбуждено уголовное дело. До постановления о возбуждении у лица может не быть статуса подозреваемого — но после вступления в силу <strong>ч. 1.1 ст. 144 УПК</strong> (с 2013 г., 23-ФЗ) на доследственной проверке уже разъясняют права, в том числе <strong>не свидетельствовать против себя и близких</strong> и <strong>пользоваться услугами адвоката</strong>. Материалы проверки при соблюдении процедуры могут стать доказательствами в деле; ошибки на этом этапе сложно «откатить» позже.</p>
+
+<h3>Проверка сообщения о преступлении и сроки (в т.ч. продление)</h3>
+
+<p>По <strong>ч. 1 ст. 144 УПК</strong> решение по сообщению о преступлении принимают в срок <strong>3 суток</strong> с момента поступления. Продление — до <strong>10 суток</strong> (руководитель следственного органа / начальник органа дознания), до <strong>30 суток</strong> — при экспертизах, ревизиях, оперативно-розыскных мероприятиях; в постановлении о продлении должны быть <strong>конкретные</strong> факты, а не формальная отсылка. Запрос «<strong>срок проверки сообщения о преступлении</strong>» и «<strong>продление срока проверки сообщения о преступлении</strong>» — повод для защиты завести календарь: просрочка и незаконное продление оспариваются по главе 16 УПК (жалоба — <strong>3 суток</strong>, ходатайство — <strong>10 суток</strong>).</p>
+
+<p><strong>Проверка на стадии возбуждения уголовного дела</strong> в узком смысле — момент перехода: постановление о возбуждении (ст. 140, 146 УПК), копия лицу, в отношении которого дело возбуждено, статус <strong>подозреваемого</strong> (п. 1 ч. 1 ст. 46 УПК).</p>
+
+<table><thead><tr><th>Стадия</th><th>Правовая основа</th><th>Кто ведёт</th><th>Статус лица</th><th>Ключ для защиты</th></tr></thead><tbody><tr><td>Проверка сообщения (КРСП)</td><td>ст. 144–148 УПК; <strong>ч. 1.1 ст. 144</strong></td><td>Дознаватель / следователь</td><td>Часто без статуса подозреваемого</td><td>Адвокат, отказ от объяснений, фиксация вызовов</td></tr><tr><td>Возбуждение дела</td><td>ст. 140, 146 УПК</td><td>Следователь / дознаватель</td><td>Подозреваемый</td><td>Копия постановления, жалобы</td></tr><tr><td>Дознание</td><td>гл. 32, ст. 223 УПК</td><td>Дознаватель</td><td>Подозреваемый → обвиняемый</td><td><strong>30 суток</strong> (+ продления); защитник — только адвокат (ч. 2 ст. 49)</td></tr><tr><td>Предварительное следствие</td><td>гл. 22, ст. 162 УПК</td><td>Следователь</td><td>Подозреваемый → обвиняемый</td><td><strong>2 месяца</strong> (+ до 3 / 12 / далее)</td></tr><tr><td>Предъявление обвинения</td><td>ст. 171, <strong>216</strong> УПК</td><td>Следователь</td><td><strong>Обвиняемый</strong></td><td>С защитником; допрос по ст. 173</td></tr><tr><td>Ознакомление с делом</td><td><strong>ст. 217</strong> УПК</td><td>Следователь</td><td>Обвиняемый</td><td>Аудит до суда</td></tr><tr><td>Суд</td><td>гл. 47–49 УПК</td><td>Суд</td><td>Подсудимый</td><td>Пленум ВС № 29; ст. 51 УПК</td></tr></tbody></table>
+
+<table><thead><tr><th>Этап</th><th>Срок</th><th>Продление</th><th>Норма</th></tr></thead><tbody><tr><td>Решение по сообщению</td><td><strong>3 суток</strong></td><td>до 10 / до 30 суток</td><td>ч. 1, 3 ст. 144 УПК</td></tr><tr><td>Задержание</td><td>до <strong>48 ч</strong> (по ряду статей — до <strong>72 ч</strong>)</td><td>—</td><td>ст. 91, 109 УПК</td></tr><tr><td>Допрос задержанного</td><td>не позднее <strong>24 ч</strong></td><td>—</td><td>ч. 2 ст. 46 УПК</td></tr><tr><td>Дознание</td><td><strong>30 суток</strong></td><td>+30 суток и др.</td><td>ст. 223 УПК</td></tr><tr><td>Следствие</td><td><strong>2 месяца</strong></td><td>до 3 / 12 / исключительно</td><td>ст. 162 УПК</td></tr></tbody></table>
+
+<h3>Досудебные и предварительная стадия — где «ломается» дело</h3>
+
+<p><strong>Досудебные стадии уголовного процесса</strong> — проверка, дознание или предварительное расследование. <strong>Предварительная стадия уголовного процесса</strong> в быту обычно означает следствие до передачи дела в суд. Именно здесь закладывают доказательственную базу обвинения; <strong>защита на стадии предварительного расследования</strong> — это не «убедить следователя», а не допустить самооговора, оспорить нарушения и подготовить линию до <strong>ознакомления обвиняемого с материалами уголовного дела</strong> (ст. 217 УПК).</p>
+
+<p>Если вы предприниматель и видите угрозу уголовной перспективы по спору с контрагентом, границу гражданского и уголовного спора имеет смысл разобрать отдельно — без смешения с тактикой на допросе.</p>
+
+<section id="l24-boris-ug-defense-stages" class="l24-boris-ug-def" aria-label="Уголовная защита: стадии проверки и подозреваемого, сроки ст. 144 и чеклист 72 часа">
+<style>
+.l24-boris-ug-def {
+  --ug-navy: #0f1a24;
+  --ug-navy-soft: #1a2d3d;
+  --ug-amber: #e8b84a;
+  --ug-crimson: #e85d6a;
+  --ug-teal: #4fd1c5;
+  --ug-blue: #63b3ed;
+  --ug-ink: #e8edf2;
+  --ug-muted: #8fa3b8;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ug-def__shell {
+  background: linear-gradient(152deg, var(--ug-navy) 0%, #152535 48%, var(--ug-navy-soft) 100%);
+  border: 1px solid rgba(232, 184, 74, 0.26);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 20px 52px rgba(15, 26, 36, 0.4);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-def__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ug-amber);
+}
+.l24-boris-ug-def__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ug-def__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ug-muted);
+  max-width: 68ch;
+}
+.l24-boris-ug-def__lead strong { color: #fff; }
+.l24-boris-ug-def__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ug-def__panel {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ug-def__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ug-amber);
+}
+.l24-boris-ug-def__fork-svg,
+.l24-boris-ug-def__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-ug-def__fork-svg { max-height: 200px; margin-bottom: 12px; }
+.l24-boris-ug-def__timeline-svg { max-height: 148px; margin-bottom: 10px; }
+.l24-boris-ug-def__stages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ug-def__stage {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.24);
+  border-top: 3px solid var(--ug-blue);
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.l24-boris-ug-def__stage:nth-child(2) { border-top-color: var(--ug-crimson); }
+.l24-boris-ug-def__stage:nth-child(3) { border-top-color: var(--ug-teal); }
+.l24-boris-ug-def__stage strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ug-def__hours {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ug-def__hour {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-left: 3px solid var(--ug-amber);
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+.l24-boris-ug-def__hour:nth-child(2) { border-left-color: var(--ug-crimson); }
+.l24-boris-ug-def__hour:nth-child(3) { border-left-color: var(--ug-blue); }
+.l24-boris-ug-def__hour:nth-child(4) { border-left-color: var(--ug-teal); }
+.l24-boris-ug-def__hour:nth-child(5) { border-left-color: var(--ug-amber); grid-column: 1 / -1; }
+.l24-boris-ug-def__hour strong {
+  display: block;
+  color: #fff;
+  font-size: 0.76rem;
+  margin-bottom: 3px;
+}
+.l24-boris-ug-def__nums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0 0 10px;
+}
+.l24-boris-ug-def__num {
+  padding: 11px 9px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+.l24-boris-ug-def__num--wide {
+  grid-column: 1 / -1;
+  border-color: rgba(232, 184, 74, 0.32);
+  background: rgba(232, 184, 74, 0.07);
+}
+.l24-boris-ug-def__num-label {
+  display: block;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ug-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-ug-def__num-value {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-ug-def__rights {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.72rem;
+  line-height: 1.42;
+  color: var(--ug-muted);
+}
+.l24-boris-ug-def__rights li {
+  margin: 0 0 6px;
+  padding-left: 14px;
+  position: relative;
+}
+.l24-boris-ug-def__rights li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--ug-teal);
+}
+.l24-boris-ug-def__rights strong { color: #fff; }
+.l24-boris-ug-def__note {
+  margin: 10px 0 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ug-muted);
+}
+.l24-boris-ug-def__note em {
+  font-style: normal;
+  color: var(--ug-teal);
+  font-weight: 600;
+}
+.l24-boris-ug-def__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-ug-def__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--ug-ink);
+}
+.l24-boris-ug-def__tag--t1 { border: 1px solid var(--ug-crimson); color: #feb2b2; }
+.l24-boris-ug-def__tag--t2 { border: 1px solid var(--ug-teal); color: #99f6e4; }
+.l24-boris-ug-def__tag--law { border: 1px solid var(--ug-amber); color: #faf089; }
+@media (max-width: 900px) {
+  .l24-boris-ug-def__split { grid-template-columns: 1fr; }
+  .l24-boris-ug-def__stages { grid-template-columns: 1fr; }
+  .l24-boris-ug-def__nums { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-ug-def__hours { grid-template-columns: 1fr; }
+  .l24-boris-ug-def__nums { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-ug-def__shell">
+    <p class="l24-boris-ug-def__eyebrow">УПК · ст. 144.1.1 · 46–53 · 217 · 2025–2026</p>
+    <h3 class="l24-boris-ug-def__title">Проверка → подозреваемый → суд: два трека и 72 часа без самооговора</h3>
+    <p class="l24-boris-ug-def__lead">Слева — <strong>развилка стадий</strong>: материал проверки (КРСП), дознание/следствие после возбуждения, суд. Справа — <strong>чеклист 72 часов</strong> и сроки из research: <strong>3 / 10 / 30 суток</strong> по ст. 144, <strong>48 ч</strong> задержание, <strong>2 месяца</strong> предварительное следствие. Не путать «проверку» с уже возбуждённым делом — права по ч. 1.1 ст. 144 действуют ещё до статуса подозреваемого.</p>
+
+    <div class="l24-boris-ug-def__split">
+      <div class="l24-boris-ug-def__panel">
+        <p class="l24-boris-ug-def__panel-title">Стадии: куда вы сейчас</p>
+        <svg class="l24-boris-ug-def__fork-svg" viewBox="0 0 520 172" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="ug-fork-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1e3348"/>
+              <stop offset="100%" stop-color="#0f1f2e"/>
+            </linearGradient>
+          </defs>
+          <rect width="520" height="172" rx="8" fill="url(#ug-fork-bg)" opacity="0.55"/>
+          <text x="260" y="20" text-anchor="middle" fill="#e8b84a" font-size="9" font-weight="700" letter-spacing="0.1em">КОНТАКТ С ОРГАНОМ / ВЫЗОВ / ОБЫСК</text>
+          <rect x="200" y="28" width="120" height="26" rx="6" fill="#243447" stroke="#e8b84a" stroke-width="1.2"/>
+          <text x="260" y="45" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">Уточнить статус</text>
+          <path d="M260 54 L260 68" stroke="#5a6f82" stroke-width="1.5"/>
+          <path d="M260 68 L72 98" stroke="#63b3ed" stroke-width="1.5" fill="none"/>
+          <path d="M260 68 L260 98" stroke="#e85d6a" stroke-width="1.5" fill="none"/>
+          <path d="M260 68 L448 98" stroke="#4fd1c5" stroke-width="1.5" fill="none"/>
+          <rect x="16" y="102" width="112" height="58" rx="8" fill="rgba(99,179,237,0.14)" stroke="#63b3ed" stroke-width="1.2"/>
+          <text x="72" y="122" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="700">Проверка</text>
+          <text x="72" y="138" text-anchor="middle" fill="#e8edf2" font-size="8" font-weight="600">КРСП · ст. 144</text>
+          <text x="72" y="152" text-anchor="middle" fill="#8fa3b8" font-size="7">ч. 1.1 — адвокат, молчание</text>
+          <rect x="204" y="102" width="112" height="58" rx="8" fill="rgba(232,93,106,0.12)" stroke="#e85d6a" stroke-width="1.2"/>
+          <text x="260" y="122" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="700">Подозреваемый</text>
+          <text x="260" y="138" text-anchor="middle" fill="#e8edf2" font-size="8" font-weight="600">дознание / следствие</text>
+          <text x="260" y="152" text-anchor="middle" fill="#8fa3b8" font-size="7">ст. 46–53 · 216 · 217</text>
+          <rect x="392" y="102" width="112" height="58" rx="8" fill="rgba(79,209,197,0.1)" stroke="#4fd1c5" stroke-width="1.2"/>
+          <text x="448" y="122" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="700">Суд</text>
+          <text x="448" y="138" text-anchor="middle" fill="#e8edf2" font-size="8" font-weight="600">подсудимый</text>
+          <text x="448" y="152" text-anchor="middle" fill="#8fa3b8" font-size="7">Пленум № 29 · ст. 51</text>
+        </svg>
+        <ul class="l24-boris-ug-def__stages">
+          <li class="l24-boris-ug-def__stage">
+            <strong>Проверка</strong>
+            Часто без статуса подозреваемого; ч. 1.1 ст. 144 — отказ от объяснений, адвокат, жалобы гл. 16.
+          </li>
+          <li class="l24-boris-ug-def__stage">
+            <strong>После возбуждения</strong>
+            Подозреваемый → обвиняемый; допрос с защитником (ст. 51); дознание 30 сут. / следствие 2 мес.
+          </li>
+          <li class="l24-boris-ug-def__stage">
+            <strong>Суд</strong>
+            Линия после ст. 217: недопустимые (ст. 75) → судебное следствие → последнее слово.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-ug-def__panel">
+        <p class="l24-boris-ug-def__panel-title">72 часа + сроки ст. 144 / 91 / 162</p>
+        <svg class="l24-boris-ug-def__timeline-svg" viewBox="0 0 520 118" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <line x1="36" y1="56" x2="484" y2="56" stroke="#3d5266" stroke-width="2" stroke-dasharray="5 4"/>
+          <circle cx="52" cy="56" r="13" fill="#e8b84a"/><text x="52" y="61" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">0</text>
+          <circle cx="148" cy="56" r="13" fill="#e85d6a"/><text x="148" y="61" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">24</text>
+          <circle cx="244" cy="56" r="13" fill="#63b3ed"/><text x="244" y="61" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">3</text>
+          <circle cx="340" cy="56" r="13" fill="#4fd1c5"/><text x="340" y="61" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">48</text>
+          <circle cx="468" cy="56" r="13" fill="#e8b84a"/><text x="468" y="61" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">72</text>
+          <text x="52" y="36" text-anchor="middle" fill="#e8b84a" font-size="7.5" font-weight="600">ордер</text>
+          <text x="148" y="36" text-anchor="middle" fill="#feb2b2" font-size="7.5" font-weight="600">задержание</text>
+          <text x="244" y="36" text-anchor="middle" fill="#bee3f8" font-size="7.5" font-weight="600">ст. 144</text>
+          <text x="340" y="36" text-anchor="middle" fill="#99f6e4" font-size="7.5" font-weight="600">допрос</text>
+          <text x="468" y="36" text-anchor="middle" fill="#faf089" font-size="7.5" font-weight="600">ст. 217</text>
+          <text x="52" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">0–2 ч</text>
+          <text x="148" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">свидание</text>
+          <text x="244" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">решение</text>
+          <text x="340" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">ст. 91</text>
+          <text x="468" y="88" text-anchor="middle" fill="#8fa3b8" font-size="7">подготовка</text>
+        </svg>
+        <div class="l24-boris-ug-def__nums">
+          <div class="l24-boris-ug-def__num l24-boris-ug-def__num--wide">
+            <span class="l24-boris-ug-def__num-label">Проверка сообщения · ст. 144 УПК</span>
+            <span class="l24-boris-ug-def__num-value">3 → 10 → 30 суток</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Задержание</span>
+            <span class="l24-boris-ug-def__num-value">до 48 ч</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Допрос задержанного</span>
+            <span class="l24-boris-ug-def__num-value">24 ч</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Следствие · ст. 162</span>
+            <span class="l24-boris-ug-def__num-value">2 месяца</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Жалоба / ходатайство</span>
+            <span class="l24-boris-ug-def__num-value">3 / 10 сут.</span>
+          </div>
+          <div class="l24-boris-ug-def__num">
+            <span class="l24-boris-ug-def__num-label">Дознание · ст. 223</span>
+            <span class="l24-boris-ug-def__num-value">30 суток</span>
+          </div>
+        </div>
+        <ol class="l24-boris-ug-def__hours">
+          <li class="l24-boris-ug-def__hour">
+            <strong>0–2 ч</strong>
+            Ордер адвоката; не давать объяснений без защитника; ФИО должностных, № КРСП/дела.
+          </li>
+          <li class="l24-boris-ug-def__hour">
+            <strong>До 24 ч</strong>
+            При задержании — свидание с адвокатом; не подписывать незнакомые бумаги (ст. 91, ч. 2 ст. 46).
+          </li>
+          <li class="l24-boris-ug-def__hour">
+            <strong>3 суток</strong>
+            Решение по ст. 144; при затягивании — жалоба на незаконное продление (гл. 16).
+          </li>
+          <li class="l24-boris-ug-def__hour">
+            <strong>При возбуждении</strong>
+            Копия постановления; не «объяснять версию» без стратегии; ходатайства по мерам.
+          </li>
+          <li class="l24-boris-ug-def__hour">
+            <strong>До ст. 216–217</strong>
+            Документы по треку 2; 3–5 целевых ходатайств по слабым местам обвинения.
+          </li>
+        </ol>
+        <ul class="l24-boris-ug-def__rights" aria-label="Ключевые права на проверке и следствии">
+          <li><strong>Молчание:</strong> п. 2 ч. 4 ст. 46 / п. 3 ст. 47 — не признание вины</li>
+          <li><strong>Адвокат:</strong> ч. 1.1 ст. 144, ст. 49–50; досудебно — только адвокат</li>
+          <li><strong>Обыск:</strong> защитник присутствует (ч. 11 ст. 182); ст. 450.1 — тайна</li>
+        </ul>
+        <p class="l24-boris-ug-def__note"><em>3 / 10 / 30</em> — продления проверки только с конкретными фактами в постановлении. <em>2 месяца</em> — базовый срок следствия (+ до 3 / 12 / далее по ст. 162). По ряду статей УК задержание — до <em>72 ч</em>.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-ug-def__foot" aria-label="Два трека защиты">
+      <span class="l24-boris-ug-def__tag l24-boris-ug-def__tag--t1">Трек 1: статус · адвокат · молчание · жалобы</span>
+      <span class="l24-boris-ug-def__tag l24-boris-ug-def__tag--t2">Трек 2: факты документами · ст. 217 · ст. 75</span>
+      <span class="l24-boris-ug-def__tag l24-boris-ug-def__tag--law">Не A7: без таблиц составов 159/177</span>
+    </div>
+  </div>
+</section>
+
+<h2 id="ug-prava">Права подозреваемого и обвиняемого: что разъясняют по УПК</h2>
+
+<p><strong>Права подозреваемого</strong> (ст. 46 УПК) и <strong>права обвиняемого по уголовному делу</strong> (ст. 47 УПК) — не справочник для юриста, а чеклист до каждого вызова. <strong>Права подозреваемых и обвиняемых</strong> дополняет ст. 53 УПК (полномочия защитника). <strong>Право на защиту подозреваемого</strong> и <strong>право на защиту уголовное дело</strong> в целом реализуются лично и через защитника на всех стадиях (п. 1 Пленума ВС РФ № 29 от 30.06.2015, ред. 09.12.2025).</p>
+
+<table><thead><tr><th>Право</th><th>Подозреваемый (ст. 46)</th><th>Обвиняемый (ст. 47)</th><th>Защитник (ст. 53)</th></tr></thead><tbody><tr><td>Знать, в чём подозревают / обвиняют</td><td>п. 1 ч. 4</td><td>п. 1 ч. 4</td><td>при предъявлении обвинения</td></tr><tr><td>Молчание / отказ от показаний</td><td>п. 2 ч. 4</td><td>п. 3 ч. 4</td><td>не подменяет право подзащитного</td></tr><tr><td>Адвокат</td><td>п. 3, 3.1 ч. 4; свидание <strong>до первого допроса</strong></td><td>п. 8–9 ч. 4</td><td>с момента вступления в дело</td></tr><tr><td>Доказательства</td><td>п. 5 ч. 4</td><td>п. 10 ч. 4</td><td>ходатайства, замечания к протоколам</td></tr><tr><td>Жалобы</td><td>п. 12 ч. 4</td><td>п. 21 ч. 4</td><td>ч. 2 ст. 53</td></tr></tbody></table>
+
+<p>На проверке до статуса подозреваемого действует <strong>ч. 1.1 ст. 144 УПК</strong>: разъяснение прав, отказ от дачи объяснений, адвокат, жалобы по гл. 16; при возбуждении дела — по <strong>ч. 1.2 ст. 144</strong> возможна повторная или дополнительная экспертиза по ходатайству защиты.</p>
+
+<h3>Право на защиту и молчание до допроса</h3>
+
+<p><strong>Процессуальные права подозреваемого</strong> включают отказ от дачи показаний (п. 2 ч. 4 ст. 46). Следователь обязан предупредить, что показания могут быть использованы как доказательство (ст. 75 УПК). Отказ <strong>не</strong> равен признанию вины. На допросе целесообразно ссылаться на <strong>УПК</strong>, а не только на ст. 51 Конституции — так фиксируется процессуальная позиция в протоколе.</p>
+
+<p>Подпись в протоколе о <strong>разъяснении прав</strong> — не то же самое, что согласие давать показания по существу. Путаница здесь — типовая ошибка.</p>
+
+<h3>Ст. 47 УПК: права обвиняемого после предъявления обвинения</h3>
+
+<p><strong>Права обвиняемого УПК</strong> и <strong>права обвиняемого УПК РФ</strong> после <strong>предъявления обвинения</strong> расширены: ознакомление с обвинением, копии постановления, <strong>свидание с защитником до допроса</strong> (п. 9 ч. 4 ст. 47). <strong>Статья 47 УПК РФ права обвиняемого</strong> — базовый ориентир при переходе из подозреваемого в обвиняемого.</p>
+
+<h3>Процессуальные права на следственных действиях</h3>
+
+<p><strong>Права подозреваемого УПК</strong> на участие в следственных действиях, заявление отводов, ходатайства (ст. 119, 220 УПК), получение копий процессуальных документов — инструменты <strong>защиты подозреваемого по уголовному делу</strong> и <strong>уголовное дело защита подозреваемого</strong> в документальном поле, а не в «объяснительной записке от руки».</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Права подозреваемого и обвиняемого по УПК работают, если их реализуют до допроса: молчание, свидание с адвокатом, жалобы по гл. 16. На проверке по ч. 1.1 ст. 144 отказ от объяснений — не признание вины.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите в уголовном деле</a></p>
+</aside>
+
+<h2 id="ug-advokat">Адвокат и защитник: участие, полномочия, назначение</h2>
+
+<p><strong>Участие адвоката в уголовном деле</strong> и <strong>участие защитника в уголовном деле</strong> на досудебных стадиях — прерогатива <strong>адвоката</strong> (ч. 2 ст. 49 УПК): «юрист компании» или знакомый правовед не заменяют защитника в деле. <strong>Адвокат защитник в уголовном деле</strong> действует на основании соглашения и <strong>ордера</strong> (с учётом изменений ФЗ № 83-ФЗ от 22.04.2024).</p>
+
+<p><strong>Права защитника в уголовном деле</strong> (ст. 53): собирать доказательства, заявлять ходатайства, присутствовать при следственных действиях, с момента окончания следствия — <strong>ознакомление с материалами уголовного дела защитником</strong> (ст. 217). <strong>Назначение адвоката по уголовному делу</strong> судом или следователем — при отсутствии защитника там, где он обязателен (ст. 51 УПК): несовершеннолетние, тяжкие последствия, ряд тяжких статей, сделка с обвинением и др.</p>
+
+<h3>С какого момента допускают к делу и к материалам</h3>
+
+<p>С момента <strong>вступления</strong> в дело (не «допуска» по усмотрению). На проверке — с первого контакта, когда вас привлекают к даче объяснений по фактам, уличающим вас (ч. 1.1 ст. 144). <strong>Защита по уголовным делам адвокатом</strong> на проверке легитимна и ожидаема.</p>
+
+<h3>Отличие частного адвоката и назначенного защитника</h3>
+
+<p>Частный адвокат выбран вами; назначенный — при неисполнении обязанности нанять защитника там, где ст. 51 требует участия. Договор с адвокатом <strong>не может</strong> урезать полномочия по УПК «до прекращения дела» — иначе это противоречит процессуальному статусу (практика палат, в т.ч. по экономическим делам).</p>
+
+<p>Пленум ВС № 29: обеспечение права на защиту — <strong>обязанность государства</strong>; защита реализуется лично и через защитника <strong>на всех стадиях</strong>.</p>
+
+<h2 id="ug-sledstvie">Следственные действия: допрос, задержание, обыск — тактика защиты</h2>
+
+<p><strong>Подозреваемый следственные действия</strong> — зона максимального риска. <strong>Участие подозреваемого в следственных действиях</strong> допускается с правами ст. 46; <strong>участие подозреваемого в следственных действиях</strong> без адвоката на допросе подозреваемого/обвиняемого при обязательном участии защитника (ст. 51) — основание для оспаривания протокола.</p>
+
+<table><thead><tr><th>Действие</th><th>Норма</th><th>Участие защиты</th><th>Тактика</th></tr></thead><tbody><tr><td>Осмотр</td><td>ст. 187 УПК</td><td>ч. 1.1 ст. 144; ст. 53, 119</td><td>Фиксировать нарушения; проверка показаний на месте — после возбуждения</td></tr><tr><td>Вызов / допрос</td><td>ст. 188, гл. 26</td><td>Обязательно с защитником (подозреваемый/обвиняемый)</td><td>Не смешивать статус свидетеля и подозреваемого</td></tr><tr><td>Обыск / выемка</td><td>ст. 182–184; жилище — ст. 165</td><td>ч. 11 ст. 182; ст. 450.1</td><td>Постановление/решение суда; адвокатская тайна</td></tr><tr><td>Предъявление обвинения</td><td>ст. 216</td><td>С защитником</td><td>Не подписывать «для галочки»</td></tr></tbody></table>
+
+<h3>Допрос подозреваемого: особенности и типовые ошибки</h3>
+
+<p><strong>Допрос подозреваемого</strong> — одна из самых частотных процедур в поиске. <strong>Особенности допроса подозреваемого</strong>: разъяснение прав, аудио-/видеозапись (ст. 189 УПК), вопросы по существу только после реализации права на защитника. <strong>Допрос подозреваемого УПК</strong> регламентирует жёстко; «разговор без протокола» — повод для жалобы.</p>
+
+<p>Ошибки: «прояснить ситуацию» без адвоката; подписать протокол с несогласием без <strong>замечаний</strong>; смешать роли свидетеля и подозреваемого.</p>
+
+<h3>Участие в следственных действиях и фиксация нарушений</h3>
+
+<p>Защитник вправе заявлять <strong>замечания к протоколам</strong>, требовать фото- и видеофиксацию, оспаривать изъятие по <strong>ст. 450.1 УПК</strong> (выемка у адвоката). После <strong>КС РФ, Определение № 214-О/2024</strong> (29.05.2024): адвокатская тайна охраняет сведения, <strong>доверенные</strong> адвокату; сведения, полученные им как очевидец на следственном действии или при заведомо незаконном поручении, тайной не являются. Для вас: переговоры с адвокатом — отдельно от «совместных» встреч с контрагентом; оспаривать использование записей, полученных с нарушением режима конфиденциальности.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Допрос без адвоката, «разговор без протокола» и подпись без письменных замечаний — типовые ошибки, которые потом оспаривают месяцами. Разберём тактику до первого следственного действия и границы адвокатской тайны после позиции КС № 214-О/2024.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Подключить адвоката на допросе и следственных действиях</a></p>
+</aside>
+
+<h2 id="ug-obvinenie">Предъявление обвинения и ознакомление с материалами дела</h2>
+
+<p><strong>Предъявление обвинения</strong> (ст. 216 УПК) переводит в статус обвиняемого. <strong>Предъявление обвинения подозреваемому</strong> проводят <strong>с участием защитника</strong>; вручают копии постановления. Несогласие с формулировкой фиксируют в протоколе.</p>
+
+<p><strong>Ознакомление обвиняемого с материалами уголовного дела</strong> по <strong>ст. 217 УПК</strong> — главный рубеж <strong>досудебной защиты</strong>: до обвинительного заключения или судебного разбирательства выявляют слабые места обвинения, готовят <strong>доказательства защиты по уголовному делу</strong>, ходатайства об исключении недопустимых (ст. 75), назначении экспертиз, допросе свидетелей. <strong>Ознакомление с материалами уголовного дела защитником</strong> — полный объём; раздельное ознакомление — по ходатайству.</p>
+
+<h3>Порядок и сроки после предъявления</h3>
+
+<p>После предъявления — допрос обвиняемого (ст. 173) <strong>только</strong> с защитником. Затягивание следствием сроков — контроль продлений по ст. 162 УПК и жалобы.</p>
+
+<h3>Позиция защиты до обвинительного заключения</h3>
+
+<p>До ОЗ — письменные ходатайства: истребование документов, допросы, экспертизы, <strong>ходатайство о прекращении уголовного дела</strong> при отсутствии состава или истечении сроков давности. Версию по фактам выстраивают <strong>документами</strong> через защитника (ст. 119), а не устными объяснениями «в коридоре».</p>
+
+<h2 id="ug-mery">Меры пресечения: избрание, срок, обжалование</h2>
+
+<p><strong>Меры пресечения подозреваемого</strong> (гл. 13 УПК) определяют, будет ли вы на свободе. <strong>Избрание меры пресечения подозреваемому</strong> — подзащитная, заключение под стражу, домашний арест, запрет действий. <strong>Задержание подозреваемого меры пресечения</strong> — до 48 часов (по ряду статей УК — до 72); в течение 24 часов — допрос (ч. 2 ст. 46).</p>
+
+<p>Обзор судебной практики ВС № 4 (2025), п. 36: судья, избравший меру пресечения, <strong>может</strong> рассматривать дело по существу; выводы при избрании МП <strong>не</strong> предрешают виновность (Определение № 86-УДП23-7-К2).</p>
+
+<h3>Задержание и заключение под стражу</h3>
+
+<p>При задержании: свидание с адвокатом, уведомление близких, не подписывать непонятные бумаги. Ходатайство о прекращении задержания, обжалование в суд (ст. 108–110 УПК).</p>
+
+<h3>Ходатайства о смягчении меры пресечения</h3>
+
+<p>Смягчение МП, замена ЗП на домашний арест, залог — через ходатайства и доказательства: постоянное место жительства, семья, болезнь, вклад в расследование без признания вины.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Задержание, заключение под стражу или домашний арест решаются в первые сутки. Ходатайства о смягчении меры пресечения и обжалование в суд по ст. 108–110 УПК лучше готовить сразу, а не после переноса заседания.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь при избрании меры пресечения</a></p>
+</aside>
+
+<h2 id="ug-hodataystva">Ходатайства защиты на следствии и перед судом</h2>
+
+<p><strong>Ходатайство по уголовному делу</strong> — основной инструмент активной защиты. <strong>Ходатайство защитника по уголовному делу</strong> и <strong>ходатайство адвоката по уголовному делу</strong> подают следователю, дознавателю, прокурору или суду в зависимости от стадии.</p>
+
+<h3>Ходатайства следователю и прокурору (прекращение, экспертиза, допросы)</h3>
+
+<p>Примеры: назначение экспертизы, допрос свидетеля, истребование документов, исключение вещдока (с учётом ФЗ № 73-ФЗ от 06.04.2024 о вещдоках по нескольким делам), <strong>ходатайство о прекращении уголовного дела</strong>. Сроки рассмотрения — ст. 124, 125 УПК; отказ — жалоба.</p>
+
+<h3>Ходатайства в суд по уголовному делу</h3>
+
+<p><strong>Ходатайство в суд по уголовному делу</strong> — возврат дела прокурором, изменение МП, отвод, исключение доказательств, иные процессуальные вопросы. <strong>КС РФ, Постановление № 19-П</strong> (06.05.2025): нарушение права на <strong>возражения</strong> по апелляционной жалобе (ст. 389.11 УПК) — основание для возврата дела апелляцией.</p>
+
+<h2 id="ug-sud">Защита в суде: судебное разбирательство и позиция по делу</h2>
+
+<p><strong>Защита в суде по уголовным делам</strong> и <strong>судебная защита по уголовному делу</strong> продолжают линию, заложенную на ст. 217. <strong>Защита обвиняемых по уголовным делам</strong> в первой инстанции: судебное следствие, исследование доказательств, прения, <strong>последнее слово</strong>. Обязательный защитник по ст. 51 — если вы его отказались там, где нельзя.</p>
+
+<p>Обзор ВС № 1 (2025), п. 45: расхождение протокола и аудиозаписи (не зафиксировано право выступить в прениях) — вопрос о нарушении права на защиту (Определение № 82-УДП22-18-К7). П. 48 того же обзора: нерассмотрение <strong>дополнительной кассационной жалобы</strong> адвоката с новыми доводами — отмена определения кассации (Определение № 2-УД23-6-К3) — важно для <strong>защиты по уголовным делам</strong> на стадии обжалования.</p>
+
+<h3>Судебная защита: доказательства и версия</h3>
+
+<p>Версия защиты согласована до суда; в зале — ходатайства об исключении недопустимого, допросы, экспертизы. Презумпция невиновности — ст. 14 УПК.</p>
+
+<h3>Судебные стадии и первая линия защиты на заседании</h3>
+
+<p>Первая инстанция → апелляция → кассация → надзор. На каждой — свои сроки и форматы жалоб; адвокат отслеживает процессуальные окна.</p>
+
+<h2 id="ug-treki">Два трека защиты и чеклист первых 72 часов</h2>
+
+<p>Практика показывает: успех <strong>защиты по уголовному делу</strong> складывается из процесса (Трек 1) и фактов (Трек 2).</p>
+
+<p><strong>Трек 1 — процесс</strong> (нельзя полностью делегировать даже самому опытному руководителю):</p>
+
+<ol>
+
+<li>Зафиксировать <strong>статус</strong>: проверка / подозреваемый / свидетель / обвиняемый — спросить прямо, требовать постановление.</li>
+
+<li><strong>Адвокат с первого контакта</strong> (ч. 1.1 ст. 144, ст. 49–50).</li>
+
+<li><strong>Молчание по существу</strong> — отказ от объяснений и показаний (п. 2 ст. 46 / п. 3 ст. 47); подпись о разъяснении прав — отдельно.</li>
+
+<li><strong>Жалобы</strong> по гл. 16 УПК + копии адвокату.</li>
+
+<li>На обыске/выемке — присутствие, протокол, опечатывание, копии.</li>
+
+<li>После ст. 217 — целевые ходатайства.</li>
+
+</ol>
+
+<p><strong>Трек 2 — факты и документы</strong> (с адвокатом, после Трека 1):</p>
+
+<ol>
+
+<li>Хронология сделок, платежей, переписки — <strong>документами</strong>, не устным «объяснением» следователю.</li>
+
+<li>Отделить гражданский спор от уголовного обвинения (без разбора состава статей здесь).</li>
+
+<li>Свидетели и документы — через ходатайства защитника.</li>
+
+<li>Перед судом: ст. 217 → ст. 75 → тактика в судебном следствии.</li>
+
+</ol>
+
+<h3>Чеклист «72 часа»</h3>
+
+<table><thead><tr><th>Когда</th><th>Действие</th></tr></thead><tbody><tr><td><strong>0–2 ч</strong></td><td>Ордер адвоката; не давать объяснений без адвоката; записать ФИО должностных, номер КРСП/дела</td></tr><tr><td><strong>До 24 ч</strong> (при задержании)</td><td>Свидание с адвокатом; не подписывать незнакомые бумаги; уведомить близких одним каналом</td></tr><tr><td><strong>3 суток</strong></td><td>Уточнить решение по ст. 144; при затягивании — жалоба на продление</td></tr><tr><td><strong>При возбуждении</strong></td><td>Копия постановления; ходатайство о мерах; не «объяснять версию» без стратегии</td></tr><tr><td><strong>До предъявления (ст. 216)</strong></td><td>Документы по Треку 2; позиция по допросу</td></tr><tr><td><strong>Ст. 217</strong></td><td>3–5 ходатайств по слабым местам обвинения</td></tr></tbody></table>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Чеклист «72 часа» — каркас; без согласованной линии по статусу, молчанию и жалобам по гл. 16 легко пропустить срок по ст. 144 или потерять позицию до ознакомления по ст. 217.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Оценка уголовных рисков на проверке и следствии</a></p>
+</aside>
+
+<h2 id="ug-oshibki">Типовые ошибки подозреваемого и когда нужна консультация</h2>
+
+<h3>«Сам разберусь» на проверке и после допроса</h3>
+
+<p>Отказ от адвоката на проверке, «добровольные» объяснения, согласие на обыск без протокола — необратимые следы в материалах. <strong>Защита на стадии предварительного расследования</strong> без адвоката статистически слабее: следствие ведёт обвинение.</p>
+
+<h3>Экономические статьи (159, 177) — только риск-контур</h3>
+
+<p>Если обвинение связано с долгами, контрактами, налогами — процесс тот же (проверка → следствие → ст. 217 → суд), квалификацию и границу гражданского спора разбирают отдельно. Здесь — не повторять таблицы составов: задача — <strong>не усугубить</strong> процессуальными ошибками.</p>
+
+<p>Когда подключать специалиста: первый вызов; обыск; задержание; предъявление обвинения; избрание ЗП; за неделю до окончания следствия (ст. 217).</p>
+
+<h2 id="ug-praktika">Судебная практика: что учитывать в 2024–2026</h2>
+
+<table><thead><tr><th>Акт</th><th>Суть для защиты</th></tr></thead><tbody><tr><td><strong>КС РФ № 214-О/2024</strong></td><td>Границы адвокатской тайны и записей</td></tr><tr><td><strong>Пленум ВС № 29</strong> (ред. 09.12.2025)</td><td>Сквозное право на защиту; только адвокат досудебно</td></tr><tr><td><strong>Обзор ВС № 1/2025, п. 48</strong></td><td>Доп. кассационная жалоба с новыми доводами</td></tr><tr><td><strong>Обзор ВС № 1/2025, п. 45</strong></td><td>Протокол vs аудиозапись, прения</td></tr><tr><td><strong>Обзор ВС № 4/2025, п. 36</strong></td><td>МП и рассмотрение по существу</td></tr><tr><td><strong>КС РФ № 19-П/2025</strong></td><td>Возражения по апелляционной жалобе</td></tr></tbody></table>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Первый вызов, обыск, предъявление обвинения или избрание ЗП — момент, когда процессуальные ошибки почти не исправить позже. Разберём статус, сроки и тактику до суда.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Защита на стадии проверки и в суде</a></p>
+</aside>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации по защите в уголовном деле: права подозреваемого и обвиняемого, допрос, ходатайства и линия защиты от проверки сообщения о преступлении до суда.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом</a></p>
+</aside>
+
+<section id="ug-faq" class="l24-faq-ug ym-section" aria-label="Частые вопросы">
+
+<h2>Частые вопросы (FAQ)</h2>
+
+<div class="l24-faq-ug__item"><h3 class="l24-faq-ug__q">1. Можно ли отказаться от показаний на проверке до возбуждения дела?</h3>
+
+<p class="l24-faq-ug__a">Да. <strong>Ч. 1.1 ст. 144 УПК</strong> предусматривает разъяснение права не свидетельствовать против себя и близких и отказ от дачи объяснений. Это не признание вины.</p></div>
+
+<div class="l24-faq-ug__item"><h3 class="l24-faq-ug__q">2. Обязан ли я приглашать адвоката на проверке?</h3>
+
+<p class="l24-faq-ug__a">Нет, но без адвоката вы реализуете <strong>право на защиту</strong> в уязвимом виде. Досудебно защитником может быть только адвокат (ч. 2 ст. 49 УПК).</p></div>
+
+<div class="l24-faq-ug__item"><h3 class="l24-faq-ug__q">3. Чем отличается подозреваемый от обвиняемого?</h3>
+
+<p class="l24-faq-ug__a">Подозреваемый — с возбуждения дела до предъявления обвинения (ст. 46). Обвиняемый — после <strong>предъявления обвинения</strong> (ст. 47, 216 УПК). Набор прав расширяется; допрос обвиняемого — с защитником.</p></div>
+
+<div class="l24-faq-ug__item"><h3 class="l24-faq-ug__q">4. Когда лучше всего ознакомиться с материалами дела?</h3>
+
+<p class="l24-faq-ug__a">На стадии <strong>ст. 217 УПК</strong> до передачи дела в суд — чтобы подготовить ходатайства, исключения доказательств и позицию в суде.</p></div>
+
+<div class="l24-faq-ug__item"><h3 class="l24-faq-ug__q">5. Сколько длятся проверка и следствие?</h3>
+
+<p class="l24-faq-ug__a">Проверка — 3 суток (с продлениями до 10 и 30). Следствие — 2 месяца с возбуждения (с продлениями до 3, 12 месяцев и далее в исключительных случаях). Контроль сроков — задача защиты.</p></div>
+</section>
+
+</div>
+</section>
+
+</main>
+<!-- /wp:html -->
+
+```
+
+## Передача Юре
+
+**slug:** `zashchita-po-ugolovnomu-delu-stadiya-proverki`
+**page_id:** `PLACEHOLDER` (после wordpress_create_page)
+**Публикация:** blob flow, `<!-- wp:html -->`; проверить `main#primary`, класс `zashchita-po-ugolovnomu-delu-stadiya-proverki-page`, hero `#l24-hero-ug-defense`, Boris `#l24-boris-ug-defense-stages`.
