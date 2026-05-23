@@ -8,6 +8,9 @@ package-lock.json
 .cursor/_*
 .cursor/a7-*
 .cursor/a5-*
+.cursor/a10-chunk-*.txt
+.cursor/a10-update-args.json
+nero-network-office-page/nero-repo/
 .cursor/b*.txt
 .cursor/big-*
 .cursor/blob*
