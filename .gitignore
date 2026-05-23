@@ -7,6 +7,7 @@ package-lock.json
 # MCP blob upload temp (Yura publish)
 .cursor/_*
 .cursor/a7-*
+.cursor/a5-*
 .cursor/b*.txt
 .cursor/big-*
 .cursor/blob*
