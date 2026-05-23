@@ -1501,3 +1501,24 @@ SLUG: arbitrazhnyj-spor-s-kreditorom-sroki-strategiya
 - [x] Тёмная сцена vs светлый hero
 - [x] Сплит: развилка АС / третейский / банкротство + таймлайн 14 дней
 - [x] Static SVG/CSS only
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** `arbitrazhnyj-spor-s-kreditorom-sroki-strategiya`  
+**Класс страницы:** `arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page`  
+**Файл HTML:** `/workspace/.cursor/page-content-natasha-A5.html`  
+**Размер:** ~69 KB (68.9 KB)  
+**main#primary:** да (`<main id="primary" class="site-main arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page" …>`)  
+**MCP:** `<!-- wp:html -->`, без `<script>` / `<canvas>` / JSON-LD; hero Алины + блок Бориса — static SVG/CSS  
+**Структура:** hero → intro grid (`l24-intro-arb`) → `ym-toc` (10 H2) → `ym-section` + longread (Артур CTA) → Boris после «Три трека» → FAQ (5 вопросов)  
+**Title:** Арбитражный спор с кредитором: сроки, подсудность и стратегия ответа | Legis24  
+**Description:** Как защититься, если кредитор подал иск в арбитраж или требование в банкротстве: подсудность, сроки исковой давности, реестр требований, отзыв и первая стратегия ответа. Консультация по арбитражному спору.
+
+## Передача Юре
+
+- **Путь к контенту:** `/workspace/.cursor/page-content-natasha-A5.html` (полный HTML, не дублировать в handoff)
+- **SLUG:** `arbitrazhnyj-spor-s-kreditorom-sroki-strategiya`
+- **Публикация:** WordPress MCP, блок `<!-- wp:html -->`; статика only
+- **CTA:** 5× `ym-cta` (4 primary + 1 Legis24 bottom), URL `https://advokat-vsem.ru/`
+- **Сборка:** `python3 /workspace/.cursor/build-natasha-a5.py` при правках лонгрида/фрагментов
