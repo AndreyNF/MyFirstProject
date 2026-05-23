@@ -2818,4 +2818,4 @@ page_id: 354
 URL: https://advokat-vsem.online/zashchita-po-ugolovnomu-delu-stadiya-proverki/
 slug: zashchita-po-ugolovnomu-delu-stadiya-proverki
 blob_id: bUif9LaguXUplpDBFF14UCU8 (82733 bytes, sha256 fc43542b46d3a05d8956e662e53078e7280d8c7b8364f4a2d46d897a568ca9ec)
-live check: HTTP 200 — main#primary, #l24-hero-ug-defense, #l24-boris-ug-defense-stages OK
+live check: HTTP 200 — main#primary, #l24-hero-ug-defense, #l24-boris-ug-defense-stages OK (re-verified 2026-05-23, republication via blob 00–03 → bUif9LaguXUplpDBFF14UCU8)
