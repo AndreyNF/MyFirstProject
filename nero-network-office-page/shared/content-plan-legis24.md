@@ -25,7 +25,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 5 | A7 | UG | Уголовные риски при долгах: мошенничество, злостное уклонение — что важно знать гражданину | ugolovnye-riski-pri-dolgah-chto-vazhno-znat | ✅ page_id 341 |
 | 6 | A8 | ARB | Иск в арбитраже при банкротстве: когда подавать и как оспорить требования | isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat | |
 | 7 | A9 | IP | Нарушение товарного знака: доказательства, компенсация и защита в суде | narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya | ✅ page_id 346 |
-| 8 | A10 | UG | Защита по уголовному делу на стадии проверки и в суде: права и тактика | zashchita-po-ugolovnomu-delu-stadiya-proverki | |
+| 8 | A10 | UG | Защита по уголовному делу на стадии проверки и в суде: права и тактика | zashchita-po-ugolovnomu-delu-stadiya-proverki | ✅ page_id 354 |
 | 9 | A11 | ARB | Арбитражный управляющий и оспаривание сделок: сроки и последствия для должника | arbitrazhnyj-upravlyayushchij-osparivanie-sdelok | |
 | 10 | A12 | IP | Ответ на претензию по интеллектуальной собственности: сроки и типовые ошибки | otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti | |
 | 11 | A13 | UG | Статья 159 и 177 УК при долгах: где гражданская граница и когда нужен адвокат | statya-159-177-uk-pri-dolgah-granica | |
