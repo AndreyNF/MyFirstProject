@@ -1,0 +1,20 @@
+[
+  {
+    "step": 1,
+    "blob_id": "VXFQ32zjrBq6J4Vm1JXPk3",
+    "chunk_len": 18000,
+    "finalize": false
+  },
+  {
+    "step": 2,
+    "blob_id": "VXFQ32zjrBq6J4Vm1JXPk3",
+    "chunk_len": 18000,
+    "finalize": false
+  },
+  {
+    "step": 3,
+    "blob_id": "VXFQ32zjrBq6J4Vm1JXPk3",
+    "chunk_len": 13227,
+    "finalize": true
+  }
+]
