@@ -849,3 +849,1591 @@ H1: Иск в арбитраже при банкротстве: когда по�
 SLUG: isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat
 H1_для_hero: Иск в арбитраже при банкротстве: когда подавать и как оспорить требования
 ПОДЗАГОЛОВОК_HERO: Подсудность, сроки возражений на требования кредиторов и оспаривание включения в реестр — пошагово для должника и кредитора
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+<section id="l24-hero-arb-bankr-isk" class="hero-arb-bankr-isk" aria-label="Иск в арбитраже при банкротстве">
+  <style>
+    .hero-arb-bankr-isk {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(165deg, #fafbfc 0%, #f1f5f9 38%, #e8eef5 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-arb-bankr-isk::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 48% at 88% 8%, rgba(30, 58, 138, 0.07) 0%, transparent 52%),
+        radial-gradient(ellipse 45% 40% at 4% 92%, rgba(163, 24, 48, 0.05) 0%, transparent 48%);
+      pointer-events: none;
+    }
+    .hero-arb-bankr-isk__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.02fr 0.98fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .hero-arb-bankr-isk__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-arb-bankr-isk__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #a31830;
+      flex-shrink: 0;
+    }
+    .hero-arb-bankr-isk__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-arb-bankr-isk__h1-accent {
+      color: #1e3a8a;
+    }
+    .hero-arb-bankr-isk__sub {
+      margin: 0 0 26px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.55vw, 1.1rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-arb-bankr-isk__roads {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+    }
+    .hero-arb-bankr-isk__road {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 13px;
+      font-size: 0.93rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-arb-bankr-isk__road-tag {
+      flex-shrink: 0;
+      min-width: 108px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .hero-arb-bankr-isk__road--pre .hero-arb-bankr-isk__road-tag {
+      background: #475569;
+    }
+    .hero-arb-bankr-isk__road--obj .hero-arb-bankr-isk__road-tag {
+      background: #a31830;
+    }
+    .hero-arb-bankr-isk__road--excl .hero-arb-bankr-isk__road-tag {
+      background: #1e3a8a;
+    }
+    .hero-arb-bankr-isk__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 26px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.94rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+    }
+    .hero-arb-bankr-isk__cta:hover {
+      background: #8b1528;
+    }
+    .hero-arb-bankr-isk__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-arb-bankr-isk__inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+      .hero-arb-bankr-isk__visual {
+        order: -1;
+        max-height: 300px;
+      }
+      .hero-arb-bankr-isk__road-tag {
+        min-width: 92px;
+        font-size: 0.66rem;
+      }
+    }
+  </style>
+  <div class="hero-arb-bankr-isk__inner">
+    <div class="hero-arb-bankr-isk__content">
+      <div class="hero-arb-bankr-isk__badge">
+        <span class="hero-arb-bankr-isk__badge-dot" aria-hidden="true"></span>
+        ARB · A8 · 127-ФЗ · ст. 33 · документарный порядок · 2025–2026
+      </div>
+      <h1 class="hero-arb-bankr-isk__h1">
+        <span class="hero-arb-bankr-isk__h1-accent">Иск в арбитраже при банкротстве:</span> когда подавать и как оспорить требования
+      </h1>
+      <p class="hero-arb-bankr-isk__sub">
+        Подсудность, сроки возражений на требования кредиторов и оспаривание включения в реестр — пошагово для должника и кредитора
+      </p>
+      <ul class="hero-arb-bankr-isk__roads">
+        <li class="hero-arb-bankr-isk__road hero-arb-bankr-isk__road--pre">
+          <span class="hero-arb-bankr-isk__road-tag">До дела</span>
+          <span><strong>Отдельный иск</strong> — если банкротство ещё не возбуждено; подсудность по АПК и ст. 33 127-ФЗ</span>
+        </li>
+        <li class="hero-arb-bankr-isk__road hero-arb-bankr-isk__road--obj">
+          <span class="hero-arb-bankr-isk__road-tag">15 дней</span>
+          <span><strong>Возражение на включение</strong> — обособленный спор в банкротном деле, электронная подача</span>
+        </li>
+        <li class="hero-arb-bankr-isk__road hero-arb-bankr-isk__road--excl">
+          <span class="hero-arb-bankr-isk__road-tag">3 мес.</span>
+          <span><strong>Исключение по п. 8 ст. 71 / 100</strong> — новые факты; не путать с оспариванием сделки</span>
+        </li>
+      </ul>
+      <a class="hero-arb-bankr-isk__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по арбитражному спору в банкротстве</a>
+    </div>
+    <div class="hero-arb-bankr-isk__visual" aria-hidden="true">
+      <svg viewBox="0 0 460 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:460px" role="img" aria-label="Реестр требований кредиторов в арбитраже: три процессуальных дороги от строки реестра">
+        <defs>
+          <linearGradient id="hero-a8b-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e2e8f0"/>
+          </linearGradient>
+          <linearGradient id="hero-a8b-court" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-a8b-registry" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <filter id="hero-a8b-shadow" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.14"/>
+          </filter>
+          <marker id="hero-a8b-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
+          </marker>
+        </defs>
+        <rect x="10" y="12" width="440" height="376" rx="16" fill="url(#hero-a8b-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <!-- здание арбитража -->
+        <g transform="translate(130, 24)">
+          <rect x="0" y="28" width="200" height="72" rx="4" fill="url(#hero-a8b-court)"/>
+          <polygon points="100,0 200,28 0,28" fill="#1e40af"/>
+          <rect x="24" y="48" width="28" height="36" rx="2" fill="rgba(255,255,255,0.2)"/>
+          <rect x="86" y="48" width="28" height="36" rx="2" fill="rgba(255,255,255,0.2)"/>
+          <rect x="148" y="48" width="28" height="36" rx="2" fill="rgba(255,255,255,0.2)"/>
+          <text x="100" y="88" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="700" letter-spacing="0.1em">АРБИТРАЖ · ст. 33</text>
+        </g>
+        <!-- ЕФРСБ лента -->
+        <rect x="28" y="108" width="404" height="22" rx="6" fill="#fff" stroke="#94a3b8" stroke-width="1"/>
+        <circle cx="44" cy="119" r="5" fill="#22c55e"/>
+        <text x="56" y="122" fill="#334155" font-size="8" font-weight="600">ЕФРСБ · публикация · документарный порядок (107-ФЗ)</text>
+        <!-- реестр -->
+        <g filter="url(#hero-a8b-shadow)" transform="translate(36, 142)">
+          <rect width="388" height="118" rx="10" fill="url(#hero-a8b-registry)" stroke="#1e3a8a" stroke-width="1.5"/>
+          <text x="194" y="22" text-anchor="middle" fill="#1e3a8a" font-size="10" font-weight="800" letter-spacing="0.08em">РЕЕСТР ТРЕБОВАНИЙ КРЕДИТОРОВ</text>
+          <line x1="16" y1="30" x2="372" y2="30" stroke="#e2e8f0" stroke-width="1"/>
+          <rect x="16" y="38" width="52" height="14" rx="3" fill="#f1f5f9"/>
+          <text x="42" y="48" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">№</text>
+          <rect x="74" y="38" width="140" height="14" rx="3" fill="#f1f5f9"/>
+          <text x="144" y="48" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">КРЕДИТОР</text>
+          <rect x="220" y="38" width="72" height="14" rx="3" fill="#f1f5f9"/>
+          <text x="256" y="48" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">СУММА</text>
+          <rect x="298" y="38" width="74" height="14" rx="3" fill="#f1f5f9"/>
+          <text x="335" y="48" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">СТАТУС</text>
+          <!-- строка под спор -->
+          <rect x="16" y="58" width="356" height="22" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+          <text x="42" y="72" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">12</text>
+          <text x="144" y="72" text-anchor="middle" fill="#334155" font-size="8">Требование кредитора</text>
+          <text x="256" y="72" text-anchor="middle" fill="#334155" font-size="8">2,4 млн ₽</text>
+          <text x="335" y="72" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">на проверке</text>
+          <rect x="16" y="86" width="356" height="18" rx="3" fill="#f8fafc"/>
+          <text x="42" y="98" text-anchor="middle" fill="#94a3b8" font-size="7">…</text>
+          <text x="144" y="98" text-anchor="middle" fill="#94a3b8" font-size="7">очередь · залог</text>
+        </g>
+        <!-- три дороги от строки реестра -->
+        <circle cx="230" cy="272" r="6" fill="#a31830" stroke="#fff" stroke-width="2"/>
+        <path d="M230 278 L230 296" stroke="#64748b" stroke-width="2"/>
+        <path d="M230 296 L72 318" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#hero-a8b-arrow)"/>
+        <path d="M230 296 L230 318" stroke="#a31830" stroke-width="2.5" fill="none" marker-end="url(#hero-a8b-arrow)"/>
+        <path d="M230 296 L388 318" stroke="#1e3a8a" stroke-width="2" fill="none" marker-end="url(#hero-a8b-arrow)"/>
+        <!-- дорога 1: иск до банкротства -->
+        <g transform="translate(24, 322)">
+          <rect width="118" height="62" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.2"/>
+          <text x="59" y="18" text-anchor="middle" fill="#475569" font-size="8" font-weight="700">ИСК ДО БАНКРОТСТВА</text>
+          <text x="59" y="34" text-anchor="middle" fill="#64748b" font-size="7">АПК · взыскание</text>
+          <text x="59" y="48" text-anchor="middle" fill="#334155" font-size="7">ст. 33 — отдельно</text>
+        </g>
+        <!-- дорога 2: возражение -->
+        <g transform="translate(171, 322)">
+          <rect width="118" height="62" rx="8" fill="#fef2f2" stroke="#a31830" stroke-width="1.5"/>
+          <text x="59" y="18" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">ВОЗРАЖЕНИЕ</text>
+          <text x="59" y="34" text-anchor="middle" fill="#991b1b" font-size="9" font-weight="700">15 дней</text>
+          <text x="59" y="48" text-anchor="middle" fill="#64748b" font-size="7">ст. 71 п. 3</text>
+        </g>
+        <!-- дорога 3: исключение -->
+        <g transform="translate(318, 322)">
+          <rect width="118" height="62" rx="8" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.5"/>
+          <text x="59" y="18" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="700">ИСКЛЮЧЕНИЕ</text>
+          <text x="59" y="34" text-anchor="middle" fill="#1e40af" font-size="9" font-weight="700">3 мес.</text>
+          <text x="59" y="48" text-anchor="middle" fill="#64748b" font-size="7">п. 8 ст. 71 / 100</text>
+        </g>
+        <text x="230" y="392" text-anchor="middle" fill="#64748b" font-size="7">три дороги · одна строка реестра · обособленный спор</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+## Паспорт мира
+| Поле | Значение |
+|------|----------|
+| **Код / тип** | A8 · ARB |
+| **SLUG** | `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat` |
+| **id секции** | `l24-hero-arb-bankr-isk` |
+| **Класс корня** | `hero-arb-bankr-isk` |
+| **Метафора** | Зал арбитража + лента ЕФРСБ + таблица реестра; от оспариваемой строки — три процессуальных ветки |
+| **Палитра** | Светлый фон `#fafbfc`–`#e8eef5`; типографика `#0f172a` / `#475569`; акценты `#1e3a8a`, `#a31830`, `#475569` |
+| **Техника** | Только static SVG + inline CSS; без `<script>`, без `<canvas>` |
+| **Контент hero** | H1 и подзаголовок из handoff; три дороги (до дела / 15 дн. / 3 мес.); CTA Legis24 |
+
+## Чеклист отличий от прошлых hero
+- [x] Не копирует A5 (`l24-hero-arb-kred`): нет центра «ответчик» и треков «иск / банкротство / двойной фронт» на тёмной панели
+- [x] Не копирует A4 (`hero-plan-restr`): нет тёмного full-bleed hero и календаря плана реструктуризации
+- [x] Не IP/UG сцены (щит, весы, стадии уголовки)
+- [x] Уникальная ось: **реестр требований** как центр, не развилка кредитор→ответчик
+- [x] В SVG явны **15 дней**, **3 мес.**, **ст. 33**, **ЕФРСБ**, документарный порядок
+- [x] Светлая сцена SVG на светлом фоне (не монолитный navy-блок как у A5)
+- [x] MCP-only: без анимации и canvas-engine
+
+## Передача Наташе
+**SLUG:** `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat`  
+**HERO_ID:** `l24-hero-arb-bankr-isk`  
+**PAGE_CLASS:** `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page`  
+**Визуальная идея (1 строка):** Реестр в зале арбитража: от спорной строки расходятся три дороги — иск до банкротства, возражение 15 дней, исключение 3 месяца.  
+**ВНИМАНИЕ:** hero — static SVG + inline `<style>`; **не** добавлять `<script>` и `<canvas>`.
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+```html
+<section id="l24-boris-arb-bankrotstvo-fork" class="l24-boris-arb-a8" aria-label="Иск в арбитраже при банкротстве: три дороги, реестр и сроки возражений">
+<style>
+.l24-boris-arb-a8 {
+  --a8-navy: #0c1f33;
+  --a8-navy-soft: #152a45;
+  --a8-gold: #d4a853;
+  --a8-blue: #63b3ed;
+  --a8-mint: #5eead4;
+  --a8-accent: #fc8181;
+  --a8-muted: #a0aec0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-arb-a8__shell {
+  background: linear-gradient(148deg, var(--a8-navy) 0%, #122640 52%, var(--a8-navy-soft) 100%);
+  border: 1px solid rgba(212, 168, 83, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(12, 31, 51, 0.35);
+}
+.l24-boris-arb-a8__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--a8-gold);
+}
+.l24-boris-arb-a8__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-arb-a8__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--a8-muted);
+  max-width: 72ch;
+}
+.l24-boris-arb-a8__lead strong { color: #fff; }
+.l24-boris-arb-a8__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-arb-a8__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-arb-a8__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--a8-gold);
+}
+.l24-boris-arb-a8__fork-svg,
+.l24-boris-arb-a8__registry-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-arb-a8__fork-svg { max-height: 188px; margin-bottom: 12px; }
+.l24-boris-arb-a8__registry-svg { max-height: 118px; margin-bottom: 14px; }
+.l24-boris-arb-a8__roads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-arb-a8__road {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 3px solid var(--a8-blue);
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #cbd5e0;
+}
+.l24-boris-arb-a8__road:nth-child(2) { border-top-color: var(--a8-mint); }
+.l24-boris-arb-a8__road:nth-child(3) { border-top-color: var(--a8-accent); }
+.l24-boris-arb-a8__road strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+.l24-boris-arb-a8__deadlines {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0 0 12px;
+}
+.l24-boris-arb-a8__deadline {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-arb-a8__deadline--wide {
+  grid-column: 1 / -1;
+  border-color: rgba(252, 129, 129, 0.4);
+  background: rgba(252, 129, 129, 0.1);
+}
+.l24-boris-arb-a8__deadline--gold {
+  border-color: rgba(212, 168, 83, 0.35);
+  background: rgba(212, 168, 83, 0.08);
+}
+.l24-boris-arb-a8__deadline-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--a8-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-arb-a8__deadline-value {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-arb-a8__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--a8-muted);
+}
+.l24-boris-arb-a8__note em {
+  font-style: normal;
+  color: var(--a8-mint);
+  font-weight: 600;
+}
+.l24-boris-arb-a8__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-arb-a8__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+.l24-boris-arb-a8__tag--1 { border: 1px solid var(--a8-blue); color: #bee3f8; }
+.l24-boris-arb-a8__tag--2 { border: 1px solid var(--a8-mint); color: #b2f5ea; }
+.l24-boris-arb-a8__tag--3 { border: 1px solid var(--a8-accent); color: #fed7d7; }
+.l24-boris-arb-a8__tag--doc { border: 1px solid var(--a8-gold); color: #faf089; }
+@media (max-width: 900px) {
+  .l24-boris-arb-a8__split { grid-template-columns: 1fr; }
+  .l24-boris-arb-a8__roads { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-arb-a8__deadlines { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-arb-a8__shell">
+    <p class="l24-boris-arb-a8__eyebrow">127-ФЗ · 107-ФЗ · ст. 71 / 100 / 223 АПК · 2025–2026</p>
+    <h3 class="l24-boris-arb-a8__title">Три дороги до подачи: реестр, возражение или не тот «иск»</h3>
+    <p class="l24-boris-arb-a8__lead">Слева — <strong>развилка процессуального шага</strong>: вступившее решение, долг до банкротства или уже идущее дело. Справа — <strong>реестр требований</strong> и сроки, которые нельзя смешать: <strong>15 дней</strong> на возражения, <strong>30+30</strong> при наблюдении, <strong>3 месяца</strong> на исключение по новым фактам. После 2024 года спор о включении чаще идёт <strong>документарно</strong> — без отзыва определение по реестру может вступить в силу.</p>
+
+    <div class="l24-boris-arb-a8__split">
+      <div class="l24-boris-arb-a8__panel">
+        <p class="l24-boris-arb-a8__panel-title">Развилка: что подавать и куда</p>
+        <svg class="l24-boris-arb-a8__fork-svg" viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="a8-boris-fork-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1e3a5f"/>
+              <stop offset="100%" stop-color="#0f2744"/>
+            </linearGradient>
+            <linearGradient id="a8-boris-hub" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#2c5282"/>
+              <stop offset="100%" stop-color="#1a365d"/>
+            </linearGradient>
+            <marker id="a8-boris-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+              <path d="M0,0 L7,3.5 L0,7 Z" fill="#63b3ed"/>
+            </marker>
+          </defs>
+          <rect x="8" y="8" width="504" height="164" rx="12" fill="url(#a8-boris-fork-bg)" stroke="#334155" stroke-width="1"/>
+          <circle cx="260" cy="52" r="28" fill="url(#a8-boris-hub)" stroke="#d4a853" stroke-width="2"/>
+          <text x="260" y="48" text-anchor="middle" fill="#fbd38d" font-size="8" font-weight="700">СТАДИЯ</text>
+          <text x="260" y="62" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">ДОЛГ / ДЕЛО</text>
+          <path d="M260 80 L260 98" stroke="#d4a853" stroke-width="2.5"/>
+          <path d="M260 98 L88 128" stroke="#63b3ed" stroke-width="2.2" fill="none" marker-end="url(#a8-boris-arrow)"/>
+          <path d="M260 98 L260 128" stroke="#5eead4" stroke-width="2.2" fill="none" marker-end="url(#a8-boris-arrow)"/>
+          <path d="M260 98 L432 128" stroke="#fc8181" stroke-width="2.2" fill="none" marker-end="url(#a8-boris-arrow)"/>
+          <rect x="24" y="118" width="128" height="52" rx="8" fill="rgba(99,179,237,0.15)" stroke="#63b3ed" stroke-width="1.2"/>
+          <text x="88" y="138" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">РЕШЕНИЕ В СИЛЕ</text>
+          <text x="88" y="152" text-anchor="middle" fill="#e2e8f0" font-size="7.5">п. 8 ст. 71 / 100</text>
+          <text x="88" y="164" text-anchor="middle" fill="#a0aec0" font-size="7">исключение · 3 мес.</text>
+          <rect x="196" y="118" width="128" height="52" rx="8" fill="rgba(94,234,212,0.12)" stroke="#5eead4" stroke-width="1.2"/>
+          <text x="260" y="138" text-anchor="middle" fill="#b2f5ea" font-size="8" font-weight="700">ДО БАНКРОТСТВА</text>
+          <text x="260" y="152" text-anchor="middle" fill="#e2e8f0" font-size="7.5">иск + заявление</text>
+          <text x="260" y="164" text-anchor="middle" fill="#a0aec0" font-size="7">ст. 33 · подсудность</text>
+          <rect x="368" y="118" width="128" height="52" rx="8" fill="rgba(252,129,129,0.12)" stroke="#fc8181" stroke-width="1.2"/>
+          <text x="432" y="138" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">ДЕЛО ИДЁТ</text>
+          <text x="432" y="152" text-anchor="middle" fill="#e2e8f0" font-size="7.5">обособленный спор</text>
+          <text x="432" y="164" text-anchor="middle" fill="#a0aec0" font-size="7">не «новый» иск</text>
+        </svg>
+        <ul class="l24-boris-arb-a8__roads">
+          <li class="l24-boris-arb-a8__road">
+            <strong>Дорога 1</strong>
+            Решение о долге есть — возражение ограничено (п. 10 ст. 16); путь: исполнение, пересмотр, исключение по новым фактам.
+          </li>
+          <li class="l24-boris-arb-a8__road">
+            <strong>Дорога 2</strong>
+            Долг не просужен, банкротства нет — иск о взыскании / признании долга; параллельно заявление о банкротстве по ст. 33.
+          </li>
+          <li class="l24-boris-arb-a8__road">
+            <strong>Дорога 3</strong>
+            Банкротство возбуждено — возражение (15 дн.), исключение (3 мес.), оспаривание сделки (гл. III.1), если цель — масса, а не только строка реестра.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-arb-a8__panel">
+        <p class="l24-boris-arb-a8__panel-title">Реестр и «окна» сроков</p>
+        <svg class="l24-boris-arb-a8__registry-svg" viewBox="0 0 520 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <rect x="12" y="10" width="496" height="90" rx="10" fill="rgba(0,0,0,0.25)" stroke="rgba(212,168,83,0.35)" stroke-width="1"/>
+          <text x="28" y="30" fill="#d4a853" font-size="9" font-weight="700">РЕЕСТР ТРЕБОВАНИЙ КРЕДИТОРОВ</text>
+          <rect x="28" y="40" width="464" height="14" rx="4" fill="rgba(99,179,237,0.25)"/>
+          <text x="40" y="51" fill="#e2e8f0" font-size="8">№ 1 · включено · очередь 3</text>
+          <rect x="28" y="58" width="464" height="14" rx="4" fill="rgba(252,129,129,0.2)" stroke="#fc8181" stroke-width="0.8"/>
+          <text x="40" y="69" fill="#fed7d7" font-size="8" font-weight="600">№ 2 · оспариваете · возражение 15 дн.</text>
+          <rect x="28" y="76" width="464" height="14" rx="4" fill="rgba(94,234,212,0.15)"/>
+          <text x="40" y="87" fill="#b2f5ea" font-size="8">№ 3 · сделка · ст. 61.8 (не строка реестра)</text>
+        </svg>
+        <div class="l24-boris-arb-a8__deadlines">
+          <div class="l24-boris-arb-a8__deadline l24-boris-arb-a8__deadline--wide">
+            <span class="l24-boris-arb-a8__deadline-label">Возражение (ст. 71 п. 3)</span>
+            <span class="l24-boris-arb-a8__deadline-value">15 календарных дней</span>
+          </div>
+          <div class="l24-boris-arb-a8__deadline">
+            <span class="l24-boris-arb-a8__deadline-label">Наблюдение · предъявление</span>
+            <span class="l24-boris-arb-a8__deadline-value">30 + 30 дн.</span>
+          </div>
+          <div class="l24-boris-arb-a8__deadline">
+            <span class="l24-boris-arb-a8__deadline-label">Гражданин · реструктуризация</span>
+            <span class="l24-boris-arb-a8__deadline-value">60 дней</span>
+          </div>
+          <div class="l24-boris-arb-a8__deadline l24-boris-arb-a8__deadline--gold">
+            <span class="l24-boris-arb-a8__deadline-label">Исключение · п. 8 ст. 71 / 100</span>
+            <span class="l24-boris-arb-a8__deadline-value">3 месяца</span>
+          </div>
+          <div class="l24-boris-arb-a8__deadline">
+            <span class="l24-boris-arb-a8__deadline-label">Мотивировка определения</span>
+            <span class="l24-boris-arb-a8__deadline-value">5 дней</span>
+          </div>
+        </div>
+        <p class="l24-boris-arb-a8__note"><em>107-ФЗ</em> — документарное рассмотрение по умолчанию; возражения в электронном виде (<em>Пленум № 40</em>). Следите за <em>ЕФРСБ</em> (311-ФЗ с 01.09.2025), а не только картотекой суда.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-arb-a8__foot" aria-label="Связка дорог и инструментов">
+      <span class="l24-boris-arb-a8__tag l24-boris-arb-a8__tag--1">Дорога 1: п. 10 ст. 16 · исключение</span>
+      <span class="l24-boris-arb-a8__tag l24-boris-arb-a8__tag--2">Дорога 2: иск до возбуждения · давность</span>
+      <span class="l24-boris-arb-a8__tag l24-boris-arb-a8__tag--3">Дорога 3: возражение ≠ оспаривание сделки</span>
+      <span class="l24-boris-arb-a8__tag l24-boris-arb-a8__tag--doc">Документарный порядок · без «ждём заседания»</span>
+    </div>
+  </div>
+</section>
+```
+
+**Паспорт блока**
+
+| Поле | Значение |
+|------|----------|
+| **Anchor id (секция)** | `l24-boris-arb-bankrotstvo-fork` |
+| **Класс-обёртка** | `l24-boris-arb-a8` |
+| **Куда вставить (Наташа)** | После первого H2 «Когда в арбитраже при банкротстве нужен иск, а когда — заявление» — сразу после абзаца про «Три дороги» / таблицу (до H3 «Заявление на банкротство…») |
+| **Режим** | **Контраст** к светлому hero Алины (тёмный navy-shell + gold/blue/mint — та же ARB-палитра, что `hero-arb-*` / `l24-boris-arb-kred`) |
+| **Формат** | Сплит: SVG-развилка + 3 дороги | реестр SVG + сетка сроков |
+| **Запреты** | Без `<script>`, без `<canvas>` |
+| **TOC-якорь (опционально)** | `#l24-boris-arb-bankrotstvo-fork` — подпись: «Три дороги и сроки реестра» |
+
+**Чеклист отличий от hero Алины**
+
+- [x] Не hero: `margin: 48px 0`, без `min-height: 100vh`
+- [x] Свой `id` — не `l24-hero-*`
+- [x] Статичный SVG + CSS grid, без анимации и canvas
+- [x] Углубление темы «развилка + реестр + сроки», а не дублирование H1/CTA hero
+- [x] Уникальные id градиентов SVG: префикс `a8-boris-*`
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**Файл:** `.cursor/page-content-natasha-A8.html`
+**SLUG:** `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat`
+**Title:** Иск в арбитраже при банкротстве: сроки, подсудность, оспаривание требований
+**Description:** Когда подавать иск в арбитражный суд при банкротстве и какая подсудность дел о банкротстве. Сроки возражений на требования кредиторов и оспаривание включения в реестр. Поможем выстроить позицию в арбитражном споре — консультация.
+**Размер HTML:** 62566 символов
+**Класс main:** `site-main isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page`
+
+ВНИМАНИЕ: без `<script>` и `<canvas>` — hero и Борис static SVG + inline CSS (MCP publish удаляет scripts). JSON-LD: microdata Article на `<main>`, FAQPage на секции `#a8-faq`; дублирующий граф в `<pre class="l24-jsonld-a8" hidden>` без script.
+
+```html
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page th, .isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page th { background: #edf2f7; }
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page a { color: #1e40af; }
+.isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page code {
+  font-size: 0.9em; background: #f1f5f9; padding: 2px 6px; border-radius: 4px;
+}
+.l24-intro-a8 {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-a8__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-a8__text {
+  border-left: 4px solid #1e3a8a; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-a8__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-a8__text p:last-child { margin-bottom: 0; }
+.l24-intro-a8__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-a8__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-a8__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-a8__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-a8__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-a8__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-a8__chip--navy { border-color: #0f2744; color: #0f2744; }
+.l24-intro-a8__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-a8 {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-a8 > h2 { margin-top: 0 !important; }
+.l24-faq-a8__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-a8__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-a8__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-a8__a { margin: 0; color: #334155; }
+.l24-jsonld-a8 { display: none !important; }
+.ym-section { display: block; }
+@media (prefers-reduced-motion: no-preference) {
+  .isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page .l24-longread-wrap > * {
+    animation: l24-a8-fade 0.5s ease both;
+  }
+}
+@keyframes l24-a8-fade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page .l24-longread-wrap > * { animation: none !important; }
+}
+@media (max-width: 900px) {
+  .l24-intro-a8__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="Иск в арбитраже при банкротстве: когда подавать и как оспорить требования">
+<meta itemprop="description" content="Когда подавать иск в арбитражный суд при банкротстве и какая подсудность дел о банкротстве. Сроки возражений на требования кредиторов и оспаривание включения в реестр. Поможем выстроить позицию в арбитражном споре — консультация.">
+<meta itemprop="inLanguage" content="ru-RU">
+
+<section id="l24-hero-arb-bankr-isk" class="hero-arb-bankr-isk" aria-label="Иск в арбитраже при банкротстве">
+  <style>
+    .hero-arb-bankr-isk {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(165deg, #fafbfc 0%, #f1f5f9 38%, #e8eef5 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-arb-bankr-isk::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 48% at 88% 8%, rgba(30, 58, 138, 0.07) 0%, transparent 52%),
+        radial-gradient(ellipse 45% 40% at 4% 92%, rgba(163, 24, 48, 0.05) 0%, transparent 48%);
+      pointer-events: none;
+    }
+    .hero-arb-bankr-isk__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.02fr 0.98fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .hero-arb-bankr-isk__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-arb-bankr-isk__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #a31830;
+      flex-shrink: 0;
+    }
+    .hero-arb-bankr-isk__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-arb-bankr-isk__h1-accent {
+      color: #1e3a8a;
+    }
+    .hero-arb-bankr-isk__sub {
+      margin: 0 0 26px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.55vw, 1.1rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-arb-bankr-isk__roads {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+    }
+    .hero-arb-bankr-isk__road {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 13px;
+      font-size: 0.93rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-arb-bankr-isk__road-tag {
+      flex-shrink: 0;
+      min-width: 108px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .hero-arb-bankr-isk__road--pre .hero-arb-bankr-isk__road-tag {
+      background: #475569;
+    }
+    .hero-arb-bankr-isk__road--obj .hero-arb-bankr-isk__road-tag {
+      background: #a31830;
+    }
+    .hero-arb-bankr-isk__road--excl .hero-arb-bankr-isk__road-tag {
+      background: #1e3a8a;
+    }
+    .hero-arb-bankr-isk__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 26px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.94rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+    }
+    .hero-arb-bankr-isk__cta:hover {
+      background: #8b1528;
+    }
+    .hero-arb-bankr-isk__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-arb-bankr-isk__inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+      .hero-arb-bankr-isk__visual {
+        order: -1;
+        max-height: 300px;
+      }
+      .hero-arb-bankr-isk__road-tag {
+        min-width: 92px;
+        font-size: 0.66rem;
+      }
+    }
+  </style>
+  <div class="hero-arb-bankr-isk__inner">
+    <div class="hero-arb-bankr-isk__content">
+      <div class="hero-arb-bankr-isk__badge">
+        <span class="hero-arb-bankr-isk__badge-dot" aria-hidden="true"></span>
+        ARB · A8 · 127-ФЗ · ст. 33 · документарный порядок · 2025–2026
+      </div>
+      <h1 class="hero-arb-bankr-isk__h1">
+        <span class="hero-arb-bankr-isk__h1-accent">Иск в арбитраже при банкротстве:</span> когда подавать и как оспорить требования
+      </h1>
+      <p class="hero-arb-bankr-isk__sub">
+        Подсудность, сроки возражений на требования кредиторов и оспаривание включения в реестр — пошагово для должника и кредитора
+      </p>
+      <ul class="hero-arb-bankr-isk__roads">
+        <li class="hero-arb-bankr-isk__road hero-arb-bankr-isk__road--pre">
+          <span class="hero-arb-bankr-isk__road-tag">До дела</span>
+          <span><strong>Отдельный иск</strong> — если банкротство ещё не возбуждено; подсудность по АПК и ст. 33 127-ФЗ</span>
+        </li>
+        <li class="hero-arb-bankr-isk__road hero-arb-bankr-isk__road--obj">
+          <span class="hero-arb-bankr-isk__road-tag">15 дней</span>
+          <span><strong>Возражение на включение</strong> — обособленный спор в банкротном деле, электронная подача</span>
+        </li>
+        <li class="hero-arb-bankr-isk__road hero-arb-bankr-isk__road--excl">
+          <span class="hero-arb-bankr-isk__road-tag">3 мес.</span>
+          <span><strong>Исключение по п. 8 ст. 71 / 100</strong> — новые факты; не путать с оспариванием сделки</span>
+        </li>
+      </ul>
+      <a class="hero-arb-bankr-isk__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по арбитражному спору в банкротстве</a>
+    </div>
+    <div class="hero-arb-bankr-isk__visual" aria-hidden="true">
+      <svg viewBox="0 0 460 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:460px" role="img" aria-label="Реестр требований кредиторов в арбитраже: три процессуальных дороги от строки реестра">
+        <defs>
+          <linearGradient id="hero-a8b-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e2e8f0"/>
+          </linearGradient>
+          <linearGradient id="hero-a8b-court" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-a8b-registry" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <filter id="hero-a8b-shadow" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.14"/>
+          </filter>
+          <marker id="hero-a8b-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
+          </marker>
+        </defs>
+        <rect x="10" y="12" width="440" height="376" rx="16" fill="url(#hero-a8b-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <!-- здание арбитража -->
+        <g transform="translate(130, 24)">
+          <rect x="0" y="28" width="200" height="72" rx="4" fill="url(#hero-a8b-court)"/>
+          <polygon points="100,0 200,28 0,28" fill="#1e40af"/>
+          <rect x="24" y="48" width="28" height="36" rx="2" fill="rgba(255,255,255,0.2)"/>
+          <rect x="86" y="48" width="28" height="36" rx="2" fill="rgba(255,255,255,0.2)"/>
+          <rect x="148" y="48" width="28" height="36" rx="2" fill="rgba(255,255,255,0.2)"/>
+          <text x="100" y="88" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="700" letter-spacing="0.1em">АРБИТРАЖ · ст. 33</text>
+        </g>
+        <!-- ЕФРСБ лента -->
+        <rect x="28" y="108" width="404" height="22" rx="6" fill="#fff" stroke="#94a3b8" stroke-width="1"/>
+        <circle cx="44" cy="119" r="5" fill="#22c55e"/>
+        <text x="56" y="122" fill="#334155" font-size="8" font-weight="600">ЕФРСБ · публикация · документарный порядок (107-ФЗ)</text>
+        <!-- реестр -->
+        <g filter="url(#hero-a8b-shadow)" transform="translate(36, 142)">
+          <rect width="388" height="118" rx="10" fill="url(#hero-a8b-registry)" stroke="#1e3a8a" stroke-width="1.5"/>
+          <text x="194" y="22" text-anchor="middle" fill="#1e3a8a" font-size="10" font-weight="800" letter-spacing="0.08em">РЕЕСТР ТРЕБОВАНИЙ КРЕДИТОРОВ</text>
+          <line x1="16" y1="30" x2="372" y2="30" stroke="#e2e8f0" stroke-width="1"/>
+          <rect x="16" y="38" width="52" height="14" rx="3" fill="#f1f5f9"/>
+          <text x="42" y="48" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">№</text>
+          <rect x="74" y="38" width="140" height="14" rx="3" fill="#f1f5f9"/>
+          <text x="144" y="48" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">КРЕДИТОР</text>
+          <rect x="220" y="38" width="72" height="14" rx="3" fill="#f1f5f9"/>
+          <text x="256" y="48" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">СУММА</text>
+          <rect x="298" y="38" width="74" height="14" rx="3" fill="#f1f5f9"/>
+          <text x="335" y="48" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">СТАТУС</text>
+          <!-- строка под спор -->
+          <rect x="16" y="58" width="356" height="22" rx="4" fill="#fef2f2" stroke="#fecaca" stroke-width="1"/>
+          <text x="42" y="72" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">12</text>
+          <text x="144" y="72" text-anchor="middle" fill="#334155" font-size="8">Требование кредитора</text>
+          <text x="256" y="72" text-anchor="middle" fill="#334155" font-size="8">2,4 млн ₽</text>
+          <text x="335" y="72" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">на проверке</text>
+          <rect x="16" y="86" width="356" height="18" rx="3" fill="#f8fafc"/>
+          <text x="42" y="98" text-anchor="middle" fill="#94a3b8" font-size="7">…</text>
+          <text x="144" y="98" text-anchor="middle" fill="#94a3b8" font-size="7">очередь · залог</text>
+        </g>
+        <!-- три дороги от строки реестра -->
+        <circle cx="230" cy="272" r="6" fill="#a31830" stroke="#fff" stroke-width="2"/>
+        <path d="M230 278 L230 296" stroke="#64748b" stroke-width="2"/>
+        <path d="M230 296 L72 318" stroke="#475569" stroke-width="2" fill="none" marker-end="url(#hero-a8b-arrow)"/>
+        <path d="M230 296 L230 318" stroke="#a31830" stroke-width="2.5" fill="none" marker-end="url(#hero-a8b-arrow)"/>
+        <path d="M230 296 L388 318" stroke="#1e3a8a" stroke-width="2" fill="none" marker-end="url(#hero-a8b-arrow)"/>
+        <!-- дорога 1: иск до банкротства -->
+        <g transform="translate(24, 322)">
+          <rect width="118" height="62" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.2"/>
+          <text x="59" y="18" text-anchor="middle" fill="#475569" font-size="8" font-weight="700">ИСК ДО БАНКРОТСТВА</text>
+          <text x="59" y="34" text-anchor="middle" fill="#64748b" font-size="7">АПК · взыскание</text>
+          <text x="59" y="48" text-anchor="middle" fill="#334155" font-size="7">ст. 33 — отдельно</text>
+        </g>
+        <!-- дорога 2: возражение -->
+        <g transform="translate(171, 322)">
+          <rect width="118" height="62" rx="8" fill="#fef2f2" stroke="#a31830" stroke-width="1.5"/>
+          <text x="59" y="18" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">ВОЗРАЖЕНИЕ</text>
+          <text x="59" y="34" text-anchor="middle" fill="#991b1b" font-size="9" font-weight="700">15 дней</text>
+          <text x="59" y="48" text-anchor="middle" fill="#64748b" font-size="7">ст. 71 п. 3</text>
+        </g>
+        <!-- дорога 3: исключение -->
+        <g transform="translate(318, 322)">
+          <rect width="118" height="62" rx="8" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.5"/>
+          <text x="59" y="18" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="700">ИСКЛЮЧЕНИЕ</text>
+          <text x="59" y="34" text-anchor="middle" fill="#1e40af" font-size="9" font-weight="700">3 мес.</text>
+          <text x="59" y="48" text-anchor="middle" fill="#64748b" font-size="7">п. 8 ст. 71 / 100</text>
+        </g>
+        <text x="230" y="392" text-anchor="middle" fill="#64748b" font-size="7">три дороги · одна строка реестра · обособленный спор</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="l24-intro-a8 ym-section" aria-label="Введение">
+  <div class="l24-intro-a8__grid">
+    <div class="l24-intro-a8__text">
+      <p>В бытовой речи «<strong>иск в арбитраже при банкротстве</strong>» смешивают самостоятельный иск до возбуждения дела, заявление о банкротстве и обособленный спор о реестре. Для суда это разные инструменты — с разной <strong>подсудностью дел о банкротстве</strong> и календарём.</p>
+      <p>Ниже — пошагово: когда подавать документы, как уложиться в <strong>срок возражений на требование кредитора</strong>, чем отличается <strong>оспаривание включения в реестр</strong> от оспаривания сделки и что изменилось после документарного порядка (107-ФЗ).</p>
+      <div class="l24-intro-a8__brief">
+        <strong>Кратко:</strong> возражение при наблюдении — <strong>15 календарных дней</strong> (ст. 71); исключение по новым фактам — <strong>3 месяца</strong> (п. 8 ст. 71 / 100); порог банкротства юрлица с 01.06.2024 — <strong>2 млн ₽</strong> (кроме заявления должника).
+      </div>
+    </div>
+    <aside class="l24-intro-a8__decor" aria-label="Нормы и сроки банкротного арбитража">
+      <ul class="l24-intro-a8__chips">
+        <li class="l24-intro-a8__chip l24-intro-a8__chip--navy">ст. 33 127-ФЗ</li>
+        <li class="l24-intro-a8__chip l24-intro-a8__chip--accent">ст. 71 / 100</li>
+        <li class="l24-intro-a8__chip">107-ФЗ</li>
+        <li class="l24-intro-a8__chip l24-intro-a8__chip--warn">15 дней</li>
+        <li class="l24-intro-a8__chip">ЕФРСБ</li>
+        <li class="l24-intro-a8__chip">Пленум № 40</li>
+      </ul>
+      <svg class="l24-intro-a8__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Три дороги: иск до банкротства, возражение 15 дней, исключение 3 месяца">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">РЕЕСТР → ВЫБОР ИНСТРУМЕНТА</text>
+        <rect x="24" y="48" width="88" height="52" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+        <text x="68" y="72" text-anchor="middle" fill="#475569" font-size="8" font-weight="700">ИСК</text>
+        <text x="68" y="86" text-anchor="middle" fill="#64748b" font-size="7">до дела</text>
+        <rect x="116" y="48" width="88" height="52" rx="8" fill="#fef2f2" stroke="#a31830"/>
+        <text x="160" y="72" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">15 ДН.</text>
+        <text x="160" y="86" text-anchor="middle" fill="#991b1b" font-size="7">возражение</text>
+        <rect x="208" y="48" width="88" height="52" rx="8" fill="#eff6ff" stroke="#1e3a8a"/>
+        <text x="252" y="72" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="700">3 МЕС.</text>
+        <text x="252" y="86" text-anchor="middle" fill="#1e40af" font-size="7">исключение</text>
+        <rect x="24" y="118" width="272" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+        <text x="160" y="142" text-anchor="middle" fill="#334155" font-size="9" font-weight="600">документарный порядок · ЕФРСБ · электронная подача</text>
+        <text x="160" y="160" text-anchor="middle" fill="#64748b" font-size="8">обособленный спор в банкротном деле</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+
+<nav class="ym-toc ym-section" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#a8-kogda-isk">Иск или заявление</a></li>
+    <li><a href="#a8-podsudnost">Подсудность</a></li>
+    <li><a href="#a8-sroki">Сроки и реестр</a></li>
+    <li><a href="#a8-osparivanie">Оспорить требования</a></li>
+    <li><a href="#a8-reestr">Проверка реестра</a></li>
+    <li><a href="#a8-sdelki">Оспаривание сделок</a></li>
+    <li><a href="#a8-praktika">Практика суда</a></li>
+    <li><a href="#a8-konsultaciya">Консультация</a></li>
+    <li><a href="#l24-boris-arb-bankrotstvo-fork">Три дороги · сроки</a></li>
+    <li><a href="#a8-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+
+<section class="ym-section">
+<div class="l24-longread-wrap">
+
+<h2 id="a8-kogda-isk">Когда в арбитраже при банкротстве нужен иск, а когда — заявление</h2>
+
+<p>В бытовой речи «иск в арбитраже при банкротстве» часто смешивают три разных процессуальных пути. Для арбитражного суда это не одна кнопка: до возбуждения дела о несостоятельности возможен <strong>самостоятельный иск</strong> по общим правилам АПК, после — почти всегда <strong>заявление в рамках банкротного дела</strong> (обособленный спор). Путаница дорого обходится: пропуск срока возражений на требование кредитора, подача «иска» не в тот суд или попытка убрать долг из реестра там, где нужно оспаривать сделку.</p>
+
+<p><strong>Три дороги в арбитраже при банкротстве</strong> — схема, с которой разумно начать разбор ситуации:</p>
+
+<table><thead><tr><th>Ситуация</th><th>Что подавать</th><th>Куда</th></tr></thead><tbody><tr><td>Есть <strong>вступившее в силу решение</strong> суда о долге</td><td>Ограниченный набор действий: исполнение, пересмотр, новые факты (исключение по п. 8 ст. 71 / 100)</td><td>Дело о банкротстве того же должника</td></tr><tr><td>Долг <strong>не просужен</strong>, банкротство <strong>ещё не</strong> возбуждено</td><td>Иск о взыскании / признании отсутствия долга + при необходимости заявление о банкротстве</td><td>Арбитраж по подсудности иска и отдельно — по ст. 33 127-ФЗ</td></tr><tr><td>Банкротство <strong>уже</strong> идёт</td><td>Возражение (15 дней!), заявление об исключении (3 мес.), оспаривание сделки (гл. III.1 127-ФЗ)</td><td><strong>Только</strong> в банкротном деле, не «новый» иск</td></tr></tbody></table>
+
+<p>С 2024 года обособленные споры о включении и оспаривании требований по умолчанию рассматриваются в <strong>документарном порядке</strong> (ФЗ № 107-ФЗ, ст. 223 АПК в применении к банкротству). Это ускоряет процесс, но усиливает требования к срокам и качеству документов: формальное «подождём заседания» часто означает, что определение о включении в реестр требований кредиторов уже вступило в силу.</p>
+
+
+
+<section id="l24-boris-arb-bankrotstvo-fork" class="l24-boris-arb-a8" aria-label="Иск в арбитраже при банкротстве: три дороги, реестр и сроки возражений">
+<style>
+.l24-boris-arb-a8 {
+  --a8-navy: #0c1f33;
+  --a8-navy-soft: #152a45;
+  --a8-gold: #d4a853;
+  --a8-blue: #63b3ed;
+  --a8-mint: #5eead4;
+  --a8-accent: #fc8181;
+  --a8-muted: #a0aec0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-arb-a8__shell {
+  background: linear-gradient(148deg, var(--a8-navy) 0%, #122640 52%, var(--a8-navy-soft) 100%);
+  border: 1px solid rgba(212, 168, 83, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(12, 31, 51, 0.35);
+}
+.l24-boris-arb-a8__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--a8-gold);
+}
+.l24-boris-arb-a8__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-arb-a8__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--a8-muted);
+  max-width: 72ch;
+}
+.l24-boris-arb-a8__lead strong { color: #fff; }
+.l24-boris-arb-a8__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-arb-a8__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-arb-a8__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--a8-gold);
+}
+.l24-boris-arb-a8__fork-svg,
+.l24-boris-arb-a8__registry-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-arb-a8__fork-svg { max-height: 188px; margin-bottom: 12px; }
+.l24-boris-arb-a8__registry-svg { max-height: 118px; margin-bottom: 14px; }
+.l24-boris-arb-a8__roads {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-arb-a8__road {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 3px solid var(--a8-blue);
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #cbd5e0;
+}
+.l24-boris-arb-a8__road:nth-child(2) { border-top-color: var(--a8-mint); }
+.l24-boris-arb-a8__road:nth-child(3) { border-top-color: var(--a8-accent); }
+.l24-boris-arb-a8__road strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+.l24-boris-arb-a8__deadlines {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0 0 12px;
+}
+.l24-boris-arb-a8__deadline {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-arb-a8__deadline--wide {
+  grid-column: 1 / -1;
+  border-color: rgba(252, 129, 129, 0.4);
+  background: rgba(252, 129, 129, 0.1);
+}
+.l24-boris-arb-a8__deadline--gold {
+  border-color: rgba(212, 168, 83, 0.35);
+  background: rgba(212, 168, 83, 0.08);
+}
+.l24-boris-arb-a8__deadline-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--a8-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-arb-a8__deadline-value {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-arb-a8__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--a8-muted);
+}
+.l24-boris-arb-a8__note em {
+  font-style: normal;
+  color: var(--a8-mint);
+  font-weight: 600;
+}
+.l24-boris-arb-a8__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-arb-a8__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+.l24-boris-arb-a8__tag--1 { border: 1px solid var(--a8-blue); color: #bee3f8; }
+.l24-boris-arb-a8__tag--2 { border: 1px solid var(--a8-mint); color: #b2f5ea; }
+.l24-boris-arb-a8__tag--3 { border: 1px solid var(--a8-accent); color: #fed7d7; }
+.l24-boris-arb-a8__tag--doc { border: 1px solid var(--a8-gold); color: #faf089; }
+@media (max-width: 900px) {
+  .l24-boris-arb-a8__split { grid-template-columns: 1fr; }
+  .l24-boris-arb-a8__roads { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-arb-a8__deadlines { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-arb-a8__shell">
+    <p class="l24-boris-arb-a8__eyebrow">127-ФЗ · 107-ФЗ · ст. 71 / 100 / 223 АПК · 2025–2026</p>
+    <h3 class="l24-boris-arb-a8__title">Три дороги до подачи: реестр, возражение или не тот «иск»</h3>
+    <p class="l24-boris-arb-a8__lead">Слева — <strong>развилка процессуального шага</strong>: вступившее решение, долг до банкротства или уже идущее дело. Справа — <strong>реестр требований</strong> и сроки, которые нельзя смешать: <strong>15 дней</strong> на возражения, <strong>30+30</strong> при наблюдении, <strong>3 месяца</strong> на исключение по новым фактам. После 2024 года спор о включении чаще идёт <strong>документарно</strong> — без отзыва определение по реестру может вступить в силу.</p>
+
+    <div class="l24-boris-arb-a8__split">
+      <div class="l24-boris-arb-a8__panel">
+        <p class="l24-boris-arb-a8__panel-title">Развилка: что подавать и куда</p>
+        <svg class="l24-boris-arb-a8__fork-svg" viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="a8-boris-fork-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1e3a5f"/>
+              <stop offset="100%" stop-color="#0f2744"/>
+            </linearGradient>
+            <linearGradient id="a8-boris-hub" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#2c5282"/>
+              <stop offset="100%" stop-color="#1a365d"/>
+            </linearGradient>
+            <marker id="a8-boris-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+              <path d="M0,0 L7,3.5 L0,7 Z" fill="#63b3ed"/>
+            </marker>
+          </defs>
+          <rect x="8" y="8" width="504" height="164" rx="12" fill="url(#a8-boris-fork-bg)" stroke="#334155" stroke-width="1"/>
+          <circle cx="260" cy="52" r="28" fill="url(#a8-boris-hub)" stroke="#d4a853" stroke-width="2"/>
+          <text x="260" y="48" text-anchor="middle" fill="#fbd38d" font-size="8" font-weight="700">СТАДИЯ</text>
+          <text x="260" y="62" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">ДОЛГ / ДЕЛО</text>
+          <path d="M260 80 L260 98" stroke="#d4a853" stroke-width="2.5"/>
+          <path d="M260 98 L88 128" stroke="#63b3ed" stroke-width="2.2" fill="none" marker-end="url(#a8-boris-arrow)"/>
+          <path d="M260 98 L260 128" stroke="#5eead4" stroke-width="2.2" fill="none" marker-end="url(#a8-boris-arrow)"/>
+          <path d="M260 98 L432 128" stroke="#fc8181" stroke-width="2.2" fill="none" marker-end="url(#a8-boris-arrow)"/>
+          <rect x="24" y="118" width="128" height="52" rx="8" fill="rgba(99,179,237,0.15)" stroke="#63b3ed" stroke-width="1.2"/>
+          <text x="88" y="138" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">РЕШЕНИЕ В СИЛЕ</text>
+          <text x="88" y="152" text-anchor="middle" fill="#e2e8f0" font-size="7.5">п. 8 ст. 71 / 100</text>
+          <text x="88" y="164" text-anchor="middle" fill="#a0aec0" font-size="7">исключение · 3 мес.</text>
+          <rect x="196" y="118" width="128" height="52" rx="8" fill="rgba(94,234,212,0.12)" stroke="#5eead4" stroke-width="1.2"/>
+          <text x="260" y="138" text-anchor="middle" fill="#b2f5ea" font-size="8" font-weight="700">ДО БАНКРОТСТВА</text>
+          <text x="260" y="152" text-anchor="middle" fill="#e2e8f0" font-size="7.5">иск + заявление</text>
+          <text x="260" y="164" text-anchor="middle" fill="#a0aec0" font-size="7">ст. 33 · подсудность</text>
+          <rect x="368" y="118" width="128" height="52" rx="8" fill="rgba(252,129,129,0.12)" stroke="#fc8181" stroke-width="1.2"/>
+          <text x="432" y="138" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">ДЕЛО ИДЁТ</text>
+          <text x="432" y="152" text-anchor="middle" fill="#e2e8f0" font-size="7.5">обособленный спор</text>
+          <text x="432" y="164" text-anchor="middle" fill="#a0aec0" font-size="7">не «новый» иск</text>
+        </svg>
+        <ul class="l24-boris-arb-a8__roads">
+          <li class="l24-boris-arb-a8__road">
+            <strong>Дорога 1</strong>
+            Решение о долге есть — возражение ограничено (п. 10 ст. 16); путь: исполнение, пересмотр, исключение по новым фактам.
+          </li>
+          <li class="l24-boris-arb-a8__road">
+            <strong>Дорога 2</strong>
+            Долг не просужен, банкротства нет — иск о взыскании / признании долга; параллельно заявление о банкротстве по ст. 33.
+          </li>
+          <li class="l24-boris-arb-a8__road">
+            <strong>Дорога 3</strong>
+            Банкротство возбуждено — возражение (15 дн.), исключение (3 мес.), оспаривание сделки (гл. III.1), если цель — масса, а не только строка реестра.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-arb-a8__panel">
+        <p class="l24-boris-arb-a8__panel-title">Реестр и «окна» сроков</p>
+        <svg class="l24-boris-arb-a8__registry-svg" viewBox="0 0 520 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <rect x="12" y="10" width="496" height="90" rx="10" fill="rgba(0,0,0,0.25)" stroke="rgba(212,168,83,0.35)" stroke-width="1"/>
+          <text x="28" y="30" fill="#d4a853" font-size="9" font-weight="700">РЕЕСТР ТРЕБОВАНИЙ КРЕДИТОРОВ</text>
+          <rect x="28" y="40" width="464" height="14" rx="4" fill="rgba(99,179,237,0.25)"/>
+          <text x="40" y="51" fill="#e2e8f0" font-size="8">№ 1 · включено · очередь 3</text>
+          <rect x="28" y="58" width="464" height="14" rx="4" fill="rgba(252,129,129,0.2)" stroke="#fc8181" stroke-width="0.8"/>
+          <text x="40" y="69" fill="#fed7d7" font-size="8" font-weight="600">№ 2 · оспариваете · возражение 15 дн.</text>
+          <rect x="28" y="76" width="464" height="14" rx="4" fill="rgba(94,234,212,0.15)"/>
+          <text x="40" y="87" fill="#b2f5ea" font-size="8">№ 3 · сделка · ст. 61.8 (не строка реестра)</text>
+        </svg>
+        <div class="l24-boris-arb-a8__deadlines">
+          <div class="l24-boris-arb-a8__deadline l24-boris-arb-a8__deadline--wide">
+            <span class="l24-boris-arb-a8__deadline-label">Возражение (ст. 71 п. 3)</span>
+            <span class="l24-boris-arb-a8__deadline-value">15 календарных дней</span>
+          </div>
+          <div class="l24-boris-arb-a8__deadline">
+            <span class="l24-boris-arb-a8__deadline-label">Наблюдение · предъявление</span>
+            <span class="l24-boris-arb-a8__deadline-value">30 + 30 дн.</span>
+          </div>
+          <div class="l24-boris-arb-a8__deadline">
+            <span class="l24-boris-arb-a8__deadline-label">Гражданин · реструктуризация</span>
+            <span class="l24-boris-arb-a8__deadline-value">60 дней</span>
+          </div>
+          <div class="l24-boris-arb-a8__deadline l24-boris-arb-a8__deadline--gold">
+            <span class="l24-boris-arb-a8__deadline-label">Исключение · п. 8 ст. 71 / 100</span>
+            <span class="l24-boris-arb-a8__deadline-value">3 месяца</span>
+          </div>
+          <div class="l24-boris-arb-a8__deadline">
+            <span class="l24-boris-arb-a8__deadline-label">Мотивировка определения</span>
+            <span class="l24-boris-arb-a8__deadline-value">5 дней</span>
+          </div>
+        </div>
+        <p class="l24-boris-arb-a8__note"><em>107-ФЗ</em> — документарное рассмотрение по умолчанию; возражения в электронном виде (<em>Пленум № 40</em>). Следите за <em>ЕФРСБ</em> (311-ФЗ с 01.09.2025), а не только картотекой суда.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-arb-a8__foot" aria-label="Связка дорог и инструментов">
+      <span class="l24-boris-arb-a8__tag l24-boris-arb-a8__tag--1">Дорога 1: п. 10 ст. 16 · исключение</span>
+      <span class="l24-boris-arb-a8__tag l24-boris-arb-a8__tag--2">Дорога 2: иск до возбуждения · давность</span>
+      <span class="l24-boris-arb-a8__tag l24-boris-arb-a8__tag--3">Дорога 3: возражение ≠ оспаривание сделки</span>
+      <span class="l24-boris-arb-a8__tag l24-boris-arb-a8__tag--doc">Документарный порядок · без «ждём заседания»</span>
+    </div>
+  </div>
+</section>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Уже идёт банкротство, а в реестре появилось чужое или завышенное требование? До истечения 15 дней на возражения важно выбрать не «отдельный иск», а заявление в банкротном деле — иначе спор уйдёт в документарный порядок без ваших доводов.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по арбитражному спору в банкротстве</a></p>
+</aside>
+
+<h3>Заявление на банкротство в арбитражный суд и исковое заявление — в чём разница</h3>
+
+<p><strong>Заявление на банкротство в арбитражный суд</strong> инициирует дело о несостоятельности (банкротство). Его подают должник, кредитор или уполномоченные органы при наличии признаков банкротства. Для юридических лиц с 01.06.2024 порог по требованиям кредиторов (кроме заявления самого должника) — <strong>2 000 000 ₽</strong> совокупного долга (ФЗ № 107-ФЗ).</p>
+
+<p><strong>Исковое заявление в арбитражный суд</strong> при банкротстве в классическом смысле — это либо иск <strong>до</strong> банкротства (взыскание, признание сделки недействительной по ГК), либо неточное название <strong>заявления в банкротном деле</strong>: возражения на включение в реестр, заявление об исключении требования, оспаривание сделки должника. После возбуждения дела о банкротстве арбитражный суд процедуры банкротства ведёт единое производство; «отдельный» иск по тому же долгу против того же должника, как правило, не подменяет реестровый спор.</p>
+
+<h3>Банкротство иск в арбитражный суд: типовые ситуации для должника и кредитора</h3>
+
+<p><strong>Должник</strong> чаще всего заинтересован в: оспаривании требований кредиторов (завышенный долг, давность, погашение), оспаривании сделок, введённых для вывода активов, защите от фиктивных кредиторов на собрании. <strong>Кредитор</strong> — во включении в реестр требований кредиторов, ответе на возражения, оспаривании сделок с целью пополнения конкурсной массы (при доле в реестре более 10% — ст. 61.9 127-ФЗ).</p>
+
+<p>Если долг ещё не подтверждён судом и давность под угрозой, кредитору иногда выгоднее <strong>сначала</strong> подать иск о взыскании, <strong>параллельно</strong> оценивая заявление о банкротстве. После возбуждения дела о банкротстве предъявление требования в деле <strong>приостанавливает</strong> течение исковой давности (п. 13 Пленума ВАС № 29; практика ВС 2025–2026).</p>
+
+<h2 id="a8-podsudnost">Подсудность дел о банкротстве: в какой арбитражный суд подавать</h2>
+
+<p><strong>Подсудность дел о банкротстве</strong> определяется ст. 33 Закона о банкротстве (127-ФЗ): дело о банкротстве юридического лица рассматривает арбитражный суд по <strong>месту нахождения</strong> должника, гражданина — по <strong>месту жительства</strong> (с учётом исключений для ИП и иных случаев в законе и разъяснениях).</p>
+
+<p>Важно: подача иска о взыскании <strong>до</strong> банкротства в другой суд <strong>не переносит</strong> банкротное дело туда. Банкротство концентрируется в суде по ст. 33; обособленные споры о реестре — <strong>в рамках</strong> этого дела (ст. 60 127-ФЗ).</p>
+
+<h3>Подведомственность и подсудность дел о банкротстве</h3>
+
+<p>Все дела о несостоятельности (банкротстве) <strong>подведомственны</strong> арбитражным судам. Споры о включении требования, возражениях, оспаривании сделок — не «гражданка» в суде общей юрисдикции, даже если контрагент — физлицо-должник (процедура по главе X 127-ФЗ).</p>
+
+<h3>Исключительная и территориальная подсудность (физлица и юрлица)</h3>
+
+<p><strong>Исключительная подсудность дел о банкротстве</strong> закреплена в 127-ФЗ: альтернативы, как в обычном иске к ответчику по месту исполнения, для смены банкротного суда обычно нет. <strong>Территориальная подсудность</strong> внутри региона и передача между судами одного субъекта — редкие и специально оговорённые ситуации; на практике ошибка в адресе должника в заявлении о банкротстве ведёт к возврату или передаче по подсудности, что сдвигает календарь сроков для всех участников.</p>
+
+<h2 id="a8-sroki">Сроки: подача иска, включение в реестр и возражения</h2>
+
+<p>Сроки — главный фильтр между «требование не попало в реестр» и «оспаривать уже по п. 8 ст. 71». Ниже — ориентиры; конкретная процедура (наблюдение, внешнее управление, конкурс, реструктуризация гражданина) задаёт разные точки отсчёта.</p>
+
+<h3>Срок включения в реестр требований кредиторов</h3>
+
+<p>При <strong>наблюдении</strong> (ст. 71 127-ФЗ): кредиторы предъявляют требования в течение <strong>30 дней</strong> с даты публикации о введении наблюдения; суд начинает проверку после истечения ещё <strong>30 дней</strong> (итого ориентир <strong>около 60 дней</strong> от публикации до активной стадии судебной проверки). При <strong>внешнем управлении и конкурсном производстве</strong> (ст. 100) требования можно предъявлять в ходе процедуры; сроки возражений и рассмотрения считаются от даты предъявления требования, а не от единой публикации.</p>
+
+<p>Для <strong>гражданина</strong> (ст. 213.8, 213.16): предъявление требований — <strong>60 дней</strong> с сообщения о введении реструктуризации долгов; дальше — по аналогии с правилами возражений ст. 71.</p>
+
+<p>С <strong>01.09.2025</strong> (ФЗ № 311-ФЗ) расширена публикация в ЕФРСБ: предъявление и включение требований, оспаривание сделок — отслеживать ленту сообщений обязательно, а не только «Картотеку» суда.</p>
+
+<h3>Срок возражений на требование кредитора</h3>
+
+<p><strong>Возражение на требование кредитора</strong> при наблюдении подаётся в течение <strong>15 календарных дней</strong> после окончания срока предъявления требований (ст. 71 п. 3 127-ФЗ). <strong>Возражение на включение в реестр требований кредиторов</strong> — тот же процессуальный смысл: вы оспариваете обоснованность и размер до или в ходе судебной проверки (в зависимости от стадии и документарного порядка).</p>
+
+<p>Пленум ВС № 40 (17.12.2024) и проект разъяснений по 107-ФЗ подчёркивают: возражения подаются <strong>в электронном виде</strong>; наличие возражений <strong>не отменяет</strong> документарное рассмотрение автоматически — при обоснованности суд может назначить заседание, но рассчитывать только на устное заседание без подготовки доказательств рискованно.</p>
+
+<h3>Пропуск срока и восстановление</h3>
+
+<p>Пропуск <strong>15-дневного</strong> окна возражений при документарном порядке ведёт к высокому риску включения требования без учёта ваших доводов. Поздние возражения возможны при <strong>уважительных причинах</strong> (проект пленума по 107-ФЗ); доказывать нужно объективные препятствия (болезнь, недоставка публикации, заведомо неверная дата в ЕФРСБ — каждый случай индивидуален).</p>
+
+<p>Если требование уже включено определением суда, а появились <strong>новые обстоятельства</strong> (погашение, зачёт, иное решение суда), путь — заявление об <strong>исключении</strong> или изменении очереди по <strong>п. 8 ст. 71 / 100</strong>: срок <strong>3 месяца</strong> с момента, когда узнали об обстоятельствах. Это <strong>не отмена</strong> прежнего определения о включении, а отдельный инструмент (актуальная позиция ВС в проекте пленума, п. 31–32).</p>
+
+<p><strong>Календарь сроков (сводно)</strong></p>
+
+<table><thead><tr><th>Этап</th><th>Наблюдение (юрлицо)</th><th>Гражданин (реструктуризация)</th><th>После включения</th></tr></thead><tbody><tr><td>Предъявление требований</td><td>30 дней с публикации о наблюдении</td><td>60 дней с сообщения о реструктуризации</td><td>по ст. 100 — в ходе процедуры</td></tr><tr><td>Возражения</td><td>15 дней после срока предъявления</td><td>по аналогии ст. 71</td><td>ограничены, если есть решение суда</td></tr><tr><td>Исключение (новые факты)</td><td>3 месяца с осведомлённости</td><td>3 месяца</td><td>п. 8 ст. 71 / 100</td></tr></tbody></table>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Пропуск 15-дневного окна возражений или путаница между исключением по п. 8 ст. 71 и повтором старых доводов — типичная причина, почему требование остаётся в реестре. Сроки считаются от публикации в ЕФРСБ, а не от «когда узнали из переписки».</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Разбор сроков и календаря по вашей процедуре</a></p>
+</aside>
+
+<h2 id="a8-osparivanie">Как оспорить требования кредиторов: возражения и оспаривание включения в реестр</h2>
+
+<p><strong>Оспаривание требований кредиторов в банкротстве</strong> нацелено на реестр: не допустить долг, уменьшить сумму, изменить очередь (в т.ч. с учётом залога). <strong>Оспаривание сделок при банкротстве</strong> — иной инструмент: вернуть имущество в конкурсную массу, а не «стереть» строку реестра без влияния на активы.</p>
+
+<table><thead><tr><th>Критерий</th><th>Оспаривание <strong>требования</strong></th><th>Оспаривание <strong>сделки</strong></th></tr></thead><tbody><tr><td>Цель</td><td>Исключить/уменьшить долг в реестре, очередь</td><td>Реституция, недействительность сделки</td></tr><tr><td>Основания</td><td>Нет долга, давность, погашение, мнимость долга, очередь, аффилированность</td><td>Подозрительная, с предпочтением, безвозмездная (ст. 61.1–61.3)</td></tr><tr><td>Сроки</td><td>15 дней возражений; 3 мес. исключение</td><td>Специальные сроки 127-ФЗ; для КУ — с момента осведомлённости</td></tr><tr><td>Результат</td><td>Определение об отказе/включении/очереди</td><td>Недействительность + в массу</td></tr></tbody></table>
+
+<h3>Возражение на требование кредитора и заявление возражений</h3>
+
+<p><strong>Заявление возражений на требования кредиторов</strong> должно содержать конкретику: номер требования, сумма, правовое обоснование (ст. 71, 100, 16 127-ФЗ), <strong>доказательства</strong> (платёжки, акты сверки, переписка, решения иных судов, экспертизы). Суды в 2025–2026 году активно отсекают «эмоциональные» возражения и повтор одних и тех же доводов при исключении (проект пленума — прекращение производства по п. 33).</p>
+
+<p>Если долг подтверждён <strong>вступившим в силу решением</strong> суда, спор в банкротстве <strong>ограничен</strong> (п. 10 ст. 16 127-ФЗ): пересмотр — через пересмотр по новым обстоятельствам, исполнение или иные узаконенные пути, а не «заново доказывать» долг в возражении.</p>
+
+<h3>Оспаривание включения в реестр требований кредиторов</h3>
+
+<p><strong>Оспаривание включения в реестр</strong> — это обжалование судебного акта о включении (или отказе во включении), если вы пропустили стадию возражений или появились новые основания. Управляющий вносит изменения в реестр <strong>только на основании судебного акта</strong> (ст. 16 п. 6, 10 127-ФЗ).</p>
+
+<p>Практика ВС 2025–2026: баланс между «необоснованными требованиями» и злоупотреблением — нельзя оспаривать сделки <strong>ради</strong> изменения старшинства залогов; нельзя обходить <strong>годичный срок</strong> оспаривания сделок через ст. 10, 168 ГК — квалифицировать нужно по 127-ФЗ.</p>
+
+<h3>Оспаривание требований кредитора в банкротстве — основания и доказательства</h3>
+
+<p>Типовые основания: отсутствие оснований долга; <strong>исковая давность</strong>; погашение; неверная <strong>очередь</strong> (в т.ч. залог, текущие платежи); аффилированность и требования <strong>КДЛ</strong> (Пленум ВС № 41 от 23.12.2025 — усилена проверка субординации и внутригрупповых требований); мнимость или <strong>злоупотребление правом</strong> (ст. 10 ГК — в связке с банкротными нормами, а не вместо них).</p>
+
+<p>Доказательства: договоры и акты с оговорками, банковские выписки, налоговая и бухгалтерская отчётность должника, протоколы собрания кредиторов, отчёты управляющего, сведения о связанных лицах.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Оспаривание включения в реестр и оспаривание сделки — разные цели. Подать «всё сразу» без доказательств по номеру требования — риск прекращения производства при исключении по п. 8 ст. 71 / 100.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с подготовкой возражения на включение в реестр</a></p>
+</aside>
+
+<h2 id="a8-reestr">Реестр требований кредиторов при банкротстве: что проверить до суда</h2>
+
+<p><strong>Реестр требований кредиторов</strong> — центральный инструмент распределения: от него зависят голос на собрании, получение дивиденда, залоговая очередь. Перед подачей возражений или заявления об исключении проверьте:</p>
+
+<ol>
+
+<li><strong>ЕФРСБ</strong> — все сообщения о предъявлении, определениях, смене процедуры.</li>
+
+<li><strong>Картотека арбитража</strong> — обособленные споры, назначен ли другой судья (Пленум № 35: обособленные споры может вести другой судья того же суда).</li>
+
+<li>Соответствие суммы <strong>первичным документам</strong> и учёту должника.</li>
+
+<li>Наличие <strong>решения суда</strong> о долге — если да, стратегия сужается.</li>
+
+<li><strong>Очередь</strong> и обеспечение (залог, удержание).</li>
+
+<li>Риски <strong>субсидиарной ответственности</strong> и оспаривания сделок — иногда выгоднее бить по сделке, а не по строке реестра.</li>
+
+</ol>
+
+<h3>Заявление о включении в реестр: на что смотрит суд</h3>
+
+<p>При <strong>включении в реестр требований кредиторов</strong> суд проверяет наличие долга, размер, очередь, основания обеспечения. С 2024 года по умолчанию — <strong>документарное</strong> рассмотрение: пакет должен быть полным с первой подачи. Заявление о включении подаётся в электронной форме (Пленум № 40; эксперты отмечают презумпцию электронной подачи по 107-ФЗ).</p>
+
+<h3>Госпошлина и очередь требований</h3>
+
+<p>Госпошлина за заявления в деле о банкротстве зависит от вида заявления и субъекта; точный расчёт — по НК РФ и подзаконным актам на дату подачи (в лонгриде не заменяет консультацию с документами). <strong>Очередь</strong> (ст. 134–142, 137 127-ФЗ) влияет на то, оспариваете ли вы сумму или место в распределении — особенно при текущих платежах и требованиях с залогом.</p>
+
+<h2 id="a8-sdelki">Оспаривание сделок при банкротстве: отдельный иск в арбитраже</h2>
+
+<p>Если цель — не оспорить «бумажный» долг, а <strong>вернуть актив</strong> (продажа дешевле, подозрительная оплата аффилированному лицу, безвозмездная передача), нужен блок <strong>оспаривания сделок</strong> (гл. III.1 127-ФЗ). Подать может конкурсный / финансовый управляющий, кредитор с долей <strong>более 10%</strong> реестра (ст. 61.9), в отдельных случаях — иные лица по закону.</p>
+
+<p><strong>До банкротства</strong> сделку можно атаковать <strong>иском</strong> о признании недействительной по ГК; <strong>после возбуждения</strong> — заявление в банкротном деле (ст. 61.8).</p>
+
+<h3>Срок оспаривания сделок при банкротстве</h3>
+
+<p>Сроки <strong>специальные</strong> (ст. 61.4, 61.6, 61.7 127-ФЗ): для управляющего — часто с момента, когда он <strong>узнал</strong> об основании; для подозрительных сделок — иные периоды относительно введения процедур. <strong>Годичный</strong> предел для отдельных категорий нельзя «обойти» общими нормами ГК — ВС настаивает на банкротной квалификации (Pravo.ru, 2025–2026).</p>
+
+<h3>Связь с требованием кредитора оспорить сделку</h3>
+
+<p>Иногда кредитор одновременно предъявляет <strong>требование</strong> и заявляет об <strong>оспаривании сделки</strong>, с которой связан долг. Стратегически важно разделить цели: исключение требования из реестра не заменяет реституцию по сделке и наоборот. <strong>Мировое соглашение</strong> может изменить судьбу требований в реестре (определение ВС от 17.04.2026 № 305-ЭС26-470 — банкротство гражданина).</p>
+
+<h2 id="a8-praktika">Практика арбитражного суда: решения, определения, следующий шаг</h2>
+
+<p><strong>Арбитражный суд</strong> в банкротстве выносит решения о введении процедур, признании должника банкротом, завершении дела; <strong>определения</strong> — по требованиям, возражениям, сделкам, мерам обеспечения. По обособленным спорам о требованиях резолютивная часть часто объявляется в документарном порядке; <strong>мотивированное определение</strong> — в течение <strong>5 дней</strong> (в применении ст. 127 АПК к банкротству; приём заявлений — 5 дней).</p>
+
+<h3>Решение и определение арбитражного суда по банкротству</h3>
+
+<p><strong>Решение арбитражного суда по банкротству</strong> задаёт рамку процедуры. <strong>Определение</strong> по вашему требованию или возражению — предмет апелляции в десятидневный срок (АПК). Без мотивировки в срок апелляция осложняется: отслеживайте публикацию на сайте суда и в ЕФРСБ.</p>
+
+<p><strong>Типичные ошибки 2025–2026:</strong></p>
+
+<ul>
+
+<li>ждать очного заседения при документарном споре без подготовки отзыва;</li>
+
+<li>подавать возражение без доказательств и ссылок на номер требования;</li>
+
+<li>путать <strong>оспаривание сделки</strong> с возражением на «фиктивный» долг;</li>
+
+<li>повторять те же доводы при <strong>исключении</strong> по п. 8 (риск прекращения);</li>
+
+<li>игнорировать <strong>аффилированные</strong> требования и субординацию (Пленум № 41).</li>
+
+</ul>
+
+<p>Следующий шаг после определения: апелляция, заявление об исключении (если появились факты), оспаривание сделки для давления на массу, переговоры о <strong>мировом</strong> соглашении.</p>
+
+<h2 id="a8-konsultaciya">Консультация по арбитражному спору при банкротстве</h2>
+
+<p>Банкротный арбитраж — это связка <strong>подсудности</strong>, <strong>календаря</strong> и выбора инструмента: возражение, исключение, оспаривание сделки или иск до возбуждения дела. Ошибка на старте часто стоит 1–2 месяцев ожидания и позиции на собрании кредиторов.</p>
+
+<p>Если нужно понять, успеваете ли вы в <strong>срок возражений на требование кредитора</strong>, куда подать документы и что приложить к <strong>заявлению возражений на требования кредиторов в банкротстве</strong>, имеет смысл заранее <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">разобрать стадию и расчёт сроков с представителем</a> — до или после возбуждения дела, с выбором между возражением, исключением из реестра и оспариванием сделки.</p>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации по арбитражным спорам в банкротстве: подсудность, сроки возражений, реестр требований и выбор между возражением, исключением и оспариванием сделки.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом</a></p>
+</aside>
+
+<section id="a8-faq" class="l24-faq-a8 ym-section" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2>Частые вопросы (FAQ)</h2>
+  <div class="l24-faq-a8__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a8__q" itemprop="name">Можно ли подать отдельный иск о долге, если уже возбуждено банкротство?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a8__a" itemprop="text">Как правило, нет смысла дублировать: требование предъявляется в деле о банкротстве. Отдельный иск возможен в исключительных ситуациях (иной ответчик, иное требование), но не вместо реестрового спора с тем же должником.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a8__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a8__q" itemprop="name">Сколько дней на возражение против требования кредитора при наблюдении?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a8__a" itemprop="text">15 календарных дней после окончания 30-дневного срока предъявления требований (ст. 71 п. 3 127-ФЗ). Пропуск критичен при документарном порядке.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a8__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a8__q" itemprop="name">Чем возражение на требование отличается от оспаривания сделки?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a8__a" itemprop="text">Возражение бьёт по долгу в реестре; оспаривание сделки — по активам и недействительности сделки. Цели, основания и сроки разные (см. таблицу в статье).</p>
+    </div>
+  </div>
+  <div class="l24-faq-a8__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a8__q" itemprop="name">Можно ли исключить требование из реестра без отмены определения суда?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a8__a" itemprop="text">Да, по п. 8 ст. 71 / 100 при новых обстоятельствах — в срок 3 месяцев с момента осведомлённости, с иными доказательствами, без повтора старых доводов.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a8__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a8__q" itemprop="name">Обязательно ли очное заседание, если поданы возражения?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a8__a" itemprop="text">Нет. С 2024 года по умолчанию — документарное рассмотрение; заседание — при необходимости уточнения доказательств (Пленум № 40, проект по 107-ФЗ).</p>
+    </div>
+  </div>
+  <div class="l24-faq-a8__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a8__q" itemprop="name">Какой суд рассматривает банкротство юрлица и гражданина?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a8__a" itemprop="text">По месту нахождения юрлица или жительства гражданина (ст. 33 127-ФЗ), с учётом специальных правил закона.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a8__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a8__q" itemprop="name">Нужна ли электронная подача заявлений о включении и возражений?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a8__a" itemprop="text">Да, это стандарт после изменений 2024–2025: электронная подача и публикации в ЕФРСБ — обязательный элемент процесса (Пленум № 40, ФЗ № 311-ФЗ).</p>
+    </div>
+  </div>
+</section>
+
+<p><em>Материал носит информационный характер и не заменяет юридическую консультацию по вашим документам. Нормы 127-ФЗ и АПК уточняйте на дату обращения.</em></p>
+
+</div>
+</section>
+
+<pre class="l24-jsonld-a8" aria-hidden="true" hidden>{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Иск в арбитраже при банкротстве: когда подавать и как оспорить требования", "description": "Когда подавать иск в арбитражный суд при банкротстве и какая подсудность дел о банкротстве. Сроки возражений на требования кредиторов и оспаривание включения в реестр. Поможем выстроить позицию в арбитражном споре — консультация.", "author": {"@type": "Organization", "name": "Legis24"}, "publisher": {"@type": "Organization", "name": "Legis24"}, "inLanguage": "ru-RU"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Можно ли подать отдельный иск о долге, если уже возбуждено банкротство?", "acceptedAnswer": {"@type": "Answer", "text": "Как правило, нет смысла дублировать: требование предъявляется в деле о банкротстве. Отдельный иск возможен в исключительных ситуациях (иной ответчик, иное требование), но не вместо реестрового спора с тем же должником."}}, {"@type": "Question", "name": "Сколько дней на возражение против требования кредитора при наблюдении?", "acceptedAnswer": {"@type": "Answer", "text": "15 календарных дней после окончания 30-дневного срока предъявления требований (ст. 71 п. 3 127-ФЗ). Пропуск критичен при документарном порядке."}}, {"@type": "Question", "name": "Чем возражение на требование отличается от оспаривания сделки?", "acceptedAnswer": {"@type": "Answer", "text": "Возражение бьёт по долгу в реестре; оспаривание сделки — по активам и недействительности сделки. Цели, основания и сроки разные (см. таблицу в статье)."}}, {"@type": "Question", "name": "Можно ли исключить требование из реестра без отмены определения суда?", "acceptedAnswer": {"@type": "Answer", "text": "Да, по п. 8 ст. 71 / 100 при новых обстоятельствах — в срок 3 месяцев с момента осведомлённости, с иными доказательствами, без повтора старых доводов."}}, {"@type": "Question", "name": "Обязательно ли очное заседание, если поданы возражения?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. С 2024 года по умолчанию — документарное рассмотрение; заседание — при необходимости уточнения доказательств (Пленум № 40, проект по 107-ФЗ)."}}, {"@type": "Question", "name": "Какой суд рассматривает банкротство юрлица и гражданина?", "acceptedAnswer": {"@type": "Answer", "text": "По месту нахождения юрлица или жительства гражданина (ст. 33 127-ФЗ), с учётом специальных правил закона."}}, {"@type": "Question", "name": "Нужна ли электронная подача заявлений о включении и возражений?", "acceptedAnswer": {"@type": "Answer", "text": "Да, это стандарт после изменений 2024–2025: электронная подача и публикации в ЕФРСБ — обязательный элемент процесса (Пленум № 40, ФЗ № 311-ФЗ)."}}]}]}</pre>
+
+</main>
+<!-- /wp:html -->
+
+```
+
+## Передача Юре
+
+**slug:** `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat`
+**title:** Иск в арбитраже при банкротстве: сроки, подсудность, оспаривание требований
+**excerpt (Description):** Когда подавать иск в арбитражный суд при банкротстве и какая подсудность дел о банкротстве. Сроки возражений на требования кредиторов и оспаривание включения в реестр. Поможем выстроить позицию в арбитражном споре — консультация.
+**page_id:** `PLACEHOLDER` (после `wordpress_create_page`)
+**Публикация:** blob flow по `commands/nero-publish-mcp.md`; обернуть в `<!-- wp:html -->`; перед blob удалить любые случайные `<script>`.
+**Проверить:** `main#primary`, класс `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page`, hero `#l24-hero-arb-bankr-isk`, Boris `#l24-boris-arb-bankrotstvo-fork`, FAQ `#a8-faq`, breadcrumbs скрыты, padding-top сброшен.
+**CTA:** https://advokat-vsem.ru/ (4 блока ym-cta в теле)
