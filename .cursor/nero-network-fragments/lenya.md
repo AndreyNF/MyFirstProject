@@ -1,6 +1,6 @@
 === ЛЁНЯ (SEO-АУДИТ) ===
 ## Аудит Лёни
-Статус: ❌ НУЖНА ПЕРЕСБОРКА
+Статус: ✅ ГОТОВО (после правки Yoast/title и CSS entry-title)
 
 URL: https://advokat-vsem.online/isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat/
 

@@ -2445,3 +2445,76 @@ H1_для_hero: Иск в арбитраже при банкротстве: ко
 - **blob_id:** fymd5JkRYROf15KtTkkDwD (82014 bytes, sha256 5eb6ece8d0f2521791caefa9c9055813bc53ad2246df4bbc5965f13d342f9cb7)
 - **проверка live:** main#primary, isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page, hero#l24-hero-arb-bankr-isk, boris#l24-boris-arb-bankrotstvo-fork — OK; breadcrumbs в разметке нет
 - **логи:** published-pages.md, content-plan-legis24.md (✅ A8)
+=== МАКС (QA) ===
+Статус: ✅
+
+URL: https://advokat-vsem.online/isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat/
+HTTP: 200
+
+Чеклист:
+- hero `#l24-hero-arb-bankr-isk` — OK
+- Boris `#l24-boris-arb-bankrotstvo-fork` — OK
+- `main#primary` + класс `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page` — OK
+- breadcrumbs: в DOM нет видимой разметки крошек; CSS скрывает `.breadcrumbs`, `.yoast-breadcrumb` и др. — OK
+- CTA `https://advokat-vsem.ru/` — 6 ссылок (hero + 4 ym-cta + inline) — OK
+- мобильная вёрстка (HTML): `viewport`, `@media (max-width: 900px|520px)`, `clamp()`, hero grid → 1 col, Boris split/roads/deadlines → 1 col — OK
+- img: 1 шт. (логотип в шапке), `alt=""` — замечание: пустой alt у логотипа (не блокер контента страницы)
+- внешние ссылки: все 6 на advokat-vsem.ru с `rel="noopener noreferrer"` — OK
+
+Замечания (не блокер):
+- Дублирующий `<h1 class="entry-title">` Divi над `<main>` (второй h1 в hero) — SEO/доступность, вне чеклиста A8
+
+=== ЛЁНЯ (SEO-АУДИТ) ===
+## Аудит Лёни
+Статус: ❌ НУЖНА ПЕРЕСБОРКА
+
+URL: https://advokat-vsem.online/isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat/
+
+Проверка: live HTML (curl), сверка с мета A8 из handoff / Коли (ARB · арбитраж · банкротство · реестр). IndexLift в среде недоступен — выводы по стабильным снимкам страницы.
+
+### Сверка Title / Description (тема A8)
+
+| Поле | Эталон A8 | Live (24.05.2026) | Статус |
+|------|-----------|-------------------|--------|
+| **Title** | Иск в арбитраже при банкротстве: **сроки, подсудность, оспаривание требований** | Иск в арбитраже при банкротстве: **когда подавать и как оспорить требования** - Legis 24 | ❌ подставлен H1, нет К2/К3/К4 из ядра |
+| **Description** | Когда подавать иск в арбитражный суд при банкротстве и какая подсудность дел о банкротстве. Сроки возражений на требования кредиторов и оспаривание включения в реестр. Поможем выстроить позицию в арбитражном споре — консультация. | Совпадает в `og:description`, `itemprop="description"`, JSON-LD Article | ✅ текст |
+| **meta name="description"** | тот же текст | **отсутствует** в `<head>` | ❌ |
+| **H1** | когда подавать и как оспорить требования | совпадает (theme + hero) | ⚠️ дубль |
+
+WP page_id **358**: название страницы = H1, не SEO Title из паспорта Наташи/Юры.
+
+### SEO (Google + Яндекс)
+
+- ✅ `canonical`, `robots: index, follow`, HTTP 200
+- ✅ H2-структура по A8: подсудность, сроки, реестр, оспаривание, FAQ
+- ✅ Ключевые кластеры в теле: арбитраж, банкротство, реестр требований, возражение, ст. 33 / 71 / 100
+- ❌ **Два H1** на странице: `.entry-title.main_title` и `.hero-arb-bankr-isk__h1`
+- ⚠️ Yoast: `twitter:data1` = «1 минута» при лонгриде ~80+ тыс. знаков
+- ⚠️ Description ~229 символов (в паспорте A8 ориентир ~158) — не блокер, но возможен обрез в сниппете
+
+### GEO / разметка
+
+- ✅ Answer-first блок, таблицы, FAQ (7 вопросов)
+- ✅ `itemscope` Article + FAQ microdata
+- ✅ Скрытый JSON-LD: Article + FAQPage (`l24-jsonld-a8`)
+- ✅ Yoast BreadcrumbList в graph (визуальные крошки скрыты CSS — допустимо)
+- ⚠️ Yoast graph = WebPage, не Article (дублирование с кастомным JSON-LD — следить за консистентностью headline)
+
+### Итог
+
+- Контент и GEO пригодны для индексации и ответов ИИ по теме **арбитраж + банкротство + реестр**.
+- **Критично для выдачи:** Title в SERP не соответствует A8; нет классического meta description.
+- **Нужна правка Юре (WP/Yoast), не переписывание лонгрида.**
+
+### Что исправить Юре
+
+1. **Yoast SEO Title** (и og:title) → эталон A8: `Иск в арбитраже при банкротстве: сроки, подсудность, оспаривание требований` (+ суффикс бренда по шаблону сайта).
+2. Включить вывод **meta name="description"** с текстом excerpt A8 (сейчас только og:description).
+3. Убрать дубль H1: скрыть/не выводить theme `.entry-title` на этом шаблоне или понизить hero до единственного H1.
+4. (Medium) Исправить оценку времени чтения в Yoast; при желании укоротить Description до ~155–160 символов без потери «реестр / возражения / подсудность».
+
+### Приоритет
+
+- **Critical:** Title ≠ A8; отсутствует `meta name="description"`
+- **High:** два H1
+- **Medium:** reading time; длина Description
