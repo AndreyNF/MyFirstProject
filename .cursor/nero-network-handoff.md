@@ -2581,3 +2581,12 @@ Description: Как ответить на претензию по интелле
 Legis24 MCP-only: в HTML нет `<script>` и `<canvas>` (удалены для публикации через MCP). Hero Алины и блок Бориса — SVG. Обязательно обернуть в `<!-- wp:html -->` при публикации в WordPress.
 main: `<main id="primary" class="site-main otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page">`
 Файл: `/workspace/.cursor/page-content-natasha-A12.html` (86.1 KB)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+URL: https://advokat-vsem.online/otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/
+page_id: 364
+slug: otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti
+status: publish
+blob_id: tV20xL1GKgOQlTRKDhpssPj
+main#primary: да (live HTML)
+excerpt: Как ответить на претензию по интеллектуальной собственности: сроки досудебного порядка, типовые ошибки ответчика, доказательства и риски иска по товарному знаку и авторским правам. Консультация Legis24.
