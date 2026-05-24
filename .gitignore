@@ -10,6 +10,9 @@ package-lock.json
 .cursor/a5-*
 .cursor/a10-chunk-*.txt
 .cursor/a10-update-args.json
+.cursor/a8-*
+.cursor/a8-blob-calls/
+scripts/a8_mcp_append_from_file.py
 nero-network-office-page/nero-repo
 .cursor/b*.txt
 .cursor/big-*
