@@ -2433,7 +2433,15 @@ H1_для_hero: Иск в арбитраже при банкротстве: ко
 **slug:** `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat`
 **title:** Иск в арбитраже при банкротстве: сроки, подсудность, оспаривание требований
 **excerpt (Description):** Когда подавать иск в арбитражный суд при банкротстве и какая подсудность дел о банкротстве. Сроки возражений на требования кредиторов и оспаривание включения в реестр. Поможем выстроить позицию в арбитражном споре — консультация.
-**page_id:** `PLACEHOLDER` (после `wordpress_create_page`)
-**Публикация:** blob flow по `commands/nero-publish-mcp.md`; обернуть в `<!-- wp:html -->`; перед blob удалить любые случайные `<script>`.
-**Проверить:** `main#primary`, класс `isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page`, hero `#l24-hero-arb-bankr-isk`, Boris `#l24-boris-arb-bankrotstvo-fork`, FAQ `#a8-faq`, breadcrumbs скрыты, padding-top сброшен.
-**CTA:** https://advokat-vsem.ru/ (4 блока ym-cta в теле)
+**page_id:** `358` (опубликовано)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+
+- **page_id:** 358
+- **URL:** https://advokat-vsem.online/isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat/
+- **slug:** isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat
+- **код:** A8 / ARB (слот 1)
+- **статус:** publish
+- **blob_id:** fymd5JkRYROf15KtTkkDwD (82014 bytes, sha256 5eb6ece8d0f2521791caefa9c9055813bc53ad2246df4bbc5965f13d342f9cb7)
+- **проверка live:** main#primary, isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat-page, hero#l24-hero-arb-bankr-isk, boris#l24-boris-arb-bankrotstvo-fork — OK; breadcrumbs в разметке нет
+- **логи:** published-pages.md, content-plan-legis24.md (✅ A8)

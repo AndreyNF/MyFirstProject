@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-05-24 | A8 | isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat | 358 | https://advokat-vsem.online/isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat/ |
 | 2026-05-21 | A3 | srok-vozrazhenij-30-vs-15-mify | 323 | https://advokat-vsem.online/srok-vozrazhenij-30-vs-15-mify/ |
 | 2026-05-22 | A4 | plan-restrukturizacii-dolgov-grazhdanina-sroki | 335 | https://advokat-vsem.online/plan-restrukturizacii-dolgov-grazhdanina-sroki/ |
 | 2026-05-22 | A6 | zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti | 339 | https://advokat-vsem.online/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/ |
