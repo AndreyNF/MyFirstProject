@@ -1,165 +1,190 @@
 === БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
 Статус: ✅ ГОТОВО
 
-**Тема:** Precheck A15 (IP) — регистрация товарного знака: этапы, отказ Роспатента, обжалование  
-**Slug:** registraciya-tovarnogo-znaka-etapy-otkaz  
-**Режим:** продолжение метафоры «трёх писем Роспатента» из лонгрида (контраст hero: процедура регистрации, не защита в суде)  
-**Якорь для Наташи:** `#l24-boris-tz-route`  
+**Тема:** A13 UG — ст. 159/177 УК при долгах, гражданская граница  
+**Slug:** `statya-159-177-uk-pri-dolgah-granica`  
+**Режим:** контраст hero «весы / граница» — практическая **матрица событие → плоскость ответственности** (углубление, не дубль A7-таймлайна)  
+**Якорь для Наташи:** `#boris-ug-matrix-a13`  
 **Техника:** inline `<style>` + static SVG; без `<canvas>` и `<script>`
 
 ```html
-<section id="l24-boris-tz-route" class="l24-boris-tz-route" aria-label="Три письма Роспатента: запрос, уведомление, отказ — сроки и последствия">
+<section id="boris-ug-matrix-a13" class="l24-boris-ug-matrix-a13" aria-label="Схема: событие при долге — гражданская ответственность, ст. 159, 159.1, 177 или налоги">
 <style>
-.l24-boris-tz-route {
-  --tzr-navy: #0f2744;
-  --tzr-navy-soft: #1a365d;
-  --tzr-blue: #3182ce;
-  --tzr-gold: #ecc94b;
-  --tzr-amber: #d69e2e;
-  --tzr-accent: #c53030;
-  --tzr-mint: #68d391;
-  --tzr-ink: #e2e8f0;
-  --tzr-muted: #a0aec0;
+.l24-boris-ug-matrix-a13 {
+  --ugm-navy: #0f2744;
+  --ugm-navy-soft: #1a365d;
+  --ugm-civil: #63b3ed;
+  --ugm-159: #fc8181;
+  --ugm-1591: #f6ad55;
+  --ugm-177: #68d391;
+  --ugm-tax: #b794f4;
+  --ugm-warn: #ecc94b;
+  --ugm-ink: #e2e8f0;
+  --ugm-muted: #a0aec0;
   margin: 48px 0;
   padding: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.l24-boris-tz-route__shell {
-  background: linear-gradient(148deg, var(--tzr-navy) 0%, #152a45 52%, var(--tzr-navy-soft) 100%);
+.l24-boris-ug-matrix-a13__shell {
+  background: linear-gradient(148deg, var(--ugm-navy) 0%, #152a45 52%, var(--ugm-navy-soft) 100%);
   border: 1px solid rgba(236, 201, 75, 0.24);
   border-radius: 14px;
   padding: 32px 28px 26px;
   box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
-  color: var(--tzr-ink);
+  color: var(--ugm-ink);
 }
-.l24-boris-tz-route__eyebrow {
+.l24-boris-ug-matrix-a13__eyebrow {
   margin: 0 0 8px;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--tzr-gold);
+  color: var(--ugm-warn);
 }
-.l24-boris-tz-route__title {
+.l24-boris-ug-matrix-a13__title {
   margin: 0 0 10px;
   font-size: clamp(1.15rem, 2.4vw, 1.42rem);
   line-height: 1.25;
   color: #fff;
   font-weight: 700;
 }
-.l24-boris-tz-route__lead {
+.l24-boris-ug-matrix-a13__lead {
   margin: 0 0 24px;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: var(--tzr-muted);
+  color: var(--ugm-muted);
   max-width: 66ch;
 }
-.l24-boris-tz-route__lead strong { color: #fff; }
-.l24-boris-tz-route__split {
+.l24-boris-ug-matrix-a13__lead strong { color: #fff; }
+.l24-boris-ug-matrix-a13__split {
   display: grid;
   grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.98fr);
   gap: 24px;
   align-items: stretch;
 }
-.l24-boris-tz-route__panel {
+.l24-boris-ug-matrix-a13__panel {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 20px 18px;
 }
-.l24-boris-tz-route__panel-title {
+.l24-boris-ug-matrix-a13__panel-title {
   margin: 0 0 14px;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--tzr-gold);
+  color: var(--ugm-warn);
 }
-.l24-boris-tz-route__map-svg {
+.l24-boris-ug-matrix-a13__tree-svg {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 200px;
-  margin-bottom: 14px;
+  max-height: 320px;
 }
-.l24-boris-tz-route__letters {
+.l24-boris-ug-matrix-a13__routes {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  margin: 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 14px 0 0;
   padding: 0;
   list-style: none;
 }
-.l24-boris-tz-route__letter {
+.l24-boris-ug-matrix-a13__route {
   margin: 0;
-  padding: 12px 10px;
+  padding: 10px 9px;
   background: rgba(0, 0, 0, 0.22);
   border-radius: 8px;
-  border-top: 3px solid var(--tzr-blue);
+  border-top: 3px solid var(--ugm-civil);
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.l24-boris-ug-matrix-a13__route--159 { border-top-color: var(--ugm-159); }
+.l24-boris-ug-matrix-a13__route--1591 { border-top-color: var(--ugm-1591); }
+.l24-boris-ug-matrix-a13__route--177 { border-top-color: var(--ugm-177); }
+.l24-boris-ug-matrix-a13__route--tax {
+  grid-column: 1 / -1;
+  border-top-color: var(--ugm-tax);
+}
+.l24-boris-ug-matrix-a13__route strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 3px;
+}
+.l24-boris-ug-matrix-a13__matrix {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.l24-boris-ug-matrix-a13__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 10px;
+  align-items: start;
+  padding: 11px 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-left: 3px solid var(--ugm-civil);
   font-size: 0.76rem;
   line-height: 1.42;
 }
-.l24-boris-tz-route__letter:nth-child(2) { border-top-color: var(--tzr-amber); }
-.l24-boris-tz-route__letter:nth-child(3) { border-top-color: var(--tzr-accent); }
-.l24-boris-tz-route__letter strong {
-  display: block;
+.l24-boris-ug-matrix-a13__row--159 { border-left-color: var(--ugm-159); }
+.l24-boris-ug-matrix-a13__row--1591 { border-left-color: var(--ugm-1591); }
+.l24-boris-ug-matrix-a13__row--177 { border-left-color: var(--ugm-177); }
+.l24-boris-ug-matrix-a13__row--tax { border-left-color: var(--ugm-tax); }
+.l24-boris-ug-matrix-a13__row-event {
   color: #fff;
-  font-size: 0.82rem;
-  margin-bottom: 4px;
+  font-weight: 600;
 }
-.l24-boris-tz-route__matrix {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  margin: 0 0 12px;
+.l24-boris-ug-matrix-a13__row-plane {
+  color: var(--ugm-muted);
 }
-.l24-boris-tz-route__row {
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(72px, 0.7fr) minmax(0, 1fr);
-  gap: 8px 10px;
-  align-items: center;
-  padding: 10px 11px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  font-size: 0.74rem;
-  line-height: 1.35;
-}
-.l24-boris-tz-route__row--req { border-left: 3px solid var(--tzr-blue); }
-.l24-boris-tz-route__row--notif { border-left: 3px solid var(--tzr-amber); }
-.l24-boris-tz-route__row--ref { border-left: 3px solid var(--tzr-accent); }
-.l24-boris-tz-route__row-name {
+.l24-boris-ug-matrix-a13__row-plane em {
+  font-style: normal;
+  color: #fff;
   font-weight: 700;
-  color: #fff;
-  font-size: 0.78rem;
 }
-.l24-boris-tz-route__row-term {
+.l24-boris-ug-matrix-a13__thresh {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 12px 0 0;
+}
+.l24-boris-ug-matrix-a13__thresh-card {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ug-matrix-a13__thresh-card--177 { border-color: rgba(104, 211, 145, 0.45); }
+.l24-boris-ug-matrix-a13__thresh-card--159 { border-color: rgba(252, 129, 129, 0.45); }
+.l24-boris-ug-matrix-a13__thresh-label {
+  display: block;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ugm-muted);
+  margin-bottom: 3px;
+}
+.l24-boris-ug-matrix-a13__thresh-value {
+  font-size: 0.95rem;
   font-weight: 800;
-  color: var(--tzr-gold);
-  text-align: center;
-  font-size: 0.8rem;
+  color: #fff;
+  line-height: 1.2;
 }
-.l24-boris-tz-route__row-fail {
-  color: #fed7d7;
-  font-size: 0.72rem;
-}
-.l24-boris-tz-route__row-fail em {
-  font-style: normal;
-  color: var(--tzr-mint);
-  font-weight: 600;
-}
-.l24-boris-tz-route__note {
-  margin: 0;
-  font-size: 0.76rem;
+.l24-boris-ug-matrix-a13__note {
+  margin: 12px 0 0;
+  font-size: 0.74rem;
   line-height: 1.45;
-  color: var(--tzr-muted);
+  color: var(--ugm-muted);
 }
-.l24-boris-tz-route__note em {
+.l24-boris-ug-matrix-a13__note em {
   font-style: normal;
-  color: var(--tzr-mint);
+  color: var(--ugm-warn);
   font-weight: 600;
 }
-.l24-boris-tz-route__foot {
+.l24-boris-ug-matrix-a13__foot {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -167,123 +192,161 @@
   padding-top: 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
-.l24-boris-tz-route__tag {
+.l24-boris-ug-matrix-a13__tag {
   font-size: 0.72rem;
   font-weight: 600;
   padding: 6px 10px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--tzr-ink);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ugm-ink);
 }
-.l24-boris-tz-route__tag--pps { border-color: rgba(104, 211, 145, 0.45); color: #c6f6d5; }
-.l24-boris-tz-route__tag--warn { border-color: rgba(252, 129, 129, 0.45); color: #fed7d7; }
-.l24-boris-tz-route__caption {
+.l24-boris-ug-matrix-a13__tag--civil { border: 1px solid var(--ugm-civil); color: #bee3f8; }
+.l24-boris-ug-matrix-a13__tag--159 { border: 1px solid var(--ugm-159); color: #fed7d7; }
+.l24-boris-ug-matrix-a13__tag--177 { border: 1px solid var(--ugm-177); color: #c6f6d5; }
+.l24-boris-ug-matrix-a13__tag--warn { border: 1px solid var(--ugm-warn); color: #faf089; }
+.l24-boris-ug-matrix-a13__caption {
   margin: 12px 0 0;
-  font-size: 0.72rem;
+  font-size: 0.7rem;
+  color: var(--ugm-muted);
   line-height: 1.4;
-  color: rgba(160, 174, 192, 0.88);
-  text-align: center;
-  letter-spacing: 0.02em;
 }
 @media (max-width: 900px) {
-  .l24-boris-tz-route__split { grid-template-columns: 1fr; }
-  .l24-boris-tz-route__letters { grid-template-columns: 1fr; }
-  .l24-boris-tz-route__row {
-    grid-template-columns: 1fr;
-    gap: 4px;
-  }
-  .l24-boris-tz-route__row-term { text-align: left; }
+  .l24-boris-ug-matrix-a13__split { grid-template-columns: 1fr; }
+  .l24-boris-ug-matrix-a13__row { grid-template-columns: 1fr; }
+  .l24-boris-ug-matrix-a13__thresh { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-ug-matrix-a13__routes { grid-template-columns: 1fr; }
 }
 </style>
 
-  <div class="l24-boris-tz-route__shell">
-    <p class="l24-boris-tz-route__eyebrow">ГК РФ ст. 1499 п.3 · 1500 · 1501 · АР ТЗ № 483</p>
-    <h3 class="l24-boris-tz-route__title">Три письма Роспатента: не путать запрос, уведомление и отказ</h3>
-    <p class="l24-boris-tz-route__lead">Слева — <strong>маршрут корреспонденции</strong> на пути к свидетельству. Справа — <strong>сроки и цена пропуска</strong>: только у запроса есть продление; уведомление даёт жёсткие <strong>6 месяцев</strong> с даты <strong>направления</strong>; после финального отказа — <strong>4 месяца</strong> в ППС и затем СИП.</p>
+  <div class="l24-boris-ug-matrix-a13__shell">
+    <p class="l24-boris-ug-matrix-a13__eyebrow">УК РФ · Пленум ВС № 48 · ФЗ № 79‑ФЗ с 17.04.2024</p>
+    <h3 class="l24-boris-ug-matrix-a13__title">Событие при долге → гражданка, ст. 159, 159.1 или 177</h3>
+    <p class="l24-boris-ug-matrix-a13__lead">Просрочка сама по себе — <strong>не уголовка</strong>. Слева — развилка по факту: был ли обман <strong>до</strong> получения денег, есть ли судебный акт и злостное уклонение. Справа — та же логика строками: куда уходит спор и какие пороги действуют в <strong>2026</strong> (для ст. 177 — <strong>3,5 млн ₽</strong>, не устаревшие 2,25 млн).</p>
 
-    <div class="l24-boris-tz-route__split">
-      <div class="l24-boris-tz-route__panel">
-        <p class="l24-boris-tz-route__panel-title">Карта трёх писем</p>
-        <svg class="l24-boris-tz-route__map-svg" viewBox="0 0 540 172" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+    <div class="l24-boris-ug-matrix-a13__split">
+      <div class="l24-boris-ug-matrix-a13__panel">
+        <p class="l24-boris-ug-matrix-a13__panel-title">Схема: событие → плоскость</p>
+        <svg class="l24-boris-ug-matrix-a13__tree-svg" viewBox="0 0 560 268" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
           <defs>
-            <linearGradient id="tzr-letters-line" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#3182ce"/>
-              <stop offset="50%" stop-color="#d69e2e"/>
-              <stop offset="100%" stop-color="#c53030"/>
+            <linearGradient id="a13-ugm-hub" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#d69e2e"/>
             </linearGradient>
           </defs>
-          <line x1="44" y1="82" x2="496" y2="82" stroke="url(#tzr-letters-line)" stroke-width="4" stroke-linecap="round"/>
-          <rect x="28" y="52" width="88" height="58" rx="6" fill="rgba(49,130,206,0.22)" stroke="#63b3ed" stroke-width="1.4"/>
-          <text x="72" y="72" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="700">Запрос</text>
-          <text x="72" y="88" text-anchor="middle" fill="#e2e8f0" font-size="8">п.102 АР ТЗ</text>
-          <text x="72" y="102" text-anchor="middle" fill="#90cdf4" font-size="7.5">+ продление</text>
-          <rect x="206" y="48" width="128" height="66" rx="6" fill="rgba(214,158,46,0.2)" stroke="#ecc94b" stroke-width="1.6"/>
-          <text x="270" y="70" text-anchor="middle" fill="#faf089" font-size="9" font-weight="700">Уведомление</text>
-          <text x="270" y="86" text-anchor="middle" fill="#e2e8f0" font-size="8">ст. 1499 п.3</text>
-          <text x="270" y="102" text-anchor="middle" fill="#fbd38d" font-size="7.5" font-weight="600">6 мес. · без продления</text>
-          <rect x="424" y="52" width="88" height="58" rx="6" fill="rgba(197,48,48,0.22)" stroke="#fc8181" stroke-width="1.4"/>
-          <text x="468" y="72" text-anchor="middle" fill="#fed7d7" font-size="9" font-weight="700">Отказ</text>
-          <text x="468" y="88" text-anchor="middle" fill="#e2e8f0" font-size="8">решение</text>
-          <text x="468" y="102" text-anchor="middle" fill="#feb2b2" font-size="7.5">→ ППС 4 мес.</text>
-          <circle cx="72" cy="82" r="10" fill="#3182ce" stroke="#fff" stroke-width="1.5"/>
-          <circle cx="270" cy="82" r="10" fill="#d69e2e" stroke="#fff" stroke-width="1.5"/>
-          <circle cx="468" cy="82" r="10" fill="#c53030" stroke="#fff" stroke-width="1.5"/>
-          <path d="M 120 82 L 198 82" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 3"/>
-          <path d="M 338 82 L 412 82" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 3"/>
-          <rect x="32" y="128" width="148" height="32" rx="5" fill="rgba(0,0,0,0.35)"/>
-          <text x="106" y="148" text-anchor="middle" fill="#e2e8f0" font-size="8">не ответили → отзыв заявки</text>
-          <rect x="196" y="128" width="148" height="32" rx="5" fill="rgba(0,0,0,0.35)"/>
-          <text x="270" y="148" text-anchor="middle" fill="#e2e8f0" font-size="8">молчание → финальный отказ</text>
-          <rect x="360" y="128" width="148" height="32" rx="5" fill="rgba(39,103,73,0.4)" stroke="rgba(104,211,145,0.35)" stroke-width="1"/>
-          <text x="434" y="148" text-anchor="middle" fill="#c6f6d5" font-size="8" font-weight="600">возражение 9 000 ₽ · ППС</text>
+          <!-- hub -->
+          <rect x="200" y="8" width="160" height="44" rx="10" fill="url(#a13-ugm-hub)" stroke="#fff" stroke-width="1.5"/>
+          <text x="280" y="28" text-anchor="middle" fill="#1a202c" font-size="10" font-weight="800">СОБЫТИЕ</text>
+          <text x="280" y="42" text-anchor="middle" fill="#2d3748" font-size="8" font-weight="600">долг · займ · кредит · ИП</text>
+          <!-- stems -->
+          <line x1="280" y1="52" x2="280" y2="68" stroke="#a0aec0" stroke-width="2"/>
+          <line x1="80" y1="68" x2="480" y2="68" stroke="#a0aec0" stroke-width="2"/>
+          <line x1="80" y1="68" x2="80" y2="88" stroke="#63b3ed" stroke-width="2"/>
+          <line x1="200" y1="68" x2="200" y2="88" stroke="#fc8181" stroke-width="2"/>
+          <line x1="360" y1="68" x2="360" y2="88" stroke="#f6ad55" stroke-width="2"/>
+          <line x1="480" y1="68" x2="480" y2="88" stroke="#68d391" stroke-width="2"/>
+          <!-- civil -->
+          <rect x="12" y="88" width="136" height="72" rx="8" fill="rgba(99,179,237,0.18)" stroke="#63b3ed" stroke-width="1.4"/>
+          <text x="80" y="108" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="800">ГРАЖДАНКА</text>
+          <text x="80" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">не обманывал при выдаче</text>
+          <text x="80" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">иск · пристав · ст. 807 ГК</text>
+          <text x="80" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">просрочка ≠ ст. 159</text>
+          <!-- 159 -->
+          <rect x="132" y="88" width="136" height="72" rx="8" fill="rgba(252,129,129,0.16)" stroke="#fc8181" stroke-width="1.4"/>
+          <text x="200" y="108" text-anchor="middle" fill="#fed7d7" font-size="9" font-weight="800">ст. 159</text>
+          <text x="200" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">обман / злоупотребление</text>
+          <text x="200" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">доверием ДО получения</text>
+          <text x="200" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">займ · расписка · схема</text>
+          <!-- 159.1 -->
+          <rect x="292" y="88" width="136" height="72" rx="8" fill="rgba(246,173,85,0.16)" stroke="#f6ad55" stroke-width="1.4"/>
+          <text x="360" y="108" text-anchor="middle" fill="#fbd38d" font-size="9" font-weight="800">ст. 159.1</text>
+          <text x="360" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">кредит: ложные сведения</text>
+          <text x="360" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">без намерения возвращать</text>
+          <text x="360" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">не просрочка платежа</text>
+          <!-- 177 -->
+          <rect x="412" y="88" width="136" height="72" rx="8" fill="rgba(104,211,145,0.16)" stroke="#68d391" stroke-width="1.4"/>
+          <text x="480" y="108" text-anchor="middle" fill="#c6f6d5" font-size="9" font-weight="800">ст. 177</text>
+          <text x="480" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">суд в силе + ИП</text>
+          <text x="480" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">злостное уклонение</text>
+          <text x="480" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">может платить · &gt; 3,5 млн</text>
+          <!-- tax branch -->
+          <line x1="280" y1="168" x2="280" y2="186" stroke="#b794f4" stroke-width="2" stroke-dasharray="4 3"/>
+          <rect x="190" y="186" width="180" height="52" rx="8" fill="rgba(183,148,244,0.14)" stroke="#b794f4" stroke-width="1.2"/>
+          <text x="280" y="206" text-anchor="middle" fill="#e9d8fd" font-size="8" font-weight="700">Недоимка бюджету → ст. 198–199</text>
+          <text x="280" y="222" text-anchor="middle" fill="#a0aec0" font-size="7">не путать со ст. 177 · прямой умысел</text>
+          <!-- legend -->
+          <text x="280" y="258" text-anchor="middle" fill="#718096" font-size="7">Пленум 30.11.2017 № 48, п. 3–4 · умысел до передачи имущества</text>
         </svg>
-        <ul class="l24-boris-tz-route__letters">
-          <li class="l24-boris-tz-route__letter">
-            <strong>1. Запрос экспертизы</strong>
-            Уточнение документов, МКТУ, изображения. Срок в запросе; можно продлить ходатайством и пошлиной. Пропуск — отзыв заявки (п.105 АР ТЗ), не «отказ по 1483».
+        <ul class="l24-boris-ug-matrix-a13__routes">
+          <li class="l24-boris-ug-matrix-a13__route">
+            <strong>Гражданка</strong>
+            Взял в долг, не вернул — без обмана при выдаче: ГПК, иск, пристав.
           </li>
-          <li class="l24-boris-tz-route__letter">
-            <strong>2. Уведомление (предварительный отказ)</strong>
-            Доводы заявителя — 6 месяцев со дня направления (1499 п.3). Срок не продлевается. Игнор — решение без учёта аргументов.
+          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--159">
+            <strong>ст. 159</strong>
+            «Не собирался возвращать» до получения; крупный от 250&nbsp;001&nbsp;₽ (ч. 1–4).
           </li>
-          <li class="l24-boris-tz-route__letter">
-            <strong>3. Решение об отказе</strong>
-            Возражение в ППС — 4 месяца (1500); копии противопоставлений — запрос в 2 месяца. Далее СИП по ст. 1248 после досудебки.
+          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--1591">
+            <strong>ст. 159.1</strong>
+            Кредит с ложными данными без намерения платить; иначе — ст. 176, не 159.1.
+          </li>
+          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--177">
+            <strong>ст. 177</strong>
+            Акт суда + злостность + возможность платить; дознание ФССП.
+          </li>
+          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--tax">
+            <strong>198–199</strong>
+            Налоговая недоимка с умыслом — отдельные пороги, не «долг по решению суда».
           </li>
         </ul>
       </div>
 
-      <div class="l24-boris-tz-route__panel">
-        <p class="l24-boris-tz-route__panel-title">Сроки и последствия</p>
-        <div class="l24-boris-tz-route__matrix" role="table" aria-label="Сравнение запроса, уведомления и отказа">
-          <div class="l24-boris-tz-route__row l24-boris-tz-route__row--req" role="row">
-            <span class="l24-boris-tz-route__row-name" role="cell">Запрос</span>
-            <span class="l24-boris-tz-route__row-term" role="cell">до 6 мес.</span>
-            <span class="l24-boris-tz-route__row-fail" role="cell">Продление <em>да</em> · пропуск → <em>отзыв заявки</em></span>
+      <div class="l24-boris-ug-matrix-a13__panel">
+        <p class="l24-boris-ug-matrix-a13__panel-title">Матрица ситуаций</p>
+        <div class="l24-boris-ug-matrix-a13__matrix" role="table" aria-label="Событие и плоскость ответственности">
+          <div class="l24-boris-ug-matrix-a13__row" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Взял в долг, не вернул без обмана</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ГПК</em> · иск · пристав · ст. 807 ГК</span>
           </div>
-          <div class="l24-boris-tz-route__row l24-boris-tz-route__row--notif" role="row">
-            <span class="l24-boris-tz-route__row-name" role="cell">Уведомление</span>
-            <span class="l24-boris-tz-route__row-term" role="cell">6 мес.</span>
-            <span class="l24-boris-tz-route__row-fail" role="cell">Продление <em>нет</em> · отсчёт с <em>направления</em>, не получения</span>
+          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--159" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Обман / не планировал возвращать до выдачи</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 159</em> · полиция / СК</span>
           </div>
-          <div class="l24-boris-tz-route__row l24-boris-tz-route__row--ref" role="row">
-            <span class="l24-boris-tz-route__row-name" role="cell">Отказ</span>
-            <span class="l24-boris-tz-route__row-term" role="cell">4 мес.</span>
-            <span class="l24-boris-tz-route__row-fail" role="cell">ППС 9 000 ₽ · восстановление по <em>1501</em> — 6 мес., причины</span>
+          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--1591" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Кредит: ложь в анкете, не намерен возвращать</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 159.1</em> · не просрочка</span>
+          </div>
+          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--177" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Суд в силе, ИП, уклонение, может платить</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 177</em> · долг &gt; 3,5 млн ₽</span>
+          </div>
+          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--tax" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Недоимка перед бюджетом</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 198–199</em> · не ст. 177</span>
           </div>
         </div>
-        <p class="l24-boris-tz-route__note"><em>Частичный отказ</em> — регистрация по одним классам МКТУ и спор по отказной части в ППС. <em>Копии противопоставлений</em> в 2 месяца продлевают подготовку возражения (1500 п.1).</p>
+        <div class="l24-boris-ug-matrix-a13__thresh">
+          <div class="l24-boris-ug-matrix-a13__thresh-card l24-boris-ug-matrix-a13__thresh-card--159">
+            <span class="l24-boris-ug-matrix-a13__thresh-label">ст. 159 ч. 1–4 · крупный / особо крупный</span>
+            <span class="l24-boris-ug-matrix-a13__thresh-value">250 001 / 1 млн ₽</span>
+          </div>
+          <div class="l24-boris-ug-matrix-a13__thresh-card l24-boris-ug-matrix-a13__thresh-card--177">
+            <span class="l24-boris-ug-matrix-a13__thresh-label">ст. 177 · крупный (79‑ФЗ)</span>
+            <span class="l24-boris-ug-matrix-a13__thresh-value">&gt; 3,5 млн ₽</span>
+          </div>
+        </div>
+        <p class="l24-boris-ug-matrix-a13__note"><em>3,5 млн ровно</em> — ещё не крупный размер по гл. 22. Ч. 5–7 ст. 159 (ИП/юрлица) — другие пороги: 250 тыс. / 4,5 / 18 млн. «Списание долгов» из СМС — не защита, а риск нового 159 (Пленум № 48, п. 21–22).</p>
       </div>
     </div>
 
-    <div class="l24-boris-tz-route__foot" aria-label="Следующие шаги после отказа">
-      <span class="l24-boris-tz-route__tag l24-boris-tz-route__tag--pps">ППС: первое заседание ≤ 1 мес. с принятия</span>
-      <span class="l24-boris-tz-route__tag">СИП: досудебный порядок обязателен (ст. 1248)</span>
-      <span class="l24-boris-tz-route__tag l24-boris-tz-route__tag--warn">Не путать «отказ 1483» и отзыв заявки</span>
-      <span class="l24-boris-tz-route__tag">Письмо-согласие · сужение МКТУ (1500 п.2)</span>
+    <div class="l24-boris-ug-matrix-a13__foot" aria-label="Ключевые различия статей">
+      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--civil">Гражданка — спор о долге</span>
+      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--159">159 / 159.1 — умысел до получения</span>
+      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--177">177 — после суда и ФССП</span>
+      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--warn">Не дублировать матрицу A7 — угол 159+177</span>
     </div>
-    <p class="l24-boris-tz-route__caption">Подпись блока: карта корреспонденции Роспатента — три типа писем, три режима сроков, одна заявка.</p>
+    <p class="l24-boris-ug-matrix-a13__caption">Подпись блока: практическая карта «событие → ответственность» для лонгрида A13 — без калькулятора, с актуальными порогами 2026.</p>
   </div>
 </section>
 ```
@@ -292,16 +355,17 @@
 
 | Поле | Значение |
 |------|----------|
-| Anchor id | `l24-boris-tz-route` |
-| Класс секции | `l24-boris-tz-route` |
-| Размещение | после H2 «Этапы регистрации…» / рядом с таблицей «трёх писем» в лонгриде |
-| Композиция | split: SVG-карта + 3 карточки слева; матрица сроков справа |
-| Метафора | продолжение «трёх писем» (запрос → уведомление → отказ → ППС) |
+| Anchor id | `boris-ug-matrix-a13` |
+| Класс секции | `l24-boris-ug-matrix-a13` |
+| Размещение | после H2 «Где проходит граница: гражданское взыскание или уголовное дело» (перед CTA / блоком «Возбуждение дела…») |
+| Композиция | split: SVG-дерево «событие → 4 ветки» + карточки слева; матрица строк + пороги справа |
+| Метафора | контраст hero «весы»: не абстрактная граница, а **развилка по факту** из research Артёма |
 
 **Чеклист отличий от hero Алины**
 
-- [x] Не hero: нет полноэкранной сцены, нет H1 страницы
-- [x] Без `<canvas>` и `<script>` — только static SVG
-- [x] Свой `id` секции: `l24-boris-tz-route` (не совпадает с hero)
-- [x] Тёмная редакционная оболочка (split/grid), не узкий центрированный «квадратик»
-- [x] Тема процедуры регистрации и корреспонденции Роспатента, не маркетплейс/иск
+- [x] Не hero: нет `min-height: 85vh`, нет H1 страницы и CTA-кнопки в блоке
+- [x] Без `<canvas>` и `<script>` — только static SVG + inline CSS
+- [x] Свой `id`: `boris-ug-matrix-a13` (не совпадает с hero; у A7 Boris был `l24-boris-ug-risk-track`)
+- [x] Тёмная редакционная оболочка split/grid, не полноэкранная светлая сцена «весов»
+- [x] Фокус A13: матрица **событие → гражданка / 159 / 159.1 / 177** (+ 198–199), порог 177 **3,5 млн** (79‑ФЗ), не таймлайн «просрочка → ФССП» как в A7
+- [x] Узкий угол статьи: углубление 159/177, не полная «карта рисков» A7
