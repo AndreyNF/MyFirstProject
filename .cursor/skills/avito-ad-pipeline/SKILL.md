@@ -1,6 +1,6 @@
 # Skill: avito-ad-pipeline (Legis24)
 
-Пайплайн одного объявления Avito от SKU до Telegram-превью.
+Пайплайн одного объявления Avito от SKU до пакета на диске (без Telegram).
 
 ## Mermaid (канон для документации)
 
@@ -28,7 +28,6 @@ flowchart LR
     I3[seedream-edit: варианты]
   end
   subgraph out [Выдача]
-    T[Telegram: превью]
     Pack[Пакет: ядро + 5-8 фото]
   end
   P --> W
@@ -41,7 +40,6 @@ flowchart LR
   I1 --> I2
   I2 --> I3
   I3 --> Pack
-  Pack --> T
 ```
 
 ## MCP Kovcheg — семантика
@@ -66,13 +64,9 @@ flowchart LR
 **Соотношения:** `1:1` (главное), `4:3` (доп. в галерее).  
 **Количество:** 5–8 URL в пакете.
 
-## MCP Kovcheg — Telegram
+## Telegram
 
-`telegram_send_message`, `parse_mode: HTML`:
-
-- жирный заголовок и цена;
-- обрезка описания ~400 символов;
-- ссылки на 1–2 фото (если URL публичные).
+**Запрещено** в пайплайне Avito. Уведомления — отдельный канал, не через MCP здесь.
 
 ## Артефакты на диске
 

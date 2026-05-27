@@ -20,7 +20,7 @@ SKU: vozrazhenie-fns-rf
 5. `Task(zhenya-avito)` — описание
 6. `Task(petrovich)` — заголовок ≤50, цена
 7. `Task(visual-avito)` — 5–8 фото (MCP)
-8. Сбор `avito/out/{sku}.md` + `telegram_send_message`
+8. Сбор `avito/out/{sku}.md` (без Telegram)
 
 ## Выходной файл
 
@@ -68,4 +68,4 @@ python3 scripts/avito-generate-autoload-xml.py
 |------|-------------|
 | Семантика | `wordstat_get_top_requests`, `wordstat_get_dynamics`, `wordstat_get_regions` |
 | Фото | `flux2-pro-text-to-image`, `recraft_remove_background`, `seedream-4_5-edit` |
-| Превью | `telegram_send_message` |
+| Telegram | **не использовать** (отдельный канал) |

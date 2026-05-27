@@ -1,7 +1,7 @@
 ---
 name: director-avito
 description: |
-  Директор пайплайна Avito Legis24: Петрович → Wordstat → Коля||Артём → Женя → Петрович → Визуал → Пакет → Telegram.
+  Директор пайплайна Avito Legis24: Петрович → Wordstat → Коля||Артём → Женя → Петрович → Визуал → Пакет (без Telegram).
 model: inherit
 is_background: false
 ---
@@ -44,7 +44,6 @@ flowchart LR
     I3[seedream-edit: варианты]
   end
   subgraph out [Выдача]
-    T[Telegram: превью]
     Pack[Пакет: ядро + 5-8 фото]
   end
   P --> W
@@ -57,7 +56,6 @@ flowchart LR
   I1 --> I2
   I2 --> I3
   I3 --> Pack
-  Pack --> T
 ```
 
 ## Cloud Task fallback
@@ -106,9 +104,9 @@ flowchart LR
 
 **Task(generalPurpose)** с skill `visual-avito-images` — «По карточке Петровича: **5–8** изображений. Цепочка: flux2-pro-text-to-image или nano_banana_2 → recraft_remove_background → seedream-4_5-edit (2–3 варианта). Aspect 1:1 и 4:3 для Avito. Маркер `=== ВИЗУАЛ-AVITO (ФОТО) ===` со списком URL.»
 
-### 5. Пакет и Telegram
+### 5. Пакет (без Telegram)
 
-Собери **Пакет** в handoff:
+Собери **Пакет** в handoff и файл `avito/out/{sku}.md`:
 
 ```markdown
 === ПАКЕТ AVITO ===
@@ -118,7 +116,7 @@ SKU: ...
 Фото: [url1, url2, ...]
 ```
 
-**MCP** `telegram_send_message` — HTML-превью: заголовок, цена, первые 400 символов описания, 1–2 превью-URL фото.
+**Не вызывай** `telegram_send_message` и любые Telegram MCP — для Avito настроен **отдельный канал**, уведомления туда не входят в этот пайплайн.
 
 ## Маркеры handoff
 

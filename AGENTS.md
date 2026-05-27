@@ -5,7 +5,7 @@
 | Пайплайн | Директор | Продукт |
 |----------|----------|---------|
 | **Статьи** (лонгриды WP) | `director` (ветка `origin/cursor/a3-a2ec`) | Страница на advokat-vsem.ru |
-| **Avito** (объявления) | `director-avito` | Карточка SKU + фото + Telegram |
+| **Avito** (объявления) | `director-avito` | Карточка SKU + фото + пакет (без Telegram) |
 
 Общий контекст бренда: `shared/legis24-site-context.md`.
 
@@ -35,7 +35,6 @@ flowchart LR
     I3[seedream-edit: варианты]
   end
   subgraph out [Выдача]
-    T[Telegram: превью]
     Pack[Пакет: ядро + 5-8 фото]
   end
   P --> W
@@ -48,7 +47,6 @@ flowchart LR
   I1 --> I2
   I2 --> I3
   I3 --> Pack
-  Pack --> T
 ```
 
 | Агент | Файл | Skill |
@@ -77,7 +75,7 @@ Handoff: `.cursor/legis24-avito-handoff.md`
 ## Секреты
 
 - Avito API: `Avito_client-id`, `Avito_client_secret`
-- MCP Kovcheg: Wordstat, изображения, Telegram
+- MCP Kovcheg: Wordstat, изображения (Telegram для Avito не использовать)
 - Сайт: https://advokat-vsem.ru
 
 ## Cloud Agent
