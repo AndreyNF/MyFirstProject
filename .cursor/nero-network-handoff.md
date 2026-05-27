@@ -1696,3 +1696,32 @@ CTA: https://advokat-vsem.ru/ — «Консультация по регистр
 - [x] Свой `id` секции: `l24-boris-tz-route` (не совпадает с hero)
 - [x] Тёмная редакционная оболочка (split/grid), не узкий центрированный «квадратик»
 - [x] Тема процедуры регистрации и корреспонденции Роспатента, не маркетплейс/иск
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+SLUG: registraciya-tovarnogo-znaka-etapy-otkaz
+Файл: `/workspace/.cursor/page-content-natasha-A15.html` (86 953 байт)
+
+## Передача Юре
+SLUG: registraciya-tovarnogo-znaka-etapy-otkaz
+Класс страницы: `registraciya-tovarnogo-znaka-etapy-otkaz-page`
+HTML готов к публикации: обёрнут в `<!-- wp:html -->`, без `<script>` и `<canvas>` (0 script-тегов).
+Hero Алины: static SVG + CSS keyframes (`#l24-hero-ip-tz-reg-etapy`).
+Блок Бориса вставлен после H2 «Этапы регистрации…» (`#l24-boris-tz-route`).
+4 CTA ym-cta (href только `https://advokat-vsem.ru/`).
+JSON-LD Article — в HTML-комментарии в конце файла (Rank Math / ручная вставка).
+Title: Регистрация товарного знака: этапы, отказ Роспатента и обжалование — Legis24
+H1 в hero: Регистрация товарного знака: этапы, отказ Роспатента и обжалование
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО
+Код: A15
+page_id: 368
+URL: https://advokat-vsem.online/registraciya-tovarnogo-znaka-etapy-otkaz/
+slug: registraciya-tovarnogo-znaka-etapy-otkaz
+Способ: MCP blob (Kovcheg wordpress_content_blob_append → wordpress_update_page_from_blob → wordpress_update_page publish)
+blob_id: Fw19mfqJDMcGmWmOLn4mZdmn
+sha256: b48fcf33227a041d228be669d5e6506d58071ca4d70bc1fd551d04955a512a67
+bytes: 86953
+Дата: 2026-05-27
+Live: HTTP 200, маркеры hero `#l24-hero-ip-tz-reg-etapy`, блок `#l24-boris-tz-route`, класс `registraciya-tovarnogo-znaka-etapy-otkaz-page`
