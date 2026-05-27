@@ -83,5 +83,5 @@ bash scripts/avito-print-feed-url.sh    # показать URL для кабин
 | Этап | Инструменты |
 |------|-------------|
 | Семантика | `wordstat_get_top_requests`, `wordstat_get_dynamics`, `wordstat_get_regions` |
-| Фото | `flux2-pro-text-to-image`, `recraft_remove_background`, `seedream-4_5-edit` |
+| Фото | `gpt-image-2` (основной), при таймауте `z-image` → `wordpress_upload_media` → `<Images>` в фиде |
 | Telegram | **не использовать** (отдельный канал) |

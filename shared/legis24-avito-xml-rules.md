@@ -43,6 +43,17 @@
 - `Title` — ≤50 символов
 - `Description` — текст объявления + order@advokat-vsem.ru + https://advokat-vsem.ru
 - `Price` — фикс с advokat-vsem.ru
+- `Images` / `Image[@url]` — одно главное фото на SKU (публичный HTTPS, JPG/PNG; хостинг: `advokat-vsem.online` после `wordpress_upload_media`)
+
+Пример:
+
+```xml
+<Images>
+  <Image url="https://advokat-vsem.online/wp-content/uploads/2026/05/example.png"/>
+</Images>
+```
+
+Генерация: MCP `gpt-image-2` (при таймауте — `z-image`), затем загрузка в медиатеку WP.
 
 ## Запреты
 
@@ -57,5 +68,5 @@
 Id, DateBegin, ListingFee, AdStatus, Category,
 ServiceType, ServiceSubtype, ServiceSubspecies,
 WorkExperience, Prepayment, WorkWithContract, Consultations, Place,
-Title, Description, Price, Address, ContactPhone, ContactMethod, CompanyName
+Title, Description, Images, Price, Address, ContactPhone, ContactMethod, CompanyName
 ```

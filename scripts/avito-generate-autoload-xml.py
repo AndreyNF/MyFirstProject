@@ -16,6 +16,7 @@ ADS = [
         "id": "legis24-vozrazhenie-fns-001",
         "title": "Возражение на акт ФНС — за 24 часа Legis24",
         "price": 70000,
+        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899104006-xh7mb91den.png",
         "description": """Пришёл акт налоговой проверки или решение ФНС — срок на возражение ограничен.
 
 Legis24 готовит возражение на акт камеральной или выездной проверки за 24 часа:
@@ -27,14 +28,13 @@ Legis24 готовит возражение на акт камеральной �
 По всей РФ, удалённо. Без НДС (УСН).
 
 order@advokat-vsem.ru
-https://advokat-vsem.ru
-
-Связь только в чате Avito, звонки не принимаем.""",
+https://advokat-vsem.ru""",
     },
     {
         "id": "legis24-otvet-trebovanie-fns-002",
         "title": "Ответ на требование ФНС — от 10 000 ₽ за 24 ч",
         "price": 10000,
+        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/file_0000000084e4720cb234ed62bfc1499a.png",
         "description": """ФНС запросила пояснения, документы или прислала уведомление?
 
 Подготовим за 24 часа:
@@ -51,6 +51,7 @@ https://advokat-vsem.ru""",
         "id": "legis24-analiz-spor-003",
         "title": "Анализ налогового спора — заключение за 24 ч",
         "price": 25000,
+        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899233_78fc0ed64f3344d7a826e84d84e9ca3e.png",
         "description": """Нужно понять перспективы до суда или возражения?
 
 Правовое заключение Legis24 за 24 часа:
@@ -67,6 +68,7 @@ https://advokat-vsem.ru""",
         "id": "legis24-isk-nalog-arbitr-004",
         "title": "Иск в арбитраж по налогу — за 24 часа",
         "price": 45000,
+        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/file_00000000595471f890d32c98728d6db8.png",
         "description": """УФНС отказала, срок обжалования на исходе?
 
 Иск в арбитражный суд за 24 часа:
@@ -83,6 +85,7 @@ https://advokat-vsem.ru""",
         "id": "legis24-paket-akt-isk-005",
         "title": "Акт ФНС + иск в арбитраж — пакет 60 000 ₽",
         "price": 60000,
+        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899489_be09c43a165a4e36912bd63155f58e4c.png",
         "description": """Одна правовая позиция от акта до суда.
 
 Пакет Legis24:
@@ -99,6 +102,7 @@ https://advokat-vsem.ru""",
         "id": "legis24-otzyv-isk-006",
         "title": "Отзыв на иск в арбитраж — за 24 часа",
         "price": 30000,
+        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899607442-pkxmjf511ul.png",
         "description": """Иск от контрагента, заседание через несколько дней?
 
 Отзыв на иск за 24 часа:
@@ -115,6 +119,7 @@ https://advokat-vsem.ru""",
         "id": "legis24-buhgalteram-008",
         "title": "Бухгалтерам: акт ФНС — решение за 24 ч",
         "price": 25000,
+        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899746_71a8d4fc1cb44987b8c7b1c23653bf90.png",
         "description": """Клиент получил акт ФНС или попал в арбитраж?
 
 Передайте кейс Legis24 — стратегия за 24 часа, партнёрское вознаграждение до 30%.
@@ -126,6 +131,7 @@ https://advokat-vsem.ru""",
         "id": "legis24-sk-poziciya-009",
         "title": "ФНС передала в СК — позиция за 24 часа",
         "price": 25000,
+        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899882_0febc419a6ef48d0971c6c56dd741759.png",
         "description": """Материалы в СКР, допрос через 2–3 дня?
 
 За 24 часа: анализ документов, процессуальные нарушения, линия защиты до допроса.
@@ -152,6 +158,11 @@ CONSULTATIONS = "Нет"
 PLACE = "Удалённо"
 WORK_EXPERIENCE = "4–7 лет"
 DESCRIPTION_SUFFIX = "\n\nСвязь только в чате Avito, звонки не принимаем."
+
+
+def _add_images(el: ET.Element, image_url: str) -> None:
+    images = ET.SubElement(el, "Images")
+    ET.SubElement(images, "Image", url=image_url)
 
 
 def _add_legal_service_fields(el: ET.Element) -> None:
@@ -181,6 +192,7 @@ def build_xml() -> ET.Element:
         ET.SubElement(el, "Title").text = ad["title"]
         desc = ET.SubElement(el, "Description")
         desc.text = ad["description"].rstrip() + DESCRIPTION_SUFFIX
+        _add_images(el, ad["image_url"])
         ET.SubElement(el, "Price").text = str(ad["price"])
         ET.SubElement(el, "Address").text = ADDRESS
         ET.SubElement(el, "ContactPhone").text = CONTACT_PHONE
