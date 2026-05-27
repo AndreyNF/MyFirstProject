@@ -134,7 +134,9 @@ https://advokat-vsem.ru""",
 CONTACT_PHONE = "79126994560"
 ADDRESS = "Россия"
 CATEGORY = "Предложение услуг"
-SERVICE_TYPE = "Деловые услуги"  # уточнить по шаблону кабинета при ошибке валидации
+# Иерархия Avito: Предложение услуг → Деловые услуги → Юридические услуги
+SERVICE_TYPE = "Деловые услуги"
+SERVICE_SUBTYPE = "Юридические услуги"  # обязательный «Тип услуги» (ServiceSubtype)
 
 
 def build_xml() -> ET.Element:
@@ -149,6 +151,7 @@ def build_xml() -> ET.Element:
         ET.SubElement(el, "AdStatus").text = "Free"
         ET.SubElement(el, "Category").text = CATEGORY
         ET.SubElement(el, "ServiceType").text = SERVICE_TYPE
+        ET.SubElement(el, "ServiceSubtype").text = SERVICE_SUBTYPE
         ET.SubElement(el, "Title").text = ad["title"]
         desc = ET.SubElement(el, "Description")
         desc.text = ad["description"]
