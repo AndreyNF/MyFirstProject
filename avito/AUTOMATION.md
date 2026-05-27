@@ -43,34 +43,33 @@ SKU: {sku}
 
 ## Публикация (разрешено)
 
-### Автозагрузка XML (основной способ)
+### Автозагрузка по URL (основной способ)
 
-**Канон:** `shared/legis24-avito-xml-rules.md` — все новые объявления только по этому формату (проверено xmlcheck).
+В кабинете Legis24 настроена **загрузка по ссылке**. Подробно: `avito/autoload/FEED-URL.md`.
+
+**Канон XML:** `shared/legis24-avito-xml-rules.md`
 
 ```bash
 python3 scripts/avito-generate-autoload-xml.py
+git add avito/autoload/legis24-new-ads.xml && git commit -m "Update Avito feed" && git push
+bash scripts/avito-print-feed-url.sh    # показать URL для кабинета
 ```
 
-Файл: `avito/autoload/legis24-new-ads.xml` (8 новых объявлений).
+**URL фида (ветка `cursor/legis24-avito-pipeline-81c8`):**
 
-Обязательные поля (дубль в rules-файле, эталон №8159283806):
-- `ServiceType` → `Деловые услуги`
-- `ServiceSubtype` → `Юридические услуги`
-- `ServiceSubspecies` → `Составление договоров, доверенностей, исков`
-- `Prepayment` → `Нужна`
-- `WorkWithContract` → `Да`
-- `Consultations` → `Нет`
-- `Place` → `Удалённо`
-- `WorkExperience` → `4–7 лет`
+`https://raw.githubusercontent.com/AndreyNF/MyFirstProject/cursor/legis24-avito-pipeline-81c8/avito/autoload/legis24-new-ads.xml`
 
-1. Откройте https://www.avito.ru/professionals/autoload (или «Автозагрузка» в кабинете).
-2. Проверка: https://autoload.avito.ru/format/xmlcheck/
-3. «Настройки» → ручная загрузка → выберите XML → «Загрузить».
-4. Смотрите отчёт через ~1 час.
+После merge в `main` — та же ссылка с `/main/` в пути (стабильнее для Avito).
+
+1. Проверка: https://autoload.avito.ru/format/xmlcheck/
+2. Кабинет → Автозагрузка → Настройки → **загрузка по ссылке** → URL → расписание → Сохранить
+3. Отчёт через ~1 ч в разделе «Автозагрузка»
+
+Ручная загрузка файла — запасной вариант, если ссылка недоступна.
 
 ### API
 
-Текущие ключи (`client_credentials`) дают **чтение** объявлений; создание через API возвращает 404 — нужны расширенные scope в приложении Avito или автозагрузка.
+`client_credentials` — только чтение объявлений; создание через API недоступно (404). Публикация — фид по URL.
 
 Примеры текстов: `avito/seriya-novyh-obyavleniy-petrovich.md`
 

@@ -90,12 +90,13 @@ CTA email: order@advokat-vsem.ru
 
 Пользователь разрешил публиковать объявления. Порядок:
 
-1. **API** `POST /core/v1/accounts/{user_id}/items` — если доступно в приложении.
-2. Иначе **автозагрузка:** `python3 scripts/avito-generate-autoload-xml.py` → `avito/autoload/legis24-new-ads.xml` → загрузка в https://www.avito.ru/autoload (ручная или по ссылке).
+1. **Автозагрузка по URL** (основной): `python3 scripts/avito-generate-autoload-xml.py` → `git push` → фид `avito/autoload/legis24-new-ads.xml`. URL: `avito/autoload/FEED-URL.md` или `bash scripts/avito-print-feed-url.sh`. Avito забирает по расписанию из кабинета.
+2. **API** `POST` — только если появится scope; иначе не использовать.
+3. Ручная загрузка XML — запасной путь.
 
-**Правило заполнения:** все обязательные теги и значения — строго из `shared/legis24-avito-xml-rules.md` (эталон: объявление №8159283806). Новый SKU меняет только `Id`, `Title`, `Description`, `Price`.
+**Правило заполнения:** `shared/legis24-avito-xml-rules.md`. Новый SKU — только `Id`, `Title`, `Description`, `Price`.
 
-После загрузки XML проверь отчёт автозагрузки в кабинете. При 403/404 API — не блокируй задачу, отдай XML и инструкцию.
+После push напомни проверить отчёт автозагрузки в кабинете (~1 ч).
 
 **Telegram не трогать** — для Avito отдельный канал, уведомления туда не отправлять (`telegram_send_message` и др.).
 
