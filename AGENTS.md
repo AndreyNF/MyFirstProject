@@ -54,7 +54,7 @@ flowchart LR
 | Агент | Файл | Skill |
 |-------|------|-------|
 | Директор Avito | `.cursor/agents/director-avito.md` | `avito-ad-pipeline` |
-| Петрович | `.cursor/agents/petrovich.md` | `avito-ad-pipeline` |
+| **Петрович (только Avito)** | `.cursor/agents/petrovich.md` | `avito-ad-pipeline` |
 | Коля (Avito) | `.cursor/agents/seo-kolya-avito.md` | `seo-kolya-avito-mode` |
 | Артём (Avito) | `.cursor/agents/artyom-avito.md` | `researcher-artyom-avito-mode` |
 | Женя (Avito) | `.cursor/agents/zhenya-avito.md` | `seo-writer-zhenya-avito-mode` |
@@ -63,11 +63,11 @@ flowchart LR
 Handoff: `.cursor/legis24-avito-handoff.md`  
 Инструкция запуска: `avito/AUTOMATION.md`
 
-## Статьи — подключение агентов
+## Статьи — отдельный пайплайн (без Петровича)
 
-Полный офис лонгридов (Кирилл, Коля, Артём, Женя, Артур, Алина, Борис, Наташа, Юра, Макс, Лёня) описан в `.cursor/agents/director.md` на ветке **`origin/cursor/a3-a2ec`**.
+Полный офис лонгридов (Кирилл, Коля, Артём, Женя, Артур, Алина, Борис, Наташа, Юра, Макс, Лёня) — ветка **`origin/cursor/a3-a2ec`**, директор `director`. **Петрович в статьях не участвует.**
 
-**Связка со статьёй → Avito:** после публикации лонгрида Директор Avito может взять H1/нишу из `published-pages.md` как SKU для объявления.
+**Связка статья → Avito:** после лонгрида запускай `@director-avito` (ниша из H1 → SKU). Тексты объявления готовит Петрович и `*-avito` агенты, не Женя-лонгрид.
 
 ## Секреты
 
