@@ -95,6 +95,14 @@ Handoff: `.cursor/legis24-avito-handoff.md`
 
 После статьи можно `@director-avito` с нишей из H1.
 
+## Telegram (маркетинг)
+
+| Агент | Файл | Skill |
+|-------|------|-------|
+| Telegram Legis24 | `.cursor/agents/telegram-legis24.md` | `legis24-telegram-post` |
+
+Посты: обложка `gpt-image-2`, **5–10 хештегов в конце** (всегда `#Legis24`). Отправка в личку/канал через MCP после `/start` у `@kovcheglifan_bot`.
+
 ## Секреты
 
 - Avito API: `Avito_client-id`, `Avito_client_secret`

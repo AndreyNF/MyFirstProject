@@ -1,15 +1,15 @@
 # Telegram — пост об услугах Legis24
 
-**Статус публикации:** не отправлено (бот: HTTP 403 — нет диалога с chat_id из настроек Kovcheg).
+**Опубликовано в личку:** message_id 2, chat_id 1332429170 (@kovcheglifan_bot)
 
 **Обложка (gpt-image-2, 16:9):**
 
-- Временный URL: https://tempfile.aiquickdraw.com/p/f5dbf427c2ab00efcecc8052efb0adba_1_1779901471_1424.png
-- Постоянный URL (WP): https://advokat-vsem.online/wp-content/uploads/2026/05/f5dbf427c2ab00efcecc8052efb0adba_1_1779901471_1424.png
+- https://advokat-vsem.online/wp-content/uploads/2026/05/f5dbf427c2ab00efcecc8052efb0adba_1_1779901471_1424.png
+- (для Telegram отправляли tempfile URL — WP иногда недоступен для серверов Telegram)
 
 ---
 
-## Текст для caption (HTML)
+## Текст для caption (HTML) — с хештегами
 
 ```html
 <b>Legis24 — юридический анализ за 24 часа</b>
@@ -30,14 +30,10 @@
 🌐 <a href="https://advokat-vsem.ru">advokat-vsem.ru</a>
 
 Работаем без НДС (УСН). Готовим позицию и документы в оговорённый срок — без обещаний «гарантированной победы в суде».
+
+#Legis24 #ФНС #налоги #налоговаяпроверка #возражение #требованиеФНС #арбитраж #юридическиеуслуги #бизнес #за24часа
 ```
 
-## Как опубликовать вручную
+## Правило на будущее
 
-1. В настройках Kovcheg указать **Chat ID канала** (формат `-100…`), не личный чат.
-2. Добавить бота `@kovcheglifan_bot` в канал **администратором** с правом публикации.
-3. Повторить: `telegram_send_photo` с URL обложки и caption выше.
-
-## Вариант с кнопкой (опционально)
-
-`telegram_send_message_with_buttons` — кнопка «Сайт» → `https://advokat-vsem.ru`
+Все посты Legis24 в Telegram — **с хештегами в конце**. См. `.cursor/skills/legis24-telegram-post/SKILL.md`.
