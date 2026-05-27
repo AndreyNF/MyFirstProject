@@ -24,9 +24,11 @@
 
 ## Пост 1 — Знакомство с Legis24
 
-**Промпт обложки:** Unique POST 1 brand intro: 24h timeline ribbon, law books, tablet charts, teal-navy gradient, 16:9, no text/faces.
+**Тема:** Legis24 — документы и стратегия за 24 часа (знакомство + прайс)
 
-**Обложка (сгенерировано):** https://tempfile.aiquickdraw.com/images/chatgpt/532c9373924f6548acb818081928fcf9_4369b0e219b04364b014d51cf1985e47.png
+**Промпт gpt-image-2 (от темы):** Legis24 documents and legal strategy in 24 hours: law books, digital timeline ribbon, service price list concept on tablet, teal navy gradient office, 16:9 photorealistic, no text no faces
+
+**Обложка:** https://tempfile.aiquickdraw.com/images/chatgpt/532c9373924f6548acb818081928fcf9_4369b0e219b04364b014d51cf1985e47.png
 
 **Текст (HTML):**
 
@@ -52,9 +54,11 @@
 
 ## Пост 2 — Срок возражения на акт
 
-**Статья на сайте:** https://advokat-vsem.ru (лонгриды про 15/30 дней)
+**Тема:** Акт ФНС пришёл — сколько дней на возражение (15 или 30)
 
-**Промпт:** Tax audit act document with calendar and red deadline highlight, navy office, photorealistic, no readable text.
+**Промпт gpt-image-2 (от темы):** FNS tax audit act arrived how many days to file objection 15 or 30: wall calendar with marked deadlines, official audit papers on desk, urgent red date, navy legal office, 16:9 photorealistic, no text no faces
+
+**Статья на сайте:** https://advokat-vsem.ru (лонгриды про 15/30 дней)
 
 ```html
 <b>Акт ФНС пришёл. Сколько дней на возражение?</b>
@@ -77,7 +81,9 @@ Legis24 готовит <b>возражение за 24 часа</b> — 70 000 �
 
 ## Пост 3 — Кейс 150 → 43 млн
 
-**Промпт:** Stack of tax documents with downward arrow chart metaphor, corporate blue, photorealistic, no text.
+**Тема:** Кейс — доначисление 150 млн снижено до 43 млн после возражения
+
+**Промпт gpt-image-2 (от темы):** Tax assessment reduced from 150 million to 43 million after FNS objection: stacked audit documents, downward revenue chart metaphor, relief mood corporate blue office, 16:9 photorealistic, no text no faces
 
 ```html
 <b>Кейс: доначисление 150 млн → после возражений 43 млн</b>
@@ -97,9 +103,11 @@ Legis24 готовит <b>возражение за 24 часа</b> — 70 000 �
 
 ## Пост 4 — Ответ на требование ФНС
 
-**Статья:** «Ответ на требование ФНС: сроки…» (ID 317)
+**Тема:** Требование ФНС — ответить за 24 часа (от 10 000 ₽)
 
-**Промпт:** Official tax letter and business reply papers on desk, soft light, navy tones, no faces.
+**Промпт gpt-image-2 (от темы):** Answer to FNS tax requirement in 24 hours: official demand letter and drafted business reply on desk, stamp and pen, navy office soft light, 16:9 photorealistic, no text no faces
+
+**Статья:** «Ответ на требование ФНС: сроки…» (ID 317)
 
 ```html
 <b>Требование ФНС: ответить можно за 24 часа</b>
@@ -120,7 +128,9 @@ Legis24 готовит <b>ответ на требование</b> от 10 000 �
 
 ## Пост 5 — Иск в арбитраж по налогу
 
-**Промпт:** Arbitration gavel and tax case folder, wooden desk, professional photo, no text.
+**Тема:** УФНС отказала — иск в арбитраж по налоговому спору за 24 часа
+
+**Промпт gpt-image-2 (от темы):** Tax dispute lawsuit to arbitration court after tax authority refusal: gavel, claim folder, tax calculation sheets, wooden desk, professional legal 16:9, no text no faces
 
 ```html
 <b>УФНС отказала — остался арбитраж</b>
@@ -140,7 +150,9 @@ order@advokat-vsem.ru · <a href="https://advokat-vsem.ru">advokat-vsem.ru</a>
 
 ## Пост 6 — Кейс: иск за 26 часов
 
-**Промпт:** Courthouse steps blur background, legal papers in focus, urgency mood, blue hour.
+**Тема:** Кейс — иск в арбитраж подан через 26 часов, дело принято
+
+**Промпт gpt-image-2 (от темы):** Arbitration tax lawsuit filed in 26 hours case accepted: courthouse steps blur, focused claim documents in hands, clock urgency, blue hour corporate legal 16:9, no text no faces
 
 ```html
 <b>Иск подан через 26 часов — дело принято</b>
@@ -160,7 +172,9 @@ order@advokat-vsem.ru · <a href="https://advokat-vsem.ru">advokat-vsem.ru</a>
 
 ## Пост 7 — Зачем отзыв на иск
 
-**Промпт:** Lawsuit papers and defense brief on desk, dramatic side light, corporate.
+**Тема:** Иск пришёл вечером — заседание через 5 дней, нужен отзыв
+
+**Промпт gpt-image-2 (от темы):** Lawsuit received evening court hearing in 5 days need response brief: incoming claim stack and defense reply draft, night office lamp, dramatic side light navy 16:9, no text no faces
 
 ```html
 <b>Иск пришёл вечером — заседание через 5 дней</b>
@@ -180,7 +194,9 @@ Legis24 готовит <b>отзыв за 24 часа</b> — 30 000 ₽.
 
 ## Пост 8 — Кейс отзыв −2,1 млн
 
-**Промпт:** Contract dispute documents, calculator, blue office, photorealistic.
+**Тема:** Кейс — иск 4,3 млн, после отзыва снижение на 2,1 млн
+
+**Промпт gpt-image-2 (от темы):** Civil claim 4.3 million reduced by 2.1 million after court response: contract dispute papers, calculator showing lower amount, blue legal office 16:9 photorealistic, no text no faces
 
 ```html
 <b>Иск 4,3 млн → после отзыва снижение на 2,1 млн</b>
@@ -200,7 +216,9 @@ Legis24 готовит <b>отзыв за 24 часа</b> — 30 000 ₽.
 
 ## Пост 9 — ФНС передала в СК
 
-**Промпт:** Serious legal folder labeled concept only as tax investigation, dark blue tone, no readable labels.
+**Тема:** Материалы ФНС переданы в СК — допрос через 2–3 дня
+
+**Промпт gpt-image-2 (от темы):** Tax case materials transferred to investigative committee interrogation in 2-3 days: serious case folder, interview room door silhouette, dark navy tension mood 16:9, no text no faces no logos
 
 ```html
 <b>Материалы ушли в СК — допрос через 2–3 дня</b>
@@ -220,9 +238,11 @@ order@advokat-vsem.ru · <a href="https://advokat-vsem.ru">advokat-vsem.ru</a>
 
 ## Пост 10 — Партнёрам (бухгалтерам)
 
-**Страница:** Партнёрам на сайте
+**Тема:** Бухгалтерам — клиент получил акт ФНС, партнёрка до 30%
 
-**Промпт:** Accountant and lawyer handshake silhouette abstract, documents, partner concept, blue, no faces detail.
+**Промпт gpt-image-2 (от темы):** Accountants partner program client received FNS tax act refer case: handshake over tax documents, commission 30 percent concept, professional blue office partnership 16:9, no text no faces
+
+**Страница:** Партнёрам на сайте
 
 ```html
 <b>Бухгалтерам: клиент получил акт ФНС?</b>

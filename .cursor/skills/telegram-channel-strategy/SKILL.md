@@ -44,7 +44,7 @@
 
 1. `shared/legis24-site-analysis-telegram.md` — разбор сайта
 2. `content/telegram/series/legis24-YYYY-MM-series.md` — таблица + тексты постов
-3. Промпт обложки на каждый пост (gpt-image-2, 16:9)
+3. На каждый пост: поле **Тема** → **промпт gpt-image-2** строится от темы (не общий шаблон), 16:9, 2K
 
 ## KPI (ориентиры для канала)
 

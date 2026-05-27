@@ -29,10 +29,35 @@
 
 Не дублировать одинаковые теги. Для узкой темы (например только блокировка счёта) — заменить общие на тематические.
 
+## Промпт обложки = тема поста (канон)
+
+**Главное правило:** в `gpt-image-2` передаётся **`prompt`, собранный из темы поста** — заголовок `<b>…</b>` или поле `Тема:` в серии. Не абстрактный «legal desk», если тема другая.
+
+### Алгоритм
+
+1. Взять **тему поста** одной фразой (как в таблице серии или H1 поста).
+2. Выписать из текста поста **3–5 визуальных объектов** (акт, календарь, иск, молоток, график…).
+3. Собрать промпт по шаблону:
+
+```
+{ТЕМА ПОСТА — суть на английском}: {объекты из текста}, professional Russian legal service Legis24, navy blue and teal, soft daylight, cinematic 16:9 photorealistic, no text, no logos, no faces, no watermark
+```
+
+### Примеры
+
+| Тема поста | Начало промпта (ядро) |
+|------------|------------------------|
+| Знакомство с Legis24 | "Legis24 legal documents and 24-hour strategy concept, law books and digital timeline" |
+| Акт ФНС: 30 или 15 дней | "Tax audit act FNS deadline calendar 15 vs 30 days, urgent red date marker" |
+| Кейс 150 млн → 43 млн | "Tax dispute documents with downward financial chart metaphor after objection" |
+| Ответ на требование ФНС | "Official tax authority requirement letter and business reply on desk" |
+
+Поле в артефакте: `Тема:` → `Промпт gpt-image-2:` (англ., 1–3 предложения).
+
 ## Формат
 
 - `parse_mode`: HTML
-- Обложка: **`gpt-image-2` — отдельный вызов на каждый пост**, уникальный промпт под тему. **Запрещено** повторно использовать URL/файл другого поста.
+- Обложка: **`gpt-image-2` — отдельный вызов на каждый пост**; **промпт = тема поста + объекты + стиль**. **Запрещено** повторно использовать URL/файл другого поста.
 - Параметры: **16:9**, **2K**; после генерации — `wordpress_upload_media` (архив) + для Telegram — **tempfile URL** из ответа gpt-image-2 (серверы Telegram часто не качают WP)
 - Агенты: **max-telegram** (промпт + серия), **telegram-legis24** / Task(visual) — генерация
 - Личная отправка: `chat_id` из `telegram_get_updates` после `/start` у `@kovcheglifan_bot`
