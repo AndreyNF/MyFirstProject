@@ -33,7 +33,7 @@
 | `AdStatus` | Free |
 | `Address` | Россия |
 | `ContactPhone` | 79126994560 |
-| `ContactMethod` | По телефону и в сообщениях |
+| `ContactMethod` | **В сообщениях** (без звонков) |
 | `CompanyName` | Legis24 |
 | `DateBegin` | YYYY-MM-DD (дата публикации) |
 

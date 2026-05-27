@@ -27,7 +27,9 @@ Legis24 готовит возражение на акт камеральной �
 По всей РФ, удалённо. Без НДС (УСН).
 
 order@advokat-vsem.ru
-https://advokat-vsem.ru""",
+https://advokat-vsem.ru
+
+Связь только в чате Avito, звонки не принимаем.""",
     },
     {
         "id": "legis24-otvet-trebovanie-fns-002",
@@ -135,7 +137,8 @@ https://advokat-vsem.ru""",
     },
 ]
 
-CONTACT_PHONE = "79126994560"
+CONTACT_PHONE = "79126994560"  # в кабинете может храниться; в карточке — только чат
+CONTACT_METHOD = "В сообщениях"  # не «По телефону» / не «По телефону и в сообщениях»
 ADDRESS = "Россия"
 CATEGORY = "Предложение услуг"
 # Иерархия Avito: Предложение услуг → Деловые услуги → Юридические услуги
@@ -148,6 +151,7 @@ WORK_WITH_CONTRACT = "Да"
 CONSULTATIONS = "Нет"
 PLACE = "Удалённо"
 WORK_EXPERIENCE = "4–7 лет"
+DESCRIPTION_SUFFIX = "\n\nСвязь только в чате Avito, звонки не принимаем."
 
 
 def _add_legal_service_fields(el: ET.Element) -> None:
@@ -176,11 +180,11 @@ def build_xml() -> ET.Element:
         _add_legal_service_fields(el)
         ET.SubElement(el, "Title").text = ad["title"]
         desc = ET.SubElement(el, "Description")
-        desc.text = ad["description"]
+        desc.text = ad["description"].rstrip() + DESCRIPTION_SUFFIX
         ET.SubElement(el, "Price").text = str(ad["price"])
         ET.SubElement(el, "Address").text = ADDRESS
         ET.SubElement(el, "ContactPhone").text = CONTACT_PHONE
-        ET.SubElement(el, "ContactMethod").text = "По телефону и в сообщениях"
+        ET.SubElement(el, "ContactMethod").text = CONTACT_METHOD
         ET.SubElement(el, "CompanyName").text = "Legis24"
 
     return root
