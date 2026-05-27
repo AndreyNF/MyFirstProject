@@ -137,6 +137,23 @@ CATEGORY = "Предложение услуг"
 # Иерархия Avito: Предложение услуг → Деловые услуги → Юридические услуги
 SERVICE_TYPE = "Деловые услуги"
 SERVICE_SUBTYPE = "Юридические услуги"  # обязательный «Тип услуги» (ServiceSubtype)
+# Поля как в опубликованном объявлении id 8159283806 (Legis24)
+SERVICE_SUBSPECIES = "Составление договоров, доверенностей, исков"
+PREPAYMENT = "Нужна"
+WORK_WITH_CONTRACT = "Да"
+CONSULTATIONS = "Нет"
+PLACE = "Удалённо"
+WORK_EXPERIENCE = "4–7 лет"
+
+
+def _add_legal_service_fields(el: ET.Element) -> None:
+    """Обязательные параметры категории «Юридические услуги» (по живому объявлению)."""
+    ET.SubElement(el, "ServiceSubspecies").text = SERVICE_SUBSPECIES
+    ET.SubElement(el, "WorkExperience").text = WORK_EXPERIENCE
+    ET.SubElement(el, "Prepayment").text = PREPAYMENT
+    ET.SubElement(el, "WorkWithContract").text = WORK_WITH_CONTRACT
+    ET.SubElement(el, "Consultations").text = CONSULTATIONS
+    ET.SubElement(el, "Place").text = PLACE
 
 
 def build_xml() -> ET.Element:
@@ -152,6 +169,7 @@ def build_xml() -> ET.Element:
         ET.SubElement(el, "Category").text = CATEGORY
         ET.SubElement(el, "ServiceType").text = SERVICE_TYPE
         ET.SubElement(el, "ServiceSubtype").text = SERVICE_SUBTYPE
+        _add_legal_service_fields(el)
         ET.SubElement(el, "Title").text = ad["title"]
         desc = ET.SubElement(el, "Description")
         desc.text = ad["description"]

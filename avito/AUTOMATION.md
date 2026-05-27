@@ -51,9 +51,15 @@ python3 scripts/avito-generate-autoload-xml.py
 
 Файл: `avito/autoload/legis24-new-ads.xml` (8 новых объявлений).
 
-Обязательные поля категории:
+Обязательные поля категории (как в объявлении №8159283806):
 - `ServiceType` → `Деловые услуги`
-- `ServiceSubtype` → `Юридические услуги` (иначе ошибка «Тип услуги»)
+- `ServiceSubtype` → `Юридические услуги`
+- `ServiceSubspecies` → `Составление договоров, доверенностей, исков`
+- `Prepayment` → `Нужна`
+- `WorkWithContract` → `Да`
+- `Consultations` → `Нет`
+- `Place` → `Удалённо`
+- `WorkExperience` → `4–7 лет`
 
 1. Откройте https://www.avito.ru/professionals/autoload (или «Автозагрузка» в кабинете).
 2. Проверка: https://autoload.avito.ru/format/xmlcheck/
