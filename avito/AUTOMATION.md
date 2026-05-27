@@ -41,11 +41,26 @@ SKU: {sku}
 1. ...
 ```
 
-## Ручная публикация
+## Публикация (разрешено)
 
-API Avito для создания объявлений ограничен; после пакета — загрузка в кабинет Legis24 или автозагрузка.
+### Автозагрузка XML (основной способ)
 
-Примеры готовых текстов: `avito/seriya-novyh-obyavleniy-petrovich.md`
+```bash
+python3 scripts/avito-generate-autoload-xml.py
+```
+
+Файл: `avito/autoload/legis24-new-ads.xml` (8 новых объявлений).
+
+1. Откройте https://www.avito.ru/professionals/autoload (или «Автозагрузка» в кабинете).
+2. Проверка: https://autoload.avito.ru/format/xmlcheck/
+3. «Настройки» → ручная загрузка → выберите XML → «Загрузить».
+4. Смотрите отчёт через ~1 час.
+
+### API
+
+Текущие ключи (`client_credentials`) дают **чтение** объявлений; создание через API возвращает 404 — нужны расширенные scope в приложении Avito или автозагрузка.
+
+Примеры текстов: `avito/seriya-novyh-obyavleniy-petrovich.md`
 
 ## MCP
 
