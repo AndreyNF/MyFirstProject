@@ -99,9 +99,14 @@ Handoff: `.cursor/legis24-avito-handoff.md`
 
 | Агент | Файл | Skill |
 |-------|------|-------|
-| Telegram Legis24 | `.cursor/agents/telegram-legis24.md` | `legis24-telegram-post` |
+| **Макс** (стратег канала) | `.cursor/agents/max-telegram.md` | `telegram-channel-strategy` |
+| Telegram Legis24 (тексты) | `.cursor/agents/telegram-legis24.md` | `legis24-telegram-post` |
 
-Посты: обложка `gpt-image-2`, **5–10 хештегов в конце** (всегда `#Legis24`). Отправка в личку/канал через MCP после `/start` у `@kovcheglifan_bot`.
+- Анализ сайта: `shared/legis24-site-analysis-telegram.md`
+- Серия постов: `content/telegram/series/legis24-2026-05-series.md`
+- Обложка `gpt-image-2`, **5–10 хештегов**, MCP `@kovcheglifan_bot`
+
+Запуск: `@max-telegram` — план/серия; `@telegram-legis24` — один пост; публикация в личку `1332429170` по запросу.
 
 ## Секреты
 
