@@ -90,7 +90,7 @@ CTA email: order@advokat-vsem.ru
 
 Пользователь разрешил публиковать объявления. Порядок:
 
-1. **Автозагрузка по URL** (основной): `python3 scripts/avito-generate-autoload-xml.py` → `git push` → фид `avito/autoload/legis24-new-ads.xml`. URL: `avito/autoload/FEED-URL.md` или `bash scripts/avito-print-feed-url.sh`. Avito забирает по расписанию из кабинета.
+1. **Автозагрузка по URL** (основной, по запросу пользователя в чате): правка XML → `git push` → фид по ссылке в `avito/autoload/FEED-URL.md`. Avito забирает сам по расписанию кабинета. Пользователь вручную файл не грузит.
 2. **API** `POST` — только если появится scope; иначе не использовать.
 3. Ручная загрузка XML — запасной путь.
 
