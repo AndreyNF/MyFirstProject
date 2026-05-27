@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Generate Avito Autoload XML (formatVersion 3) for Legis24 service ads."""
+"""Generate Avito Autoload XML (formatVersion 3) for Legis24 service ads.
+
+Canonical field values: shared/legis24-avito-xml-rules.md
+Validated via autoload.avito.ru/format/xmlcheck/
+"""
 
 from __future__ import annotations
 

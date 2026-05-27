@@ -59,7 +59,8 @@ flowchart LR
 | Визуал | `.cursor/agents/visual-avito.md` | `visual-avito-images` |
 
 Handoff: `.cursor/legis24-avito-handoff.md`  
-Инструкция запуска: `avito/AUTOMATION.md`
+Инструкция: `avito/AUTOMATION.md`  
+**XML (проверенный формат):** `shared/legis24-avito-xml-rules.md`
 
 ## Разделение зон
 

@@ -2,6 +2,12 @@
 
 Пайплайн одного объявления Avito от SKU до пакета на диске (без Telegram).
 
+## XML автозагрузки (обязательное правило)
+
+Перед выдачей XML прочитай **`shared/legis24-avito-xml-rules.md`**.  
+Генерация: `python3 scripts/avito-generate-autoload-xml.py` — скрипт уже вшивает проверенные поля.  
+Проверка: https://autoload.avito.ru/format/xmlcheck/
+
 ## Mermaid (канон для документации)
 
 ```mermaid

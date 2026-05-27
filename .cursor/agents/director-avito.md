@@ -16,7 +16,7 @@ is_background: false
 
 Фрагменты: `<PROJECT_ROOT>/.cursor/legis24-avito-fragments/`
 
-Прочитай `shared/legis24-site-context.md` и skill `.cursor/skills/avito-ad-pipeline/SKILL.md`.
+Прочитай `shared/legis24-site-context.md`, `shared/legis24-avito-xml-rules.md` и skill `.cursor/skills/avito-ad-pipeline/SKILL.md`.
 
 ## Схема (канон)
 

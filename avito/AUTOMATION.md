@@ -45,13 +45,15 @@ SKU: {sku}
 
 ### Автозагрузка XML (основной способ)
 
+**Канон:** `shared/legis24-avito-xml-rules.md` — все новые объявления только по этому формату (проверено xmlcheck).
+
 ```bash
 python3 scripts/avito-generate-autoload-xml.py
 ```
 
 Файл: `avito/autoload/legis24-new-ads.xml` (8 новых объявлений).
 
-Обязательные поля категории (как в объявлении №8159283806):
+Обязательные поля (дубль в rules-файле, эталон №8159283806):
 - `ServiceType` → `Деловые услуги`
 - `ServiceSubtype` → `Юридические услуги`
 - `ServiceSubspecies` → `Составление договоров, доверенностей, исков`
