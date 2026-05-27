@@ -1,0 +1,1198 @@
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.statya-159-177-uk-pri-dolgah-granica-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.statya-159-177-uk-pri-dolgah-granica-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.statya-159-177-uk-pri-dolgah-granica-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.statya-159-177-uk-pri-dolgah-granica-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.statya-159-177-uk-pri-dolgah-granica-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.statya-159-177-uk-pri-dolgah-granica-page th, .statya-159-177-uk-pri-dolgah-granica-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.statya-159-177-uk-pri-dolgah-granica-page th { background: #edf2f7; }
+.statya-159-177-uk-pri-dolgah-granica-page a { color: #1e40af; }
+.statya-159-177-uk-pri-dolgah-granica-page code {
+  font-size: 0.9em; background: #f1f5f9; padding: 2px 6px; border-radius: 4px;
+}
+.statya-159-177-uk-pri-dolgah-granica-page .l24-code-block {
+  background: #0f172a; color: #e2e8f0; padding: 16px 18px; border-radius: 10px;
+  overflow-x: auto; font-size: 0.88rem; line-height: 1.5; margin: 1.25em 0;
+}
+.ym-lead {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.ym-lead__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.ym-lead__text {
+  border-left: 4px solid #0f2744; padding: 4px 0 4px 22px; text-align: left;
+}
+.ym-lead__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.ym-lead__text p:last-child { margin-bottom: 0; }
+.ym-lead__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.ym-lead__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.ym-lead__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.ym-lead__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.ym-lead__chip--accent { border-color: #1e40af; color: #1e40af; }
+.ym-lead__chip--warn { border-color: #a31830; color: #a31830; }
+.ym-lead__chip--navy { border-color: #0f2744; color: #0f2744; }
+.ym-lead__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-a13 {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-a13 > h2 { margin-top: 0 !important; }
+.l24-faq-a13__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-a13__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-a13__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-a13__a { margin: 0; color: #334155; }
+.ym-section { display: block; }
+.ym-hero {
+      position: relative;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      min-height: 88vh;
+      min-height: 88dvh;
+      padding: 112px 24px 72px;
+      background: linear-gradient(165deg, #fafbfc 0%, #f4f7fb 48%, #eef2f7 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .ym-hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 42% at 94% 12%, rgba(30, 64, 175, 0.06) 0%, transparent 58%),
+        radial-gradient(ellipse 40% 36% at 4% 88%, rgba(15, 39, 68, 0.05) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .ym-hero__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .ym-hero__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .ym-hero__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #0f2744;
+      flex-shrink: 0;
+    }
+    .ym-hero__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.55rem, 3.6vw, 2.4rem);
+      line-height: 1.18;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .ym-hero__h1-accent {
+      color: #1e3a8a;
+    }
+    .ym-hero__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .ym-hero__boundary {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .ym-hero__boundary-item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .ym-hero__boundary-tag {
+      flex-shrink: 0;
+      min-width: 92px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.68rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .ym-hero__boundary-item--civil .ym-hero__boundary-tag {
+      background: #475569;
+    }
+    .ym-hero__boundary-item--159 .ym-hero__boundary-tag {
+      background: #1e40af;
+    }
+    .ym-hero__boundary-item--177 .ym-hero__boundary-tag {
+      background: #0f2744;
+    }
+    .ym-hero__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+      line-height: 1.35;
+    }
+    .ym-hero__cta:hover {
+      background: #8b1528;
+    }
+    .ym-hero__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .ym-hero {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .ym-hero__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .ym-hero__visual {
+        order: -1;
+        max-height: 320px;
+      }
+      .ym-hero__boundary-tag {
+        min-width: 80px;
+        font-size: 0.64rem;
+      }
+    }
+.l24-boris-ug-matrix-a13 {
+  --ugm-navy: #0f2744;
+  --ugm-navy-soft: #1a365d;
+  --ugm-civil: #63b3ed;
+  --ugm-159: #fc8181;
+  --ugm-1591: #f6ad55;
+  --ugm-177: #68d391;
+  --ugm-tax: #b794f4;
+  --ugm-warn: #ecc94b;
+  --ugm-ink: #e2e8f0;
+  --ugm-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ug-matrix-a13__shell {
+  background: linear-gradient(148deg, var(--ugm-navy) 0%, #152a45 52%, var(--ugm-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
+  color: var(--ugm-ink);
+}
+.l24-boris-ug-matrix-a13__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ugm-warn);
+}
+.l24-boris-ug-matrix-a13__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ug-matrix-a13__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ugm-muted);
+  max-width: 66ch;
+}
+.l24-boris-ug-matrix-a13__lead strong { color: #fff; }
+.l24-boris-ug-matrix-a13__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.98fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ug-matrix-a13__panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ug-matrix-a13__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ugm-warn);
+}
+.l24-boris-ug-matrix-a13__tree-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+}
+.l24-boris-ug-matrix-a13__routes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ug-matrix-a13__route {
+  margin: 0;
+  padding: 10px 9px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 8px;
+  border-top: 3px solid var(--ugm-civil);
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.l24-boris-ug-matrix-a13__route--159 { border-top-color: var(--ugm-159); }
+.l24-boris-ug-matrix-a13__route--1591 { border-top-color: var(--ugm-1591); }
+.l24-boris-ug-matrix-a13__route--177 { border-top-color: var(--ugm-177); }
+.l24-boris-ug-matrix-a13__route--tax {
+  grid-column: 1 / -1;
+  border-top-color: var(--ugm-tax);
+}
+.l24-boris-ug-matrix-a13__route strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 3px;
+}
+.l24-boris-ug-matrix-a13__matrix {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.l24-boris-ug-matrix-a13__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  gap: 10px;
+  align-items: start;
+  padding: 11px 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-left: 3px solid var(--ugm-civil);
+  font-size: 0.76rem;
+  line-height: 1.42;
+}
+.l24-boris-ug-matrix-a13__row--159 { border-left-color: var(--ugm-159); }
+.l24-boris-ug-matrix-a13__row--1591 { border-left-color: var(--ugm-1591); }
+.l24-boris-ug-matrix-a13__row--177 { border-left-color: var(--ugm-177); }
+.l24-boris-ug-matrix-a13__row--tax { border-left-color: var(--ugm-tax); }
+.l24-boris-ug-matrix-a13__row-event {
+  color: #fff;
+  font-weight: 600;
+}
+.l24-boris-ug-matrix-a13__row-plane {
+  color: var(--ugm-muted);
+}
+.l24-boris-ug-matrix-a13__row-plane em {
+  font-style: normal;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ug-matrix-a13__thresh {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 12px 0 0;
+}
+.l24-boris-ug-matrix-a13__thresh-card {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ug-matrix-a13__thresh-card--177 { border-color: rgba(104, 211, 145, 0.45); }
+.l24-boris-ug-matrix-a13__thresh-card--159 { border-color: rgba(252, 129, 129, 0.45); }
+.l24-boris-ug-matrix-a13__thresh-label {
+  display: block;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ugm-muted);
+  margin-bottom: 3px;
+}
+.l24-boris-ug-matrix-a13__thresh-value {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-ug-matrix-a13__note {
+  margin: 12px 0 0;
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: var(--ugm-muted);
+}
+.l24-boris-ug-matrix-a13__note em {
+  font-style: normal;
+  color: var(--ugm-warn);
+  font-weight: 600;
+}
+.l24-boris-ug-matrix-a13__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ug-matrix-a13__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ugm-ink);
+}
+.l24-boris-ug-matrix-a13__tag--civil { border: 1px solid var(--ugm-civil); color: #bee3f8; }
+.l24-boris-ug-matrix-a13__tag--159 { border: 1px solid var(--ugm-159); color: #fed7d7; }
+.l24-boris-ug-matrix-a13__tag--177 { border: 1px solid var(--ugm-177); color: #c6f6d5; }
+.l24-boris-ug-matrix-a13__tag--warn { border: 1px solid var(--ugm-warn); color: #faf089; }
+.l24-boris-ug-matrix-a13__caption {
+  margin: 12px 0 0;
+  font-size: 0.7rem;
+  color: var(--ugm-muted);
+  line-height: 1.4;
+}
+@media (max-width: 900px) {
+  .l24-boris-ug-matrix-a13__split { grid-template-columns: 1fr; }
+  .l24-boris-ug-matrix-a13__row { grid-template-columns: 1fr; }
+  .l24-boris-ug-matrix-a13__thresh { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-ug-matrix-a13__routes { grid-template-columns: 1fr; }
+}
+@media (max-width: 900px) {
+  .ym-lead__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main statya-159-177-uk-pri-dolgah-granica-page" role="main" tabindex="-1">
+
+<section id="hero" class="ym-hero" aria-label="Статья 159 и 177 УК при долгах: гражданская граница">
+  <div class="ym-hero__inner">
+    <div class="ym-hero__content">
+      <div class="ym-hero__badge">
+        <span class="ym-hero__badge-dot" aria-hidden="true"></span>
+        УГ · ст. 159 / 177 · гражданская граница · 2026
+      </div>
+      <h1 class="ym-hero__h1">
+        <span class="ym-hero__h1-accent">Статья 159 и 177 УК при долгах:</span> где гражданская граница и когда нужен адвокат
+      </h1>
+      <p class="ym-hero__sub">
+        Разбираем мошенничество при займах, злостное уклонение от погашения по исполнительному листу и защиту на проверке и в суде — без путаницы с обычным взысканием долга.
+      </p>
+      <ul class="ym-hero__boundary">
+        <li class="ym-hero__boundary-item ym-hero__boundary-item--civil">
+          <span class="ym-hero__boundary-tag">Гражданка</span>
+          <span><strong>Иск и пристав</strong> — просрочка, расписка, кредит: взыскание по договору, без умысла обмана при выдаче</span>
+        </li>
+        <li class="ym-hero__boundary-item ym-hero__boundary-item--159">
+          <span class="ym-hero__boundary-tag">ст. 159</span>
+          <span><strong>Мошенничество</strong> — обман или злоупотребление доверием <em>до</em> получения денег, не простой невозврат</span>
+        </li>
+        <li class="ym-hero__boundary-item ym-hero__boundary-item--177">
+          <span class="ym-hero__boundary-tag">ст. 177</span>
+          <span><strong>Злостное уклонение</strong> — после решения суда и ИП при возможности платить; крупный размер с 17.04.2024 — свыше 3,5 млн ₽</span>
+        </li>
+      </ul>
+      <a class="ym-hero__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовным рискам при долге</a>
+    </div>
+    <div class="ym-hero__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Весы правосудия на границе гражданского взыскания и уголовных статей 159 и 177 УК при долгах">
+        <defs>
+          <linearGradient id="ym-hero-scene" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e8eef5"/>
+          </linearGradient>
+          <linearGradient id="ym-hero-civil" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#f1f5f9"/>
+            <stop offset="100%" stop-color="#e2e8f0"/>
+          </linearGradient>
+          <linearGradient id="ym-hero-criminal" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#eff6ff"/>
+            <stop offset="100%" stop-color="#dbeafe"/>
+          </linearGradient>
+          <linearGradient id="ym-hero-beam" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#64748b"/>
+            <stop offset="50%" stop-color="#334155"/>
+            <stop offset="100%" stop-color="#64748b"/>
+          </linearGradient>
+          <filter id="ym-hero-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.12"/>
+          </filter>
+          <filter id="ym-hero-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1e293b" flood-opacity="0.1"/>
+          </filter>
+        </defs>
+        <rect x="8" y="10" width="424" height="380" rx="16" fill="url(#ym-hero-scene)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <text x="220" y="36" text-anchor="middle" fill="#64748b" font-size="9" font-weight="700" letter-spacing="0.12em">ГРАНИЦА ОТВЕТСТВЕННОСТИ</text>
+        <!-- зона гражданского взыскания -->
+        <rect x="24" y="52" width="176" height="320" rx="12" fill="url(#ym-hero-civil)" stroke="#94a3b8" stroke-width="1.2"/>
+        <text x="112" y="78" text-anchor="middle" fill="#475569" font-size="8" font-weight="800" letter-spacing="0.06em">ГРАЖДАНСКОЕ</text>
+        <g filter="url(#ym-hero-shadow-soft)" transform="translate(44, 96)">
+          <rect width="136" height="88" rx="10" fill="#fff" stroke="#94a3b8" stroke-width="1.2"/>
+          <text x="68" y="22" text-anchor="middle" fill="#334155" font-size="9" font-weight="800">ИСК · ПРИСТАВ</text>
+          <line x1="16" y1="34" x2="120" y2="34" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="16" y1="48" x2="100" y2="48" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="16" y1="62" x2="88" y2="62" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <rect x="16" y="68" width="104" height="14" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+          <text x="68" y="78" text-anchor="middle" fill="#64748b" font-size="7" font-weight="700">расписка · кредит · ГПК</text>
+        </g>
+        <g transform="translate(52, 208)">
+          <rect x="0" y="0" width="120" height="44" rx="8" fill="#fff" stroke="#64748b" stroke-width="1"/>
+          <text x="60" y="18" text-anchor="middle" fill="#475569" font-size="7" font-weight="700">исполнительный лист</text>
+          <text x="60" y="34" text-anchor="middle" fill="#334155" font-size="8" font-weight="800">без ст. 177 само по себе</text>
+        </g>
+        <!-- вертикальная граница -->
+        <line x1="220" y1="48" x2="220" y2="368" stroke="#0f2744" stroke-width="2.5" stroke-dasharray="6 5" opacity="0.55"/>
+        <polygon points="220,44 214,56 226,56" fill="#0f2744" opacity="0.7"/>
+        <polygon points="220,372 214,360 226,360" fill="#0f2744" opacity="0.7"/>
+        <text x="220" y="196" text-anchor="middle" fill="#0f2744" font-size="8" font-weight="800" letter-spacing="0.08em" transform="rotate(-90 220 196)">ГРАНИЦА</text>
+        <!-- зона уголовного -->
+        <rect x="240" y="52" width="176" height="320" rx="12" fill="url(#ym-hero-criminal)" stroke="#93c5fd" stroke-width="1.2"/>
+        <text x="328" y="78" text-anchor="middle" fill="#1e40af" font-size="8" font-weight="800" letter-spacing="0.06em">УГОЛОВНОЕ</text>
+        <g filter="url(#ym-hero-shadow-soft)" transform="translate(258, 96)">
+          <rect width="64" height="72" rx="8" fill="#fff" stroke="#1e40af" stroke-width="1.2"/>
+          <text x="32" y="20" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="800">159</text>
+          <text x="32" y="36" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">обман до</text>
+          <text x="32" y="48" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">получения</text>
+          <text x="32" y="62" text-anchor="middle" fill="#334155" font-size="6" font-weight="700">мошенничество</text>
+        </g>
+        <g filter="url(#ym-hero-shadow-soft)" transform="translate(334, 96)">
+          <rect width="64" height="72" rx="8" fill="#fff" stroke="#0f2744" stroke-width="1.2"/>
+          <text x="32" y="20" text-anchor="middle" fill="#0f2744" font-size="10" font-weight="800">177</text>
+          <text x="32" y="36" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">после</text>
+          <text x="32" y="48" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">суда · ИП</text>
+          <text x="32" y="62" text-anchor="middle" fill="#334155" font-size="6" font-weight="700">&gt; 3,5 млн</text>
+        </g>
+        <!-- весы по центру границы -->
+        <g filter="url(#ym-hero-shadow)" transform="translate(220, 200)">
+          <rect x="-6" y="52" width="12" height="88" rx="3" fill="#334155"/>
+          <ellipse cx="0" cy="48" rx="28" ry="6" fill="#475569"/>
+          <rect x="-118" y="-8" width="236" height="8" rx="4" fill="url(#ym-hero-beam)"/>
+          <line x1="-118" y1="-4" x2="-118" y2="28" stroke="#64748b" stroke-width="2"/>
+          <line x1="118" y1="-4" x2="118" y2="28" stroke="#64748b" stroke-width="2"/>
+          <!-- левая чаша — гражданка (ниже / тяжелее бытовой массы) -->
+          <path d="M-118,28 C-138,28 -148,48 -128,56 L-108,56 C-88,48 -98,28 -118,28 Z" fill="#94a3b8" stroke="#64748b" stroke-width="1"/>
+          <rect x="-138" y="14" width="40" height="18" rx="4" fill="#fff" stroke="#94a3b8" stroke-width="1"/>
+          <text x="-118" y="26" text-anchor="middle" fill="#475569" font-size="6" font-weight="800">ГПК</text>
+          <!-- правая чаша — уголовка -->
+          <path d="M118,28 C98,28 88,48 108,56 L128,56 C148,48 138,28 118,28 Z" fill="#60a5fa" stroke="#1e40af" stroke-width="1"/>
+          <rect x="98" y="14" width="40" height="18" rx="4" fill="#fff" stroke="#93c5fd" stroke-width="1"/>
+          <text x="118" y="26" text-anchor="middle" fill="#1e40af" font-size="6" font-weight="800">УК</text>
+          <!-- наклон луча: гражданка чаще «по умолчанию» -->
+          <g transform="rotate(-6 0 -4)">
+            <rect x="-118" y="-8" width="236" height="8" rx="4" fill="url(#ym-hero-beam)" opacity="0.35"/>
+          </g>
+        </g>
+        <!-- подпись внизу -->
+        <text x="112" y="348" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">неуплата ≠ тюрьма</text>
+        <text x="328" y="348" text-anchor="middle" fill="#1e40af" font-size="7" font-weight="600">состав · проверка · защита</text>
+        <rect x="156" y="362" width="128" height="22" rx="6" fill="#fff" stroke="#cbd5e1"/>
+        <text x="220" y="377" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">умысел и судебный акт решают</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="ym-lead ym-section" aria-label="Введение">
+  <div class="ym-lead__grid">
+    <div class="ym-lead__text">
+      <p>Просрочка по кредиту, расписке или договору займа сама по себе не означает уголовное дело. За невозврат денег в обычной ситуации кредитор идёт в суд, получает решение и взыскивает долг через приставов.</p>
+      <p>Уголовная ответственность за долги наступает только при особых обстоятельствах: умысел не возвращать <strong>до</strong> получения денег (ст. 159 УК) или злостное уклонение от погашения после судебного решения при реальной возможности платить (ст. 177 УК).</p>
+      <div class="ym-lead__brief">
+        <strong>Кратко:</strong> ниже — граница гражданского и уголовного, пороги после <strong>ФЗ № 79‑ФЗ</strong> (с 17.04.2024), доследственная проверка и когда подключать адвоката. Не про «списание долгов» из рекламы.
+      </div>
+    </div>
+    <aside class="ym-lead__decor" aria-label="Ключевые нормы">
+      <ul class="ym-lead__chips">
+        <li class="ym-lead__chip ym-lead__chip--navy">ст. 159 / 177</li>
+        <li class="ym-lead__chip ym-lead__chip--accent">Пленум № 48</li>
+        <li class="ym-lead__chip ym-lead__chip--warn">177 &gt; 3,5 млн ₽</li>
+        <li class="ym-lead__chip">79‑ФЗ · 2024</li>
+        <li class="ym-lead__chip">159.1 · кредит</li>
+        <li class="ym-lead__chip">доследственная</li>
+      </ul>
+      <svg class="ym-lead__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Гражданское взыскание, статья 159 и 177 УК при долгах: граница ответственности">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#475569" font-size="10" font-weight="700">ГРАНИЦА · A13</text>
+        <rect x="24" y="48" width="80" height="56" rx="8" fill="#f1f5f9" stroke="#64748b"/>
+        <text x="64" y="72" text-anchor="middle" fill="#475569" font-size="8" font-weight="800">ГПК</text>
+        <text x="64" y="88" text-anchor="middle" fill="#64748b" font-size="7">иск · пристав</text>
+        <line x1="110" y1="76" x2="148" y2="76" stroke="#94a3b8" stroke-width="2"/>
+        <rect x="152" y="44" width="56" height="40" rx="6" fill="#eff6ff" stroke="#1e40af"/>
+        <text x="180" y="68" text-anchor="middle" fill="#1e40af" font-size="9" font-weight="800">159</text>
+        <rect x="216" y="44" width="56" height="40" rx="6" fill="#f0fdf4" stroke="#0f2744"/>
+        <text x="244" y="68" text-anchor="middle" fill="#0f2744" font-size="9" font-weight="800">177</text>
+        <rect x="24" y="120" width="272" height="56" rx="8" fill="#fafbfc" stroke="#e2e8f0"/>
+        <text x="160" y="142" text-anchor="middle" fill="#334155" font-size="8" font-weight="600">умысел до выдачи · суд + ИП + &gt;3,5 млн</text>
+        <text x="160" y="158" text-anchor="middle" fill="#64748b" font-size="7">просрочка ≠ тюрьма · защита на проверке</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+
+<nav class="ym-toc ym-section" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#a13-grazhdanka">Гражданское взыскание</a></li>
+    <li><a href="#a13-159">ст. 159 · мошенничество</a></li>
+    <li><a href="#a13-177">ст. 177 · уклонение</a></li>
+    <li><a href="#a13-granica">Граница ответственности</a></li>
+    <li><a href="#boris-ug-matrix-a13">Схема 159 / 177</a></li>
+    <li><a href="#a13-vozbuzhdenie">Проверка и возбуждение</a></li>
+    <li><a href="#a13-zashchita">Защита и адвокат</a></li>
+    <li><a href="#a13-nalogi">Налоги ≠ 177</a></li>
+    <li><a href="#a13-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+
+<section class="ym-section">
+<div class="l24-longread-wrap">
+
+<h2 id="a13-grazhdanka">Простой долг и взыскание: что остаётся в гражданском поле</h2>
+
+<p><strong>Краткий ответ:</strong> если при выдаче займа или кредита не было обмана и не было заведомого намерения не платить, спор остаётся в гражданском праве — иск, исполнительный лист, работа судебных приставов.</p>
+
+<p>Есть ли уголовная ответственность за долги как таковые? В общем случае — нет. За какие долги уголовная ответственность возможна — только когда закон прямо описывает состав преступления: мошенничество (ст. 159, 159.1 УК), злостное уклонение от погашения по судебному акту (ст. 177), уклонение от налогов (ст. 198–199) и другие специальные нормы. Обычная задолженность по договору — предмет гражданского процесса.</p>
+
+<h3>Кредиты, расписки, договор займа: почему неуплата сама по себе не ст. 159</h3>
+
+<p>Гражданско-правовое обязательство возникает из договора займа (ст. 807 ГК РФ), кредитного договора, расписки. Неисполнение — просрочка, неустойка, взыскание через суд. Верховный Суд неоднократно подчёркивает: далеко не всякое неисполнение гражданско-правовых обязательств — мошенничество (п. 4 постановления Пленума ВС РФ от 30.11.2017 № 48, ред. от 15.12.2022).</p>
+
+<p>Ключевой критерий для ст. 159 — умысел на хищение <strong>до</strong> получения денег или имущества. Если человек брал в долг, намереваясь возвращать, но из‑за болезни, потери работы или ошибок в расчётах не смог — это не мошенничество при долгах, а неисполнение обязательства. По кредитам при ложных сведениях без намерения возвращать применяется ст. 159.1 УК; если кредит брался с намерением платить, но платить не смогли — по разъяснениям Пленума (п. 13–14 того же постановления) речь идёт о ст. 176 УК (злостное уклонение от погашения кредита), а не о ст. 159.1.</p>
+
+<p>Уголовная ответственность за долги по кредитам не наступает «за сам факт просрочки». Банк или МФО взыскивают долг гражданским порядком; уголовка включается лишь при доказанном обмане или иных признаках состава.</p>
+
+<h3>Исполнительное производство без уголовной статьи</h3>
+
+<p>После решения суда или выдачи исполнительного листа приставы возбуждают исполнительное производство: арест счетов, удержания из зарплаты, опись имущества, ограничения (в том числе на выезд). Это штатный механизм взыскания. Он не равен уголовному делу за долги.</p>
+
+<p>Статья 177 УК подключается не «потому что пристав пришёл», а когда одновременно есть судебный акт, злостное уклонение при возможности платить и сумма, подпадающая под квалифицирующий признак (см. ниже — с 17.04.2024 крупный размер по ст. 177 — свыше <strong>3 500 000 ₽</strong>, а не устаревшие в сети <strong>2 250 000 ₽</strong>).</p>
+
+<h3>За какую сумму и при каких условиях спор «переезжает» в УК (обобщение)</h3>
+
+<p>Отдельного «порога долга» для любой статьи не существует — важен состав:</p>
+
+<table><thead><tr><th>Плоскость</th><th>Условие (упрощённо)</th></tr></thead><tbody><tr><td>Гражданское взыскание</td><td>Долг по договору, нет обмана при выдаче</td></tr><tr><td>ст. 159 (ч. 1–4)</td><td>Обман/злоупотребление доверием; крупный — от <strong>250 001 ₽</strong>, особо крупный — от <strong>1 000 001 ₽</strong> (прим. 4 к ст. 158)</td></tr><tr><td>ст. 159 (ч. 5–7, договоры ИП/юрлиц)</td><td>После 79‑ФЗ: <strong>250 000 / 4 500 000 / 18 000 000 ₽</strong></td></tr><tr><td>ст. 177</td><td>Решение суда в силе, злостное уклонение, возможность платить, долг <strong>> 3,5 млн ₽</strong> (крупный размер)</td></tr><tr><td>Налоги</td><td>ст. 198–199, не ст. 177</td></tr></tbody></table>
+
+<p>За какую сумму долга уголовная ответственность наступает — зависит от квалификации, а не от «любой суммы свыше X».</p>
+
+<h2 id="a13-159">Статья 159 УК РФ: мошенничество при долгах и займах</h2>
+
+<p><strong>Краткий ответ:</strong> ст. 159 — хищение чужого имущества путём обмана или злоупотребления доверием. При долгах важно, было ли изначально намерение не возвращать, а не только факт просрочки.</p>
+
+<p>Мошенничество статья 159 УК применяется к сценариям «деньги в долг под ложным предлогом», фиктивному займу, выдаче под чужими документами, схемам с «списанием долгов» от имени несуществующих органов — последнее, кстати, само может быть мошенничеством в отношении потерпевшего (п. 21–22 Пленума № 48), а не законным способом решить проблему.</p>
+
+<h3>Состав преступления и признаки обмана/злоупотребления доверием</h3>
+
+<p>Объект — имущественные права. Объективная сторона — хищение обманом или злоупотреблением доверием. Субъективная — <strong>прямой умысел на хищение до получения</strong>. Пленум (п. 3–4) разъясняет: злоупотребление доверием включает принятие обязательств при заведомом отсутствии намерения исполнять; отдельные признаки (поддельные документы, сокрытие других долгов, трата не по назначению) <strong>сами по себе</strong> не предрешают квалификацию — нужна совокупность и момент возникновения умысла.</p>
+
+<p>Состав преступления мошенничество при долгах доказывается перепиской, показаниями, движением средств, поведением до и сразу после получения денег — не одной фразой в мессенджере «верну на следующей неделе».</p>
+
+<h3>Части ст. 159: крупный и особо крупный размер (ч. 3–4 и ч. 5–7)</h3>
+
+<p>Для <strong>ч. 1–4 ст. 159</strong> (типичные случаи с физлицами, займы «бытового» характера) пороги по примечанию 4 к ст. 158 УК (актуальны, для этих частей 79‑ФЗ пороги не менял):</p>
+
+<ul>
+
+<li>значительный ущерб гражданину — от <strong>10 000 ₽</strong> (ч. 2);</li>
+
+<li>крупный размер — от <strong>250 001 ₽</strong> (ч. 3);</li>
+
+<li>особо крупный — от <strong>1 000 001 ₽</strong> или организованная группа (ч. 4, санкция до 10 лет лишения свободы).</li>
+
+</ul>
+
+<p>Для <strong>ч. 5–7 ст. 159</strong> (преднамеренное неисполнение договора между субъектами предпринимательской деятельности) с <strong>17.04.2024</strong> действуют отдельные пороги в примечании к ст. 159:</p>
+
+<ul>
+
+<li>значительный ущерб — <strong>250 000 ₽</strong> (ранее 10 000);</li>
+
+<li>крупный — <strong>4 500 000 ₽</strong> (ранее 3 млн);</li>
+
+<li>особо крупный — <strong>18 000 000 ₽</strong> (ранее 12 млн).</li>
+
+</ul>
+
+<p>Путаница между этими блоками — частая ошибка в заявлениях и в СМИ: нельзя переносить порог «4,5 млн» на обычный займ по расписке между физлицами.</p>
+
+<h3>Типовые сценарии: «в долг под ложным предлогом», фиктивный заём, списание долгов как схема</h3>
+
+<ul>
+
+<li><strong>Ложный предлог:</strong> «нужно на лечение», «срочно закрыть ипотеку» — деньги потрачены иначе, при этом до получения планировалось не возвращать.</li>
+
+<li><strong>Фиктивный заём:</strong> договор формальный, стороны изначально не собирались исполнять обязательства.</li>
+
+<li><strong>Давление кредитора через 159:</strong> когда гражданский иск не даёт активов, потерпевший подаёт заявление в полицию — важно, чтобы ваши показания в гражданском и уголовном процессе не противоречили друг другу (см. блок о защите).</li>
+
+<li><strong>«Списание долгов» от «юристов» из мессенджера:</strong> это не легальная услуга по банкротству, а часто отдельное мошенничество; законная работа с долгом — банкротство по ФЗ, мировое соглашение, реструктуризация, защита в суде, а не обещание «аннулировать всё за три дня».</li>
+
+</ul>
+
+<p>Не отдал долг — мошенничество? Только если умысел не возвращать возник <strong>до</strong> выдачи, а не после наступления просрочки.</p>
+
+<h2 id="a13-177">Статья 177 УК РФ: злостное уклонение от погашения задолженности</h2>
+
+<p><strong>Краткий ответ:</strong> ст. 177 — злостное уклонение от погашения задолженности по решению суда или исполнительному листу при наличии возможности платить. Это не «любой долг приставу», а уголовная норма с жёсткими условиями и порогом суммы.</p>
+
+<p>Статья 177 УК РФ при задолженности применяется после вступления судебного акта в законную силу. Преступление <strong>длящееся</strong>: уклонение может тянуться месяцами. Субъект — гражданин или руководитель организации-должника. Нужны умысел и <strong>реальная возможность</strong> исполнить обязательство.</p>
+
+<h3>Что считается «злостным» уклонением (сокрытие имущества, смена дохода, уход от пристава)</h3>
+
+<p>177 злостное уклонение погашения в судебной практике и методрекомендациях ФССП связывают с:</p>
+
+<ul>
+
+<li>сокрытием имущества, подставными сделками, переводом активов;</li>
+
+<li>злостным неисполнением требований пристава;</li>
+
+<li>сокрытием доходов, фиктивным трудоустройством, сменой места жительства без уведомления;</li>
+
+<li>иными действиями, направленными на срыв исполнительного производства.</li>
+
+</ul>
+
+<p>Ст 177 УК РФ в исполнительном производстве рассматривают дознаватели ФССП; предупреждение о возможной уголовной ответственности — сигнал подключить адвоката, а не «договориться на месте» без понимания последствий.</p>
+
+<h3>Связь с алиментами, возмещением вреда и иными судебными платежами</h3>
+
+<p>Состав охватывает не только «кредиторский» долг, но и алименты, возмещение вреда жизни и здоровью, иные суммы по вступившему в силу судебному акту. Механизм один: суд → исполнение → злостное уклонение при возможности платить.</p>
+
+<h3>Отличие от ст. 159 и от гражданского неисполнения</h3>
+
+<table><thead><tr><th></th><th>ст. 159</th><th>ст. 177</th><th>Гражданка</th></tr></thead><tbody><tr><td>Момент</td><td>Умысел <strong>до</strong> получения</td><td>Уклонение <strong>после</strong> суда</td><td>Неисполнение договора</td></tr><tr><td>Документ</td><td>Не нужен суд для состава 159</td><td>Нужен судебный акт</td><td>Договор/расписка</td></tr><tr><td>Орган</td><td>Полиция/СК</td><td>Часто ФССП → дознание</td><td>Суд, пристав</td></tr></tbody></table>
+
+<p>Состав ст 177 УК РФ: крупный размер по примечанию к ст. 170.2 (глава 22 УК) с <strong>17.04.2024</strong> — <strong>свыше 3 500 000 ₽</strong> непогашенной задолженности; особо крупный по той же главе — <strong>13 500 000 ₽</strong>. Санкции: штраф, обязательные/принудительные работы, арест до 6 месяцев, лишение свободы до 2 лет. Срок давности — <strong>2 года</strong> (преступление небольшой тяжести).</p>
+
+<h2 id="a13-granica">Где проходит граница: гражданское взыскание или уголовное дело</h2>
+
+<p><strong>Краткий ответ:</strong> гражданка — спор о долге; 159 — обман до получения; 177 — злостный саботаж исполнения судебного решения при возможности платить и крупной сумме.</p>
+
+<p>Отграничение мошенничества от смежных составов — центральная тема для должника и для кредитора. Невозврат долга мошенничеством не считается автоматически: считается ли невозврат долга мошенничеством — только при доказанном умысле на хищение до передачи денег.</p>
+
+<h3>Мошенничество vs неисполнение обязательства vs 177 УК</h3>
+
+<ul>
+
+<li>Взял в долг, не вернул без обмана при выдаче → иск по ГК, пристав.</li>
+
+<li>Обман или «не собирался возвращать» до получения → ст. 159 / при кредите — ст. 159.1.</li>
+
+<li>Есть решение суда, исполнительное производство, уклонение при возможности платить, долг <strong>> 3,5 млн ₽</strong> → риск ст. 177.</li>
+
+<li>Недоимка перед бюджетом → ст. 198–199, <strong>не</strong> ст. 177.</li>
+
+</ul>
+
+<p>Вывод активов при банкротстве может параллельно затрагивать гражданско-правовое оспаривание сделок и уголовные ст. 195–197 (пороги крупного/особо крупного с 17.04.2024 — <strong>3,5 / 13,5 млн ₽</strong> по прим. 170.2); перенаправление средств «на спасение» долгов иногда переквалифицируют в ч. 7 ст. 159 — здесь критична ранняя юридическая оценка.</p>
+
+<h3>Когда заявление в полиции уместно, а когда — иск/пристав</h3>
+
+<p><strong>Кредитору:</strong> заявление о мошенничестве по долгу уместно при признаках обмана и доказательствах умысла до выдачи денег; при простой просрочке — иск и исполнительный лист. Возбуждение по ст 177 УК РФ — зона ФССП и крупной задолженности после суда.</p>
+
+<p><strong>Должнику:</strong> если пришла повестка, идёт проверка уголовного дела следователем или дознавателем — не смешивать «объяснение для пристава» и показания в уголовном деле без адвоката. Заявление в полицию о мошенничестве долг (со стороны контрагента) — повод зафиксировать документы: договор, платежи, переписку о намерении исполнить обязательство.</p>
+
+<section id="boris-ug-matrix-a13" class="l24-boris-ug-matrix-a13" aria-label="Схема: событие при долге — гражданская ответственность, ст. 159, 159.1, 177 или налоги">
+<div class="l24-boris-ug-matrix-a13__shell">
+    <p class="l24-boris-ug-matrix-a13__eyebrow">УК РФ · Пленум ВС № 48 · ФЗ № 79‑ФЗ с 17.04.2024</p>
+    <h3 class="l24-boris-ug-matrix-a13__title">Событие при долге → гражданка, ст. 159, 159.1 или 177</h3>
+    <p class="l24-boris-ug-matrix-a13__lead">Просрочка сама по себе — <strong>не уголовка</strong>. Слева — развилка по факту: был ли обман <strong>до</strong> получения денег, есть ли судебный акт и злостное уклонение. Справа — та же логика строками: куда уходит спор и какие пороги действуют в <strong>2026</strong> (для ст. 177 — <strong>3,5 млн ₽</strong>, не устаревшие 2,25 млн).</p>
+
+    <div class="l24-boris-ug-matrix-a13__split">
+      <div class="l24-boris-ug-matrix-a13__panel">
+        <p class="l24-boris-ug-matrix-a13__panel-title">Схема: событие → плоскость</p>
+        <svg class="l24-boris-ug-matrix-a13__tree-svg" viewBox="0 0 560 268" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="a13-ugm-hub" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#d69e2e"/>
+            </linearGradient>
+          </defs>
+          <!-- hub -->
+          <rect x="200" y="8" width="160" height="44" rx="10" fill="url(#a13-ugm-hub)" stroke="#fff" stroke-width="1.5"/>
+          <text x="280" y="28" text-anchor="middle" fill="#1a202c" font-size="10" font-weight="800">СОБЫТИЕ</text>
+          <text x="280" y="42" text-anchor="middle" fill="#2d3748" font-size="8" font-weight="600">долг · займ · кредит · ИП</text>
+          <!-- stems -->
+          <line x1="280" y1="52" x2="280" y2="68" stroke="#a0aec0" stroke-width="2"/>
+          <line x1="80" y1="68" x2="480" y2="68" stroke="#a0aec0" stroke-width="2"/>
+          <line x1="80" y1="68" x2="80" y2="88" stroke="#63b3ed" stroke-width="2"/>
+          <line x1="200" y1="68" x2="200" y2="88" stroke="#fc8181" stroke-width="2"/>
+          <line x1="360" y1="68" x2="360" y2="88" stroke="#f6ad55" stroke-width="2"/>
+          <line x1="480" y1="68" x2="480" y2="88" stroke="#68d391" stroke-width="2"/>
+          <!-- civil -->
+          <rect x="12" y="88" width="136" height="72" rx="8" fill="rgba(99,179,237,0.18)" stroke="#63b3ed" stroke-width="1.4"/>
+          <text x="80" y="108" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="800">ГРАЖДАНКА</text>
+          <text x="80" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">не обманывал при выдаче</text>
+          <text x="80" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">иск · пристав · ст. 807 ГК</text>
+          <text x="80" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">просрочка ≠ ст. 159</text>
+          <!-- 159 -->
+          <rect x="132" y="88" width="136" height="72" rx="8" fill="rgba(252,129,129,0.16)" stroke="#fc8181" stroke-width="1.4"/>
+          <text x="200" y="108" text-anchor="middle" fill="#fed7d7" font-size="9" font-weight="800">ст. 159</text>
+          <text x="200" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">обман / злоупотребление</text>
+          <text x="200" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">доверием ДО получения</text>
+          <text x="200" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">займ · расписка · схема</text>
+          <!-- 159.1 -->
+          <rect x="292" y="88" width="136" height="72" rx="8" fill="rgba(246,173,85,0.16)" stroke="#f6ad55" stroke-width="1.4"/>
+          <text x="360" y="108" text-anchor="middle" fill="#fbd38d" font-size="9" font-weight="800">ст. 159.1</text>
+          <text x="360" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">кредит: ложные сведения</text>
+          <text x="360" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">без намерения возвращать</text>
+          <text x="360" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">не просрочка платежа</text>
+          <!-- 177 -->
+          <rect x="412" y="88" width="136" height="72" rx="8" fill="rgba(104,211,145,0.16)" stroke="#68d391" stroke-width="1.4"/>
+          <text x="480" y="108" text-anchor="middle" fill="#c6f6d5" font-size="9" font-weight="800">ст. 177</text>
+          <text x="480" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">суд в силе + ИП</text>
+          <text x="480" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">злостное уклонение</text>
+          <text x="480" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">может платить · &gt; 3,5 млн</text>
+          <!-- tax branch -->
+          <line x1="280" y1="168" x2="280" y2="186" stroke="#b794f4" stroke-width="2" stroke-dasharray="4 3"/>
+          <rect x="190" y="186" width="180" height="52" rx="8" fill="rgba(183,148,244,0.14)" stroke="#b794f4" stroke-width="1.2"/>
+          <text x="280" y="206" text-anchor="middle" fill="#e9d8fd" font-size="8" font-weight="700">Недоимка бюджету → ст. 198–199</text>
+          <text x="280" y="222" text-anchor="middle" fill="#a0aec0" font-size="7">не путать со ст. 177 · прямой умысел</text>
+          <!-- legend -->
+          <text x="280" y="258" text-anchor="middle" fill="#718096" font-size="7">Пленум 30.11.2017 № 48, п. 3–4 · умысел до передачи имущества</text>
+        </svg>
+        <ul class="l24-boris-ug-matrix-a13__routes">
+          <li class="l24-boris-ug-matrix-a13__route">
+            <strong>Гражданка</strong>
+            Взял в долг, не вернул — без обмана при выдаче: ГПК, иск, пристав.
+          </li>
+          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--159">
+            <strong>ст. 159</strong>
+            «Не собирался возвращать» до получения; крупный от 250&nbsp;001&nbsp;₽ (ч. 1–4).
+          </li>
+          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--1591">
+            <strong>ст. 159.1</strong>
+            Кредит с ложными данными без намерения платить; иначе — ст. 176, не 159.1.
+          </li>
+          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--177">
+            <strong>ст. 177</strong>
+            Акт суда + злостность + возможность платить; дознание ФССП.
+          </li>
+          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--tax">
+            <strong>198–199</strong>
+            Налоговая недоимка с умыслом — отдельные пороги, не «долг по решению суда».
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-ug-matrix-a13__panel">
+        <p class="l24-boris-ug-matrix-a13__panel-title">Матрица ситуаций</p>
+        <div class="l24-boris-ug-matrix-a13__matrix" role="table" aria-label="Событие и плоскость ответственности">
+          <div class="l24-boris-ug-matrix-a13__row" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Взял в долг, не вернул без обмана</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ГПК</em> · иск · пристав · ст. 807 ГК</span>
+          </div>
+          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--159" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Обман / не планировал возвращать до выдачи</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 159</em> · полиция / СК</span>
+          </div>
+          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--1591" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Кредит: ложь в анкете, не намерен возвращать</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 159.1</em> · не просрочка</span>
+          </div>
+          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--177" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Суд в силе, ИП, уклонение, может платить</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 177</em> · долг &gt; 3,5 млн ₽</span>
+          </div>
+          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--tax" role="row">
+            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Недоимка перед бюджетом</span>
+            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 198–199</em> · не ст. 177</span>
+          </div>
+        </div>
+        <div class="l24-boris-ug-matrix-a13__thresh">
+          <div class="l24-boris-ug-matrix-a13__thresh-card l24-boris-ug-matrix-a13__thresh-card--159">
+            <span class="l24-boris-ug-matrix-a13__thresh-label">ст. 159 ч. 1–4 · крупный / особо крупный</span>
+            <span class="l24-boris-ug-matrix-a13__thresh-value">250 001 / 1 млн ₽</span>
+          </div>
+          <div class="l24-boris-ug-matrix-a13__thresh-card l24-boris-ug-matrix-a13__thresh-card--177">
+            <span class="l24-boris-ug-matrix-a13__thresh-label">ст. 177 · крупный (79‑ФЗ)</span>
+            <span class="l24-boris-ug-matrix-a13__thresh-value">&gt; 3,5 млн ₽</span>
+          </div>
+        </div>
+        <p class="l24-boris-ug-matrix-a13__note"><em>3,5 млн ровно</em> — ещё не крупный размер по гл. 22. Ч. 5–7 ст. 159 (ИП/юрлица) — другие пороги: 250 тыс. / 4,5 / 18 млн. «Списание долгов» из СМС — не защита, а риск нового 159 (Пленум № 48, п. 21–22).</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-ug-matrix-a13__foot" aria-label="Ключевые различия статей">
+      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--civil">Гражданка — спор о долге</span>
+      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--159">159 / 159.1 — умысел до получения</span>
+      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--177">177 — после суда и ФССП</span>
+      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--warn">Не дублировать матрицу A7 — угол 159+177</span>
+    </div>
+    <p class="l24-boris-ug-matrix-a13__caption">Подпись блока: практическая карта «событие → ответственность» для лонгрида A13 — без калькулятора, с актуальными порогами 2026.</p>
+  </div>
+</section>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Просрочка по расписке или долг после суда — на консультации разберут, где пока гражданское взыскание, а где риски по ст. 159 или 177 при сумме свыше 3,5 млн ₽ и злостном уклонении от исполнения решения.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовным рискам при долге</a></p>
+</aside>
+
+<h2 id="a13-vozbuzhdenie">Возбуждение дела, проверка следователя и доследственная проверка</h2>
+
+<p><strong>Краткий ответ:</strong> до возбуждения уголовного дела по долгам часто проходит доследственная проверка (до 30 суток, с продлением — до 30 и ещё до 30 при необходимости по УПК). На этой стадии закладывается квалификация.</p>
+
+<p>Уголовное дело за долги возбуждается не «за факт долга», а при наличии признаков состава по ст. 159, 177 и др. Возбуждение уголовного дела по долгам на практике нередко инициируется заявлением кредитора, когда гражданское взыскание «не берёт» должника без имущества — но у следствия всё равно должен быть материал, подтверждающий умысел или злостное уклонение.</p>
+
+<h3>Сроки и этапы до возбуждения УД</h3>
+
+<ol>
+
+<li>Заявление / сообщение о преступлении.</li>
+
+<li><strong>Доследственная проверка при возбуждении уголовного дела</strong> — опрос, запросы документов, экспертизы, иногда осмотр.</li>
+
+<li>Решение: возбудить дело, отказать, передать по подследственности.</li>
+
+<li>Предварительное следствие или дознание.</li>
+
+</ol>
+
+<p>На стадии проверки формулировка «подозреваемый» ещё может не применяться, но права на защиту и на адвоката уже актуальны.</p>
+
+<h3>Права и ошибки на стадии проверки (молчание, адвокат, документы)</h3>
+
+<ul>
+
+<li><strong>Право не свидетельствовать против себя</strong> (ст. 51 Конституции) — использовать осознанно, не «героически» молчать без стратегии.</li>
+
+<li><strong>Адвокат</strong> — с момента первого допроса как подозреваемого; на проверке разумно прийти с защитником уже при вызове «для беседы», если тема — ст. 159 или 177.</li>
+
+<li><strong>Единая версия фактов</strong> в гражданском и уголовном процессе: противоречия — подарок обвинению.</li>
+
+<li><strong>Документы:</strong> чеки частичных платежей, переписка о реструктуризации, справки о доходах, акты пристава — всё, что показывает добросовестность или отсутствие возможности платить (для 177).</li>
+
+<li><strong>Ошибки:</strong> эмоциональные признания в мессенджере, подписание непрочитанных протоколов, «пояснения» без адвоката, согласие на обыск без оценки основания.</li>
+
+</ul>
+
+<h3>Заявление о мошенничестве по долгу: что должно быть в материалах</h3>
+
+<p>Для защиты важно, чтобы в деле были: договор займа/кредита, доказательства выдачи денег, timeline платежей, переписка <strong>до</strong> сделки (не только «где деньги» после просрочки). Проверка уголовного дела следователем оценивает, когда возник умысел — практика 2025–2026 годов: кассация отменяет приговоры без доказанности умысла до получения.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Вызов «на беседу» по долгу, доследственная проверка или предупреждение пристава о ст. 177 — на этой стадии закрепляется квалификация и статус. Ошибки в протоколе и противоречия с гражданским иском потом исправлять дороже.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь на стадии проверки и до возбуждения дела</a></p>
+</aside>
+
+<h2 id="a13-zashchita">Защита на доследственной проверке и в суде: когда нужен адвокат</h2>
+
+<p><strong>Краткий ответ:</strong> адвокат по уголовным делам нужен при первом контакте со следствием по ст. 159/177, при обыске, при параллельном гражданском иске и при сумме по 177, превышающей 3,5 млн ₽.</p>
+
+<p>Защита по уголовному делу начинается не в зале суда, а на доследственной проверке: ходатайства, отводы, заключения экспертов, ходатайства о переоценке квалификации (например, с 159 на гражданско-правовой спор).</p>
+
+<h3>Досрочное подключение защитника vs назначенный адвокат</h3>
+
+<p>Досрочное подключение защитника по договору даёт единую линию с первого допроса. Назначенный адвокат — право при отсутствии средств, но нагрузка у таких специалистов высокая; в экономических и долговых спорах с пересечением ст. 159/177 целесообразна консультация по уголовным рискам при долгах до первого контакта со следствием.</p>
+
+<h3>Линия защиты по ст. 159 и по ст. 177 (отсутствие состава, переоценка квалификации)</h3>
+
+<p><strong>По ст. 159:</strong> умысел возник после просрочки; добросовестное заблуждение; частичное исполнение; гражданско-правовой характер спора; неверный расчёт размера (ч. 3 vs ч. 1). Пленум 15.11.2016 № 48 (ред. 23.12.2025) по экономическим преступлениям: уголовное преследование не должно подменять решение бизнес-споров — для ч. 1–4 ст. 159 и ст. 177 в предпринимательском контексте дела часто <strong>частно-публичные</strong>.</p>
+
+<p><strong>По ст. 177:</strong> отсутствие судебного акта или его не вступление в силу; отсутствие возможности платить; незлостный характер действий; сумма ниже 3,5 млн ₽; погашение долга в ходе проверки (оценка прекращения по основаниям УПК — с адвокатом).</p>
+
+<p><strong>ст. 76.1 УК:</strong> освобождение от уголовной ответственности при возмещении ущерба — для перечня экономических статей; <strong>ч. 5–7 ст. 159</strong> предусматривают возмещение потерпевшему и <strong>двукратное</strong> перечисление в бюджет (на практике трудно при крупных суммах); ч. 1–4 ст. 159 в перечне ч. 2 ст. 76.1 <strong>не названы</strong> — на досудебной стадии это обсуждают с защитником, не по рекламе «спишем долг».</p>
+
+<p>Консультация по уголовным рискам при долгах и защита в уголовном деле — предмет работы профильного адвоката; это не услуга «аннулирования» задолженности.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Параллельно гражданский иск и уголовная проверка по ст. 159 или 177 — линию защиты, ходатайства и доказательства добросовестности лучше согласовать с защитником до первого допроса, а не после возбуждения дела.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Защита в уголовном деле</a></p>
+</aside>
+
+<h2 id="a13-nalogi">(Кратко) Налоговая задолженность: не путать со ст. 177</h2>
+
+<p><strong>Краткий ответ:</strong> неуплата налогов — ст. 198–199 УК, уклонение от уплаты налогов УК РФ требует <strong>прямого умысла</strong>; сомнения трактуются в пользу налогоплательщика (Пленум ВС 26.11.2019 № 48). Это не «статья 177 при задолженности» перед бюджетом.</p>
+
+<p>Злостное уклонение от уплаты налогов в бытовой речи путают со ст. 177; в кодексе ст. 177 — про судебные долги перед кредиторами/потерпевшими, а не про недоимку. Пороги по ст. 199 с учётом индексации 79‑ФЗ: для организаций крупный <strong>18 750 000 ₽</strong>, особо крупный <strong>56 250 000 ₽</strong> за три финансовых года; для ст. 198 — <strong>2 700 000 / 13 500 000 ₽</strong>. Углубление в НК здесь не требуется — достаточно не смешивать ветки ответственности.</p>
+
+<h3>Схема: событие → какая ответственность</h3>
+
+<pre class="l24-code-block"><code>Взял деньги, обещал вернуть, не обманывал → ГПК, иск, пристав
+Обманул / не планировал возвращать ДО выдачи → ст. 159 (или 159.1 — кредит)
+Суд в силе + злостно не платит + может платить + > 3,5 млн → ст. 177
+Недоимка налогов с умыслом → ст. 198–199</code></pre>
+
+<h3>Чек-лист: действия до допроса</h3>
+
+<table><thead><tr><th>Ситуация</th><th>Действие</th></tr></thead><tbody><tr><td>Вызов «на беседу» по долгу</td><td>Уточнить статус: свидетель / подозреваемый; адвокат</td></tr><tr><td>Заявление кредитора в полицию</td><td>Собрать договор, платежи, переписку до сделки</td></tr><tr><td>Исполнительное производство, долг > 3,5 млн</td><td>Оценить риск 177; не скрывать имущество; легальная защита</td></tr><tr><td>Параллельно гражданский иск</td><td>Согласовать позицию с уголовным защитником</td></tr><tr><td>Предложение «списать долг за комиссию»</td><td>Отказ; риск нового мошенничества</td></tr></tbody></table>
+
+<section id="a13-faq" class="l24-faq-a13 ym-section" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+
+<h2>Частые вопросы (FAQ)</h2>
+
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+<h3 class="l24-faq-a13__q" itemprop="name">Можно ли сесть за долг по кредиту?</h3>
+
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+<p class="l24-faq-a13__a" itemprop="text">Нет как общее правило. Просрочка по кредиту — гражданско-правовые меры. Уголовка — при ложных сведениях без намерения возвращать (ст. 159.1) или иных составах, не при обычной несостоятельности.</p>
+
+</div></div>
+
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+<h3 class="l24-faq-a13__q" itemprop="name">Считается ли невозврат долга мошенничеством?</h3>
+
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+<p class="l24-faq-a13__a" itemprop="text">Нет, если при выдаче не было умысла не возвращать. Мошенничество при долгах — когда обман или злоупотребление доверием были до получения денег.</p>
+
+</div></div>
+
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+<h3 class="l24-faq-a13__q" itemprop="name">Чем ст. 159 отличается от ст. 177 при задолженности?</h3>
+
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+<p class="l24-faq-a13__a" itemprop="text">159 — хищение до/в момент получения обманом; 177 — злостное неисполнение <strong>после</strong> судебного решения при возможности платить и крупной сумме (> 3,5 млн ₽ с 17.04.2024).</p>
+
+</div></div>
+
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+<h3 class="l24-faq-a13__q" itemprop="name">Как понять, что возбудят уголовное дело, а не ограничатся гражданским иском?</h3>
+
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+<p class="l24-faq-a13__a" itemprop="text">Признаки: заявление о 159 с материалами об обмане; предупреждение ФССП о 177; сумма и поведение (сокрытие активов). Окончательно — решение следователя/дознавателя после проверки.</p>
+
+</div></div>
+
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+<h3 class="l24-faq-a13__q" itemprop="name">Нужен ли адвокат на доследственной проверке?</h3>
+
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+<p class="l24-faq-a13__a" itemprop="text">Да, если тема — ст. 159, 177 или есть риск возбуждения. Ранняя защита дешевле, чем исправление ошибок после возбуждения дела.</p>
+
+</div></div>
+
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+<h3 class="l24-faq-a13__q" itemprop="name">Есть ли уголовная ответственность за долги?</h3>
+
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+<p class="l24-faq-a13__a" itemprop="text">За сам факт долга — нет. За составы при обмане, злостном уклонении от судебного долга, налогах и т.д. — да, при доказанности элементов.</p>
+
+</div></div>
+
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+
+<h3 class="l24-faq-a13__q" itemprop="name">За какие долги уголовная ответственность?</h3>
+
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+
+<p class="l24-faq-a13__a" itemprop="text">По ст. 177 — задолженность по вступившему судебному акту (алименты, вред, кредит после суда и др.) при злостном уклонении; по ст. 159 — хищение через обман при займах и сделках; налоги — отдельные статьи.</p>
+
+</div></div>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации по уголовным рискам при долгах: граница гражданского и уголовного, ст. 159 и 177, защита на доследственной проверке и в суде.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом</a></p>
+</aside>
+</section>
+
+</div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Статья 159 и 177 УК при долгах: где гражданская граница и когда нужен адвокат",
+      "description": "Когда долг остаётся гражданским спором, а когда возможны ст. 159 УК (мошенничество) и ст. 177 УК (злостное уклонение от погашения). Граница ответственности, возбуждение дела, доследственная проверка и когда подключать адвоката.",
+      "author": {
+        "@type": "Organization",
+        "name": "Legis24"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Legis24"
+      },
+      "inLanguage": "ru-RU",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://advokat-vsem.online/statya-159-177-uk-pri-dolgah-granica/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Можно ли сесть за долг по кредиту?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет как общее правило. Просрочка по кредиту — гражданско-правовые меры. Уголовка — при ложных сведениях без намерения возвращать (ст. 159.1) или иных составах, не при обычной несостоятельности."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Считается ли невозврат долга мошенничеством?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет, если при выдаче не было умысла не возвращать. Мошенничество при долгах — когда обман или злоупотребление доверием были до получения денег."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Чем ст. 159 отличается от ст. 177 при задолженности?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "159 — хищение до/в момент получения обманом; 177 — злостное неисполнение после судебного решения при возможности платить и крупной сумме (> 3,5 млн ₽ с 17.04.2024)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Как понять, что возбудят уголовное дело, а не ограничатся гражданским иском?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Признаки: заявление о 159 с материалами об обмане; предупреждение ФССП о 177; сумма и поведение (сокрытие активов). Окончательно — решение следователя/дознавателя после проверки."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Нужен ли адвокат на доследственной проверке?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, если тема — ст. 159, 177 или есть риск возбуждения. Ранняя защита дешевле, чем исправление ошибок после возбуждения дела."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Есть ли уголовная ответственность за долги?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "За сам факт долга — нет. За составы при обмане, злостном уклонении от судебного долга, налогах и т.д. — да, при доказанности элементов."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "За какие долги уголовная ответственность?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "По ст. 177 — задолженность по вступившему судебному акту при злостном уклонении; по ст. 159 — хищение через обман при займах; налоги — отдельные статьи."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</main>
+<!-- /wp:html -->
