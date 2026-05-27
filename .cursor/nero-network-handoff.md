@@ -2696,3 +2696,15 @@ SLUG: statya-159-177-uk-pri-dolgah-granica
 **Description:** Когда долг остаётся гражданским спором, а когда возможны ст. 159 УК (мошенничество) и ст. 177 УК (злостное уклонение от погашения). Граница ответственности, возбуждение дела, доследственная проверка и когда подключать адвоката.
 **slug:** `statya-159-177-uk-pri-dolgah-granica`
 **page ready for MCP blob publish:** да — файл `.cursor/page-content-natasha-A13.html`, обёртка `<!-- wp:html -->`, `main#primary` класс `statya-159-177-uk-pri-dolgah-granica-page`, hero `#hero`, Boris `#boris-ug-matrix-a13`, JSON-LD Article + FAQPage в конце.
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО
+Дата: 2026-05-27
+Код: A13 | page_id: **370**
+slug: statya-159-177-uk-pri-dolgah-granica
+URL: https://advokat-vsem.online/statya-159-177-uk-pri-dolgah-granica/
+Способ: MCP Kovcheg blob flow (`wordpress_content_blob_append` ×4 + `wordpress_update_page_from_blob` + `wordpress_update_page` publish)
+blob_id: SQ9ppPvqGGTIHpzFb2jLKoC | sha256: 8ab72afdd7b48c73f06e425f5b9d8d858e9cf5d5ebd92fbc6cb498dcd8aa82af
+excerpt: Когда долг остаётся гражданским спором, а когда возможны ст. 159 УК (мошенничество) и ст. 177 УК (злостное уклонение от погашения). Граница ответственности, возбуждение дела, доследственная проверка и когда подключать адвоката.
+Live-check: `main#primary` ✅ | `statya-159-177-uk-pri-dolgah-granica-page` ✅ | `#hero` / `ym-hero` ✅ | `#boris-ug-matrix-a13` / `l24-boris-ug-matrix-a13` ✅ | без `<script>` в body ✅
+Реестр: `nero-network-office-page/shared/published-pages.md`, `content-plan-legis24.md` (✅ A13)
