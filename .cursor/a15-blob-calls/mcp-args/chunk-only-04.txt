@@ -1,0 +1,221 @@
+) — это не «отказ по ст. 1483», но результат тот же: регистрации не будет.</p>
+
+<h3>Экспертиза по существу: сходство, тождество, охраноспособность</h3>
+
+<p><strong>Экспертиза по существу товарного знака</strong> — ключевой этап. Регламентный срок — <strong>12 месяцев</strong> (п. 112 АР ТЗ). Экспертиза <strong>товарного знака</strong> по существу включает:</p>
+<ul>
+  <li>проверку абсолютных оснований (ст. 1483 п. 1–5, 8–9 ГК РФ);</li>
+  <li>сравнение с ранними товарными знаками, заявками, иными обозначениями (п. 6–7, 10);</li>
+  <li>учёт возражений третьих лиц после публикации сведений о заявке (ст. 1493).</li>
+</ul>
+
+<p>На этой стадии снова возможен <strong>запрос</strong> — например, уточнение формулировок перечня или дополнительные материалы. А при выявлении препятствий Роспатент направляет <strong>уведомление о результатах проверки</strong> (ст. 1499 п. 3 ГК РФ) — второе критичное «письмо». Это <strong>предварительный отказ</strong>: эксперт излагает основания, противопоставляет знаки, предлагает представить доводы.</p>
+
+<p>Срок для доводов — <strong>6 месяцев со дня направления уведомления</strong>, а не со дня, когда вы его открыли в личном кабинете. <strong>Этот срок не продлевается</strong> — принципиальное отличие от запроса экспертизы. Игнорирование уведомления часто заканчивается финальным <strong>решением об отказе</strong> — третьим «письмом».</p>
+
+<h3>Регистрация в реестре и выдача свидетельства</h3>
+
+<p>Если оснований для отказа нет (или вы их успешно сняли ответом на уведомление), Роспатент принимает <strong>решение о регистрации</strong>. После уплаты пошлины за регистрацию и выдачу свидетельства знак вносится в реестр. Этап занимает до <strong>1,5 месяцев</strong> (п. 165, 170 АР ТЗ).</p>
+
+<p>Общий срок оказания госуслуги по регламенту — <strong>18 месяцев 2 недели</strong> (п. 13 АР ТЗ). На практике медиана прохождения заявки в 2025 году составляла около <strong>296 дней</strong> (~10 месяцев) по данным агрегаторов статистики — ориентир для планирования, не индивидуальная гарантия.</p>
+
+<p><strong>Как зарегистрировать товарный знак</strong> пошагово: проверка → заявка → формальная экспертиза → экспертиза по существу (с возможными запросом и уведомлением) → пошлина за регистрацию → свидетельство.</p>
+
+<section id="l24-boris-tz-route" class="l24-boris-tz-route" aria-label="Три письма Роспатента: запрос, уведомление, отказ — сроки и последствия">
+<style>
+.l24-boris-tz-route {
+  --tzr-navy: #0f2744;
+  --tzr-navy-soft: #1a365d;
+  --tzr-blue: #3182ce;
+  --tzr-gold: #ecc94b;
+  --tzr-amber: #d69e2e;
+  --tzr-accent: #c53030;
+  --tzr-mint: #68d391;
+  --tzr-ink: #e2e8f0;
+  --tzr-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-tz-route__shell {
+  background: linear-gradient(148deg, var(--tzr-navy) 0%, #152a45 52%, var(--tzr-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
+  color: var(--tzr-ink);
+}
+.l24-boris-tz-route__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tzr-gold);
+}
+.l24-boris-tz-route__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-tz-route__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--tzr-muted);
+  max-width: 66ch;
+}
+.l24-boris-tz-route__lead strong { color: #fff; }
+.l24-boris-tz-route__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.98fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-tz-route__panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-tz-route__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tzr-gold);
+}
+.l24-boris-tz-route__map-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  margin-bottom: 14px;
+}
+.l24-boris-tz-route__letters {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-tz-route__letter {
+  margin: 0;
+  padding: 12px 10px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 8px;
+  border-top: 3px solid var(--tzr-blue);
+  font-size: 0.76rem;
+  line-height: 1.42;
+}
+.l24-boris-tz-route__letter:nth-child(2) { border-top-color: var(--tzr-amber); }
+.l24-boris-tz-route__letter:nth-child(3) { border-top-color: var(--tzr-accent); }
+.l24-boris-tz-route__letter strong {
+  display: block;
+  color: #fff;
+  font-size: 0.82rem;
+  margin-bottom: 4px;
+}
+.l24-boris-tz-route__matrix {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 0 0 12px;
+}
+.l24-boris-tz-route__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(72px, 0.7fr) minmax(0, 1fr);
+  gap: 8px 10px;
+  align-items: center;
+  padding: 10px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.74rem;
+  line-height: 1.35;
+}
+.l24-boris-tz-route__row--req { border-left: 3px solid var(--tzr-blue); }
+.l24-boris-tz-route__row--notif { border-left: 3px solid var(--tzr-amber); }
+.l24-boris-tz-route__row--ref { border-left: 3px solid var(--tzr-accent); }
+.l24-boris-tz-route__row-name {
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.78rem;
+}
+.l24-boris-tz-route__row-term {
+  font-weight: 800;
+  color: var(--tzr-gold);
+  text-align: center;
+  font-size: 0.8rem;
+}
+.l24-boris-tz-route__row-fail {
+  color: #fed7d7;
+  font-size: 0.72rem;
+}
+.l24-boris-tz-route__row-fail em {
+  font-style: normal;
+  color: var(--tzr-mint);
+  font-weight: 600;
+}
+.l24-boris-tz-route__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--tzr-muted);
+}
+.l24-boris-tz-route__note em {
+  font-style: normal;
+  color: var(--tzr-mint);
+  font-weight: 600;
+}
+.l24-boris-tz-route__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-tz-route__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--tzr-ink);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.l24-boris-tz-route__tag--pps { border-color: rgba(104, 211, 145, 0.45); color: #c6f6d5; }
+.l24-boris-tz-route__tag--warn { border-color: rgba(252, 129, 129, 0.45); color: #fed7d7; }
+.l24-boris-tz-route__caption {
+  margin: 12px 0 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: rgba(160, 174, 192, 0.88);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+@media (max-width: 900px) {
+  .l24-boris-tz-route__split { grid-template-columns: 1fr; }
+  .l24-boris-tz-route__letters { grid-template-columns: 1fr; }
+  .l24-boris-tz-route__row {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .l24-boris-tz-route__row-term { text-align: left; }
+}
+</style>
+
+  <div class="l24-boris-tz-route__shell">
+    <p class="l24-boris-tz-route__eyebrow">ГК РФ ст. 1499 п.3 · 1500 · 1501 · АР ТЗ № 483</p>
+    <h3 class="l24-boris-tz-route__title">Три письма Роспатента: не путать запрос, уведомление и отказ</h3>
+    <p class="l24-boris-tz-route__lead">Слева — <strong>маршрут корреспонденции</strong> на пути к свидетельству. Справа — <strong>сроки и цена пропуска</strong>: только у запроса есть продление; уведомление даёт жёсткие <strong>6 месяцев</strong> с даты <strong>направления</strong>; после финального отказа — <strong>4 месяца</strong> в ППС и затем СИП.</p>
+
+    <div class="l24-boris-tz-route__split">
+      <div class="l24-boris-tz-route__panel">
+        <p class="l24-boris-tz-route__panel-title">Карта трёх писем</p>
+        <svg class="l24-boris-tz-route__map-svg" viewBox="0 0 540 172"

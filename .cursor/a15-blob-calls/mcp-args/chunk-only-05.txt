@@ -1,0 +1,115 @@
+ xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="tzr-letters-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#3182ce"/>
+              <stop offset="50%" stop-color="#d69e2e"/>
+              <stop offset="100%" stop-color="#c53030"/>
+            </linearGradient>
+          </defs>
+          <line x1="44" y1="82" x2="496" y2="82" stroke="url(#tzr-letters-line)" stroke-width="4" stroke-linecap="round"/>
+          <rect x="28" y="52" width="88" height="58" rx="6" fill="rgba(49,130,206,0.22)" stroke="#63b3ed" stroke-width="1.4"/>
+          <text x="72" y="72" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="700">Запрос</text>
+          <text x="72" y="88" text-anchor="middle" fill="#e2e8f0" font-size="8">п.102 АР ТЗ</text>
+          <text x="72" y="102" text-anchor="middle" fill="#90cdf4" font-size="7.5">+ продление</text>
+          <rect x="206" y="48" width="128" height="66" rx="6" fill="rgba(214,158,46,0.2)" stroke="#ecc94b" stroke-width="1.6"/>
+          <text x="270" y="70" text-anchor="middle" fill="#faf089" font-size="9" font-weight="700">Уведомление</text>
+          <text x="270" y="86" text-anchor="middle" fill="#e2e8f0" font-size="8">ст. 1499 п.3</text>
+          <text x="270" y="102" text-anchor="middle" fill="#fbd38d" font-size="7.5" font-weight="600">6 мес. · без продления</text>
+          <rect x="424" y="52" width="88" height="58" rx="6" fill="rgba(197,48,48,0.22)" stroke="#fc8181" stroke-width="1.4"/>
+          <text x="468" y="72" text-anchor="middle" fill="#fed7d7" font-size="9" font-weight="700">Отказ</text>
+          <text x="468" y="88" text-anchor="middle" fill="#e2e8f0" font-size="8">решение</text>
+          <text x="468" y="102" text-anchor="middle" fill="#feb2b2" font-size="7.5">→ ППС 4 мес.</text>
+          <circle cx="72" cy="82" r="10" fill="#3182ce" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="270" cy="82" r="10" fill="#d69e2e" stroke="#fff" stroke-width="1.5"/>
+          <circle cx="468" cy="82" r="10" fill="#c53030" stroke="#fff" stroke-width="1.5"/>
+          <path d="M 120 82 L 198 82" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <path d="M 338 82 L 412 82" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <rect x="32" y="128" width="148" height="32" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="106" y="148" text-anchor="middle" fill="#e2e8f0" font-size="8">не ответили → отзыв заявки</text>
+          <rect x="196" y="128" width="148" height="32" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="270" y="148" text-anchor="middle" fill="#e2e8f0" font-size="8">молчание → финальный отказ</text>
+          <rect x="360" y="128" width="148" height="32" rx="5" fill="rgba(39,103,73,0.4)" stroke="rgba(104,211,145,0.35)" stroke-width="1"/>
+          <text x="434" y="148" text-anchor="middle" fill="#c6f6d5" font-size="8" font-weight="600">возражение 9 000 ₽ · ППС</text>
+        </svg>
+        <ul class="l24-boris-tz-route__letters">
+          <li class="l24-boris-tz-route__letter">
+            <strong>1. Запрос экспертизы</strong>
+            Уточнение документов, МКТУ, изображения. Срок в запросе; можно продлить ходатайством и пошлиной. Пропуск — отзыв заявки (п.105 АР ТЗ), не «отказ по 1483».
+          </li>
+          <li class="l24-boris-tz-route__letter">
+            <strong>2. Уведомление (предварительный отказ)</strong>
+            Доводы заявителя — 6 месяцев со дня направления (1499 п.3). Срок не продлевается. Игнор — решение без учёта аргументов.
+          </li>
+          <li class="l24-boris-tz-route__letter">
+            <strong>3. Решение об отказе</strong>
+            Возражение в ППС — 4 месяца (1500); копии противопоставлений — запрос в 2 месяца. Далее СИП по ст. 1248 после досудебки.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-tz-route__panel">
+        <p class="l24-boris-tz-route__panel-title">Сроки и последствия</p>
+        <div class="l24-boris-tz-route__matrix" role="table" aria-label="Сравнение запроса, уведомления и отказа">
+          <div class="l24-boris-tz-route__row l24-boris-tz-route__row--req" role="row">
+            <span class="l24-boris-tz-route__row-name" role="cell">Запрос</span>
+            <span class="l24-boris-tz-route__row-term" role="cell">до 6 мес.</span>
+            <span class="l24-boris-tz-route__row-fail" role="cell">Продление <em>да</em> · пропуск → <em>отзыв заявки</em></span>
+          </div>
+          <div class="l24-boris-tz-route__row l24-boris-tz-route__row--notif" role="row">
+            <span class="l24-boris-tz-route__row-name" role="cell">Уведомление</span>
+            <span class="l24-boris-tz-route__row-term" role="cell">6 мес.</span>
+            <span class="l24-boris-tz-route__row-fail" role="cell">Продление <em>нет</em> · отсчёт с <em>направления</em>, не получения</span>
+          </div>
+          <div class="l24-boris-tz-route__row l24-boris-tz-route__row--ref" role="row">
+            <span class="l24-boris-tz-route__row-name" role="cell">Отказ</span>
+            <span class="l24-boris-tz-route__row-term" role="cell">4 мес.</span>
+            <span class="l24-boris-tz-route__row-fail" role="cell">ППС 9 000 ₽ · восстановление по <em>1501</em> — 6 мес., причины</span>
+          </div>
+        </div>
+        <p class="l24-boris-tz-route__note"><em>Частичный отказ</em> — регистрация по одним классам МКТУ и спор по отказной части в ППС. <em>Копии противопоставлений</em> в 2 месяца продлевают подготовку возражения (1500 п.1).</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-tz-route__foot" aria-label="Следующие шаги после отказа">
+      <span class="l24-boris-tz-route__tag l24-boris-tz-route__tag--pps">ППС: первое заседание ≤ 1 мес. с принятия</span>
+      <span class="l24-boris-tz-route__tag">СИП: досудебный порядок обязателен (ст. 1248)</span>
+      <span class="l24-boris-tz-route__tag l24-boris-tz-route__tag--warn">Не путать «отказ 1483» и отзыв заявки</span>
+      <span class="l24-boris-tz-route__tag">Письмо-согласие · сужение МКТУ (1500 п.2)</span>
+    </div>
+    <p class="l24-boris-tz-route__caption">Подпись блока: карта корреспонденции Роспатента — три типа писем, три режима сроков, одна заявка.</p>
+  </div>
+</section>
+
+<h2 id="tz-docs">Документы, классы МКТУ и госпошлина</h2>
+
+<h3>Какие документы нужны для заявки</h3>
+
+<p>Стандартный пакет для <strong>заявки на регистрацию товарного знака</strong>:</p>
+<ul>
+  <li>заявление по форме;</li>
+  <li>изображение знака (300 dpi, чёткие границы, без «лишних» элементов, если они не заявляются на охрану);</li>
+  <li>описание обозначения (если требуется);</li>
+  <li>перечень товаров и услуг по классам МКТУ;</li>
+  <li>квитанции об уплате <strong>госпошлины за регистрацию товарного знака</strong>;</li>
+  <li>доверенность представителя;</li>
+  <li>приоритетные документы (если заявляется конвенционный приоритет).</li>
+</ul>
+
+<p>Для коллективного знака или иных специальных случаев перечень шире — см. приказ Минэкономразвития № 482.</p>
+
+<h3>Как выбрать классы МКТУ для товарного знака</h3>
+
+<p><strong>Класс МКТУ для товарного знака</strong> определяет, где действует монополия. Классификация МКТУ — международная; в заявке указывают номер класса и конкретные формулировки товаров/услуг.</p>
+
+<p>Типичные ошибки:</p>
+<ul>
+  <li>выбрать слишком узкий перечень и выйти за его пределы при реальном обороте;</li>
+  <li>«захватить» лишние <strong>классы МКТУ для регистрации товарного знака</strong> — растёт <strong>стоимость регистрации товарного знака</strong> и вероятность противопоставлений;</li>
+  <li>перепутать смежные классы (например, производство и торговля).</li>
+</ul>
+
+<p>Каждый дополнительный класс увеличивает сумму пошлин за экспертизу и регистрацию.</p>
+
+<h3>Размер госпошлины и сроки оплаты</h3>
+
+<p><strong>Госпошлина за регистрацию товарного знака</strong> (2025–2026, по таблице патентных пошлин ФИПС) для одного класса М
