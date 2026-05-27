@@ -17,14 +17,16 @@
 | 9 | Пт | Срок | ФНС → СК, допрос через 3 дня | Анализ 25k |
 | 10 | Пн | Партнёрам | Бухгалтерам: 30% | Партнёрка |
 
-**Обложки:** gpt-image-2, 16:9, промпты ниже.  
+**Обложки:** gpt-image-2, 16:9, 2K — **отдельная генерация на каждый пост** (агенты max-telegram + telegram-legis24). Не переиспользовать одну картинку.  
 **Публикация:** `telegram_send_photo`, chat_id `1332429170`, parse_mode HTML.
 
 ---
 
 ## Пост 1 — Знакомство с Legis24
 
-**Промпт обложки:** Corporate Telegram cover Legis24, navy blue, legal documents and 24h clock concept, photorealistic, no text, no faces.
+**Промпт обложки:** Unique POST 1 brand intro: 24h timeline ribbon, law books, tablet charts, teal-navy gradient, 16:9, no text/faces.
+
+**Обложка (сгенерировано):** https://tempfile.aiquickdraw.com/images/chatgpt/532c9373924f6548acb818081928fcf9_4369b0e219b04364b014d51cf1985e47.png
 
 **Текст (HTML):**
 

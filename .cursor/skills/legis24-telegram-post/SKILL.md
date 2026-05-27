@@ -32,7 +32,9 @@
 ## Формат
 
 - `parse_mode`: HTML
-- Обложка: `gpt-image-2`, **16:9**, 2K; URL для Telegram — tempfile или хост, доступный серверам Telegram (WP иногда отдаёт 400)
+- Обложка: **`gpt-image-2` — отдельный вызов на каждый пост**, уникальный промпт под тему. **Запрещено** повторно использовать URL/файл другого поста.
+- Параметры: **16:9**, **2K**; после генерации — `wordpress_upload_media` (архив) + для Telegram — **tempfile URL** из ответа gpt-image-2 (серверы Telegram часто не качают WP)
+- Агенты: **max-telegram** (промпт + серия), **telegram-legis24** / Task(visual) — генерация
 - Личная отправка: `chat_id` из `telegram_get_updates` после `/start` у `@kovcheglifan_bot`
 - Caption ≤ 1024 символа (с учётом хештегов — укорачивать основной текст при необходимости)
 

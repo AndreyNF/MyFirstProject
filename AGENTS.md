@@ -101,6 +101,7 @@ Handoff: `.cursor/legis24-avito-handoff.md`
 |-------|------|-------|
 | **Макс** (стратег канала) | `.cursor/agents/max-telegram.md` | `telegram-channel-strategy` |
 | Telegram Legis24 (тексты) | `.cursor/agents/telegram-legis24.md` | `legis24-telegram-post` |
+| Визуал Telegram | `.cursor/agents/visual-telegram.md` | `legis24-telegram-post` |
 
 - Анализ сайта: `shared/legis24-site-analysis-telegram.md`
 - Серия постов: `content/telegram/series/legis24-2026-05-series.md`
