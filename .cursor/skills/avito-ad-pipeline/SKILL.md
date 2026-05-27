@@ -29,9 +29,8 @@ flowchart LR
     Pet[Петрович: заголовки цена]
   end
   subgraph visual [Картинки MCP]
-    I1[flux2-pro / nano_banana]
-    I2[recraft: без фона]
-    I3[seedream-edit: варианты]
+    I1[gpt-image-2]
+    I2[wordpress_upload_media]
   end
   subgraph out [Выдача]
     Pack[Пакет: ядро + 5-8 фото]
@@ -44,8 +43,7 @@ flowchart LR
   Z --> Pet
   Pet --> I1
   I1 --> I2
-  I2 --> I3
-  I3 --> Pack
+  I2 --> Pack
 ```
 
 ## MCP Kovcheg — семантика
@@ -62,13 +60,13 @@ flowchart LR
 
 | Шаг | Инструмент | Назначение |
 |-----|------------|------------|
-| I1 | `flux2-pro-text-to-image` или `nano_banana_2` | Базовые сцены (офис, документы, без лиц реальных людей) |
-| I2 | `recraft_remove_background` | PNG без фона для коллажа |
-| I3 | `seedream-4_5-edit` | 2–3 варианта: другой фон, акцент на текст/печать |
+| I1 | `gpt-image-2` (fallback `z-image`) | Главное фото 1:1, деловой стиль |
+| I2 | `wordpress_upload_media` | Публичный HTTPS для `<Images>` в XML |
 
-**Промпт визуала:** деловой стиль, светлый фон, без водяных знаков, без чужих логотипов.  
-**Соотношения:** `1:1` (главное), `4:3` (доп. в галерее).  
-**Количество:** 5–8 URL в пакете.
+Агент: `visual-avito`. Публикация фида: `yura-avito`.
+
+**Промпт:** документы/офис, navy blue, без лиц и текста на картинке.  
+**Минимум:** 1 URL на SKU в `image_url` генератора.
 
 ## Telegram
 

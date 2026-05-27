@@ -4,81 +4,103 @@
 
 | Пайплайн | Директор | Продукт |
 |----------|----------|---------|
-| **Статьи** (лонгриды WP) | `director` (ветка `origin/cursor/a3-a2ec`) | Страница на advokat-vsem.ru |
-| **Avito** (объявления) | `director-avito` | Карточка SKU + фото + пакет (без Telegram) |
+| **Статьи** (лонгриды WP) | `director` | Страница на advokat-vsem.ru |
+| **Avito** (объявления) | `director-avito` | Карточка SKU + фото + XML-фид (без Telegram) |
 
 Общий контекст бренда: `shared/legis24-site-context.md`.
 
-## Avito — агенты и роли
+---
+
+## Статьи WP — агенты
 
 ```mermaid
 flowchart LR
-  subgraph input [Ввод]
-    P[Петрович: ниша регион SKU]
+  K[Кирилл: тема]
+  subgraph parallel [Параллельно]
+    Ko[Коля: SEO ядро]
+    A[Артём: research]
   end
-  subgraph semantic [Семантика MCP]
-    W[wordstat_get_top_requests x10-15]
-    D[wordstat_get_dynamics]
-    R[wordstat_get_regions]
+  Z[Женя: лонгрид]
+  Y[Юра: WP MCP]
+  K --> Ko
+  K --> A
+  Ko --> Z
+  A --> Z
+  Z --> Y
+```
+
+| Агент | Файл | Handoff |
+|-------|------|---------|
+| Директор | `.cursor/agents/director.md` | `legis24-wp-handoff.md` |
+| Кирилл | `.cursor/agents/kirill.md` | |
+| Коля | `.cursor/agents/seo-kolya.md` | фрагмент `kolya.md` |
+| Артём | `.cursor/agents/artyom.md` | фрагмент `artyom.md` |
+| Женя | `.cursor/agents/zhenya.md` | |
+| Юра | `.cursor/agents/yura.md` | `legis24-published-pages.md` |
+
+Запуск: `@director` + тема (или «новость дня»).
+
+---
+
+## Avito — агенты
+
+```mermaid
+flowchart LR
+  P[Петрович: ввод]
+  subgraph semantic [Wordstat MCP]
+    W[wordstat x10-15]
   end
   subgraph parallel [Параллельно]
-    A[Артём: конкуренты Avito веб]
-    K[Коля-режим: кластеры мета]
+    K[Коля-Avito]
+    A[Артём-Avito]
   end
-  subgraph copy [Текст]
-    Z[Женя-режим: описание CTA]
-    Pet[Петрович: заголовки цена]
-  end
-  subgraph visual [Картинки MCP]
-    I1[flux2-pro / nano_banana]
-    I2[recraft: без фона]
-    I3[seedream-edit: варианты]
-  end
-  subgraph out [Выдача]
-    Pack[Пакет: ядро + 5-8 фото]
-  end
-  P --> W
-  W --> K
+  Z[Женя-Avito]
+  Pet[Петрович: карточка]
+  V[Визуал: gpt-image-2]
+  Yu[Юра-Avito: фид]
+  P --> W --> K
   P --> A
   K --> Z
   A --> Z
-  Z --> Pet
-  Pet --> I1
-  I1 --> I2
-  I2 --> I3
-  I3 --> Pack
+  Z --> Pet --> V --> Yu
 ```
 
 | Агент | Файл | Skill |
 |-------|------|-------|
 | Директор Avito | `.cursor/agents/director-avito.md` | `avito-ad-pipeline` |
-| **Петрович (Avito)** | `.cursor/agents/petrovich.md` | `avito-ad-pipeline` |
+| **Петрович** | `.cursor/agents/petrovich.md` | `avito-ad-pipeline` |
 | Коля (Avito) | `.cursor/agents/seo-kolya-avito.md` | `seo-kolya-avito-mode` |
 | Артём (Avito) | `.cursor/agents/artyom-avito.md` | `researcher-artyom-avito-mode` |
 | Женя (Avito) | `.cursor/agents/zhenya-avito.md` | `seo-writer-zhenya-avito-mode` |
 | Визуал | `.cursor/agents/visual-avito.md` | `visual-avito-images` |
+| Юра (Avito) | `.cursor/agents/yura-avito.md` | — |
 
 Handoff: `.cursor/legis24-avito-handoff.md`  
+Фрагменты: `.cursor/legis24-avito-fragments/`  
 Инструкция: `avito/AUTOMATION.md`  
-**XML (проверенный формат):** `shared/legis24-avito-xml-rules.md`
+**XML:** `shared/legis24-avito-xml-rules.md`
+
+Запуск: `@director-avito` + ниша, регион, SKU.
+
+---
 
 ## Разделение зон
 
 | Задача | Кто |
 |--------|-----|
-| **Новая страница сайта** (лонгрид, WP) | `director` → Кирилл, Коля, Артём, Женя, Артур, Алина, Борис, Наташа, Юра, … (ветка `origin/cursor/a3-a2ec`) |
-| **Avito** (объявление, карточка, API) | `director-avito` → **Петрович** и `*-avito` агенты |
+| **Страница сайта** | `director` → Кирилл, Коля, Артём, Женя, Юра |
+| **Объявление Avito** | `director-avito` → Петрович, `*-avito`, визуал, Юра-Avito |
 
-Петрович касается **только взаимодействия с Avito**. Страницу на advokat-vsem.ru он не делает.
+Петрович **не** делает лонгриды. Юра **не** публикует Avito (это `yura-avito`).
 
-**Связка:** после статьи можно запустить `@director-avito` с нишей из H1 — объявление отдельно от лонгрида.
+После статьи можно `@director-avito` с нишей из H1.
 
 ## Секреты
 
 - Avito API: `Avito_client-id`, `Avito_client_secret`
-- MCP Kovcheg: Wordstat, изображения (Telegram для Avito не использовать)
-- Сайт: https://advokat-vsem.ru
+- MCP Kovcheg: Wordstat, `gpt-image-2`, WordPress
+- Telegram для Avito **не использовать**
 
 ## Cloud Agent
 
-Ветки: `cursor/<name>-81c8`. Перед пайплайном Avito: `@director-avito` + ниша, регион, SKU.
+Ветки: `cursor/<name>-81c8`.

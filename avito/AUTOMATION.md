@@ -24,7 +24,8 @@ SKU: vozrazhenie-fns-rf
 4. Параллельно `Task(artyom-avito)` — конкуренты Avito
 5. `Task(zhenya-avito)` — описание
 6. `Task(petrovich)` — заголовок ≤50, цена
-7. `Task(visual-avito)` — 5–8 фото (MCP)
+7. `Task(visual-avito)` — фото `gpt-image-2` → WP media
+8. `Task(yura-avito)` — XML, xmlcheck, git push фида
 8. Сбор `avito/out/{sku}.md` (без Telegram)
 
 ## Выходной файл

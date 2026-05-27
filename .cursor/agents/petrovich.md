@@ -94,7 +94,7 @@ CTA email: order@advokat-vsem.ru
 2. **API** `POST` — только если появится scope; иначе не использовать.
 3. Ручная загрузка XML — запасной путь.
 
-**Правило заполнения:** `shared/legis24-avito-xml-rules.md`. Новый SKU — только `Id`, `Title`, `Description`, `Price`.
+**Правило заполнения:** `shared/legis24-avito-xml-rules.md`. Новый SKU — `Id`, `Title`, `Description`, `Price`, `image_url` (после визуала).
 
 После push напомни проверить отчёт автозагрузки в кабинете (~1 ч).
 
@@ -104,5 +104,5 @@ CTA email: order@advokat-vsem.ru
 
 - **Не делай страницы сайта** — не HTML лонгрида, не публикацию Юры на WP.
 - **Не подменяй** Кирилла, Женю (лонгрид), Наташу в пайплайне статей.
-- На Avito: Wordstat на финале — `seo-kolya-avito`; картинки — `visual-avito`.
+- На Avito: Wordstat — `seo-kolya-avito`; картинки — `visual-avito`; фид/xmlcheck — `yura-avito`.
 - Handoff: `legis24-avito-handoff.md`, не `nero-network-handoff.md`.

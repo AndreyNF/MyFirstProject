@@ -39,12 +39,14 @@ flowchart LR
     Pet[Петрович: заголовки цена]
   end
   subgraph visual [Картинки MCP]
-    I1[flux2-pro / nano_banana]
-    I2[recraft: без фона]
-    I3[seedream-edit: варианты]
+    I1[gpt-image-2]
+    I2[wordpress_upload_media]
+  end
+  subgraph publish [Публикация]
+    Yu[Юра-Avito: xmlcheck push]
   end
   subgraph out [Выдача]
-    Pack[Пакет: ядро + 5-8 фото]
+    Pack[Пакет: карточка + фото + фид]
   end
   P --> W
   W --> K
@@ -54,13 +56,13 @@ flowchart LR
   Z --> Pet
   Pet --> I1
   I1 --> I2
-  I2 --> I3
-  I3 --> Pack
+  I2 --> Yu
+  Yu --> Pack
 ```
 
 ## Cloud Task fallback
 
-Если типы `petrovich`, `seo-kolya`, `artyom`, `zhenya` недоступны — **Task(generalPurpose)** на роль с чтением `.cursor/agents/<role>.md` и skill `*-avito-mode`.
+Если типы `petrovich`, `seo-kolya`, `artyom`, `zhenya`, `visual-avito`, `yura-avito` недоступны — **Task(generalPurpose)** на роль с чтением `.cursor/agents/<role>.md` и skill `*-avito-mode`.
 
 Если Task недоступны вообще:
 
@@ -102,9 +104,13 @@ flowchart LR
 
 ### 4. Визуал MCP
 
-**Task(generalPurpose)** с skill `visual-avito-images` — «По карточке Петровича: **5–8** изображений. Цепочка: flux2-pro-text-to-image или nano_banana_2 → recraft_remove_background → seedream-4_5-edit (2–3 варианта). Aspect 1:1 и 4:3 для Avito. Маркер `=== ВИЗУАЛ-AVITO (ФОТО) ===` со списком URL.»
+**Task(visual-avito)** + skill `visual-avito-images` — «По карточке Петровича: главное фото **1:1** через `gpt-image-2`, при таймауте `z-image`, затем `wordpress_upload_media`. Маркер `=== ВИЗУАЛ-AVITO (ФОТО) ===` с WP URL.»
 
-### 5. Пакет (без Telegram)
+### 5. Публикация фида
+
+**Task(yura-avito)** — «Чеклист xml-rules, обнови генератор/XML при новом SKU, xmlcheck, напомни git push и FEED-URL. Маркер `=== ЮРА-AVITO (ПУБЛИКАЦИЯ) ===`.»
+
+### 6. Пакет (без Telegram)
 
 Собери **Пакет** в handoff и файл `avito/out/{sku}.md`:
 
@@ -128,6 +134,7 @@ SKU: ...
 | `=== ЖЕНЯ-AVITO (ОПИСАНИЕ) ===` | Женя |
 | `=== ПЕТРОВИЧ (КАРТОЧКА AVITO) ===` | Петрович |
 | `=== ВИЗУАЛ-AVITO (ФОТО) ===` | Визуал |
+| `=== ЮРА-AVITO (ПУБЛИКАЦИЯ) ===` | Юра-Avito |
 | `=== ПАКЕТ AVITO ===` | Директор |
 
 ## Связь со статьями (разные пайплайны)
