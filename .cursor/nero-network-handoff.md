@@ -909,3 +909,14 @@ H1_для_hero: Арбитражный управляющий и оспарив�
 **Публикация:** MCP blob flow (`wordpress_content_blob_append` + `wordpress_update_page_from_blob` / create); обёртка `<!-- wp:html -->`; перед blob удалить любые случайные `<script>`.
 **Проверить:** `main#primary`, класс `arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page`, hero `#l24-hero-arb-au-deals`, Boris `#l24-boris-ospar-sroki-a11`, FAQ `#a11-faq`, breadcrumbs скрыты, padding-top сброшен.
 **CTA:** https://advokat-vsem.ru/ (3× ym-cta--primary + ym-cta--legis24)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+
+- **page_id:** 382
+- **URL:** https://advokat-vsem.online/arbitrazhnyj-upravlyayushchij-osparivanie-sdelok/
+- **slug:** arbitrazhnyj-upravlyayushchij-osparivanie-sdelok
+- **код:** A11 / ARB
+- **статус:** publish
+- **blob_id:** ggDwJCK9ytIHbsHv32zlV3Jo (93441 bytes, sha256 f005c68b7e263435885287f61b3aab72bb895c5e9bbd1386cbfeb326d2c01864)
+- **способ:** MCP Kovcheg blob flow (4×18k chunks → update_page_from_blob → publish)
+- **логи:** published-pages.md, content-plan-legis24.md (✅ A11)

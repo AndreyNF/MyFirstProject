@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-05-28 | A11 | arbitrazhnyj-upravlyayushchij-osparivanie-sdelok | 382 | https://advokat-vsem.online/arbitrazhnyj-upravlyayushchij-osparivanie-sdelok/ |
 | 2026-05-27 | A13 | statya-159-177-uk-pri-dolgah-granica | 370 | https://advokat-vsem.online/statya-159-177-uk-pri-dolgah-granica/ |
 | 2026-05-27 | A15 | registraciya-tovarnogo-znaka-etapy-otkaz | 368 | https://advokat-vsem.online/registraciya-tovarnogo-znaka-etapy-otkaz/ |
 | 2026-05-24 | A12 | otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti | 364 | https://advokat-vsem.online/otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/ |
