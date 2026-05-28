@@ -1,352 +1,391 @@
 === БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
 Статус: ✅ ГОТОВО
 
-**Тема:** A13 UG — ст. 159/177 УК при долгах, гражданская граница  
-**Slug:** `statya-159-177-uk-pri-dolgah-granica`  
-**Режим:** контраст hero «весы / граница» — практическая **матрица событие → плоскость ответственности** (углубление, не дубль A7-таймлайна)  
-**Якорь для Наташи:** `#boris-ug-matrix-a13`  
-**Техника:** inline `<style>` + static SVG; без `<canvas>` и `<script>`
+**Slug:** arbitrazhnyj-upravlyayushchij-osparivanie-sdelok  
+**Режим:** контраст к hero Алины (светлый ARB-экран → тёмный редакционный блок в теле); та же тема — банкротство, арбитражный управляющий, оспаривание сделок.
+
+**Вставка для Наташи:** заменяет маркер `<!-- BORIS_ANCHOR -->` сразу после markdown-таблицы «дорожная карта сроков» в H2 «Сроки оспаривания и исковая давность», **перед** H3 «Срок оспаривания сделок арбитражным управляющим». Главный CTA Артура (сроки) — **сразу после** закрывающего `</section>` Бориса, не внутри блока.
+
+**Техника:** только inline `<style>` + static SVG; **без** `<canvas>`, **без** `<script>`.
 
 ```html
-<section id="boris-ug-matrix-a13" class="l24-boris-ug-matrix-a13" aria-label="Схема: событие при долге — гражданская ответственность, ст. 159, 159.1, 177 или налоги">
+<section id="l24-boris-ospar-sroki-a11" class="l24-boris-ospar-a11" aria-label="Оспаривание сделок: look-back и исковая давность — два часа">
 <style>
-.l24-boris-ug-matrix-a13 {
-  --ugm-navy: #0f2744;
-  --ugm-navy-soft: #1a365d;
-  --ugm-civil: #63b3ed;
-  --ugm-159: #fc8181;
-  --ugm-1591: #f6ad55;
-  --ugm-177: #68d391;
-  --ugm-tax: #b794f4;
-  --ugm-warn: #ecc94b;
-  --ugm-ink: #e2e8f0;
-  --ugm-muted: #a0aec0;
+.l24-boris-ospar-a11 {
+  --ospar-navy: #0c1f33;
+  --ospar-navy-soft: #152a45;
+  --ospar-gold: #d4a853;
+  --ospar-blue: #63b3ed;
+  --ospar-mint: #5eead4;
+  --ospar-accent: #fc8181;
+  --ospar-warn: #f6ad55;
+  --ospar-muted: #a0aec0;
   margin: 48px 0;
-  padding: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.l24-boris-ug-matrix-a13__shell {
-  background: linear-gradient(148deg, var(--ugm-navy) 0%, #152a45 52%, var(--ugm-navy-soft) 100%);
-  border: 1px solid rgba(236, 201, 75, 0.24);
+.l24-boris-ospar-a11__shell {
+  background: linear-gradient(148deg, var(--ospar-navy) 0%, #122640 50%, var(--ospar-navy-soft) 100%);
+  border: 1px solid rgba(212, 168, 83, 0.28);
   border-radius: 14px;
-  padding: 32px 28px 26px;
-  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
-  color: var(--ugm-ink);
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(12, 31, 51, 0.35);
+  color: #e2e8f0;
 }
-.l24-boris-ug-matrix-a13__eyebrow {
+.l24-boris-ospar-a11__eyebrow {
   margin: 0 0 8px;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ugm-warn);
+  color: var(--ospar-gold);
 }
-.l24-boris-ug-matrix-a13__title {
+.l24-boris-ospar-a11__title {
   margin: 0 0 10px;
   font-size: clamp(1.15rem, 2.4vw, 1.42rem);
   line-height: 1.25;
   color: #fff;
   font-weight: 700;
 }
-.l24-boris-ug-matrix-a13__lead {
+.l24-boris-ospar-a11__lead {
   margin: 0 0 24px;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: var(--ugm-muted);
-  max-width: 66ch;
+  color: var(--ospar-muted);
+  max-width: 72ch;
 }
-.l24-boris-ug-matrix-a13__lead strong { color: #fff; }
-.l24-boris-ug-matrix-a13__split {
+.l24-boris-ospar-a11__lead strong { color: #fff; }
+.l24-boris-ospar-a11__split {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.98fr);
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
   gap: 24px;
   align-items: stretch;
 }
-.l24-boris-ug-matrix-a13__panel {
-  background: rgba(255, 255, 255, 0.06);
+.l24-boris-ospar-a11__panel {
+  background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 20px 18px;
 }
-.l24-boris-ug-matrix-a13__panel-title {
+.l24-boris-ospar-a11__panel-title {
   margin: 0 0 14px;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--ugm-warn);
+  color: var(--ospar-gold);
 }
-.l24-boris-ug-matrix-a13__tree-svg {
+.l24-boris-ospar-a11__clocks-svg,
+.l24-boris-ospar-a11__matrix-svg {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 320px;
 }
-.l24-boris-ug-matrix-a13__routes {
+.l24-boris-ospar-a11__clocks-svg { max-height: 200px; margin-bottom: 14px; }
+.l24-boris-ospar-a11__matrix-svg { max-height: 72px; margin-bottom: 12px; }
+.l24-boris-ospar-a11__lookback {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
-  margin: 14px 0 0;
+  margin: 0 0 12px;
   padding: 0;
   list-style: none;
 }
-.l24-boris-ug-matrix-a13__route {
+.l24-boris-ospar-a11__lb {
   margin: 0;
-  padding: 10px 9px;
-  background: rgba(0, 0, 0, 0.22);
+  padding: 10px 8px;
   border-radius: 8px;
-  border-top: 3px solid var(--ugm-civil);
-  font-size: 0.72rem;
-  line-height: 1.38;
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 3px solid var(--ospar-blue);
+  font-size: 0.74rem;
+  line-height: 1.35;
+  text-align: center;
 }
-.l24-boris-ug-matrix-a13__route--159 { border-top-color: var(--ugm-159); }
-.l24-boris-ug-matrix-a13__route--1591 { border-top-color: var(--ugm-1591); }
-.l24-boris-ug-matrix-a13__route--177 { border-top-color: var(--ugm-177); }
-.l24-boris-ug-matrix-a13__route--tax {
-  grid-column: 1 / -1;
-  border-top-color: var(--ugm-tax);
-}
-.l24-boris-ug-matrix-a13__route strong {
+.l24-boris-ospar-a11__lb:nth-child(2) { border-top-color: var(--ospar-warn); }
+.l24-boris-ospar-a11__lb:nth-child(3) { border-top-color: var(--ospar-mint); }
+.l24-boris-ospar-a11__lb:nth-child(4) { border-top-color: var(--ospar-accent); }
+.l24-boris-ospar-a11__lb strong {
   display: block;
   color: #fff;
-  font-size: 0.78rem;
-  margin-bottom: 3px;
+  font-size: 0.95rem;
+  margin-bottom: 2px;
 }
-.l24-boris-ug-matrix-a13__matrix {
+.l24-boris-ospar-a11__lb span {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--ospar-muted);
+}
+.l24-boris-ospar-a11__t0 {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(212, 168, 83, 0.12);
+  border: 1px dashed rgba(212, 168, 83, 0.45);
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #faf089;
+}
+.l24-boris-ospar-a11__t0 em {
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+.l24-boris-ospar-a11__matrix {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin: 0 0 12px;
 }
-.l24-boris-ug-matrix-a13__row {
+.l24-boris-ospar-a11__row {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
-  gap: 10px;
+  grid-template-columns: minmax(0, 1.1fr) minmax(72px, 0.55fr) minmax(72px, 0.55fr) minmax(0, 1fr);
+  gap: 8px;
   align-items: start;
-  padding: 11px 12px;
+  padding: 10px 10px;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.22);
-  border-left: 3px solid var(--ugm-civil);
-  font-size: 0.76rem;
-  line-height: 1.42;
+  border-left: 3px solid var(--ospar-blue);
+  font-size: 0.74rem;
+  line-height: 1.4;
 }
-.l24-boris-ug-matrix-a13__row--159 { border-left-color: var(--ugm-159); }
-.l24-boris-ug-matrix-a13__row--1591 { border-left-color: var(--ugm-1591); }
-.l24-boris-ug-matrix-a13__row--177 { border-left-color: var(--ugm-177); }
-.l24-boris-ug-matrix-a13__row--tax { border-left-color: var(--ugm-tax); }
-.l24-boris-ug-matrix-a13__row-event {
-  color: #fff;
+.l24-boris-ospar-a11__row--62 { border-left-color: var(--ospar-accent); }
+.l24-boris-ospar-a11__row--613 { border-left-color: var(--ospar-warn); }
+.l24-boris-ospar-a11__row--gk { border-left-color: var(--ospar-mint); }
+.l24-boris-ospar-a11__row--10 { border-left-color: var(--ospar-muted); }
+.l24-boris-ospar-a11__row-base {
   font-weight: 600;
-}
-.l24-boris-ug-matrix-a13__row-plane {
-  color: var(--ugm-muted);
-}
-.l24-boris-ug-matrix-a13__row-plane em {
-  font-style: normal;
   color: #fff;
-  font-weight: 700;
 }
-.l24-boris-ug-matrix-a13__thresh {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  margin: 12px 0 0;
-}
-.l24-boris-ug-matrix-a13__thresh-card {
-  padding: 10px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-}
-.l24-boris-ug-matrix-a13__thresh-card--177 { border-color: rgba(104, 211, 145, 0.45); }
-.l24-boris-ug-matrix-a13__thresh-card--159 { border-color: rgba(252, 129, 129, 0.45); }
-.l24-boris-ug-matrix-a13__thresh-label {
+.l24-boris-ospar-a11__row-base small {
   display: block;
-  font-size: 0.66rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--ugm-muted);
-  margin-bottom: 3px;
+  font-weight: 400;
+  color: var(--ospar-muted);
+  font-size: 0.68rem;
+  margin-top: 2px;
 }
-.l24-boris-ug-matrix-a13__thresh-value {
-  font-size: 0.95rem;
+.l24-boris-ospar-a11__row-lb,
+.l24-boris-ospar-a11__row-du {
   font-weight: 800;
   color: #fff;
-  line-height: 1.2;
+  font-size: 0.82rem;
 }
-.l24-boris-ug-matrix-a13__note {
-  margin: 12px 0 0;
-  font-size: 0.74rem;
-  line-height: 1.45;
-  color: var(--ugm-muted);
+.l24-boris-ospar-a11__row-def {
+  color: #cbd5e0;
+  font-size: 0.7rem;
 }
-.l24-boris-ug-matrix-a13__note em {
+.l24-boris-ospar-a11__row-def em {
   font-style: normal;
-  color: var(--ugm-warn);
+  color: var(--ospar-mint);
   font-weight: 600;
 }
-.l24-boris-ug-matrix-a13__foot {
+.l24-boris-ospar-a11__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(72px, 0.55fr) minmax(72px, 0.55fr) minmax(0, 1fr);
+  gap: 8px;
+  padding: 0 10px 6px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ospar-muted);
+  font-weight: 700;
+}
+.l24-boris-ospar-a11__au-year {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+  padding: 14px 14px;
+  border-radius: 10px;
+  background: rgba(252, 129, 129, 0.12);
+  border: 1px solid rgba(252, 129, 129, 0.35);
+}
+.l24-boris-ospar-a11__au-year-value {
+  flex-shrink: 0;
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+.l24-boris-ospar-a11__au-year-text {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ospar-muted);
+}
+.l24-boris-ospar-a11__au-year-text strong { color: #fff; }
+.l24-boris-ospar-a11__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ospar-muted);
+}
+.l24-boris-ospar-a11__note em {
+  font-style: normal;
+  color: var(--ospar-mint);
+  font-weight: 600;
+}
+.l24-boris-ospar-a11__foot {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 18px;
   padding-top: 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-.l24-boris-ug-matrix-a13__tag {
+.l24-boris-ospar-a11__tag {
   font-size: 0.72rem;
   font-weight: 600;
   padding: 6px 10px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.08);
-  color: var(--ugm-ink);
 }
-.l24-boris-ug-matrix-a13__tag--civil { border: 1px solid var(--ugm-civil); color: #bee3f8; }
-.l24-boris-ug-matrix-a13__tag--159 { border: 1px solid var(--ugm-159); color: #fed7d7; }
-.l24-boris-ug-matrix-a13__tag--177 { border: 1px solid var(--ugm-177); color: #c6f6d5; }
-.l24-boris-ug-matrix-a13__tag--warn { border: 1px solid var(--ugm-warn); color: #faf089; }
-.l24-boris-ug-matrix-a13__caption {
+.l24-boris-ospar-a11__tag--lb { border: 1px solid var(--ospar-blue); color: #bee3f8; }
+.l24-boris-ospar-a11__tag--du { border: 1px solid var(--ospar-accent); color: #fed7d7; }
+.l24-boris-ospar-a11__tag--vs { border: 1px solid var(--ospar-gold); color: #faf089; }
+.l24-boris-ospar-a11__tag--def { border: 1px solid var(--ospar-mint); color: #b2f5ea; }
+.l24-boris-ospar-a11__caption {
   margin: 12px 0 0;
   font-size: 0.7rem;
-  color: var(--ugm-muted);
+  color: var(--ospar-muted);
   line-height: 1.4;
 }
 @media (max-width: 900px) {
-  .l24-boris-ug-matrix-a13__split { grid-template-columns: 1fr; }
-  .l24-boris-ug-matrix-a13__row { grid-template-columns: 1fr; }
-  .l24-boris-ug-matrix-a13__thresh { grid-template-columns: 1fr; }
+  .l24-boris-ospar-a11__split { grid-template-columns: 1fr; }
+  .l24-boris-ospar-a11__lookback { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 520px) {
-  .l24-boris-ug-matrix-a13__routes { grid-template-columns: 1fr; }
+  .l24-boris-ospar-a11__row,
+  .l24-boris-ospar-a11__head {
+    grid-template-columns: 1fr;
+  }
+  .l24-boris-ospar-a11__head { display: none; }
+  .l24-boris-ospar-a11__row-lb::before { content: "Look-back: "; color: var(--ospar-muted); font-weight: 400; }
+  .l24-boris-ospar-a11__row-du::before { content: "Давность АУ: "; color: var(--ospar-muted); font-weight: 400; }
 }
 </style>
 
-  <div class="l24-boris-ug-matrix-a13__shell">
-    <p class="l24-boris-ug-matrix-a13__eyebrow">УК РФ · Пленум ВС № 48 · ФЗ № 79‑ФЗ с 17.04.2024</p>
-    <h3 class="l24-boris-ug-matrix-a13__title">Событие при долге → гражданка, ст. 159, 159.1 или 177</h3>
-    <p class="l24-boris-ug-matrix-a13__lead">Просрочка сама по себе — <strong>не уголовка</strong>. Слева — развилка по факту: был ли обман <strong>до</strong> получения денег, есть ли судебный акт и злостное уклонение. Справа — та же логика строками: куда уходит спор и какие пороги действуют в <strong>2026</strong> (для ст. 177 — <strong>3,5 млн ₽</strong>, не устаревшие 2,25 млн).</p>
+  <div class="l24-boris-ospar-a11__shell">
+    <p class="l24-boris-ospar-a11__eyebrow">127-ФЗ · ст. 61.2–61.3 · 61.9 · Пленум ВАС № 63 · обзор ВС 5/2026</p>
+    <h3 class="l24-boris-ospar-a11__title">Два «часа»: look-back в прошлое и год на иск управляющего</h3>
+    <p class="l24-boris-ospar-a11__lead">Слева — <strong>период подозрительности</strong>: насколько далеко закон смотрит на сделки <em>до</em> принятия заявления о банкротстве (объективно, без «увидел ли АУ»). Справа — <strong>исковая давность на заявление АУ</strong>: обычно <strong>1 год</strong> с момента, когда управляющий узнал или должен был узнать об основании (ст. 61.9, п. 32 Пленума № 63). Путать «три года» look-back по п. 2 ст. 61.2 с безграничным сроком на иск — типичная ошибка должника.</p>
 
-    <div class="l24-boris-ug-matrix-a13__split">
-      <div class="l24-boris-ug-matrix-a13__panel">
-        <p class="l24-boris-ug-matrix-a13__panel-title">Схема: событие → плоскость</p>
-        <svg class="l24-boris-ug-matrix-a13__tree-svg" viewBox="0 0 560 268" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+    <div class="l24-boris-ospar-a11__split">
+      <div class="l24-boris-ospar-a11__panel">
+        <p class="l24-boris-ospar-a11__panel-title">Час 1 · look-back (до T₀)</p>
+        <svg class="l24-boris-ospar-a11__clocks-svg" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
           <defs>
-            <linearGradient id="a13-ugm-hub" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stop-color="#ecc94b"/>
-              <stop offset="100%" stop-color="#d69e2e"/>
+            <linearGradient id="a11-boris-lb-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#63b3ed"/>
+              <stop offset="35%" stop-color="#f6ad55"/>
+              <stop offset="65%" stop-color="#5eead4"/>
+              <stop offset="100%" stop-color="#fc8181"/>
             </linearGradient>
           </defs>
-          <!-- hub -->
-          <rect x="200" y="8" width="160" height="44" rx="10" fill="url(#a13-ugm-hub)" stroke="#fff" stroke-width="1.5"/>
-          <text x="280" y="28" text-anchor="middle" fill="#1a202c" font-size="10" font-weight="800">СОБЫТИЕ</text>
-          <text x="280" y="42" text-anchor="middle" fill="#2d3748" font-size="8" font-weight="600">долг · займ · кредит · ИП</text>
-          <!-- stems -->
-          <line x1="280" y1="52" x2="280" y2="68" stroke="#a0aec0" stroke-width="2"/>
-          <line x1="80" y1="68" x2="480" y2="68" stroke="#a0aec0" stroke-width="2"/>
-          <line x1="80" y1="68" x2="80" y2="88" stroke="#63b3ed" stroke-width="2"/>
-          <line x1="200" y1="68" x2="200" y2="88" stroke="#fc8181" stroke-width="2"/>
-          <line x1="360" y1="68" x2="360" y2="88" stroke="#f6ad55" stroke-width="2"/>
-          <line x1="480" y1="68" x2="480" y2="88" stroke="#68d391" stroke-width="2"/>
-          <!-- civil -->
-          <rect x="12" y="88" width="136" height="72" rx="8" fill="rgba(99,179,237,0.18)" stroke="#63b3ed" stroke-width="1.4"/>
-          <text x="80" y="108" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="800">ГРАЖДАНКА</text>
-          <text x="80" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">не обманывал при выдаче</text>
-          <text x="80" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">иск · пристав · ст. 807 ГК</text>
-          <text x="80" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">просрочка ≠ ст. 159</text>
-          <!-- 159 -->
-          <rect x="132" y="88" width="136" height="72" rx="8" fill="rgba(252,129,129,0.16)" stroke="#fc8181" stroke-width="1.4"/>
-          <text x="200" y="108" text-anchor="middle" fill="#fed7d7" font-size="9" font-weight="800">ст. 159</text>
-          <text x="200" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">обман / злоупотребление</text>
-          <text x="200" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">доверием ДО получения</text>
-          <text x="200" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">займ · расписка · схема</text>
-          <!-- 159.1 -->
-          <rect x="292" y="88" width="136" height="72" rx="8" fill="rgba(246,173,85,0.16)" stroke="#f6ad55" stroke-width="1.4"/>
-          <text x="360" y="108" text-anchor="middle" fill="#fbd38d" font-size="9" font-weight="800">ст. 159.1</text>
-          <text x="360" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">кредит: ложные сведения</text>
-          <text x="360" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">без намерения возвращать</text>
-          <text x="360" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">не просрочка платежа</text>
-          <!-- 177 -->
-          <rect x="412" y="88" width="136" height="72" rx="8" fill="rgba(104,211,145,0.16)" stroke="#68d391" stroke-width="1.4"/>
-          <text x="480" y="108" text-anchor="middle" fill="#c6f6d5" font-size="9" font-weight="800">ст. 177</text>
-          <text x="480" y="124" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="600">суд в силе + ИП</text>
-          <text x="480" y="138" text-anchor="middle" fill="#a0aec0" font-size="7">злостное уклонение</text>
-          <text x="480" y="152" text-anchor="middle" fill="#a0aec0" font-size="7">может платить · &gt; 3,5 млн</text>
-          <!-- tax branch -->
-          <line x1="280" y1="168" x2="280" y2="186" stroke="#b794f4" stroke-width="2" stroke-dasharray="4 3"/>
-          <rect x="190" y="186" width="180" height="52" rx="8" fill="rgba(183,148,244,0.14)" stroke="#b794f4" stroke-width="1.2"/>
-          <text x="280" y="206" text-anchor="middle" fill="#e9d8fd" font-size="8" font-weight="700">Недоимка бюджету → ст. 198–199</text>
-          <text x="280" y="222" text-anchor="middle" fill="#a0aec0" font-size="7">не путать со ст. 177 · прямой умысел</text>
-          <!-- legend -->
-          <text x="280" y="258" text-anchor="middle" fill="#718096" font-size="7">Пленум 30.11.2017 № 48, п. 3–4 · умысел до передачи имущества</text>
+          <rect x="8" y="8" width="504" height="184" rx="12" fill="rgba(0,0,0,0.28)" stroke="rgba(212,168,83,0.35)" stroke-width="1"/>
+          <text x="28" y="32" fill="#d4a853" font-size="9" font-weight="700">← ПРОШЛОЕ · СДЕЛКА · T₀ →</text>
+          <line x1="48" y1="118" x2="472" y2="118" stroke="url(#a11-boris-lb-line)" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="472" cy="118" r="20" fill="#d4a853" stroke="#fff" stroke-width="2"/>
+          <text x="472" y="114" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">T₀</text>
+          <text x="472" y="126" text-anchor="middle" fill="#1a202c" font-size="6.5">заявл.</text>
+          <rect x="400" y="88" width="52" height="22" rx="5" fill="rgba(246,173,85,0.25)" stroke="#f6ad55"/>
+          <text x="426" y="103" text-anchor="middle" fill="#faf089" font-size="7" font-weight="700">1 мес.</text>
+          <rect x="318" y="88" width="72" height="22" rx="5" fill="rgba(246,173,85,0.2)" stroke="#f6ad55"/>
+          <text x="354" y="103" text-anchor="middle" fill="#faf089" font-size="7" font-weight="700">6 мес.</text>
+          <rect x="210" y="88" width="96" height="22" rx="5" fill="rgba(94,234,212,0.2)" stroke="#5eead4"/>
+          <text x="258" y="103" text-anchor="middle" fill="#b2f5ea" font-size="7" font-weight="700">1 год · 61.2 п.1</text>
+          <rect x="48" y="88" width="150" height="22" rx="5" fill="rgba(252,129,129,0.2)" stroke="#fc8181"/>
+          <text x="123" y="103" text-anchor="middle" fill="#fed7d7" font-size="7" font-weight="700">3 года · 61.2 п.2</text>
+          <path d="M48 118 L48 148" stroke="#63b3ed" stroke-width="1.5" stroke-dasharray="3 2"/>
+          <text x="48" y="162" fill="#a0aec0" font-size="7">дальше — вне look-back</text>
+          <rect x="28" y="44" width="200" height="36" rx="6" fill="rgba(99,179,237,0.12)" stroke="#63b3ed"/>
+          <text x="128" y="58" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">ОБЪЕКТИВНО</text>
+          <text x="128" y="72" text-anchor="middle" fill="#e2e8f0" font-size="7">не зависит от отчётности АУ</text>
+          <rect x="292" y="44" width="200" height="36" rx="6" fill="rgba(252,129,129,0.1)" stroke="#fc8181"/>
+          <text x="392" y="58" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">СУБЪЕКТИВНО · ЧАС 2</text>
+          <text x="392" y="72" text-anchor="middle" fill="#e2e8f0" font-size="7">1 год на иск → панель справа</text>
         </svg>
-        <ul class="l24-boris-ug-matrix-a13__routes">
-          <li class="l24-boris-ug-matrix-a13__route">
-            <strong>Гражданка</strong>
-            Взял в долг, не вернул — без обмана при выдаче: ГПК, иск, пристав.
+        <ul class="l24-boris-ospar-a11__lookback">
+          <li class="l24-boris-ospar-a11__lb">
+            <strong>1 мес.</strong>
+            <span>ст. 61.3</span>
           </li>
-          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--159">
-            <strong>ст. 159</strong>
-            «Не собирался возвращать» до получения; крупный от 250&nbsp;001&nbsp;₽ (ч. 1–4).
+          <li class="l24-boris-ospar-a11__lb">
+            <strong>6 мес.</strong>
+            <span>61.3 · знал о неплатёж.</span>
           </li>
-          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--1591">
-            <strong>ст. 159.1</strong>
-            Кредит с ложными данными без намерения платить; иначе — ст. 176, не 159.1.
+          <li class="l24-boris-ospar-a11__lb">
+            <strong>1 год</strong>
+            <span>61.2 п. 1</span>
           </li>
-          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--177">
-            <strong>ст. 177</strong>
-            Акт суда + злостность + возможность платить; дознание ФССП.
-          </li>
-          <li class="l24-boris-ug-matrix-a13__route l24-boris-ug-matrix-a13__route--tax">
-            <strong>198–199</strong>
-            Налоговая недоимка с умыслом — отдельные пороги, не «долг по решению суда».
+          <li class="l24-boris-ospar-a11__lb">
+            <strong>3 года</strong>
+            <span>61.2 п. 2</span>
           </li>
         </ul>
+        <p class="l24-boris-ospar-a11__t0"><em>T₀</em> — дата принятия судом заявления о банкротстве. Сделка за пределами look-back по выбранному основанию — частый довод в отзыве (вместе с неверной квалификацией 61.2 / 61.3, п. 10 обзора ВС 5/2026).</p>
       </div>
 
-      <div class="l24-boris-ug-matrix-a13__panel">
-        <p class="l24-boris-ug-matrix-a13__panel-title">Матрица ситуаций</p>
-        <div class="l24-boris-ug-matrix-a13__matrix" role="table" aria-label="Событие и плоскость ответственности">
-          <div class="l24-boris-ug-matrix-a13__row" role="row">
-            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Взял в долг, не вернул без обмана</span>
-            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ГПК</em> · иск · пристав · ст. 807 ГК</span>
+      <div class="l24-boris-ospar-a11__panel">
+        <p class="l24-boris-ospar-a11__panel-title">Час 2 · исковая давность заявления АУ</p>
+        <svg class="l24-boris-ospar-a11__matrix-svg" viewBox="0 0 520 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <rect x="10" y="10" width="500" height="52" rx="10" fill="rgba(0,0,0,0.25)" stroke="rgba(252,129,129,0.35)"/>
+          <text x="28" y="30" fill="#fed7d7" font-size="9" font-weight="700">СТ. 61.2 / 61.3 → как правило 1 ГОД</text>
+          <text x="28" y="48" fill="#a0aec0" font-size="8">с момента, когда АУ узнал / должен был узнать · ст. 199 ГК — заявить о пропуске</text>
+          <circle cx="468" cy="36" r="18" fill="rgba(252,129,129,0.35)" stroke="#fc8181" stroke-width="1.5"/>
+          <text x="468" y="40" text-anchor="middle" fill="#fff" font-size="11" font-weight="800">1г</text>
+        </svg>
+        <div class="l24-boris-ospar-a11__au-year">
+          <span class="l24-boris-ospar-a11__au-year-value" aria-hidden="true">1 год</span>
+          <p class="l24-boris-ospar-a11__au-year-text"><strong>На иск управляющего</strong> по ст. 61.2 и 61.3 (п. 2 ст. 181 ГК, п. 32 Пленума № 63). Течёт с утверждения АУ и фактов, когда ему стало известно об основании — доказывайте в отзыве дату документов и запросов.</p>
+        </div>
+        <div class="l24-boris-ospar-a11__head" aria-hidden="true">
+          <span>Основание</span>
+          <span>Look-back</span>
+          <span>Иск АУ</span>
+          <span>Защита в отзыве</span>
+        </div>
+        <div class="l24-boris-ospar-a11__matrix" role="table" aria-label="Сроки look-back и давность по основаниям">
+          <div class="l24-boris-ospar-a11__row" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 61.2 п. 1<small>неравноценность</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">1 год</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">1 год</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>оценка</em>, 61.4, обычная деятельность</span>
           </div>
-          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--159" role="row">
-            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Обман / не планировал возвращать до выдачи</span>
-            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 159</em> · полиция / СК</span>
+          <div class="l24-boris-ospar-a11__row l24-boris-ospar-a11__row--62" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 61.2 п. 2<small>вред кредиторам</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">3 года</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">1 год</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>оплата</em>, цель, нет вреда</span>
           </div>
-          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--1591" role="row">
-            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Кредит: ложь в анкете, не намерен возвращать</span>
-            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 159.1</em> · не просрочка</span>
+          <div class="l24-boris-ospar-a11__row l24-boris-ospar-a11__row--613" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 61.3<small>предпочтение</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">1 / 6 мес.</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">1 год</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>нет предпочтения</em>, общий порядок</span>
           </div>
-          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--177" role="row">
-            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Суд в силе, ИП, уклонение, может платить</span>
-            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 177</em> · долг &gt; 3,5 млн ₽</span>
+          <div class="l24-boris-ospar-a11__row l24-boris-ospar-a11__row--gk" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 10, 168, 170 ГК<small>общие основания</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">иные</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">≈ 3 года</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>не подменять</em> 61.2/61.3</span>
           </div>
-          <div class="l24-boris-ug-matrix-a13__row l24-boris-ug-matrix-a13__row--tax" role="row">
-            <span class="l24-boris-ug-matrix-a13__row-event" role="cell">Недоимка перед бюджетом</span>
-            <span class="l24-boris-ug-matrix-a13__row-plane" role="cell"><em>ст. 198–199</em> · не ст. 177</span>
+          <div class="l24-boris-ospar-a11__row l24-boris-ospar-a11__row--10" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 196, 200 ГК<small>общий предел</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">—</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">10 лет</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>пресекательный</em> срок</span>
           </div>
         </div>
-        <div class="l24-boris-ug-matrix-a13__thresh">
-          <div class="l24-boris-ug-matrix-a13__thresh-card l24-boris-ug-matrix-a13__thresh-card--159">
-            <span class="l24-boris-ug-matrix-a13__thresh-label">ст. 159 ч. 1–4 · крупный / особо крупный</span>
-            <span class="l24-boris-ug-matrix-a13__thresh-value">250 001 / 1 млн ₽</span>
-          </div>
-          <div class="l24-boris-ug-matrix-a13__thresh-card l24-boris-ug-matrix-a13__thresh-card--177">
-            <span class="l24-boris-ug-matrix-a13__thresh-label">ст. 177 · крупный (79‑ФЗ)</span>
-            <span class="l24-boris-ug-matrix-a13__thresh-value">&gt; 3,5 млн ₽</span>
-          </div>
-        </div>
-        <p class="l24-boris-ug-matrix-a13__note"><em>3,5 млн ровно</em> — ещё не крупный размер по гл. 22. Ч. 5–7 ст. 159 (ИП/юрлица) — другие пороги: 250 тыс. / 4,5 / 18 млн. «Списание долгов» из СМС — не защита, а риск нового 159 (Пленум № 48, п. 21–22).</p>
+        <p class="l24-boris-ospar-a11__note"><em>«Прошёл год — сделка в безопасности»</em> — миф: look-back до 3 лет + общие основания ГК. При пропуске года АУ — ходатайство по ст. 199 ГК; при явных основаниях кредиторы вправе требовать убытков с управляющего (ст. 20.3 ЗоБ).</p>
       </div>
     </div>
 
-    <div class="l24-boris-ug-matrix-a13__foot" aria-label="Ключевые различия статей">
-      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--civil">Гражданка — спор о долге</span>
-      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--159">159 / 159.1 — умысел до получения</span>
-      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--177">177 — после суда и ФССП</span>
-      <span class="l24-boris-ug-matrix-a13__tag l24-boris-ug-matrix-a13__tag--warn">Не дублировать матрицу A7 — угол 159+177</span>
+    <div class="l24-boris-ospar-a11__foot" aria-label="Связка двух часов">
+      <span class="l24-boris-ospar-a11__tag l24-boris-ospar-a11__tag--lb">Look-back · объективен</span>
+      <span class="l24-boris-ospar-a11__tag l24-boris-ospar-a11__tag--du">Давность АУ · 1 год (61.2/61.3)</span>
+      <span class="l24-boris-ospar-a11__tag l24-boris-ospar-a11__tag--vs">«3 года» ≠ срок на иск</span>
+      <span class="l24-boris-ospar-a11__tag l24-boris-ospar-a11__tag--def">Отзыв: T₀ + дата знания АУ</span>
     </div>
-    <p class="l24-boris-ug-matrix-a13__caption">Подпись блока: практическая карта «событие → ответственность» для лонгрида A13 — без калькулятора, с актуальными порогами 2026.</p>
+    <p class="l24-boris-ospar-a11__caption">Визуальная «дорожная карта» к таблице в тексте — для директора ООО/ИП и контрагента; конкретика по датам — в материалах дела.</p>
   </div>
 </section>
 ```
@@ -355,17 +394,19 @@
 
 | Поле | Значение |
 |------|----------|
-| Anchor id | `boris-ug-matrix-a13` |
-| Класс секции | `l24-boris-ug-matrix-a13` |
-| Размещение | после H2 «Где проходит граница: гражданское взыскание или уголовное дело» (перед CTA / блоком «Возбуждение дела…») |
-| Композиция | split: SVG-дерево «событие → 4 ветки» + карточки слева; матрица строк + пороги справа |
-| Метафора | контраст hero «весы»: не абстрактная граница, а **развилка по факту** из research Артёма |
+| `id` секции | `#l24-boris-ospar-sroki-a11` |
+| Класс корня | `l24-boris-ospar-a11` |
+| Якорь вставки | `<!-- BORIS_ANCHOR -->` (замена, не дублировать комментарий в HTML) |
+| Композиция | сплит 2 колонки: SVG-шкала look-back + CSS-матрица оснований |
+| Hero Алины | не дублировать: без fullscreen, без тех же `id`/`canvas` |
+| MCP | без `<script>` и `<canvas>` |
 
-**Чеклист отличий от hero Алины**
+### Чеклист отличий от hero Алины
 
-- [x] Не hero: нет `min-height: 85vh`, нет H1 страницы и CTA-кнопки в блоке
-- [x] Без `<canvas>` и `<script>` — только static SVG + inline CSS
-- [x] Свой `id`: `boris-ug-matrix-a13` (не совпадает с hero; у A7 Boris был `l24-boris-ug-risk-track`)
-- [x] Тёмная редакционная оболочка split/grid, не полноэкранная светлая сцена «весов»
-- [x] Фокус A13: матрица **событие → гражданка / 159 / 159.1 / 177** (+ 198–199), порог 177 **3,5 млн** (79‑ФЗ), не таймлайн «просрочка → ФССП» как в A7
-- [x] Узкий угол статьи: углубление 159/177, не полная «карта рисков» A7
+- [x] Не hero: блок в теле лонгрида (`margin: 48px 0`), не `min-height: 100vh`
+- [x] Контраст: тёмный градиент ARB (navy + gold), hero — светлый ARB-фон
+- [x] Тема продолжения: банкротство / АУ / ст. 61.2–61.3 — углубление **сроков**, не «кто оспаривает»
+- [x] Редакционная обвязка: eyebrow, lead, матрица, подпись, теги внизу
+- [x] Static SVG + inline CSS только
+- [x] Уникальные префиксы классов и `id` SVG-градиентов (`a11-boris-*`)
+- [x] Якорь Артура: вставка на месте `BORIS_ANCHOR`; CTA — после секции
