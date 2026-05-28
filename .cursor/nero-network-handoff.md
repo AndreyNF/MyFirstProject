@@ -1049,3 +1049,1959 @@ H1: Иск о защите интеллектуальной собственно
 SLUG: isk-o-zashchite-is-protiv-vas-plan-otveta
 H1_для_hero: Иск о защите интеллектуальной собственности против вас
 ПОДЗАГОЛОВОК_HERO: Пошаговый план ответа: сроки, претензия, возражение на иск и оспаривание компенсации по товарному знаку и авторским правам
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+<section id="l24-hero-ip-isk-otvet" class="hero-ip-isk-otvet" aria-label="Иск о защите интеллектуальной собственности: план ответа ответчика">
+  <style>
+    .hero-ip-isk-otvet {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background:
+        linear-gradient(168deg, #faf9f7 0%, #f3f1ec 38%, #eef4f3 100%);
+      color: #1c1917;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ip-isk-otvet::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 45% at 92% 12%, rgba(13, 148, 136, 0.09) 0%, transparent 58%),
+        radial-gradient(ellipse 45% 40% at 6% 88%, rgba(124, 58, 237, 0.06) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .hero-ip-isk-otvet::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.045;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpath d='M20 20h80v12H32v68H20z' fill='%231c1917'/%3E%3C/svg%3E");
+      background-size: 120px 120px;
+      pointer-events: none;
+    }
+    .hero-ip-isk-otvet__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .hero-ip-isk-otvet__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(28, 25, 23, 0.12);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #44403c;
+    }
+    .hero-ip-isk-otvet__badge-pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #0d9488;
+      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.25);
+      flex-shrink: 0;
+    }
+    .hero-ip-isk-otvet__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.62rem, 3.7vw, 2.42rem);
+      line-height: 1.17;
+      font-weight: 800;
+      color: #0c0a09;
+      letter-spacing: -0.025em;
+    }
+    .hero-ip-isk-otvet__h1-accent {
+      color: #0f766e;
+      display: block;
+    }
+    .hero-ip-isk-otvet__sub {
+      margin: 0 0 26px;
+      max-width: 40em;
+      font-size: clamp(1rem, 1.55vw, 1.11rem);
+      line-height: 1.58;
+      color: #57534e;
+    }
+    .hero-ip-isk-otvet__steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+    }
+    .hero-ip-isk-otvet__step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 13px;
+      font-size: 0.93rem;
+      line-height: 1.48;
+      color: #44403c;
+    }
+    .hero-ip-isk-otvet__step-day {
+      flex-shrink: 0;
+      min-width: 52px;
+      padding: 5px 8px;
+      border-radius: 6px;
+      background: #134e4a;
+      color: #f0fdfa;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+      text-align: center;
+    }
+    .hero-ip-isk-otvet__cta {
+      display: inline-block;
+      background: #7c3aed;
+      color: #fff !important;
+      padding: 14px 26px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.94rem;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(124, 58, 237, 0.28);
+    }
+    .hero-ip-isk-otvet__cta:hover {
+      background: #6d28d9;
+    }
+    .hero-ip-isk-otvet__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ip-isk-otvet__inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+      .hero-ip-isk-otvet__visual {
+        order: -1;
+        max-height: 300px;
+      }
+    }
+  </style>
+  <div class="hero-ip-isk-otvet__inner">
+    <div class="hero-ip-isk-otvet__content">
+      <div class="hero-ip-isk-otvet__badge">
+        <span class="hero-ip-isk-otvet__badge-pulse" aria-hidden="true"></span>
+        ИС · ответчик · ст. 131 АПК · 214-ФЗ · 2026
+      </div>
+      <h1 class="hero-ip-isk-otvet__h1">
+        <span class="hero-ip-isk-otvet__h1-accent">Иск о защите интеллектуальной собственности против вас</span>
+      </h1>
+      <p class="hero-ip-isk-otvet__sub">
+        Пошаговый план ответа: сроки, претензия, возражение на иск и оспаривание компенсации по товарному знаку и авторским правам
+      </p>
+      <ol class="hero-ip-isk-otvet__steps">
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">0–3</span>
+          <span><strong>kad.arbitr.ru</strong> — проверить претензию, срок 30 дней (п. 5.1 ст. 1252), не уничтожать доказательства</span>
+        </li>
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">7–14</span>
+          <span><strong>Отзыв и возражение</strong> — по каждому доводу истца, ст. 131 АПК, приложения и ходатайства</span>
+        </li>
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">суд</span>
+          <span><strong>Компенсация</strong> — оспорить способ расчёта, ст. 1252.1, добросовестность, КС № 57-П</span>
+        </li>
+      </ol>
+      <a class="hero-ip-isk-otvet__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на иск по ИС</a>
+    </div>
+    <div class="hero-ip-isk-otvet__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="План ответа ответчика: претензия, иск, возражение и снижение компенсации">
+        <defs>
+          <linearGradient id="hero-ip-otvet-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ccfbf1"/>
+            <stop offset="100%" stop-color="#ede9fe"/>
+          </linearGradient>
+          <linearGradient id="hero-ip-otvet-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f5f5f4"/>
+          </linearGradient>
+          <linearGradient id="hero-ip-otvet-shield" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0d9488"/>
+            <stop offset="100%" stop-color="#115e59"/>
+          </linearGradient>
+          <filter id="hero-ip-otvet-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#1c1917" flood-opacity="0.11"/>
+          </filter>
+          <marker id="hero-ip-otvet-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#78716c"/>
+          </marker>
+        </defs>
+        <!-- календарь-лента сроков -->
+        <g transform="translate(24, 28)">
+          <rect width="392" height="44" rx="22" fill="url(#hero-ip-otvet-glow)" stroke="#d6d3d1" stroke-width="1"/>
+          <circle cx="52" cy="22" r="14" fill="#134e4a"/>
+          <text x="52" y="26" text-anchor="middle" fill="#f0fdfa" font-size="10" font-weight="800">0</text>
+          <circle cx="148" cy="22" r="14" fill="#0d9488"/>
+          <text x="148" y="26" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">7</text>
+          <circle cx="244" cy="22" r="14" fill="#0d9488"/>
+          <text x="244" y="26" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">14</text>
+          <circle cx="340" cy="22" r="14" fill="#7c3aed"/>
+          <text x="340" y="27" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">суд</text>
+          <line x1="66" y1="22" x2="134" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <line x1="162" y1="22" x2="230" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <line x1="258" y1="22" x2="326" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <text x="196" y="40" text-anchor="middle" fill="#78716c" font-size="8" font-weight="600" letter-spacing="0.06em">КАЛЕНДАРЬ ОТВЕТЧИКА</text>
+        </g>
+        <!-- входящий иск (конверт суда) -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(36, 98)">
+          <rect width="118" height="86" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <path d="M12,28 L59,52 L106,28" fill="none" stroke="#dc2626" stroke-width="2" stroke-linejoin="round"/>
+          <rect x="12" y="20" width="94" height="52" rx="4" fill="none" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="59" y="18" text-anchor="middle" fill="#b91c1c" font-size="9" font-weight="800">ИСК ИСТЦА</text>
+          <text x="59" y="72" text-anchor="middle" fill="#57534e" font-size="8" font-weight="600">против вас</text>
+        </g>
+        <!-- претензия -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(286, 92)">
+          <rect width="118" height="80" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <text x="59" y="20" text-anchor="middle" fill="#0f766e" font-size="9" font-weight="700">ПРЕТЕНЗИЯ</text>
+          <line x1="16" y1="32" x2="102" y2="32" stroke="#e7e5e4" stroke-width="4" stroke-linecap="round"/>
+          <line x1="16" y1="44" x2="88" y2="44" stroke="#e7e5e4" stroke-width="4" stroke-linecap="round"/>
+          <rect x="16" y="54" width="56" height="14" rx="5" fill="#f0fdfa" stroke="#99f6e4"/>
+          <text x="44" y="64" text-anchor="middle" fill="#0f766e" font-size="8" font-weight="700">30 дней</text>
+        </g>
+        <!-- центр: стол защиты + отзыв -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(148, 168)">
+          <rect x="0" y="48" width="144" height="12" rx="4" fill="#d6d3d1"/>
+          <rect x="18" y="8" width="108" height="118" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#a8a29e" stroke-width="1.2"/>
+          <text x="72" y="30" text-anchor="middle" fill="#1c1917" font-size="10" font-weight="800">ОТЗЫВ · ВОЗРАЖЕНИЕ</text>
+          <line x1="30" y1="44" x2="114" y2="44" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <line x1="30" y1="58" x2="100" y2="58" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <line x1="30" y1="72" x2="108" y2="72" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <rect x="30" y="84" width="84" height="22" rx="6" fill="#ecfdf5" stroke="#6ee7b7"/>
+          <text x="72" y="99" text-anchor="middle" fill="#047857" font-size="8" font-weight="700">ст. 131 АПК</text>
+          <!-- щит ответчика (не атака) -->
+          <g transform="translate(108, -6)">
+            <path d="M0,-34 L28,-24 L28,10 C28,30 14,40 0,46 C-14,40 -28,30 -28,10 L-28,-24 Z" fill="url(#hero-ip-otvet-shield)" stroke="#0f766e" stroke-width="1.5"/>
+            <path d="M-10,4 L-4,10 L10,-6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <!-- объекты ИС: ТЗ и © -->
+        <g transform="translate(52, 268)" opacity="0.95">
+          <rect width="72" height="52" rx="8" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+          <circle cx="36" cy="22" r="16" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+          <text x="36" y="28" text-anchor="middle" fill="#92400e" font-size="16" font-weight="800" font-family="Georgia, serif">®</text>
+          <text x="36" y="44" text-anchor="middle" fill="#78716c" font-size="7" font-weight="700">ТЗ</text>
+        </g>
+        <g transform="translate(136, 278)" opacity="0.95">
+          <rect width="72" height="52" rx="8" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+          <text x="36" y="30" text-anchor="middle" fill="#1c1917" font-size="22" font-weight="700" font-family="Georgia, serif">©</text>
+          <text x="36" y="44" text-anchor="middle" fill="#78716c" font-size="7" font-weight="700">АВТОР</text>
+        </g>
+        <!-- компенсация вниз -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(228, 262)">
+          <rect width="176" height="88" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <text x="88" y="22" text-anchor="middle" fill="#57534e" font-size="9" font-weight="700">214-ФЗ · ст. 1252.1</text>
+          <text x="88" y="46" text-anchor="middle" fill="#7c3aed" font-size="20" font-weight="800">↓ компенсация</text>
+          <text x="88" y="64" text-anchor="middle" fill="#0f766e" font-size="9" font-weight="700">10 000 – 500 000 ₽</text>
+          <text x="88" y="78" text-anchor="middle" fill="#a8a29e" font-size="7" font-weight="600">добросовестность · 57-П</text>
+        </g>
+        <!-- стрелки потока защиты -->
+        <g fill="none" stroke="#78716c" stroke-width="1.6" stroke-linecap="round" marker-end="url(#hero-ip-otvet-arrow)">
+          <path d="M154,140 C200,150 220,160 220,168"/>
+          <path d="M286,132 C250,150 230,165 220,175"/>
+          <path d="M220,286 C210,300 190,310 160,318"/>
+          <path d="M220,286 C250,302 280,312 300,318"/>
+        </g>
+        <!-- kad badge -->
+        <g transform="translate(318, 358)">
+          <rect width="98" height="26" rx="13" fill="#1c1917"/>
+          <text x="49" y="17" text-anchor="middle" fill="#fafaf9" font-size="8" font-weight="700" letter-spacing="0.04em">kad.arbitr.ru</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+## Передача Наташе
+SLUG: isk-o-zashchite-is-protiv-vas-plan-otveta
+ВНИМАНИЕ: hero — static SVG + inline CSS, без &lt;script&gt; и &lt;canvas&gt;. id секции: #l24-hero-ip-isk-otvet — не удалять.
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+**Slug:** `isk-o-zashchite-is-protiv-vas-plan-otveta`  
+**Режим:** продолжение IP-темы Алины (ответчик, иск, 214-ФЗ) — тёмный редакционный блок в теле; hero остаётся светлым «план ответа», Борис даёт **дерево решений 2026** и шкалу первых 14 дней.
+
+**Вставка для Наташи:** заменяет маркер `<!-- BORIS_ANCHOR -->` сразу после H2 «Ответ на иск и возражение на исковое заявление» (после подразделов про отзыв и встречные требования), **перед** CTA Артура и H2 «Защита при иске о нарушении товарного знака». Главный CTA (консультация по отзыву) — **сразу после** закрывающего `</section>` Бориса.
+
+**Техника:** только inline `<style>` + static SVG; **без** `<canvas>`, **без** `<script>`.
+
+```html
+<section id="l24-boris-ip-plan-b2" class="l24-boris-ip-plan-b2" aria-label="Иск по ИС против вас: дерево решений 2026 и календарь ответчика">
+<style>
+.l24-boris-ip-plan-b2 {
+  --b2-navy: #0f2744;
+  --b2-navy-soft: #1a365d;
+  --b2-blue: #63b3ed;
+  --b2-gold: #ecc94b;
+  --b2-teal: #4fd1c5;
+  --b2-accent: #fc8181;
+  --b2-mint: #68d391;
+  --b2-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ip-plan-b2__shell {
+  background: linear-gradient(148deg, var(--b2-navy) 0%, #122640 52%, var(--b2-navy-soft) 100%);
+  border: 1px solid rgba(99, 179, 237, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(15, 39, 68, 0.32);
+  color: #e2e8f0;
+}
+.l24-boris-ip-plan-b2__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--b2-gold);
+}
+.l24-boris-ip-plan-b2__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ip-plan-b2__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--b2-muted);
+  max-width: 70ch;
+}
+.l24-boris-ip-plan-b2__lead strong { color: #fff; }
+.l24-boris-ip-plan-b2__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.98fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ip-plan-b2__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ip-plan-b2__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--b2-gold);
+}
+.l24-boris-ip-plan-b2__tree-svg,
+.l24-boris-ip-plan-b2__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-ip-plan-b2__tree-svg { max-height: 200px; margin-bottom: 12px; }
+.l24-boris-ip-plan-b2__timeline-svg { max-height: 118px; margin-bottom: 14px; }
+.l24-boris-ip-plan-b2__branches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ip-plan-b2__branch {
+  margin: 0;
+  padding: 10px 9px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 3px solid var(--b2-blue);
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #cbd5e0;
+}
+.l24-boris-ip-plan-b2__branch:nth-child(2) { border-top-color: var(--b2-gold); }
+.l24-boris-ip-plan-b2__branch:nth-child(3) { border-top-color: var(--b2-teal); }
+.l24-boris-ip-plan-b2__branch:nth-child(4) { border-top-color: var(--b2-mint); }
+.l24-boris-ip-plan-b2__branch strong {
+  display: block;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ip-plan-b2__days {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ip-plan-b2__day {
+  margin: 0;
+  padding: 10px 8px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+.l24-boris-ip-plan-b2__day strong {
+  display: block;
+  font-size: 1rem;
+  color: var(--b2-gold);
+  margin-bottom: 2px;
+}
+.l24-boris-ip-plan-b2__levers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+.l24-boris-ip-plan-b2__lever {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ip-plan-b2__lever--refuse { border-left: 3px solid var(--b2-mint); }
+.l24-boris-ip-plan-b2__lever--reduce { border-left: 3px solid var(--b2-gold); }
+.l24-boris-ip-plan-b2__lever--1486 { border-left: 3px solid var(--b2-blue); }
+.l24-boris-ip-plan-b2__lever-tag {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  white-space: nowrap;
+}
+.l24-boris-ip-plan-b2__lever-title {
+  margin: 0 0 4px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #fff;
+}
+.l24-boris-ip-plan-b2__lever-text {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--b2-muted);
+}
+.l24-boris-ip-plan-b2__lever-text em {
+  font-style: normal;
+  color: var(--b2-teal);
+  font-weight: 600;
+}
+.l24-boris-ip-plan-b2__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ip-plan-b2__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+}
+.l24-boris-ip-plan-b2__tag--ok { border: 1px solid var(--b2-mint); color: #9ae6b4; }
+.l24-boris-ip-plan-b2__tag--sum { border: 1px solid var(--b2-gold); color: #faf089; }
+.l24-boris-ip-plan-b2__tag--tz { border: 1px solid var(--b2-blue); color: #bee3f8; }
+.l24-boris-ip-plan-b2__caption {
+  margin: 14px 0 0;
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: var(--b2-muted);
+}
+@media (max-width: 900px) {
+  .l24-boris-ip-plan-b2__split { grid-template-columns: 1fr; }
+  .l24-boris-ip-plan-b2__branches { grid-template-columns: 1fr; }
+  .l24-boris-ip-plan-b2__days { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+
+  <div class="l24-boris-ip-plan-b2__shell">
+    <p class="l24-boris-ip-plan-b2__eyebrow">214-ФЗ · ст. 131 АПК · ответчик 2026</p>
+    <h3 class="l24-boris-ip-plan-b2__title" id="l24-anchor-ip-decision-tree-2026">Дерево решений и первые 14 дней: отказ, снижение компенсации, ст. 1486</h3>
+    <p class="l24-boris-ip-plan-b2__lead">После вручения иска не выбирайте одну линию «на глаз»: слева — <strong>развилка защиты</strong> (отказ в иске vs оспаривание суммы vs встречный иск). Справа — <strong>календарь 0–14</strong> и три рычага 2026: <strong>отказ</strong> (КС № 57-П при повторной 2× компенсации), <strong>снижение</strong> (ст. 1252.1, п. 7, 28-П), <strong>ст. 1486</strong> (неиспользование ТЗ истца).</p>
+
+    <div class="l24-boris-ip-plan-b2__split">
+      <div class="l24-boris-ip-plan-b2__panel">
+        <p class="l24-boris-ip-plan-b2__panel-title">Развилка: что заявлять в отзыве</p>
+        <svg class="l24-boris-ip-plan-b2__tree-svg" viewBox="0 0 520 196" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="b2-ip-tree-stem" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#63b3ed"/>
+              <stop offset="100%" stop-color="#4fd1c5"/>
+            </linearGradient>
+          </defs>
+          <rect x="196" y="8" width="128" height="34" rx="8" fill="#c53030" stroke="#fff" stroke-width="1.5"/>
+          <text x="260" y="30" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">Иск по ИС получен</text>
+          <line x1="260" y1="42" x2="260" y2="58" stroke="url(#b2-ip-tree-stem)" stroke-width="3"/>
+          <line x1="72" y1="58" x2="448" y2="58" stroke="#63b3ed" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="72" y1="58" x2="72" y2="72" stroke="#68d391" stroke-width="2"/>
+          <line x1="200" y1="58" x2="200" y2="72" stroke="#ecc94b" stroke-width="2"/>
+          <line x1="328" y1="58" x2="328" y2="72" stroke="#4fd1c5" stroke-width="2"/>
+          <line x1="448" y1="58" x2="448" y2="72" stroke="#63b3ed" stroke-width="2"/>
+          <rect x="16" y="72" width="112" height="52" rx="7" fill="rgba(104,211,145,0.2)" stroke="#68d391"/>
+          <text x="72" y="92" text-anchor="middle" fill="#9ae6b4" font-size="8" font-weight="700">Нет права / нет</text>
+          <text x="72" y="106" text-anchor="middle" fill="#e2e8f0" font-size="8">нарушения / давность</text>
+          <text x="72" y="168" text-anchor="middle" fill="#68d391" font-size="8" font-weight="600">→ отказ в иске</text>
+          <rect x="144" y="72" width="112" height="52" rx="7" fill="rgba(236,201,75,0.15)" stroke="#ecc94b"/>
+          <text x="200" y="92" text-anchor="middle" fill="#faf089" font-size="8" font-weight="700">Состав спорен</text>
+          <text x="200" y="106" text-anchor="middle" fill="#e2e8f0" font-size="8">сходство, объект</text>
+          <text x="200" y="168" text-anchor="middle" fill="#ecc94b" font-size="8" font-weight="600">→ экспертиза</text>
+          <rect x="272" y="72" width="112" height="52" rx="7" fill="rgba(79,209,197,0.15)" stroke="#4fd1c5"/>
+          <text x="328" y="92" text-anchor="middle" fill="#b2f5ea" font-size="8" font-weight="700">Компенсация</text>
+          <text x="328" y="106" text-anchor="middle" fill="#e2e8f0" font-size="8">завышена</text>
+          <text x="328" y="168" text-anchor="middle" fill="#4fd1c5" font-size="8" font-weight="600">→ 1252.1 · 57-П</text>
+          <rect x="392" y="72" width="112" height="52" rx="7" fill="rgba(99,179,237,0.18)" stroke="#63b3ed"/>
+          <text x="448" y="92" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">Параллельно</text>
+          <text x="448" y="106" text-anchor="middle" fill="#e2e8f0" font-size="8">ст. 1486 ТЗ</text>
+          <text x="448" y="168" text-anchor="middle" fill="#63b3ed" font-size="8" font-weight="600">→ 2 мес + 30 дн.</text>
+          <path d="M 260 124 Q 260 140 72 140" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="4 3"/>
+          <path d="M 260 124 Q 260 140 328 140" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="4 3"/>
+        </svg>
+        <ul class="l24-boris-ip-plan-b2__branches">
+          <li class="l24-boris-ip-plan-b2__branch">
+            <strong>Отказ в иске</strong>
+            Нет прав у истца, иное обозначение, прекращение до иска, нарушен претензионный порядок (п. 5.1 ст. 1252).
+          </li>
+          <li class="l24-boris-ip-plan-b2__branch">
+            <strong>Оспорить состав</strong>
+            Нет смешения, иной способ (п. 1.1 ст. 1252), лицензия, исчерпание — ходатайство об экспертизе.
+          </li>
+          <li class="l24-boris-ip-plan-b2__branch">
+            <strong>Смягчить сумму</strong>
+            Смена способа расчёта, «один товар — одно нарушение», добросовестность (п. 7), КС № 28-П / 57-П.
+          </li>
+          <li class="l24-boris-ip-plan-b2__branch">
+            <strong>Ст. 1486</strong>
+            Встречный иск о прекращении ТЗ истца за неиспользование: претензия 2 мес., иск в 30 дней после отказа.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-ip-plan-b2__panel">
+        <p class="l24-boris-ip-plan-b2__panel-title">Шкала 0–14 дней + три рычага 2026</p>
+        <svg class="l24-boris-ip-plan-b2__timeline-svg" viewBox="0 0 520 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="b2-ip-timeline" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#fc8181"/>
+              <stop offset="35%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#68d391"/>
+            </linearGradient>
+          </defs>
+          <line x1="40" y1="55" x2="480" y2="55" stroke="url(#b2-ip-timeline)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="56" cy="55" r="16" fill="#c53030" stroke="#fff" stroke-width="2"/>
+          <text x="56" y="60" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">0</text>
+          <circle cx="178" cy="55" r="14" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="178" y="59" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="700">3</text>
+          <circle cx="300" cy="55" r="14" fill="#2b6cb0" stroke="#fff" stroke-width="2"/>
+          <text x="300" y="59" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">7</text>
+          <circle cx="464" cy="55" r="16" fill="#2f855a" stroke="#fff" stroke-width="2"/>
+          <text x="464" y="60" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">14</text>
+          <text x="56" y="28" text-anchor="middle" fill="#feb2b2" font-size="8" font-weight="600">kad + фиксация</text>
+          <text x="178" y="28" text-anchor="middle" fill="#faf089" font-size="8" font-weight="600">претензия 30д</text>
+          <text x="300" y="28" text-anchor="middle" fill="#90cdf4" font-size="8" font-weight="600">аудит ИС</text>
+          <text x="464" y="28" text-anchor="middle" fill="#9ae6b4" font-size="8" font-weight="600">отзыв 131 АПК</text>
+          <text x="56" y="88" text-anchor="middle" fill="#a0aec0" font-size="7">не удалять доказательства</text>
+          <text x="464" y="88" text-anchor="middle" fill="#a0aec0" font-size="7">по каждому доводу</text>
+        </svg>
+        <ol class="l24-boris-ip-plan-b2__days" aria-label="Календарь ответчика">
+          <li class="l24-boris-ip-plan-b2__day"><strong>0</strong>дата вручения, kad.arbitr.ru</li>
+          <li class="l24-boris-ip-plan-b2__day"><strong>1–3</strong>материалы ст. 41 АПК</li>
+          <li class="l24-boris-ip-plan-b2__day"><strong>3–7</strong>реестр ТЗ, лицензии</li>
+          <li class="l24-boris-ip-plan-b2__day"><strong>7–14</strong>отзыв + ходатайства</li>
+        </ol>
+        <div class="l24-boris-ip-plan-b2__levers" aria-label="Три рычага защиты 2026">
+          <div class="l24-boris-ip-plan-b2__lever l24-boris-ip-plan-b2__lever--refuse">
+            <span class="l24-boris-ip-plan-b2__lever-tag">Отказ</span>
+            <div>
+              <p class="l24-boris-ip-plan-b2__lever-title">КС РФ № 57-П · серийные иски</p>
+              <p class="l24-boris-ip-plan-b2__lever-text">При повторной <em>двукратной</em> компенсации за тот же товар суд вправе <em>отказать</em> или снизить ниже минимума — соберите решения и платежи по закрытым эпизодам.</p>
+            </div>
+          </div>
+          <div class="l24-boris-ip-plan-b2__lever l24-boris-ip-plan-b2__lever--reduce">
+            <span class="l24-boris-ip-plan-b2__lever-tag">Снизить</span>
+            <div>
+              <p class="l24-boris-ip-plan-b2__lever-title">Ст. 1252.1 · 214-ФЗ</p>
+              <p class="l24-boris-ip-plan-b2__lever-text">Замена способа расчёта, один эпизод, коридор <em>10–500 тыс.</em> (п. 7), ниже 10 000 ₽ — КС № 28-П; Пленум ВС № 10 — разумность суммы.</p>
+            </div>
+          </div>
+          <div class="l24-boris-ip-plan-b2__lever l24-boris-ip-plan-b2__lever--1486">
+            <span class="l24-boris-ip-plan-b2__lever-tag">1486</span>
+            <div>
+              <p class="l24-boris-ip-plan-b2__lever-title">Неиспользование ТЗ истца</p>
+              <p class="l24-boris-ip-plan-b2__lever-text">Встречный иск + переговоры: претензия <em>2 месяца</em>, иск в <em>30 дней</em> после отказа; практика СИП (СИП-1194/2022) при доказанном неиспользовании.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l24-boris-ip-plan-b2__foot" aria-label="Связка стратегии и сроков">
+      <span class="l24-boris-ip-plan-b2__tag l24-boris-ip-plan-b2__tag--ok">Отказ ≠ молчание до заседания</span>
+      <span class="l24-boris-ip-plan-b2__tag l24-boris-ip-plan-b2__tag--sum">Снижение — только с математикой в отзыве</span>
+      <span class="l24-boris-ip-plan-b2__tag l24-boris-ip-plan-b2__tag--tz">1486 — параллельно основной линии</span>
+      <span class="l24-boris-ip-plan-b2__tag">Пропуск отзыва → риск взыскания по доводам истца</span>
+    </div>
+    <p class="l24-boris-ip-plan-b2__caption">Схема к разделу «Ответ на иск» — не заменяет юридическую консультацию; сроки уточняйте по определению суда и дате вручения.</p>
+  </div>
+</section>
+```
+
+**Паспорт блока**
+
+| Поле | Значение |
+|------|----------|
+| `id` секции | `#l24-boris-ip-plan-b2` |
+| Якорь TOC / Наташа | `#l24-anchor-ip-decision-tree-2026` (заголовок h3 внутри блока) |
+| Класс корня | `l24-boris-ip-plan-b2` |
+| Якорь вставки | `<!-- BORIS_ANCHOR -->` (замена, не дублировать комментарий в HTML) |
+| Композиция | сплит: SVG-дерево решений + timeline 0–14 + карточки «отказ / снизить / 1486» |
+| Hero Алины | не дублировать: без fullscreen, без тех же `id` |
+| MCP | без `<script>` и `<canvas>` |
+
+### Чеклист отличий от hero Алины
+
+- [x] Не hero: блок в теле лонгрида (`margin: 48px 0`), не `min-height: 100vh`
+- [x] Контраст: тёмный IP-navy + gold/teal (как A12/A9 Борис), hero — светлый «план ответа»
+- [x] Тема продолжения: ответчик, иск, компенсация 2026 — углубление **стратегии**, не повтор hero-сцены
+- [x] Редакционная обвязка: eyebrow, lead, split, ветки, рычаги, подпись, теги
+- [x] Static SVG + inline CSS только
+- [x] Уникальные префиксы и `id` градиентов (`b2-ip-tree-stem`, `b2-ip-timeline`)
+- [x] Якорь Артура: вставка на месте `BORIS_ANCHOR`; CTA — после секции
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**Файл:** `.cursor/page-content-natasha-B2.html`  
+**SLUG:** `isk-o-zashchite-is-protiv-vas-plan-otveta`  
+**Title:** Иск о защите ИС против вас: пошаговый план ответа — сроки, возражение, компенсация  
+**Description:** Получили иск о защите интеллектуальной собственности или претензию по товарному знаку и авторским правам? Пошаговый план ответчика: сроки, возражение на иск, досудебный ответ, оспаривание компенсации. Консультация Legis24.  
+**Размер:** 94613 байт  
+
+ВНИМАНИЕ: без `<script>` и `<canvas>` — hero и Борис static SVG + inline CSS. FAQ — microdata FAQPage + скрытый `<pre>` JSON-LD в теле страницы.
+
+```html
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section,
+.entry-title, h1.entry-title, .et_pb_title_container,
+#main-content > .container > .et_pb_row:first-child h1 { display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page th, .isk-o-zashchite-is-protiv-vas-plan-otveta-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page th { background: #edf2f7; }
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page a { color: #1e40af; }
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page code {
+  font-size: 0.9em; background: #f1f5f9; padding: 2px 6px; border-radius: 4px;
+}
+.isk-o-zashchite-is-protiv-vas-plan-otveta-page .l24-code-tree {
+  margin: 1.5em 0; padding: 16px 18px; background: #f8fafc; border: 1px solid #e2e8f0;
+  border-radius: 8px; font-size: 0.82rem; line-height: 1.45; overflow-x: auto; white-space: pre-wrap;
+}
+.l24-intro-ip-isk {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-ip-isk__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-ip-isk__text {
+  border-left: 4px solid #0f766e; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-ip-isk__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-ip-isk__text p:last-child { margin-bottom: 0; }
+.l24-intro-ip-isk__brief {
+  background: #f0fdfa; border: 1px solid #99f6e4; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-ip-isk__decor {
+  background: linear-gradient(160deg, #faf9f7 0%, #fff 100%);
+  border: 1px solid #e7e5e4; border-radius: 12px; padding: 18px;
+}
+.l24-intro-ip-isk__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-ip-isk__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-ip-isk__chip--accent { border-color: #0f766e; color: #0f766e; }
+.l24-intro-ip-isk__chip--warn { border-color: #7c3aed; color: #6d28d9; }
+.l24-intro-ip-isk__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-b2 {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-b2 > h2 { margin-top: 0 !important; }
+.l24-faq-b2__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-b2__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-b2__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-b2__a { margin: 0; color: #334155; }
+.ym-section { display: block; }
+@media (max-width: 900px) {
+  .l24-intro-ip-isk__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main isk-o-zashchite-is-protiv-vas-plan-otveta-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+
+<section id="l24-hero-ip-isk-otvet" class="hero-ip-isk-otvet" aria-label="Иск о защите интеллектуальной собственности: план ответа ответчика">
+  <style>
+    .hero-ip-isk-otvet {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background:
+        linear-gradient(168deg, #faf9f7 0%, #f3f1ec 38%, #eef4f3 100%);
+      color: #1c1917;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ip-isk-otvet::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 55% 45% at 92% 12%, rgba(13, 148, 136, 0.09) 0%, transparent 58%),
+        radial-gradient(ellipse 45% 40% at 6% 88%, rgba(124, 58, 237, 0.06) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .hero-ip-isk-otvet::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.045;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpath d='M20 20h80v12H32v68H20z' fill='%231c1917'/%3E%3C/svg%3E");
+      background-size: 120px 120px;
+      pointer-events: none;
+    }
+    .hero-ip-isk-otvet__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .hero-ip-isk-otvet__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(28, 25, 23, 0.12);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #44403c;
+    }
+    .hero-ip-isk-otvet__badge-pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #0d9488;
+      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.25);
+      flex-shrink: 0;
+    }
+    .hero-ip-isk-otvet__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.62rem, 3.7vw, 2.42rem);
+      line-height: 1.17;
+      font-weight: 800;
+      color: #0c0a09;
+      letter-spacing: -0.025em;
+    }
+    .hero-ip-isk-otvet__h1-accent {
+      color: #0f766e;
+      display: block;
+    }
+    .hero-ip-isk-otvet__sub {
+      margin: 0 0 26px;
+      max-width: 40em;
+      font-size: clamp(1rem, 1.55vw, 1.11rem);
+      line-height: 1.58;
+      color: #57534e;
+    }
+    .hero-ip-isk-otvet__steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+    }
+    .hero-ip-isk-otvet__step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 13px;
+      font-size: 0.93rem;
+      line-height: 1.48;
+      color: #44403c;
+    }
+    .hero-ip-isk-otvet__step-day {
+      flex-shrink: 0;
+      min-width: 52px;
+      padding: 5px 8px;
+      border-radius: 6px;
+      background: #134e4a;
+      color: #f0fdfa;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
+      text-align: center;
+    }
+    .hero-ip-isk-otvet__cta {
+      display: inline-block;
+      background: #7c3aed;
+      color: #fff !important;
+      padding: 14px 26px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.94rem;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(124, 58, 237, 0.28);
+    }
+    .hero-ip-isk-otvet__cta:hover {
+      background: #6d28d9;
+    }
+    .hero-ip-isk-otvet__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ip-isk-otvet__inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+      .hero-ip-isk-otvet__visual {
+        order: -1;
+        max-height: 300px;
+      }
+    }
+  </style>
+  <div class="hero-ip-isk-otvet__inner">
+    <div class="hero-ip-isk-otvet__content">
+      <div class="hero-ip-isk-otvet__badge">
+        <span class="hero-ip-isk-otvet__badge-pulse" aria-hidden="true"></span>
+        ИС · ответчик · ст. 131 АПК · 214-ФЗ · 2026
+      </div>
+      <h1 class="hero-ip-isk-otvet__h1">
+        <span class="hero-ip-isk-otvet__h1-accent">Иск о защите интеллектуальной собственности против вас</span>
+      </h1>
+      <p class="hero-ip-isk-otvet__sub">
+        Пошаговый план ответа: сроки, претензия, возражение на иск и оспаривание компенсации по товарному знаку и авторским правам
+      </p>
+      <ol class="hero-ip-isk-otvet__steps">
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">0–3</span>
+          <span><strong>kad.arbitr.ru</strong> — проверить претензию, срок 30 дней (п. 5.1 ст. 1252), не уничтожать доказательства</span>
+        </li>
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">7–14</span>
+          <span><strong>Отзыв и возражение</strong> — по каждому доводу истца, ст. 131 АПК, приложения и ходатайства</span>
+        </li>
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">суд</span>
+          <span><strong>Компенсация</strong> — оспорить способ расчёта, ст. 1252.1, добросовестность, КС № 57-П</span>
+        </li>
+      </ol>
+      <a class="hero-ip-isk-otvet__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на иск по ИС</a>
+    </div>
+    <div class="hero-ip-isk-otvet__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="План ответа ответчика: претензия, иск, возражение и снижение компенсации">
+        <defs>
+          <linearGradient id="hero-ip-otvet-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ccfbf1"/>
+            <stop offset="100%" stop-color="#ede9fe"/>
+          </linearGradient>
+          <linearGradient id="hero-ip-otvet-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f5f5f4"/>
+          </linearGradient>
+          <linearGradient id="hero-ip-otvet-shield" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0d9488"/>
+            <stop offset="100%" stop-color="#115e59"/>
+          </linearGradient>
+          <filter id="hero-ip-otvet-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#1c1917" flood-opacity="0.11"/>
+          </filter>
+          <marker id="hero-ip-otvet-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#78716c"/>
+          </marker>
+        </defs>
+        <!-- календарь-лента сроков -->
+        <g transform="translate(24, 28)">
+          <rect width="392" height="44" rx="22" fill="url(#hero-ip-otvet-glow)" stroke="#d6d3d1" stroke-width="1"/>
+          <circle cx="52" cy="22" r="14" fill="#134e4a"/>
+          <text x="52" y="26" text-anchor="middle" fill="#f0fdfa" font-size="10" font-weight="800">0</text>
+          <circle cx="148" cy="22" r="14" fill="#0d9488"/>
+          <text x="148" y="26" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">7</text>
+          <circle cx="244" cy="22" r="14" fill="#0d9488"/>
+          <text x="244" y="26" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">14</text>
+          <circle cx="340" cy="22" r="14" fill="#7c3aed"/>
+          <text x="340" y="27" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">суд</text>
+          <line x1="66" y1="22" x2="134" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <line x1="162" y1="22" x2="230" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <line x1="258" y1="22" x2="326" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <text x="196" y="40" text-anchor="middle" fill="#78716c" font-size="8" font-weight="600" letter-spacing="0.06em">КАЛЕНДАРЬ ОТВЕТЧИКА</text>
+        </g>
+        <!-- входящий иск (конверт суда) -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(36, 98)">
+          <rect width="118" height="86" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <path d="M12,28 L59,52 L106,28" fill="none" stroke="#dc2626" stroke-width="2" stroke-linejoin="round"/>
+          <rect x="12" y="20" width="94" height="52" rx="4" fill="none" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="59" y="18" text-anchor="middle" fill="#b91c1c" font-size="9" font-weight="800">ИСК ИСТЦА</text>
+          <text x="59" y="72" text-anchor="middle" fill="#57534e" font-size="8" font-weight="600">против вас</text>
+        </g>
+        <!-- претензия -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(286, 92)">
+          <rect width="118" height="80" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <text x="59" y="20" text-anchor="middle" fill="#0f766e" font-size="9" font-weight="700">ПРЕТЕНЗИЯ</text>
+          <line x1="16" y1="32" x2="102" y2="32" stroke="#e7e5e4" stroke-width="4" stroke-linecap="round"/>
+          <line x1="16" y1="44" x2="88" y2="44" stroke="#e7e5e4" stroke-width="4" stroke-linecap="round"/>
+          <rect x="16" y="54" width="56" height="14" rx="5" fill="#f0fdfa" stroke="#99f6e4"/>
+          <text x="44" y="64" text-anchor="middle" fill="#0f766e" font-size="8" font-weight="700">30 дней</text>
+        </g>
+        <!-- центр: стол защиты + отзыв -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(148, 168)">
+          <rect x="0" y="48" width="144" height="12" rx="4" fill="#d6d3d1"/>
+          <rect x="18" y="8" width="108" height="118" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#a8a29e" stroke-width="1.2"/>
+          <text x="72" y="30" text-anchor="middle" fill="#1c1917" font-size="10" font-weight="800">ОТЗЫВ · ВОЗРАЖЕНИЕ</text>
+          <line x1="30" y1="44" x2="114" y2="44" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <line x1="30" y1="58" x2="100" y2="58" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <line x1="30" y1="72" x2="108" y2="72" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <rect x="30" y="84" width="84" height="22" rx="6" fill="#ecfdf5" stroke="#6ee7b7"/>
+          <text x="72" y="99" text-anchor="middle" fill="#047857" font-size="8" font-weight="700">ст. 131 АПК</text>
+          <!-- щит ответчика (не атака) -->
+          <g transform="translate(108, -6)">
+            <path d="M0,-34 L28,-24 L28,10 C28,30 14,40 0,46 C-14,40 -28,30 -28,10 L-28,-24 Z" fill="url(#hero-ip-otvet-shield)" stroke="#0f766e" stroke-width="1.5"/>
+            <path d="M-10,4 L-4,10 L10,-6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g>
+        <!-- объекты ИС: ТЗ и © -->
+        <g transform="translate(52, 268)" opacity="0.95">
+          <rect width="72" height="52" rx="8" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+          <circle cx="36" cy="22" r="16" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+          <text x="36" y="28" text-anchor="middle" fill="#92400e" font-size="16" font-weight="800" font-family="Georgia, serif">®</text>
+          <text x="36" y="44" text-anchor="middle" fill="#78716c" font-size="7" font-weight="700">ТЗ</text>
+        </g>
+        <g transform="translate(136, 278)" opacity="0.95">
+          <rect width="72" height="52" rx="8" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+          <text x="36" y="30" text-anchor="middle" fill="#1c1917" font-size="22" font-weight="700" font-family="Georgia, serif">©</text>
+          <text x="36" y="44" text-anchor="middle" fill="#78716c" font-size="7" font-weight="700">АВТОР</text>
+        </g>
+        <!-- компенсация вниз -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(228, 262)">
+          <rect width="176" height="88" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <text x="88" y="22" text-anchor="middle" fill="#57534e" font-size="9" font-weight="700">214-ФЗ · ст. 1252.1</text>
+          <text x="88" y="46" text-anchor="middle" fill="#7c3aed" font-size="20" font-weight="800">↓ компенсация</text>
+          <text x="88" y="64" text-anchor="middle" fill="#0f766e" font-size="9" font-weight="700">10 000 – 500 000 ₽</text>
+          <text x="88" y="78" text-anchor="middle" fill="#a8a29e" font-size="7" font-weight="600">добросовестность · 57-П</text>
+        </g>
+        <!-- стрелки потока защиты -->
+        <g fill="none" stroke="#78716c" stroke-width="1.6" stroke-linecap="round" marker-end="url(#hero-ip-otvet-arrow)">
+          <path d="M154,140 C200,150 220,160 220,168"/>
+          <path d="M286,132 C250,150 230,165 220,175"/>
+          <path d="M220,286 C210,300 190,310 160,318"/>
+          <path d="M220,286 C250,302 280,312 300,318"/>
+        </g>
+        <!-- kad badge -->
+        <g transform="translate(318, 358)">
+          <rect width="98" height="26" rx="13" fill="#1c1917"/>
+          <text x="49" y="17" text-anchor="middle" fill="#fafaf9" font-size="8" font-weight="700" letter-spacing="0.04em">kad.arbitr.ru</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="l24-intro-ip-isk ym-section" aria-label="Введение">
+  <div class="l24-intro-ip-isk__grid">
+    <div class="l24-intro-ip-isk__text">
+      <p>Письмо из суда, определение о принятии иска или уведомление с <strong>kad.arbitr.ru</strong> — для ИП, магазина, маркетплейса или онлайн-проекта это старт процесса, где на кону деньги, репутация и оборот. С 4 января 2026 года реформа по ФЗ <strong>№ 214-ФЗ</strong> усилила риски по компенсации, но дала ответчику рычаги: <strong>ст. 1252.1</strong>, смена способа расчёта, потолок для добросовестных, позиции <strong>КС № 57-П</strong>.</p>
+      <p>Ниже — практический план для <strong>ответчика</strong>: от первых суток после вручения иска до <strong>возражения на исковое заявление</strong>, защиты по товарному знаку и авторским правам, оспаривания компенсации и итогов судебной стадии.</p>
+      <div class="l24-intro-ip-isk__brief">
+        <strong>Кратко:</strong> проверьте претензию и 30 дней (п. 5.1 ст. 1252), не уничтожайте доказательства, подготовьте отзыв по <strong>ст. 131 АПК</strong> по каждому доводу; на досудебке — <a href="https://advokat-vsem.online/otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/" target="_blank" rel="noopener noreferrer">ответ на претензию по ИС</a>.
+      </div>
+    </div>
+    <aside class="l24-intro-ip-isk__decor" aria-label="Маршрут ответчика">
+      <ul class="l24-intro-ip-isk__chips">
+        <li class="l24-intro-ip-isk__chip l24-intro-ip-isk__chip--accent">214-ФЗ</li>
+        <li class="l24-intro-ip-isk__chip">ст. 131 АПК</li>
+        <li class="l24-intro-ip-isk__chip l24-intro-ip-isk__chip--warn">1252.1</li>
+        <li class="l24-intro-ip-isk__chip">57-П</li>
+        <li class="l24-intro-ip-isk__chip">ТЗ · ©</li>
+        <li class="l24-intro-ip-isk__chip">kad.arbitr.ru</li>
+      </ul>
+      <svg class="l24-intro-ip-isk__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: иск, претензия, отзыв, компенсация">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#d6d3d1"/>
+        <text x="24" y="32" fill="#57534e" font-size="10" font-weight="700">ОТВЕТЧИК · 2026</text>
+        <circle cx="56" cy="96" r="20" fill="#dc2626"/><text x="56" y="101" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">иск</text>
+        <circle cx="160" cy="96" r="20" fill="#0f766e"/><text x="160" y="101" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">30д</text>
+        <circle cx="264" cy="96" r="20" fill="#7c3aed"/><text x="264" y="101" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">131</text>
+        <line x1="76" y1="96" x2="140" y2="96" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="180" y1="96" x2="244" y2="96" stroke="#94a3b8" stroke-width="2"/>
+        <text x="56" y="130" text-anchor="middle" fill="#78716c" font-size="8">вручение</text>
+        <text x="160" y="130" text-anchor="middle" fill="#78716c" font-size="8">претензия</text>
+        <text x="264" y="130" text-anchor="middle" fill="#78716c" font-size="8">отзыв</text>
+        <rect x="24" y="148" width="272" height="36" rx="6" fill="#f0fdfa" stroke="#99f6e4"/>
+        <text x="160" y="170" text-anchor="middle" fill="#0f766e" font-size="10" font-weight="700">1252.1 · 57-П · 1486</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+
+<nav class="ym-toc ym-section" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#ip-isk-smysl">Смысл иска для ответчика</a></li>
+    <li><a href="#ip-isk-plan7">План 7–14 дней</a></li>
+    <li><a href="#ip-isk-dosud">Претензия до суда</a></li>
+    <li><a href="#ip-isk-otvet">Отзыв и возражение</a></li>
+    <li><a href="#l24-anchor-ip-decision-tree-2026">Дерево решений 2026</a></li>
+    <li><a href="#ip-isk-tz">Товарный знак</a></li>
+    <li><a href="#ip-isk-avtor">Авторские права</a></li>
+    <li><a href="#ip-isk-comp">Компенсация</a></li>
+    <li><a href="#ip-isk-sud">Итог в суде</a></li>
+    <li><a href="#ip-isk-yurist">Когда нужен юрист</a></li>
+    <li><a href="#b2-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+
+<section class="ym-section">
+<div class="l24-longread-wrap" itemprop="articleBody">
+
+<h2 id="ip-isk-smysl">Что означает иск о защите интеллектуальной собственности для ответчика</h2>
+
+<p><strong>Защита интеллектуальной собственности</strong> в суде — это не абстрактный термин, а конкретные требования правообладателя (истца) к вам как к <strong>нарушителю исключительного права</strong>. Иск может быть подан после претензии или сразу — в зависимости от того, что именно просит истец.</p>
+
+<p>По <strong>ст. 1252</strong> ГК РФ правообладатель вправе требовать, в частности:</p>
+
+<ul>
+
+<li>прекращения нарушения;</li>
+
+<li>изъятия и уничтожения контрафакта;</li>
+
+<li>публикации решения суда;</li>
+
+<li><strong>компенсации</strong> или <strong>убытков</strong>.</li>
+
+</ul>
+
+<p>Для ответчика важны два уровня ответственности. <strong>Ст. 1250</strong> ГК РФ закрепляет презумпцию вины: отсутствие вины должен доказать <strong>нарушитель</strong>. Но если нарушение совершено <strong>в предпринимательской деятельности</strong>, убытки и компенсация возможны <strong>без вины</strong> (кроме непреодолимой силы). При этом <strong>отсутствие вины не снимает</strong> обязанность прекратить нарушение и не мешает изъятию контрафакта (<strong>п. 5 ст. 1252</strong>).</p>
+
+<p>С 2026 года <strong>п. 1.1 ст. 1252</strong> уточняет: <strong>нарушение исключительного права</strong> — это незаконное использование результата или средства индивидуализации <strong>одним способом</strong>. Это влияет на то, сколько эпизодов истец сможет «насчитать» и как вы будете просить объединить действия в <strong>одно нарушение</strong> (<strong>п. 5 ст. 1252.1</strong>).</p>
+
+<h3>Чем отличается иск истца от претензии по товарному знаку и авторским правам</h3>
+
+<table><thead><tr><th>Этап</th><th>Суть</th><th>Сроки и последствия</th></tr></thead><tbody><tr><td><strong>Претензия</strong></td><td>Досудебное требование: прекратить использование, выплатить компенсацию, передать отчёт</td><td>Ответ обычно 10–30 дней по тексту претензии; переговоры, фиксация позиции</td></tr><tr><td><strong>Иск</strong></td><td>Официальное обращение в суд; дело в <strong>kad.arbitr.ru</strong> (арбитраж) или ГАС «Правосудие» (СОЮ)</td><td>Процессуальные сроки, <strong>отзыв/возражение</strong>, заседания, решение подлежит исполнению</td></tr></tbody></table>
+
+<p><strong>Претензия по товарному знаку</strong> или по <strong>нарушению авторских прав</strong> — это попытка решить спор без суда. <strong>Иск</strong> — уже судебная защита прав истца. Для требований о <strong>убытках и компенсации</strong> между юрлицами и ИП в арбитраже действует <strong>обязательный претензионный порядок</strong> (<strong>п. 5.1 ст. 1252</strong>): иск допустим не ранее чем через <strong>30 дней</strong> после направления претензии (или после получения отказа). Претензия <strong>не обязательна</strong>, если истец просит только прекращение нарушения, изъятие и иные меры из <strong>п. 1</strong> (пп. 1, 2, 4, 5) и <strong>п. 5 ст. 1252</strong> — такие иски нередко подают «сразу», без ожидания.</p>
+
+<p>Если вы уже отвечали на претензию — приложите копию ответа к <strong>отзыву на иск</strong>: суд оценит, менялась ли ситуация после досудебной переписки.</p>
+
+<h3>Типовые требования: запрет использования, компенсация, убытки</h3>
+
+<p>В <strong>иске о нарушении исключительных прав</strong> истец обычно просит:</p>
+
+<ol>
+
+<li><strong>Запретить</strong> дальнейшее использование (обозначения, текста, изображения, товара).</li>
+
+<li><strong>Взыскать компенсацию</strong> — по <strong>ст. 1252.1</strong> (с 2026), <strong>ст. 1301</strong> (авторское), <strong>ст. 1515</strong> (товарный знак) или по выбранному истцом способу в рамках единого института.</li>
+
+<li>Альтернативно или дополнительно — <strong>убытки</strong> (сложнее доказать истцу, но суммы могут быть выше).</li>
+
+<li><strong>Изъятие/уничтожение</strong> контрафакта, компенсацию расходов, публикацию решения.</li>
+
+</ol>
+
+<p><strong>Компенсация за нарушение исключительных прав</strong> с 4 января 2026 года регулируется прежде всего <strong>ст. 1252.1</strong> (214-ФЗ): три способа расчёта, право суда <strong>заменить</strong> способ, если выбранный истцом <strong>неприменим</strong>; при технически связанных действиях — <strong>одно нарушение</strong>; для добросовестного лица, которое <strong>не знало и не должно было знать</strong> о нарушении, — компенсация в пределах <strong>10 000–500 000 ₽</strong> (<strong>п. 7</strong>); «твёрдая» компенсация по ряду объектов — до <strong>10 млн ₽</strong> (в отдельных случаях до <strong>20 млн</strong>), что отражает позиции КС <strong>№ 28-П</strong>, <strong>40-П</strong> и <strong>57-П</strong>.</p>
+
+<p>По оценкам экспертов рынка, в 2024 году споров по ИС стало заметно больше (порядка <strong>55 тыс.</strong> дел, рост по авторским правам — около <strong>35%</strong>); оборот контрафакта оценивают в районе <strong>5 трлн ₽</strong> (медийные оценки, не официальная судебная статистика). Для ответчика это означает: массовые и «серийные» иски — норма, а не исключение.</p>
+
+<h2 id="ip-isk-plan7">Пошаговый план: первые 7–14 дней после получения иска</h2>
+
+<p><strong>Краткий тезис:</strong> зафиксировать дату и содержание иска, проверить претензию и подсудность, не уничтожать спорные доказательства, выбрать ветку защиты и подготовить <strong>ответ на иск</strong> / <strong>возражение</strong> до заседания.</p>
+
+<h3>Календарь ответчика (ориентир)</h3>
+
+<table><thead><tr><th>День</th><th>Действие</th></tr></thead><tbody><tr><td><strong>0</strong></td><td>Зафиксировать дату вручения иска/определения суда; <strong>не удалять</strong> спорный контент и товар без фото/скриншотов; сохранить переписку</td></tr><tr><td><strong>1–3</strong></td><td>Найти дело на <strong>kad.arbitr.ru</strong>, запросить ознакомление с материалами (<strong>ст. 41 АПК</strong>); проверить наличие <strong>претензии</strong> и соблюдение <strong>30 дней</strong> (<strong>п. 5.1 ст. 1252</strong>)</td></tr><tr><td><strong>3–7</strong></td><td>Аудит: объект ИС (реестр <strong>Роспатента</strong>), права истца, состав нарушения, лицензии, исчерпание права, параллельный импорт vs контрафакт</td></tr><tr><td><strong>7–14</strong></td><td>Подготовить <strong>отзыв на иск</strong> (<strong>ст. 131 АПК</strong>): по <strong>каждому</strong> доводу истца + доказательства; согласовать стратегию: отказ / смягчение / <strong>ст. 1486</strong> / мировое</td></tr></tbody></table>
+
+<h3>Проверить подсудность: суд по интеллектуальной собственности и арбитраж</h3>
+
+<p>Споры <strong>между юрлицами и ИП</strong> по нарушению исключительных прав в экономической сфере рассматривает <strong>арбитражный суд</strong> по общим правилам подсудности (место ответчика, договорная подсудность и т.д.). <strong>Суд по делам интеллектуальной собственности</strong> (СИП) — специализированная инстанция для <strong>кассации</strong> по категории дел об ИС, а не «первый суд по умолчанию» для любого магазина.</p>
+
+<p>Если в деле участвует <strong>физлицо</strong> (не ИП), спор может уйти в <strong>суд общей юрисдикции</strong> — там иные сроки и нюансы: <strong>претензионный порядок по компенсации</strong> в ГПК <strong>не закреплён</strong> так же, как в арбитраже, практика расходится. Это процессуальный аргумент, который стоит проверить с юристом до подачи <strong>возражений</strong>.</p>
+
+<h3>Зафиксировать срок ответа на иск и процессуальные последствия пропуска</h3>
+
+<p>В арбитраже ответчик представляет <strong>отзыв на исковое заявление</strong> (<strong>ст. 131 АПК</strong>). Закон не устанавливает единого «30 дней на всё», как в гражданском процессе для возражений (<strong>ст. 131 ГПК</strong>), но суд в определении о принятии иска указывает дату <strong>предварительного</strong> или <strong>первого</strong> заседания. <strong>Срок ответа на иск</strong> на практике — до этой даты (часто <strong>несколько недель</strong>).</p>
+
+<p>Последствия пропуска:</p>
+
+<ul>
+
+<li>суд вправе рассмотреть дело по имеющимся доказательствам;</li>
+
+<li>риск <strong>судебных расходов</strong> и неблагоприятного решения «по умолчанию»;</li>
+
+<li>отдельные доводы могут быть признаны <strong>не оспоренными</strong>, если вы не ответили по существу (<strong>ст. 65 АПК</strong> — каждая сторона доказывает обстоятельства, на которые ссылается).</li>
+
+</ul>
+
+<p><strong>Ответ на иск в суд</strong> направляется истцу и в суд; копии приложений — по перечню из иска.</p>
+
+<h3>Собрать доказательства: использование знака, лицензии, давность, добросовестность</h3>
+
+<p>Чек-лист доказательств ответчика:</p>
+
+<table><thead><tr><th>Категория</th><th>Что собрать</th></tr></thead><tbody><tr><td><strong>Законность использования</strong></td><td>Лицензия, сублицензия, договор с правообладателем, согласие, работа по служебному заданию</td></tr><tr><td><strong>Отсутствие нарушения</strong></td><td>Сравнение обозначений, классы МКТУ, реальная сфера деятельности; экспертиза по ходатайству</td></tr><tr><td><strong>Оборот и добросовестность</strong></td><td>Договоры поставки, <strong>чеки</strong>, накладные, сертификаты; для ритейла — данные о проверке поставщика</td></tr><tr><td><strong>Параллельный импорт</strong></td><td>Документы на <strong>оригинальный</strong> товар (не подделка); после реформы 2026 — иной режим, чем для <strong>незаконного размещения</strong> знака на контрафакте (<strong>ст. 1515</strong>)</td></tr><tr><td><strong>Процесс</strong></td><td>Копия <strong>претензии</strong>, почтовые отчёты, трек-номер; доказательства <strong>ответа на претензию</strong></td></tr><tr><td><strong>Компенсация</strong></td><td>Сведения о <strong>предыдущих взысканиях</strong> за тот же товар/обозначение (для аргументов по <strong>КС № 57-П</strong>)</td></tr><tr><td><strong>Давность</strong></td><td>Даты нарушения, когда истец узнал или должен был узнать</td></tr></tbody></table>
+
+<p>Подробнее о доказательствах в спорах по знаку — в статье <a href="https://advokat-vsem.online/narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya/" target="_blank" rel="noopener noreferrer">«Нарушение товарного знака: доказательства и компенсация»</a> (там акцент на позиции истца; вам нужны те же объекты доказывания, но с обратной целью — <strong>оспорить</strong> факт и размер).</p>
+
+<h2 id="ip-isk-dosud">Досудебный этап: ответ на претензию до суда</h2>
+
+<p>Даже после подачи иска материалы <strong>досудебной переписки</strong> остаются важны: суд проверит, соблюдал ли истец <strong>п. 5.1 ст. 1252</strong>, как вы реагировали на требования, прекратили ли нарушение добровольно.</p>
+
+<h3>Ответ на претензию по товарному знаку и авторскому праву</h3>
+
+<p><strong>Ответ на претензию по товарному знаку</strong> или <strong>ответ на претензию при нарушении авторского права</strong> должен быть:</p>
+
+<ul>
+
+<li><strong>мотивированным</strong> (по пунктам претензии);</li>
+
+<li>с приложениями (договоры, скриншоты, реестровые выписки);</li>
+
+<li>с фиксацией даты отправки (заказное письмо, курьер, электронный канал, если согласован).</li>
+
+</ul>
+
+<p>Типовые линии ответа: <strong>нет нарушения</strong>; нарушение прекращено; готовность к <strong>лицензии</strong>; несогласие с размером компенсации; указание на <strong>необходимость претензии</strong> по компенсации. Алгоритм досудебных шагов разобран в <a href="https://advokat-vsem.online/otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/" target="_blank" rel="noopener noreferrer">материале об ответе на претензию по ИС</a>.</p>
+
+<p>Если претензии <strong>не было</strong>, а истец требует только деньги в арбитраже между организациями — проверьте основание для <strong>оставления иска без рассмотрения</strong> или возврата (нарушение <strong>30-дневного</strong> срока, отсутствие претензии в материалах).</p>
+
+<h3>Когда имеет смысл переговоры и медиация с правообладателем</h3>
+
+<p>Переговоры уместны, если:</p>
+
+<ul>
+
+<li>факт использования не отрицается, но спорны <strong>сумма</strong> и <strong>способ</strong> расчёта;</li>
+
+<li>вам выгоднее <strong>лицензия</strong> или отсрочка, чем риск двукратной компенсации без потолка;</li>
+
+<li>истец — «серийный» правообладатель, готовый закрывать эпизоды при прекращении использования.</li>
+
+</ul>
+
+<p>Медиация не отменяет сроков процесса: параллельно готовьте <strong>возражение</strong>, чтобы не пропустить заседание.</p>
+
+<h2 id="ip-isk-otvet">Ответ на иск и возражение на исковое заявление</h2>
+
+<p><strong>Возражение на исковое заявление</strong> в быту — то же, что <strong>отзыв ответчика</strong> в арбитраже. Это главный процессуальный документ после иска.</p>
+
+<h3>Ответ ответчика на иск: форма, содержание, приложения</h3>
+
+<p><strong>Ответ ответчика на иск</strong> (отзыв) должен содержать (<strong>ст. 131 АПК</strong>):</p>
+
+<ul>
+
+<li>возражения <strong>по каждому</strong> доводу и требованию истца;</li>
+
+<li>правовую оценку (нормы ГК, 214-ФЗ, практика КС и ВС);</li>
+
+<li>ссылки на доказательства с приложениями;</li>
+
+<li>ходатайства (экспертиза, истребование, снижение компенсации).</li>
+
+</ul>
+
+<p>Структура:</p>
+
+<ol>
+
+<li>Вводная часть (суд, дело №, стороны).</li>
+
+<li>Краткие обстоятельства.</li>
+
+<li><strong>Позиция по требованиям</strong> (таблица: требование истца — возражение — доказательство).</li>
+
+<li>Процессуальные возражения (претензия, подсудность, давность, недостаточность доказательств истца).</li>
+
+<li>Просительная часть (отказать в иске / снизить компенсацию / распределить расходы).</li>
+
+<li>Приложения.</li>
+
+</ol>
+
+<h3>Возражение на исковое заявление: возражения по факту и по праву</h3>
+
+<p><strong>По факту:</strong> не было использования; другое обозначение; товар из другого класса; контент создан самостоятельно; товар <strong>оригинальный</strong> (параллельный импорт).</p>
+
+<p><strong>По праву:</strong></p>
+
+<ul>
+
+<li>истец <strong>не обладает</strong> правом (реорганизация без перехода прав, истёкший срок ТЗ);</li>
+
+<li>нарушение <strong>прекращено</strong> до иска — влияние на компенсацию, не на оценку прошлого использования;</li>
+
+<li>применить <strong>ст. 1252.1</strong>: один способ — один эпизод; добросовестность (<strong>п. 7</strong>);</li>
+
+<li><strong>КС № 57-П</strong>: отказ или снижение при повторной двукратной компенсации за тот же товар;</li>
+
+<li><strong>Пленум ВС № 10</strong> (23.04.2019): разумность и справедливость размера, учёт характера нарушения.</li>
+
+</ul>
+
+<p><strong>Возражение ответчика на исковое заявление</strong> направляется в суд и второй стороне; храните доказательства отправки.</p>
+
+<h3>Встречные требования и ходатайства (при уместности)</h3>
+
+<ul>
+
+<li><strong>Встречный иск</strong> о досрочном прекращении <strong>товарного знака</strong> истца за неиспользование (<strong>ст. 1486</strong>): претензия <strong>2 месяца</strong>, иск — в <strong>30 дней</strong> после отказа. Практика СИП (например, <strong>СИП-1194/2022</strong>) показывает, что линия работает при доказанном неиспользовании.</li>
+
+<li><strong>Судебная экспертиза</strong> тождества/сходства знаков.</li>
+
+<li><strong>Обеспечительные меры</strong> истца — оспорить, если блокируют счёт или товар без достаточного обоснования.</li>
+
+<li><strong>Снижение компенсации</strong> ниже законного минимума — по <strong>КС № 28-П</strong> при множественности эпизодов и несоразмерности (применимо и к юрлицам).</li>
+
+</ul>
+
+<section id="l24-boris-ip-plan-b2" class="l24-boris-ip-plan-b2" aria-label="Иск по ИС против вас: дерево решений 2026 и календарь ответчика">
+<style>
+.l24-boris-ip-plan-b2 {
+  --b2-navy: #0f2744;
+  --b2-navy-soft: #1a365d;
+  --b2-blue: #63b3ed;
+  --b2-gold: #ecc94b;
+  --b2-teal: #4fd1c5;
+  --b2-accent: #fc8181;
+  --b2-mint: #68d391;
+  --b2-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ip-plan-b2__shell {
+  background: linear-gradient(148deg, var(--b2-navy) 0%, #122640 52%, var(--b2-navy-soft) 100%);
+  border: 1px solid rgba(99, 179, 237, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(15, 39, 68, 0.32);
+  color: #e2e8f0;
+}
+.l24-boris-ip-plan-b2__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--b2-gold);
+}
+.l24-boris-ip-plan-b2__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ip-plan-b2__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--b2-muted);
+  max-width: 70ch;
+}
+.l24-boris-ip-plan-b2__lead strong { color: #fff; }
+.l24-boris-ip-plan-b2__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.98fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ip-plan-b2__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ip-plan-b2__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--b2-gold);
+}
+.l24-boris-ip-plan-b2__tree-svg,
+.l24-boris-ip-plan-b2__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-ip-plan-b2__tree-svg { max-height: 200px; margin-bottom: 12px; }
+.l24-boris-ip-plan-b2__timeline-svg { max-height: 118px; margin-bottom: 14px; }
+.l24-boris-ip-plan-b2__branches {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ip-plan-b2__branch {
+  margin: 0;
+  padding: 10px 9px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 3px solid var(--b2-blue);
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #cbd5e0;
+}
+.l24-boris-ip-plan-b2__branch:nth-child(2) { border-top-color: var(--b2-gold); }
+.l24-boris-ip-plan-b2__branch:nth-child(3) { border-top-color: var(--b2-teal); }
+.l24-boris-ip-plan-b2__branch:nth-child(4) { border-top-color: var(--b2-mint); }
+.l24-boris-ip-plan-b2__branch strong {
+  display: block;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ip-plan-b2__days {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ip-plan-b2__day {
+  margin: 0;
+  padding: 10px 8px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+.l24-boris-ip-plan-b2__day strong {
+  display: block;
+  font-size: 1rem;
+  color: var(--b2-gold);
+  margin-bottom: 2px;
+}
+.l24-boris-ip-plan-b2__levers {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+.l24-boris-ip-plan-b2__lever {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ip-plan-b2__lever--refuse { border-left: 3px solid var(--b2-mint); }
+.l24-boris-ip-plan-b2__lever--reduce { border-left: 3px solid var(--b2-gold); }
+.l24-boris-ip-plan-b2__lever--1486 { border-left: 3px solid var(--b2-blue); }
+.l24-boris-ip-plan-b2__lever-tag {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  white-space: nowrap;
+}
+.l24-boris-ip-plan-b2__lever-title {
+  margin: 0 0 4px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #fff;
+}
+.l24-boris-ip-plan-b2__lever-text {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--b2-muted);
+}
+.l24-boris-ip-plan-b2__lever-text em {
+  font-style: normal;
+  color: var(--b2-teal);
+  font-weight: 600;
+}
+.l24-boris-ip-plan-b2__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ip-plan-b2__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+}
+.l24-boris-ip-plan-b2__tag--ok { border: 1px solid var(--b2-mint); color: #9ae6b4; }
+.l24-boris-ip-plan-b2__tag--sum { border: 1px solid var(--b2-gold); color: #faf089; }
+.l24-boris-ip-plan-b2__tag--tz { border: 1px solid var(--b2-blue); color: #bee3f8; }
+.l24-boris-ip-plan-b2__caption {
+  margin: 14px 0 0;
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: var(--b2-muted);
+}
+@media (max-width: 900px) {
+  .l24-boris-ip-plan-b2__split { grid-template-columns: 1fr; }
+  .l24-boris-ip-plan-b2__branches { grid-template-columns: 1fr; }
+  .l24-boris-ip-plan-b2__days { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+
+  <div class="l24-boris-ip-plan-b2__shell">
+    <p class="l24-boris-ip-plan-b2__eyebrow">214-ФЗ · ст. 131 АПК · ответчик 2026</p>
+    <h3 class="l24-boris-ip-plan-b2__title" id="l24-anchor-ip-decision-tree-2026">Дерево решений и первые 14 дней: отказ, снижение компенсации, ст. 1486</h3>
+    <p class="l24-boris-ip-plan-b2__lead">После вручения иска не выбирайте одну линию «на глаз»: слева — <strong>развилка защиты</strong> (отказ в иске vs оспаривание суммы vs встречный иск). Справа — <strong>календарь 0–14</strong> и три рычага 2026: <strong>отказ</strong> (КС № 57-П при повторной 2× компенсации), <strong>снижение</strong> (ст. 1252.1, п. 7, 28-П), <strong>ст. 1486</strong> (неиспользование ТЗ истца).</p>
+
+    <div class="l24-boris-ip-plan-b2__split">
+      <div class="l24-boris-ip-plan-b2__panel">
+        <p class="l24-boris-ip-plan-b2__panel-title">Развилка: что заявлять в отзыве</p>
+        <svg class="l24-boris-ip-plan-b2__tree-svg" viewBox="0 0 520 196" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="b2-ip-tree-stem" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#63b3ed"/>
+              <stop offset="100%" stop-color="#4fd1c5"/>
+            </linearGradient>
+          </defs>
+          <rect x="196" y="8" width="128" height="34" rx="8" fill="#c53030" stroke="#fff" stroke-width="1.5"/>
+          <text x="260" y="30" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">Иск по ИС получен</text>
+          <line x1="260" y1="42" x2="260" y2="58" stroke="url(#b2-ip-tree-stem)" stroke-width="3"/>
+          <line x1="72" y1="58" x2="448" y2="58" stroke="#63b3ed" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="72" y1="58" x2="72" y2="72" stroke="#68d391" stroke-width="2"/>
+          <line x1="200" y1="58" x2="200" y2="72" stroke="#ecc94b" stroke-width="2"/>
+          <line x1="328" y1="58" x2="328" y2="72" stroke="#4fd1c5" stroke-width="2"/>
+          <line x1="448" y1="58" x2="448" y2="72" stroke="#63b3ed" stroke-width="2"/>
+          <rect x="16" y="72" width="112" height="52" rx="7" fill="rgba(104,211,145,0.2)" stroke="#68d391"/>
+          <text x="72" y="92" text-anchor="middle" fill="#9ae6b4" font-size="8" font-weight="700">Нет права / нет</text>
+          <text x="72" y="106" text-anchor="middle" fill="#e2e8f0" font-size="8">нарушения / давность</text>
+          <text x="72" y="168" text-anchor="middle" fill="#68d391" font-size="8" font-weight="600">→ отказ в иске</text>
+          <rect x="144" y="72" width="112" height="52" rx="7" fill="rgba(236,201,75,0.15)" stroke="#ecc94b"/>
+          <text x="200" y="92" text-anchor="middle" fill="#faf089" font-size="8" font-weight="700">Состав спорен</text>
+          <text x="200" y="106" text-anchor="middle" fill="#e2e8f0" font-size="8">сходство, объект</text>
+          <text x="200" y="168" text-anchor="middle" fill="#ecc94b" font-size="8" font-weight="600">→ экспертиза</text>
+          <rect x="272" y="72" width="112" height="52" rx="7" fill="rgba(79,209,197,0.15)" stroke="#4fd1c5"/>
+          <text x="328" y="92" text-anchor="middle" fill="#b2f5ea" font-size="8" font-weight="700">Компенсация</text>
+          <text x="328" y="106" text-anchor="middle" fill="#e2e8f0" font-size="8">завышена</text>
+          <text x="328" y="168" text-anchor="middle" fill="#4fd1c5" font-size="8" font-weight="600">→ 1252.1 · 57-П</text>
+          <rect x="392" y="72" width="112" height="52" rx="7" fill="rgba(99,179,237,0.18)" stroke="#63b3ed"/>
+          <text x="448" y="92" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">Параллельно</text>
+          <text x="448" y="106" text-anchor="middle" fill="#e2e8f0" font-size="8">ст. 1486 ТЗ</text>
+          <text x="448" y="168" text-anchor="middle" fill="#63b3ed" font-size="8" font-weight="600">→ 2 мес + 30 дн.</text>
+          <path d="M 260 124 Q 260 140 72 140" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="4 3"/>
+          <path d="M 260 124 Q 260 140 328 140" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="4 3"/>
+        </svg>
+        <ul class="l24-boris-ip-plan-b2__branches">
+          <li class="l24-boris-ip-plan-b2__branch">
+            <strong>Отказ в иске</strong>
+            Нет прав у истца, иное обозначение, прекращение до иска, нарушен претензионный порядок (п. 5.1 ст. 1252).
+          </li>
+          <li class="l24-boris-ip-plan-b2__branch">
+            <strong>Оспорить состав</strong>
+            Нет смешения, иной способ (п. 1.1 ст. 1252), лицензия, исчерпание — ходатайство об экспертизе.
+          </li>
+          <li class="l24-boris-ip-plan-b2__branch">
+            <strong>Смягчить сумму</strong>
+            Смена способа расчёта, «один товар — одно нарушение», добросовестность (п. 7), КС № 28-П / 57-П.
+          </li>
+          <li class="l24-boris-ip-plan-b2__branch">
+            <strong>Ст. 1486</strong>
+            Встречный иск о прекращении ТЗ истца за неиспользование: претензия 2 мес., иск в 30 дней после отказа.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-ip-plan-b2__panel">
+        <p class="l24-boris-ip-plan-b2__panel-title">Шкала 0–14 дней + три рычага 2026</p>
+        <svg class="l24-boris-ip-plan-b2__timeline-svg" viewBox="0 0 520 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="b2-ip-timeline" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#fc8181"/>
+              <stop offset="35%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#68d391"/>
+            </linearGradient>
+          </defs>
+          <line x1="40" y1="55" x2="480" y2="55" stroke="url(#b2-ip-timeline)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="56" cy="55" r="16" fill="#c53030" stroke="#fff" stroke-width="2"/>
+          <text x="56" y="60" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">0</text>
+          <circle cx="178" cy="55" r="14" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="178" y="59" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="700">3</text>
+          <circle cx="300" cy="55" r="14" fill="#2b6cb0" stroke="#fff" stroke-width="2"/>
+          <text x="300" y="59" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">7</text>
+          <circle cx="464" cy="55" r="16" fill="#2f855a" stroke="#fff" stroke-width="2"/>
+          <text x="464" y="60" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">14</text>
+          <text x="56" y="28" text-anchor="middle" fill="#feb2b2" font-size="8" font-weight="600">kad + фиксация</text>
+          <text x="178" y="28" text-anchor="middle" fill="#faf089" font-size="8" font-weight="600">претензия 30д</text>
+          <text x="300" y="28" text-anchor="middle" fill="#90cdf4" font-size="8" font-weight="600">аудит ИС</text>
+          <text x="464" y="28" text-anchor="middle" fill="#9ae6b4" font-size="8" font-weight="600">отзыв 131 АПК</text>
+          <text x="56" y="88" text-anchor="middle" fill="#a0aec0" font-size="7">не удалять доказательства</text>
+          <text x="464" y="88" text-anchor="middle" fill="#a0aec0" font-size="7">по каждому доводу</text>
+        </svg>
+        <ol class="l24-boris-ip-plan-b2__days" aria-label="Календарь ответчика">
+          <li class="l24-boris-ip-plan-b2__day"><strong>0</strong>дата вручения, kad.arbitr.ru</li>
+          <li class="l24-boris-ip-plan-b2__day"><strong>1–3</strong>материалы ст. 41 АПК</li>
+          <li class="l24-boris-ip-plan-b2__day"><strong>3–7</strong>реестр ТЗ, лицензии</li>
+          <li class="l24-boris-ip-plan-b2__day"><strong>7–14</strong>отзыв + ходатайства</li>
+        </ol>
+        <div class="l24-boris-ip-plan-b2__levers" aria-label="Три рычага защиты 2026">
+          <div class="l24-boris-ip-plan-b2__lever l24-boris-ip-plan-b2__lever--refuse">
+            <span class="l24-boris-ip-plan-b2__lever-tag">Отказ</span>
+            <div>
+              <p class="l24-boris-ip-plan-b2__lever-title">КС РФ № 57-П · серийные иски</p>
+              <p class="l24-boris-ip-plan-b2__lever-text">При повторной <em>двукратной</em> компенсации за тот же товар суд вправе <em>отказать</em> или снизить ниже минимума — соберите решения и платежи по закрытым эпизодам.</p>
+            </div>
+          </div>
+          <div class="l24-boris-ip-plan-b2__lever l24-boris-ip-plan-b2__lever--reduce">
+            <span class="l24-boris-ip-plan-b2__lever-tag">Снизить</span>
+            <div>
+              <p class="l24-boris-ip-plan-b2__lever-title">Ст. 1252.1 · 214-ФЗ</p>
+              <p class="l24-boris-ip-plan-b2__lever-text">Замена способа расчёта, один эпизод, коридор <em>10–500 тыс.</em> (п. 7), ниже 10 000 ₽ — КС № 28-П; Пленум ВС № 10 — разумность суммы.</p>
+            </div>
+          </div>
+          <div class="l24-boris-ip-plan-b2__lever l24-boris-ip-plan-b2__lever--1486">
+            <span class="l24-boris-ip-plan-b2__lever-tag">1486</span>
+            <div>
+              <p class="l24-boris-ip-plan-b2__lever-title">Неиспользование ТЗ истца</p>
+              <p class="l24-boris-ip-plan-b2__lever-text">Встречный иск + переговоры: претензия <em>2 месяца</em>, иск в <em>30 дней</em> после отказа; практика СИП (СИП-1194/2022) при доказанном неиспользовании.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l24-boris-ip-plan-b2__foot" aria-label="Связка стратегии и сроков">
+      <span class="l24-boris-ip-plan-b2__tag l24-boris-ip-plan-b2__tag--ok">Отказ ≠ молчание до заседания</span>
+      <span class="l24-boris-ip-plan-b2__tag l24-boris-ip-plan-b2__tag--sum">Снижение — только с математикой в отзыве</span>
+      <span class="l24-boris-ip-plan-b2__tag l24-boris-ip-plan-b2__tag--tz">1486 — параллельно основной линии</span>
+      <span class="l24-boris-ip-plan-b2__tag">Пропуск отзыва → риск взыскания по доводам истца</span>
+    </div>
+    <p class="l24-boris-ip-plan-b2__caption">Схема к разделу «Ответ на иск» — не заменяет юридическую консультацию; сроки уточняйте по определению суда и дате вручения.</p>
+  </div>
+</section>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Пропуск срока отзыва или ответ «в целом» без разбора каждого довода — типичная причина, почему суд взыскивает компенсацию по заявленным истцом основаниям. До первого заседания важно подготовить отзыв по ст. 131 АПК и процессуальные возражения: претензия, подсудность, давность.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на иск</a></p>
+</aside>
+
+<h2 id="ip-isk-tz">Защита при иске о нарушении товарного знака</h2>
+
+<p><strong>Нарушение товарного знака</strong> — одна из самых частых категорий <strong>исков товарные знаки</strong> против продавцов, маркетплейсов и импортёров. Истец должен доказать: ваше обозначение <strong>тождественно или сходно</strong> до степени смешения; использование в отношении <strong>однородных</strong> товаров/услуг; отсутствие правомерных оснований.</p>
+
+<h3>Оспаривание сходства, вида использования, территории</h3>
+
+<p>Линии <strong>защиты товарного знака</strong> со стороны ответчика:</p>
+
+<ul>
+
+<li><strong>Нет смешения</strong> — различный визуальный, звуковой, смысловой ряд (суд обязан проверять <strong>конкретные признаки</strong>, а не только свидетельство о регистрации истца).</li>
+
+<li><strong>Иной вид использования</strong> — не тот способ, на который зарегистрирован знак истца (<strong>п. 1.1 ст. 1252</strong>).</li>
+
+<li><strong>Территория и канал</strong> — онлайн vs офлайн, иная аудитория (с осторожностью: суды смотрят на реальное восприятие потребителя).</li>
+
+<li><strong>Исчерпание права</strong>, <strong>добросовестное приобретение</strong> — в предусмотренных законом случаях.</li>
+
+</ul>
+
+<p>При сомнениях — ходатайство о <strong>экспертизе</strong>. Без неё спор «на глаз» часто проигрывается ответчику.</p>
+
+<h3>Иски о незаконном использовании товарного знака: типичные ошибки ответчика</h3>
+
+<ol>
+
+<li><strong>Молчание</strong> до заседания — суд не обязан «догадываться» о ваших доводах.</li>
+
+<li><strong>Уничтожение</strong> товара и удаление карточек <strong>до</strong> фиксации доказательств закупки.</li>
+
+<li>Игнорирование <strong>претензионного</strong> порядка по компенсации — не заявить возражение, если оно нарушено.</li>
+
+<li>Признание «всего иска» из-за страха — без расчёта по <strong>ст. 1252.1</strong>.</li>
+
+<li>Не проверить <strong>цепочку прав</strong> истца (ликвидация, реорганизация без правопреемства — в практике 2025 встречались <strong>отказы в иске</strong> при таких дефектах).</li>
+
+<li>Не учесть <strong>массовый</strong> характер иска — не собрать данные о <strong>предыдущих взысканиях</strong> (аргумент по <strong>57-П</strong>).</li>
+
+</ol>
+
+<p>Обзор позиции правообладателя и судебной логики — в <a href="https://advokat-vsem.online/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/" target="_blank" rel="noopener noreferrer">«Защита товарного знака: иск по интеллектуальной собственности»</a>; ответчику нужно зеркально понимать, <strong>что именно</strong> должен доказать истец.</p>
+
+<h2 id="ip-isk-avtor">Защита при иске о нарушении исключительных и авторских прав</h2>
+
+<h3>Состав нарушения и объекты спора</h3>
+
+<p><strong>Нарушение исключительных прав</strong> охватывает произведения, фонограммы, базы данных, программы, товарные знаки, коммерческие обозначения и др. <strong>Нарушение авторских прав</strong> (ст. 1270, 1301 ГК) часто всплывает у:</p>
+
+<ul>
+
+<li>маркетплейсов (фото, описания);</li>
+
+<li>сайтов (тексты, дизайн, шрифты);</li>
+
+<li>рекламы (чужие изображения, музыка);</li>
+
+<li>SaaS и контент-проектов.</li>
+
+</ul>
+
+<p>Состав: использование <strong>без согласия</strong> правообладателя <strong>способом</strong>, на который распространяется исключительное право. Ответчик оспаривает: авторство истца, факт копирования, объём заимствования, лицензию (Creative Commons с соблюдением условий), <strong>свободное использование</strong> (цитата, служебное произведение — узко и с рисками).</p>
+
+<h3>Иск о нарушении исключительных прав: доказательства и экспертиза</h3>
+
+<p>В <strong>иске о нарушении исключительных прав</strong> истец приложит: договоры с автором, свидетельства, протоколы осмотра сайта, нотариальный осмотр. Ваш <strong>ответ на иск</strong>:</p>
+
+<ul>
+
+<li>ставит под сомнение <strong>тождество</strong> фрагментов;</li>
+
+<li>показывает <strong>самостоятельное создание</strong> (исходники, PSD, Git, договоры с подрядчиком);</li>
+
+<li>указывает на <strong>иной правообладатель</strong> или открытую лицензию.</li>
+
+</ul>
+
+<p>При споре о сходстве сложных объектов — <strong>экспертиза</strong>. При споре о объёме заимствования — сравнительная таблица фрагментов.</p>
+
+<h2 id="ip-isk-comp">Компенсация и взыскание: как снизить сумму требований</h2>
+
+<p>Реформа <strong>214-ФЗ</strong> (действует с <strong>04.01.2026</strong>) — центральный блок для ответчика в 2026 году.</p>
+
+<h3>Размер компенсации по ГК РФ и судебная практика</h3>
+
+<p><strong>Ст. 1252.1</strong> — три способа:</p>
+
+<ol>
+
+<li><strong>Твёрдая сумма</strong> в пределах закона (для ТЗ — ориентир <strong>ст. 1515</strong>, для авторских — <strong>ст. 1301</strong> в связке с 1252.1).</li>
+
+<li><strong>Двукратный размер</strong> стоимости контрафакта или <strong>двукратный размер</strong> лицензионного вознаграждения.</li>
+
+</ol>
+
+<p>Суд может <strong>изменить</strong> способ, если выбранный истцом <strong>неприменим</strong> (например, нет данных о цене контрафакта — перевод на твёрдую сумму). Эксперт Денис Кудрявцев (комментарий <strong>ГАРАНТ.РУ</strong>, 15.05.2026) отмечает: «*стоимость ошибки выросла, но выросла и предсказуемость для добросовестных*»; важны принцип <strong>«один товар — одно нарушение»</strong> и право суда <strong>менять способ расчёта</strong>.</p>
+
+<p><strong>Взыскание компенсации за нарушение исключительных прав</strong> ограничивают:</p>
+
+<ul>
+
+<li><strong>добросовестность</strong> (<strong>п. 7 ст. 1252.1</strong>): 10 000–500 000 ₽, если не знали и не должны были знать;</li>
+
+<li><strong>КС № 28-П</strong>: снижение <strong>ниже 10 000 ₽</strong> при множественности и несоразмерности;</li>
+
+<li><strong>КС № 57-П</strong>: отказ или снижение при повторной <strong>двукратной</strong> компенсации за тот же товар (в т.ч. аффилированные правообладатели);</li>
+
+<li><strong>Пленум ВС № 10</strong>: разумность и справедливость.</li>
+
+</ul>
+
+<p>По материалам защиты ритейла (<strong>Fortis-Faber</strong>), при отсутствии у истца доказательств <strong>закупки</strong> нарушителем производство иногда <strong>прекращают</strong>; при доказанном нарушении в ряде массовых дел суды снижают сумму <strong>до минимума 10 000 ₽</strong> за эпизод (оценка авторов обзора, не гарантия в каждом деле).</p>
+
+<h3>Компенсация за нарушение товарного знака vs авторских прав</h3>
+
+<table><thead><tr><th>Аспект</th><th>Товарный знак (<strong>ст. 1515</strong>)</th><th>Авторское (<strong>ст. 1301</strong> + <strong>1252.1</strong>)</th></tr></thead><tbody><tr><td>Типичный спор</td><td>Карточка, вывеска, упаковка, маркетплейс</td><td>Текст, фото, видео, дизайн</td></tr><tr><td>Расчёт</td><td>Твёрдая / 2× контрафакт / 2× лицензия</td><td>Аналогично через <strong>1252.1</strong></td></tr><tr><td>Особенность 2026</td><td><strong>Незаконное размещение</strong> знака на подделке vs <strong>оригинал</strong> (параллельный импорт)</td><td>Много эпизодов на сайте — аргумент об <strong>одном нарушении</strong></td></tr></tbody></table>
+
+<p><strong>Компенсация за нарушение товарного знака</strong> в режиме двукратной стоимости на крупных объёмах может достигать <strong>десятков и сотен миллионов рублей</strong> (оценка рынка при отсутствии потолка) — отсюда приоритет: оспорить способ расчёта и доказать добросовестность.</p>
+
+<h3>Снижение размера компенсации: основания и аргументы</h3>
+
+<p>Заявляйте явно:</p>
+
+<ul>
+
+<li><strong>неприменимость</strong> выбранного способа → замена судом;</li>
+
+<li><strong>единое нарушение</strong> вместо «сотен карточек»;</li>
+
+<li><strong>добросовестность</strong> и проверка поставщика (ритейл, маркетплейс);</li>
+
+<li><strong>прекращение</strong> нарушения, отсутствие умысла;</li>
+
+<li><strong>несоразмерность</strong> требования обороту ответчика;</li>
+
+<li><strong>повторное</strong> взыскание (<strong>57-П</strong>);</li>
+
+<li>переходный период: эпизоды <strong>до 01.2026</strong> и <strong>после</strong> — по разным правилам (уточняйте даты в отзыве).</li>
+
+</ul>
+
+<p><strong>Размер компенсации за нарушение исключительного права</strong> суд определяет с учётом всех обстоятельств; ваша задача — дать суду <strong>готовую математику</strong> альтернативы, а не только эмоции.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">После реформы 214-ФЗ способ расчёта, объединение эпизодов в одно нарушение и добросовестность (п. 7 ст. 1252.1) определяют, останется ли на кону крупная двукратная компенсация или коридор 10–500 тыс. ₽. Суд не снизит сумму без вашей аргументации в отзыве и ходатайстве.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь со снижением компенсации</a></p>
+</aside>
+
+<h2 id="ip-isk-sud">Судебная защита и итог: решение суда и риски</h2>
+
+<h3>Защита интеллектуальной собственности в суде со стороны ответчика</h3>
+
+<p><strong>Защита интеллектуальной собственности в суде</strong> для ответчика — это:</p>
+
+<ul>
+
+<li>процессуальные возражения (претензия, доказательства, подсудность);</li>
+
+<li>материально-правовой отказ или смягчение;</li>
+
+<li>активная позиция на заседаниях (<strong>ст. 65</strong>, <strong>126 АПК</strong> — содержание иска и отзыва должны «сходиться» с доказательствами).</li>
+
+</ul>
+
+<p>На заседании кратко: что оспариваете, что признаёте, какие ходатайства поддерживаете. Не размывайте позицию новыми фактами без документов.</p>
+
+<h3>Исполнение решения и повторные иски</h3>
+
+<p>Решение арбитража — <strong>немедленное исполнение</strong> не всегда, но риск <strong>принудительного</strong> взыскания и повторной ответственности реален. После проигрыша:</p>
+
+<ul>
+
+<li>прекратите использование спорного обозначения/контента;</li>
+
+<li>оцените <strong>апелляцию</strong> (обычно <strong>1 месяц</strong>);</li>
+
+<li>не создавайте условий для <strong>нового иска</strong> за тот же объект (иначе снова компенсация, с учётом <strong>57-П</strong> — не безлимитно).</li>
+
+</ul>
+
+<p>Повторные иски «правовых групп» — отдельный риск; храните копии решений и платёжных документов по закрытым эпизодам.</p>
+
+<h2 id="ip-isk-derevo">Дерево решений ответчика (2026)</h2>
+
+<pre class="l24-code-tree" aria-label="Схема решений">Получен иск по ИС
+        │
+        ├─► Нет прав у истца / нет нарушения / давность
+        │         → отказ в иске + процессуальные возражения
+        │
+        ├─► Нарушение спорно
+        │         → экспертиза, отказ в иске
+        │
+        ├─► Нарушение возможно, но спорна компенсация
+        │         → ст. 1252.1: способ расчёта, 1 эпизод, п. 7, 57-П, 28-П
+        │
+        └─► Параллельно: ст. 1486 (неиспользование ТЗ истца) + переговоры</pre>
+
+<h2 id="ip-isk-yurist">Когда нужен юрист по интеллектуальной собственности</h2>
+
+<p>Обратитесь за помощью, если:</p>
+
+<ul>
+
+<li>сумма иска <strong>существенна</strong> для бизнеса или есть <strong>двукратная</strong> компенсация;</li>
+
+<li>заблокированы <strong>счета</strong> или товар (обеспечительные меры);</li>
+
+<li>спор на <strong>маркетплейсе</strong> с угрозой блокировки кабинета;</li>
+
+<li>несколько <strong>эпизодов</strong> и «серийный» истец;</li>
+
+<li>нужны <strong>встречный иск</strong> (<strong>ст. 1486</strong>) или <strong>апелляция</strong>;</li>
+
+<li>в деле смешаны <strong>ТЗ, авторские права и патент</strong>.</li>
+
+</ul>
+
+<p><strong>Чеклист перед консультацией:</strong> номер дела; иск и приложения; претензия и ваш ответ; выписка из реестра ТЗ; договоры поставки/лицензии; скриншоты карточек; переписка с площадкой.</p>
+
+<p><a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на иск по интеллектуальной собственности</a> — разбор стратегии, подготовка <strong>отзыва</strong> и ходатайства о <strong>снижении компенсации</strong>. <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь при иске о нарушении товарного знака</a> — для продавцов, импортёров и селлеров.</p>
+
+<section id="b2-faq" class="l24-faq-b2 ym-section" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2>Частые вопросы (FAQ)</h2>
+  <div class="l24-faq-b2__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b2__q" itemprop="name">Что делать в первый день после получения иска?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b2__a" itemprop="text">Зафиксировать дату, найти дело на kad.arbitr.ru, не уничтожать спорные материалы, проверить претензию (п. 5.1 ст. 1252).</p>
+    </div>
+  </div>
+  <div class="l24-faq-b2__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b2__q" itemprop="name">Обязателен ли ответ на иск?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b2__a" itemprop="text">Формально — отзыв в арбитраже (ст. 131 АПК); пропуск ведёт к риску решения без учёта ваших доводов и к расходам.</p>
+    </div>
+  </div>
+  <div class="l24-faq-b2__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b2__q" itemprop="name">Можно ли снизить компенсацию ниже 10 000 ₽?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b2__a" itemprop="text">В исключительных случаях — да, по линии КС № 28-П и разумности (Пленум № 10); для добросовестных «не знавших» — отдельный коридор 10 000–500 000 ₽ (п. 7 ст. 1252.1).</p>
+    </div>
+  </div>
+  <div class="l24-faq-b2__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b2__q" itemprop="name">Нужна ли претензия перед иском о компенсации?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b2__a" itemprop="text">Между ЮЛ/ИП в арбитраже — да, 30 дней (п. 5.1 ст. 1252), если истец требует убытки/компенсацию. На прекращение нарушения претензия не всегда нужна.</p>
+    </div>
+  </div>
+  <div class="l24-faq-b2__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b2__q" itemprop="name">Чем отличается возражение от отзыва?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b2__a" itemprop="text">В арбитраже используется термин отзыв на исковое заявление; в СОЮ — возражения (ст. 131 ГПК). Суть одна: ответ на иск по существу.</p>
+    </div>
+  </div>
+  <div class="l24-faq-b2__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b2__q" itemprop="name">Работает ли защита «товар куплен у поставщика»?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b2__a" itemprop="text">Для добросовестного оборота — да, в связке с доказательствами закупки и п. 7 ст. 1252.1; при контрафакте прекращение и изъятие всё равно возможны.</p>
+    </div>
+  </div>
+  <div class="l24-faq-b2__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b2__q" itemprop="name">Куда обжаловать решение по ИС?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b2__a" itemprop="text">В апелляцию (срок уточняйте в решении), касация по спецкатегории — СИП.</p>
+    </div>
+  </div>
+</section>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации для ответчика в спорах об интеллектуальной собственности: отзыв на иск, возражения, оспаривание компенсации по товарному знаку и авторским правам.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом</a></p>
+</aside>
+
+<p><em>Материал носит информационный характер и не заменяет юридическую консультацию. Нормы ГК РФ ч. 4, АПК РФ, ФЗ № 214-ФЗ уточняйте по официальным текстам и с учётом вашей ситуации.</em></p>
+
+</div>
+</section>
+
+<pre class="l24-jsonld-b2" aria-hidden="true" hidden>{"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Иск о защите ИС против вас: пошаговый план ответа — сроки, возражение, компенсация","description":"Получили иск о защите интеллектуальной собственности или претензию по товарному знаку и авторским правам? Пошаговый план ответчика: сроки, возражение на иск, досудебный ответ, оспаривание компенсации. Консультация Legis24.","author":{"@type":"Organization","name":"Legis24"},"publisher":{"@type":"Organization","name":"Legis24"},"dateModified":"2026-05-28","inLanguage":"ru-RU"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Что делать в первый день после получения иска?","acceptedAnswer":{"@type":"Answer","text":"Зафиксировать дату, найти дело на kad.arbitr.ru, не уничтожать спорные материалы, проверить претензию (п. 5.1 ст. 1252)."}},{"@type":"Question","name":"Обязателен ли ответ на иск?","acceptedAnswer":{"@type":"Answer","text":"Формально — отзыв в арбитраже (ст. 131 АПК); пропуск ведёт к риску решения без учёта ваших доводов и к расходам."}},{"@type":"Question","name":"Можно ли снизить компенсацию ниже 10 000 ₽?","acceptedAnswer":{"@type":"Answer","text":"В исключительных случаях — да, по линии КС № 28-П и разумности (Пленум № 10); для добросовестных «не знавших» — отдельный коридор 10 000–500 000 ₽ (п. 7 ст. 1252.1)."}},{"@type":"Question","name":"Нужна ли претензия перед иском о компенсации?","acceptedAnswer":{"@type":"Answer","text":"Между ЮЛ/ИП в арбитраже — да, 30 дней (п. 5.1 ст. 1252), если истец требует убытки/компенсацию. На прекращение нарушения претензия не всегда нужна."}},{"@type":"Question","name":"Чем отличается возражение от отзыва?","acceptedAnswer":{"@type":"Answer","text":"В арбитраже используется термин отзыв на исковое заявление; в СОЮ — возражения (ст. 131 ГПК). Суть одна: ответ на иск по существу."}},{"@type":"Question","name":"Работает ли защита «товар куплен у поставщика»?","acceptedAnswer":{"@type":"Answer","text":"Для добросовестного оборота — да, в связке с доказательствами закупки и п. 7 ст. 1252.1; при контрафакте прекращение и изъятие всё равно возможны."}},{"@type":"Question","name":"Куда обжаловать решение по ИС?","acceptedAnswer":{"@type":"Answer","text":"В апелляцию (срок уточняйте в решении), касация по спецкатегории — СИП."}}]}]}</pre>
+
+</main>
+<!-- /wp:html -->
+
+```
+
+## Передача Юре
+
+**slug:** `isk-o-zashchite-is-protiv-vas-plan-otveta`  
+**Title:** Иск о защите ИС против вас: пошаговый план ответа — сроки, возражение, компенсация  
+**Description:** Получили иск о защите интеллектуальной собственности или претензию по товарному знаку и авторским правам? Пошаговый план ответчика: сроки, возражение на иск, досудебный ответ, оспаривание компенсации. Консультация Legis24.  
+**page_id:** `PLACEHOLDER` (после wordpress_create_page)  
+
+**Публикация:** blob flow, `<!-- wp:html -->`; MCP publish удаляет `<script>` — в blob их нет.  
+
+**Проверить live:** `main#primary`, класс `isk-o-zashchite-is-protiv-vas-plan-otveta-page`, hero `#l24-hero-ip-isk-otvet`, Boris `#l24-boris-ip-plan-b2`, FAQ `#b2-faq`, breadcrumbs скрыты, padding-top сброшен, CTA `https://advokat-vsem.ru/` с `target="_blank" rel="noopener noreferrer"`.  
+
+**JSON-LD:** дублируется в скрытом `<pre class="l24-jsonld-b2">` внутри страницы; при необходимости Rank Math — тот же `@graph` из файла.
