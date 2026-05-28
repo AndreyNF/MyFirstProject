@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-05-28 | B2 | isk-o-zashchite-is-protiv-vas-plan-otveta | 384 | https://advokat-vsem.online/isk-o-zashchite-is-protiv-vas-plan-otveta/ |
 | 2026-05-28 | A11 | arbitrazhnyj-upravlyayushchij-osparivanie-sdelok | 382 | https://advokat-vsem.online/arbitrazhnyj-upravlyayushchij-osparivanie-sdelok/ |
 | 2026-05-27 | A13 | statya-159-177-uk-pri-dolgah-granica | 370 | https://advokat-vsem.online/statya-159-177-uk-pri-dolgah-granica/ |
 | 2026-05-27 | A15 | registraciya-tovarnogo-znaka-etapy-otkaz | 368 | https://advokat-vsem.online/registraciya-tovarnogo-znaka-etapy-otkaz/ |

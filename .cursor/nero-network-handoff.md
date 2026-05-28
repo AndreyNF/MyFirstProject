@@ -3005,3 +3005,11 @@ SLUG: isk-o-zashchite-is-protiv-vas-plan-otveta
 **Проверить live:** `main#primary`, класс `isk-o-zashchite-is-protiv-vas-plan-otveta-page`, hero `#l24-hero-ip-isk-otvet`, Boris `#l24-boris-ip-plan-b2`, FAQ `#b2-faq`, breadcrumbs скрыты, padding-top сброшен, CTA `https://advokat-vsem.ru/` с `target="_blank" rel="noopener noreferrer"`.  
 
 **JSON-LD:** дублируется в скрытом `<pre class="l24-jsonld-b2">` внутри страницы; при необходимости Rank Math — тот же `@graph` из файла.
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+code: B2 | article_type: IP
+URL: https://advokat-vsem.online/isk-o-zashchite-is-protiv-vas-plan-otveta/
+page_id: 384
+blob_id: zdOS0nDnacrcDfPiITnd22br
+status: publish
+verified: main#primary, l24-hero-ip-isk-otvet, isk-o-zashchite-is-protiv-vas-plan-otveta-page, b2-faq

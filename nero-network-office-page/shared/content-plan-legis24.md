@@ -33,7 +33,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 13 | A15 | IP | Регистрация товарного знака: этапы, отказ Роспатента и обжалование | registraciya-tovarnogo-znaka-etapy-otkaz | ✅ page_id 368 |
 | 14 | A16 | UG | Досудебная защита по уголовному делу: что говорить следователю и чего избегать | dosudebnaya-zashchita-po-ugolovnomu-delu | |
 | 15 | B1 | ARB | Арбитражный процессуальный срок: как не пропустить подачу и возражения | arbitrazhnyj-processualnyj-srok-podacha | |
-| 16 | B2 | IP | Иск о защите интеллектуальной собственности против вас: пошаговый план ответа | isk-o-zashchite-is-protiv-vas-plan-otveta | |
+| 16 | B2 | IP | Иск о защите интеллектуальной собственности против вас: пошаговый план ответа | isk-o-zashchite-is-protiv-vas-plan-otveta | ✅ page_id 384 |
 
 > Канонический URL A3 на проде: `srok-vozrazhenij-30-vs-15-mify` (без «dnej» в slug).  
 > Типы и углы: `article-types-legis24.md`.
