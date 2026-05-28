@@ -49,9 +49,13 @@
 
 ```xml
 <Images>
-  <Image url="https://advokat-vsem.online/wp-content/uploads/2026/05/example.png"/>
+  <Image url="https://advokat-vsem.online/wp-content/uploads/2026/05/example-1.png"/>
+  <Image url="https://advokat-vsem.online/wp-content/uploads/2026/05/example-2.png"/>
+  <Image url="https://advokat-vsem.online/wp-content/uploads/2026/05/example-3.png"/>
 </Images>
 ```
+
+Рекомендуется **3 фото** на SKU (разные ракурсы, кириллица на документах). Поле в генераторе: `image_urls` (список).
 
 Генерация: MCP `gpt-image-2` (при таймауте — `z-image`), промпт с **русским текстом на документах** (`legis24-image-prompt-rules.md`), затем WP media.
 

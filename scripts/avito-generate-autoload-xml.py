@@ -16,7 +16,11 @@ ADS = [
         "id": "legis24-vozrazhenie-fns-001",
         "title": "Возражение на акт ФНС — за 24 часа Legis24",
         "price": 70000,
-        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899104006-xh7mb91den.png",
+        "image_urls": [
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961233_f22a669e05774c3e85e1d4f8f5d3349f.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961371_c5a0d7fbe20f41aa84422d7d74a2c8d2.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961502_ec5cfae180104270bc4a366c3758620f.png",
+        ],
         "description": """Пришёл акт налоговой проверки или решение ФНС — срок на возражение ограничен.
 
 Legis24 готовит возражение на акт камеральной или выездной проверки за 24 часа:
@@ -34,7 +38,11 @@ https://advokat-vsem.ru""",
         "id": "legis24-otvet-trebovanie-fns-002",
         "title": "Ответ на требование ФНС — от 10 000 ₽ за 24 ч",
         "price": 10000,
-        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/file_0000000084e4720cb234ed62bfc1499a.png",
+        "image_urls": [
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961631430-trcjuqdovy.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961687_f8d140203f62407ba8c9402ee936f6ae.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961728873-evdgp0bm23f.png",
+        ],
         "description": """ФНС запросила пояснения, документы или прислала уведомление?
 
 Подготовим за 24 часа:
@@ -51,7 +59,11 @@ https://advokat-vsem.ru""",
         "id": "legis24-analiz-spor-003",
         "title": "Анализ налогового спора — заключение за 24 ч",
         "price": 25000,
-        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899233_78fc0ed64f3344d7a826e84d84e9ca3e.png",
+        "image_urls": [
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961780_d2741f7302354bf4bc7cd6571c3c021a.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961849_3e7b4040d36e43709f534c9a0e7e5ed9.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961904_fc088a27a05e4db8bf6abb6bfc01f42a.png",
+        ],
         "description": """Нужно понять перспективы до суда или возражения?
 
 Правовое заключение Legis24 за 24 часа:
@@ -68,7 +80,11 @@ https://advokat-vsem.ru""",
         "id": "legis24-isk-nalog-arbitr-004",
         "title": "Иск в арбитраж по налогу — за 24 часа",
         "price": 45000,
-        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/file_00000000595471f890d32c98728d6db8.png",
+        "image_urls": [
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961958_17e37c77c20649049d078bc16f276829.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962029_34ccb6e90e624775933267a803400842.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962125_533cce6651ad4faa9291c696c6dc9fd7.png",
+        ],
         "description": """УФНС отказала, срок обжалования на исходе?
 
 Иск в арбитражный суд за 24 часа:
@@ -85,7 +101,11 @@ https://advokat-vsem.ru""",
         "id": "legis24-paket-akt-isk-005",
         "title": "Акт ФНС + иск в арбитраж — пакет 60 000 ₽",
         "price": 60000,
-        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899489_be09c43a165a4e36912bd63155f58e4c.png",
+        "image_urls": [
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962201_3da51964987c46a6ba36ced57b29dd72.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962261_e57e1885cd734adca06bc50401d2874c.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962308_708a301841c344d99f470ab8b2f5d4b1.png",
+        ],
         "description": """Одна правовая позиция от акта до суда.
 
 Пакет Legis24:
@@ -102,7 +122,11 @@ https://advokat-vsem.ru""",
         "id": "legis24-otzyv-isk-006",
         "title": "Отзыв на иск в арбитраж — за 24 часа",
         "price": 30000,
-        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899607442-pkxmjf511ul.png",
+        "image_urls": [
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962362151-bpqxnuryivq.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962432_8f529bb5e5d64691ac4524ba46e6014c.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962501177-o2p7ga3jni.png",
+        ],
         "description": """Иск от контрагента, заседание через несколько дней?
 
 Отзыв на иск за 24 часа:
@@ -119,7 +143,11 @@ https://advokat-vsem.ru""",
         "id": "legis24-buhgalteram-008",
         "title": "Бухгалтерам: акт ФНС — решение за 24 ч",
         "price": 25000,
-        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899746_71a8d4fc1cb44987b8c7b1c23653bf90.png",
+        "image_urls": [
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962550_c1d1204310d04942afa8d9cd40149153.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962597_22c790784dae4259b677775759c6b47d.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962658_ff9d47ddd0e44e3695d45979f38da180.png",
+        ],
         "description": """Клиент получил акт ФНС или попал в арбитраж?
 
 Передайте кейс Legis24 — стратегия за 24 часа, партнёрское вознаграждение до 30%.
@@ -131,7 +159,11 @@ https://advokat-vsem.ru""",
         "id": "legis24-sk-poziciya-009",
         "title": "ФНС передала в СК — позиция за 24 часа",
         "price": 25000,
-        "image_url": "https://advokat-vsem.online/wp-content/uploads/2026/05/1779899882_0febc419a6ef48d0971c6c56dd741759.png",
+        "image_urls": [
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962715_fcb930a0acf448c796170bc5cdda75df.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962767_57e15a46d4724dd9a330c39b952ee96d.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962822_35ce5e2ba95447ceb775e754230020cd.png",
+        ],
         "description": """Материалы в СКР, допрос через 2–3 дня?
 
 За 24 часа: анализ документов, процессуальные нарушения, линия защиты до допроса.
@@ -160,9 +192,11 @@ WORK_EXPERIENCE = "4–7 лет"
 DESCRIPTION_SUFFIX = "\n\nСвязь только в чате Avito, звонки не принимаем."
 
 
-def _add_images(el: ET.Element, image_url: str) -> None:
+def _add_images(el: ET.Element, image_urls: str | list[str]) -> None:
+    urls = [image_urls] if isinstance(image_urls, str) else image_urls
     images = ET.SubElement(el, "Images")
-    ET.SubElement(images, "Image", url=image_url)
+    for url in urls:
+        ET.SubElement(images, "Image", url=url)
 
 
 def _add_legal_service_fields(el: ET.Element) -> None:
@@ -192,7 +226,7 @@ def build_xml() -> ET.Element:
         ET.SubElement(el, "Title").text = ad["title"]
         desc = ET.SubElement(el, "Description")
         desc.text = ad["description"].rstrip() + DESCRIPTION_SUFFIX
-        _add_images(el, ad["image_url"])
+        _add_images(el, ad["image_urls"])
         ET.SubElement(el, "Price").text = str(ad["price"])
         ET.SubElement(el, "Address").text = ADDRESS
         ET.SubElement(el, "ContactPhone").text = CONTACT_PHONE
