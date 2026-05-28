@@ -766,3 +766,15 @@ CLASS: dosudebnaya-zashchita-po-ugolovnomu-delu-page
 SLUG: `dosudebnaya-zashchita-po-ugolovnomu-delu`
 Файл: `/workspace/.cursor/page-content-natasha-A16.html`
 Публикация: обернуть в `<!-- wp:html -->` (уже в файле). **Нет** `<script>` и `<canvas>` — готово к MCP. Reveal только CSS (`ym-a16-fade-in`). JSON-LD не использован; Article/FAQ — microdata в разметке.
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: опубликовано
+code: A16
+page_id: 412
+slug: dosudebnaya-zashchita-po-ugolovnomu-delu
+URL: https://advokat-vsem.online/dosudebnaya-zashchita-po-ugolovnomu-delu/
+blob_id: VegIQTIRYN3zLrwd1eN27TDT
+sha256: 67ff64bc589c4621bbe67a57728075f740e34c1c5017798e2c58122b43444b3d
+bytes: 86042
+excerpt: Что говорить следователю на допросе и чего избегать на досудебной стадии: права подозреваемого, дознание и следствие, защита по ст. 159 и 177 УК.
+MCP: blob 00–05 → wordpress_update_page_from_blob → wordpress_update_page (publish)
