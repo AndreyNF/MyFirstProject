@@ -39,5 +39,13 @@ nero-network-office-page/nero-repo
 .cursor/*-call*.json
 .cursor/*.gz.b64
 .cursor/a7p-*
+.cursor/b2-blob*/
+.cursor/b2-upload-queue/
+.cursor/b2-mcp-args-*.json
 .cursor/shell-*
 .cursor/test-update-*
+scripts/b2_kovcheg*.py
+scripts/b2_mcp*.py
+scripts/b2_seq*.py
+scripts/b2_upload*.py
+scripts/b2_page384_upload.py
