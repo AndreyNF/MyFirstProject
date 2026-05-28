@@ -1,31 +1,31 @@
 === АЛИНА (HERO) ===
 Статус: ✅ ГОТОВО
 
-<section id="hero" class="ym-hero" aria-label="Статья 159 и 177 УК при долгах: гражданская граница">
+<section id="l24-hero-arb-au-deals" class="hero-arb-au-deals" aria-label="Арбитражный управляющий и оспаривание сделок">
   <style>
-    .ym-hero {
+    .hero-arb-au-deals {
       position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
       box-sizing: border-box;
       display: flex;
       align-items: center;
-      min-height: 88vh;
-      min-height: 88dvh;
-      padding: 112px 24px 72px;
-      background: linear-gradient(165deg, #fafbfc 0%, #f4f7fb 48%, #eef2f7 100%);
+      padding: 120px 24px 80px;
+      background: linear-gradient(168deg, #fcfcfd 0%, #f4f6f9 42%, #e9eef4 100%);
       color: #0f172a;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .ym-hero::before {
+    .hero-arb-au-deals::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 55% 42% at 94% 12%, rgba(30, 64, 175, 0.06) 0%, transparent 58%),
-        radial-gradient(ellipse 40% 36% at 4% 88%, rgba(15, 39, 68, 0.05) 0%, transparent 52%);
+        radial-gradient(ellipse 50% 45% at 92% 12%, rgba(30, 58, 138, 0.06) 0%, transparent 55%),
+        radial-gradient(ellipse 42% 38% at 6% 88%, rgba(163, 24, 48, 0.04) 0%, transparent 50%);
       pointer-events: none;
     }
-    .ym-hero__inner {
+    .hero-arb-au-deals__inner {
       position: relative;
       z-index: 1;
       max-width: 1200px;
@@ -33,254 +33,253 @@
       width: 100%;
       display: grid;
       grid-template-columns: 1.05fr 0.95fr;
-      gap: 48px;
+      gap: 44px;
       align-items: center;
     }
-    .ym-hero__badge {
+    .hero-arb-au-deals__badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
       margin: 0 0 18px;
       padding: 8px 14px;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.94);
+      background: rgba(255, 255, 255, 0.95);
       border: 1px solid rgba(15, 23, 42, 0.1);
       font-size: 0.82rem;
       font-weight: 600;
       letter-spacing: 0.02em;
       color: #334155;
     }
-    .ym-hero__badge-dot {
+    .hero-arb-au-deals__badge-dot {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #0f2744;
+      background: #1e3a8a;
       flex-shrink: 0;
     }
-    .ym-hero__h1 {
+    .hero-arb-au-deals__h1 {
       margin: 0 0 18px;
-      font-size: clamp(1.55rem, 3.6vw, 2.4rem);
-      line-height: 1.18;
+      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
       font-weight: 800;
       color: #0f172a;
       letter-spacing: -0.02em;
     }
-    .ym-hero__h1-accent {
+    .hero-arb-au-deals__h1-accent {
       color: #1e3a8a;
     }
-    .ym-hero__sub {
-      margin: 0 0 28px;
+    .hero-arb-au-deals__sub {
+      margin: 0 0 26px;
       max-width: 38em;
-      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      font-size: clamp(1rem, 1.55vw, 1.1rem);
       line-height: 1.55;
       color: #475569;
     }
-    .ym-hero__boundary {
+    .hero-arb-au-deals__lanes {
       list-style: none;
       padding: 0;
-      margin: 0 0 32px;
+      margin: 0 0 30px;
     }
-    .ym-hero__boundary-item {
+    .hero-arb-au-deals__lane {
       display: flex;
       gap: 14px;
       align-items: flex-start;
-      margin-bottom: 14px;
-      font-size: 0.94rem;
+      margin-bottom: 13px;
+      font-size: 0.93rem;
       line-height: 1.45;
       color: #334155;
     }
-    .ym-hero__boundary-tag {
+    .hero-arb-au-deals__lane-tag {
       flex-shrink: 0;
-      min-width: 92px;
+      min-width: 108px;
       padding: 6px 10px;
       border-radius: 6px;
       font-weight: 700;
-      font-size: 0.68rem;
+      font-size: 0.7rem;
       letter-spacing: 0.04em;
       text-align: center;
       text-transform: uppercase;
       color: #fff;
     }
-    .ym-hero__boundary-item--civil .ym-hero__boundary-tag {
+    .hero-arb-au-deals__lane--sus .hero-arb-au-deals__lane-tag {
+      background: #a31830;
+    }
+    .hero-arb-au-deals__lane--pref .hero-arb-au-deals__lane-tag {
+      background: #1e3a8a;
+    }
+    .hero-arb-au-deals__lane--au .hero-arb-au-deals__lane-tag {
       background: #475569;
     }
-    .ym-hero__boundary-item--159 .ym-hero__boundary-tag {
-      background: #1e40af;
-    }
-    .ym-hero__boundary-item--177 .ym-hero__boundary-tag {
-      background: #0f2744;
-    }
-    .ym-hero__cta {
+    .hero-arb-au-deals__cta {
       display: inline-block;
       background: #a31830;
       color: #fff !important;
-      padding: 14px 28px;
+      padding: 14px 26px;
       border-radius: 8px;
       font-weight: 700;
-      font-size: 0.95rem;
+      font-size: 0.94rem;
       text-decoration: none;
-      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
-      line-height: 1.35;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
     }
-    .ym-hero__cta:hover {
+    .hero-arb-au-deals__cta:hover {
       background: #8b1528;
     }
-    .ym-hero__visual {
+    .hero-arb-au-deals__visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
     @media (max-width: 900px) {
-      .ym-hero {
-        min-height: auto;
-        padding: 96px 20px 56px;
-      }
-      .ym-hero__inner {
+      .hero-arb-au-deals__inner {
         grid-template-columns: 1fr;
-        gap: 32px;
+        gap: 28px;
       }
-      .ym-hero__visual {
+      .hero-arb-au-deals__visual {
         order: -1;
         max-height: 320px;
       }
-      .ym-hero__boundary-tag {
-        min-width: 80px;
-        font-size: 0.64rem;
+      .hero-arb-au-deals__lane-tag {
+        min-width: 92px;
+        font-size: 0.66rem;
       }
     }
   </style>
-  <div class="ym-hero__inner">
-    <div class="ym-hero__content">
-      <div class="ym-hero__badge">
-        <span class="ym-hero__badge-dot" aria-hidden="true"></span>
-        УГ · ст. 159 / 177 · гражданская граница · 2026
+  <div class="hero-arb-au-deals__inner">
+    <div class="hero-arb-au-deals__content">
+      <div class="hero-arb-au-deals__badge">
+        <span class="hero-arb-au-deals__badge-dot" aria-hidden="true"></span>
+        Legis24 ARB · A11 · 127-ФЗ · ст. 61.1–61.14 · 2026
       </div>
-      <h1 class="ym-hero__h1">
-        <span class="ym-hero__h1-accent">Статья 159 и 177 УК при долгах:</span> где гражданская граница и когда нужен адвокат
+      <h1 class="hero-arb-au-deals__h1">
+        <span class="hero-arb-au-deals__h1-accent">Арбитражный управляющий</span> и оспаривание сделок
       </h1>
-      <p class="ym-hero__sub">
-        Разбираем мошенничество при займах, злостное уклонение от погашения по исполнительному листу и защиту на проверке и в суде — без путаницы с обычным взысканием долга.
+      <p class="hero-arb-au-deals__sub">
+        Сроки по закону о банкротстве, виды оспариваемых сделок и последствия для должника в арбитражном суде
       </p>
-      <ul class="ym-hero__boundary">
-        <li class="ym-hero__boundary-item ym-hero__boundary-item--civil">
-          <span class="ym-hero__boundary-tag">Гражданка</span>
-          <span><strong>Иск и пристав</strong> — просрочка, расписка, кредит: взыскание по договору, без умысла обмана при выдаче</span>
+      <ul class="hero-arb-au-deals__lanes">
+        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--sus">
+          <span class="hero-arb-au-deals__lane-tag">ст. 61.2</span>
+          <span><strong>Подозрительная сделка</strong> — период 1 год или 3 года до банкротства; презумпции цели вреда кредиторам</span>
         </li>
-        <li class="ym-hero__boundary-item ym-hero__boundary-item--159">
-          <span class="ym-hero__boundary-tag">ст. 159</span>
-          <span><strong>Мошенничество</strong> — обман или злоупотребление доверием <em>до</em> получения денег, не простой невозврат</span>
+        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--pref">
+          <span class="hero-arb-au-deals__lane-tag">ст. 61.3</span>
+          <span><strong>С предпочтением</strong> — 6 месяцев / 1 год; неравный приоритет одному кредитору перед массой</span>
         </li>
-        <li class="ym-hero__boundary-item ym-hero__boundary-item--177">
-          <span class="ym-hero__boundary-tag">ст. 177</span>
-          <span><strong>Злостное уклонение</strong> — после решения суда и ИП при возможности платить; крупный размер с 17.04.2024 — свыше 3,5 млн ₽</span>
+        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--au">
+          <span class="hero-arb-au-deals__lane-tag">1 год</span>
+          <span><strong>Заявление управляющего</strong> — обособленный спор в деле о банкротстве; реституция в конкурсную массу</span>
         </li>
       </ul>
-      <a class="ym-hero__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовным рискам при долге</a>
+      <a class="hero-arb-au-deals__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите при оспаривании сделки</a>
     </div>
-    <div class="ym-hero__visual" aria-hidden="true">
-      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Весы правосудия на границе гражданского взыскания и уголовных статей 159 и 177 УК при долгах">
+    <div class="hero-arb-au-deals__visual" aria-hidden="true">
+      <svg viewBox="0 0 480 410" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Схема: арбитражный управляющий, сроки оспаривания сделок и возврат в конкурсную массу">
         <defs>
-          <linearGradient id="ym-hero-scene" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-a11-sky" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#f8fafc"/>
-            <stop offset="100%" stop-color="#e8eef5"/>
-          </linearGradient>
-          <linearGradient id="ym-hero-civil" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#f1f5f9"/>
             <stop offset="100%" stop-color="#e2e8f0"/>
           </linearGradient>
-          <linearGradient id="ym-hero-criminal" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#eff6ff"/>
-            <stop offset="100%" stop-color="#dbeafe"/>
+          <linearGradient id="hero-a11-court" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
           </linearGradient>
-          <linearGradient id="ym-hero-beam" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#64748b"/>
-            <stop offset="50%" stop-color="#334155"/>
-            <stop offset="100%" stop-color="#64748b"/>
+          <linearGradient id="hero-a11-mass" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ecfdf5"/>
+            <stop offset="100%" stop-color="#d1fae5"/>
           </linearGradient>
-          <filter id="ym-hero-shadow" x="-10%" y="-10%" width="120%" height="120%">
-            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.12"/>
+          <filter id="hero-a11-shadow" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.12"/>
           </filter>
-          <filter id="ym-hero-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
-            <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1e293b" flood-opacity="0.1"/>
-          </filter>
+          <marker id="hero-a11-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
+          </marker>
+          <marker id="hero-a11-arrow-red" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#a31830"/>
+          </marker>
         </defs>
-        <rect x="8" y="10" width="424" height="380" rx="16" fill="url(#ym-hero-scene)" stroke="#cbd5e1" stroke-width="1.2"/>
-        <text x="220" y="36" text-anchor="middle" fill="#64748b" font-size="9" font-weight="700" letter-spacing="0.12em">ГРАНИЦА ОТВЕТСТВЕННОСТИ</text>
-        <!-- зона гражданского взыскания -->
-        <rect x="24" y="52" width="176" height="320" rx="12" fill="url(#ym-hero-civil)" stroke="#94a3b8" stroke-width="1.2"/>
-        <text x="112" y="78" text-anchor="middle" fill="#475569" font-size="8" font-weight="800" letter-spacing="0.06em">ГРАЖДАНСКОЕ</text>
-        <g filter="url(#ym-hero-shadow-soft)" transform="translate(44, 96)">
-          <rect width="136" height="88" rx="10" fill="#fff" stroke="#94a3b8" stroke-width="1.2"/>
-          <text x="68" y="22" text-anchor="middle" fill="#334155" font-size="9" font-weight="800">ИСК · ПРИСТАВ</text>
-          <line x1="16" y1="34" x2="120" y2="34" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
-          <line x1="16" y1="48" x2="100" y2="48" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
-          <line x1="16" y1="62" x2="88" y2="62" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
-          <rect x="16" y="68" width="104" height="14" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
-          <text x="68" y="78" text-anchor="middle" fill="#64748b" font-size="7" font-weight="700">расписка · кредит · ГПК</text>
+        <rect x="8" y="10" width="464" height="390" rx="16" fill="url(#hero-a11-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <!-- арбитражный суд -->
+        <g transform="translate(140, 18)">
+          <rect x="0" y="24" width="200" height="58" rx="4" fill="url(#hero-a11-court)"/>
+          <polygon points="100,0 200,24 0,24" fill="#1e40af"/>
+          <text x="100" y="52" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="700" letter-spacing="0.08em">АРБИТРАЖ · обособлённый спор</text>
         </g>
-        <g transform="translate(52, 208)">
-          <rect x="0" y="0" width="120" height="44" rx="8" fill="#fff" stroke="#64748b" stroke-width="1"/>
-          <text x="60" y="18" text-anchor="middle" fill="#475569" font-size="7" font-weight="700">исполнительный лист</text>
-          <text x="60" y="34" text-anchor="middle" fill="#334155" font-size="8" font-weight="800">без ст. 177 само по себе</text>
+        <!-- линия сроков -->
+        <text x="28" y="108" fill="#64748b" font-size="8" font-weight="700" letter-spacing="0.06em">ЛИНИЯ СРОКОВ ДО ПРИНЯТИЯ ЗАЯВЛЕНИЯ О БАНКРОТСТВЕ</text>
+        <line x1="28" y1="118" x2="452" y2="118" stroke="#94a3b8" stroke-width="2"/>
+        <circle cx="88" cy="118" r="5" fill="#a31830" stroke="#fff" stroke-width="2"/>
+        <text x="88" y="134" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">6 мес.</text>
+        <text x="88" y="144" text-anchor="middle" fill="#64748b" font-size="6">ст. 61.3</text>
+        <circle cx="200" cy="118" r="5" fill="#1e3a8a" stroke="#fff" stroke-width="2"/>
+        <text x="200" y="134" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="700">1 год</text>
+        <text x="200" y="144" text-anchor="middle" fill="#64748b" font-size="6">61.2 п.1 · 61.3</text>
+        <circle cx="360" cy="118" r="5" fill="#475569" stroke="#fff" stroke-width="2"/>
+        <text x="360" y="134" text-anchor="middle" fill="#475569" font-size="7" font-weight="700">3 года</text>
+        <text x="360" y="144" text-anchor="middle" fill="#64748b" font-size="6">ст. 61.2 п.2</text>
+        <!-- управляющий + заявление -->
+        <g filter="url(#hero-a11-shadow)" transform="translate(28, 158)">
+          <rect width="156" height="108" rx="10" fill="#fff" stroke="#1e3a8a" stroke-width="1.5"/>
+          <circle cx="42" cy="36" r="18" fill="#e2e8f0" stroke="#94a3b8"/>
+          <text x="42" y="40" text-anchor="middle" fill="#1e3a8a" font-size="14" font-weight="700">АУ</text>
+          <text x="88" y="28" fill="#1e3a8a" font-size="9" font-weight="800">УПРАВЛЯЮЩИЙ</text>
+          <text x="88" y="42" fill="#64748b" font-size="7">ст. 20.3 · 61.1 ЗоБ</text>
+          <rect x="16" y="58" width="124" height="38" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+          <text x="78" y="74" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">ЗАЯВЛЕНИЕ</text>
+          <text x="78" y="86" text-anchor="middle" fill="#991b1b" font-size="7">об оспаривании сделки</text>
         </g>
-        <!-- вертикальная граница -->
-        <line x1="220" y1="48" x2="220" y2="368" stroke="#0f2744" stroke-width="2.5" stroke-dasharray="6 5" opacity="0.55"/>
-        <polygon points="220,44 214,56 226,56" fill="#0f2744" opacity="0.7"/>
-        <polygon points="220,372 214,360 226,360" fill="#0f2744" opacity="0.7"/>
-        <text x="220" y="196" text-anchor="middle" fill="#0f2744" font-size="8" font-weight="800" letter-spacing="0.08em" transform="rotate(-90 220 196)">ГРАНИЦА</text>
-        <!-- зона уголовного -->
-        <rect x="240" y="52" width="176" height="320" rx="12" fill="url(#ym-hero-criminal)" stroke="#93c5fd" stroke-width="1.2"/>
-        <text x="328" y="78" text-anchor="middle" fill="#1e40af" font-size="8" font-weight="800" letter-spacing="0.06em">УГОЛОВНОЕ</text>
-        <g filter="url(#ym-hero-shadow-soft)" transform="translate(258, 96)">
-          <rect width="64" height="72" rx="8" fill="#fff" stroke="#1e40af" stroke-width="1.2"/>
-          <text x="32" y="20" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="800">159</text>
-          <text x="32" y="36" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">обман до</text>
-          <text x="32" y="48" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">получения</text>
-          <text x="32" y="62" text-anchor="middle" fill="#334155" font-size="6" font-weight="700">мошенничество</text>
-        </g>
-        <g filter="url(#ym-hero-shadow-soft)" transform="translate(334, 96)">
-          <rect width="64" height="72" rx="8" fill="#fff" stroke="#0f2744" stroke-width="1.2"/>
-          <text x="32" y="20" text-anchor="middle" fill="#0f2744" font-size="10" font-weight="800">177</text>
-          <text x="32" y="36" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">после</text>
-          <text x="32" y="48" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">суда · ИП</text>
-          <text x="32" y="62" text-anchor="middle" fill="#334155" font-size="6" font-weight="700">&gt; 3,5 млн</text>
-        </g>
-        <!-- весы по центру границы -->
-        <g filter="url(#ym-hero-shadow)" transform="translate(220, 200)">
-          <rect x="-6" y="52" width="12" height="88" rx="3" fill="#334155"/>
-          <ellipse cx="0" cy="48" rx="28" ry="6" fill="#475569"/>
-          <rect x="-118" y="-8" width="236" height="8" rx="4" fill="url(#ym-hero-beam)"/>
-          <line x1="-118" y1="-4" x2="-118" y2="28" stroke="#64748b" stroke-width="2"/>
-          <line x1="118" y1="-4" x2="118" y2="28" stroke="#64748b" stroke-width="2"/>
-          <!-- левая чаша — гражданка (ниже / тяжелее бытовой массы) -->
-          <path d="M-118,28 C-138,28 -148,48 -128,56 L-108,56 C-88,48 -98,28 -118,28 Z" fill="#94a3b8" stroke="#64748b" stroke-width="1"/>
-          <rect x="-138" y="14" width="40" height="18" rx="4" fill="#fff" stroke="#94a3b8" stroke-width="1"/>
-          <text x="-118" y="26" text-anchor="middle" fill="#475569" font-size="6" font-weight="800">ГПК</text>
-          <!-- правая чаша — уголовка -->
-          <path d="M118,28 C98,28 88,48 108,56 L128,56 C148,48 138,28 118,28 Z" fill="#60a5fa" stroke="#1e40af" stroke-width="1"/>
-          <rect x="98" y="14" width="40" height="18" rx="4" fill="#fff" stroke="#93c5fd" stroke-width="1"/>
-          <text x="118" y="26" text-anchor="middle" fill="#1e40af" font-size="6" font-weight="800">УК</text>
-          <!-- наклон луча: гражданка чаще «по умолчанию» -->
-          <g transform="rotate(-6 0 -4)">
-            <rect x="-118" y="-8" width="236" height="8" rx="4" fill="url(#ym-hero-beam)" opacity="0.35"/>
+        <!-- три сделки на весах -->
+        <g transform="translate(200, 152)">
+          <path d="M140 8 L140 52" stroke="#64748b" stroke-width="2"/>
+          <path d="M60 52 L220 52" stroke="#64748b" stroke-width="2.5"/>
+          <path d="M60 52 L40 72" stroke="#64748b" stroke-width="2"/>
+          <path d="M220 52 L240 72" stroke="#64748b" stroke-width="2"/>
+          <circle cx="140" cy="8" r="6" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
+          <!-- сделка 1 -->
+          <g transform="translate(8, 76)">
+            <rect width="72" height="54" rx="8" fill="#fef2f2" stroke="#a31830" stroke-width="1.2" stroke-dasharray="4 3"/>
+            <text x="36" y="20" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">61.2</text>
+            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">подозрительная</text>
+            <line x1="12" y1="42" x2="60" y2="42" stroke="#fecaca"/>
+            <text x="36" y="50" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">✕</text>
+          </g>
+          <!-- сделка 2 -->
+          <g transform="translate(104, 76)">
+            <rect width="72" height="54" rx="8" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+            <text x="36" y="20" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="700">61.3</text>
+            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">предпочтение</text>
+            <line x1="12" y1="42" x2="60" y2="42" stroke="#bfdbfe"/>
+            <text x="36" y="50" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="800">✕</text>
+          </g>
+          <!-- сделка 3 -->
+          <g transform="translate(200, 76)">
+            <rect width="72" height="54" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
+            <text x="36" y="20" text-anchor="middle" fill="#475569" font-size="7" font-weight="700">61.4</text>
+            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">на ущерб</text>
+            <line x1="12" y1="42" x2="60" y2="42" stroke="#e2e8f0"/>
+            <text x="36" y="50" text-anchor="middle" fill="#64748b" font-size="8" font-weight="800">✕</text>
           </g>
         </g>
-        <!-- подпись внизу -->
-        <text x="112" y="348" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">неуплата ≠ тюрьма</text>
-        <text x="328" y="348" text-anchor="middle" fill="#1e40af" font-size="7" font-weight="600">состав · проверка · защита</text>
-        <rect x="156" y="362" width="128" height="22" rx="6" fill="#fff" stroke="#cbd5e1"/>
-        <text x="220" y="377" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">умысел и судебный акт решают</text>
+        <!-- стрелка к суду -->
+        <path d="M106 266 L106 292 L240 292 L240 82" stroke="#1e3a8a" stroke-width="2" fill="none" marker-end="url(#hero-a11-arrow)"/>
+        <!-- последствие: реституция -->
+        <g filter="url(#hero-a11-shadow)" transform="translate(28, 278)">
+          <rect width="424" height="72" rx="10" fill="url(#hero-a11-mass)" stroke="#059669" stroke-width="1.2"/>
+          <text x="212" y="22" text-anchor="middle" fill="#047857" font-size="9" font-weight="800" letter-spacing="0.06em">КОНКУРСНАЯ МАССА · РЕСТИТУЦИЯ</text>
+          <path d="M72 44 L160 44" stroke="#059669" stroke-width="2" marker-end="url(#hero-a11-arrow)"/>
+          <rect x="168" y="32" width="88" height="24" rx="5" fill="#fff" stroke="#6ee7b7"/>
+          <text x="212" y="48" text-anchor="middle" fill="#047857" font-size="7" font-weight="700">возврат имущества</text>
+          <path d="M264 44 L352 44" stroke="#a31830" stroke-width="2" marker-end="url(#hero-a11-arrow-red)"/>
+          <text x="380" y="48" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">риск субсидиарки</text>
+        </g>
+        <text x="240" y="368" text-anchor="middle" fill="#64748b" font-size="7">сроки · виды сделок · заявление АУ · последствия для должника</text>
+        <text x="240" y="382" text-anchor="middle" fill="#94a3b8" font-size="6">метафора: весы сделок на линии времени → суд → масса</text>
       </svg>
     </div>
   </div>
 </section>
 
 ## Передача Наташе
-SLUG: statya-159-177-uk-pri-dolgah-granica
-ВНИМАНИЕ: без script/canvas — MCP-only
-HERO_ID: hero
-Класс: ym-hero
-SVG: да (static SVG + scoped CSS, без canvas и script)
-H1: Статья 159 и 177 УК при долгах: где гражданская граница и когда нужен адвокат
-ПОДЗАГОЛОВОК: Разбираем мошенничество при займах, злостное уклонение от погашения по исполнительному листу и защиту на проверке и в суде — без путаницы с обычным взысканием долга.
-CTA: https://advokat-vsem.ru/ — «Консультация по уголовным рискам при долге»
+SLUG: arbitrazhnyj-upravlyayushchij-osparivanie-sdelok
+H1_для_hero: Арбитражный управляющий и оспаривание сделок
+ПОДЗАГОЛОВОК_HERO: Сроки по закону о банкротстве, виды оспариваемых сделок и последствия для должника в арбитражном суде
+ВНИМАНИЕ: hero только static SVG + inline CSS (Legis24 MCP) — без &lt;canvas&gt; и &lt;script&gt;. Класс секции: hero-arb-au-deals, id: l24-hero-arb-au-deals.
