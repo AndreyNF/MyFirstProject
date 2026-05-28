@@ -8,7 +8,9 @@ is_background: false
 
 Следуй `visual-avito-images/SKILL.md`.
 
-MCP Kovcheg: **`gpt-image-2`** (основной), при таймауте **`z-image`** → **`wordpress_upload_media`** на advokat-vsem.online.
+MCP Kovcheg: **`gpt-image-2`** (основной), при таймауте **`z-image`** → **`wordpress_upload_media`**.
+
+**На документах в кадре — только русский текст (кириллица), без английских надписей.** См. `shared/legis24-image-prompt-rules.md`.
 
 Блок: `=== ВИЗУАЛ-AVITO (ФОТО) ===`. Запускай **после** `=== ПЕТРОВИЧ (КАРТОЧКА AVITO) ===`.
 

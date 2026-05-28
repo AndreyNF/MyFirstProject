@@ -2,6 +2,8 @@
 
 Визуальный блок пайплайна Avito (MCP Kovcheg).
 
+**Правила текста на изображении:** `shared/legis24-image-prompt-rules.md`
+
 ## Вход
 
 `=== ПЕТРОВИЧ (КАРТОЧКА AVITO) ===` + ниша из ввода.
@@ -14,42 +16,47 @@ I1: gpt-image-2 (text-to-image, 1:1, 1K)
   → wordpress_upload_media (стабильный HTTPS на advokat-vsem.online)
 ```
 
-Опционально (если нужна галерея 5–8 фото):
-
-- дополнительные вызовы `gpt-image-2` с разными промптами;
-- legacy: `flux2-pro-text-to-image` → `recraft_remove_background` → `seedream-4_5-edit`.
+Опционально (галерея 5–8 фото): flux2 → recraft → seedream — только если нужны варианты.
 
 ### I1 — gpt-image-2
 
-- `aspect_ratio`: `1:1` (главное для фида), при галерее также `4:3`
+- `aspect_ratio`: `1:1` (главное в XML), при галерее также `4:3`
 - `resolution`: `1K`
-- Промпт-шаблон: «Professional legal services, tax documents on clean desk, soft daylight, corporate navy blue accents, no text overlay, no faces, photorealistic»
+- **Промпт** = **ниша объявления** (заголовок/услуга) + объекты + стиль + **русский текст**
 
-Подстрой промпт под нишу SKU (акт ФНС, требование, иск, СК…).
+**Шаблон промпта:**
+
+```
+{Ниша на английском для модели}: {объекты}. Russian tax legal documents on desk with readable Russian Cyrillic labels such as «Акт проверки», «Требование ФНС» — all document text in Russian only, no English words. Corporate navy blue office, soft daylight, photorealistic 1:1, no faces. Brand Legis24 optional.
+```
+
+**Запрещено в промпте:** `no text overlay` без уточнения про кириллицу — иначе модель рисует English.
+
+**Хвост (всегда):** см. `legis24-image-prompt-rules.md` — Russian Cyrillic only, no English on papers.
 
 ### Хостинг
 
-**Обязательно** `wordpress_upload_media` после генерации — временные URL Kie.ai Avito не подхватит надёжно.
+`wordpress_upload_media` после генерации → URL в `image_url` генератора XML.
 
 ## Итого в пакете
 
-Минимум **1** URL на SKU в XML; для галереи — **5–8** URL.
+Минимум **1** URL на SKU; галерея — до 8.
 
 ## Выход
 
 ```markdown
 === ВИЗУАЛ-AVITO (ФОТО) ===
 Статус: ✅ ГОТОВО
+Ниша: ...
+Промпт: ...
 
-| # | URL | Модель | Назначение |
-| 1 | https://advokat-vsem.online/wp-content/uploads/... | gpt-image-2 | Главное |
-
-## Промпты (архив)
-...
+| # | URL | Назначение |
+| 1 | ... | Главное 1:1 |
 ```
 
 ## Запреты
 
-- Не использовать лица реальных людей
-- Не копировать чужие скрины Avito
-- Не отправлять в Telegram
+- Английские надписи на документах
+- Лица реальных людей
+- Чужие логотипы Avito
+- Telegram (отдельный канал)

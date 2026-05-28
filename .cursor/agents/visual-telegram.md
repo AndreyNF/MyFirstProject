@@ -20,8 +20,10 @@ is_background: false
 3. Собери `prompt` (англ.):
 
 ```
-{Topic from post}: {visual objects}, professional Legis24 legal corporate, navy blue teal, soft daylight, 16:9 photorealistic, no text no logos no faces
+{Topic from post}: {visual objects}, Russian Cyrillic text on documents matching topic, professional Legis24, navy teal, 16:9 photorealistic, no English words on papers, no faces
 ```
+
+Читай `shared/legis24-image-prompt-rules.md`.
 
 4. `gpt-image-2`: `aspect_ratio` **16:9**, `resolution` **2K**
 5. Верни tempfile URL; опционально `wordpress_upload_media`

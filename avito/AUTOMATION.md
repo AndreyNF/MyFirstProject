@@ -84,5 +84,5 @@ bash scripts/avito-print-feed-url.sh    # показать URL для кабин
 | Этап | Инструменты |
 |------|-------------|
 | Семантика | `wordstat_get_top_requests`, `wordstat_get_dynamics`, `wordstat_get_regions` |
-| Фото | `gpt-image-2` (основной), при таймауте `z-image` → `wordpress_upload_media` → `<Images>` в фиде |
+| Фото | `gpt-image-2` от ниши SKU; **кириллица на документах** (`legis24-image-prompt-rules.md`) → WP media → `<Images>` |
 | Telegram | **не использовать** (отдельный канал) |

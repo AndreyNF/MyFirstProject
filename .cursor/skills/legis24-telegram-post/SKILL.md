@@ -40,8 +40,12 @@
 3. Собрать промпт по шаблону:
 
 ```
-{ТЕМА ПОСТА — суть на английском}: {объекты из текста}, professional Russian legal service Legis24, navy blue and teal, soft daylight, cinematic 16:9 photorealistic, no text, no logos, no faces, no watermark
+{ТЕМА ПОСТА — суть на английском}: {объекты из текста}, Russian legal documents with readable Cyrillic labels matching the topic, professional Legis24, navy blue and teal, soft daylight, cinematic 16:9 photorealistic, no faces
 ```
+
+**Текст на картинке:** только **русский (кириллица)** на документах и экранах; без английских слов. Полные правила: `shared/legis24-image-prompt-rules.md`.
+
+**Хвост промпта (обязательно):** `All visible text in Russian Cyrillic only. No English words on documents. No faces.`
 
 ### Примеры
 
