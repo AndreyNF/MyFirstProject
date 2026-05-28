@@ -888,4 +888,24 @@ H1: Арбитражный управляющий и оспаривание сд
 SLUG: arbitrazhnyj-upravlyayushchij-osparivanie-sdelok
 H1_для_hero: Арбитражный управляющий и оспаривание сделок
 ПОДЗАГОЛОВОК_HERO: Сроки по закону о банкротстве, виды оспариваемых сделок и последствия для должника в арбитражном суде
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
 
+**Файл:** `.cursor/page-content-natasha-A11.html`
+**SLUG:** `arbitrazhnyj-upravlyayushchij-osparivanie-sdelok`
+**Title:** Арбитражный управляющий и оспаривание сделок: сроки и последствия для должника | Legis24
+**Description:** Когда арбитражный управляющий оспаривает сделки должника в банкротстве: сроки по ст. 61.1–61.5, подозрительные и с предпочтением сделки, заявление в арбитражный суд и последствия для должника. Консультация по защите.
+**Размер HTML:** 71115 символов (93441 байт UTF-8)
+**Класс main:** `site-main arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page`
+
+ВНИМАНИЕ: без `<script>` и `<canvas>` — hero и Борис static SVG + inline CSS (MCP publish удаляет scripts). JSON-LD: microdata Article на `<main>`, FAQPage на секции `#a11-faq`; дублирующий граф в `<pre class="l24-jsonld-a11" hidden>` без script.
+
+## Передача Юре
+
+**slug:** `arbitrazhnyj-upravlyayushchij-osparivanie-sdelok`
+**title:** Арбитражный управляющий и оспаривание сделок: сроки и последствия для должника | Legis24
+**excerpt (Description):** Когда арбитражный управляющий оспаривает сделки должника в банкротстве: сроки по ст. 61.1–61.5, подозрительные и с предпочтением сделки, заявление в арбитражный суд и последствия для должника. Консультация по защите.
+**page_id:** `PLACEHOLDER` (после `wordpress_create_page`)
+**Публикация:** MCP blob flow (`wordpress_content_blob_append` + `wordpress_update_page_from_blob` / create); обёртка `<!-- wp:html -->`; перед blob удалить любые случайные `<script>`.
+**Проверить:** `main#primary`, класс `arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page`, hero `#l24-hero-arb-au-deals`, Boris `#l24-boris-ospar-sroki-a11`, FAQ `#a11-faq`, breadcrumbs скрыты, padding-top сброшен.
+**CTA:** https://advokat-vsem.ru/ (3× ym-cta--primary + ym-cta--legis24)
