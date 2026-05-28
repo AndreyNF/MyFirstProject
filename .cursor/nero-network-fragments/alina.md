@@ -1,9 +1,9 @@
 === АЛИНА (HERO) ===
 Статус: ✅ ГОТОВО
 
-<section id="l24-hero-arb-au-deals" class="hero-arb-au-deals" aria-label="Арбитражный управляющий и оспаривание сделок">
+<section id="l24-hero-ip-isk-otvet" class="hero-ip-isk-otvet" aria-label="Иск о защите интеллектуальной собственности: план ответа ответчика">
   <style>
-    .hero-arb-au-deals {
+    .hero-ip-isk-otvet {
       position: relative;
       min-height: 100vh;
       min-height: 100dvh;
@@ -11,275 +11,275 @@
       display: flex;
       align-items: center;
       padding: 120px 24px 80px;
-      background: linear-gradient(168deg, #fcfcfd 0%, #f4f6f9 42%, #e9eef4 100%);
-      color: #0f172a;
+      background:
+        linear-gradient(168deg, #faf9f7 0%, #f3f1ec 38%, #eef4f3 100%);
+      color: #1c1917;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .hero-arb-au-deals::before {
+    .hero-ip-isk-otvet::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 50% 45% at 92% 12%, rgba(30, 58, 138, 0.06) 0%, transparent 55%),
-        radial-gradient(ellipse 42% 38% at 6% 88%, rgba(163, 24, 48, 0.04) 0%, transparent 50%);
+        radial-gradient(ellipse 55% 45% at 92% 12%, rgba(13, 148, 136, 0.09) 0%, transparent 58%),
+        radial-gradient(ellipse 45% 40% at 6% 88%, rgba(124, 58, 237, 0.06) 0%, transparent 52%);
       pointer-events: none;
     }
-    .hero-arb-au-deals__inner {
+    .hero-ip-isk-otvet::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.045;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpath d='M20 20h80v12H32v68H20z' fill='%231c1917'/%3E%3C/svg%3E");
+      background-size: 120px 120px;
+      pointer-events: none;
+    }
+    .hero-ip-isk-otvet__inner {
       position: relative;
       z-index: 1;
       max-width: 1200px;
       margin: 0 auto;
       width: 100%;
       display: grid;
-      grid-template-columns: 1.05fr 0.95fr;
+      grid-template-columns: 1.08fr 0.92fr;
       gap: 44px;
       align-items: center;
     }
-    .hero-arb-au-deals__badge {
+    .hero-ip-isk-otvet__badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
       margin: 0 0 18px;
       padding: 8px 14px;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.95);
-      border: 1px solid rgba(15, 23, 42, 0.1);
-      font-size: 0.82rem;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(28, 25, 23, 0.12);
+      font-size: 0.8rem;
       font-weight: 600;
-      letter-spacing: 0.02em;
-      color: #334155;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #44403c;
     }
-    .hero-arb-au-deals__badge-dot {
+    .hero-ip-isk-otvet__badge-pulse {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #1e3a8a;
+      background: #0d9488;
+      box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.25);
       flex-shrink: 0;
     }
-    .hero-arb-au-deals__h1 {
+    .hero-ip-isk-otvet__h1 {
       margin: 0 0 18px;
-      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
-      line-height: 1.2;
+      font-size: clamp(1.62rem, 3.7vw, 2.42rem);
+      line-height: 1.17;
       font-weight: 800;
-      color: #0f172a;
-      letter-spacing: -0.02em;
+      color: #0c0a09;
+      letter-spacing: -0.025em;
     }
-    .hero-arb-au-deals__h1-accent {
-      color: #1e3a8a;
+    .hero-ip-isk-otvet__h1-accent {
+      color: #0f766e;
+      display: block;
     }
-    .hero-arb-au-deals__sub {
+    .hero-ip-isk-otvet__sub {
       margin: 0 0 26px;
-      max-width: 38em;
-      font-size: clamp(1rem, 1.55vw, 1.1rem);
-      line-height: 1.55;
-      color: #475569;
+      max-width: 40em;
+      font-size: clamp(1rem, 1.55vw, 1.11rem);
+      line-height: 1.58;
+      color: #57534e;
     }
-    .hero-arb-au-deals__lanes {
+    .hero-ip-isk-otvet__steps {
       list-style: none;
       padding: 0;
       margin: 0 0 30px;
     }
-    .hero-arb-au-deals__lane {
+    .hero-ip-isk-otvet__step {
       display: flex;
       gap: 14px;
       align-items: flex-start;
       margin-bottom: 13px;
       font-size: 0.93rem;
-      line-height: 1.45;
-      color: #334155;
+      line-height: 1.48;
+      color: #44403c;
     }
-    .hero-arb-au-deals__lane-tag {
+    .hero-ip-isk-otvet__step-day {
       flex-shrink: 0;
-      min-width: 108px;
-      padding: 6px 10px;
+      min-width: 52px;
+      padding: 5px 8px;
       border-radius: 6px;
+      background: #134e4a;
+      color: #f0fdfa;
       font-weight: 700;
-      font-size: 0.7rem;
-      letter-spacing: 0.04em;
+      font-size: 0.72rem;
+      letter-spacing: 0.02em;
       text-align: center;
-      text-transform: uppercase;
-      color: #fff;
     }
-    .hero-arb-au-deals__lane--sus .hero-arb-au-deals__lane-tag {
-      background: #a31830;
-    }
-    .hero-arb-au-deals__lane--pref .hero-arb-au-deals__lane-tag {
-      background: #1e3a8a;
-    }
-    .hero-arb-au-deals__lane--au .hero-arb-au-deals__lane-tag {
-      background: #475569;
-    }
-    .hero-arb-au-deals__cta {
+    .hero-ip-isk-otvet__cta {
       display: inline-block;
-      background: #a31830;
+      background: #7c3aed;
       color: #fff !important;
       padding: 14px 26px;
       border-radius: 8px;
       font-weight: 700;
       font-size: 0.94rem;
       text-decoration: none;
-      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+      box-shadow: 0 4px 16px rgba(124, 58, 237, 0.28);
     }
-    .hero-arb-au-deals__cta:hover {
-      background: #8b1528;
+    .hero-ip-isk-otvet__cta:hover {
+      background: #6d28d9;
     }
-    .hero-arb-au-deals__visual {
+    .hero-ip-isk-otvet__visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
     @media (max-width: 900px) {
-      .hero-arb-au-deals__inner {
+      .hero-ip-isk-otvet__inner {
         grid-template-columns: 1fr;
         gap: 28px;
       }
-      .hero-arb-au-deals__visual {
+      .hero-ip-isk-otvet__visual {
         order: -1;
-        max-height: 320px;
-      }
-      .hero-arb-au-deals__lane-tag {
-        min-width: 92px;
-        font-size: 0.66rem;
+        max-height: 300px;
       }
     }
   </style>
-  <div class="hero-arb-au-deals__inner">
-    <div class="hero-arb-au-deals__content">
-      <div class="hero-arb-au-deals__badge">
-        <span class="hero-arb-au-deals__badge-dot" aria-hidden="true"></span>
-        Legis24 ARB · A11 · 127-ФЗ · ст. 61.1–61.14 · 2026
+  <div class="hero-ip-isk-otvet__inner">
+    <div class="hero-ip-isk-otvet__content">
+      <div class="hero-ip-isk-otvet__badge">
+        <span class="hero-ip-isk-otvet__badge-pulse" aria-hidden="true"></span>
+        ИС · ответчик · ст. 131 АПК · 214-ФЗ · 2026
       </div>
-      <h1 class="hero-arb-au-deals__h1">
-        <span class="hero-arb-au-deals__h1-accent">Арбитражный управляющий</span> и оспаривание сделок
+      <h1 class="hero-ip-isk-otvet__h1">
+        <span class="hero-ip-isk-otvet__h1-accent">Иск о защите интеллектуальной собственности против вас</span>
       </h1>
-      <p class="hero-arb-au-deals__sub">
-        Сроки по закону о банкротстве, виды оспариваемых сделок и последствия для должника в арбитражном суде
+      <p class="hero-ip-isk-otvet__sub">
+        Пошаговый план ответа: сроки, претензия, возражение на иск и оспаривание компенсации по товарному знаку и авторским правам
       </p>
-      <ul class="hero-arb-au-deals__lanes">
-        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--sus">
-          <span class="hero-arb-au-deals__lane-tag">ст. 61.2</span>
-          <span><strong>Подозрительная сделка</strong> — период 1 год или 3 года до банкротства; презумпции цели вреда кредиторам</span>
+      <ol class="hero-ip-isk-otvet__steps">
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">0–3</span>
+          <span><strong>kad.arbitr.ru</strong> — проверить претензию, срок 30 дней (п. 5.1 ст. 1252), не уничтожать доказательства</span>
         </li>
-        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--pref">
-          <span class="hero-arb-au-deals__lane-tag">ст. 61.3</span>
-          <span><strong>С предпочтением</strong> — 6 месяцев / 1 год; неравный приоритет одному кредитору перед массой</span>
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">7–14</span>
+          <span><strong>Отзыв и возражение</strong> — по каждому доводу истца, ст. 131 АПК, приложения и ходатайства</span>
         </li>
-        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--au">
-          <span class="hero-arb-au-deals__lane-tag">1 год</span>
-          <span><strong>Заявление управляющего</strong> — обособленный спор в деле о банкротстве; реституция в конкурсную массу</span>
+        <li class="hero-ip-isk-otvet__step">
+          <span class="hero-ip-isk-otvet__step-day">суд</span>
+          <span><strong>Компенсация</strong> — оспорить способ расчёта, ст. 1252.1, добросовестность, КС № 57-П</span>
         </li>
-      </ul>
-      <a class="hero-arb-au-deals__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите при оспаривании сделки</a>
+      </ol>
+      <a class="hero-ip-isk-otvet__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на иск по ИС</a>
     </div>
-    <div class="hero-arb-au-deals__visual" aria-hidden="true">
-      <svg viewBox="0 0 480 410" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Схема: арбитражный управляющий, сроки оспаривания сделок и возврат в конкурсную массу">
+    <div class="hero-ip-isk-otvet__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="План ответа ответчика: претензия, иск, возражение и снижение компенсации">
         <defs>
-          <linearGradient id="hero-a11-sky" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#f8fafc"/>
-            <stop offset="100%" stop-color="#e2e8f0"/>
+          <linearGradient id="hero-ip-otvet-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ccfbf1"/>
+            <stop offset="100%" stop-color="#ede9fe"/>
           </linearGradient>
-          <linearGradient id="hero-a11-court" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#1e3a8a"/>
-            <stop offset="100%" stop-color="#0f2744"/>
+          <linearGradient id="hero-ip-otvet-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f5f5f4"/>
           </linearGradient>
-          <linearGradient id="hero-a11-mass" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#ecfdf5"/>
-            <stop offset="100%" stop-color="#d1fae5"/>
+          <linearGradient id="hero-ip-otvet-shield" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0d9488"/>
+            <stop offset="100%" stop-color="#115e59"/>
           </linearGradient>
-          <filter id="hero-a11-shadow" x="-8%" y="-8%" width="116%" height="116%">
-            <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.12"/>
+          <filter id="hero-ip-otvet-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="5" stdDeviation="9" flood-color="#1c1917" flood-opacity="0.11"/>
           </filter>
-          <marker id="hero-a11-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
-            <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
-          </marker>
-          <marker id="hero-a11-arrow-red" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
-            <path d="M0,0 L7,3.5 L0,7 Z" fill="#a31830"/>
+          <marker id="hero-ip-otvet-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#78716c"/>
           </marker>
         </defs>
-        <rect x="8" y="10" width="464" height="390" rx="16" fill="url(#hero-a11-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
-        <!-- арбитражный суд -->
-        <g transform="translate(140, 18)">
-          <rect x="0" y="24" width="200" height="58" rx="4" fill="url(#hero-a11-court)"/>
-          <polygon points="100,0 200,24 0,24" fill="#1e40af"/>
-          <text x="100" y="52" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="700" letter-spacing="0.08em">АРБИТРАЖ · обособлённый спор</text>
+        <!-- календарь-лента сроков -->
+        <g transform="translate(24, 28)">
+          <rect width="392" height="44" rx="22" fill="url(#hero-ip-otvet-glow)" stroke="#d6d3d1" stroke-width="1"/>
+          <circle cx="52" cy="22" r="14" fill="#134e4a"/>
+          <text x="52" y="26" text-anchor="middle" fill="#f0fdfa" font-size="10" font-weight="800">0</text>
+          <circle cx="148" cy="22" r="14" fill="#0d9488"/>
+          <text x="148" y="26" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">7</text>
+          <circle cx="244" cy="22" r="14" fill="#0d9488"/>
+          <text x="244" y="26" text-anchor="middle" fill="#fff" font-size="10" font-weight="800">14</text>
+          <circle cx="340" cy="22" r="14" fill="#7c3aed"/>
+          <text x="340" y="27" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">суд</text>
+          <line x1="66" y1="22" x2="134" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <line x1="162" y1="22" x2="230" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <line x1="258" y1="22" x2="326" y2="22" stroke="#a8a29e" stroke-width="2" stroke-dasharray="4 3"/>
+          <text x="196" y="40" text-anchor="middle" fill="#78716c" font-size="8" font-weight="600" letter-spacing="0.06em">КАЛЕНДАРЬ ОТВЕТЧИКА</text>
         </g>
-        <!-- линия сроков -->
-        <text x="28" y="108" fill="#64748b" font-size="8" font-weight="700" letter-spacing="0.06em">ЛИНИЯ СРОКОВ ДО ПРИНЯТИЯ ЗАЯВЛЕНИЯ О БАНКРОТСТВЕ</text>
-        <line x1="28" y1="118" x2="452" y2="118" stroke="#94a3b8" stroke-width="2"/>
-        <circle cx="88" cy="118" r="5" fill="#a31830" stroke="#fff" stroke-width="2"/>
-        <text x="88" y="134" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">6 мес.</text>
-        <text x="88" y="144" text-anchor="middle" fill="#64748b" font-size="6">ст. 61.3</text>
-        <circle cx="200" cy="118" r="5" fill="#1e3a8a" stroke="#fff" stroke-width="2"/>
-        <text x="200" y="134" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="700">1 год</text>
-        <text x="200" y="144" text-anchor="middle" fill="#64748b" font-size="6">61.2 п.1 · 61.3</text>
-        <circle cx="360" cy="118" r="5" fill="#475569" stroke="#fff" stroke-width="2"/>
-        <text x="360" y="134" text-anchor="middle" fill="#475569" font-size="7" font-weight="700">3 года</text>
-        <text x="360" y="144" text-anchor="middle" fill="#64748b" font-size="6">ст. 61.2 п.2</text>
-        <!-- управляющий + заявление -->
-        <g filter="url(#hero-a11-shadow)" transform="translate(28, 158)">
-          <rect width="156" height="108" rx="10" fill="#fff" stroke="#1e3a8a" stroke-width="1.5"/>
-          <circle cx="42" cy="36" r="18" fill="#e2e8f0" stroke="#94a3b8"/>
-          <text x="42" y="40" text-anchor="middle" fill="#1e3a8a" font-size="14" font-weight="700">АУ</text>
-          <text x="88" y="28" fill="#1e3a8a" font-size="9" font-weight="800">УПРАВЛЯЮЩИЙ</text>
-          <text x="88" y="42" fill="#64748b" font-size="7">ст. 20.3 · 61.1 ЗоБ</text>
-          <rect x="16" y="58" width="124" height="38" rx="6" fill="#fef2f2" stroke="#fecaca"/>
-          <text x="78" y="74" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">ЗАЯВЛЕНИЕ</text>
-          <text x="78" y="86" text-anchor="middle" fill="#991b1b" font-size="7">об оспаривании сделки</text>
+        <!-- входящий иск (конверт суда) -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(36, 98)">
+          <rect width="118" height="86" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <path d="M12,28 L59,52 L106,28" fill="none" stroke="#dc2626" stroke-width="2" stroke-linejoin="round"/>
+          <rect x="12" y="20" width="94" height="52" rx="4" fill="none" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="59" y="18" text-anchor="middle" fill="#b91c1c" font-size="9" font-weight="800">ИСК ИСТЦА</text>
+          <text x="59" y="72" text-anchor="middle" fill="#57534e" font-size="8" font-weight="600">против вас</text>
         </g>
-        <!-- три сделки на весах -->
-        <g transform="translate(200, 152)">
-          <path d="M140 8 L140 52" stroke="#64748b" stroke-width="2"/>
-          <path d="M60 52 L220 52" stroke="#64748b" stroke-width="2.5"/>
-          <path d="M60 52 L40 72" stroke="#64748b" stroke-width="2"/>
-          <path d="M220 52 L240 72" stroke="#64748b" stroke-width="2"/>
-          <circle cx="140" cy="8" r="6" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
-          <!-- сделка 1 -->
-          <g transform="translate(8, 76)">
-            <rect width="72" height="54" rx="8" fill="#fef2f2" stroke="#a31830" stroke-width="1.2" stroke-dasharray="4 3"/>
-            <text x="36" y="20" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">61.2</text>
-            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">подозрительная</text>
-            <line x1="12" y1="42" x2="60" y2="42" stroke="#fecaca"/>
-            <text x="36" y="50" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">✕</text>
-          </g>
-          <!-- сделка 2 -->
-          <g transform="translate(104, 76)">
-            <rect width="72" height="54" rx="8" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
-            <text x="36" y="20" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="700">61.3</text>
-            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">предпочтение</text>
-            <line x1="12" y1="42" x2="60" y2="42" stroke="#bfdbfe"/>
-            <text x="36" y="50" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="800">✕</text>
-          </g>
-          <!-- сделка 3 -->
-          <g transform="translate(200, 76)">
-            <rect width="72" height="54" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
-            <text x="36" y="20" text-anchor="middle" fill="#475569" font-size="7" font-weight="700">61.4</text>
-            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">на ущерб</text>
-            <line x1="12" y1="42" x2="60" y2="42" stroke="#e2e8f0"/>
-            <text x="36" y="50" text-anchor="middle" fill="#64748b" font-size="8" font-weight="800">✕</text>
+        <!-- претензия -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(286, 92)">
+          <rect width="118" height="80" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <text x="59" y="20" text-anchor="middle" fill="#0f766e" font-size="9" font-weight="700">ПРЕТЕНЗИЯ</text>
+          <line x1="16" y1="32" x2="102" y2="32" stroke="#e7e5e4" stroke-width="4" stroke-linecap="round"/>
+          <line x1="16" y1="44" x2="88" y2="44" stroke="#e7e5e4" stroke-width="4" stroke-linecap="round"/>
+          <rect x="16" y="54" width="56" height="14" rx="5" fill="#f0fdfa" stroke="#99f6e4"/>
+          <text x="44" y="64" text-anchor="middle" fill="#0f766e" font-size="8" font-weight="700">30 дней</text>
+        </g>
+        <!-- центр: стол защиты + отзыв -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(148, 168)">
+          <rect x="0" y="48" width="144" height="12" rx="4" fill="#d6d3d1"/>
+          <rect x="18" y="8" width="108" height="118" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#a8a29e" stroke-width="1.2"/>
+          <text x="72" y="30" text-anchor="middle" fill="#1c1917" font-size="10" font-weight="800">ОТЗЫВ · ВОЗРАЖЕНИЕ</text>
+          <line x1="30" y1="44" x2="114" y2="44" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <line x1="30" y1="58" x2="100" y2="58" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <line x1="30" y1="72" x2="108" y2="72" stroke="#d6d3d1" stroke-width="3" stroke-linecap="round"/>
+          <rect x="30" y="84" width="84" height="22" rx="6" fill="#ecfdf5" stroke="#6ee7b7"/>
+          <text x="72" y="99" text-anchor="middle" fill="#047857" font-size="8" font-weight="700">ст. 131 АПК</text>
+          <!-- щит ответчика (не атака) -->
+          <g transform="translate(108, -6)">
+            <path d="M0,-34 L28,-24 L28,10 C28,30 14,40 0,46 C-14,40 -28,30 -28,10 L-28,-24 Z" fill="url(#hero-ip-otvet-shield)" stroke="#0f766e" stroke-width="1.5"/>
+            <path d="M-10,4 L-4,10 L10,-6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
           </g>
         </g>
-        <!-- стрелка к суду -->
-        <path d="M106 266 L106 292 L240 292 L240 82" stroke="#1e3a8a" stroke-width="2" fill="none" marker-end="url(#hero-a11-arrow)"/>
-        <!-- последствие: реституция -->
-        <g filter="url(#hero-a11-shadow)" transform="translate(28, 278)">
-          <rect width="424" height="72" rx="10" fill="url(#hero-a11-mass)" stroke="#059669" stroke-width="1.2"/>
-          <text x="212" y="22" text-anchor="middle" fill="#047857" font-size="9" font-weight="800" letter-spacing="0.06em">КОНКУРСНАЯ МАССА · РЕСТИТУЦИЯ</text>
-          <path d="M72 44 L160 44" stroke="#059669" stroke-width="2" marker-end="url(#hero-a11-arrow)"/>
-          <rect x="168" y="32" width="88" height="24" rx="5" fill="#fff" stroke="#6ee7b7"/>
-          <text x="212" y="48" text-anchor="middle" fill="#047857" font-size="7" font-weight="700">возврат имущества</text>
-          <path d="M264 44 L352 44" stroke="#a31830" stroke-width="2" marker-end="url(#hero-a11-arrow-red)"/>
-          <text x="380" y="48" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">риск субсидиарки</text>
+        <!-- объекты ИС: ТЗ и © -->
+        <g transform="translate(52, 268)" opacity="0.95">
+          <rect width="72" height="52" rx="8" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+          <circle cx="36" cy="22" r="16" fill="#fef3c7" stroke="#d97706" stroke-width="1.2"/>
+          <text x="36" y="28" text-anchor="middle" fill="#92400e" font-size="16" font-weight="800" font-family="Georgia, serif">®</text>
+          <text x="36" y="44" text-anchor="middle" fill="#78716c" font-size="7" font-weight="700">ТЗ</text>
         </g>
-        <text x="240" y="368" text-anchor="middle" fill="#64748b" font-size="7">сроки · виды сделок · заявление АУ · последствия для должника</text>
-        <text x="240" y="382" text-anchor="middle" fill="#94a3b8" font-size="6">метафора: весы сделок на линии времени → суд → масса</text>
+        <g transform="translate(136, 278)" opacity="0.95">
+          <rect width="72" height="52" rx="8" fill="#fff" stroke="#d6d3d1" stroke-width="1"/>
+          <text x="36" y="30" text-anchor="middle" fill="#1c1917" font-size="22" font-weight="700" font-family="Georgia, serif">©</text>
+          <text x="36" y="44" text-anchor="middle" fill="#78716c" font-size="7" font-weight="700">АВТОР</text>
+        </g>
+        <!-- компенсация вниз -->
+        <g filter="url(#hero-ip-otvet-shadow)" transform="translate(228, 262)">
+          <rect width="176" height="88" rx="10" fill="url(#hero-ip-otvet-paper)" stroke="#d6d3d1" stroke-width="1.2"/>
+          <text x="88" y="22" text-anchor="middle" fill="#57534e" font-size="9" font-weight="700">214-ФЗ · ст. 1252.1</text>
+          <text x="88" y="46" text-anchor="middle" fill="#7c3aed" font-size="20" font-weight="800">↓ компенсация</text>
+          <text x="88" y="64" text-anchor="middle" fill="#0f766e" font-size="9" font-weight="700">10 000 – 500 000 ₽</text>
+          <text x="88" y="78" text-anchor="middle" fill="#a8a29e" font-size="7" font-weight="600">добросовестность · 57-П</text>
+        </g>
+        <!-- стрелки потока защиты -->
+        <g fill="none" stroke="#78716c" stroke-width="1.6" stroke-linecap="round" marker-end="url(#hero-ip-otvet-arrow)">
+          <path d="M154,140 C200,150 220,160 220,168"/>
+          <path d="M286,132 C250,150 230,165 220,175"/>
+          <path d="M220,286 C210,300 190,310 160,318"/>
+          <path d="M220,286 C250,302 280,312 300,318"/>
+        </g>
+        <!-- kad badge -->
+        <g transform="translate(318, 358)">
+          <rect width="98" height="26" rx="13" fill="#1c1917"/>
+          <text x="49" y="17" text-anchor="middle" fill="#fafaf9" font-size="8" font-weight="700" letter-spacing="0.04em">kad.arbitr.ru</text>
+        </g>
       </svg>
     </div>
   </div>
 </section>
 
 ## Передача Наташе
-SLUG: arbitrazhnyj-upravlyayushchij-osparivanie-sdelok
-H1_для_hero: Арбитражный управляющий и оспаривание сделок
-ПОДЗАГОЛОВОК_HERO: Сроки по закону о банкротстве, виды оспариваемых сделок и последствия для должника в арбитражном суде
-ВНИМАНИЕ: hero только static SVG + inline CSS (Legis24 MCP) — без &lt;canvas&gt; и &lt;script&gt;. Класс секции: hero-arb-au-deals, id: l24-hero-arb-au-deals.
+SLUG: isk-o-zashchite-is-protiv-vas-plan-otveta
+ВНИМАНИЕ: hero — static SVG + inline CSS, без &lt;script&gt; и &lt;canvas&gt;. id секции: #l24-hero-ip-isk-otvet — не удалять.
