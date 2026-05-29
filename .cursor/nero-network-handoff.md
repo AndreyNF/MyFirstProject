@@ -575,3 +575,23 @@ H1: Арбитражный процессуальный срок: как не п
 SLUG: arbitrazhnyj-processualnyj-srok-podacha
 H1_для_hero: Арбитражный процессуальный срок: как не пропустить подачу и возражения
 ПОДЗАГОЛОВОК_HERO: Процессуальные сроки по АПК: иск, отзыв, апелляция и восстановление по ст. 117 — без пропусков для бизнеса
+
+---
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+Файл: `/workspace/.cursor/page-content-natasha-B1.html`
+Размер: 86616 байт
+SLUG: arbitrazhnyj-processualnyj-srok-podacha
+main class: `site-main arbitrazhnyj-processualnyj-srok-podacha-page`
+MCP publish: static SVG + inline CSS only; microdata Article/FAQPage; без `<script>`, `<canvas>`, JSON-LD
+Hero: `#l24-hero-arb-srok` (Алина)
+Блок Бориса: `#ym-matrix-srok-arb` / `#l24-boris-arb-srok-matrix` — после H2 «Исчисление, продление и приостановление процессуального срока»
+Intro: `l24-intro-b1` · TOC: `.ym-toc` · FAQ: `#b1-faq` (FAQPage)
+
+## Передача Юре
+SLUG: arbitrazhnyj-processualnyj-srok-podacha
+title: Арбитражный процессуальный срок: иск, отзыв, обжалование и восстановление по АПК
+excerpt: Процессуальные сроки по АПК РФ: когда подавать иск и отзыв, сроки апелляции и возражений, исчисление и продление срока, последствия пропуска и восстановление по ст. 117. Чек-лист для бизнеса — Legis24.
+page_id:
+Контент: `<!-- wp:html -->` в `/workspace/.cursor/page-content-natasha-B1.html` — без script/canvas, готово к MCP publish.
