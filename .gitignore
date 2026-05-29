@@ -49,3 +49,17 @@ scripts/b2_mcp*.py
 scripts/b2_seq*.py
 scripts/b2_upload*.py
 scripts/b2_page384_upload.py
+.cursor/b1-blob-chunks/
+.cursor/b1-blob-mcp/
+.cursor/b1-blob-ordered/
+.cursor/b1-blob-state.json
+.cursor/b1-*-args*.json
+.cursor/b1-mcp-*
+.cursor/b1-ord-*
+.cursor/b1-pending-*
+.cursor/b1-step-*
+.cursor/b1-up-*
+.cursor/b1-upload-plan.json
+.cursor/b1-args-only-*.json
+.cursor/tmp-mcp*.json
+.cursor/tmp-args.json
