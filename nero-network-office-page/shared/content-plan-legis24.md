@@ -32,7 +32,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 12 | A14 | ARB | Мировое соглашение в арбитраже: плюсы, риски и когда это выгодно | mirovoe-soglashenie-v-arbitrazhe-plyusy-riski | ✅ page_id 416 |
 | 13 | A15 | IP | Регистрация товарного знака: этапы, отказ Роспатента и обжалование | registraciya-tovarnogo-znaka-etapy-otkaz | ✅ page_id 368 |
 | 14 | A16 | UG | Досудебная защита по уголовному делу: что говорить следователю и чего избегать | dosudebnaya-zashchita-po-ugolovnomu-delu | ✅ page_id 412 |
-| 15 | B1 | ARB | Арбитражный процессуальный срок: как не пропустить подачу и возражения | arbitrazhnyj-processualnyj-srok-podacha | |
+| 15 | B1 | ARB | Арбитражный процессуальный срок: как не пропустить подачу и возражения | arbitrazhnyj-processualnyj-srok-podacha | ✅ page_id 419 |
 | 16 | B2 | IP | Иск о защите интеллектуальной собственности против вас: пошаговый план ответа | isk-o-zashchite-is-protiv-vas-plan-otveta | ✅ page_id 384 |
 
 > Канонический URL A3 на проде: `srok-vozrazhenij-30-vs-15-mify` (без «dnej» в slug).  

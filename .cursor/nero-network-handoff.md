@@ -593,5 +593,16 @@ Intro: `l24-intro-b1` · TOC: `.ym-toc` · FAQ: `#b1-faq` (FAQPage)
 SLUG: arbitrazhnyj-processualnyj-srok-podacha
 title: Арбитражный процессуальный срок: иск, отзыв, обжалование и восстановление по АПК
 excerpt: Процессуальные сроки по АПК РФ: когда подавать иск и отзыв, сроки апелляции и возражений, исчисление и продление срока, последствия пропуска и восстановление по ст. 117. Чек-лист для бизнеса — Legis24.
-page_id:
+page_id: 419
 Контент: `<!-- wp:html -->` в `/workspace/.cursor/page-content-natasha-B1.html` — без script/canvas, готово к MCP publish.
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+
+- **page_id:** 419
+- **URL:** https://advokat-vsem.online/arbitrazhnyj-processualnyj-srok-podacha/
+- **slug:** arbitrazhnyj-processualnyj-srok-podacha
+- **код:** B1 / ARB
+- **статус:** publish
+- **blob_id:** argF7ogh4VAX3VJM3QCcv9f (86664 bytes, 12 chunks)
+- **проверка live:** main#primary, hero#l24-hero-arb-srok — OK
+- **логи:** published-pages.md, content-plan-legis24.md (✅ B1 page_id 419)

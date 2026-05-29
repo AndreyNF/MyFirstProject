@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-05-29 | B1 | arbitrazhnyj-processualnyj-srok-podacha | 419 | https://advokat-vsem.online/arbitrazhnyj-processualnyj-srok-podacha/ |
 | 2026-05-29 | A14 | mirovoe-soglashenie-v-arbitrazhe-plyusy-riski | 416 | https://advokat-vsem.online/mirovoe-soglashenie-v-arbitrazhe-plyusy-riski/ |
 | 2026-05-28 | A16 | dosudebnaya-zashchita-po-ugolovnomu-delu | 412 | https://advokat-vsem.online/dosudebnaya-zashchita-po-ugolovnomu-delu/ |
 | 2026-05-28 | B2 | isk-o-zashchite-is-protiv-vas-plan-otveta | 384 | https://advokat-vsem.online/isk-o-zashchite-is-protiv-vas-plan-otveta/ |
