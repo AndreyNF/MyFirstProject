@@ -1,0 +1,10 @@
+{
+  "action": "KIRILL",
+  "reason": "Все 16 строк очереди ✅ — следующий запуск: Кирилл (новость дня)",
+  "exit_code": 0,
+  "cron_slot": 3,
+  "article_type": "UG",
+  "article_type_label": "уголовное право",
+  "cron_utc": "15:00",
+  "cron_msk": "18:00"
+}
