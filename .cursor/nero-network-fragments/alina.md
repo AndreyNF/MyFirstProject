@@ -1,9 +1,9 @@
 === АЛИНА (HERO) ===
 Статус: ✅ ГОТОВО
 
-<section id="l24-hero-dosudeb-zashchita" class="hero-ug-dosudeb" aria-label="Досудебная защита по уголовному делу: права подозреваемого и допрос">
+<section id="l24-hero-arb-mir-settle" class="hero-arb-mir-settle" aria-label="Мировое соглашение в арбитраже">
   <style>
-    .hero-ug-dosudeb {
+    .hero-arb-mir-settle {
       position: relative;
       min-height: 100vh;
       min-height: 100dvh;
@@ -11,318 +11,372 @@
       display: flex;
       align-items: center;
       padding: 120px 24px 80px;
-      background: linear-gradient(165deg, #f9f8f6 0%, #f2f0eb 42%, #eae8e2 100%);
-      color: #18181b;
+      background: linear-gradient(168deg, #fcfcfd 0%, #f6f8fb 40%, #eef2f7 100%);
+      color: #0f172a;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .hero-ug-dosudeb::before {
+    .hero-arb-mir-settle::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 52% 44% at 88% 8%, rgba(30, 58, 95, 0.08) 0%, transparent 58%),
-        radial-gradient(ellipse 48% 40% at 8% 92%, rgba(120, 53, 15, 0.05) 0%, transparent 52%);
+        radial-gradient(ellipse 52% 46% at 90% 10%, rgba(30, 58, 138, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 44% 40% at 8% 92%, rgba(163, 24, 48, 0.05) 0%, transparent 50%);
       pointer-events: none;
     }
-    .hero-ug-dosudeb::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      opacity: 0.035;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cpath d='M8 8h20v4H12v28H8z' fill='%2318181b'/%3E%3C/svg%3E");
-      background-size: 80px 80px;
-      pointer-events: none;
-    }
-    .hero-ug-dosudeb__inner {
+    .hero-arb-mir-settle__inner {
       position: relative;
       z-index: 1;
       max-width: 1200px;
       margin: 0 auto;
       width: 100%;
       display: grid;
-      grid-template-columns: 1.06fr 0.94fr;
-      gap: 46px;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 44px;
       align-items: center;
     }
-    .hero-ug-dosudeb__badge {
+    .hero-arb-mir-settle__badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
       margin: 0 0 18px;
       padding: 8px 14px;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.93);
-      border: 1px solid rgba(24, 24, 27, 0.12);
-      font-size: 0.78rem;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.82rem;
       font-weight: 600;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: #3f3f46;
+      letter-spacing: 0.02em;
+      color: #334155;
     }
-    .hero-ug-dosudeb__badge-dot {
+    .hero-arb-mir-settle__badge-dot {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #1e3a5f;
+      background: #1e3a8a;
       flex-shrink: 0;
-      animation: hero-dosudeb-pulse 2.4s ease-in-out infinite;
     }
-    @keyframes hero-dosudeb-pulse {
-      0%, 100% { box-shadow: 0 0 0 0 rgba(30, 58, 95, 0.35); }
-      50% { box-shadow: 0 0 0 5px rgba(30, 58, 95, 0); }
-    }
-    .hero-ug-dosudeb__h1 {
+    .hero-arb-mir-settle__h1 {
       margin: 0 0 18px;
-      font-size: clamp(1.6rem, 3.6vw, 2.38rem);
-      line-height: 1.18;
+      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
       font-weight: 800;
-      color: #09090b;
-      letter-spacing: -0.024em;
+      color: #0f172a;
+      letter-spacing: -0.02em;
     }
-    .hero-ug-dosudeb__h1-accent {
-      color: #1e3a5f;
-      display: block;
+    .hero-arb-mir-settle__h1-accent {
+      color: #1e3a8a;
     }
-    .hero-ug-dosudeb__sub {
+    .hero-arb-mir-settle__sub {
       margin: 0 0 26px;
-      max-width: 40em;
+      max-width: 38em;
       font-size: clamp(1rem, 1.55vw, 1.1rem);
-      line-height: 1.58;
-      color: #52525b;
+      line-height: 1.55;
+      color: #475569;
     }
-    .hero-ug-dosudeb__rights {
+    .hero-arb-mir-settle__forks {
       list-style: none;
       padding: 0;
       margin: 0 0 30px;
     }
-    .hero-ug-dosudeb__right {
+    .hero-arb-mir-settle__fork {
       display: flex;
       gap: 14px;
       align-items: flex-start;
       margin-bottom: 13px;
       font-size: 0.93rem;
-      line-height: 1.48;
-      color: #3f3f46;
+      line-height: 1.45;
+      color: #334155;
     }
-    .hero-ug-dosudeb__right-tag {
+    .hero-arb-mir-settle__fork-tag {
       flex-shrink: 0;
-      min-width: 58px;
-      padding: 5px 8px;
+      min-width: 108px;
+      padding: 6px 10px;
       border-radius: 6px;
-      background: #1e3a5f;
-      color: #f8fafc;
       font-weight: 700;
       font-size: 0.7rem;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.04em;
       text-align: center;
+      text-transform: uppercase;
+      color: #fff;
     }
-    .hero-ug-dosudeb__right-tag--warn {
-      background: #78350f;
+    .hero-arb-mir-settle__fork--plus .hero-arb-mir-settle__fork-tag {
+      background: #1e3a8a;
     }
-    .hero-ug-dosudeb__right-tag--law {
-      background: #27272a;
+    .hero-arb-mir-settle__fork--risk .hero-arb-mir-settle__fork-tag {
+      background: #a31830;
     }
-    .hero-ug-dosudeb__cta {
+    .hero-arb-mir-settle__fork--apk .hero-arb-mir-settle__fork-tag {
+      background: #475569;
+    }
+    .hero-arb-mir-settle__cta {
       display: inline-block;
-      background: #1e3a5f;
+      background: #a31830;
       color: #fff !important;
       padding: 14px 26px;
       border-radius: 8px;
       font-weight: 700;
       font-size: 0.94rem;
       text-decoration: none;
-      box-shadow: 0 4px 16px rgba(30, 58, 95, 0.28);
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
     }
-    .hero-ug-dosudeb__cta:hover {
-      background: #172554;
+    .hero-arb-mir-settle__cta:hover {
+      background: #8b1528;
     }
-    .hero-ug-dosudeb__visual {
+    .hero-arb-mir-settle__visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
-    .hero-ug-dosudeb__balance-arm {
-      transform-origin: 220px 168px;
-      animation: hero-dosudeb-balance 5s ease-in-out infinite;
+    @media (prefers-reduced-motion: no-preference) {
+      .hero-a14-bridge-deck {
+        animation: hero-a14-bridge-glow 3.2s ease-in-out infinite;
+      }
+      .hero-a14-handshake {
+        animation: hero-a14-handshake-pulse 2.4s ease-in-out infinite;
+      }
+      .hero-a14-scales-beam {
+        animation: hero-a14-scales-sway 4s ease-in-out infinite;
+        transform-origin: 240px 198px;
+      }
+      .hero-a14-flow-dot {
+        animation: hero-a14-flow-dot 2.8s linear infinite;
+      }
+      .hero-a14-stamp-ring {
+        animation: hero-a14-stamp 2.6s ease-out infinite;
+      }
     }
-    @keyframes hero-dosudeb-balance {
-      0%, 100% { transform: rotate(-2deg); }
-      50% { transform: rotate(2deg); }
+    @keyframes hero-a14-bridge-glow {
+      0%, 100% { filter: drop-shadow(0 0 0 rgba(30, 58, 138, 0)); }
+      50% { filter: drop-shadow(0 0 10px rgba(30, 58, 138, 0.35)); }
     }
-    .hero-ug-dosudeb__shield-glow {
-      animation: hero-dosudeb-shield 3.2s ease-in-out infinite;
+    @keyframes hero-a14-handshake-pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.04); opacity: 0.92; }
     }
-    @keyframes hero-dosudeb-shield {
-      0%, 100% { opacity: 0.92; }
-      50% { opacity: 1; filter: drop-shadow(0 0 8px rgba(30, 58, 95, 0.25)); }
+    @keyframes hero-a14-scales-sway {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(-2.5deg); }
+      75% { transform: rotate(2.5deg); }
     }
-    .hero-ug-dosudeb__corridor-light {
-      animation: hero-dosudeb-light 4s ease-in-out infinite;
+    @keyframes hero-a14-flow-dot {
+      0% { offset-distance: 0%; opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { offset-distance: 100%; opacity: 0; }
     }
-    @keyframes hero-dosudeb-light {
-      0%, 100% { opacity: 0.55; }
-      50% { opacity: 0.85; }
+    @keyframes hero-a14-stamp {
+      0%, 70%, 100% { opacity: 0; transform: scale(0.85); }
+      78% { opacity: 0.85; transform: scale(1); }
+      88% { opacity: 0.4; transform: scale(1.02); }
     }
     @media (max-width: 900px) {
-      .hero-ug-dosudeb__inner {
+      .hero-arb-mir-settle__inner {
         grid-template-columns: 1fr;
         gap: 28px;
       }
-      .hero-ug-dosudeb__visual {
+      .hero-arb-mir-settle__visual {
         order: -1;
-        max-height: 310px;
+        max-height: 320px;
+      }
+      .hero-arb-mir-settle__fork-tag {
+        min-width: 92px;
+        font-size: 0.66rem;
       }
     }
     @media (prefers-reduced-motion: reduce) {
-      .hero-ug-dosudeb__badge-dot,
-      .hero-ug-dosudeb__balance-arm,
-      .hero-ug-dosudeb__shield-glow,
-      .hero-ug-dosudeb__corridor-light {
-        animation: none;
+      .hero-a14-bridge-deck,
+      .hero-a14-handshake,
+      .hero-a14-scales-beam,
+      .hero-a14-flow-dot,
+      .hero-a14-stamp-ring {
+        animation: none !important;
       }
     }
   </style>
-  <div class="hero-ug-dosudeb__inner">
-    <div class="hero-ug-dosudeb__content">
-      <div class="hero-ug-dosudeb__badge">
-        <span class="hero-ug-dosudeb__badge-dot" aria-hidden="true"></span>
-        УПК · досудебная стадия · ст. 46–47 · 159 / 177 · 2026
+  <div class="hero-arb-mir-settle__inner">
+    <div class="hero-arb-mir-settle__content">
+      <div class="hero-arb-mir-settle__badge">
+        <span class="hero-arb-mir-settle__badge-dot" aria-hidden="true"></span>
+        Legis24 ARB · A14 · АПК · ст. 139–142 · 2026
       </div>
-      <h1 class="hero-ug-dosudeb__h1">
-        <span class="hero-ug-dosudeb__h1-accent">Досудебная защита по уголовному делу</span>
+      <h1 class="hero-arb-mir-settle__h1">
+        <span class="hero-arb-mir-settle__h1-accent">Мировое соглашение</span> в арбитраже
       </h1>
-      <p class="hero-ug-dosudeb__sub">
-        Что говорить следователю на допросе, какие права у подозреваемого до суда и когда подключать адвоката — в том числе по ст. 159 и 177 УК
+      <p class="hero-arb-mir-settle__sub">
+        Стратегия для экономических споров: когда мир с контрагентом снижает издержки, а когда — создаёт новые риски в арбитражном суде
       </p>
-      <ul class="hero-ug-dosudeb__rights">
-        <li class="hero-ug-dosudeb__right">
-          <span class="hero-ug-dosudeb__right-tag">144</span>
-          <span><strong>Проверка 3 / 10 / 30 суток</strong> — объяснения ≠ допрос; оценить риск статуса подозреваемого</span>
+      <ul class="hero-arb-mir-settle__forks">
+        <li class="hero-arb-mir-settle__fork hero-arb-mir-settle__fork--plus">
+          <span class="hero-arb-mir-settle__fork-tag">Плюсы</span>
+          <span><strong>Экономия процесса</strong> — прекращение спора, возврат госпошлины, исполнительный лист без полного доказывания</span>
         </li>
-        <li class="hero-ug-dosudeb__right">
-          <span class="hero-ug-dosudeb__right-tag hero-ug-dosudeb__right-tag--warn">24 ч</span>
-          <span><strong>После задержания</strong> — свидание с защитником до допроса (ст. 92); не подписывать протокол без адвоката</span>
+        <li class="hero-arb-mir-settle__fork hero-arb-mir-settle__fork--risk">
+          <span class="hero-arb-mir-settle__fork-tag">Риски</span>
+          <span><strong>Отказ в утверждении</strong> — налоги на прощение, санкции за просрочку, res judicata только после определения суда</span>
         </li>
-        <li class="hero-ug-dosudeb__right">
-          <span class="hero-ug-dosudeb__right-tag hero-ug-dosudeb__right-tag--law">46</span>
-          <span><strong>Отказ от показаний</strong> — п. 2 ч. 4 ст. 46 / п. 3 ч. 4 ст. 47 УПК; замечания к протоколу до подписи</span>
+        <li class="hero-arb-mir-settle__fork hero-arb-mir-settle__fork--apk">
+          <span class="hero-arb-mir-settle__fork-tag">ст. 139–142</span>
+          <span><strong>На любой стадии</strong> — от первого заседания до исполнения; суд проверяет законность условий перед утверждением</span>
         </li>
       </ul>
-      <a class="hero-ug-dosudeb__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по досудебной защите</a>
+      <a class="hero-arb-mir-settle__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по стратегии мирового соглашения в арбитраже</a>
     </div>
-    <div class="hero-ug-dosudeb__visual" aria-hidden="true">
-      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Весы прав подозреваемого: давление следствия и защита до суда, коридор досудебной стадии">
+    <div class="hero-arb-mir-settle__visual" aria-hidden="true">
+      <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Мост соглашения: стороны спора, handshake и весы на мосту, утверждение арбитражным судом">
         <defs>
-          <linearGradient id="hero-dosudeb-corridor" x1="50%" y1="100%" x2="50%" y2="0%">
-            <stop offset="0%" stop-color="#d4d4d8"/>
-            <stop offset="55%" stop-color="#e4e4e7"/>
-            <stop offset="100%" stop-color="#fafafa"/>
+          <linearGradient id="hero-a14-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e2e8f0"/>
           </linearGradient>
-          <linearGradient id="hero-dosudeb-wall" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#a1a1aa"/>
-            <stop offset="50%" stop-color="#d4d4d8"/>
-            <stop offset="100%" stop-color="#a1a1aa"/>
+          <linearGradient id="hero-a14-court" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
           </linearGradient>
-          <linearGradient id="hero-dosudeb-shield-fill" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#e0e7ff"/>
-            <stop offset="100%" stop-color="#1e3a5f"/>
+          <linearGradient id="hero-a14-bridge" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#93c5fd"/>
+            <stop offset="50%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#93c5fd"/>
           </linearGradient>
-          <linearGradient id="hero-dosudeb-scale" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#78716c"/>
-            <stop offset="100%" stop-color="#27272a"/>
+          <linearGradient id="hero-a14-gap" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fef2f2"/>
+            <stop offset="100%" stop-color="#fee2e2"/>
           </linearGradient>
-          <filter id="hero-dosudeb-shadow" x="-12%" y="-12%" width="124%" height="124%">
-            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#18181b" flood-opacity="0.14"/>
+          <linearGradient id="hero-a14-save" x1="0%" y1="100%" x2="0%" y2="0%">
+            <stop offset="0%" stop-color="#dbeafe"/>
+            <stop offset="100%" stop-color="#eff6ff"/>
+          </linearGradient>
+          <filter id="hero-a14-shadow" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.12"/>
           </filter>
+          <marker id="hero-a14-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
+          </marker>
+          <marker id="hero-a14-arrow-navy" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#1e3a8a"/>
+          </marker>
+          <path id="hero-a14-bridge-path" d="M72 248 Q240 168 408 248" fill="none"/>
         </defs>
-        <!-- коридор к залу суда (перспектива) -->
-        <g class="hero-ug-dosudeb__corridor-light">
-          <path d="M0,120 L220,72 L440,120 L440,400 L0,400 Z" fill="url(#hero-dosudeb-corridor)"/>
-          <path d="M60,140 L220,100 L380,140 L340,400 L100,400 Z" fill="#f4f4f5" opacity="0.9"/>
-          <rect x="188" y="48" width="64" height="88" rx="4" fill="#fafafa" stroke="#a1a1aa" stroke-width="2"/>
-          <path d="M196,56 L220,72 L244,56" fill="none" stroke="#71717a" stroke-width="1.5"/>
-          <text x="220" y="118" text-anchor="middle" fill="#52525b" font-size="8" font-weight="700" letter-spacing="0.08em">ДОСУДЕБНЫЙ КОРИДОР</text>
-          <line x1="0" y1="120" x2="440" y2="120" stroke="#d4d4d8" stroke-width="1"/>
+        <rect x="8" y="10" width="464" height="400" rx="16" fill="url(#hero-a14-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <!-- арбитражный суд — утверждение -->
+        <g transform="translate(140, 16)">
+          <rect x="0" y="22" width="200" height="54" rx="4" fill="url(#hero-a14-court)"/>
+          <polygon points="100,0 200,22 0,22" fill="#1e40af"/>
+          <text x="100" y="48" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="700" letter-spacing="0.08em">АРБИТРАЖ · УТВЕРЖДЕНИЕ</text>
+          <text x="100" y="62" text-anchor="middle" fill="#93c5fd" font-size="7">ст. 141 АПК · определение суда</text>
         </g>
-        <!-- кабинет допроса слева -->
-        <g filter="url(#hero-dosudeb-shadow)" transform="translate(20, 148)">
-          <rect width="118" height="108" rx="10" fill="#fff" stroke="#d4d4d8" stroke-width="1.2"/>
-          <rect x="10" y="12" width="98" height="14" rx="4" fill="#fef2f2" stroke="#fecaca"/>
-          <text x="59" y="22" text-anchor="middle" fill="#991b1b" font-size="8" font-weight="800">ДОПРОС</text>
-          <rect x="14" y="34" width="90" height="6" rx="3" fill="#e4e4e7"/>
-          <rect x="14" y="46" width="72" height="6" rx="3" fill="#e4e4e7"/>
-          <rect x="14" y="58" width="80" height="6" rx="3" fill="#e4e4e7"/>
-          <circle cx="32" cy="82" r="10" fill="#f4f4f5" stroke="#a1a1aa"/>
-          <text x="32" y="86" text-anchor="middle" fill="#52525b" font-size="7" font-weight="700">?</text>
-          <rect x="52" y="74" width="48" height="22" rx="5" fill="#fff7ed" stroke="#fdba74"/>
-          <text x="76" y="88" text-anchor="middle" fill="#9a3412" font-size="7" font-weight="700">давление</text>
+        <!-- штамп утверждения -->
+        <g class="hero-a14-stamp-ring" transform="translate(340, 52)">
+          <circle cx="0" cy="0" r="22" fill="none" stroke="#1e3a8a" stroke-width="2" stroke-dasharray="4 3" opacity="0.7"/>
+          <text x="0" y="-4" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">УТВЕРЖДЕНО</text>
+          <text x="0" y="6" text-anchor="middle" fill="#64748b" font-size="5">ст. 141</text>
         </g>
-        <!-- весы прав (центр) -->
-        <g filter="url(#hero-dosudeb-shadow)">
-          <rect x="196" y="148" width="48" height="92" rx="6" fill="url(#hero-dosudeb-scale)"/>
-          <circle cx="220" cy="148" r="10" fill="#27272a"/>
-          <g class="hero-ug-dosudeb__balance-arm">
-            <line x1="220" y1="158" x2="148" y2="198" stroke="#3f3f46" stroke-width="3" stroke-linecap="round"/>
-            <line x1="220" y1="158" x2="292" y2="198" stroke="#3f3f46" stroke-width="3" stroke-linecap="round"/>
-            <!-- левая чаша: вопросы следователя -->
-            <g transform="translate(108, 188)">
-              <line x1="40" y1="0" x2="40" y2="14" stroke="#71717a" stroke-width="2"/>
-              <ellipse cx="40" cy="34" rx="44" ry="10" fill="#e7e5e4" stroke="#a8a29e"/>
-              <path d="M8,34 Q40,18 72,34 L68,52 Q40,62 12,52 Z" fill="#fafaf9" stroke="#d6d3d1"/>
-              <text x="40" y="44" text-anchor="middle" fill="#57534e" font-size="7" font-weight="700">показания</text>
-            </g>
-            <!-- правая чаша: отказ ст. 46 -->
-            <g transform="translate(252, 188)">
-              <line x1="40" y1="0" x2="40" y2="14" stroke="#71717a" stroke-width="2"/>
-              <ellipse cx="40" cy="34" rx="44" ry="10" fill="#dbeafe" stroke="#93c5fd"/>
-              <path d="M8,34 Q40,18 72,34 L68,52 Q40,62 12,52 Z" fill="#eff6ff" stroke="#bfdbfe"/>
-              <text x="40" y="44" text-anchor="middle" fill="#1e3a5f" font-size="7" font-weight="800">ст. 46 · отказ</text>
-            </g>
-          </g>
-          <text x="220" y="252" text-anchor="middle" fill="#3f3f46" font-size="8" font-weight="700" letter-spacing="0.06em">БАЛАНС ПРАВ</text>
+        <!-- левый берег: спор -->
+        <g filter="url(#hero-a14-shadow)">
+          <rect x="24" y="248" width="96" height="14" rx="3" fill="#94a3b8"/>
+          <rect x="28" y="220" width="88" height="28" rx="8" fill="#fff" stroke="#a31830" stroke-width="1.2"/>
+          <text x="72" y="234" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800">СТОРОНА А</text>
+          <text x="72" y="244" text-anchor="middle" fill="#64748b" font-size="6">иск · спор</text>
+          <!-- растущие издержки -->
+          <rect x="36" y="196" width="12" height="20" rx="2" fill="#fecaca"/>
+          <rect x="52" y="188" width="12" height="28" rx="2" fill="#fca5a5"/>
+          <rect x="68" y="178" width="12" height="38" rx="2" fill="#f87171"/>
+          <rect x="84" y="170" width="12" height="46" rx="2" fill="#a31830" opacity="0.85"/>
+          <text x="72" y="164" text-anchor="middle" fill="#a31830" font-size="6" font-weight="700">издержки ↑</text>
         </g>
-        <!-- щит + адвокат справа -->
-        <g class="hero-ug-dosudeb__shield-glow" filter="url(#hero-dosudeb-shadow)" transform="translate(302, 142)">
-          <path d="M58,8 L88,22 L88,58 C88,82 72,96 58,104 C44,96 28,82 28,58 L28,22 Z" fill="url(#hero-dosudeb-shield-fill)" stroke="#1e3a5f" stroke-width="1.8"/>
-          <path d="M46,52 L54,62 L72,40" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-          <rect x="18" y="112" width="80" height="52" rx="8" fill="#fff" stroke="#d4d4d8"/>
-          <text x="58" y="130" text-anchor="middle" fill="#1e3a5f" font-size="8" font-weight="800">ЗАЩИТНИК</text>
-          <text x="58" y="146" text-anchor="middle" fill="#52525b" font-size="7" font-weight="600">до допроса · ст. 92</text>
-          <rect x="26" y="152" width="64" height="6" rx="3" fill="#e0e7ff"/>
+        <!-- правый берег: мир -->
+        <g filter="url(#hero-a14-shadow)">
+          <rect x="360" y="248" width="96" height="14" rx="3" fill="#94a3b8"/>
+          <rect x="364" y="220" width="88" height="28" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+          <text x="408" y="234" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">СТОРОНА B</text>
+          <text x="408" y="244" text-anchor="middle" fill="#64748b" font-size="6">контрагент</text>
+          <!-- сниженные издержки -->
+          <rect x="372" y="206" width="12" height="10" rx="2" fill="#93c5fd"/>
+          <rect x="388" y="200" width="12" height="16" rx="2" fill="#60a5fa"/>
+          <rect x="404" y="194" width="12" height="22" rx="2" fill="#3b82f6"/>
+          <rect x="420" y="188" width="12" height="28" rx="2" fill="#1e3a8a" opacity="0.75"/>
+          <text x="408" y="182" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="700">экономия ↓</text>
         </g>
-        <!-- ст. 159 / 177 -->
-        <g transform="translate(36, 292)">
-          <rect width="88" height="56" rx="8" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
-          <text x="44" y="22" text-anchor="middle" fill="#78350f" font-size="9" font-weight="800">ст. 159</text>
-          <text x="44" y="38" text-anchor="middle" fill="#71717a" font-size="7" font-weight="600">мошенничество</text>
-          <text x="44" y="50" text-anchor="middle" fill="#a1a1aa" font-size="6" font-weight="600">бизнес-риск</text>
+        <!-- пропасть спора -->
+        <rect x="120" y="262" width="240" height="48" rx="6" fill="url(#hero-a14-gap)" stroke="#fecaca" stroke-width="1" stroke-dasharray="5 4"/>
+        <text x="240" y="282" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">РИСК · отказ в утверждении</text>
+        <text x="240" y="296" text-anchor="middle" fill="#991b1b" font-size="6">нарушение закона · налоги · санкции</text>
+        <!-- мост соглашения -->
+        <g class="hero-a14-bridge-deck">
+          <path d="M68 252 Q240 162 412 252" stroke="url(#hero-a14-bridge)" stroke-width="10" fill="none" stroke-linecap="round"/>
+          <path d="M68 252 Q240 162 412 252" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35"/>
+          <!-- опоры -->
+          <rect x="108" y="248" width="8" height="36" rx="2" fill="#64748b"/>
+          <rect x="364" y="248" width="8" height="36" rx="2" fill="#64748b"/>
+          <text x="240" y="152" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="800" letter-spacing="0.06em">МОСТ СОГЛАШЕНИЯ</text>
         </g>
-        <g transform="translate(136, 292)">
-          <rect width="88" height="56" rx="8" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
-          <text x="44" y="22" text-anchor="middle" fill="#78350f" font-size="9" font-weight="800">ст. 177</text>
-          <text x="44" y="38" text-anchor="middle" fill="#71717a" font-size="7" font-weight="600">злостное уклонение</text>
-          <text x="44" y="50" text-anchor="middle" fill="#a1a1aa" font-size="6" font-weight="600">долги · ФССП</text>
+        <!-- точка движения по мосту -->
+        <circle class="hero-a14-flow-dot" r="5" fill="#a31830" stroke="#fff" stroke-width="1.5" style="offset-path: path('M72 248 Q240 168 408 248'); offset-rotate: 0deg;"/>
+        <!-- весы на центре моста -->
+        <g class="hero-a14-scales-beam">
+          <line x1="240" y1="198" x2="240" y2="218" stroke="#64748b" stroke-width="2"/>
+          <line x1="188" y1="198" x2="292" y2="198" stroke="#475569" stroke-width="2.5"/>
+          <circle cx="240" cy="198" r="5" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
+          <!-- чаша: процесс -->
+          <line x1="188" y1="198" x2="176" y2="214" stroke="#64748b" stroke-width="1.5"/>
+          <path d="M160 214 Q188 228 216 214" fill="none" stroke="#a31830" stroke-width="1.5"/>
+          <rect x="168" y="216" width="40" height="22" rx="4" fill="#fef2f2" stroke="#fca5a5"/>
+          <text x="188" y="230" text-anchor="middle" fill="#a31830" font-size="6" font-weight="700">процесс</text>
+          <!-- чаша: мир -->
+          <line x1="292" y1="198" x2="304" y2="214" stroke="#64748b" stroke-width="1.5"/>
+          <path d="M288 214 Q316 228 344 214" fill="none" stroke="#1e3a8a" stroke-width="1.5"/>
+          <rect x="296" y="216" width="40" height="22" rx="4" fill="url(#hero-a14-save)" stroke="#93c5fd"/>
+          <text x="316" y="230" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="700">мир</text>
         </g>
-        <!-- протокол внизу -->
-        <g filter="url(#hero-dosudeb-shadow)" transform="translate(248, 278)">
-          <rect width="172" height="78" rx="10" fill="#fff" stroke="#d4d4d8" stroke-width="1.2"/>
-          <text x="86" y="20" text-anchor="middle" fill="#27272a" font-size="9" font-weight="800">ПРОТОКОЛ ДОПРОСА</text>
-          <line x1="18" y1="30" x2="154" y2="30" stroke="#e4e4e7" stroke-width="4" stroke-linecap="round"/>
-          <line x1="18" y1="42" x2="130" y2="42" stroke="#e4e4e7" stroke-width="4" stroke-linecap="round"/>
-          <rect x="18" y="52" width="136" height="16" rx="5" fill="#f4f4f5" stroke="#a1a1aa"/>
-          <text x="86" y="64" text-anchor="middle" fill="#52525b" font-size="7" font-weight="700">замечания до подписи</text>
+        <!-- handshake -->
+        <g class="hero-a14-handshake" transform="translate(240, 248)">
+          <circle cx="0" cy="0" r="28" fill="#fff" stroke="#1e3a8a" stroke-width="1.5" filter="url(#hero-a14-shadow)"/>
+          <!-- левая рука -->
+          <path d="M-18 4 L-8 -6 L-2 0 L-6 8 L-14 10 Z" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
+          <rect x="-20" y="6" width="14" height="8" rx="3" fill="#1e3a8a" opacity="0.85"/>
+          <!-- правая рука -->
+          <path d="M18 4 L8 -6 L2 0 L6 8 L14 10 Z" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
+          <rect x="6" y="6" width="14" height="8" rx="3" fill="#a31830" opacity="0.85"/>
+          <!-- сжатие -->
+          <ellipse cx="0" cy="2" rx="10" ry="6" fill="#fcd34d" stroke="#b45309" stroke-width="0.6"/>
+          <text x="0" y="-38" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">согласие сторон</text>
         </g>
-        <!-- стрелка: коридор → суд -->
-        <g fill="none" stroke="#71717a" stroke-width="1.4" stroke-dasharray="5 4" opacity="0.7">
-          <path d="M220,136 L220,148"/>
-          <path d="M220,240 L220,268"/>
+        <!-- стрелки к суду -->
+        <path d="M240 88 L240 118" stroke="#1e3a8a" stroke-width="1.5" fill="none" marker-end="url(#hero-a14-arrow-navy)"/>
+        <path d="M240 276 L240 318" stroke="#64748b" stroke-width="1.2" fill="none" stroke-dasharray="3 3"/>
+        <!-- итоговая панель -->
+        <g filter="url(#hero-a14-shadow)" transform="translate(28, 328)">
+          <rect width="424" height="68" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+          <rect x="0" y="0" width="140" height="68" rx="10" fill="#eff6ff" stroke="none"/>
+          <text x="70" y="24" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">ПЛЮС</text>
+          <text x="70" y="38" text-anchor="middle" fill="#475569" font-size="6">прекращение спора</text>
+          <text x="70" y="50" text-anchor="middle" fill="#475569" font-size="6">возврат пошлины</text>
+          <line x1="140" y1="12" x2="140" y2="56" stroke="#e2e8f0"/>
+          <rect x="140" y="0" width="144" height="68" fill="#fff" stroke="none"/>
+          <text x="212" y="24" text-anchor="middle" fill="#334155" font-size="7" font-weight="800">СТРАТЕГИЯ</text>
+          <text x="212" y="38" text-anchor="middle" fill="#64748b" font-size="6">оценка до подписания</text>
+          <text x="212" y="50" text-anchor="middle" fill="#64748b" font-size="6">ст. 139–142 АПК</text>
+          <line x1="284" y1="12" x2="284" y2="56" stroke="#e2e8f0"/>
+          <rect x="284" y="0" width="140" height="68" rx="10" fill="#fef2f2" stroke="none"/>
+          <text x="354" y="24" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800">РИСК</text>
+          <text x="354" y="38" text-anchor="middle" fill="#64748b" font-size="6">отказ суда</text>
+          <text x="354" y="50" text-anchor="middle" fill="#64748b" font-size="6">налоги · санкции</text>
         </g>
-        <g transform="translate(168, 362)">
-          <rect width="104" height="26" rx="13" fill="#18181b"/>
-          <text x="52" y="17" text-anchor="middle" fill="#fafafa" font-size="8" font-weight="700" letter-spacing="0.05em">до суда · УПК</text>
-        </g>
+        <text x="240" y="408" text-anchor="middle" fill="#64748b" font-size="7">спор → мост соглашения → утверждение арбитражным судом</text>
       </svg>
     </div>
   </div>
 </section>
+
+## Передача Наташе
+
+**SLUG:** mirovoe-soglashenie-v-arbitrazhe-plyusy-riski
+
+**Hero ID:** `#l24-hero-arb-mir-settle`
+
+**Класс страницы:** `mirovoe-soglashenie-v-arbitrazhe-plyusy-riski-page`
+
+**MCP-only:** hero содержит только static SVG + inline CSS + `@keyframes`. Без `<canvas>` и без `<script>`. Не удалять анимации и SVG-разметку.
+
+**Метафора:** «мост соглашения» — два берега спора, handshake и весы на мосту, утверждение арбитражным судом (отличие от A11: не АУ/оспаривание сделок, а мировое соглашение сторон).
