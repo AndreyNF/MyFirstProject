@@ -606,3 +606,14 @@ page_id: 419
 - **blob_id:** argF7ogh4VAX3VJM3QCcv9f (86664 bytes, 12 chunks)
 - **проверка live:** main#primary, hero#l24-hero-arb-srok — OK
 - **логи:** published-pages.md, content-plan-legis24.md (✅ B1 page_id 419)
+
+=== МАКС (QA) ===
+Статус: ✅ ВСЁ ОК
+URL: https://advokat-vsem.online/arbitrazhnyj-processualnyj-srok-podacha/
+Полный отчёт: `.cursor/nero-network-fragments/qa.md`
+
+=== ЛЁНЯ (SEO-АУДИТ) ===
+Статус: ⚠️ ЧАСТИЧНО (excerpt обновлён; дубль H1 Divi + нет meta description в head — см. lenya.md)
+URL: https://advokat-vsem.online/arbitrazhnyj-processualnyj-srok-podacha/
+Полный отчёт: `.cursor/nero-network-fragments/lenya.md`
+Рекомендации: Rank Math description для page 419; скрыть entry-title H1; 2–3 внутренние ссылки на .online

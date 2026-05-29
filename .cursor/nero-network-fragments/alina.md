@@ -1,9 +1,9 @@
 === АЛИНА (HERO) ===
 Статус: ✅ ГОТОВО
 
-<section id="l24-hero-arb-mir-settle" class="hero-arb-mir-settle" aria-label="Мировое соглашение в арбитраже">
+<section id="l24-hero-arb-srok" class="hero-arb-srok" aria-label="Арбитражный процессуальный срок">
   <style>
-    .hero-arb-mir-settle {
+    .hero-arb-srok {
       position: relative;
       min-height: 100vh;
       min-height: 100dvh;
@@ -11,21 +11,21 @@
       display: flex;
       align-items: center;
       padding: 120px 24px 80px;
-      background: linear-gradient(168deg, #fcfcfd 0%, #f6f8fb 40%, #eef2f7 100%);
+      background: linear-gradient(168deg, #fcfcfd 0%, #f6f8fb 42%, #eef2f7 100%);
       color: #0f172a;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .hero-arb-mir-settle::before {
+    .hero-arb-srok::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 52% 46% at 90% 10%, rgba(30, 58, 138, 0.07) 0%, transparent 55%),
-        radial-gradient(ellipse 44% 40% at 8% 92%, rgba(163, 24, 48, 0.05) 0%, transparent 50%);
+        radial-gradient(ellipse 50% 44% at 92% 12%, rgba(163, 24, 48, 0.06) 0%, transparent 55%),
+        radial-gradient(ellipse 46% 42% at 6% 88%, rgba(30, 58, 138, 0.06) 0%, transparent 50%);
       pointer-events: none;
     }
-    .hero-arb-mir-settle__inner {
+    .hero-arb-srok__inner {
       position: relative;
       z-index: 1;
       max-width: 1200px;
@@ -36,7 +36,7 @@
       gap: 44px;
       align-items: center;
     }
-    .hero-arb-mir-settle__badge {
+    .hero-arb-srok__badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
@@ -50,14 +50,14 @@
       letter-spacing: 0.02em;
       color: #334155;
     }
-    .hero-arb-mir-settle__badge-dot {
+    .hero-arb-srok__badge-dot {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #1e3a8a;
+      background: #a31830;
       flex-shrink: 0;
     }
-    .hero-arb-mir-settle__h1 {
+    .hero-arb-srok__h1 {
       margin: 0 0 18px;
       font-size: clamp(1.55rem, 3.5vw, 2.35rem);
       line-height: 1.2;
@@ -65,22 +65,22 @@
       color: #0f172a;
       letter-spacing: -0.02em;
     }
-    .hero-arb-mir-settle__h1-accent {
-      color: #1e3a8a;
+    .hero-arb-srok__h1-accent {
+      color: #a31830;
     }
-    .hero-arb-mir-settle__sub {
+    .hero-arb-srok__sub {
       margin: 0 0 26px;
       max-width: 38em;
       font-size: clamp(1rem, 1.55vw, 1.1rem);
       line-height: 1.55;
       color: #475569;
     }
-    .hero-arb-mir-settle__forks {
+    .hero-arb-srok__deadlines {
       list-style: none;
       padding: 0;
       margin: 0 0 30px;
     }
-    .hero-arb-mir-settle__fork {
+    .hero-arb-srok__deadline {
       display: flex;
       gap: 14px;
       align-items: flex-start;
@@ -89,7 +89,7 @@
       line-height: 1.45;
       color: #334155;
     }
-    .hero-arb-mir-settle__fork-tag {
+    .hero-arb-srok__deadline-tag {
       flex-shrink: 0;
       min-width: 108px;
       padding: 6px 10px;
@@ -101,16 +101,16 @@
       text-transform: uppercase;
       color: #fff;
     }
-    .hero-arb-mir-settle__fork--plus .hero-arb-mir-settle__fork-tag {
-      background: #1e3a8a;
-    }
-    .hero-arb-mir-settle__fork--risk .hero-arb-mir-settle__fork-tag {
-      background: #a31830;
-    }
-    .hero-arb-mir-settle__fork--apk .hero-arb-mir-settle__fork-tag {
+    .hero-arb-srok__deadline--pret .hero-arb-srok__deadline-tag {
       background: #475569;
     }
-    .hero-arb-mir-settle__cta {
+    .hero-arb-srok__deadline--otz .hero-arb-srok__deadline-tag {
+      background: #a31830;
+    }
+    .hero-arb-srok__deadline--app .hero-arb-srok__deadline-tag {
+      background: #1e3a8a;
+    }
+    .hero-arb-srok__cta {
       display: inline-block;
       background: #a31830;
       color: #fff !important;
@@ -121,262 +121,305 @@
       text-decoration: none;
       box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
     }
-    .hero-arb-mir-settle__cta:hover {
+    .hero-arb-srok__cta:hover {
       background: #8b1528;
     }
-    .hero-arb-mir-settle__visual {
+    .hero-arb-srok__visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
     @media (prefers-reduced-motion: no-preference) {
-      .hero-a14-bridge-deck {
-        animation: hero-a14-bridge-glow 3.2s ease-in-out infinite;
+      .hero-b1-clock-hand {
+        animation: hero-b1-clock-tick 4s ease-in-out infinite;
+        transform-origin: 240px 118px;
       }
-      .hero-a14-handshake {
-        animation: hero-a14-handshake-pulse 2.4s ease-in-out infinite;
+      .hero-b1-deadline-pulse {
+        animation: hero-b1-deadline-pulse 2.2s ease-in-out infinite;
       }
-      .hero-a14-scales-beam {
-        animation: hero-a14-scales-sway 4s ease-in-out infinite;
-        transform-origin: 240px 198px;
+      .hero-b1-flow-doc {
+        animation: hero-b1-doc-flow 3.4s linear infinite;
       }
-      .hero-a14-flow-dot {
-        animation: hero-a14-flow-dot 2.8s linear infinite;
-      }
-      .hero-a14-stamp-ring {
-        animation: hero-a14-stamp 2.6s ease-out infinite;
+      .hero-b1-cal-day-active {
+        animation: hero-b1-cal-flash 2.8s ease-in-out infinite;
       }
     }
-    @keyframes hero-a14-bridge-glow {
-      0%, 100% { filter: drop-shadow(0 0 0 rgba(30, 58, 138, 0)); }
-      50% { filter: drop-shadow(0 0 10px rgba(30, 58, 138, 0.35)); }
-    }
-    @keyframes hero-a14-handshake-pulse {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(1.04); opacity: 0.92; }
-    }
-    @keyframes hero-a14-scales-sway {
+    @keyframes hero-b1-clock-tick {
       0%, 100% { transform: rotate(0deg); }
-      25% { transform: rotate(-2.5deg); }
-      75% { transform: rotate(2.5deg); }
+      25% { transform: rotate(8deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-4deg); }
     }
-    @keyframes hero-a14-flow-dot {
+    @keyframes hero-b1-deadline-pulse {
+      0%, 100% { opacity: 1; r: 6; }
+      50% { opacity: 0.65; r: 8; }
+    }
+    @keyframes hero-b1-doc-flow {
       0% { offset-distance: 0%; opacity: 0; }
-      10% { opacity: 1; }
-      90% { opacity: 1; }
+      8% { opacity: 1; }
+      92% { opacity: 1; }
       100% { offset-distance: 100%; opacity: 0; }
     }
-    @keyframes hero-a14-stamp {
-      0%, 70%, 100% { opacity: 0; transform: scale(0.85); }
-      78% { opacity: 0.85; transform: scale(1); }
-      88% { opacity: 0.4; transform: scale(1.02); }
+    @keyframes hero-b1-cal-flash {
+      0%, 100% { fill: #fef2f2; stroke: #fca5a5; }
+      50% { fill: #fee2e2; stroke: #a31830; }
     }
     @media (max-width: 900px) {
-      .hero-arb-mir-settle__inner {
+      .hero-arb-srok__inner {
         grid-template-columns: 1fr;
         gap: 28px;
       }
-      .hero-arb-mir-settle__visual {
+      .hero-arb-srok__visual {
         order: -1;
         max-height: 320px;
       }
-      .hero-arb-mir-settle__fork-tag {
+      .hero-arb-srok__deadline-tag {
         min-width: 92px;
         font-size: 0.66rem;
       }
     }
     @media (prefers-reduced-motion: reduce) {
-      .hero-a14-bridge-deck,
-      .hero-a14-handshake,
-      .hero-a14-scales-beam,
-      .hero-a14-flow-dot,
-      .hero-a14-stamp-ring {
+      .hero-b1-clock-hand,
+      .hero-b1-deadline-pulse,
+      .hero-b1-flow-doc,
+      .hero-b1-cal-day-active {
         animation: none !important;
       }
     }
   </style>
-  <div class="hero-arb-mir-settle__inner">
-    <div class="hero-arb-mir-settle__content">
-      <div class="hero-arb-mir-settle__badge">
-        <span class="hero-arb-mir-settle__badge-dot" aria-hidden="true"></span>
-        Legis24 ARB · A14 · АПК · ст. 139–142 · 2026
+  <div class="hero-arb-srok__inner">
+    <div class="hero-arb-srok__content">
+      <div class="hero-arb-srok__badge">
+        <span class="hero-arb-srok__badge-dot" aria-hidden="true"></span>
+        Legis24 ARB · B1 · АПК · ст. 113–117 · 2026
       </div>
-      <h1 class="hero-arb-mir-settle__h1">
-        <span class="hero-arb-mir-settle__h1-accent">Мировое соглашение</span> в арбитраже
+      <h1 class="hero-arb-srok__h1">
+        <span class="hero-arb-srok__h1-accent">Арбитражный процессуальный срок:</span> как не пропустить подачу и возражения
       </h1>
-      <p class="hero-arb-mir-settle__sub">
-        Стратегия для экономических споров: когда мир с контрагентом снижает издержки, а когда — создаёт новые риски в арбитражном суде
+      <p class="hero-arb-srok__sub">
+        Процессуальные сроки по АПК: иск, отзыв, апелляция и восстановление по ст. 117 — без пропусков для бизнеса
       </p>
-      <ul class="hero-arb-mir-settle__forks">
-        <li class="hero-arb-mir-settle__fork hero-arb-mir-settle__fork--plus">
-          <span class="hero-arb-mir-settle__fork-tag">Плюсы</span>
-          <span><strong>Экономия процесса</strong> — прекращение спора, возврат госпошлины, исполнительный лист без полного доказывания</span>
+      <ul class="hero-arb-srok__deadlines">
+        <li class="hero-arb-srok__deadline hero-arb-srok__deadline--pret">
+          <span class="hero-arb-srok__deadline-tag">30 к.д.</span>
+          <span><strong>Претензия</strong> — досудебный ответ по ст. 4 АПК; не путать с отзывом на иск в суде</span>
         </li>
-        <li class="hero-arb-mir-settle__fork hero-arb-mir-settle__fork--risk">
-          <span class="hero-arb-mir-settle__fork-tag">Риски</span>
-          <span><strong>Отказ в утверждении</strong> — налоги на прощение, санкции за просрочку, res judicata только после определения суда</span>
+        <li class="hero-arb-srok__deadline hero-arb-srok__deadline--otz">
+          <span class="hero-arb-srok__deadline-tag">15 / 30</span>
+          <span><strong>Отзыв</strong> — ≥15 дней в УП (ст. 228) или срок из определения суда (ст. 131)</span>
         </li>
-        <li class="hero-arb-mir-settle__fork hero-arb-mir-settle__fork--apk">
-          <span class="hero-arb-mir-settle__fork-tag">ст. 139–142</span>
-          <span><strong>На любой стадии</strong> — от первого заседания до исполнения; суд проверяет законность условий перед утверждением</span>
+        <li class="hero-arb-srok__deadline hero-arb-srok__deadline--app">
+          <span class="hero-arb-srok__deadline-tag">1 + 6 мес.</span>
+          <span><strong>Апелляция</strong> — месяц со дня принятия решения; восстановление до 6 месяцев (ст. 117, 259)</span>
         </li>
       </ul>
-      <a class="hero-arb-mir-settle__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по стратегии мирового соглашения в арбитраже</a>
+      <a class="hero-arb-srok__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по соблюдению процессуальных сроков в арбитраже</a>
     </div>
-    <div class="hero-arb-mir-settle__visual" aria-hidden="true">
-      <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Мост соглашения: стороны спора, handshake и весы на мосту, утверждение арбитражным судом">
+    <div class="hero-arb-srok__visual" aria-hidden="true">
+      <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Календарь арбитражных сроков: часы до 24:00, стрелки этапов и процессуальные документы">
         <defs>
-          <linearGradient id="hero-a14-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-b1-sky" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#f8fafc"/>
             <stop offset="100%" stop-color="#e2e8f0"/>
           </linearGradient>
-          <linearGradient id="hero-a14-court" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-b1-court" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#1e3a8a"/>
             <stop offset="100%" stop-color="#0f2744"/>
           </linearGradient>
-          <linearGradient id="hero-a14-bridge" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#93c5fd"/>
-            <stop offset="50%" stop-color="#1e3a8a"/>
-            <stop offset="100%" stop-color="#93c5fd"/>
+          <linearGradient id="hero-b1-cal" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
           </linearGradient>
-          <linearGradient id="hero-a14-gap" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#fef2f2"/>
-            <stop offset="100%" stop-color="#fee2e2"/>
+          <linearGradient id="hero-b1-arrow-line" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#94a3b8"/>
+            <stop offset="50%" stop-color="#a31830"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
           </linearGradient>
-          <linearGradient id="hero-a14-save" x1="0%" y1="100%" x2="0%" y2="0%">
-            <stop offset="0%" stop-color="#dbeafe"/>
-            <stop offset="100%" stop-color="#eff6ff"/>
-          </linearGradient>
-          <filter id="hero-a14-shadow" x="-8%" y="-8%" width="116%" height="116%">
+          <filter id="hero-b1-shadow" x="-8%" y="-8%" width="116%" height="116%">
             <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.12"/>
           </filter>
-          <marker id="hero-a14-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+          <marker id="hero-b1-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
             <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
           </marker>
-          <marker id="hero-a14-arrow-navy" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+          <marker id="hero-b1-arrow-red" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#a31830"/>
+          </marker>
+          <marker id="hero-b1-arrow-navy" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
             <path d="M0,0 L7,3.5 L0,7 Z" fill="#1e3a8a"/>
           </marker>
-          <path id="hero-a14-bridge-path" d="M72 248 Q240 168 408 248" fill="none"/>
+          <path id="hero-b1-timeline" d="M48 318 Q120 280 240 268 T432 318" fill="none"/>
         </defs>
-        <rect x="8" y="10" width="464" height="400" rx="16" fill="url(#hero-a14-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
-        <!-- арбитражный суд — утверждение -->
-        <g transform="translate(140, 16)">
-          <rect x="0" y="22" width="200" height="54" rx="4" fill="url(#hero-a14-court)"/>
-          <polygon points="100,0 200,22 0,22" fill="#1e40af"/>
-          <text x="100" y="48" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="700" letter-spacing="0.08em">АРБИТРАЖ · УТВЕРЖДЕНИЕ</text>
-          <text x="100" y="62" text-anchor="middle" fill="#93c5fd" font-size="7">ст. 141 АПК · определение суда</text>
+        <rect x="8" y="10" width="464" height="400" rx="16" fill="url(#hero-b1-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <!-- арбитражный суд -->
+        <g transform="translate(150, 14)">
+          <rect x="0" y="20" width="180" height="48" rx="4" fill="url(#hero-b1-court)"/>
+          <polygon points="90,0 180,20 0,20" fill="#1e40af"/>
+          <text x="90" y="42" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="700" letter-spacing="0.08em">АРБИТРАЖ · АПК</text>
+          <text x="90" y="56" text-anchor="middle" fill="#93c5fd" font-size="7">процессуальные сроки · ст. 113–117</text>
         </g>
-        <!-- штамп утверждения -->
-        <g class="hero-a14-stamp-ring" transform="translate(340, 52)">
-          <circle cx="0" cy="0" r="22" fill="none" stroke="#1e3a8a" stroke-width="2" stroke-dasharray="4 3" opacity="0.7"/>
-          <text x="0" y="-4" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">УТВЕРЖДЕНО</text>
-          <text x="0" y="6" text-anchor="middle" fill="#64748b" font-size="5">ст. 141</text>
+        <!-- часы: до 24:00 последнего дня -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(368, 28)">
+          <circle cx="0" cy="0" r="34" fill="#fff" stroke="#1e3a8a" stroke-width="1.5"/>
+          <circle cx="0" cy="0" r="28" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="0" y1="0" x2="0" y2="-18" stroke="#64748b" stroke-width="2"/>
+          <g class="hero-b1-clock-hand">
+            <line x1="0" y1="0" x2="14" y2="6" stroke="#a31830" stroke-width="2.5" stroke-linecap="round"/>
+          </g>
+          <circle cx="0" cy="0" r="3" fill="#a31830"/>
+          <text x="0" y="-42" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">до 24:00</text>
+          <text x="0" y="-32" text-anchor="middle" fill="#64748b" font-size="6">Пленум № 99</text>
         </g>
-        <!-- левый берег: спор -->
-        <g filter="url(#hero-a14-shadow)">
-          <rect x="24" y="248" width="96" height="14" rx="3" fill="#94a3b8"/>
-          <rect x="28" y="220" width="88" height="28" rx="8" fill="#fff" stroke="#a31830" stroke-width="1.2"/>
-          <text x="72" y="234" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800">СТОРОНА А</text>
-          <text x="72" y="244" text-anchor="middle" fill="#64748b" font-size="6">иск · спор</text>
-          <!-- растущие издержки -->
-          <rect x="36" y="196" width="12" height="20" rx="2" fill="#fecaca"/>
-          <rect x="52" y="188" width="12" height="28" rx="2" fill="#fca5a5"/>
-          <rect x="68" y="178" width="12" height="38" rx="2" fill="#f87171"/>
-          <rect x="84" y="170" width="12" height="46" rx="2" fill="#a31830" opacity="0.85"/>
-          <text x="72" y="164" text-anchor="middle" fill="#a31830" font-size="6" font-weight="700">издержки ↑</text>
+        <!-- календарь — центр -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(118, 72)">
+          <rect x="0" y="0" width="244" height="196" rx="10" fill="url(#hero-b1-cal)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="244" height="36" rx="10" fill="#a31830"/>
+          <rect x="0" y="18" width="244" height="18" fill="#a31830"/>
+          <text x="122" y="24" text-anchor="middle" fill="#fff" font-size="10" font-weight="800" letter-spacing="0.06em">КАЛЕНДАРЬ АРБИТРАЖНЫХ СРОКОВ</text>
+          <!-- сетка дней -->
+          <g fill="#f8fafc" stroke="#e2e8f0" stroke-width="0.6">
+            <rect x="12" y="48" width="30" height="24" rx="3"/>
+            <rect x="46" y="48" width="30" height="24" rx="3"/>
+            <rect x="80" y="48" width="30" height="24" rx="3"/>
+            <rect x="114" y="48" width="30" height="24" rx="3"/>
+            <rect x="148" y="48" width="30" height="24" rx="3"/>
+            <rect x="182" y="48" width="30" height="24" rx="3"/>
+            <rect x="12" y="76" width="30" height="24" rx="3"/>
+            <rect x="46" y="76" width="30" height="24" rx="3"/>
+            <rect x="80" y="76" width="30" height="24" rx="3"/>
+            <rect x="114" y="76" width="30" height="24" rx="3"/>
+            <rect x="148" y="76" width="30" height="24" rx="3"/>
+            <rect x="182" y="76" width="30" height="24" rx="3"/>
+            <rect x="12" y="104" width="30" height="24" rx="3"/>
+            <rect x="46" y="104" width="30" height="24" rx="3"/>
+            <rect x="80" y="104" width="30" height="24" rx="3"/>
+            <rect x="114" y="104" width="30" height="24" rx="3"/>
+            <rect x="148" y="104" width="30" height="24" rx="3"/>
+            <rect x="182" y="104" width="30" height="24" rx="3"/>
+            <rect x="12" y="132" width="30" height="24" rx="3"/>
+            <rect x="46" y="132" width="30" height="24" rx="3"/>
+            <rect x="80" y="132" width="30" height="24" rx="3"/>
+            <rect x="114" y="132" width="30" height="24" rx="3"/>
+            <rect x="148" y="132" width="30" height="24" rx="3"/>
+            <rect x="182" y="132" width="30" height="24" rx="3"/>
+          </g>
+          <!-- активный день — дедлайн -->
+          <rect class="hero-b1-cal-day-active" x="148" y="104" width="30" height="24" rx="3" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="163" y="120" text-anchor="middle" fill="#a31830" font-size="9" font-weight="800">!</text>
+          <text x="12" y="168" fill="#64748b" font-size="6">30 к.д. · претензия</text>
+          <text x="92" y="168" fill="#a31830" font-size="6" font-weight="700">15/30 · отзыв</text>
+          <text x="168" y="168" fill="#1e3a8a" font-size="6" font-weight="700">1 мес. · апелляция</text>
+          <circle class="hero-b1-deadline-pulse" cx="163" cy="116" r="6" fill="none" stroke="#a31830" stroke-width="1.5"/>
         </g>
-        <!-- правый берег: мир -->
-        <g filter="url(#hero-a14-shadow)">
-          <rect x="360" y="248" width="96" height="14" rx="3" fill="#94a3b8"/>
-          <rect x="364" y="220" width="88" height="28" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
-          <text x="408" y="234" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">СТОРОНА B</text>
-          <text x="408" y="244" text-anchor="middle" fill="#64748b" font-size="6">контрагент</text>
-          <!-- сниженные издержки -->
-          <rect x="372" y="206" width="12" height="10" rx="2" fill="#93c5fd"/>
-          <rect x="388" y="200" width="12" height="16" rx="2" fill="#60a5fa"/>
-          <rect x="404" y="194" width="12" height="22" rx="2" fill="#3b82f6"/>
-          <rect x="420" y="188" width="12" height="28" rx="2" fill="#1e3a8a" opacity="0.75"/>
-          <text x="408" y="182" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="700">экономия ↓</text>
+        <!-- документы слева: претензия -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(24, 148)">
+          <rect x="0" y="0" width="72" height="88" rx="6" fill="#fff" stroke="#475569" stroke-width="1"/>
+          <rect x="10" y="12" width="52" height="6" rx="2" fill="#cbd5e1"/>
+          <rect x="10" y="24" width="44" height="4" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="32" width="48" height="4" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="40" width="40" height="4" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="56" width="36" height="14" rx="3" fill="#f1f5f9" stroke="#94a3b8"/>
+          <text x="28" y="66" text-anchor="middle" fill="#475569" font-size="5" font-weight="700">ст. 4</text>
+          <text x="36" y="82" text-anchor="middle" fill="#334155" font-size="6" font-weight="700">ПРЕТЕНЗИЯ</text>
         </g>
-        <!-- пропасть спора -->
-        <rect x="120" y="262" width="240" height="48" rx="6" fill="url(#hero-a14-gap)" stroke="#fecaca" stroke-width="1" stroke-dasharray="5 4"/>
-        <text x="240" y="282" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">РИСК · отказ в утверждении</text>
-        <text x="240" y="296" text-anchor="middle" fill="#991b1b" font-size="6">нарушение закона · налоги · санкции</text>
-        <!-- мост соглашения -->
-        <g class="hero-a14-bridge-deck">
-          <path d="M68 252 Q240 162 412 252" stroke="url(#hero-a14-bridge)" stroke-width="10" fill="none" stroke-linecap="round"/>
-          <path d="M68 252 Q240 162 412 252" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35"/>
-          <!-- опоры -->
-          <rect x="108" y="248" width="8" height="36" rx="2" fill="#64748b"/>
-          <rect x="364" y="248" width="8" height="36" rx="2" fill="#64748b"/>
-          <text x="240" y="152" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="800" letter-spacing="0.06em">МОСТ СОГЛАШЕНИЯ</text>
+        <!-- документ: иск -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(24, 248)">
+          <rect x="0" y="0" width="72" height="72" rx="6" fill="#fff" stroke="#a31830" stroke-width="1.2"/>
+          <rect x="10" y="10" width="52" height="6" rx="2" fill="#fecaca"/>
+          <rect x="10" y="22" width="44" height="4" rx="1" fill="#fee2e2"/>
+          <rect x="10" y="30" width="48" height="4" rx="1" fill="#fee2e2"/>
+          <text x="36" y="52" text-anchor="middle" fill="#a31830" font-size="6" font-weight="800">ИСК</text>
+          <text x="36" y="64" text-anchor="middle" fill="#64748b" font-size="5">ст. 125–127</text>
         </g>
-        <!-- точка движения по мосту -->
-        <circle class="hero-a14-flow-dot" r="5" fill="#a31830" stroke="#fff" stroke-width="1.5" style="offset-path: path('M72 248 Q240 168 408 248'); offset-rotate: 0deg;"/>
-        <!-- весы на центре моста -->
-        <g class="hero-a14-scales-beam">
-          <line x1="240" y1="198" x2="240" y2="218" stroke="#64748b" stroke-width="2"/>
-          <line x1="188" y1="198" x2="292" y2="198" stroke="#475569" stroke-width="2.5"/>
-          <circle cx="240" cy="198" r="5" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
-          <!-- чаша: процесс -->
-          <line x1="188" y1="198" x2="176" y2="214" stroke="#64748b" stroke-width="1.5"/>
-          <path d="M160 214 Q188 228 216 214" fill="none" stroke="#a31830" stroke-width="1.5"/>
-          <rect x="168" y="216" width="40" height="22" rx="4" fill="#fef2f2" stroke="#fca5a5"/>
-          <text x="188" y="230" text-anchor="middle" fill="#a31830" font-size="6" font-weight="700">процесс</text>
-          <!-- чаша: мир -->
-          <line x1="292" y1="198" x2="304" y2="214" stroke="#64748b" stroke-width="1.5"/>
-          <path d="M288 214 Q316 228 344 214" fill="none" stroke="#1e3a8a" stroke-width="1.5"/>
-          <rect x="296" y="216" width="40" height="22" rx="4" fill="url(#hero-a14-save)" stroke="#93c5fd"/>
-          <text x="316" y="230" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="700">мир</text>
+        <!-- документ: отзыв -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(384, 148)">
+          <rect x="0" y="0" width="72" height="88" rx="6" fill="#fff" stroke="#a31830" stroke-width="1.2"/>
+          <rect x="10" y="12" width="52" height="6" rx="2" fill="#fecaca"/>
+          <rect x="10" y="24" width="44" height="4" rx="1" fill="#fee2e2"/>
+          <rect x="10" y="32" width="48" height="4" rx="1" fill="#fee2e2"/>
+          <rect x="10" y="48" width="52" height="18" rx="3" fill="#fef2f2" stroke="#fca5a5"/>
+          <text x="36" y="60" text-anchor="middle" fill="#a31830" font-size="5" font-weight="800">ОТЗЫВ</text>
+          <text x="36" y="82" text-anchor="middle" fill="#64748b" font-size="5">ст. 131 · 228</text>
         </g>
-        <!-- handshake -->
-        <g class="hero-a14-handshake" transform="translate(240, 248)">
-          <circle cx="0" cy="0" r="28" fill="#fff" stroke="#1e3a8a" stroke-width="1.5" filter="url(#hero-a14-shadow)"/>
-          <!-- левая рука -->
-          <path d="M-18 4 L-8 -6 L-2 0 L-6 8 L-14 10 Z" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
-          <rect x="-20" y="6" width="14" height="8" rx="3" fill="#1e3a8a" opacity="0.85"/>
-          <!-- правая рука -->
-          <path d="M18 4 L8 -6 L2 0 L6 8 L14 10 Z" fill="#fde68a" stroke="#d97706" stroke-width="0.8"/>
-          <rect x="6" y="6" width="14" height="8" rx="3" fill="#a31830" opacity="0.85"/>
-          <!-- сжатие -->
-          <ellipse cx="0" cy="2" rx="10" ry="6" fill="#fcd34d" stroke="#b45309" stroke-width="0.6"/>
-          <text x="0" y="-38" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">согласие сторон</text>
+        <!-- документ: апелляция -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(384, 248)">
+          <rect x="0" y="0" width="72" height="72" rx="6" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+          <rect x="10" y="10" width="52" height="6" rx="2" fill="#bfdbfe"/>
+          <rect x="10" y="22" width="44" height="4" rx="1" fill="#dbeafe"/>
+          <text x="36" y="44" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">АПЕЛЛ.</text>
+          <text x="36" y="56" text-anchor="middle" fill="#64748b" font-size="5">ст. 259</text>
+          <text x="36" y="66" text-anchor="middle" fill="#a31830" font-size="5">+ ст. 117</text>
         </g>
-        <!-- стрелки к суду -->
-        <path d="M240 88 L240 118" stroke="#1e3a8a" stroke-width="1.5" fill="none" marker-end="url(#hero-a14-arrow-navy)"/>
-        <path d="M240 276 L240 318" stroke="#64748b" stroke-width="1.2" fill="none" stroke-dasharray="3 3"/>
-        <!-- итоговая панель -->
-        <g filter="url(#hero-a14-shadow)" transform="translate(28, 328)">
-          <rect width="424" height="68" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
-          <rect x="0" y="0" width="140" height="68" rx="10" fill="#eff6ff" stroke="none"/>
-          <text x="70" y="24" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">ПЛЮС</text>
-          <text x="70" y="38" text-anchor="middle" fill="#475569" font-size="6">прекращение спора</text>
-          <text x="70" y="50" text-anchor="middle" fill="#475569" font-size="6">возврат пошлины</text>
-          <line x1="140" y1="12" x2="140" y2="56" stroke="#e2e8f0"/>
-          <rect x="140" y="0" width="144" height="68" fill="#fff" stroke="none"/>
-          <text x="212" y="24" text-anchor="middle" fill="#334155" font-size="7" font-weight="800">СТРАТЕГИЯ</text>
-          <text x="212" y="38" text-anchor="middle" fill="#64748b" font-size="6">оценка до подписания</text>
-          <text x="212" y="50" text-anchor="middle" fill="#64748b" font-size="6">ст. 139–142 АПК</text>
-          <line x1="284" y1="12" x2="284" y2="56" stroke="#e2e8f0"/>
-          <rect x="284" y="0" width="140" height="68" rx="10" fill="#fef2f2" stroke="none"/>
-          <text x="354" y="24" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800">РИСК</text>
-          <text x="354" y="38" text-anchor="middle" fill="#64748b" font-size="6">отказ суда</text>
-          <text x="354" y="50" text-anchor="middle" fill="#64748b" font-size="6">налоги · санкции</text>
+        <!-- стрелки сроков между этапами -->
+        <path d="M96 192 L118 168" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#hero-b1-arrow)"/>
+        <path d="M96 284 L118 248" stroke="#a31830" stroke-width="1.5" fill="none" marker-end="url(#hero-b1-arrow-red)"/>
+        <path d="M362 192 L342 168" stroke="#a31830" stroke-width="1.5" fill="none" marker-end="url(#hero-b1-arrow-red)"/>
+        <path d="M362 284 L342 248" stroke="#1e3a8a" stroke-width="1.5" fill="none" marker-end="url(#hero-b1-arrow-navy)"/>
+        <path d="M240 268 L240 248" stroke="#64748b" stroke-width="1.2" fill="none" stroke-dasharray="3 3"/>
+        <!-- лента таймлайна -->
+        <path d="M48 318 Q120 280 240 268 T432 318" stroke="url(#hero-b1-arrow-line)" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <circle class="hero-b1-flow-doc" r="5" fill="#a31830" stroke="#fff" stroke-width="1.5" style="offset-path: path('M48 318 Q120 280 240 268 T432 318'); offset-rotate: 0deg;"/>
+        <text x="72" y="336" text-anchor="middle" fill="#475569" font-size="6" font-weight="700">претензия</text>
+        <text x="168" y="328" text-anchor="middle" fill="#a31830" font-size="6" font-weight="700">иск · отзыв</text>
+        <text x="300" y="336" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="700">решение</text>
+        <text x="408" y="328" text-anchor="middle" fill="#334155" font-size="6" font-weight="700">апелляция</text>
+        <!-- зона пропуска -->
+        <g transform="translate(188, 288)">
+          <rect x="0" y="0" width="104" height="28" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1" stroke-dasharray="4 3"/>
+          <text x="52" y="12" text-anchor="middle" fill="#a31830" font-size="6" font-weight="800">ПРОПУСК</text>
+          <text x="52" y="22" text-anchor="middle" fill="#991b1b" font-size="5">ст. 115 · 117</text>
         </g>
-        <text x="240" y="408" text-anchor="middle" fill="#64748b" font-size="7">спор → мост соглашения → утверждение арбитражным судом</text>
+        <!-- нижняя панель -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(28, 348)">
+          <rect width="424" height="52" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+          <rect x="0" y="0" width="106" height="52" rx="10" fill="#f1f5f9" stroke="none"/>
+          <text x="53" y="22" text-anchor="middle" fill="#475569" font-size="7" font-weight="800">30 к.д.</text>
+          <text x="53" y="36" text-anchor="middle" fill="#64748b" font-size="6">претензия · ст. 4</text>
+          <line x1="106" y1="10" x2="106" y2="42" stroke="#e2e8f0"/>
+          <text x="159" y="22" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800">15 / 30</text>
+          <text x="159" y="36" text-anchor="middle" fill="#64748b" font-size="6">отзыв · УП / обычное</text>
+          <line x1="212" y1="10" x2="212" y2="42" stroke="#e2e8f0"/>
+          <text x="265" y="22" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">1 мес.</text>
+          <text x="265" y="36" text-anchor="middle" fill="#64748b" font-size="6">апелляция · ст. 259</text>
+          <line x1="318" y1="10" x2="318" y2="42" stroke="#e2e8f0"/>
+          <rect x="318" y="0" width="106" height="52" rx="10" fill="#fef2f2" stroke="none"/>
+          <text x="371" y="22" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800">6 мес.</text>
+          <text x="371" y="36" text-anchor="middle" fill="#64748b" font-size="6">предел · ст. 117</text>
+        </g>
+        <text x="240" y="412" text-anchor="middle" fill="#64748b" font-size="7">претензия → иск → отзыв → решение → апелляция · единый календарь по делу</text>
       </svg>
     </div>
   </div>
 </section>
 
+## Паспорт мира
+
+| Поле | Значение |
+|------|----------|
+| **Код** | B1 (ARB) |
+| **SLUG** | arbitrazhnyj-processualnyj-srok-podacha |
+| **Метафора** | «Календарь арбитражных сроков» — настенный календарь в центре, часы до 24:00 (Пленум № 99), процессуальные документы по периметру, стрелки этапов и лента таймлайна |
+| **Палитра** | Светлый фон `#fcfcfd`–`#eef2f7`, типографика `#0f172a` / `#475569`, акцент **#a31830**, арбитраж **#1e3a8a** |
+| **Объекты SVG** | Календарь с подсветкой дедлайна, часы, претензия / иск / отзыв / апелляция, стрелки сроков, зона «ПРОПУСК», нижняя матрица 30·15/30·1·6 |
+| **Анимации** | Только CSS `@keyframes` на стрелках часов, пульсе дня, точке по таймлайну |
+| **MCP** | Только static SVG + inline CSS. **Без** `<canvas>` и **без** `<script>` |
+
+## Чеклист отличий
+
+- [x] Не A14 «мост соглашения» — другой мир: **календарь + часы + документы**, не handshake / весы / утверждение МС
+- [x] Не A8 банкротный реестр / не A11 АУ и сделки — фокус на **процессуальных сроках АПК** (113–117, 131, 228, 259)
+- [x] Акцент hero — **бордовый #a31830** (в A14 акцент H1 был navy)
+- [x] Три тега в тексте: **30 к.д.** претензия · **15/30** отзыв · **1+6 мес.** апелляция (не плюсы/риски мира)
+- [x] Hero id `l24-hero-arb-srok` — не пересекается с Boris-блоком в статье
+- [x] Без `<canvas>` и `<script>` — совместимо с WordPress MCP publish
+
 ## Передача Наташе
 
-**SLUG:** mirovoe-soglashenie-v-arbitrazhe-plyusy-riski
+**SLUG:** arbitrazhnyj-processualnyj-srok-podacha
 
-**Hero ID:** `#l24-hero-arb-mir-settle`
+**Hero ID:** `#l24-hero-arb-srok`
 
-**Класс страницы:** `mirovoe-soglashenie-v-arbitrazhe-plyusy-riski-page`
+**Класс страницы:** `arbitrazhnyj-processualnyj-srok-podacha-page`
 
 **MCP-only:** hero содержит только static SVG + inline CSS + `@keyframes`. Без `<canvas>` и без `<script>`. Не удалять анимации и SVG-разметку.
 
-**Метафора:** «мост соглашения» — два берега спора, handshake и весы на мосту, утверждение арбитражным судом (отличие от A11: не АУ/оспаривание сделок, а мировое соглашение сторон).
+**Метафора:** «календарь арбитражных сроков» — единый календарь по делу, часы до 24:00, документы этапов и стрелки от претензии к апелляции (отличие от A14: не мировое соглашение, а контроль процессуальных дедлайнов).
