@@ -999,3 +999,1140 @@ DEWU в публичной позиции указывал: иностранна
 **Тип:** IP (Legis24) — консультация по защите бренда / оспариванию ТЗ
 **PRIMARY_CTA:** https://advokat-vsem.ru/
 **Статус пайплайна:** Артур ✅ → Алина/Борис (hero) / Наташа (вёрстка) → …
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+### HTML
+```html
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page th,
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page th { background: #edf2f7; }
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page a { color: #1e40af; }
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page ol, .poizon-tovarnyj-znak-sip-osporenie-registracii-page ul { margin: 1em 0; padding-left: 1.4em; }
+.poizon-tovarnyj-znak-sip-osporenie-registracii-page li { margin-bottom: 0.45em; }
+.l24-intro-tz {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-tz__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-tz__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-tz__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-tz__text p:last-child { margin-bottom: 0; }
+.l24-intro-tz__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-tz__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-tz__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+.l24-intro-tz__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-tz__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-tz__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-tz__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list { list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-tz {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-tz h2 { margin-top: 0 !important; }
+.l24-faq-tz__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-tz__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-tz__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-tz__a { margin: 0; color: #334155; }
+@media (max-width: 900px) {
+  .l24-intro-tz__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main poizon-tovarnyj-znak-sip-osporenie-registracii-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<section id="l24-hero-ip-poizon-sip" class="hero-ip-poizon-sip" aria-label="POIZON в СИП: оспаривание товарного знака и признание регистрации недействительной">
+  <style>
+    .hero-ip-poizon-sip {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(158deg, #fcfcfd 0%, #f6f8fb 40%, #f2f5f9 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ip-poizon-sip::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 50% 42% at 88% 8%, rgba(30, 58, 138, 0.08) 0%, transparent 58%),
+        radial-gradient(ellipse 38% 36% at 4% 92%, rgba(163, 24, 48, 0.05) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .hero-ip-poizon-sip__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.02fr 0.98fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .hero-ip-poizon-sip__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .hero-ip-poizon-sip__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e3a8a;
+      flex-shrink: 0;
+    }
+    .hero-ip-poizon-sip__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.52rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-ip-poizon-sip__h1-accent {
+      color: #1e3a8a;
+    }
+    .hero-ip-poizon-sip__sub {
+      margin: 0 0 24px;
+      max-width: 40em;
+      font-size: clamp(1rem, 1.55vw, 1.11rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .hero-ip-poizon-sip__facts {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .hero-ip-poizon-sip__fact {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      font-size: 0.92rem;
+      line-height: 1.45;
+      color: #334155;
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid #e2e8f0;
+    }
+    .hero-ip-poizon-sip__fact-key {
+      flex-shrink: 0;
+      min-width: 108px;
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #1e3a8a;
+      padding-top: 2px;
+    }
+    .hero-ip-poizon-sip__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+      line-height: 1.35;
+    }
+    .hero-ip-poizon-sip__cta:hover {
+      background: #8b1528;
+    }
+    .hero-ip-poizon-sip__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .hero-ip-poizon-sip__scale-left {
+        animation: hero-poizon-sip-tilt 5s ease-in-out infinite;
+        transform-origin: 220px 198px;
+      }
+      .hero-ip-poizon-sip__scale-right {
+        animation: hero-poizon-sip-tilt 5s ease-in-out infinite;
+        transform-origin: 220px 198px;
+      }
+      .hero-ip-poizon-sip__void-stamp {
+        animation: hero-poizon-sip-stamp 4.2s ease-in-out infinite;
+      }
+      .hero-ip-poizon-sip__beam {
+        animation: hero-poizon-sip-beam 3.8s ease-in-out infinite;
+      }
+      .hero-ip-poizon-sip__doc-float {
+        animation: hero-poizon-sip-float 4.6s ease-in-out infinite;
+      }
+      .hero-ip-poizon-sip__doc-float--2 {
+        animation-delay: 1.5s;
+      }
+    }
+    @keyframes hero-poizon-sip-tilt {
+      0%, 100% { transform: rotate(-4deg); }
+      50% { transform: rotate(5deg); }
+    }
+    @keyframes hero-poizon-sip-stamp {
+      0%, 100% { opacity: 0.82; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+    @keyframes hero-poizon-sip-beam {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 0.65; }
+    }
+    @keyframes hero-poizon-sip-float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-ip-poizon-sip__scale-left,
+      .hero-ip-poizon-sip__scale-right,
+      .hero-ip-poizon-sip__void-stamp,
+      .hero-ip-poizon-sip__beam,
+      .hero-ip-poizon-sip__doc-float,
+      .hero-ip-poizon-sip__doc-float--2 {
+        animation: none !important;
+      }
+    }
+    @media (max-width: 900px) {
+      .hero-ip-poizon-sip {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .hero-ip-poizon-sip__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .hero-ip-poizon-sip__visual {
+        order: -1;
+        max-height: 310px;
+      }
+      .hero-ip-poizon-sip__fact-key {
+        min-width: 92px;
+      }
+    }
+  </style>
+  <div class="hero-ip-poizon-sip__inner">
+    <div class="hero-ip-poizon-sip__content">
+      <div class="hero-ip-poizon-sip__badge">
+        <span class="hero-ip-poizon-sip__badge-mark" aria-hidden="true"></span>
+        СИП · POIZON · оспаривание регистрации · май 2026
+      </div>
+      <h1 class="hero-ip-poizon-sip__h1">
+        <span class="hero-ip-poizon-sip__h1-accent">POIZON в СИП:</span> как суд признал товарный знак недействительным и что делать правообладателю
+      </h1>
+      <p class="hero-ip-poizon-sip__sub">
+        Дело DEWU против ООО «Пойзон»: оспаривание регистрации, недобросовестная конкуренция и защита бренда на российском рынке
+      </p>
+      <ul class="hero-ip-poizon-sip__facts">
+        <li class="hero-ip-poizon-sip__fact">
+          <span class="hero-ip-poizon-sip__fact-key">СИП-1182/2024</span>
+          <span><strong>Shanghai Shizhuang / DEWU</strong> оспорила регистрацию после отклонения возражения в Роспатенте</span>
+        </li>
+        <li class="hero-ip-poizon-sip__fact">
+          <span class="hero-ip-poizon-sip__fact-key">№ 983757 · 1026380</span>
+          <span>Знаки <strong>POIZON</strong> и «Пойзон» — охрана признана недействительной (публичные данные мая 2026)</span>
+        </li>
+        <li class="hero-ip-poizon-sip__fact">
+          <span class="hero-ip-poizon-sip__fact-key">ст. 1512–1513</span>
+          <span>Недобросовестная конкуренция и введение в заблуждение — мотивы СИП; кассация в президиум</span>
+        </li>
+      </ul>
+      <a class="hero-ip-poizon-sip__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по оспариванию регистрации и защите бренда</a>
+    </div>
+    <div class="hero-ip-poizon-sip__visual" aria-hidden="true">
+      <svg viewBox="0 0 460 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:460px" role="img" aria-label="Зал СИП: весы правосудия, судебный акт и аннулированное свидетельство товарного знака POIZON">
+        <defs>
+          <linearGradient id="hero-poizon-chamber" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e8edf4"/>
+          </linearGradient>
+          <linearGradient id="hero-poizon-sip-wall" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-poizon-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fde68a"/>
+            <stop offset="100%" stop-color="#d97706"/>
+          </linearGradient>
+          <linearGradient id="hero-poizon-cert" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fffbeb"/>
+            <stop offset="100%" stop-color="#fef3c7"/>
+          </linearGradient>
+          <linearGradient id="hero-poizon-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <filter id="hero-poizon-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.14"/>
+          </filter>
+          <pattern id="hero-poizon-marble" width="24" height="24" patternUnits="userSpaceOnUse">
+            <rect width="24" height="24" fill="#f1f5f9"/>
+            <path d="M0 12 Q6 6 12 12 T24 12" fill="none" stroke="#e2e8f0" stroke-width="0.5" opacity="0.6"/>
+          </pattern>
+        </defs>
+        <!-- зал суда -->
+        <rect x="10" y="12" width="440" height="396" rx="18" fill="url(#hero-poizon-chamber)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <rect x="10" y="12" width="440" height="396" rx="18" fill="url(#hero-poizon-marble)" opacity="0.35"/>
+        <!-- фасад СИП -->
+        <g transform="translate(130, 22)">
+          <rect x="0" y="36" width="200" height="52" rx="4" fill="url(#hero-poizon-sip-wall)"/>
+          <polygon points="100,0 200,36 0,36" fill="#1e40af"/>
+          <rect x="24" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
+          <rect x="86" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
+          <rect x="148" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
+          <text x="100" y="78" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="700" letter-spacing="0.1em">СУД ПО ИНТЕЛЛЕКТУАЛЬНЫМ ПРАВАМ</text>
+        </g>
+        <!-- луч света на весы -->
+        <polygon class="hero-ip-poizon-sip__beam" points="230,88 180,200 280,200" fill="#fef9c3" opacity="0.4"/>
+        <!-- весы правосудия -->
+        <g filter="url(#hero-poizon-shadow)">
+          <rect x="208" y="168" width="24" height="118" rx="3" fill="url(#hero-poizon-gold)" stroke="#b45309" stroke-width="1"/>
+          <rect x="196" y="158" width="48" height="14" rx="4" fill="#92400e"/>
+          <line x1="220" y1="172" x2="220" y2="198" stroke="#78350f" stroke-width="3"/>
+          <g class="hero-ip-poizon-sip__scale-left">
+            <line x1="220" y1="198" x2="118" y2="218" stroke="#78350f" stroke-width="2.5"/>
+            <ellipse cx="118" cy="232" rx="52" ry="8" fill="#fde68a" stroke="#d97706" stroke-width="1.2"/>
+            <path d="M78 232 L158 232 L148 268 L88 268 Z" fill="url(#hero-poizon-paper)" stroke="#94a3b8" stroke-width="1"/>
+            <text x="118" y="252" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="800">DEWU</text>
+            <text x="118" y="264" text-anchor="middle" fill="#64748b" font-size="6.5" font-weight="600">истец</text>
+          </g>
+          <g class="hero-ip-poizon-sip__scale-right">
+            <line x1="220" y1="198" x2="322" y2="228" stroke="#78350f" stroke-width="2.5"/>
+            <ellipse cx="322" cy="242" rx="52" ry="8" fill="#fde68a" stroke="#d97706" stroke-width="1.2"/>
+            <g transform="translate(270, 248)">
+              <rect width="104" height="72" rx="8" fill="url(#hero-poizon-cert)" stroke="#d97706" stroke-width="1.2"/>
+              <text x="52" y="22" text-anchor="middle" fill="#92400e" font-size="11" font-weight="800" letter-spacing="0.06em">POIZON</text>
+              <text x="52" y="36" text-anchor="middle" fill="#64748b" font-size="6.5" font-weight="600">№ 983757</text>
+              <line x1="14" y1="44" x2="90" y2="44" stroke="#fcd34d" stroke-width="2"/>
+              <line x1="14" y1="54" x2="72" y2="54" stroke="#fcd34d" stroke-width="2"/>
+              <g class="hero-ip-poizon-sip__void-stamp" transform="translate(18, 58)">
+                <ellipse cx="34" cy="10" rx="32" ry="12" fill="none" stroke="#a31830" stroke-width="2.2" opacity="0.9"/>
+                <text x="34" y="14" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800" letter-spacing="0.04em">НЕДЕЙСТВ.</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <!-- судебный акт -->
+        <g class="hero-ip-poizon-sip__doc-float" filter="url(#hero-poizon-shadow)" transform="translate(28, 118)">
+          <rect width="118" height="148" rx="10" fill="url(#hero-poizon-paper)" stroke="#1e3a8a" stroke-width="1.4"/>
+          <rect x="12" y="12" width="94" height="18" rx="4" fill="#1e3a8a"/>
+          <text x="59" y="24" text-anchor="middle" fill="#fff" font-size="7" font-weight="800">РЕШЕНИЕ СИП</text>
+          <text x="59" y="48" text-anchor="middle" fill="#334155" font-size="8" font-weight="700">СИП-1182/2024</text>
+          <line x1="16" y1="58" x2="102" y2="58" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="16" y1="72" x2="96" y2="72" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="16" y1="86" x2="88" y2="86" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <rect x="16" y="98" width="86" height="36" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+          <text x="59" y="112" text-anchor="middle" fill="#1e40af" font-size="6.5" font-weight="700">ст. 1512–1513 ГК РФ</text>
+          <text x="59" y="124" text-anchor="middle" fill="#475569" font-size="6" font-weight="600">недобросовестная</text>
+          <text x="59" y="134" text-anchor="middle" fill="#475569" font-size="6" font-weight="600">конкуренция</text>
+        </g>
+        <!-- стопка документов / возражение -->
+        <g class="hero-ip-poizon-sip__doc-float hero-ip-poizon-sip__doc-float--2" filter="url(#hero-poizon-shadow)" transform="translate(318, 300)">
+          <rect x="4" y="8" width="108" height="72" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+          <rect width="108" height="72" rx="8" fill="url(#hero-poizon-paper)" stroke="#64748b" stroke-width="1.2"/>
+          <text x="54" y="22" text-anchor="middle" fill="#475569" font-size="7" font-weight="800">ВОЗРАЖЕНИЕ</text>
+          <text x="54" y="34" text-anchor="middle" fill="#94a3b8" font-size="6" font-weight="600">Роспатент → отклонено</text>
+          <path d="M54 42 L68 58 L40 58 Z" fill="none" stroke="#1e40af" stroke-width="1.6"/>
+          <text x="54" y="66" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">иск в СИП</text>
+        </g>
+        <!-- молоток судьи -->
+        <g transform="translate(368, 148)" opacity="0.92">
+          <rect x="0" y="28" width="8" height="36" rx="2" fill="#78350f"/>
+          <rect x="-14" y="18" width="36" height="14" rx="4" fill="url(#hero-poizon-gold)" stroke="#b45309"/>
+        </g>
+        <!-- подпись сцены -->
+        <text x="230" y="398" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">оспаривание регистрации · класс 35 МКТУ · май 2026</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-tz" aria-label="Введение">
+  <div class="l24-intro-tz__grid">
+    <div class="l24-intro-tz__text">
+      <p>В мае 2026 года Суд по интеллектуальным правам (СИП) огласил резолютивную часть решения, которое в медиа описывают как поражение российского правообладателя знака <strong>POIZON</strong>: охрана товарного знака на <strong>ООО «Пойзон»</strong> признана <strong>недействительной</strong> по иску <strong>Shanghai Shizhuang</strong> (маркетплейс <strong>Dewu</strong> / <strong>Poizon</strong>).</p>
+      <p>Ниже — разбор дела <strong>СИП-1182/2024</strong>, отличия <strong>возражения в Роспатенте</strong> от иска в СИП, чек-лист для правообладателя и ответчика, маркетплейс-контекст и ответы на частые вопросы.</p>
+      <div class="l24-intro-tz__brief">
+        <strong>Кратко:</strong> регистрация в Роспатенте не закрывает риски при сильном глобальном бренде; после отклонения возражения следующий рубеж — <strong>судебное оспаривание</strong> по ст. 1513 п. 4 ГК РФ и недобросовестная конкуренция; ООО «Пойзон» обжалует в <strong>президиум СИП</strong> (кассация 1 месяц).
+      </div>
+      <p>Если нужна оценка рисков по вашему знаку или стратегия оспаривания чужой регистрации, можно <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">получить консультацию по защите бренда и оспариванию регистрации</a>.</p>
+    </div>
+    <aside class="l24-intro-tz__decor" aria-label="Ключевые метки дела">
+      <ul class="l24-intro-tz__chips">
+        <li class="l24-intro-tz__chip l24-intro-tz__chip--accent">СИП-1182/2024</li>
+        <li class="l24-intro-tz__chip">№ 983757</li>
+        <li class="l24-intro-tz__chip">№ 1026380</li>
+        <li class="l24-intro-tz__chip l24-intro-tz__chip--warn">ст. 1512–1513</li>
+        <li class="l24-intro-tz__chip">класс 35 МКТУ</li>
+        <li class="l24-intro-tz__chip">президиум СИП</li>
+      </ul>
+      <svg class="l24-intro-tz__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: регистрация знака, возражение в Роспатенте, иск в СИП, кассация">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">ПОСТРЕГИСТРАЦИОННОЕ ОСПАРИВАНИЕ</text>
+        <circle cx="48" cy="88" r="18" fill="#3182ce"/><text x="48" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Рег</text>
+        <circle cx="120" cy="88" r="18" fill="#2b6cb0"/><text x="120" y="93" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">Росп</text>
+        <circle cx="192" cy="88" r="18" fill="#c53030"/><text x="192" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">СИП</text>
+        <circle cx="264" cy="88" r="18" fill="#d69e2e"/><text x="264" y="93" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">Касс</text>
+        <line x1="66" y1="88" x2="102" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="138" y1="88" x2="174" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="210" y1="88" x2="246" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <text x="48" y="130" text-anchor="middle" fill="#475569" font-size="8">12.2023</text>
+        <text x="120" y="130" text-anchor="middle" fill="#475569" font-size="8">возраж.</text>
+        <text x="192" y="130" text-anchor="middle" fill="#475569" font-size="8">май 2026</text>
+        <text x="264" y="130" text-anchor="middle" fill="#475569" font-size="8">1 мес.</text>
+        <rect x="24" y="148" width="272" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+        <text x="160" y="170" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="700">DEWU vs ООО «Пойзон»</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#poizon-sip-reshenie">Решение СИП по POIZON</a></li>
+    <li><a href="#poizon-osporenie-sip">Оспаривание в СИП</a></li>
+    <li><a href="#poizon-sudebnaya-zashchita">Судебная защита</a></li>
+    <li><a href="#poizon-cheklist">Чек-лист правообладателя</a></li>
+    <li><a href="#poizon-marketplejs">Маркетплейс</a></li>
+    <li><a href="#poizon-dejstviya-otvetchika">Действия ответчика</a></li>
+    <li><a href="#poizon-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div class="l24-longread-wrap" itemprop="articleBody">
+<h2 id="poizon-sip-reshenie">Что решил Суд по интеллектуальным правам по товарным знакам POIZON и «Пойзон»</h2>
+<h3>Суть спора: Shanghai Shizhuang / DEWU и ООО «Пойзон», знаки № 983757 и № 1026380</h3>
+<p><strong>Номер дела:</strong> СИП-1182/2024 (<a href="https://pravo.ru/news/263808/" target="_blank" rel="noopener noreferrer">Право.ру</a>).</p>
+<table>
+<thead>
+<tr>
+<th>Сторона</th>
+<th>Кто это</th>
+<th>Роль в процессе</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Истец</td>
+<td>Shanghai Shizhuang Information Technology (группа Shanghai Dewu Information Group, маркетплейс <strong>Dewu</strong> / <strong>Poizon</strong>)</td>
+<td>Требует признать регистрацию недействительной и квалифицировать поведение как недобросовестную конкуренцию</td>
+</tr>
+<tr>
+<td>Ответчик</td>
+<td><strong>ООО «Пойзон»</strong> (связь с poizon.ru; в СМИ — учредитель <strong>Цай Цзиньшуй</strong>)</td>
+<td>Держатель свидетельств; заявляет обжалование в <strong>президиум СИП</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Спорные свидетельства</strong> (декабрь 2023, в т.ч. <strong>класс 35 МКТУ</strong> — услуги в сфере торговли/онлайн-продаж):</p>
+<ul>
+<li><strong>№ 983757</strong> — обозначение <strong>POIZON</strong> / Poizon (латиница);</li>
+<li><strong>№ 1026380</strong> — <strong>«Пойзон»</strong> (кириллица).</li>
+</ul>
+<p>Иск подан в <strong>октябре 2024 года</strong>. Истец просил, в частности, признать недействительным решение Роспатента, которым <strong>отклонено возражение</strong> против регистрации, и <strong>аннулировать</strong> предоставленную правовую охрану. В публичных комментариях после оглашения резолютивной части (<strong>21 мая 2026</strong>, <a href="https://www.retail.ru/news/sud-annuliroval-tovarnyy-znak-ispolzovavshiysya-operatorom-sayta-klona-poizon-ru-21-maya-2026-277994/" target="_blank" rel="noopener noreferrer">Retail.ru</a>) акцент сделан на <strong>недействительности охраны знака POIZON</strong> (латиница); по <strong>№ 1026380</strong> в заголовках СМИ данные неоднородны — окончательную картину по обоим знакам нужно сверять с <strong>мотивировочной частью</strong> после изготовления полного судебного акта (<a href="https://www.sostav.ru/publication/sip-priznal-nedejstvitelnym-tovarnyj-znak-poizon-v-rossii-83969.html" target="_blank" rel="noopener noreferrer">Sostav</a>).</p>
+<p><strong>Важно не смешать</strong> с отдельным эпизодом <strong>27.02.2025</strong>: Роспатент <strong>частично</strong> признал недействительной охрану <strong>№ 983757</strong> по <strong>классу 35</strong> по возражению <strong>ИП Епифанова</strong> (знак <strong>ROIZON № 945292</strong>) — это <strong>другой</strong> спор, не замена решения DEWU 2026 года.</p>
+<h3>Почему регистрацию признали недействительной: правовые основания (ст. 1512–1513, 1483 ГК РФ)</h3>
+<p><strong>Оспаривание регистрации товарного знака</strong> в России опирается на <strong>ст. 1512 и 1513 ГК РФ</strong>:</p>
+<ul>
+<li><strong>ст. 1512</strong> — перечень оснований, по которым регистрация <strong>может быть признана недействительной</strong> (в т.ч. несоответствие <strong>ст. 1483</strong>, злоупотребление правом, недобросовестная конкуренция при приобретении исключительного права);</li>
+<li><strong>ст. 1513</strong> — <strong>порядок</strong>: возражение в <strong>федеральный орган</strong> (Роспатент) и/или <strong>судебное</strong> оспаривание решения органа и самой регистрации.</li>
+</ul>
+<p>Типичные «патентные» основания — <strong>ст. 1483 ГК РФ</strong>:</p>
+<ul>
+<li><strong>п. 6</strong> — обозначение вводит потребителя в <strong>заблуждение</strong> относительно товара, производителя, места происхождения;</li>
+<li><strong>п. 7, 10</strong> — <strong>сходство до степени смешения</strong> с чужим знаком/фирменным наименованием, известным на дату приоритета;</li>
+<li>для ряда оснований действует <strong>предельный срок</strong> — <strong>5 лет</strong> с даты публикации сведений о регистрации (<strong>п. 2 ст. 1512</strong>), если иное не установлено законом.</li>
+</ul>
+<p>В деле POIZON истец связывал регистрацию с <strong>известностью</strong> глобальной платформы и <strong>риском смешения</strong> у российских пользователей. Ответчик настаивал на <strong>собственном авторстве</strong> логотипа и <strong>самостоятельной</strong> российской экосистеме с 2022 года.</p>
+<p><strong>Не путать:</strong> <strong>ст. 1515 ГК РФ</strong> регулирует <strong>ответственность за использование</strong> чужого знака (компенсация, изъятие), а не признание <strong>самой регистрации</strong> недействительной. После аннулирования охраны спор о <strong>нарушении</strong> может начаться заново — об этом коротко ниже.</p>
+<h3>Недобросовестная конкуренция и введение потребителей в заблуждение в мотивировке СИП</h3>
+<p>Помимо «классического» сходства знаков, в иске звучали требования о <strong>недобросовестной конкуренции</strong> при <strong>приобретении и использовании</strong> исключительного права:</p>
+<ul>
+<li><strong>ст. 10 ГК РФ</strong> — злоупотребление правом, недобросовестная конкуренция;</li>
+<li><strong>ст. 14.4, 14.8</strong> Закона о защите конкуренции — отдельные формы (в т.ч. введение в заблуждение, недобросовестное использование чужого результата).</li>
+</ul>
+<p>Суды по спорам о товарных знаках <strong>не ограничены</strong> формальной «легальностью» акта Роспатента: при оспаривании решения ведомства СИП вправе оценить, не была ли регистрация способом <strong>паразитировать</strong> на чужой репутации (разъяснения <strong>п. 169 Постановления Пленума ВС № 10</strong>). Представитель DEWU в СМИ подчёркивал: <strong>сходство названий не означает</strong> официальную связь с платформой Poizon — цель решения снизить <strong>путаницу у потребителей</strong>.</p>
+<p>Для баланса: не каждый иск о недобросовестности увенчивается успехом (например, по делу <strong>СИП-969/2024</strong> недобросовестность <strong>не доказана</strong> — <a href="https://www.garant.ru/products/ipo/prime/doc/412723459/" target="_blank" rel="noopener noreferrer">ГАРАНТ</a>). Победа DEWU <strong>не шаблон</strong> для всех споров «глобальный бренд vs локальный регистратор».</p>
+<h3>Обжалование в президиум СИП: что изменится для сторон</h3>
+<p>ООО «Пойзон» заявило об <strong>обжаловании в кассационном порядке в президиум СИП</strong> (<a href="https://www.sostav.ru/publication/sip-priznal-nedejstvitelnym-tovarnyj-znak-poizon-v-rossii-83969.html" target="_blank" rel="noopener noreferrer">Sostav</a>). Особенности:</p>
+<ul>
+<li>у СИП <strong>нет апелляции</strong> в привычном смысле: первая инстанция — СИП, далее <strong>кассация в президиум СИП</strong>, затем — <strong>Верховный суд</strong> при наличии оснований;</li>
+<li><strong>срок кассации</strong> — <strong>1 месяц</strong> со дня вступления решения в законную силу;</li>
+<li>решения СИП, как правило, вступают в силу <strong>немедленно</strong> (<strong>ст. 273 АПК РФ</strong>).</li>
+</ul>
+<p>До изготовления полного акта стороны опираются на <strong>резолютивную часть</strong>; тактика (сохранение домена, переговоры с маркетплейсами) должна учитывать риск <strong>отмены или оставления</strong> решения в президиуме.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Решение СИП по POIZON — напоминание: выданное свидетельство можно оспорить по сходству, введению в заблуждение и недобросовестной конкуренции. До кассации в президиум СИП стоит сверить мотивировку и сроки.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по оспариванию регистрации товарного знака</a></p>
+</aside>
+
+
+<h2 id="poizon-osporenie-sip">Оспаривание регистрации товарного знака: когда идут в СИП, а не только в Роспатент</h2>
+<section id="l24-boris-poizon-sip-osporenie" class="l24-boris-poizon-sip" aria-label="Оспаривание регистрации товарного знака: Роспатент, СИП и президиум — маршрут и основания">
+<style>
+.l24-boris-poizon-sip {
+  --pos-navy: #0f2744;
+  --pos-navy-soft: #1a365d;
+  --pos-rospatent: #3182ce;
+  --pos-gold: #ecc94b;
+  --pos-sip: #c53030;
+  --pos-presidium: #d69e2e;
+  --pos-mint: #68d391;
+  --pos-ink: #e2e8f0;
+  --pos-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-poizon-sip__shell {
+  background: linear-gradient(148deg, var(--pos-navy) 0%, #152a45 52%, var(--pos-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
+  color: var(--pos-ink);
+}
+.l24-boris-poizon-sip__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--pos-gold);
+}
+.l24-boris-poizon-sip__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-poizon-sip__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--pos-muted);
+  max-width: 68ch;
+}
+.l24-boris-poizon-sip__lead strong { color: #fff; }
+.l24-boris-poizon-sip__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-poizon-sip__panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-poizon-sip__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--pos-gold);
+}
+.l24-boris-poizon-sip__route-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 248px;
+  margin-bottom: 12px;
+}
+.l24-boris-poizon-sip__stages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-poizon-sip__stage {
+  margin: 0;
+  padding: 10px 9px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 8px;
+  border-left: 3px solid var(--pos-rospatent);
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+.l24-boris-poizon-sip__stage:nth-child(2) { border-left-color: var(--pos-rospatent); }
+.l24-boris-poizon-sip__stage:nth-child(3) { border-left-color: var(--pos-sip); }
+.l24-boris-poizon-sip__stage:nth-child(4) { border-left-color: var(--pos-presidium); }
+.l24-boris-poizon-sip__stage--wide {
+  grid-column: 1 / -1;
+  border-left-color: var(--pos-mint);
+}
+.l24-boris-poizon-sip__stage strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 3px;
+}
+.l24-boris-poizon-sip__grounds {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+.l24-boris-poizon-sip__ground {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 8px 10px;
+  align-items: start;
+  padding: 10px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.74rem;
+  line-height: 1.38;
+}
+.l24-boris-poizon-sip__ground--patent { border-left: 3px solid var(--pos-rospatent); }
+.l24-boris-poizon-sip__ground--gk { border-left: 3px solid var(--pos-gold); }
+.l24-boris-poizon-sip__ground--comp { border-left: 3px solid var(--pos-sip); }
+.l24-boris-poizon-sip__ground--term { border-left: 3px solid var(--pos-presidium); }
+.l24-boris-poizon-sip__ground-label {
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.78rem;
+}
+.l24-boris-poizon-sip__ground-text {
+  color: var(--pos-muted);
+}
+.l24-boris-poizon-sip__ground-text em {
+  font-style: normal;
+  color: #fff;
+  font-weight: 600;
+}
+.l24-boris-poizon-sip__vs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+.l24-boris-poizon-sip__vs-card {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+.l24-boris-poizon-sip__vs-card--admin { border-color: rgba(49, 130, 206, 0.45); }
+.l24-boris-poizon-sip__vs-card--court { border-color: rgba(197, 48, 48, 0.45); }
+.l24-boris-poizon-sip__vs-card strong {
+  display: block;
+  color: #fff;
+  font-size: 0.76rem;
+  margin-bottom: 4px;
+}
+.l24-boris-poizon-sip__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--pos-muted);
+}
+.l24-boris-poizon-sip__note em {
+  font-style: normal;
+  color: var(--pos-mint);
+  font-weight: 600;
+}
+.l24-boris-poizon-sip__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-poizon-sip__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--pos-ink);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.l24-boris-poizon-sip__tag--case {
+  border-color: rgba(236, 201, 75, 0.5);
+  color: var(--pos-gold);
+}
+.l24-boris-poizon-sip__tag--attack { border-color: rgba(104, 211, 145, 0.45); color: #c6f6d5; }
+.l24-boris-poizon-sip__tag--def { border-color: rgba(252, 129, 129, 0.45); color: #fed7d7; }
+.l24-boris-poizon-sip__caption {
+  margin: 10px 0 0;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: rgba(160, 174, 192, 0.88);
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .l24-boris-poizon-sip__split { grid-template-columns: 1fr; }
+  .l24-boris-poizon-sip__stages { grid-template-columns: 1fr; }
+  .l24-boris-poizon-sip__stage--wide { grid-column: auto; }
+  .l24-boris-poizon-sip__ground {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .l24-boris-poizon-sip__vs { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-poizon-sip__shell">
+    <p class="l24-boris-poizon-sip__eyebrow">ст. 1512–1513 · 1513 п. 4 · СИП-1182/2024 · POIZON</p>
+    <h3 class="l24-boris-poizon-sip__title">Оспаривание регистрации: Роспатент → СИП → президиум</h3>
+    <p class="l24-boris-poizon-sip__lead">После выдачи свидетельства спор о <strong>недействительности регистрации</strong> часто идёт в два рубежа: <strong>возражение в Роспатент</strong> (палата по патентным спорам) и, если ведомство отказало, — <strong>иск в СИП</strong> по ст. 1513 п. 4 ГК РФ. В деле <strong>DEWU vs ООО «Пойзон»</strong> именно так: отклонённое возражение → суд → кассация в <strong>президиум СИП</strong> (апелляции у СИП нет).</p>
+
+    <div class="l24-boris-poizon-sip__split">
+      <div class="l24-boris-poizon-sip__panel">
+        <p class="l24-boris-poizon-sip__panel-title">Маршрут POIZON (пострегистрационное оспаривание)</p>
+        <svg class="l24-boris-poizon-sip__route-svg" viewBox="0 0 540 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pos-route-title pos-route-desc">
+          <title id="pos-route-title">Схема: Роспатент, СИП, президиум СИП</title>
+          <desc id="pos-route-desc">Регистрация знака, возражение в Роспатенте, отказ в удовлетворении, иск в СИП, решение о недействительности, кассация в президиум СИП</desc>
+          <defs>
+            <linearGradient id="pos-osp-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#3182ce"/>
+              <stop offset="45%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#c53030"/>
+            </linearGradient>
+          </defs>
+          <line x1="52" y1="88" x2="488" y2="88" stroke="url(#pos-osp-line)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="68" cy="88" r="24" fill="#3182ce" stroke="#fff" stroke-width="2"/>
+          <text x="68" y="84" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Рег.</text>
+          <text x="68" y="96" text-anchor="middle" fill="#fff" font-size="7">12.2023</text>
+          <circle cx="168" cy="88" r="24" fill="#2b6cb0" stroke="#fff" stroke-width="2"/>
+          <text x="168" y="86" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Роспат.</text>
+          <text x="168" y="98" text-anchor="middle" fill="#e2e8f0" font-size="7">возраж.</text>
+          <circle cx="288" cy="88" r="26" fill="#c53030" stroke="#fff" stroke-width="2"/>
+          <text x="288" y="86" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">СИП</text>
+          <text x="288" y="98" text-anchor="middle" fill="#fed7d7" font-size="7">1182/24</text>
+          <circle cx="408" cy="88" r="24" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="408" y="86" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="700">Презид.</text>
+          <text x="408" y="98" text-anchor="middle" fill="#1a202c" font-size="7">1 мес.</text>
+          <circle cx="488" cy="88" r="18" fill="#2f855a" stroke="#fff" stroke-width="2"/>
+          <text x="488" y="92" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">ВС</text>
+          <rect x="118" y="128" width="100" height="22" rx="4" fill="rgba(0,0,0,0.35)"/>
+          <text x="168" y="143" text-anchor="middle" fill="#feb2b2" font-size="8">отказ возражения</text>
+          <rect x="238" y="128" width="100" height="22" rx="4" fill="rgba(0,0,0,0.35)"/>
+          <text x="288" y="143" text-anchor="middle" fill="#9ae6b4" font-size="8">недействит. охраны</text>
+          <rect x="358" y="128" width="100" height="22" rx="4" fill="rgba(0,0,0,0.35)"/>
+          <text x="408" y="143" text-anchor="middle" fill="#faf089" font-size="8">кассация</text>
+          <text x="68" y="52" text-anchor="middle" fill="#90cdf4" font-size="8" font-weight="600">№ 983757 / 1026380</text>
+          <text x="288" y="52" text-anchor="middle" fill="#feb2b2" font-size="8" font-weight="600">май 2026 · резолютивная</text>
+          <text x="488" y="52" text-anchor="middle" fill="#9ae6b4" font-size="8" font-weight="600">при основаниях</text>
+          <path d="M 168 112 L 168 124" stroke="#ecc94b" stroke-width="2" fill="none"/>
+          <path d="M 288 114 L 288 126" stroke="#ecc94b" stroke-width="2" fill="none"/>
+        </svg>
+        <ol class="l24-boris-poizon-sip__stages">
+          <li class="l24-boris-poizon-sip__stage">
+            <strong>Регистрация</strong>
+            Свидетельство выдано — риск не снят: сильный глобальный бренд может оспорить позже.
+          </li>
+          <li class="l24-boris-poizon-sip__stage">
+            <strong>Возражение (ППС)</strong>
+            Дешевле и быстрее суда; сроки по ст. 1513 (часто до 5 лет с публикации для ряда оснований).
+          </li>
+          <li class="l24-boris-poizon-sip__stage">
+            <strong>Иск в СИП</strong>
+            Оспаривание решения Роспатента + признание регистрации недействительной; недобросовестная конкуренция (ст. 10, 14.4, 14.8).
+          </li>
+          <li class="l24-boris-poizon-sip__stage">
+            <strong>Президиум СИП</strong>
+            Кассация 1 месяц; решения СИП вступают в силу немедленно (ст. 273 АПК).
+          </li>
+          <li class="l24-boris-poizon-sip__stage l24-boris-poizon-sip__stage--wide">
+            <strong>≠ отказ при подаче заявки (A15)</strong>
+            Там знак не выдан; здесь — пострегистрационное оспаривание уже действующей охраны.
+          </li>
+        </ol>
+        <p class="l24-boris-poizon-sip__caption">Схема по публичной хронологии СИП-1182/2024; статус № 1026380 — по мотивировке полного акта</p>
+      </div>
+
+      <div class="l24-boris-poizon-sip__panel">
+        <p class="l24-boris-poizon-sip__panel-title">Основания оспаривания (чек-лист)</p>
+        <div class="l24-boris-poizon-sip__vs">
+          <div class="l24-boris-poizon-sip__vs-card l24-boris-poizon-sip__vs-card--admin">
+            <strong>Роспатент</strong>
+            Возражение против регистрации; частичная недействительность (пример: класс 35, 2025).
+          </div>
+          <div class="l24-boris-poizon-sip__vs-card l24-boris-poizon-sip__vs-card--court">
+            <strong>СИП</strong>
+            Решение ведомства + полная/частичная недействительность + поведение при регистрации.
+          </div>
+        </div>
+        <div class="l24-boris-poizon-sip__grounds">
+          <div class="l24-boris-poizon-sip__ground l24-boris-poizon-sip__ground--patent">
+            <span class="l24-boris-poizon-sip__ground-label">ст. 1483 п. 6–7, 10</span>
+            <span class="l24-boris-poizon-sip__ground-text">Введение в <em>заблуждение</em>, сходство до смешения, конфликт с ранними правами (POIZON / Пойзон / Dewu).</span>
+          </div>
+          <div class="l24-boris-poizon-sip__ground l24-boris-poizon-sip__ground--gk">
+            <span class="l24-boris-poizon-sip__ground-label">ст. 1512–1513</span>
+            <span class="l24-boris-poizon-sip__ground-text">Основания и порядок признания <em>регистрации</em> или <em>охраны</em> недействительной (полностью или по классам МКТУ).</span>
+          </div>
+          <div class="l24-boris-poizon-sip__ground l24-boris-poizon-sip__ground--comp">
+            <span class="l24-boris-poizon-sip__ground-label">ст. 10 · 14.4 · 14.8</span>
+            <span class="l24-boris-poizon-sip__ground-text">Недобросовестная конкуренция при приобретении знака; суд не ограничен формальной легальностью акта Роспатента (п. 169 ППВС № 10).</span>
+          </div>
+          <div class="l24-boris-poizon-sip__ground l24-boris-poizon-sip__ground--term">
+            <span class="l24-boris-poizon-sip__ground-label">Срок · доказательства</span>
+            <span class="l24-boris-poizon-sip__ground-text">5 лет с публикации (п. 2 ст. 1512) для ряда оснований; пакет: известность, опросы, домен, маркетплейс, класс 35.</span>
+          </div>
+        </div>
+        <p class="l24-boris-poizon-sip__note"><em>Не путать со ст. 1515</em> — она про ответственность за использование знака, а не про аннулирование свидетельства. После недействительности продолжение обозначения на МП — отдельный риск (214-ФЗ, один абзац в тексте).</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-poizon-sip__foot" aria-label="Роли в споре">
+      <span class="l24-boris-poizon-sip__tag l24-boris-poizon-sip__tag--case">СИП-1182/2024 · DEWU / ООО «Пойзон»</span>
+      <span class="l24-boris-poizon-sip__tag l24-boris-poizon-sip__tag--attack">Атакующий бренд: возражение → СИП → доказательства известности</span>
+      <span class="l24-boris-poizon-sip__tag l24-boris-poizon-sip__tag--def">Держатель регистрации: президиум СИП, авторство, первое использование в РФ</span>
+    </div>
+  </div>
+</section>
+<h3>Оспаривание товарного знака в Роспатенте vs судебное оспаривание (возражение против регистрации)</h3>
+<table>
+<thead>
+<tr>
+<th>Этап</th>
+<th>Куда</th>
+<th>Что оспаривается</th>
+<th>Типичный срок/пошлина</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Возражение против регистрации</strong></td>
+<td>Роспатент (палата по патентным спорам)</td>
+<td>Решение о <strong>государственной регистрации</strong> знака</td>
+<td>Подача в пределах сроков <strong>ст. 1513</strong> (часто — в течение <strong>5 лет</strong> с публикации для ряда оснований)</td>
+</tr>
+<tr>
+<td><strong>Иск в СИП</strong></td>
+<td>Суд по интеллектуальным правам</td>
+<td><strong>Решение Роспатента</strong> об отказе удовлетворить возражение + признание регистрации недействительной (<strong>ст. 1513 п. 4</strong> ГК РФ)</td>
+<td>Досудебный порядок по <strong>ст. 1248</strong> ГК РФ; обращение в суд после исчерпания административной процедуры</td>
+</tr>
+</tbody>
+</table>
+<p>В деле POIZON цепочка такая:</p>
+<ol>
+<li>DEWU/Shanghai Shizhuang подали <strong>возражение</strong> — Роспатент <strong>отклонил</strong>, охрана <strong>№ 983757</strong> и <strong>№ 1026380</strong> сохранил за ООО «Пойзон».</li>
+<li>Истец пошёл в <strong>СИП</strong> — оспорил решение Роспатента и добился <strong>признания недействительной</strong> охраны (по публичным данным — как минимум латинского <strong>POIZON</strong>).</li>
+<li>Ответчик идёт в <strong>президиум СИП</strong>.</li>
+</ol>
+<p><strong>Возражение против регистрации товарного знака</strong> (Wordstat: ~59 показов) — административный инструмент <strong>дешевле и быстрее</strong>, чем суд, но при «проигрыше» в Роспатенте суд остаётся <strong>следующим рубежом</strong>, а не тупиком.</p>
+<h3>Основания оспаривания товарного знака по ГК РФ</h3>
+<p>Краткая «матрица» для юротдела:</p>
+<ol>
+<li><strong>Абсолютные</strong> (ст. 1483 п. 1–5, 8–9) — неохраноспособное обозначение, вводящее в заблуждение, противоречащее общественным интересам.</li>
+<li><strong>Относительные</strong> (п. 6–7, 10) — конфликт с <strong>ранними</strong> правами третьих лиц.</li>
+<li><strong>Поведенческие</strong> — <strong>недобросовестная конкуренция</strong>, <strong>злоупотребление правом</strong> при регистрации (<strong>ст. 10</strong> ГК, ст. 14.4, 14.8 ЗоЗПП).</li>
+</ol>
+<p><strong>Оспаривание отказа в регистрации</strong> (когда Роспатент <strong>не дал</strong> знак) — <strong>другая</strong> история (близко к материалу A15); в POIZON знак <strong>уже был выдан</strong>, и спор — о <strong>пострегистрационном</strong> оспаривании.</p>
+<h3>Признание товарного знака недействительным и признание правовой охраны недействительной — в чём разница</h3>
+<p>Юристы и маркетологи часто говорят «знак признан недействительным». В ГК РФ корректнее различать:</p>
+<ul>
+<li><strong>Признание регистрации недействительной</strong> — знак <strong>как будто не регистрировался</strong> с начала (полная или <strong>частичная</strong> недействительность по классам);</li>
+<li><strong>Признание предоставления правовой охраны недействительным</strong> — акцент на <strong>объёме охраны</strong> (например, только <strong>класс 35</strong>, как в споре Епифанова 2025 года).</li>
+</ul>
+<p>Для бизнеса практический вывод один: после решения суда <strong>нельзя</strong> опираться на свидетельство в оспоренном объёме — карточки на маркетплейсах, домен и реклама требуют <strong>аудита</strong>.</p>
+<h3>Сроки и тактика: от проверки реестра до иска в СИП</h3>
+<ol>
+<li><strong>До выхода на рынок</strong> — поиск по реестру ФИПС, доменам, маркетплейсам; оценка <strong>известности</strong> чужого бренда.</li>
+<li><strong>После обнаружения чужой регистрации</strong> — возражение в Роспатент (если сроки не пропущены).</li>
+<li><strong>После отказа Роспатента</strong> — иск в <strong>СИП</strong> в сроки процессуального законодательства; пакет: доказательства <strong>известности</strong>, опросы, рекламные бюджеты, публикации в СМИ, поведение ответчика.</li>
+<li><strong>Параллельно</strong> — претензионная работа по <strong>прекращению использования</strong> (иной предмет, но давит на переговоры).</li>
+</ol>
+<p><strong>30.09.2025</strong> Роспатент окончательно <strong>отказал</strong> в регистрации знака <strong>DEWU</strong> заявителю, связанному с poizon.ru (<a href="https://www.sostav.ru/publication/sip-priznal-nedejstvitelnym-tovarnyj-znak-poizon-v-rossii-83969.html" target="_blank" rel="noopener noreferrer">Sostav</a>) — это показывает: «борьба за буквы» идёт <strong>в обе стороны</strong>, не только через аннулирование чужого свидетельства.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Отклонили возражение в Роспатенте — следующий рубеж иск в СИП по ст. 1513 п. 4 ГК РФ. Пакет доказательств известности бренда и сходства лучше собрать до подачи иска.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с защитой бренда и стратегией в СИП</a></p>
+</aside>
+
+
+<h2 id="poizon-sudebnaya-zashchita">Судебная защита товарного знака: практика СИП после дела POIZON</h2>
+<h3>Какие иски по товарным знакам рассматривает СИП (оспаривание регистрации / защита права)</h3>
+<p><strong>Суд по интеллектуальным правам</strong> (спрос на «сип товарный знак» — сотни показов в месяц) специализируется на:</p>
+<ul>
+<li>оспаривании <strong>решений Роспатента</strong>;</li>
+<li>спорах о <strong>нарушении</strong> исключительного права (отдельный контур — не главный угол этой статьи);</li>
+<li><strong>недобросовестной конкуренции</strong>, связанной с регистрацией и использованием обозначений.</li>
+</ul>
+<p><strong>Судебная защита товарного знака</strong> после POIZON — это не только «взыскать компенсацию», но и <strong>ликвидировать чужую регистрацию</strong>, мешающую выходу бренда.</p>
+<h3>Доказательства сходства, известность бренда, добросовестность заявителя</h3>
+<p>Что реально смотрят в похожих делах:</p>
+<table>
+<thead>
+<tr>
+<th>Блок</th>
+<th>Что доказывать</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Известность</strong> истца</td>
+<td>Оборот, реклама, СМИ, поисковые запросы, присутствие на маркетплейсах, ассоциации потребителей</td>
+</tr>
+<tr>
+<td><strong>Сходство</strong></td>
+<td>Фонетика POIZON / Пойзон / Dewu, визуал логотипа, домен poizon.ru</td>
+</tr>
+<tr>
+<td><strong>Однородность</strong></td>
+<td>Класс <strong>35</strong>, одежда/кроссовки, онлайн-торговля</td>
+</tr>
+<tr>
+<td><strong>Введение в заблуждение</strong></td>
+<td>Опросы, кейсы обращений пользователей, путаница в поддержке</td>
+</tr>
+<tr>
+<td><strong>Добросовестность ответчика</strong></td>
+<td>Авторство (как у ООО «Пойзон» — экспертиза «оригинальности»), первое использование, инвестиции в РФ</td>
+</tr>
+</tbody>
+</table>
+<p>DEWU в публичной позиции указывал: иностранная сторона <strong>не доказала</strong> авторство и <strong>не вела</strong> операционную деятельность в России; ООО «Пойзон» — наоборот. Итог первой инстанции показал: <strong>вес доказательств известности глобального бренда</strong> оказался выше.</p>
+<h3>Судебная практика: что учесть при подготовке к процессу</h3>
+<ul>
+<li>Суд <strong>оценивает совокупность</strong>, а не только тождество знаков.</li>
+<li><strong>Частичная</strong> недействительность (прецедент 2025 по классу 35) — рабочий компромисс в иных делах.</li>
+<li><strong>Май 2026:</strong> Верховный суд в ряде определений (<strong>СИП-711/2025</strong>, <strong>СИП-1476/2024</strong>) усилил контроль за <strong>продлением</strong> знаков — после тяжёлого спора важно не <strong>забыть продление</strong> свидетельства и не получить отказ по формальным основаниям (<a href="https://sudact.ru/vsrf/doc/f4BcioNvuDxs/" target="_blank" rel="noopener noreferrer">sudact.ru</a>).</li>
+</ul>
+
+<h2 id="poizon-cheklist">Защита товарного знака и бренда: чек-лист для правообладателя</h2>
+<h3>Как проверить регистрацию товарного знака и риски «чужой» заявки</h3>
+<ul>
+<li>Реестр <strong>ФИПС</strong>: номер свидетельства, классы МКТУ, правообладатель, дата приоритета.</li>
+<li><strong>Мониторинг</strong> заявок на сходные обозначения (публикация заявок — ст. 1493 ГК РФ).</li>
+<li>Проверка <strong>доменов</strong>, соцсетей, карточек <strong>Wildberries / Ozon / Яндекс Маркет</strong> на совпадение бренда.</li>
+<li>Для международных компаний — стратегия <strong>до</strong> появления «локального» ООО с похожим названием (типичный сценарий POIZON).</li>
+</ul>
+<h3>Регистрация товарного знака в Роспатенте: как снизить риск оспаривания (кратко)</h3>
+<ul>
+<li>Не копировать <strong>известные</strong> зарубежные марки «под рынок РФ».</li>
+<li>Закладывать <strong>охраноспособное</strong> обозначение (не описательное, без чужой известности).</li>
+<li>Сохранять <strong>доказательства создания</strong> бренда (дизайн, ТЗ, переписка, договоры с агентством).</li>
+<li>При отказе экспертизы — <strong>возражение в Роспатент</strong>, а не «серая» схема с доменом.</li>
+</ul>
+<p>Подробный разбор отказа при <strong>подаче</strong> заявки — в отдельном материале (A15); здесь — только <strong>риски после успешной регистрации</strong>.</p>
+<h3>Продление товарного знака после спора: на что смотрит Роспатент</h3>
+<p><strong>Продление товарного знака</strong> (спрос ~1900 показов) — отдельный этап: в течение <strong>десяти лет</strong> с даты подачи заявки нужно уплатить пошлину и подать ходатайство. После острых споров Роспатент и суды <strong>строже</strong> смотрят на документы; в 2026 году на радаре — дела об <strong>отказе в продлении</strong>, дошедшие до ВС. План: календарь продления + сверка с <strong>действующей</strong> охраной (после частичной или полной недействительности).</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Планируете выход на маркетплейс или держите регистрацию под ударом после спора — проверьте реестр, классы МКТУ и риск продолжения использования обозначения после аннулирования (214-ФЗ).</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда на маркетплейсе</a></p>
+</aside>
+
+
+<h2 id="poizon-marketplejs">Товарный знак на маркетплейсе: как защитить бренд, если на вас ссылаются на чужой знак</h2>
+<h3>Использование товарного знака на маркетплейсах: типовые нарушения</h3>
+<p><strong>Товарный знак на маркетплейсе</strong> (запрос ~466 показов) — частая зона конфликтов:</p>
+<ul>
+<li>чужое слово в <strong>названии карточки</strong> и SEO-полях;</li>
+<li>логотип на <strong>упаковке</strong> и в инфографике;</li>
+<li>формулировки «<strong>официальный</strong> Poizon / POIZON» без прав;</li>
+<li>перепродажа с <strong>брендированием</strong>, создающим впечатление связи с правообладателем.</li>
+</ul>
+<p>В деле POIZON истец указывал на случаи, когда пользователи могли считать сторонние площадки <strong>связанными</strong> с Dewu/Poizon.</p>
+<h3>Нарушение товарного знака на маркетплейсах — претензия или суд (связка с B2, без дубля A12)</h3>
+<p>Алгоритм для <strong>правообладателя действующей регистрации</strong>:</p>
+<ol>
+<li>Жалоба на <strong>площадку</strong> (механизмы IP-защиты WB/Ozon и др.).</li>
+<li><strong>Претензия</strong> нарушителю (досудебный порядок по <strong>ст. 1252</strong> ГК РФ).</li>
+<li><strong>Иск</strong> о прекращении использования и компенсации.</li>
+</ol>
+<p>Если на <strong>вас</strong> подали по сходству — нужен <strong>ответ на иск</strong> и проверка, не истёк ли срок оспаривания <strong>вашей</strong> регистрации; детальный план — в материале B2 (здесь — только перекрёстная отсылка).</p>
+<h3>Компенсация за нарушение товарного знака и лимиты 214-ФЗ с 2026 — один абзац</h3>
+<p>С <strong>04.01.2026</strong> (ФЗ № 214-ФЗ от 07.07.2025, <strong>ст. 1252.1</strong> ГК РФ) при <strong>использовании</strong> чужого знака без согласия «твёрдая» компенсация по <strong>ст. 1515</strong> может достигать <strong>10 000 000 ₽</strong> (при ряде условий — до <strong>20 000 000 ₽</strong>). <strong>Потеря регистрации</strong> в споре POIZON <strong>не означает</strong>, что прежний правообладатель может безнаказанно оставить <strong>POIZON</strong> на витрине: глобальный бренд может требовать прекращения использования и компенсации уже в логике <strong>нарушения</strong>, а не оспаривания свидетельства. Один абзац — без повторения структуры материала A9.</p>
+
+<h2 id="poizon-dejstviya-otvetchika">Если на вас подали или вы проиграли оспаривание: действия ответчика</h2>
+<h3>Кассация и президиум СИП: когда имеет смысл обжаловать</h3>
+<p>Имеет смысл, если есть:</p>
+<ul>
+<li>нарушение <strong>процессуального</strong> порядка;</li>
+<li><strong>неполная</strong> оценка доказательств авторства и использования в РФ;</li>
+<li>ошибочная квалификация <strong>недобросовестности</strong>;</li>
+<li>необходимость <strong>сохранить</strong> охрану хотя бы по <strong>№ 1026380</strong>, если по латинице спор проигран.</li>
+</ul>
+<p>Не имеет смысл рассчитывать на кассацию <strong>без новых</strong> юридически значимых аргументов и документов.</p>
+<h3>Ребрендинг, домен, карточки на маркетплейсе после признания знака недействительным</h3>
+<p>Практический план:</p>
+<ul>
+<li>юридический аудит <strong>всех</strong> обозначений (латиница, кириллица, транслит);</li>
+<li>смена <strong>бренда</strong> на карточках и в рекламе при риске исков о <strong>нарушении</strong>;</li>
+<li>переговоры с <strong>маркетплейсами</strong> (обновление данных продавца);</li>
+<li>проверка <strong>лицензий</strong> и договоров, где фигурировало старое свидетельство.</li>
+</ul>
+<h3>Когда нужен юрист по интеллектуальной собственности (CTA Legis24)</h3>
+<p>Обращаться стоит, если:</p>
+<ul>
+<li>вы <strong>международный</strong> бренд и в реестре РФ появился «локальный» двойник;</li>
+<li>вам <strong>отказали</strong> в возражении в Роспатенте;</li>
+<li>оглашена <strong>резолютивная часть</strong> против вас — нужен расчёт сроков <strong>кассации</strong>;</li>
+<li>вы <strong>селлер</strong> и получили блокировку по чужому знаку.</li>
+</ul>
+<p><a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Заказать консультацию по оспариванию регистрации и защите бренда</a> — разумный шаг до подачи иска или сразу после получения претензии.</p>
+
+<section id="poizon-faq" class="l24-faq-tz" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2>Частые вопросы (FAQ)</h2>
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Можно ли оспорить регистрацию товарного знака после выдачи свидетельства?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Да. <strong>Возражение в Роспатент</strong> и <strong>иск в СИП</strong> (после решения Роспатента) — основные инструменты. Сроки зависят от основания (<strong>ст. 1512</strong>, <strong>1513</strong> ГК РФ).</p>
+    </div>
+  </div>
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Чем это отличается от отказа в регистрации?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">При <strong>отказе</strong> знак <strong>не выдан</strong> — спор об <strong>отказе</strong> (административный и судебный порядок, близко к A15). В POIZON знак <strong>был зарегистрирован</strong> в декабре 2023 года, затем <strong>оспорен</strong> успешным правообладателем глобального бренда.</p>
+    </div>
+  </div>
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Сколько длятся дела в СИП по товарным знакам?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Зависит от сложности и стадии; дело <strong>СИП-1182/2024</strong> от иска (осень 2024) до оглашения резолютивной части (май 2026) — ориентир <strong>около полутора лет</strong> на первую инстанцию. Кассация добавляет месяцы.</p>
+    </div>
+  </div>
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Что такое недействительный товарный знак?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Знак, в отношении которого суд или Роспатент <strong>признали регистрацию (или часть охраны) недействительной</strong> с момента, определённым решением. Исключительное право <strong>не применяется</strong> в аннулированном объёме.</p>
+    </div>
+  </div>
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Остался ли у ООО «Пойзон» знак «Пойзон» по № 1026380?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">По публичным сообщениям мая 2026 акцент на <strong>POIZON</strong> (латиница). Статус <strong>№ 1026380</strong> уточняйте по полному тексту решения СИП и реестру ФИПС после вступления акта в силу.</p>
+    </div>
+  </div>
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Нужно ли иностранной компании регистрировать знак в России до выхода на рынок?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Да, если планируются <strong>маркетплейс</strong>, реклама и защита от «локальных» регистраций. История DEWU vs poizon.ru — прямой аргумент <strong>не откладывать</strong> filing в РФ.</p>
+    </div>
+  </div>
+  <div class="l24-faq-tz__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-tz__q" itemprop="name">Что делать, если на меня подали иск о нарушении, а не о недействительности регистрации?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-tz__a" itemprop="text">Это другой тип спора (защита от иска о <strong>использовании</strong> знака). Смотрите материал об <strong>ответе на иск по ИС</strong> (B2); в POIZON-контексте ключ — <strong>аннулирование</strong> чужой или своей регистрации.</p>
+    </div>
+  </div>
+</section>
+
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — консультации по оспариванию регистрации товарного знака, защите бренда на маркетплейсе и стратегии в СИП после дела POIZON: возражение в Роспатенте, иск по ст. 1513 п. 4, кассация в президиум.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда и оспариванию регистрации</a></p>
+</aside>
+
+<p><em>Материал подготовлен для Legis24 (тип IP: защита ИС, оспаривание регистрации, маркетплейс). Источники: Sostav, Pravo.ru, Retail.ru, Oborot.ru; нормы ГК РФ, ЗоЗПП, АПК РФ; ФЗ № 214-ФЗ. Не является индивидуальной юридической консультацией.</em></p>
+</div>
+</main>
+<!-- /wp:html -->
+
+```
+
+### Передача Юре
+**slug:** `poizon-tovarnyj-znak-sip-osporenie-registracii`
+**title:** POIZON в СИП: оспаривание товарного знака и признание регистрации недействительной | Legis24
+**excerpt (Description):** Решение Суда по интеллектуальным правам по товарным знакам POIZON и «Пойзон»: недобросовестная конкуренция, основания признания регистрации недействительной, отличие от возражения в Роспатенте и что делать правообладателю и ответчику. Консультация Legis24.
+**page_id:** `PLACEHOLDER` (заполнить после wordpress_create_page)
+
+**Публикация:** обернуть в `<!-- wp:html -->`; без `<script>` (hero и Борис — static SVG + CSS). FAQ — microdata FAQPage.
+**Проверка:** `main#primary`, класс `poizon-tovarnyj-znak-sip-osporenie-registracii-page`, hero `#l24-hero-ip-poizon-sip`, блок `#l24-boris-poizon-sip-osporenie`, breadcrumbs скрыты, CTA https://advokat-vsem.ru/
+**Размер HTML:** 66493 символов
