@@ -427,8 +427,13 @@ def main() -> None:
     if args.write_handoff:
         if result["action"] == "SKIP":
             write_handoff_skip(result)
-        elif result["action"] in ("KIRILL", "PROCEED"):
+        elif result["action"] == "PROCEED":
             write_handoff_gate(result)
+        elif result["action"] == "KIRILL":
+            # JSON только: блок Кирилла дописывает агент kirill, не затираем handoff
+            HANDOFF_SKIP.write_text(
+                json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
 
     if args.json:
         print(json.dumps(result, ensure_ascii=False, indent=2))
