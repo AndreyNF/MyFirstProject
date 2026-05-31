@@ -2131,8 +2131,19 @@ DEWU в публичной позиции указывал: иностранна
 **slug:** `poizon-tovarnyj-znak-sip-osporenie-registracii`
 **title:** POIZON в СИП: оспаривание товарного знака и признание регистрации недействительной | Legis24
 **excerpt (Description):** Решение Суда по интеллектуальным правам по товарным знакам POIZON и «Пойзон»: недобросовестная конкуренция, основания признания регистрации недействительной, отличие от возражения в Роспатенте и что делать правообладателю и ответчику. Консультация Legis24.
-**page_id:** `PLACEHOLDER` (заполнить после wordpress_create_page)
+**page_id:** `422` (опубликовано MCP blob 2026-05-31)
 
 **Публикация:** обернуть в `<!-- wp:html -->`; без `<script>` (hero и Борис — static SVG + CSS). FAQ — microdata FAQPage.
 **Проверка:** `main#primary`, класс `poizon-tovarnyj-znak-sip-osporenie-registracii-page`, hero `#l24-hero-ip-poizon-sip`, блок `#l24-boris-poizon-sip-osporenie`, breadcrumbs скрыты, CTA https://advokat-vsem.ru/
 **Размер HTML:** 66493 символов
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+## Публикация от Юры
+URL: https://advokat-vsem.online/poizon-tovarnyj-znak-sip-osporenie-registracii/
+page_id: 422
+blob_id: 8IjtCMIkMGHkhYfQw7neJZSp
+Статус: опубликовано (MCP Kovcheg)
+Проверка: HTTP 200 ✓, main#primary ✓, poizon-tovarnyj-znak-sip-osporenie-registracii-page ✓, hero #l24-hero-ip-poizon-sip ✓, блок #l24-boris-poizon-sip-osporenie ✓, excerpt ✓, без script ✓
+Способ: MCP blob (wordpress_content_blob_append 00–13.json → update_page_from_blob → publish)
+Журнал публикаций: nero-network-office-page/shared/published-pages.md updated
+Журнал Кирилла: shared/kirill-news-ledger.md updated (POIZON → published)
