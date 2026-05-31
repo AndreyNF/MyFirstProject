@@ -61,5 +61,9 @@ scripts/b2_page384_upload.py
 .cursor/b1-up-*
 .cursor/b1-upload-plan.json
 .cursor/b1-args-only-*.json
+.cursor/poizon-blob*/
+.cursor/poizon-blob-mcp-*.json
+.cursor/poizon-mcp-args/
+scripts/poizon_upload_via_mcp.py
 .cursor/tmp-mcp*.json
 .cursor/tmp-args.json
