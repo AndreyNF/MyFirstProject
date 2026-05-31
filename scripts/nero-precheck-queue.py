@@ -367,6 +367,42 @@ URL: {result.get("url", "")}
     HANDOFF_SKIP.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def write_handoff_gate(result: dict) -> None:
+    """Минимальный гейт в handoff + актуальный JSON (KIRILL / PROCEED)."""
+    handoff = ROOT / ".cursor" / "nero-network-handoff.md"
+    handoff.parent.mkdir(parents=True, exist_ok=True)
+    action = result.get("action", "")
+    slot = result.get("cron_slot", "")
+    atype = result.get("article_type", "")
+    label = result.get("article_type_label", "")
+    status = "✅ KIRILL" if action == "KIRILL" else "✅ PROCEED"
+    body = f"""# Legis24 — precheck {action} (слот {atype})
+
+=== PRECHECK (ГЕЙТ) ===
+Статус: {status}
+Причина: {result.get("reason", "")}
+Слот: {slot} ({result.get("cron_utc", "")} UTC / {result.get("cron_msk", "")} МСК)
+Тип статьи: {atype} — {label}
+Угол: см. nero-network-office-page/shared/article-types-legis24.md (тип {atype})
+
+**Полный пайплайн (Коля, Женя, Юра) в этом запуске не запускался.**
+"""
+    if action == "PROCEED":
+        body += f"""
+Очередь: #{result.get("queue_num")} **{result.get("code")}**
+H1: {result.get("h1", "")}
+SLUG: `{result.get("slug", "")}`
+
+Следующий шаг: сброс handoff → Коля||Артём.
+"""
+    elif action == "KIRILL":
+        body += """
+Следующий шаг: Task(kirill) — новость дня по типу слота.
+"""
+    handoff.write_text(body, encoding="utf-8")
+    HANDOFF_SKIP.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Pre-check очереди Legis24")
     parser.add_argument("--json", action="store_true", help="JSON на stdout")
@@ -388,8 +424,11 @@ def main() -> None:
     )
     args = parser.parse_args()
     result = run(mark_done=args.mark_done, slot=args.slot)
-    if args.write_handoff and result["action"] == "SKIP":
-        write_handoff_skip(result)
+    if args.write_handoff:
+        if result["action"] == "SKIP":
+            write_handoff_skip(result)
+        elif result["action"] in ("KIRILL", "PROCEED"):
+            write_handoff_gate(result)
 
     if args.json:
         print(json.dumps(result, ensure_ascii=False, indent=2))
