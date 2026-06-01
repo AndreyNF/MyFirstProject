@@ -1,62 +1,34 @@
 # Skill: visual-avito-images
 
-Визуальный блок пайплайна Avito (MCP Kovcheg).
+Визуал Avito. Правила: `shared/legis24-image-prompt-rules.md`
 
-**Правила текста на изображении:** `shared/legis24-image-prompt-rules.md`
+## Модели (только)
 
-## Вход
+1. **`gpt-image-2`** — 1:1, 1K
+2. **`nano_banana_2`** — при таймауте gpt-image-2
 
-`=== ПЕТРОВИЧ (КАРТОЧКА AVITO) ===` + ниша из ввода.
+**Запрещено:** z-image, flux, seedream, recraft.
 
-## Цепочка (канон)
+## Референс = Title объявления
 
-```
-I1: gpt-image-2 (text-to-image, 1:1, 1K)
-  → при таймауте MCP: z-image
-  → wordpress_upload_media (стабильный HTTPS на advokat-vsem.online)
-```
-
-Опционально (галерея 5–8 фото): flux2 → recraft → seedream — только если нужны варианты.
-
-### I1 — gpt-image-2
-
-- `aspect_ratio`: `1:1` (главное в XML), при галерее также `4:3`
-- `resolution`: `1K`
-- **Промпт** = **ниша объявления** (заголовок/услуга) + объекты + стиль + **русский текст**
-
-**Шаблон промпта:**
+Промпт начинается с **заголовка Avito** (`<Title>`) дословно:
 
 ```
-{Ниша на английском для модели}: {объекты}. Russian tax legal documents on desk with readable Russian Cyrillic labels such as «Акт проверки», «Требование ФНС» — all document text in Russian only, no English words. Corporate navy blue office, soft daylight, photorealistic 1:1, no faces. Brand Legis24 optional.
+Ad title reference: «{Title из XML}». Visual scene for this ad: {ракурс 1|2|3}. ...
 ```
 
-**Запрещено в промпте:** `no text overlay` без уточнения про кириллицу — иначе модель рисует English.
+На SKU — **3 разных ракурса**, одно название.
 
-**Хвост (всегда):** см. `legis24-image-prompt-rules.md` — Russian Cyrillic only, no English on papers.
+## Шаблон
 
-### Хостинг
+```
+Ad title reference: «Возражение на акт ФНС — за 24 часа Legis24». Visual scene: {описание ракурса}. Russian Cyrillic on documents. Navy office, 1:1 photorealistic, no English, no faces.
+```
 
-`wordpress_upload_media` после генерации → URL в `image_url` генератора XML.
+## Хостинг
 
-## Итого в пакете
-
-Минимум **1** URL на SKU; галерея — до 8.
+`wordpress_upload_media` → `image_urls` в `scripts/avito-generate-autoload-xml.py`
 
 ## Выход
 
-```markdown
-=== ВИЗУАЛ-AVITO (ФОТО) ===
-Статус: ✅ ГОТОВО
-Ниша: ...
-Промпт: ...
-
-| # | URL | Назначение |
-| 1 | ... | Главное 1:1 |
-```
-
-## Запреты
-
-- Английские надписи на документах
-- Лица реальных людей
-- Чужие логотипы Avito
-- Telegram (отдельный канал)
+`=== ВИЗУАЛ-AVITO (ФОТО) ===` — Title, модель, промпты, URLs.

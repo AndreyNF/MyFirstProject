@@ -1,82 +1,43 @@
 # Skill: legis24-telegram-post
 
-Посты Legis24 в Telegram (личка пользователя или канал). MCP Kovcheg: `gpt-image-2`, `telegram_send_photo`, `telegram_send_message_with_buttons`.
+Посты Legis24 в Telegram. MCP: **`gpt-image-2`** → при сбое **`nano_banana_2`**; `telegram_send_photo`.
+
+Правила изображений: `shared/legis24-image-prompt-rules.md`
 
 ## Обязательно
 
-1. **Хештеги** — в конце каждого поста, отдельной строкой, **5–10 штук**.
-2. CTA: order@advokat-vsem.ru и https://advokat-vsem.ru
-3. Без обещаний «гарантированной победы в суде»
-4. Цены — только из `shared/legis24-site-context.md`
+1. **Хештеги** — 5–10 в конце, всегда `#Legis24`
+2. CTA: order@advokat-vsem.ru, https://advokat-vsem.ru
+3. Без гарантии «победы в суде»
+4. Цены из `shared/legis24-site-context.md`
 
-## Хештеги (подбирать под тему поста)
+## Промпт обложки = **название поста**
 
-**Бренд (всегда):** `#Legis24`
+**Референс:** заголовок поста (строка `<b>…</b>`) **дословно** в начале промпта.
 
-**Налоги / ФНС:** `#ФНС` `#налоги` `#налоговаяпроверка` `#возражение` `#требованиеФНС` `#налоговыйспор`
+### Модели (только)
 
-**Арбитраж / суды:** `#арбитраж` `#иск` `#отзывнаиск` `#суд`
+1. `gpt-image-2` — `aspect_ratio` **16:9**, `resolution` **2K**
+2. При таймауте/ошибке — `nano_banana_2` (те же параметры, `output_format` png)
 
-**Аудитория:** `#бизнес` `#бухгалтерия` `#юридическиеуслуги` `#предприниматель`
+**Не использовать:** z-image, flux, seedream и др.
 
-**Срок / оффер:** `#за24часа` `#удаленно`
-
-Пример блока в конце caption:
-
-```
-#Legis24 #ФНС #налоги #налоговаяпроверка #возражение #арбитраж #юридическиеуслуги #бизнес #за24часа
-```
-
-Не дублировать одинаковые теги. Для узкой темы (например только блокировка счёта) — заменить общие на тематические.
-
-## Промпт обложки = тема поста (канон)
-
-**Главное правило:** в `gpt-image-2` передаётся **`prompt`, собранный из темы поста** — заголовок `<b>…</b>` или поле `Тема:` в серии. Не абстрактный «legal desk», если тема другая.
-
-### Алгоритм
-
-1. Взять **тему поста** одной фразой (как в таблице серии или H1 поста).
-2. Выписать из текста поста **3–5 визуальных объектов** (акт, календарь, иск, молоток, график…).
-3. Собрать промпт по шаблону:
+### Шаблон промпта
 
 ```
-{ТЕМА ПОСТА — суть на английском}: {объекты из текста}, Russian legal documents with readable Cyrillic labels matching the topic, professional Legis24, navy blue and teal, soft daylight, cinematic 16:9 photorealistic, no faces
+Post title reference: «{НАЗВАНИЕ ПОСТА КАК В TELEGRAM}». Visual scene for this title: {2-3 объекта из текста поста}. Professional Legis24 legal office, navy blue, 16:9 photorealistic. Russian Cyrillic text on documents only. No English words on papers. No human faces.
 ```
 
-**Текст на картинке:** только **русский (кириллица)** на документах и экранах; без английских слов. Полные правила: `shared/legis24-image-prompt-rules.md`.
+### Публикация
 
-**Хвост промпта (обязательно):** `All visible text in Russian Cyrillic only. No English words on documents. No faces.`
-
-### Примеры
-
-| Тема поста | Начало промпта (ядро) |
-|------------|------------------------|
-| Знакомство с Legis24 | "Legis24 legal documents and 24-hour strategy concept, law books and digital timeline" |
-| Акт ФНС: 30 или 15 дней | "Tax audit act FNS deadline calendar 15 vs 30 days, urgent red date marker" |
-| Кейс 150 млн → 43 млн | "Tax dispute documents with downward financial chart metaphor after objection" |
-| Ответ на требование ФНС | "Official tax authority requirement letter and business reply on desk" |
-
-Поле в артефакте: `Тема:` → `Промпт gpt-image-2:` (англ., 1–3 предложения).
-
-## Формат
-
-- `parse_mode`: HTML
-- Обложка: **`gpt-image-2` — отдельный вызов на каждый пост**; **промпт = тема поста + объекты + стиль**. **Запрещено** повторно использовать URL/файл другого поста.
-- Параметры: **16:9**, **2K**; после генерации — `wordpress_upload_media` (архив) + для Telegram — **tempfile URL** из ответа gpt-image-2 (серверы Telegram часто не качают WP)
-- Агенты: **max-telegram** (промпт + серия), **telegram-legis24** / Task(visual) — генерация
-- Личная отправка: `chat_id` из `telegram_get_updates` после `/start` у `@kovcheglifan_bot`
-- Caption ≤ 1024 символа (с учётом хештегов — укорачивать основной текст при необходимости)
+- Telegram: **tempfile URL** из ответа MCP (не WP — часто 400)
+- `chat_id` **1332429170** или из `telegram_get_updates` после `/start`
+- `parse_mode`: HTML, caption ≤ 1024 символа
 
 ## Структура поста
 
-1. Заголовок `<b>…</b>`
-2. 2–3 абзаца сути
-3. Услуги/цены (список) или один оффер
-4. Кейс (1 строка, если уместно)
-5. Контакты
-6. Дисклеймер (УСН, без гарантии победы) — при необходимости
-7. **Строка хештегов**
+Заголовок → 2–3 абзаца → оффер/цена → CTA → хештеги
 
 ## Артефакт
 
-Черновик: `content/telegram/{slug}.md` — текст, URL обложки, список хештегов.
+`content/telegram/{slug}.md` — **Название поста**, текст, URL обложки, модель (gpt-image-2 / nano_banana_2)

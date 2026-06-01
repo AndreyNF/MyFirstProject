@@ -1,36 +1,42 @@
-# Legis24 — правила промптов для генерации изображений (Avito + Telegram)
+# Legis24 — правила промптов для генерации изображений
 
-MCP: **`gpt-image-2`** (основной), при таймауте `z-image`.
+## Модели (только эти)
 
-## Русский текст на картинке (обязательно)
+| Приоритет | MCP | Когда |
+|-----------|-----|--------|
+| 1 | **`gpt-image-2`** | Всегда пробовать первой |
+| 2 | **`nano_banana_2`** | Если gpt-image-2 таймаут или ошибка |
 
-На документах, экранах, печатях, папках, табличках — **только русский язык (кириллица)**.
+**Запрещено:** `z-image`, `flux2`, `seedream`, `grok-imagine` и любые другие — не использовать.
 
-| Можно | Нельзя |
-|-------|--------|
-| «Акт камеральной проверки», «Требование ФНС», «Возражение», «Исковое заявление», «Налоговая инспекция» | Tax Act, Notice, Invoice, Legal Services |
-| «Legis24» (бренд латиницей) | Random English paragraphs on papers |
-| Размытый / мелкий текст без читаемого английского | Крупные English headlines |
+## Референс = название поста / заголовок
 
-**Хвост промпта (добавлять всегда):**
+| Канал | Референс для промпта |
+|-------|----------------------|
+| **Telegram** | **Название поста** — строка заголовка `<b>…</b>` / поле «Название поста» |
+| **Avito** | **Title** объявления (`<Title>` в XML) |
 
-```
-All visible text on documents and screens must be in Russian Cyrillic only. No English words on papers. Brand name Legis24 allowed in Latin. Photorealistic, no real human faces.
-```
-
-**Короткая версия:**
+Промпт начинается так:
 
 ```
-Russian Cyrillic text only on documents, no English words, no faces
+Post title reference: «{НАЗВАНИЕ ПОСТА ДОСЛОВНО}». Visual scene illustrating this title: ...
 ```
 
-## Тема поста / SKU (Telegram, Avito)
+Затем сцена, объекты, стиль. Не придумывать другую тему, чем в названии.
 
-- **Telegram:** промпт строится от **темы поста** (см. `legis24-telegram-post/SKILL.md`)
-- **Avito:** промпт от **ниши объявления** (заголовок / услуга)
+## Русский текст на картинке
+
+На документах — **только кириллица**. Хвост:
+
+```
+Russian Cyrillic text on documents only. No English words on papers. No human faces. Photorealistic.
+```
 
 ## Техника
 
-- Avito / TG feed: **1:1** главное фото; TG канал — **16:9**
-- После генерации: `wordpress_upload_media` для стабильного URL в XML
-- Telegram отправка: tempfile URL (WP иногда 400 у серверов Telegram)
+| Канал | Формат |
+|-------|--------|
+| Telegram | 16:9, 2K |
+| Avito | 1:1, 1K (3 фото на SKU — разные ракурсы, одно название) |
+
+После генерации: `wordpress_upload_media` (архив). Telegram: tempfile URL из ответа MCP.

@@ -1,40 +1,29 @@
 ---
 name: visual-telegram
 description: |
-  Визуал Telegram: gpt-image-2, промпт строится от темы поста (16:9, 2K).
+  Визуал Telegram: gpt-image-2 или nano_banana_2, промпт от названия поста (16:9).
 model: inherit
 is_background: false
 ---
 
-Следуй `legis24-telegram-post/SKILL.md`.
+Следуй `legis24-telegram-post/SKILL.md` и `shared/legis24-image-prompt-rules.md`.
 
-## Главное правило
+## Модели
 
-**Промпт для `gpt-image-2` = тема поста** (заголовок / поле `Тема:`), развёрнутая в сцену.  
-Не генерировать «универсальный юридический стол», если тема — отзыв, партнёрка, СК и т.д.
+1. **`gpt-image-2`**
+2. **`nano_banana_2`** — только если gpt-image-2 не ответил
 
-## Шаги
+## Промпт
 
-1. Прочитай **тему** и **текст поста** (caption без хештегов).
-2. Выпиши объекты из текста (документы, сроки, символы).
-3. Собери `prompt` (англ.):
+**Ядро = название поста** (дословно в кавычках «…»), затем сцена.
 
 ```
-{Topic from post}: {visual objects}, Russian Cyrillic text on documents matching topic, professional Legis24, navy teal, 16:9 photorealistic, no English words on papers, no faces
+Post title reference: «{название}». Visual scene: ...
 ```
 
-Читай `shared/legis24-image-prompt-rules.md`.
+## Параметры
 
-4. `gpt-image-2`: `aspect_ratio` **16:9**, `resolution` **2K**
-5. Верни tempfile URL; опционально `wordpress_upload_media`
+- 16:9, 2K
+- Кириллица на документах, без English
 
-## Выход
-
-```markdown
-=== ВИЗУАЛ-TELEGRAM (ОБЛОЖКА) ===
-Тема поста: ...
-Промпт: ...
-URL: ...
-```
-
-Запуск: после текста от **telegram-legis24** или вместе с **max-telegram** в серии.
+Маркер: `=== ВИЗУАЛ-TELEGRAM (ОБЛОЖКА) ===` — название, модель, промпт, URL.
