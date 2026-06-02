@@ -2,8 +2,9 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-06-02 | published | UG | Пленум ВС № 48: мошенничество, криптовалюта, цифровые рубли, ст. 171.6 | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | https://advokat-vsem.online/plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita/ |
 | 2026-06-02 | published | ARB | ВС РФ (май 2026): страховые взносы ФНС во 2-ю очередь реестра при банкротстве | fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs | https://advokat-vsem.online/fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs/ |
-| 2026-06-01 | selected | UG | Пленум ВС № 48: изменения по мошенничеству, криптовалюта и цифровые рубли (Тимошин, 22.05.2026) | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | https://rapsinews.ru/judicial_news/20260522/311867336.html |
+| 2026-06-01 | published | UG | Пленум ВС № 48: изменения по мошенничеству, криптовалюта и цифровые рубли (Тимошин, 22.05.2026) | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | https://advokat-vsem.online/plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita/ |
 | 2026-06-02 | published | IP | СИП отменил взыскание 766 млн ₽ с «Синергетик» за слоган «Я ♥ свою семью» (дело А43-1470/2024) | sip-sinergetik-766-mln-otmena-kompensaciya-tz | https://advokat-vsem.online/sip-sinergetik-766-mln-otmena-kompensaciya-tz/ |
 | 2026-06-01 | published | ARB | Обзор ВС № 5/2026: субсидиарная ответственность конкурсного кредитора и банка | vs-obzor-5-2026-subsidiarnaya-otvetstvennost-kreditora | https://advokat-vsem.online/vs-obzor-5-2026-subsidiarnaya-otvetstvennost-kreditora/ |
 | 2026-05-31 | selected | UG | Пленум ВС № 48 о мошенничестве: криптовалюта, цифровые рубли — изменения Тимошина | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | https://rapsinews.ru/judicial_news/20260522/311867336.html |
