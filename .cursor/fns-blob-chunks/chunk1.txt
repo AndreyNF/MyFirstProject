@@ -1,0 +1,204 @@
+="98" y="178" width="64" height="6" rx="2" fill="#f1f5f9"/>
+          <rect x="168" y="178" width="108" height="6" rx="2" fill="#fef2f2"/>
+        </g>
+        <!-- стрелка переноса 3 → 2 -->
+        <path class="hero-arb-fns-reestr__move-arrow" d="M118 248 Q80 210 52 168" fill="none" stroke="url(#hero-fns-reestr-red)" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#hero-fns-reestr-arrow-red)"/>
+        <text x="72" y="228" fill="#a31830" font-size="6" font-weight="700" transform="rotate(-38 72 228)">из 3-й</text>
+        <!-- ФНС vs кредиторы -->
+        <g transform="translate(36, 268)">
+          <rect class="hero-arb-fns-reestr__fns-glow" x="0" y="0" width="88" height="48" rx="8" fill="#fff" stroke="#a31830" stroke-width="1.6"/>
+          <text x="44" y="20" text-anchor="middle" fill="#a31830" font-size="9" font-weight="800">ФНС</text>
+          <text x="44" y="34" text-anchor="middle" fill="#64748b" font-size="6">УФНС · взносы</text>
+          <text x="118" y="26" text-anchor="middle" fill="#64748b" font-size="11" font-weight="800">VS</text>
+          <rect x="148" y="0" width="88" height="48" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1.4"/>
+          <text x="192" y="20" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="700">КРЕДИТОРЫ</text>
+          <text x="192" y="34" text-anchor="middle" fill="#64748b" font-size="6">3-я очередь</text>
+          <line x1="88" y1="24" x2="118" y2="24" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#hero-fns-reestr-arrow)"/>
+          <line x1="128" y1="24" x2="148" y2="24" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#hero-fns-reestr-arrow)"/>
+        </g>
+        <!-- управляющий + арбитраж -->
+        <g transform="translate(248, 268)">
+          <rect x="0" y="0" width="76" height="44" rx="7" fill="#fff" stroke="#64748b" stroke-width="1.1"/>
+          <text x="38" y="18" text-anchor="middle" fill="#334155" font-size="6.5" font-weight="700">КУ</text>
+          <text x="38" y="32" text-anchor="middle" fill="#64748b" font-size="6">реестр</text>
+          <rect x="88" y="0" width="88" height="44" rx="7" fill="#fff" stroke="#0f172a" stroke-width="1.2"/>
+          <text x="132" y="18" text-anchor="middle" fill="#0f172a" font-size="6.5" font-weight="700">АРБИТРАЖ</text>
+          <text x="132" y="32" text-anchor="middle" fill="#64748b" font-size="6">включение · возражения</text>
+        </g>
+        <!-- нижняя плашка -->
+        <g filter="url(#hero-fns-reestr-shadow)" transform="translate(28, 348)">
+          <rect width="404" height="44" rx="8" fill="#fff" stroke="#cbd5e1"/>
+          <rect x="0" y="0" width="6" height="44" rx="8" fill="#a31830"/>
+          <text x="210" y="20" text-anchor="middle" fill="#0f172a" font-size="7" font-weight="700">Единый тариф 2023 · обзор ВС № 5/2026 п. 3 · спор ФНС vs реестр</text>
+          <text x="210" y="34" text-anchor="middle" fill="#64748b" font-size="6.5">страховые взносы при банкротстве ООО · вторая очередь реестра</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="l24-intro-vs" aria-label="Введение">
+  <div class="l24-intro-vs__grid">
+    <div class="l24-intro-vs__text">
+      <p>Определение СКЭС Верховного суда РФ от <strong>6 мая 2026 года</strong> по делу № <strong>А47-12711/2023</strong> закрепило: после единого тарифа страховых взносов с <strong>1 января 2023 года</strong> основной долг ФНС по взносам включается во <strong>вторую очередь реестра требований кредиторов</strong>, а не в третью. Для <strong>банкротства юридических лиц</strong> и <strong>банкротства ООО</strong> это меняет расчёт конкурсной массы и тактику <strong>включения в реестр</strong>.</p>
+      <p>Ниже — фабула дела «Ташлинский», очередность по <strong>абз. 3 п. 4 ст. 134</strong>, чеклист возражений и линия практики ВС 2025–2026 без дублирования статьи про <a href="/vs-obzor-5-2026-subsidiarnaya-otvetstvennost-kreditora/">субсидиарку кредитора по обзору № 5/2026</a>.</p>
+      <div class="l24-intro-vs__brief">
+        <strong>Краткий тезис:</strong> единый страховой взнос с 2023 года — элемент расходов на труд; ВС перенёс <strong>981 628,14 руб.</strong> ОМС и соцстрахования из 3-й во 2-ю очередь (~27% заявленных взносов). Ответ на вопрос 2 Обзора ВС № 3 (2017) исключён; опора — <strong>п. 3 обзора № 5/2026</strong> и определения СКЭС 2025–2026.
+      </div>
+      <p>При подготовке <strong>заявления в реестр</strong> или возражений к УФНС можно <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">получить консультацию по арбитражному спору и включению в реестр</a>.</p>
+    </div>
+    <aside class="l24-intro-vs__decor" aria-label="Ключевые метки">
+      <ul class="l24-intro-vs__chips">
+        <li class="l24-intro-vs__chip l24-intro-vs__chip--accent">ВС 06.05.2026</li>
+        <li class="l24-intro-vs__chip">А47-12711/2023</li>
+        <li class="l24-intro-vs__chip l24-intro-vs__chip--warn">2-я очередь</li>
+        <li class="l24-intro-vs__chip">единый тариф 2023</li>
+        <li class="l24-intro-vs__chip">обзор № 5/2026 п. 3</li>
+        <li class="l24-intro-vs__chip">ФНС · реестр</li>
+      </ul>
+      <svg class="l24-intro-vs__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: единый взнос ФНС из 3-й очереди во 2-ю по определению ВС">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">ОЧЕРЕДИ РЕЕСТРА · ВЗНОСЫ ФНС</text>
+        <rect x="24" y="48" width="88" height="36" rx="6" fill="#fee2e2" stroke="#fca5a5"/>
+        <text x="68" y="70" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">3-я · до ВС</text>
+        <text x="68" y="82" text-anchor="middle" fill="#64748b" font-size="7">ОМС+соц</text>
+        <path d="M112 66 H148" stroke="#a31830" stroke-width="2" marker-end="url(#fns-intro-arr)"/>
+        <defs><marker id="fns-intro-arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#a31830"/></marker></defs>
+        <rect x="148" y="48" width="88" height="36" rx="6" fill="#fef2f2" stroke="#a31830" stroke-width="1.4"/>
+        <text x="192" y="70" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">2-я · после ВС</text>
+        <text x="192" y="82" text-anchor="middle" fill="#64748b" font-size="7">981 628 ₽</text>
+        <rect x="24" y="100" width="272" height="32" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+        <text x="160" y="120" text-anchor="middle" fill="#1e40af" font-size="9" font-weight="700">абз. 3 п. 4 ст. 134 · единый тариф</text>
+        <rect x="24" y="144" width="128" height="36" rx="6" fill="#fff" stroke="#94a3b8"/>
+        <text x="88" y="166" text-anchor="middle" fill="#334155" font-size="8" font-weight="700">кредитор 3-й</text>
+        <rect x="168" y="144" width="128" height="36" rx="6" fill="#fff" stroke="#a31830"/>
+        <text x="232" y="166" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">УФНС · возражения</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#fns-vs-opredelenie-2026">Определение ВС 2026</a></li>
+    <li><a href="#fns-vs-ocheredi-reestr">2-я и 3-я очередь</a></li>
+    <li><a href="#fns-vs-bankrotstvo-ooo">Банкротство ООО</a></li>
+    <li><a href="#fns-vs-vklyuchenie-reestr">Включение в реестр</a></li>
+    <li><a href="#fns-vs-spory-fns">Споры с ФНС</a></li>
+    <li><a href="#fns-vs-praktika-2026">Практика 2026</a></li>
+    <li><a href="#fns-vs-strategiya">Чеклист</a></li>
+    <li><a href="#fns-vs-konsultaciya">Консультация</a></li>
+    <li><a href="#fns-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+
+<div class="l24-longread-wrap" itemprop="articleBody">
+
+
+<p><strong>Лид.</strong> С 1 января 2023 года работодатели платят единый страховой взнос вместо раздельных платежей на ОПС, ОМС и соцстрахование. В банкротстве юридического лица это меняет не только бухгалтерию, но и <strong>реестр требований кредиторов</strong>: ФНС всё чаще добивается включения всей задолженности по взносам во <strong>вторую очередь</strong>, а не в третью. Определение Судебной коллегии по экономическим спорам Верховного суда РФ от <strong>6 мая 2026 года</strong> № 309-ЭС24-8891 (3) по делу № <strong>А47-12711/2023</strong> закрепило линию на сумме <strong>981 628,14 руб.</strong> и стало свежим якорем <strong>обзора верховного суда 2026 по банкротству</strong> в части очередности. Ниже — что это значит для директора должника, кредитора третьей очереди и арбитражного управляющего при <strong>включении в реестр требований кредиторов</strong> и <strong>спорах с ФНС</strong> в арбитраже.</p>
+<blockquote><p><strong>Тезис.</strong> После реформы 2023 года основной долг по единому тарифу страховых взносов при банкротстве ООО и иных юрлиц относится ко <strong>второй очереди реестра</strong> (абз. 3 п. 4 ст. 134 Закона о банкротстве). Дробление взносов на «пенсионную» и «немедицинскую» части суды всё ещё допускали по инерции Обзора ВС № 3 (2017) — ВС эту линию закрыл.</p></blockquote>
+<p><strong>Лид.</strong> С 1 января 2023 года работодатели платят единый страховой взнос вместо раздельных платежей на ОПС, ОМС и соцстрахование. В банкротстве юридического лица это меняет не только бухгалтерию, но и <strong>реестр требований кредиторов</strong>: ФНС всё чаще добивается включения всей задолженности по взносам во <strong>вторую очередь</strong>, а не в третью. Определение Судебной коллегии по экономическим спорам Верховного суда РФ от <strong>6 мая 2026 года</strong> № 309-ЭС24-8891 (3) по делу № <strong>А47-12711/2023</strong> закрепило линию на сумме <strong>981 628,14 руб.</strong> и стало свежим якорем <strong>обзора верховного суда 2026 по банкротству</strong> в части очередности. Ниже — что это значит для директора должника, кредитора третьей очереди и арбитражного управляющего при <strong>включении в реестр требований кредиторов</strong> и <strong>спорах с ФНС</strong> в арбитраже.</p>
+
+<blockquote><p><strong>Тезис.</strong> После реформы 2023 года основной долг по единому тарифу страховых взносов при банкротстве ООО и иных юрлиц относится ко <strong>второй очереди реестра</strong> (абз. 3 п. 4 ст. 134 Закона о банкротстве). Дробление взносов на «пенсионную» и «немедицинскую» части суды всё ещё допускали по инерции Обзора ВС № 3 (2017) — ВС эту линию закрыл.</p></blockquote>
+
+<h2 id="fns-vs-opredelenie-2026">Определение ВС от 6 мая 2026 и единый тариф страховых взносов с 2023 года</h2>
+
+<p>Инфоповод слота — не абстрактный «тренд практики», а конкретный судебный акт. Резолютивная часть определения СКЭС ВС объявлена <strong>4 мая 2026 года</strong>, полный текст опубликован <strong>6 мая 2026 года</strong>. Состав: судьи Самуйлов С.В., Букина И.А., Разумов И.В. Канонический текст: <a href="https://www.garant.ru/products/ipo/prime/doc/414089845/" target="_blank" rel="noopener noreferrer">определение на ГАРАНТ</a>.</p>
+
+<p>С <strong>1 января 2023 года</strong> вступил пакет реформ, который суды и ФНС называют комплексным, а не техническим:</p>
+
+<table><thead><tr><th>Закон</th><th>Содержание реформы</th></tr></thead><tbody><tr><td>239-ФЗ</td><td>Единый тариф страховых взносов</td></tr><tr><td>264-ФЗ</td><td>Единый платёж в бюджетной системе</td></tr><tr><td>236-ФЗ</td><td>Единый фонд пенсионного и социального страхования</td></tr><tr><td>263-ФЗ</td><td>Изменения в НК РФ (в т.ч. взимание взноса)</td></tr></tbody></table>
+
+<p>Единый страховой взнос — элемент расходов на оплату труда; выплаты по соцстрахованию во многом заменяют доход работника при страховых случаях (ст. 1, 3, 7, 8 Закона № 165-ФЗ). Отсюда связь с <strong>абз. 3 п. 4 ст. 134</strong> Закона о банкротстве: требования по зарплате и взносам на обязательное социальное страхование по перечисленным выплатам — во <strong>второй очереди</strong> реестра и, по аналогии, текущих платежей (абз. 3 п. 2 ст. 134).</p>
+
+<h3>Дело № А47-12711/2023 и позиция СКЭС</h3>
+
+<p>Банкротство <strong>ООО «Торговый Дом «Ташлинский»»</strong> (дело № <strong>А47-12711/2023</strong>):</p>
+
+<table><thead><tr><th>Этап</th><th>Дата / событие</th><th>Суть</th></tr></thead><tbody><tr><td>Возбуждение</td><td>09.08.2023</td><td>Процедура банкротства юридического лица</td></tr><tr><td>Наблюдение</td><td>с 28.11.2024</td><td>Стадия процедуры</td></tr><tr><td>Заявление УФНС</td><td>16.10.2023</td><td><strong>3 678 236,59 руб.</strong> — страховые взносы за 1-е полугодие 2023 (2-я очередь) + налоги, пени, штрафы (3-я)</td></tr><tr><td>Суды первой инстанции и апелляция</td><td>10.04.2025 и далее</td><td>Во 2-ю: <strong>2 696 107,26 руб.</strong> (взносы на ОПС); в 3-ю: <strong>981 628,14 руб.</strong> (ОМС <strong>625 006,68</strong> + соцстрах <strong>356 621,46</strong>)</td></tr><tr><td>ВС РФ</td><td>06.05.2026</td><td>Отмена в спорной части; <strong>981 628,14 руб.</strong> включены во <strong>2-ю очередь</strong> без нового рассмотрения по существу долга</td></tr></tbody></table>
+
+<p>Основание нижестоящих судов — ответ на <strong>вопрос 2</strong> Обзора ВС <strong>№ 3 (2017)</strong> (дифференциация по видам страхования). ВС указал: этот ответ <strong>исключён</strong>; применять его после единого тарифа нельзя.</p>
+
+<blockquote><p><strong>Позиция ВС (смысл определения):</strong> «При ином подходе повышается вероятность образования существенных диспропорций между платежами… на обязательное социальное страхование и предоставляемым гражданам страховым обеспечением.»</p></blockquote>
+
+<p>Олег Прошляков («Легикон-Право») в комментарии для PROбанкротство отмечает: формально спор о квалификации единого взноса, но практический итог — <strong>весь основной долг</strong> получает режим второй очереди; линия защиты с выводом медицинских и социальных взносов в третью очередь закрыта.</p>
+
+<h3>Связь с обзором ВС № 5/2026 (дополнительная информация, не субсидиарка кредитора)</h3>
+
+<p>Президиум ВС <strong>29 апреля 2026 года</strong> утвердил Тематический обзор судебной практики <strong>№ 5/2026</strong>. В <strong>п. 3</strong> и <strong>дополнительной информации</strong> к обзору закреплено: требование об уплате страховых взносов по <strong>единому тарифу</strong> — <strong>2-я очередь</strong> реестра (абз. 3 п. 4 ст. 134) и <strong>2-я очередь</strong> текущих платежей (абз. 3 п. 2 ст. 134). На заседании по делу Ташлинского ФНС ссылалась именно на <strong>п. 3</strong> обзора и доп. информацию.</p>
+
+<p>Отдельно на сайте Legis24 разобран другой блок того же обзора — <a href="/vs-obzor-5-2026-subsidiarnaya-otvetstvennost-kreditora/">субсидиарная ответственность конкурсного кредитора</a> (опубликовано 1 июня 2026). <strong>Настоящий материал</strong> ведёт от <strong>определения 06.05.2026</strong> и очередности <strong>требований ФНС в реестре</strong>, а не от субсидиарки банка или кредитора.</p>
+
+<h2 id="fns-vs-ocheredi-reestr">Вторая и третья очередь реестра требований кредиторов</h2>
+
+<p><strong>Реестр требований кредиторов</strong> при банкротстве — центральный инструмент распределения конкурсной массы. <strong>Очереди реестра требований кредиторов</strong> задают, кто получит деньги после продажи имущества и в каком порядке.</p>
+
+<table><thead><tr><th>Очередь</th><th>Кто типично входит</th><th>Релевантность для темы</th></tr></thead><tbody><tr><td>1-я</td><td>Вред здоровью, алименты и т.п.</td><td>Вне фокуса взносов</td></tr><tr><td><strong>2-я</strong></td><td>Зарплата, выходные пособия, <strong>взносы на соцстрах по перечисленным выплатам</strong> (абз. 3 п. 4 ст. 134)</td><td><strong>Сюда переезжает основной долг ФНС по единому тарифу</strong></td></tr><tr><td><strong>3-я</strong></td><td>Остальные кредиторы, многие налоги, пени</td><td>Конкуренция с «обычными» кредиторами; сужение массы при росте 2-й очереди</td></tr><tr><td>4–6-я</td><td>Залог, штрафы, проценты и др.</td><td>Отдельная квалификация пеней/санкций ФНС</td></tr></tbody></table>
+
+<p>Запросы вроде <strong>«вторая очередь реестра требований кредиторов»</strong> и <strong>«в третью очередь реестра требований кредиторов»</strong> отражают практический вопрос: куда попадёт мой долг и сколько останется массы.</p>
+
+<section id="l24-boris-fns-vznosy-queue" class="l24-boris-fns-vznosy" aria-label="Страховые взносы ФНС: перенос из 3-й во 2-ю очередь реестра — схема и суммы дела А47-12711/2023">
+<style>
+.l24-boris-fns-vznosy {
+  --fns-navy: #0c1f33;
+  --fns-navy-soft: #152a45;
+  --fns-gold: #d4a853;
+  --fns-blue: #63b3ed;
+  --fns-mint: #5eead4;
+  --fns-rose: #fc8181;
+  --fns-amber: #f6ad55;
+  --fns-muted: #a0aec0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-fns-vznosy__shell {
+  background: linear-gradient(148deg, var(--fns-navy) 0%, #122640 52%, var(--fns-navy-soft) 100%);
+  border: 1px solid rgba(212, 168, 83, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(12, 31, 51, 0.35);
+}
+.l24-boris-fns-vznosy__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fns-gold);
+}
+.l24-boris-fns-vznosy__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-fns-vznosy__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--fns-muted);
+  max-width: 72ch;
+}
+.l24-boris-fns-vznosy__lead strong { color: #fff; }
+.l24-boris-fns-vznosy__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.98fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-fns-vznosy__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-fns-vznosy__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weigh
