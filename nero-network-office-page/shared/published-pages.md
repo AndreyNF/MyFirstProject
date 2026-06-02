@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-06-02 | KIRILL-IP | sip-sinergetik-766-mln-otmena-kompensaciya-tz | 434 | https://advokat-vsem.online/sip-sinergetik-766-mln-otmena-kompensaciya-tz/ |
 | 2026-06-02 | KIRILL-ARB | fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs | 431 | https://advokat-vsem.online/fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs/ |
 | 2026-06-01 | KIRILL-ARB | vs-obzor-5-2026-subsidiarnaya-otvetstvennost-kreditora | 426 | https://advokat-vsem.online/vs-obzor-5-2026-subsidiarnaya-otvetstvennost-kreditora/ |
 | 2026-05-31 | B3 | poizon-tovarnyj-znak-sip-osporenie-registracii | 422 | https://advokat-vsem.online/poizon-tovarnyj-znak-sip-osporenie-registracii/ |

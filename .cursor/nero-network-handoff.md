@@ -874,3 +874,19 @@
 - [x] aria-метки на русском (hero, intro, toc, boris, faq)
 
 **Передача:** Юра (публикация WP)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО
+
+**page_id:** 434  
+**blob_id:** txtpcRCC3ps3jqBnuVcLzTZ7  
+**SLUG:** sip-sinergetik-766-mln-otmena-kompensaciya-tz  
+**URL:** https://advokat-vsem.online/sip-sinergetik-766-mln-otmena-kompensaciya-tz/  
+**Статус WP:** publish  
+**Excerpt:** Постановление СИП от 20.03.2026: кассация отменила взыскание 766 млн ₽ за слоган на упаковке. Смешение, компенсация по ст. 1515, злоупотребление правом — что важно ответчику при иске по товарному знаку.
+
+**Blob:** reset (chunk 0, 18k) + дозагрузка остатка (12k×N + finalize); sha256 `a63fb520c6f01889e801e46965bbd2bb745ca2d3103a7b696798c0bdfb851058`, bytes 80138.
+
+**Проверка curl:** HTTP/2 **200**; в теле есть `main id="primary"`.
+
+**Реестры:** `nero-network-office-page/shared/published-pages.md`, `shared/kirill-news-ledger.md` — обновлены.
