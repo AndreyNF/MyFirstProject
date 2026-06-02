@@ -950,3 +950,23 @@ H1_КАНДИДАТ: ВС РФ: страховые взносы ФНС во 2-ю
 **ТИП:** ARB  
 **CTA:** https://advokat-vsem.ru/ (4× ym-cta--primary + ym-cta--legis24 bottom)  
 **Следующий шаг:** Алина (hero) || Борис (блок статьи)
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**Файл:** `/workspace/.cursor/page-content-natasha-fns-vznosy.html`  
+**Размер:** ~97 KB (97 038 байт)  
+**SLUG:** `fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs`  
+**Сборка:** hero (Алина) → intro + TOC → лонгрид (Артур, ##→h2, ###→h3, 4× ym-cta--primary + ym-cta--legis24) → блок Бориса (`#l24-boris-fns-vznosy-queue` после H2 очередей) → FAQ + JSON-LD FAQPage (hidden)  
+**Проверки:** без `<script>`; внешние ссылки `target="_blank" rel="noopener noreferrer"`; CTA → https://advokat-vsem.ru/
+
+## Передача Юре
+HTML готов к публикации в WordPress (wp:html). Мета Title/Description — из блока Жени/Коли в handoff.
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО
+**page_id:** 431
+**blob_id:** HY9sHXaTRnAPMKzp9L2ZdmR
+**URL:** https://advokat-vsem.online/fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs/
+**Проверка curl:** HTTP 200, `main#primary`, hero `l24-hero-fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs`
+**Дата:** 2026-06-02
