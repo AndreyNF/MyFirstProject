@@ -855,3 +855,22 @@
 **CTA_БЛОКОВ:** 5
 
 **СИМВОЛОВ_С_CTA:** 21845
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**Файл:** `/workspace/.cursor/page-content-natasha-sip-sinergetik.html`
+**Размер:** 92330 байт
+**SLUG / class:** `sip-sinergetik-766-mln-otmena-kompensaciya-tz` · `sip-sinergetik-766-mln-otmena-kompensaciya-tz-page`
+
+**Проверки:**
+- [x] `<!-- wp:html -->` · `main#primary` · hero Алины (`l24-hero-sip-sinergetik-766-mln`)
+- [x] intro `l24-intro-tz` · chips: СИП, 766 млн, ТЗ 312760
+- [x] `ym-toc` · якоря H2 + Boris `#l24-boris-sip-sinergetik-instances`
+- [x] лонгрид Артура + 5 CTA (`ym-cta--primary` ×4, `ym-cta--legis24` ×1)
+- [x] Boris после H2 «Инстанции» (перед таблицей инстанций / H3)
+- [x] FAQ `l24-faq-tz` + schema.org FAQPage в `<pre class="l24-jsonld-sip" hidden>`
+- [x] без `<script>` · внешние ссылки `target="_blank" rel="noopener noreferrer"`
+- [x] aria-метки на русском (hero, intro, toc, boris, faq)
+
+**Передача:** Юра (публикация WP)
