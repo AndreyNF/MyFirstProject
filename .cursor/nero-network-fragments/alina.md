@@ -1,12 +1,12 @@
 === АЛИНА (HERO) ===
 Статус: ✅ ГОТОВО
 
-**Hero id:** `l24-hero-fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs`
+**Hero id:** `l24-hero-sip-sinergetik-766-mln`
 
 ```html
-<section id="l24-hero-fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs" class="hero-arb-fns-reestr" aria-label="ВС РФ: страховые взносы ФНС во 2-ю очередь реестра при банкротстве">
+<section id="l24-hero-sip-sinergetik-766-mln" class="hero-ip-sinergetik" aria-label="СИП отменил взыскание 766 млн ₽ с «Синергетик» по товарному знаку «Я люблю свою семью»">
   <style>
-    .hero-arb-fns-reestr {
+    .hero-ip-sinergetik {
       position: relative;
       min-height: 88vh;
       min-height: 88dvh;
@@ -14,21 +14,21 @@
       display: flex;
       align-items: center;
       padding: 112px 24px 72px;
-      background: linear-gradient(158deg, #fcfcfd 0%, #f6f8fb 42%, #f2f5f9 100%);
+      background: linear-gradient(158deg, #fcfcfd 0%, #f6f8fb 40%, #f2f5f9 100%);
       color: #0f172a;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .hero-arb-fns-reestr::before {
+    .hero-ip-sinergetik::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 48% 40% at 90% 6%, rgba(163, 24, 48, 0.07) 0%, transparent 58%),
-        radial-gradient(ellipse 36% 34% at 6% 94%, rgba(30, 58, 138, 0.06) 0%, transparent 52%);
+        radial-gradient(ellipse 50% 42% at 88% 8%, rgba(30, 58, 138, 0.08) 0%, transparent 58%),
+        radial-gradient(ellipse 38% 36% at 4% 92%, rgba(163, 24, 48, 0.05) 0%, transparent 52%);
       pointer-events: none;
     }
-    .hero-arb-fns-reestr__inner {
+    .hero-ip-sinergetik__inner {
       position: relative;
       z-index: 1;
       max-width: 1200px;
@@ -39,7 +39,7 @@
       gap: 44px;
       align-items: center;
     }
-    .hero-arb-fns-reestr__badge {
+    .hero-ip-sinergetik__badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
@@ -54,14 +54,14 @@
       text-transform: uppercase;
       color: #334155;
     }
-    .hero-arb-fns-reestr__badge-mark {
+    .hero-ip-sinergetik__badge-mark {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #a31830;
+      background: #1e3a8a;
       flex-shrink: 0;
     }
-    .hero-arb-fns-reestr__h1 {
+    .hero-ip-sinergetik__h1 {
       margin: 0 0 18px;
       font-size: clamp(1.48rem, 3.4vw, 2.28rem);
       line-height: 1.22;
@@ -69,17 +69,17 @@
       color: #0f172a;
       letter-spacing: -0.02em;
     }
-    .hero-arb-fns-reestr__h1-accent {
-      color: #a31830;
+    .hero-ip-sinergetik__h1-accent {
+      color: #1e3a8a;
     }
-    .hero-arb-fns-reestr__sub {
+    .hero-ip-sinergetik__sub {
       margin: 0 0 28px;
       max-width: 42em;
       font-size: clamp(0.98rem, 1.5vw, 1.1rem);
       line-height: 1.58;
       color: #475569;
     }
-    .hero-arb-fns-reestr__facts {
+    .hero-ip-sinergetik__facts {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
@@ -87,7 +87,7 @@
       padding: 0;
       list-style: none;
     }
-    .hero-arb-fns-reestr__fact {
+    .hero-ip-sinergetik__fact {
       font-size: 0.78rem;
       font-weight: 700;
       padding: 7px 12px;
@@ -96,12 +96,12 @@
       border: 1px solid #e2e8f0;
       color: #334155;
     }
-    .hero-arb-fns-reestr__fact--accent {
-      border-color: #fecaca;
-      color: #a31830;
-      background: #fef2f2;
+    .hero-ip-sinergetik__fact--accent {
+      border-color: #bfdbfe;
+      color: #1e3a8a;
+      background: #eff6ff;
     }
-    .hero-arb-fns-reestr__cta {
+    .hero-ip-sinergetik__cta {
       display: inline-block;
       background: #a31830;
       color: #fff !important;
@@ -113,205 +113,213 @@
       box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
       line-height: 1.35;
     }
-    .hero-arb-fns-reestr__cta:hover {
+    .hero-ip-sinergetik__cta:hover {
       background: #8b1528;
     }
-    .hero-arb-fns-reestr__visual {
+    .hero-ip-sinergetik__visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
     @media (prefers-reduced-motion: no-preference) {
-      .hero-arb-fns-reestr__move-arrow {
-        animation: hero-fns-reestr-shift 4.2s ease-in-out infinite;
+      .hero-ip-sinergetik__scale-left {
+        animation: hero-sinergetik-tilt 5s ease-in-out infinite;
+        transform-origin: 220px 198px;
       }
-      .hero-arb-fns-reestr__queue-pulse {
-        animation: hero-fns-reestr-pulse 3.4s ease-in-out infinite;
+      .hero-ip-sinergetik__scale-right {
+        animation: hero-sinergetik-tilt 5s ease-in-out infinite reverse;
+        transform-origin: 220px 198px;
       }
-      .hero-arb-fns-reestr__queue-pulse--2 {
-        animation-delay: 0.9s;
+      .hero-ip-sinergetik__cancel-stamp {
+        animation: hero-sinergetik-stamp 4.2s ease-in-out infinite;
       }
-      .hero-arb-fns-reestr__act-float {
-        animation: hero-fns-reestr-float 4.6s ease-in-out infinite;
+      .hero-ip-sinergetik__beam {
+        animation: hero-sinergetik-beam 3.8s ease-in-out infinite;
       }
-      .hero-arb-fns-reestr__fns-glow {
-        animation: hero-fns-reestr-glow 3.8s ease-in-out infinite;
+      .hero-ip-sinergetik__doc-float {
+        animation: hero-sinergetik-float 4.6s ease-in-out infinite;
+      }
+      .hero-ip-sinergetik__heart-pulse {
+        animation: hero-sinergetik-heart 3.2s ease-in-out infinite;
       }
     }
-    @keyframes hero-fns-reestr-shift {
-      0%, 100% { stroke-dashoffset: 0; opacity: 0.8; }
-      50% { stroke-dashoffset: 10; opacity: 1; }
+    @keyframes hero-sinergetik-tilt {
+      0%, 100% { transform: rotate(-3deg); }
+      50% { transform: rotate(4deg); }
     }
-    @keyframes hero-fns-reestr-pulse {
-      0%, 100% { opacity: 0.6; }
-      50% { opacity: 1; }
+    @keyframes hero-sinergetik-stamp {
+      0%, 100% { opacity: 0.85; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.05); }
     }
-    @keyframes hero-fns-reestr-float {
+    @keyframes hero-sinergetik-beam {
+      0%, 100% { opacity: 0.32; }
+      50% { opacity: 0.58; }
+    }
+    @keyframes hero-sinergetik-float {
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-5px); }
     }
-    @keyframes hero-fns-reestr-glow {
-      0%, 100% { stroke-opacity: 0.85; }
-      50% { stroke-opacity: 1; }
+    @keyframes hero-sinergetik-heart {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
     }
     @media (prefers-reduced-motion: reduce) {
-      .hero-arb-fns-reestr__move-arrow,
-      .hero-arb-fns-reestr__queue-pulse,
-      .hero-arb-fns-reestr__queue-pulse--2,
-      .hero-arb-fns-reestr__act-float,
-      .hero-arb-fns-reestr__fns-glow {
+      .hero-ip-sinergetik__scale-left,
+      .hero-ip-sinergetik__scale-right,
+      .hero-ip-sinergetik__cancel-stamp,
+      .hero-ip-sinergetik__beam,
+      .hero-ip-sinergetik__doc-float,
+      .hero-ip-sinergetik__heart-pulse {
         animation: none !important;
       }
     }
     @media (max-width: 900px) {
-      .hero-arb-fns-reestr {
+      .hero-ip-sinergetik {
         min-height: auto;
         padding: 96px 20px 56px;
       }
-      .hero-arb-fns-reestr__inner {
+      .hero-ip-sinergetik__inner {
         grid-template-columns: 1fr;
         gap: 30px;
       }
-      .hero-arb-fns-reestr__visual {
+      .hero-ip-sinergetik__visual {
         order: -1;
-        max-height: 320px;
+        max-height: 310px;
       }
     }
   </style>
-  <div class="hero-arb-fns-reestr__inner">
-    <div class="hero-arb-fns-reestr__content">
-      <div class="hero-arb-fns-reestr__badge">
-        <span class="hero-arb-fns-reestr__badge-mark" aria-hidden="true"></span>
-        ARB · ВС РФ · 06.05.2026 · реестр кредиторов
+  <div class="hero-ip-sinergetik__inner">
+    <div class="hero-ip-sinergetik__content">
+      <div class="hero-ip-sinergetik__badge">
+        <span class="hero-ip-sinergetik__badge-mark" aria-hidden="true"></span>
+        СИП · Синергетик · компенсация · 20.03.2026
       </div>
-      <h1 class="hero-arb-fns-reestr__h1">
-        <span class="hero-arb-fns-reestr__h1-accent">ВС РФ:</span> страховые взносы ФНС во 2-ю очередь реестра при банкротстве
+      <h1 class="hero-ip-sinergetik__h1">
+        <span class="hero-ip-sinergetik__h1-accent">СИП отменил взыскание 766 млн ₽</span> с «Синергетик» по товарному знаку «Я люблю свою семью»
       </h1>
-      <p class="hero-arb-fns-reestr__sub">
-        Определение от 6 мая 2026 года: единый тариф с 2023 года, дело № А47-12711/2023 — что меняется для кредиторов, управляющих и налоговой в арбитраже
+      <p class="hero-ip-sinergetik__sub">
+        Постановление от 20.03.2026 по делу № А43-1470/2024: компенсация, смешение и злоупотребление правом — урок для бренда на упаковке
       </p>
-      <ul class="hero-arb-fns-reestr__facts">
-        <li class="hero-arb-fns-reestr__fact hero-arb-fns-reestr__fact--accent">981 628 ₽ → 2-я очередь</li>
-        <li class="hero-arb-fns-reestr__fact">№ 309-ЭС24-8891 (3)</li>
-        <li class="hero-arb-fns-reestr__fact">абз. 3 п. 4 ст. 134</li>
-        <li class="hero-arb-fns-reestr__fact">единый тариф с 01.01.2023</li>
+      <ul class="hero-ip-sinergetik__facts">
+        <li class="hero-ip-sinergetik__fact hero-ip-sinergetik__fact--accent">766 050 650 ₽ отменено</li>
+        <li class="hero-ip-sinergetik__fact">дело А43-1470/2024</li>
+        <li class="hero-ip-sinergetik__fact">ТЗ № 312760</li>
       </ul>
-      <a class="hero-arb-fns-reestr__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по включению в реестр и спору с ФНС</a>
+      <a class="hero-ip-sinergetik__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на иск по товарному знаку</a>
     </div>
-    <div class="hero-arb-fns-reestr__visual" aria-hidden="true">
-      <svg viewBox="0 0 460 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:460px" role="img" aria-label="Реестр требований кредиторов: ФНС и взносы во 2-ю очередь, спор с кредиторами 3-й очереди, определение ВС от 6 мая 2026">
+    <div class="hero-ip-sinergetik__visual" aria-hidden="true">
+      <svg viewBox="0 0 460 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:460px" role="img" aria-label="СИП: весы правосудия — этикетка со слоганом и сердцем против свидетельства товарного знака, отмена компенсации 766 млн">
         <defs>
-          <linearGradient id="hero-fns-reestr-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-sinergetik-chamber" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#f8fafc"/>
-            <stop offset="100%" stop-color="#eef2f7"/>
+            <stop offset="100%" stop-color="#e8edf4"/>
           </linearGradient>
-          <linearGradient id="hero-fns-reestr-court" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-sinergetik-sip-wall" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#1e3a8a"/>
             <stop offset="100%" stop-color="#0f2744"/>
           </linearGradient>
-          <linearGradient id="hero-fns-reestr-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-sinergetik-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fde68a"/>
+            <stop offset="100%" stop-color="#d97706"/>
+          </linearGradient>
+          <linearGradient id="hero-sinergetik-cert" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fffbeb"/>
+            <stop offset="100%" stop-color="#fef3c7"/>
+          </linearGradient>
+          <linearGradient id="hero-sinergetik-paper" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#ffffff"/>
             <stop offset="100%" stop-color="#f1f5f9"/>
           </linearGradient>
-          <linearGradient id="hero-fns-reestr-q2" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#fef2f2"/>
-            <stop offset="100%" stop-color="#fee2e2"/>
+          <linearGradient id="hero-sinergetik-label" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ecfdf5"/>
+            <stop offset="100%" stop-color="#d1fae5"/>
           </linearGradient>
-          <linearGradient id="hero-fns-reestr-q3" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#f8fafc"/>
-            <stop offset="100%" stop-color="#e2e8f0"/>
+          <linearGradient id="hero-sinergetik-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#1e40af"/>
           </linearGradient>
-          <linearGradient id="hero-fns-reestr-red" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#a31830"/>
-            <stop offset="100%" stop-color="#dc2626"/>
-          </linearGradient>
-          <filter id="hero-fns-reestr-shadow" x="-12%" y="-12%" width="124%" height="124%">
-            <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.12"/>
+          <filter id="hero-sinergetik-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.14"/>
           </filter>
-          <marker id="hero-fns-reestr-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-            <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
-          </marker>
-          <marker id="hero-fns-reestr-arrow-red" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-            <path d="M0,0 L8,4 L0,8 Z" fill="#a31830"/>
-          </marker>
+          <pattern id="hero-sinergetik-marble" width="24" height="24" patternUnits="userSpaceOnUse">
+            <rect width="24" height="24" fill="#f1f5f9"/>
+            <path d="M0 12 Q6 6 12 12 T24 12" fill="none" stroke="#e2e8f0" stroke-width="0.5" opacity="0.6"/>
+          </pattern>
         </defs>
-        <rect x="10" y="12" width="440" height="396" rx="16" fill="url(#hero-fns-reestr-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
-        <!-- ВС: определение 06.05.2026 -->
-        <g transform="translate(118, 18)">
-          <rect x="0" y="30" width="224" height="52" rx="5" fill="url(#hero-fns-reestr-court)"/>
-          <polygon points="112,0 224,30 0,30" fill="#1e40af"/>
-          <text x="112" y="52" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="700" letter-spacing="0.1em">ВЕРХОВНЫЙ СУД РФ</text>
-          <text x="112" y="66" text-anchor="middle" fill="#93c5fd" font-size="6.5">06.05.2026 · № 309-ЭС24-8891 (3)</text>
+        <rect x="10" y="12" width="440" height="396" rx="18" fill="url(#hero-sinergetik-chamber)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <rect x="10" y="12" width="440" height="396" rx="18" fill="url(#hero-sinergetik-marble)" opacity="0.35"/>
+        <g transform="translate(130, 22)">
+          <rect x="0" y="36" width="200" height="52" rx="4" fill="url(#hero-sinergetik-sip-wall)"/>
+          <polygon points="100,0 200,36 0,36" fill="#1e40af"/>
+          <rect x="24" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
+          <rect x="86" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
+          <rect x="148" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
+          <text x="100" y="78" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="700" letter-spacing="0.1em">СУД ПО ИНТЕЛЛЕКТУАЛЬНЫМ ПРАВАМ</text>
         </g>
-        <!-- акт / определение -->
-        <g class="hero-arb-fns-reestr__act-float" filter="url(#hero-fns-reestr-shadow)" transform="translate(24, 88)">
-          <rect width="108" height="76" rx="8" fill="url(#hero-fns-reestr-paper)" stroke="#a31830" stroke-width="1.3"/>
-          <text x="54" y="18" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">ОПРЕДЕЛЕНИЕ</text>
-          <text x="54" y="32" text-anchor="middle" fill="#64748b" font-size="6.5">дело № А47-12711/2023</text>
-          <line x1="10" y1="40" x2="98" y2="40" stroke="#e2e8f0"/>
-          <rect x="10" y="48" width="88" height="5" rx="2" fill="#f1f5f9"/>
-          <rect x="10" y="56" width="72" height="5" rx="2" fill="#fef2f2" stroke="#fecaca" stroke-width="0.4"/>
-          <text x="54" y="70" text-anchor="middle" fill="#a31830" font-size="6" font-weight="700">981 628,14 ₽ → 2-я оч.</text>
+        <polygon class="hero-ip-sinergetik__beam" points="230,88 180,200 280,200" fill="#dbeafe" opacity="0.45"/>
+        <g filter="url(#hero-sinergetik-shadow)">
+          <rect x="208" y="168" width="24" height="118" rx="3" fill="url(#hero-sinergetik-gold)" stroke="#b45309" stroke-width="1"/>
+          <rect x="196" y="158" width="48" height="14" rx="4" fill="#92400e"/>
+          <line x1="220" y1="172" x2="220" y2="198" stroke="#78350f" stroke-width="3"/>
+          <g class="hero-ip-sinergetik__scale-left">
+            <line x1="220" y1="198" x2="118" y2="218" stroke="#78350f" stroke-width="2.5"/>
+            <ellipse cx="118" cy="232" rx="52" ry="8" fill="#fde68a" stroke="#d97706" stroke-width="1.2"/>
+            <g transform="translate(66, 238)">
+              <rect width="104" height="88" rx="10" fill="url(#hero-sinergetik-label)" stroke="#059669" stroke-width="1.4"/>
+              <rect x="8" y="8" width="88" height="14" rx="3" fill="#047857"/>
+              <text x="52" y="18" text-anchor="middle" fill="#ecfdf5" font-size="6.5" font-weight="800" letter-spacing="0.04em">SYNERGETIC</text>
+              <rect x="10" y="28" width="84" height="36" rx="4" fill="#fff" stroke="#a7f3d0" stroke-width="0.8"/>
+              <text x="52" y="42" text-anchor="middle" fill="#334155" font-size="7" font-weight="600">я</text>
+              <g class="hero-ip-sinergetik__heart-pulse" transform="translate(44, 34)">
+                <path d="M8 14 C8 8 14 6 16 10 C18 6 24 8 24 14 C24 20 16 26 16 26 C16 26 8 20 8 14 Z" fill="#dc2626" stroke="#b91c1c" stroke-width="0.6"/>
+              </g>
+              <text x="52" y="58" text-anchor="middle" fill="#334155" font-size="6.5" font-weight="700">свою семью!</text>
+              <text x="52" y="78" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">упаковка · FMCG</text>
+            </g>
+          </g>
+          <g class="hero-ip-sinergetik__scale-right">
+            <line x1="220" y1="198" x2="322" y2="228" stroke="#78350f" stroke-width="2.5"/>
+            <ellipse cx="322" cy="242" rx="52" ry="8" fill="#fde68a" stroke="#d97706" stroke-width="1.2"/>
+            <g transform="translate(270, 248)">
+              <rect width="104" height="80" rx="8" fill="url(#hero-sinergetik-cert)" stroke="#d97706" stroke-width="1.2"/>
+              <rect x="0" y="0" width="104" height="16" rx="8" fill="url(#hero-sinergetik-blue)"/>
+              <text x="52" y="11" text-anchor="middle" fill="#e2e8f0" font-size="5.5" font-weight="800" letter-spacing="0.06em">ТОВАРНЫЙ ЗНАК РФ</text>
+              <text x="52" y="32" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">Я ЛЮБЛЮ СВОЮ</text>
+              <text x="52" y="42" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">СЕМЬЮ</text>
+              <text x="52" y="54" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">№ 312760</text>
+              <line x1="14" y1="60" x2="90" y2="60" stroke="#fcd34d" stroke-width="1.5"/>
+              <line x1="14" y1="68" x2="72" y2="68" stroke="#fcd34d" stroke-width="1.5"/>
+            </g>
+          </g>
         </g>
-        <!-- реестр: таблица очередей -->
-        <g filter="url(#hero-fns-reestr-shadow)" transform="translate(148, 92)">
-          <rect width="288" height="200" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
-          <rect x="0" y="0" width="288" height="28" rx="10" fill="#0f172a"/>
-          <rect x="0" y="18" width="288" height="10" fill="#0f172a"/>
-          <text x="144" y="18" text-anchor="middle" fill="#f8fafc" font-size="8" font-weight="700" letter-spacing="0.08em">РЕЕСТР ТРЕБОВАНИЙ КРЕДИТОРОВ</text>
-          <!-- 1-я очередь -->
-          <rect x="12" y="36" width="264" height="28" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
-          <text x="22" y="54" fill="#64748b" font-size="7" font-weight="700">1</text>
-          <text x="38" y="54" fill="#475569" font-size="6.5">вред здоровью, алименты</text>
-          <!-- 2-я очередь (акцент) -->
-          <rect class="hero-arb-fns-reestr__queue-pulse" x="12" y="70" width="264" height="52" rx="6" fill="url(#hero-fns-reestr-q2)" stroke="#a31830" stroke-width="1.6"/>
-          <text x="22" y="88" fill="#a31830" font-size="8" font-weight="800">2</text>
-          <text x="38" y="86" fill="#0f172a" font-size="7" font-weight="700">зарплата · единый взнос ФНС</text>
-          <text x="38" y="100" fill="#a31830" font-size="6.5" font-weight="700">ОМС + соцстрах · абз. 3 п. 4 ст. 134</text>
-          <rect x="168" y="78" width="98" height="18" rx="4" fill="#a31830"/>
-          <text x="217" y="90" text-anchor="middle" fill="#fff" font-size="6" font-weight="700">ФНС · 2-я оч.</text>
-          <!-- 3-я очередь -->
-          <rect class="hero-arb-fns-reestr__queue-pulse hero-arb-fns-reestr__queue-pulse--2" x="12" y="128" width="264" height="36" rx="5" fill="url(#hero-fns-reestr-q3)" stroke="#94a3b8" stroke-width="1"/>
-          <text x="22" y="150" fill="#64748b" font-size="8" font-weight="700">3</text>
-          <text x="38" y="148" fill="#475569" font-size="6.5">банки · поставщики · пени</text>
-          <text x="38" y="158" fill="#94a3b8" font-size="6">конкурсная масса сужается</text>
-          <!-- строки реестра -->
-          <line x1="12" y1="172" x2="276" y2="172" stroke="#e2e8f0"/>
-          <rect x="12" y="178" width="80" height="6" rx="2" fill="#f1f5f9"/>
-          <rect x="98" y="178" width="64" height="6" rx="2" fill="#f1f5f9"/>
-          <rect x="168" y="178" width="108" height="6" rx="2" fill="#fef2f2"/>
+        <g class="hero-ip-sinergetik__doc-float" filter="url(#hero-sinergetik-shadow)" transform="translate(28, 118)">
+          <rect width="118" height="148" rx="10" fill="url(#hero-sinergetik-paper)" stroke="#1e3a8a" stroke-width="1.4"/>
+          <rect x="12" y="12" width="94" height="18" rx="4" fill="#1e3a8a"/>
+          <text x="59" y="24" text-anchor="middle" fill="#fff" font-size="7" font-weight="800">ПОСТАНОВЛЕНИЕ СИП</text>
+          <text x="59" y="48" text-anchor="middle" fill="#334155" font-size="7.5" font-weight="700">20.03.2026</text>
+          <text x="59" y="60" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">№ С01-1920/2025</text>
+          <line x1="16" y1="68" x2="102" y2="68" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="16" y1="82" x2="96" y2="82" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <rect x="16" y="92" width="86" height="44" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+          <text x="59" y="108" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="700">ст. 1515 · ст. 10</text>
+          <text x="59" y="120" text-anchor="middle" fill="#475569" font-size="6" font-weight="600">нет смешения</text>
+          <g class="hero-ip-sinergetik__cancel-stamp" transform="translate(14, 124)">
+            <ellipse cx="45" cy="12" rx="42" ry="11" fill="none" stroke="#1e3a8a" stroke-width="2" opacity="0.92"/>
+            <text x="45" y="16" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="800" letter-spacing="0.03em">766 МЛН ОТМЕНА</text>
+          </g>
         </g>
-        <!-- стрелка переноса 3 → 2 -->
-        <path class="hero-arb-fns-reestr__move-arrow" d="M118 248 Q80 210 52 168" fill="none" stroke="url(#hero-fns-reestr-red)" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#hero-fns-reestr-arrow-red)"/>
-        <text x="72" y="228" fill="#a31830" font-size="6" font-weight="700" transform="rotate(-38 72 228)">из 3-й</text>
-        <!-- ФНС vs кредиторы -->
-        <g transform="translate(36, 268)">
-          <rect class="hero-arb-fns-reestr__fns-glow" x="0" y="0" width="88" height="48" rx="8" fill="#fff" stroke="#a31830" stroke-width="1.6"/>
-          <text x="44" y="20" text-anchor="middle" fill="#a31830" font-size="9" font-weight="800">ФНС</text>
-          <text x="44" y="34" text-anchor="middle" fill="#64748b" font-size="6">УФНС · взносы</text>
-          <text x="118" y="26" text-anchor="middle" fill="#64748b" font-size="11" font-weight="800">VS</text>
-          <rect x="148" y="0" width="88" height="48" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1.4"/>
-          <text x="192" y="20" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="700">КРЕДИТОРЫ</text>
-          <text x="192" y="34" text-anchor="middle" fill="#64748b" font-size="6">3-я очередь</text>
-          <line x1="88" y1="24" x2="118" y2="24" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#hero-fns-reestr-arrow)"/>
-          <line x1="128" y1="24" x2="148" y2="24" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#hero-fns-reestr-arrow)"/>
+        <g transform="translate(318, 302)">
+          <rect width="108" height="56" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="1.1"/>
+          <text x="54" y="18" text-anchor="middle" fill="#64748b" font-size="6" font-weight="700">А43-1470/2024</text>
+          <text x="54" y="32" text-anchor="middle" fill="#94a3b8" font-size="5.5">1-я: отказ · апел.: 766 млн</text>
+          <path d="M28 40 L54 52 L80 40" fill="none" stroke="#1e3a8a" stroke-width="1.8" marker-end="none"/>
+          <text x="54" y="50" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="800">СИП → отказ сохранён</text>
         </g>
-        <!-- управляющий + арбитраж -->
-        <g transform="translate(248, 268)">
-          <rect x="0" y="0" width="76" height="44" rx="7" fill="#fff" stroke="#64748b" stroke-width="1.1"/>
-          <text x="38" y="18" text-anchor="middle" fill="#334155" font-size="6.5" font-weight="700">КУ</text>
-          <text x="38" y="32" text-anchor="middle" fill="#64748b" font-size="6">реестр</text>
-          <rect x="88" y="0" width="88" height="44" rx="7" fill="#fff" stroke="#0f172a" stroke-width="1.2"/>
-          <text x="132" y="18" text-anchor="middle" fill="#0f172a" font-size="6.5" font-weight="700">АРБИТРАЖ</text>
-          <text x="132" y="32" text-anchor="middle" fill="#64748b" font-size="6">включение · возражения</text>
+        <g transform="translate(368, 148)" opacity="0.92">
+          <rect x="0" y="28" width="8" height="36" rx="2" fill="#78350f"/>
+          <rect x="-14" y="18" width="36" height="14" rx="4" fill="url(#hero-sinergetik-gold)" stroke="#b45309"/>
         </g>
-        <!-- нижняя плашка -->
-        <g filter="url(#hero-fns-reestr-shadow)" transform="translate(28, 348)">
-          <rect width="404" height="44" rx="8" fill="#fff" stroke="#cbd5e1"/>
-          <rect x="0" y="0" width="6" height="44" rx="8" fill="#a31830"/>
-          <text x="210" y="20" text-anchor="middle" fill="#0f172a" font-size="7" font-weight="700">Единый тариф 2023 · обзор ВС № 5/2026 п. 3 · спор ФНС vs реестр</text>
-          <text x="210" y="34" text-anchor="middle" fill="#64748b" font-size="6.5">страховые взносы при банкротстве ООО · вторая очередь реестра</text>
-        </g>
+        <text x="230" y="398" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">упаковка целиком · смешение · компенсация · ответчик-бренд</text>
       </svg>
     </div>
   </div>
