@@ -2,7 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
-| 2026-06-03 | selected | UG | ВС 2026: ст. 199 УК — отмена приговора, 75 дней после решения ФНС, защита директора | vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026 | https://vsrf.ru/press_center/news/35926/ |
+| 2026-06-03 | published | UG | ВС 2026: ст. 199 УК — отмена приговора, 75 дней после решения ФНС, защита директора | vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026 | https://advokat-vsem.online/vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026/ |
 | 2026-06-03 | selected | IP | СИП 2026: досрочное прекращение ТЗ за неиспользование (СИП-75/2025, СИП-6/2026) — заинтересованность и бремя доказывания | sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026 | https://base.garant.ru/414010545/ |
 | 2026-06-03 | published | ARB | ВС vs ФНС: упрощённое банкротство «отсутствующего» при работающей компании (Альфа-Тех, А65-23306/2023) | uproshennoe-bankrotstvo-fns-otsutstvuyushchij-dolzhnik-vs | https://advokat-vsem.online/uproshennoe-bankrotstvo-fns-otsutstvuyushchij-dolzhnik-vs/ |
 | 2026-06-02 | published | UG | Пленум ВС № 48: мошенничество, криптовалюта, цифровые рубли, ст. 171.6 | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | https://advokat-vsem.online/plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita/ |

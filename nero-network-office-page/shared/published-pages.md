@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-06-03 | KIRILL-UG | vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026 | 441 | https://advokat-vsem.online/vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026/ |
 | 2026-06-03 | KIRILL-ARB | uproshennoe-bankrotstvo-fns-otsutstvuyushchij-dolzhnik-vs | 438 | https://advokat-vsem.online/uproshennoe-bankrotstvo-fns-otsutstvuyushchij-dolzhnik-vs/ |
 | 2026-06-02 | KIRILL-UG | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | 436 | https://advokat-vsem.online/plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita/ |
 | 2026-06-02 | KIRILL-IP | sip-sinergetik-766-mln-otmena-kompensaciya-tz | 434 | https://advokat-vsem.online/sip-sinergetik-766-mln-otmena-kompensaciya-tz/ |

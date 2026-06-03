@@ -88,3 +88,11 @@ SLUG: vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026
 H1_для_hero: ВС 2026: отмена приговора по ст. 199 — 75 дней после решения ФНС и защита директора
 ПОДЗАГОЛОВОК_HERO: Строительная фирма, 14 млн ₽ недоимки: почему ВС вернул дело и что проверить до возбуждения УД
 Следующий шаг: Дима (hero) / публикация WP
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+page_id: 441
+slug: vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026
+URL: https://advokat-vsem.online/vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026/
+blob_id: XDT4jVov8XP3Wp1CEm6FpIM
+blob_steps: 0–4 ok (sha256: 57d2dd6d91b5f6052333d727565a14c2ed34f9bf2faff5a357490de2430a33af)
+status: publish
