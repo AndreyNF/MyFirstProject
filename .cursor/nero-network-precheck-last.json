@@ -1,13 +1,10 @@
 {
   "action": "KIRILL",
-  "reason": "Все 16 строк очереди ✅ — опубликован KIRILL-UG слот 3",
+  "reason": "Все 16 строк очереди ✅ — следующий запуск: Кирилл (новость дня)",
   "exit_code": 0,
-  "cron_slot": 3,
-  "article_type": "UG",
-  "article_type_label": "уголовное право",
-  "cron_utc": "15:00",
-  "cron_msk": "18:00",
-  "slug": "plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita",
-  "page_id": 436,
-  "url": "https://advokat-vsem.online/plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita/"
+  "cron_slot": 1,
+  "article_type": "ARB",
+  "article_type_label": "арбитраж",
+  "cron_utc": "03:00",
+  "cron_msk": "06:00"
 }

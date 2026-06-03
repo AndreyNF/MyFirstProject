@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-06-03 | published | ARB | ВС vs ФНС: упрощённое банкротство «отсутствующего» при работающей компании (Альфа-Тех, А65-23306/2023) | uproshennoe-bankrotstvo-fns-otsutstvuyushchij-dolzhnik-vs | https://advokat-vsem.online/uproshennoe-bankrotstvo-fns-otsutstvuyushchij-dolzhnik-vs/ |
 | 2026-06-02 | published | UG | Пленум ВС № 48: мошенничество, криптовалюта, цифровые рубли, ст. 171.6 | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | https://advokat-vsem.online/plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita/ |
 | 2026-06-02 | published | ARB | ВС РФ (май 2026): страховые взносы ФНС во 2-ю очередь реестра при банкротстве | fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs | https://advokat-vsem.online/fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs/ |
 | 2026-06-01 | published | UG | Пленум ВС № 48: изменения по мошенничеству, криптовалюта и цифровые рубли (Тимошин, 22.05.2026) | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | https://advokat-vsem.online/plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita/ |
