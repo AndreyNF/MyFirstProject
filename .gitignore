@@ -63,6 +63,8 @@ scripts/b2_page384_upload.py
 .cursor/b1-args-only-*.json
 .cursor/sip-blob-chunks/
 .cursor/sip-blob-mcp/
+.cursor/st199-blob-mcp/
+.cursor/st199-chunks/
 .cursor/poizon-blob*/
 .cursor/poizon-blob-mcp-*.json
 .cursor/poizon-mcp-args/
