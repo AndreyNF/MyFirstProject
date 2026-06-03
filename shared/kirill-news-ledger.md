@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-06-03 | selected | IP | СИП 2026: досрочное прекращение ТЗ за неиспользование (СИП-75/2025, СИП-6/2026) — заинтересованность и бремя доказывания | sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026 | https://base.garant.ru/414010545/ |
 | 2026-06-03 | published | ARB | ВС vs ФНС: упрощённое банкротство «отсутствующего» при работающей компании (Альфа-Тех, А65-23306/2023) | uproshennoe-bankrotstvo-fns-otsutstvuyushchij-dolzhnik-vs | https://advokat-vsem.online/uproshennoe-bankrotstvo-fns-otsutstvuyushchij-dolzhnik-vs/ |
 | 2026-06-02 | published | UG | Пленум ВС № 48: мошенничество, криптовалюта, цифровые рубли, ст. 171.6 | plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita | https://advokat-vsem.online/plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita/ |
 | 2026-06-02 | published | ARB | ВС РФ (май 2026): страховые взносы ФНС во 2-ю очередь реестра при банкротстве | fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs | https://advokat-vsem.online/fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs/ |
