@@ -1,12 +1,31 @@
 === АЛИНА (HERO) ===
 Статус: ✅ ГОТОВО
 
-**Hero id:** `l24-hero-sip-sinergetik-766-mln`
+**Hero id / class:** `l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany`
+
+## Паспорт мира
+
+| Параметр | Значение |
+|----------|----------|
+| **Мир** | «Карточка маркетплейса под процессуальным щитом» — ИП-продавец на площадке отражает волну иска о компенсации, пока суд (ВС) требует проверить цепочку иностранного права и Указ № 322 |
+| **Центральная метафора** | Щит с символом ® перекрывает исковое требование (₽); за щитом — карточка товара; сбоку — абстрактный «паспорт иностранного правообладателя» (глобус + штриховка барьера, без флагов государств) |
+| **Пространство** | Светлый градиентный фон; SVG-сцена в «витрине» маркетплейса (сетка ячеек); вертикаль ВС — колонна с датой 05.06.2026, не фасад СИП |
+| **Движение** | Только CSS: пульс щита, мерцание барьера на глобусе, лёгкий дрейф цепочки «лицензия → цессия → иск»; `prefers-reduced-motion` отключает |
+| **Палитра** | `#0f172a` текст, `#1e3a8a` акцент ВС/ТЗ, `#475569` подзаголовок, `#a31830` угроза иска, `#f8fafc`–`#f2f5f9` фон |
+| **Аудитория** | ИП и селлеры на маркетплейсах, получившие претензию/иск от цессионария по иностранному ТЗ |
+
+## Чеклист отличий от других hero
+
+- [x] **Не POIZON** (`hero-ip-poizon-sip`): нет маршрута «Роспатент → СИП → аннулирование регистрации» и китайского бренда; фокус — **ответ на иск о компенсации**, не оспаривание регистрации
+- [x] **Не Синергетик** (`hero-ip-sinergetik`): нет весов СИП, упаковки FMCG и штампа «766 млн отмена»; инстанция — **ВС 05.06.2026**, не постановление СИП
+- [x] **Уникальная сцена**: маркетплейс-карточка + щит ® + абстрактный глобус-барьер (недружественность) + цепочка лицензия→цессия→иск + свиток Указа № 322
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
+- [x] Свой `id`/`class`: `l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany`
 
 ```html
-<section id="l24-hero-sip-sinergetik-766-mln" class="hero-ip-sinergetik" aria-label="СИП отменил взыскание 766 млн ₽ с «Синергетик» по товарному знаку «Я люблю свою семью»">
+<section id="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany" class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany" aria-label="ВС 2026: защита от компенсации за товарный знак иностранца из недружественной страны">
   <style>
-    .hero-ip-sinergetik {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany {
       position: relative;
       min-height: 88vh;
       min-height: 88dvh;
@@ -14,72 +33,72 @@
       display: flex;
       align-items: center;
       padding: 112px 24px 72px;
-      background: linear-gradient(158deg, #fcfcfd 0%, #f6f8fb 40%, #f2f5f9 100%);
+      background: linear-gradient(152deg, #fefefe 0%, #f7f9fc 38%, #f1f5f9 100%);
       color: #0f172a;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .hero-ip-sinergetik::before {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 50% 42% at 88% 8%, rgba(30, 58, 138, 0.08) 0%, transparent 58%),
-        radial-gradient(ellipse 38% 36% at 4% 92%, rgba(163, 24, 48, 0.05) 0%, transparent 52%);
+        radial-gradient(ellipse 46% 40% at 92% 6%, rgba(30, 58, 138, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 34% 32% at 6% 88%, rgba(163, 24, 48, 0.04) 0%, transparent 50%);
       pointer-events: none;
     }
-    .hero-ip-sinergetik__inner {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__inner {
       position: relative;
       z-index: 1;
       max-width: 1200px;
       margin: 0 auto;
       width: 100%;
       display: grid;
-      grid-template-columns: 1.02fr 0.98fr;
+      grid-template-columns: 1.04fr 0.96fr;
       gap: 44px;
       align-items: center;
     }
-    .hero-ip-sinergetik__badge {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
       margin: 0 0 18px;
       padding: 8px 14px;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.94);
+      background: rgba(255, 255, 255, 0.95);
       border: 1px solid rgba(15, 23, 42, 0.1);
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       font-weight: 600;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.04em;
       text-transform: uppercase;
       color: #334155;
     }
-    .hero-ip-sinergetik__badge-mark {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__badge-mark {
       width: 8px;
       height: 8px;
       border-radius: 50%;
       background: #1e3a8a;
       flex-shrink: 0;
     }
-    .hero-ip-sinergetik__h1 {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__h1 {
       margin: 0 0 18px;
-      font-size: clamp(1.48rem, 3.4vw, 2.28rem);
+      font-size: clamp(1.46rem, 3.3vw, 2.26rem);
       line-height: 1.22;
       font-weight: 800;
       color: #0f172a;
       letter-spacing: -0.02em;
     }
-    .hero-ip-sinergetik__h1-accent {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__h1-accent {
       color: #1e3a8a;
     }
-    .hero-ip-sinergetik__sub {
-      margin: 0 0 28px;
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__sub {
+      margin: 0 0 26px;
       max-width: 42em;
-      font-size: clamp(0.98rem, 1.5vw, 1.1rem);
+      font-size: clamp(0.98rem, 1.48vw, 1.1rem);
       line-height: 1.58;
       color: #475569;
     }
-    .hero-ip-sinergetik__facts {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__facts {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
@@ -87,8 +106,8 @@
       padding: 0;
       list-style: none;
     }
-    .hero-ip-sinergetik__fact {
-      font-size: 0.78rem;
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact {
+      font-size: 0.76rem;
       font-weight: 700;
       padding: 7px 12px;
       border-radius: 8px;
@@ -96,12 +115,17 @@
       border: 1px solid #e2e8f0;
       color: #334155;
     }
-    .hero-ip-sinergetik__fact--accent {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact--accent {
       border-color: #bfdbfe;
       color: #1e3a8a;
       background: #eff6ff;
     }
-    .hero-ip-sinergetik__cta {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact--warn {
+      border-color: #fecaca;
+      color: #991b1b;
+      background: #fef2f2;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__cta {
       display: inline-block;
       background: #a31830;
       color: #fff !important;
@@ -110,216 +134,216 @@
       font-weight: 700;
       font-size: 0.95rem;
       text-decoration: none;
-      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
       line-height: 1.35;
     }
-    .hero-ip-sinergetik__cta:hover {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__cta:hover {
       background: #8b1528;
     }
-    .hero-ip-sinergetik__visual {
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
     @media (prefers-reduced-motion: no-preference) {
-      .hero-ip-sinergetik__scale-left {
-        animation: hero-sinergetik-tilt 5s ease-in-out infinite;
-        transform-origin: 220px 198px;
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__shield-pulse {
+        animation: hero-vs322-shield 4.2s ease-in-out infinite;
       }
-      .hero-ip-sinergetik__scale-right {
-        animation: hero-sinergetik-tilt 5s ease-in-out infinite reverse;
-        transform-origin: 220px 198px;
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__barrier-blink {
+        animation: hero-vs322-barrier 3.6s ease-in-out infinite;
       }
-      .hero-ip-sinergetik__cancel-stamp {
-        animation: hero-sinergetik-stamp 4.2s ease-in-out infinite;
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__chain-flow {
+        animation: hero-vs322-chain 5s ease-in-out infinite;
       }
-      .hero-ip-sinergetik__beam {
-        animation: hero-sinergetik-beam 3.8s ease-in-out infinite;
-      }
-      .hero-ip-sinergetik__doc-float {
-        animation: hero-sinergetik-float 4.6s ease-in-out infinite;
-      }
-      .hero-ip-sinergetik__heart-pulse {
-        animation: hero-sinergetik-heart 3.2s ease-in-out infinite;
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__claim-wave {
+        animation: hero-vs322-wave 3.8s ease-in-out infinite;
       }
     }
-    @keyframes hero-sinergetik-tilt {
-      0%, 100% { transform: rotate(-3deg); }
-      50% { transform: rotate(4deg); }
+    @keyframes hero-vs322-shield {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.03); opacity: 0.94; }
     }
-    @keyframes hero-sinergetik-stamp {
-      0%, 100% { opacity: 0.85; transform: scale(1); }
-      50% { opacity: 1; transform: scale(1.05); }
+    @keyframes hero-vs322-barrier {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 0.88; }
     }
-    @keyframes hero-sinergetik-beam {
-      0%, 100% { opacity: 0.32; }
-      50% { opacity: 0.58; }
+    @keyframes hero-vs322-chain {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(4px); }
     }
-    @keyframes hero-sinergetik-float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
-    }
-    @keyframes hero-sinergetik-heart {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.08); }
+    @keyframes hero-vs322-wave {
+      0%, 100% { opacity: 0.35; transform: translateX(0); }
+      50% { opacity: 0.62; transform: translateX(-6px); }
     }
     @media (prefers-reduced-motion: reduce) {
-      .hero-ip-sinergetik__scale-left,
-      .hero-ip-sinergetik__scale-right,
-      .hero-ip-sinergetik__cancel-stamp,
-      .hero-ip-sinergetik__beam,
-      .hero-ip-sinergetik__doc-float,
-      .hero-ip-sinergetik__heart-pulse {
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__shield-pulse,
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__barrier-blink,
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__chain-flow,
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__claim-wave {
         animation: none !important;
       }
     }
     @media (max-width: 900px) {
-      .hero-ip-sinergetik {
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany {
         min-height: auto;
         padding: 96px 20px 56px;
       }
-      .hero-ip-sinergetik__inner {
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__inner {
         grid-template-columns: 1fr;
         gap: 30px;
       }
-      .hero-ip-sinergetik__visual {
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__visual {
         order: -1;
-        max-height: 310px;
+        max-height: 320px;
       }
     }
   </style>
-  <div class="hero-ip-sinergetik__inner">
-    <div class="hero-ip-sinergetik__content">
-      <div class="hero-ip-sinergetik__badge">
-        <span class="hero-ip-sinergetik__badge-mark" aria-hidden="true"></span>
-        СИП · Синергетик · компенсация · 20.03.2026
+  <div class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__inner">
+    <div class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__content">
+      <div class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__badge">
+        <span class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__badge-mark" aria-hidden="true"></span>
+        ВС · 05.06.2026 · Указ № 322 · маркетплейс
       </div>
-      <h1 class="hero-ip-sinergetik__h1">
-        <span class="hero-ip-sinergetik__h1-accent">СИП отменил взыскание 766 млн ₽</span> с «Синергетик» по товарному знаку «Я люблю свою семью»
+      <h1 class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__h1">
+        <span class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__h1-accent">ВС разъяснил защиту от компенсации</span> за товарный знак иностранца из недружественной страны
       </h1>
-      <p class="hero-ip-sinergetik__sub">
-        Постановление от 20.03.2026 по делу № А43-1470/2024: компенсация, смешение и злоупотребление правом — урок для бренда на упаковке
+      <p class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__sub">
+        ИП на маркетплейсе оспорил иск о «сходном» обозначении — коллегия ВС указала, что суды обязаны проверить недружественные действия правообладателя по Указу № 322
       </p>
-      <ul class="hero-ip-sinergetik__facts">
-        <li class="hero-ip-sinergetik__fact hero-ip-sinergetik__fact--accent">766 050 650 ₽ отменено</li>
-        <li class="hero-ip-sinergetik__fact">дело А43-1470/2024</li>
-        <li class="hero-ip-sinergetik__fact">ТЗ № 312760</li>
+      <ul class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__facts">
+        <li class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact--accent">пп. «в» п. 17 Указа № 322</li>
+        <li class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact">лицензия → цессия → иск</li>
+        <li class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact--warn">сходное обозначение · ИП</li>
       </ul>
-      <a class="hero-ip-sinergetik__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на иск по товарному знаку</a>
+      <a class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация: ответ на иск по товарному знаку</a>
     </div>
-    <div class="hero-ip-sinergetik__visual" aria-hidden="true">
-      <svg viewBox="0 0 460 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:460px" role="img" aria-label="СИП: весы правосудия — этикетка со слоганом и сердцем против свидетельства товарного знака, отмена компенсации 766 млн">
+    <div class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__visual" aria-hidden="true">
+      <svg viewBox="0 0 480 430" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Маркетплейс: карточка ИП под щитом товарного знака, иск о компенсации отражён, абстрактный символ недружественной юрисдикции и Указ № 322">
         <defs>
-          <linearGradient id="hero-sinergetik-chamber" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-vs322-bg" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#f8fafc"/>
             <stop offset="100%" stop-color="#e8edf4"/>
           </linearGradient>
-          <linearGradient id="hero-sinergetik-sip-wall" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#1e3a8a"/>
-            <stop offset="100%" stop-color="#0f2744"/>
+          <linearGradient id="hero-vs322-mp" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#a855f7"/>
+            <stop offset="50%" stop-color="#2563eb"/>
+            <stop offset="100%" stop-color="#0ea5e9"/>
           </linearGradient>
-          <linearGradient id="hero-sinergetik-gold" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#fde68a"/>
-            <stop offset="100%" stop-color="#d97706"/>
+          <linearGradient id="hero-vs322-shield" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#3b82f6"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
           </linearGradient>
-          <linearGradient id="hero-sinergetik-cert" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#fffbeb"/>
-            <stop offset="100%" stop-color="#fef3c7"/>
-          </linearGradient>
-          <linearGradient id="hero-sinergetik-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-vs322-card" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#ffffff"/>
             <stop offset="100%" stop-color="#f1f5f9"/>
           </linearGradient>
-          <linearGradient id="hero-sinergetik-label" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#ecfdf5"/>
-            <stop offset="100%" stop-color="#d1fae5"/>
+          <linearGradient id="hero-vs322-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fffbeb"/>
+            <stop offset="100%" stop-color="#fef3c7"/>
           </linearGradient>
-          <linearGradient id="hero-sinergetik-blue" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#1e3a8a"/>
-            <stop offset="100%" stop-color="#1e40af"/>
+          <linearGradient id="hero-vs322-vs" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e40af"/>
+            <stop offset="100%" stop-color="#0f2744"/>
           </linearGradient>
-          <filter id="hero-sinergetik-shadow" x="-12%" y="-12%" width="124%" height="124%">
-            <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.14"/>
-          </filter>
-          <pattern id="hero-sinergetik-marble" width="24" height="24" patternUnits="userSpaceOnUse">
-            <rect width="24" height="24" fill="#f1f5f9"/>
-            <path d="M0 12 Q6 6 12 12 T24 12" fill="none" stroke="#e2e8f0" stroke-width="0.5" opacity="0.6"/>
+          <pattern id="hero-vs322-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect width="20" height="20" fill="#f1f5f9"/>
+            <rect x="0" y="0" width="9" height="9" rx="2" fill="#e2e8f0" opacity="0.7"/>
+            <rect x="11" y="11" width="9" height="9" rx="2" fill="#e2e8f0" opacity="0.5"/>
           </pattern>
+          <pattern id="hero-vs322-barrier" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <rect width="8" height="8" fill="#fef2f2"/>
+            <line x1="0" y1="0" x2="0" y2="8" stroke="#f87171" stroke-width="2.5"/>
+          </pattern>
+          <filter id="hero-vs322-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.12"/>
+          </filter>
         </defs>
-        <rect x="10" y="12" width="440" height="396" rx="18" fill="url(#hero-sinergetik-chamber)" stroke="#cbd5e1" stroke-width="1.2"/>
-        <rect x="10" y="12" width="440" height="396" rx="18" fill="url(#hero-sinergetik-marble)" opacity="0.35"/>
-        <g transform="translate(130, 22)">
-          <rect x="0" y="36" width="200" height="52" rx="4" fill="url(#hero-sinergetik-sip-wall)"/>
-          <polygon points="100,0 200,36 0,36" fill="#1e40af"/>
-          <rect x="24" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
-          <rect x="86" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
-          <rect x="148" y="52" width="28" height="28" rx="2" fill="rgba(255,255,255,0.15)"/>
-          <text x="100" y="78" text-anchor="middle" fill="#e2e8f0" font-size="7.5" font-weight="700" letter-spacing="0.1em">СУД ПО ИНТЕЛЛЕКТУАЛЬНЫМ ПРАВАМ</text>
+        <rect x="8" y="10" width="464" height="410" rx="18" fill="url(#hero-vs322-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <rect x="8" y="10" width="464" height="410" rx="18" fill="url(#hero-vs322-grid)" opacity="0.45"/>
+        <rect x="24" y="26" width="168" height="28" rx="8" fill="#fff" stroke="#e2e8f0"/>
+        <circle cx="42" cy="40" r="6" fill="url(#hero-vs322-mp)"/>
+        <rect x="54" y="34" width="72" height="6" rx="3" fill="#cbd5e1"/>
+        <rect x="54" y="44" width="48" height="4" rx="2" fill="#e2e8f0"/>
+        <text x="148" y="44" text-anchor="end" fill="#64748b" font-size="7" font-weight="700">МАРКЕТПЛЕЙС</text>
+        <g filter="url(#hero-vs322-shadow)" transform="translate(36, 68)">
+          <rect width="132" height="168" rx="12" fill="url(#hero-vs322-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="10" y="10" width="112" height="72" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+          <rect x="18" y="22" width="56" height="8" rx="3" fill="#94a3b8" opacity="0.5"/>
+          <rect x="18" y="36" width="88" height="6" rx="2" fill="#cbd5e1"/>
+          <rect x="18" y="48" width="72" height="6" rx="2" fill="#e2e8f0"/>
+          <rect x="10" y="90" width="36" height="14" rx="4" fill="#dbeafe" stroke="#93c5fd"/>
+          <text x="28" y="100" text-anchor="middle" fill="#1e40af" font-size="7" font-weight="800">ИП</text>
+          <text x="66" y="100" fill="#334155" font-size="7" font-weight="700">селлер</text>
+          <text x="66" y="118" fill="#64748b" font-size="6.5" font-weight="600">«сходное» имя</text>
+          <text x="66" y="132" fill="#94a3b8" font-size="6">карточка товара</text>
+          <rect x="10" y="142" width="52" height="16" rx="4" fill="#1e3a8a"/>
+          <text x="36" y="153" text-anchor="middle" fill="#fff" font-size="7.5" font-weight="800">1 290 ₽</text>
+          <circle cx="118" cy="150" r="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+          <path d="M114 150 L117 153 L122 147" fill="none" stroke="#64748b" stroke-width="1.5"/>
         </g>
-        <polygon class="hero-ip-sinergetik__beam" points="230,88 180,200 280,200" fill="#dbeafe" opacity="0.45"/>
-        <g filter="url(#hero-sinergetik-shadow)">
-          <rect x="208" y="168" width="24" height="118" rx="3" fill="url(#hero-sinergetik-gold)" stroke="#b45309" stroke-width="1"/>
-          <rect x="196" y="158" width="48" height="14" rx="4" fill="#92400e"/>
-          <line x1="220" y1="172" x2="220" y2="198" stroke="#78350f" stroke-width="3"/>
-          <g class="hero-ip-sinergetik__scale-left">
-            <line x1="220" y1="198" x2="118" y2="218" stroke="#78350f" stroke-width="2.5"/>
-            <ellipse cx="118" cy="232" rx="52" ry="8" fill="#fde68a" stroke="#d97706" stroke-width="1.2"/>
-            <g transform="translate(66, 238)">
-              <rect width="104" height="88" rx="10" fill="url(#hero-sinergetik-label)" stroke="#059669" stroke-width="1.4"/>
-              <rect x="8" y="8" width="88" height="14" rx="3" fill="#047857"/>
-              <text x="52" y="18" text-anchor="middle" fill="#ecfdf5" font-size="6.5" font-weight="800" letter-spacing="0.04em">SYNERGETIC</text>
-              <rect x="10" y="28" width="84" height="36" rx="4" fill="#fff" stroke="#a7f3d0" stroke-width="0.8"/>
-              <text x="52" y="42" text-anchor="middle" fill="#334155" font-size="7" font-weight="600">я</text>
-              <g class="hero-ip-sinergetik__heart-pulse" transform="translate(44, 34)">
-                <path d="M8 14 C8 8 14 6 16 10 C18 6 24 8 24 14 C24 20 16 26 16 26 C16 26 8 20 8 14 Z" fill="#dc2626" stroke="#b91c1c" stroke-width="0.6"/>
-              </g>
-              <text x="52" y="58" text-anchor="middle" fill="#334155" font-size="6.5" font-weight="700">свою семью!</text>
-              <text x="52" y="78" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">упаковка · FMCG</text>
-            </g>
-          </g>
-          <g class="hero-ip-sinergetik__scale-right">
-            <line x1="220" y1="198" x2="322" y2="228" stroke="#78350f" stroke-width="2.5"/>
-            <ellipse cx="322" cy="242" rx="52" ry="8" fill="#fde68a" stroke="#d97706" stroke-width="1.2"/>
-            <g transform="translate(270, 248)">
-              <rect width="104" height="80" rx="8" fill="url(#hero-sinergetik-cert)" stroke="#d97706" stroke-width="1.2"/>
-              <rect x="0" y="0" width="104" height="16" rx="8" fill="url(#hero-sinergetik-blue)"/>
-              <text x="52" y="11" text-anchor="middle" fill="#e2e8f0" font-size="5.5" font-weight="800" letter-spacing="0.06em">ТОВАРНЫЙ ЗНАК РФ</text>
-              <text x="52" y="32" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">Я ЛЮБЛЮ СВОЮ</text>
-              <text x="52" y="42" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">СЕМЬЮ</text>
-              <text x="52" y="54" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">№ 312760</text>
-              <line x1="14" y1="60" x2="90" y2="60" stroke="#fcd34d" stroke-width="1.5"/>
-              <line x1="14" y1="68" x2="72" y2="68" stroke="#fcd34d" stroke-width="1.5"/>
-            </g>
-          </g>
+        <g class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__shield-pulse" filter="url(#hero-vs322-shadow)" transform="translate(148, 118)">
+          <path d="M72 0 L144 28 L144 88 C144 128 108 158 72 172 C36 158 0 128 0 88 L0 28 Z" fill="url(#hero-vs322-shield)" stroke="#1e40af" stroke-width="2"/>
+          <circle cx="72" cy="72" r="28" fill="rgba(255,255,255,0.18)"/>
+          <text x="72" y="80" text-anchor="middle" fill="#fff" font-size="28" font-weight="800">®</text>
+          <text x="72" y="108" text-anchor="middle" fill="#dbeafe" font-size="6.5" font-weight="700" letter-spacing="0.06em">ЗАЩИТА ТЗ</text>
         </g>
-        <g class="hero-ip-sinergetik__doc-float" filter="url(#hero-sinergetik-shadow)" transform="translate(28, 118)">
-          <rect width="118" height="148" rx="10" fill="url(#hero-sinergetik-paper)" stroke="#1e3a8a" stroke-width="1.4"/>
-          <rect x="12" y="12" width="94" height="18" rx="4" fill="#1e3a8a"/>
-          <text x="59" y="24" text-anchor="middle" fill="#fff" font-size="7" font-weight="800">ПОСТАНОВЛЕНИЕ СИП</text>
-          <text x="59" y="48" text-anchor="middle" fill="#334155" font-size="7.5" font-weight="700">20.03.2026</text>
-          <text x="59" y="60" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">№ С01-1920/2025</text>
-          <line x1="16" y1="68" x2="102" y2="68" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
-          <line x1="16" y1="82" x2="96" y2="82" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
-          <rect x="16" y="92" width="86" height="44" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
-          <text x="59" y="108" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="700">ст. 1515 · ст. 10</text>
-          <text x="59" y="120" text-anchor="middle" fill="#475569" font-size="6" font-weight="600">нет смешения</text>
-          <g class="hero-ip-sinergetik__cancel-stamp" transform="translate(14, 124)">
-            <ellipse cx="45" cy="12" rx="42" ry="11" fill="none" stroke="#1e3a8a" stroke-width="2" opacity="0.92"/>
-            <text x="45" y="16" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="800" letter-spacing="0.03em">766 МЛН ОТМЕНА</text>
-          </g>
+        <g class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__claim-wave" transform="translate(268, 96)">
+          <rect width="108" height="130" rx="10" fill="#fff" stroke="#fca5a5" stroke-width="1.4" stroke-dasharray="6 4"/>
+          <rect x="0" y="0" width="108" height="18" rx="10" fill="#991b1b"/>
+          <text x="54" y="12" text-anchor="middle" fill="#fef2f2" font-size="6.5" font-weight="800">ИСК · КОМПЕНСАЦИЯ</text>
+          <text x="54" y="38" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">нарушение ТЗ</text>
+          <text x="54" y="54" text-anchor="middle" fill="#64748b" font-size="6">сходное обозначение</text>
+          <text x="54" y="78" text-anchor="middle" fill="#a31830" font-size="11" font-weight="800">до 10 млн ₽</text>
+          <line x1="18" y1="88" x2="90" y2="88" stroke="#fecaca" stroke-width="2"/>
+          <line x1="22" y1="100" x2="86" y2="116" stroke="#dc2626" stroke-width="2.5"/>
+          <line x1="86" y1="100" x2="22" y2="116" stroke="#dc2626" stroke-width="2.5"/>
+          <text x="54" y="128" text-anchor="middle" fill="#991b1b" font-size="6" font-weight="700">отражён щитом</text>
         </g>
-        <g transform="translate(318, 302)">
-          <rect width="108" height="56" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="1.1"/>
-          <text x="54" y="18" text-anchor="middle" fill="#64748b" font-size="6" font-weight="700">А43-1470/2024</text>
-          <text x="54" y="32" text-anchor="middle" fill="#94a3b8" font-size="5.5">1-я: отказ · апел.: 766 млн</text>
-          <path d="M28 40 L54 52 L80 40" fill="none" stroke="#1e3a8a" stroke-width="1.8" marker-end="none"/>
-          <text x="54" y="50" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="800">СИП → отказ сохранён</text>
+        <g transform="translate(318, 248)">
+          <rect width="88" height="112" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
+          <rect x="0" y="0" width="88" height="22" rx="8" fill="#f1f5f9"/>
+          <text x="44" y="14" text-anchor="middle" fill="#475569" font-size="5.5" font-weight="800" letter-spacing="0.08em">ИНОСТР. ПРАВО</text>
+          <circle cx="44" cy="52" r="22" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.2"/>
+          <ellipse cx="44" cy="52" rx="22" ry="14" fill="none" stroke="#64748b" stroke-width="1"/>
+          <line x1="22" y1="52" x2="66" y2="52" stroke="#64748b" stroke-width="0.8"/>
+          <path d="M44 30 Q58 52 44 74 Q30 52 44 30" fill="none" stroke="#64748b" stroke-width="0.8"/>
+          <rect x="24" y="38" width="40" height="28" rx="4" fill="url(#hero-vs322-barrier)" class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__barrier-blink" opacity="0.75"/>
+          <text x="44" y="88" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">недружеств.</text>
+          <text x="44" y="98" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">юрисдикция</text>
+          <rect x="14" y="104" width="60" height="3" rx="1.5" fill="#cbd5e1"/>
         </g>
-        <g transform="translate(368, 148)" opacity="0.92">
-          <rect x="0" y="28" width="8" height="36" rx="2" fill="#78350f"/>
-          <rect x="-14" y="18" width="36" height="14" rx="4" fill="url(#hero-sinergetik-gold)" stroke="#b45309"/>
+        <g class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__chain-flow" transform="translate(24, 262)">
+          <rect x="0" y="0" width="56" height="40" rx="6" fill="url(#hero-vs322-paper)" stroke="#d97706" stroke-width="1"/>
+          <text x="28" y="16" text-anchor="middle" fill="#92400e" font-size="5.5" font-weight="800">ЛИЦЕНЗИЯ</text>
+          <text x="28" y="28" text-anchor="middle" fill="#78716c" font-size="5">исключит.</text>
+          <path d="M58 20 H78" stroke="#64748b" stroke-width="1.5" marker-end="none"/>
+          <polygon points="78,16 86,20 78,24" fill="#64748b"/>
+          <rect x="88" y="0" width="56" height="40" rx="6" fill="url(#hero-vs322-paper)" stroke="#d97706" stroke-width="1"/>
+          <text x="116" y="16" text-anchor="middle" fill="#92400e" font-size="5.5" font-weight="800">ЦЕССИЯ</text>
+          <text x="116" y="28" text-anchor="middle" fill="#78716c" font-size="5">требование</text>
+          <path d="M146 20 H166" stroke="#64748b" stroke-width="1.5"/>
+          <polygon points="166,16 174,20 166,24" fill="#a31830"/>
+          <rect x="176" y="0" width="56" height="40" rx="6" fill="#fef2f2" stroke="#f87171" stroke-width="1"/>
+          <text x="204" y="16" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="800">ИСК</text>
+          <text x="204" y="28" text-anchor="middle" fill="#b91c1c" font-size="5">к ИП</text>
         </g>
-        <text x="230" y="398" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">упаковка целиком · смешение · компенсация · ответчик-бренд</text>
+        <g filter="url(#hero-vs322-shadow)" transform="translate(248, 28)">
+          <rect x="0" y="34" width="96" height="44" rx="4" fill="url(#hero-vs322-vs)"/>
+          <polygon points="48,0 96,34 0,34" fill="#1e40af"/>
+          <rect x="14" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
+          <rect x="40" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
+          <rect x="66" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
+          <text x="48" y="68" text-anchor="middle" fill="#e2e8f0" font-size="6" font-weight="800" letter-spacing="0.06em">ВЕРХОВНЫЙ СУД</text>
+          <text x="48" y="92" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">05.06.2026</text>
+        </g>
+        <g filter="url(#hero-vs322-shadow)" transform="translate(248, 358)">
+          <rect width="148" height="52" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+          <rect x="0" y="0" width="148" height="16" rx="8" fill="#1e3a8a"/>
+          <text x="74" y="11" text-anchor="middle" fill="#fff" font-size="6" font-weight="800">УКАЗ ПРЕЗИДЕНТА № 322</text>
+          <text x="74" y="30" text-anchor="middle" fill="#334155" font-size="6.5" font-weight="700">пп. «в» п. 17 — проверка</text>
+          <text x="74" y="42" text-anchor="middle" fill="#64748b" font-size="6">недружественных действий правообладателя</text>
+        </g>
+        <text x="240" y="418" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">маркетплейс · щит ТЗ · иностранное право · ответ на иск · не аннулирование регистрации</text>
       </svg>
     </div>
   </div>
