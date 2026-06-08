@@ -35,6 +35,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 15 | B1 | ARB | Арбитражный процессуальный срок: как не пропустить подачу и возражения | arbitrazhnyj-processualnyj-srok-podacha | ✅ page_id 419 |
 | 16 | B2 | IP | Иск о защите интеллектуальной собственности против вас: пошаговый план ответа | isk-o-zashchite-is-protiv-vas-plan-otveta | ✅ page_id 384 |
 | 17 | B3 | IP | POIZON в СИП: как суд признал товарный знак недействительным (Кирилл, май 2026) | poizon-tovarnyj-znak-sip-osporenie-registracii | ✅ page_id 422 |
+| 18 | B4 | IP | ВС: защита от компенсации за ТЗ иностранца из недружественной страны (Кирилл, июнь 2026) | vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany | ✅ page_id 443 |
 
 > Канонический URL A3 на проде: `srok-vozrazhenij-30-vs-15-mify` (без «dnej» в slug).  
 > Типы и углы: `article-types-legis24.md`.
