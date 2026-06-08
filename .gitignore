@@ -69,6 +69,9 @@ scripts/b2_page384_upload.py
 .cursor/poizon-blob-mcp-*.json
 .cursor/poizon-mcp-args/
 .cursor/vs-obzor-*
+.cursor/vs-komp-blob-mcp/
+.cursor/MCP-APPEND-STEP*.json
+.cursor/LAST-MCP-STEP*.json
 scripts/poizon_upload_via_mcp.py
 scripts/vs_obzor_*
 .cursor/tmp-mcp*.json
