@@ -1910,3 +1910,1242 @@ H1_КАНДИДАТ: ВС разъяснил защиту от компенса�
 - [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
 - [x] Тёмная панель — контраст со светлым hero Алины (IP, маркетплейс)
 - [x] Сплит «цепочка права + инстанции | чек-лист пп. «в» п. 17 и Указа № 322»
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** `vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany`
+**Файл:** `.cursor/page-content-natasha-vs-kompensaciya.html`
+**Размер:** 109.9 KB (86710 символов)
+
+### Передача Юре
+**Title:** ВС 2026: защита от компенсации за ТЗ из недружественной страны
+**Description:** ВС разъяснил: при иске о компенсации за нарушение товарного знака суды проверяют Указ № 322. Как ИП на маркетплейсе оспорить иск иностранного правообладателя.
+**slug:** `vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany`
+**page_id:** `PLACEHOLDER` (заполнить после wordpress_create_page)
+
+**Публикация:** `commands/nero-publish-mcp.md` — blob flow; без `<script>` и `<canvas>` (hero Алины и блок Бориса — static SVG + inline CSS).
+**JSON-LD:** скрытый FAQPage в `<pre class="l24-jsonld-vs">`; дублировать в Rank Math при необходимости.
+
+**Проверка live:**
+- `main#primary` + класс `vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page`
+- hero `#l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany`
+- блок Бориса `#l24-boris-vs-kompensaciya-ukaz322` после H2 «Указ № 322»
+- breadcrumbs скрыты; CTA только `https://advokat-vsem.ru/`
+- нет `<script>` / `<canvas>`
+
+```html
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section,
+.entry-title, .main_title, h1.entry-title { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page th, .vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page th { background: #edf2f7; }
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page a { color: #1e40af; }
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page ol, .vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page ul { margin: 1em 0; padding-left: 1.4em; }
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page li { margin-bottom: 0.45em; }
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page blockquote {
+  margin: 1.25em 0; padding: 14px 18px; border-left: 4px solid #1e3a8a;
+  background: #f8fafc; color: #334155; font-size: 0.98rem;
+}
+.vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page pre {
+  margin: 1.25em 0; padding: 14px 16px; background: #f1f5f9;
+  border: 1px solid #e2e8f0; border-radius: 8px; font-size: 0.85rem;
+  overflow-x: auto; line-height: 1.45;
+}
+.l24-intro-vs {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-vs__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-vs__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-vs__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-vs__text p:last-child { margin-bottom: 0; }
+.l24-intro-vs__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-vs__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-vs__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+.l24-intro-vs__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-vs__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-vs__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-vs__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list { list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq > h2 { margin-top: 0 !important; }
+.l24-faq__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq__a { margin: 0; color: #334155; }
+.l24-jsonld-vs { display: none !important; }
+@media (max-width: 900px) {
+  .l24-intro-vs__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="ВС 2026: защита от компенсации за ТЗ из недружественной страны">
+<meta itemprop="description" content="ВС разъяснил: при иске о компенсации за нарушение товарного знака суды проверяют Указ № 322. Как ИП на маркетплейсе оспорить иск иностранного правообладателя.">
+<meta itemprop="inLanguage" content="ru-RU">
+<section id="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany" class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany" aria-label="ВС 2026: защита от компенсации за товарный знак иностранца из недружественной страны">
+  <style>
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(152deg, #fefefe 0%, #f7f9fc 38%, #f1f5f9 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 46% 40% at 92% 6%, rgba(30, 58, 138, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 34% 32% at 6% 88%, rgba(163, 24, 48, 0.04) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e3a8a;
+      flex-shrink: 0;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.46rem, 3.3vw, 2.26rem);
+      line-height: 1.22;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__h1-accent {
+      color: #1e3a8a;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__sub {
+      margin: 0 0 26px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.48vw, 1.1rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 26px;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact--accent {
+      border-color: #bfdbfe;
+      color: #1e3a8a;
+      background: #eff6ff;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact--warn {
+      border-color: #fecaca;
+      color: #991b1b;
+      background: #fef2f2;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+      line-height: 1.35;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__cta:hover {
+      background: #8b1528;
+    }
+    .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__shield-pulse {
+        animation: hero-vs322-shield 4.2s ease-in-out infinite;
+      }
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__barrier-blink {
+        animation: hero-vs322-barrier 3.6s ease-in-out infinite;
+      }
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__chain-flow {
+        animation: hero-vs322-chain 5s ease-in-out infinite;
+      }
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__claim-wave {
+        animation: hero-vs322-wave 3.8s ease-in-out infinite;
+      }
+    }
+    @keyframes hero-vs322-shield {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.03); opacity: 0.94; }
+    }
+    @keyframes hero-vs322-barrier {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 0.88; }
+    }
+    @keyframes hero-vs322-chain {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(4px); }
+    }
+    @keyframes hero-vs322-wave {
+      0%, 100% { opacity: 0.35; transform: translateX(0); }
+      50% { opacity: 0.62; transform: translateX(-6px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__shield-pulse,
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__barrier-blink,
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__chain-flow,
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__claim-wave {
+        animation: none !important;
+      }
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__visual {
+        order: -1;
+        max-height: 320px;
+      }
+    }
+  </style>
+  <div class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__inner">
+    <div class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__content">
+      <div class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__badge">
+        <span class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__badge-mark" aria-hidden="true"></span>
+        ВС · 05.06.2026 · Указ № 322 · маркетплейс
+      </div>
+      <h1 class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__h1">
+        <span class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__h1-accent">ВС разъяснил защиту от компенсации</span> за товарный знак иностранца из недружественной страны
+      </h1>
+      <p class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__sub">
+        ИП на маркетплейсе оспорил иск о «сходном» обозначении — коллегия ВС указала, что суды обязаны проверить недружественные действия правообладателя по Указу № 322
+      </p>
+      <ul class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__facts">
+        <li class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact--accent">пп. «в» п. 17 Указа № 322</li>
+        <li class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact">лицензия → цессия → иск</li>
+        <li class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__fact--warn">сходное обозначение · ИП</li>
+      </ul>
+      <a class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация: ответ на иск по товарному знаку</a>
+    </div>
+    <div class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__visual" aria-hidden="true">
+      <svg viewBox="0 0 480 430" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Маркетплейс: карточка ИП под щитом товарного знака, иск о компенсации отражён, абстрактный символ недружественной юрисдикции и Указ № 322">
+        <defs>
+          <linearGradient id="hero-vs322-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e8edf4"/>
+          </linearGradient>
+          <linearGradient id="hero-vs322-mp" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#a855f7"/>
+            <stop offset="50%" stop-color="#2563eb"/>
+            <stop offset="100%" stop-color="#0ea5e9"/>
+          </linearGradient>
+          <linearGradient id="hero-vs322-shield" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#3b82f6"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
+          </linearGradient>
+          <linearGradient id="hero-vs322-card" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hero-vs322-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fffbeb"/>
+            <stop offset="100%" stop-color="#fef3c7"/>
+          </linearGradient>
+          <linearGradient id="hero-vs322-vs" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e40af"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <pattern id="hero-vs322-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect width="20" height="20" fill="#f1f5f9"/>
+            <rect x="0" y="0" width="9" height="9" rx="2" fill="#e2e8f0" opacity="0.7"/>
+            <rect x="11" y="11" width="9" height="9" rx="2" fill="#e2e8f0" opacity="0.5"/>
+          </pattern>
+          <pattern id="hero-vs322-barrier" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <rect width="8" height="8" fill="#fef2f2"/>
+            <line x1="0" y1="0" x2="0" y2="8" stroke="#f87171" stroke-width="2.5"/>
+          </pattern>
+          <filter id="hero-vs322-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.12"/>
+          </filter>
+        </defs>
+        <rect x="8" y="10" width="464" height="410" rx="18" fill="url(#hero-vs322-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <rect x="8" y="10" width="464" height="410" rx="18" fill="url(#hero-vs322-grid)" opacity="0.45"/>
+        <rect x="24" y="26" width="168" height="28" rx="8" fill="#fff" stroke="#e2e8f0"/>
+        <circle cx="42" cy="40" r="6" fill="url(#hero-vs322-mp)"/>
+        <rect x="54" y="34" width="72" height="6" rx="3" fill="#cbd5e1"/>
+        <rect x="54" y="44" width="48" height="4" rx="2" fill="#e2e8f0"/>
+        <text x="148" y="44" text-anchor="end" fill="#64748b" font-size="7" font-weight="700">МАРКЕТПЛЕЙС</text>
+        <g filter="url(#hero-vs322-shadow)" transform="translate(36, 68)">
+          <rect width="132" height="168" rx="12" fill="url(#hero-vs322-card)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="10" y="10" width="112" height="72" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+          <rect x="18" y="22" width="56" height="8" rx="3" fill="#94a3b8" opacity="0.5"/>
+          <rect x="18" y="36" width="88" height="6" rx="2" fill="#cbd5e1"/>
+          <rect x="18" y="48" width="72" height="6" rx="2" fill="#e2e8f0"/>
+          <rect x="10" y="90" width="36" height="14" rx="4" fill="#dbeafe" stroke="#93c5fd"/>
+          <text x="28" y="100" text-anchor="middle" fill="#1e40af" font-size="7" font-weight="800">ИП</text>
+          <text x="66" y="100" fill="#334155" font-size="7" font-weight="700">селлер</text>
+          <text x="66" y="118" fill="#64748b" font-size="6.5" font-weight="600">«сходное» имя</text>
+          <text x="66" y="132" fill="#94a3b8" font-size="6">карточка товара</text>
+          <rect x="10" y="142" width="52" height="16" rx="4" fill="#1e3a8a"/>
+          <text x="36" y="153" text-anchor="middle" fill="#fff" font-size="7.5" font-weight="800">1 290 ₽</text>
+          <circle cx="118" cy="150" r="10" fill="#f1f5f9" stroke="#cbd5e1"/>
+          <path d="M114 150 L117 153 L122 147" fill="none" stroke="#64748b" stroke-width="1.5"/>
+        </g>
+        <g class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__shield-pulse" filter="url(#hero-vs322-shadow)" transform="translate(148, 118)">
+          <path d="M72 0 L144 28 L144 88 C144 128 108 158 72 172 C36 158 0 128 0 88 L0 28 Z" fill="url(#hero-vs322-shield)" stroke="#1e40af" stroke-width="2"/>
+          <circle cx="72" cy="72" r="28" fill="rgba(255,255,255,0.18)"/>
+          <text x="72" y="80" text-anchor="middle" fill="#fff" font-size="28" font-weight="800">®</text>
+          <text x="72" y="108" text-anchor="middle" fill="#dbeafe" font-size="6.5" font-weight="700" letter-spacing="0.06em">ЗАЩИТА ТЗ</text>
+        </g>
+        <g class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__claim-wave" transform="translate(268, 96)">
+          <rect width="108" height="130" rx="10" fill="#fff" stroke="#fca5a5" stroke-width="1.4" stroke-dasharray="6 4"/>
+          <rect x="0" y="0" width="108" height="18" rx="10" fill="#991b1b"/>
+          <text x="54" y="12" text-anchor="middle" fill="#fef2f2" font-size="6.5" font-weight="800">ИСК · КОМПЕНСАЦИЯ</text>
+          <text x="54" y="38" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">нарушение ТЗ</text>
+          <text x="54" y="54" text-anchor="middle" fill="#64748b" font-size="6">сходное обозначение</text>
+          <text x="54" y="78" text-anchor="middle" fill="#a31830" font-size="11" font-weight="800">до 10 млн ₽</text>
+          <line x1="18" y1="88" x2="90" y2="88" stroke="#fecaca" stroke-width="2"/>
+          <line x1="22" y1="100" x2="86" y2="116" stroke="#dc2626" stroke-width="2.5"/>
+          <line x1="86" y1="100" x2="22" y2="116" stroke="#dc2626" stroke-width="2.5"/>
+          <text x="54" y="128" text-anchor="middle" fill="#991b1b" font-size="6" font-weight="700">отражён щитом</text>
+        </g>
+        <g transform="translate(318, 248)">
+          <rect width="88" height="112" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
+          <rect x="0" y="0" width="88" height="22" rx="8" fill="#f1f5f9"/>
+          <text x="44" y="14" text-anchor="middle" fill="#475569" font-size="5.5" font-weight="800" letter-spacing="0.08em">ИНОСТР. ПРАВО</text>
+          <circle cx="44" cy="52" r="22" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.2"/>
+          <ellipse cx="44" cy="52" rx="22" ry="14" fill="none" stroke="#64748b" stroke-width="1"/>
+          <line x1="22" y1="52" x2="66" y2="52" stroke="#64748b" stroke-width="0.8"/>
+          <path d="M44 30 Q58 52 44 74 Q30 52 44 30" fill="none" stroke="#64748b" stroke-width="0.8"/>
+          <rect x="24" y="38" width="40" height="28" rx="4" fill="url(#hero-vs322-barrier)" class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__barrier-blink" opacity="0.75"/>
+          <text x="44" y="88" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">недружеств.</text>
+          <text x="44" y="98" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">юрисдикция</text>
+          <rect x="14" y="104" width="60" height="3" rx="1.5" fill="#cbd5e1"/>
+        </g>
+        <g class="l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany__chain-flow" transform="translate(24, 262)">
+          <rect x="0" y="0" width="56" height="40" rx="6" fill="url(#hero-vs322-paper)" stroke="#d97706" stroke-width="1"/>
+          <text x="28" y="16" text-anchor="middle" fill="#92400e" font-size="5.5" font-weight="800">ЛИЦЕНЗИЯ</text>
+          <text x="28" y="28" text-anchor="middle" fill="#78716c" font-size="5">исключит.</text>
+          <path d="M58 20 H78" stroke="#64748b" stroke-width="1.5" marker-end="none"/>
+          <polygon points="78,16 86,20 78,24" fill="#64748b"/>
+          <rect x="88" y="0" width="56" height="40" rx="6" fill="url(#hero-vs322-paper)" stroke="#d97706" stroke-width="1"/>
+          <text x="116" y="16" text-anchor="middle" fill="#92400e" font-size="5.5" font-weight="800">ЦЕССИЯ</text>
+          <text x="116" y="28" text-anchor="middle" fill="#78716c" font-size="5">требование</text>
+          <path d="M146 20 H166" stroke="#64748b" stroke-width="1.5"/>
+          <polygon points="166,16 174,20 166,24" fill="#a31830"/>
+          <rect x="176" y="0" width="56" height="40" rx="6" fill="#fef2f2" stroke="#f87171" stroke-width="1"/>
+          <text x="204" y="16" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="800">ИСК</text>
+          <text x="204" y="28" text-anchor="middle" fill="#b91c1c" font-size="5">к ИП</text>
+        </g>
+        <g filter="url(#hero-vs322-shadow)" transform="translate(248, 28)">
+          <rect x="0" y="34" width="96" height="44" rx="4" fill="url(#hero-vs322-vs)"/>
+          <polygon points="48,0 96,34 0,34" fill="#1e40af"/>
+          <rect x="14" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
+          <rect x="40" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
+          <rect x="66" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
+          <text x="48" y="68" text-anchor="middle" fill="#e2e8f0" font-size="6" font-weight="800" letter-spacing="0.06em">ВЕРХОВНЫЙ СУД</text>
+          <text x="48" y="92" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">05.06.2026</text>
+        </g>
+        <g filter="url(#hero-vs322-shadow)" transform="translate(248, 358)">
+          <rect width="148" height="52" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+          <rect x="0" y="0" width="148" height="16" rx="8" fill="#1e3a8a"/>
+          <text x="74" y="11" text-anchor="middle" fill="#fff" font-size="6" font-weight="800">УКАЗ ПРЕЗИДЕНТА № 322</text>
+          <text x="74" y="30" text-anchor="middle" fill="#334155" font-size="6.5" font-weight="700">пп. «в» п. 17 — проверка</text>
+          <text x="74" y="42" text-anchor="middle" fill="#64748b" font-size="6">недружественных действий правообладателя</text>
+        </g>
+        <text x="240" y="418" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">маркетплейс · щит ТЗ · иностранное право · ответ на иск · не аннулирование регистрации</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-vs" aria-label="Введение">
+  <div class="l24-intro-vs__grid">
+    <div class="l24-intro-vs__text">
+      <p><strong>5 июня 2026 года</strong> коллегия по экономическим спорам Верховного суда РФ указала: при <strong>иске о компенсации за нарушение товарного знака</strong>, если право принадлежит иностранной компании из <strong>недружественной юрисдикции</strong>, суды <strong>обязаны проверить</strong> недружественные действия правообладателя и применимость <strong>пп. «в» п. 17 Указа Президента № 322</strong>.</p>
+      <p>Ниже — фабула спора с <strong>ИП на маркетплейсе</strong>, цепочка <strong>лицензия → цессия → иск</strong>, чеклист возражений и связь с <strong>ст. 1252.1</strong> (лимит <strong>10 млн ₽</strong> с 2026 года). Номер дела ВС в открытых источниках не опубликован — ориентир <a href="https://rapsinews.ru/judicial_analyst/20260605/311909653.html" target="_blank" rel="noopener noreferrer">РАПСИ</a>.</p>
+      <div class="l24-intro-vs__brief">
+        <strong>Кратко:</strong> нельзя автоматически отказывать в защите ответчика или удовлетворять иск <strong>только</strong> из‑за иностранного происхождения знака. Апелляция не исследовала <strong>пп. «в» п. 17</strong> → ВС отменил акты → <strong>новое рассмотрение</strong> с проверкой поведения правообладателя и цепочки прав.
+      </div>
+      <p>При претензии или иске от цессионария с иностранным правообладателем можно <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">обсудить ответ на иск и проверку Указа № 322</a> до первого заседания.</p>
+    </div>
+    <aside class="l24-intro-vs__decor" aria-label="Маршрут спора">
+      <ul class="l24-intro-vs__chips">
+        <li class="l24-intro-vs__chip l24-intro-vs__chip--accent">ВС 05.06.2026</li>
+        <li class="l24-intro-vs__chip">Указ № 322</li>
+        <li class="l24-intro-vs__chip l24-intro-vs__chip--warn">пп. «в» п. 17</li>
+        <li class="l24-intro-vs__chip">лицензия → цессия</li>
+        <li class="l24-intro-vs__chip">ИП · маркетплейс</li>
+        <li class="l24-intro-vs__chip">ст. 1252.1 · 10 млн</li>
+      </ul>
+      <svg class="l24-intro-vs__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: иностранный правообладатель, лицензия, цессия, иск к ИП, проверка Указа № 322">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">ЦЕПОЧКА ПРАВА · ОТВЕТ НА ИСК</text>
+        <circle cx="48" cy="88" r="18" fill="#ed8936"/><text x="48" y="93" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">ИН</text>
+        <circle cx="120" cy="88" r="18" fill="#3182ce"/><text x="120" y="93" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">ЛИЦ</text>
+        <circle cx="192" cy="88" r="18" fill="#805ad5"/><text x="192" y="93" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">ЦЕС</text>
+        <circle cx="264" cy="88" r="18" fill="#c53030"/><text x="264" y="93" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">ИСК</text>
+        <line x1="66" y1="88" x2="102" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="138" y1="88" x2="174" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="210" y1="88" x2="246" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <text x="48" y="130" text-anchor="middle" fill="#475569" font-size="8">иностр. ТЗ</text>
+        <text x="120" y="130" text-anchor="middle" fill="#475569" font-size="8">лицензия</text>
+        <text x="192" y="130" text-anchor="middle" fill="#475569" font-size="8">цессия</text>
+        <text x="264" y="130" text-anchor="middle" fill="#475569" font-size="8">ИП · МП</text>
+        <rect x="24" y="148" width="272" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+        <text x="160" y="170" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="700">Указ № 322 · пп. «в» п. 17 · ВС 2026</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#vs-komp-poziciya-vs">Позиция ВС 2026</a></li>
+    <li><a href="#vs-komp-proishozhdenie-prava">Происхождение права</a></li>
+    <li><a href="#vs-komp-marketplejs-skhodstvo">Маркетплейс</a></li>
+    <li><a href="#vs-komp-ukaz-322">Указ № 322</a></li>
+    <li><a href="#vs-komp-otvet-isk">Ответ на иск</a></li>
+    <li><a href="#vs-komp-cessiya-licenziya">Цессия и лицензия</a></li>
+    <li><a href="#vs-komp-1252-1">ст. 1252.1</a></li>
+    <li><a href="#vs-komp-yurist">Когда юрист</a></li>
+    <li><a href="#vs-komp-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div class="l24-longread-wrap" itemprop="articleBody">
+<h2 id="vs-komp-poziciya-vs">Позиция Верховного суда 2026: ИП на маркетплейсе и иск о компенсации за «сходное» обозначение</h2>
+<p>Инфоповод — не абстрактная «реформа компенсаций», а конкретная процессуальная обязанность судов при <strong>взыскании компенсации за нарушение товарного знака</strong> с продавца на <strong>маркетплейсе</strong>. Пресс‑служба ВС и <a href="https://rapsinews.ru/judicial_analyst/20260605/311909653.html" target="_blank" rel="noopener noreferrer">РАПСИ</a> сообщили: коллегия <strong>5 июня 2026 года</strong> отменила постановления апелляции и кассации и направила дело <strong>на новое рассмотрение</strong>, поскольку нижестоящие суды <strong>не исследовали</strong> статус иностранного правообладателя по <strong>Указу № 322</strong>.</p>
+<h3>Верховный суд товарный знак: что указала коллегия (05.06.2026)</h3>
+<p>Ключевые тезисы из канонического источника:</p>
+<ul>
+<li>судам необходимо проверить, <strong>совершались ли самим правообладателем</strong> недружественные действия в отношении Российской Федерации;</li>
+<li>апелляция <strong>не установила</strong>, подпадает ли международная компания — владелец товарного знака по <strong>международной регистрации</strong> — под <strong>пп. «в» п. 17</strong> Указа № 322;</li>
+<li>доводы жалобы истца <strong>«заслуживают внимания»</strong> — то есть формальный отказ в защите <strong>исключительно</strong> из‑за «недружественного паспорта» правообладателя ВС не поддержал.</li>
+</ul>
+<p>Важно для ответчика: ВС <strong>не</strong> вынес окончательный отказ истцу и <strong>не</strong> объявил компенсацию незаконной раз и навсегда. Итог инстанции — <strong>возврат на пересмотр</strong> с обязанностью судов применить дифференцированный подход к <strong>иностранному правообладателю товарного знака</strong>.</p>
+<h3>Суть спора: продавец, маркетплейс и требование иностранного правообладателя</h3>
+<p>По фабуле, опубликованной без номера дела:</p>
+<table>
+<thead><tr>
+<th>Этап</th>
+<th>Что произошло</th>
+</tr>
+</tr></thead><tbody><tr>
+<td>Право</td>
+<td>Международная компания — правообладатель ТЗ (недружественная юрисдикция)</td>
+</tr>
+<tr>
+<td>Лицензия</td>
+<td><strong>Исключительная лицензия</strong> российской фирме</td>
+</tr>
+<tr>
+<td>Цессия</td>
+<td><strong>Уступка права требования</strong> компенсации <strong>третьему лицу</strong> — процессуальному истцу</td>
+</tr>
+<tr>
+<td>Нарушение</td>
+<td>У <strong>ИП</strong> на <strong>маркетплейсе</strong> — обозначение, <strong>сходное до степени смешения</strong></td>
+</tr>
+<tr>
+<td>1‑я инстанция</td>
+<td><strong>Взыскала компенсацию</strong></td>
+</tr>
+<tr>
+<td>Апелляция / кассация</td>
+<td><strong>Отменили</strong> взыскание, сославшись на защиту прав <strong>иностранца из недружественного государства</strong></td>
+</tr>
+<tr>
+<td>ВС 05.06.2026</td>
+<td>Отмена актов апелляции и кассации → <strong>новое рассмотрение</strong> с проверкой Указа № 322</td>
+</tr>
+</tbody></table>
+<p>Для селлера это типичная схема давления: претензия и иск идут от <strong>российского лица</strong> (цессионария), а деньги по цепочке могут уходить <strong>за рубеж</strong>. Свежая позиция ВС даёт аргумент: суд обязан разобрать <strong>происхождение права</strong>, <strong>добросовестность цепочки</strong> и режим платежей, а не выбирать сторону по формальному признаку «иностранный ТЗ».</p>
+<h2 id="vs-komp-proishozhdenie-prava">Компенсация за нарушение товарного знака: когда суд обязан проверить происхождение права</h2>
+<p><strong>Компенсация за нарушение товарного знака</strong> — один из способов защиты по <strong>ст. 1252</strong>, <strong>1515</strong> ГК РФ. Истец вправе требовать фиксированную сумму, двукратную стоимость товаров или лицензионный эквивалент. Но с 2024–2026 годов к расчёту добавился слой: <strong>откуда право</strong> и <strong>как оно перешло</strong> к тому, кто подаёт иск.</p>
+<h3>Иск о компенсации за товарный знак и взыскание компенсации за нарушение</h3>
+<p>В деле, о котором сообщил ВС, истец требовал именно <strong>компенсацию</strong>, а не только запрет оборота. Первая инстанция удовлетворила требование; апелляция и кассация пересмотрели результат <strong>в пользу ответчика</strong> — но по мотиву, который ВС признал неполным: <strong>иностранное происхождение</strong> знака без анализа поведения правообладателя.</p>
+<p>При <strong>новом рассмотрении</strong> суду предстоит совместить:</p>
+<ul>
+<li>материальные вопросы (<strong>сходство</strong>, объём нарушения, размер по <strong>ст. 1252.1</strong> ГК РФ);</li>
+<li>специальный режим для правообладателей из недружественных стран (<strong>Указ № 322</strong>, счёт типа «О», письменное согласие);</li>
+<li>процессуальную линию ВС с <strong>февраля 2025 года</strong>: иностранное происхождение <strong>само по себе</strong> не лишает истца защиты и <strong>не</strong> даёт ответчику автоматической победы — нужна <strong>проверка по существу</strong> (см. определение ВС по делу <strong>№ А56-2577/2023</strong>, <strong>№ 307-ЭС24-18161</strong> от <strong>03.02.2025</strong>).</li>
+</ul>
+<h3>Почему нельзя автоматически отказывать в защите из‑за иностранного происхождения ТЗ</h3>
+<p>До инфоповода 05.06.2026 практика была неоднородной: одни суды взыскивали компенсацию с <strong>ИП на маркетплейсе</strong>, другие отказывали истцам‑цессионариям со ссылкой на <strong>санкционный контекст</strong>. ВС указал на <strong>процессуальный пробел</strong>: апелляция <strong>не исследовала</strong> соответствие правообладателя <strong>пп. «в» п. 17</strong> Указа № 322.</p>
+<p>Это согласуется с линией по <strong>цессии роялти</strong> (дело <strong>А56-2577/2023</strong>): суды должны <strong>по инициативе</strong> проверять <strong>обход</strong> ограничений на платежи, <strong>аффилированность</strong> сторон, признаки <strong>мнимой цессии</strong>. Обратная ошибка — отказ «в принципе» платить иностранцу без анализа договоров — тоже необоснован, если правообладатель <strong>надлежащим образом исполняет</strong> обязательства перед российскими контрагентами.</p>
+<p>Для продавца на площадке вывод практичный: в <strong>отзыве на иск</strong> и возражениях на претензию имеет смысл требовать <strong>судебного исследования</strong> цепочки прав, а не спорить только о визуальном сходствии логотипов.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Иск о компенсации от цессионария с иностранным правообладателем — не только спор о сходстве. До заседания стоит запросить лицензию, цессию и проверку Указа № 322: апелляция не сняла этот вопрос, а ВС 05.06.2026 подтвердил обязанность суда.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на иск по товарному знаку</a></p>
+</aside>
+<h2 id="vs-komp-marketplejs-skhodstvo">Нарушение товарного знака и сходное обозначение на маркетплейсе</h2>
+<p><strong>Товарный знак маркетплейс</strong> — устойчивый коммерческий запрос: именно на карточках Wildberries, Ozon, Яндекс Маркета и других площадок правообладатели ищут «чужие» названия, слоганы и оформление. Ответчиком по <strong>иску о компенсации</strong> обычно выступает <strong>продавец</strong>, а не площадка: маркетплейс чаще рассматривают как <strong>информационного посредника</strong> по <strong>ст. 1253.1</strong> ГК РФ, если удалил контент после уведомления (см. практику по делу <strong>№ А41-90502/2024</strong>, СИП <strong>С01-438/2025</strong>).</p>
+<h3>Сходное обозначение товарный знак: как формулируют претензии продавцам</h3>
+<p>Типовая претензия содержит:</p>
+<ul>
+<li>выписку из реестра или международной регистрации;</li>
+<li>скриншоты карточки с «сходным» названием, брендом в характеристиках или на фото;</li>
+<li>расчёт компенсации (часто — <strong>максимально жёсткий</strong>: двукратная стоимость оборота или верхняя граница по <strong>ст. 1252.1</strong>);</li>
+<li>ультиматум: снять товар, подписать соглашение, выплатить сумму до суда.</li>
+</ul>
+<p>Формальное <strong>сходное обозначение товарный знак</strong> ещё не означает проигрыш. ВС в деле <strong>№ А42-5880/2023</strong> (ИП на <strong>Яндекс Маркете</strong>, определение <strong>№ 307-ЭС24-21900</strong> от <strong>24.04.2025</strong>) подчеркнул: бремя доказывания <strong>объёма</strong> контрафакта лежит на <strong>истце</strong>; данные маркетплейса без корреляции с SKU, отзывами и фактическими продажами — слабое доказательство. Подробнее о доказательной базе — в материале <a href="/narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya/">нарушение товарного знака: доказательства и компенсация</a>.</p>
+<h3>Претензия по товарному знаку: что делать до суда</h3>
+<p>До подачи иска юрлица и <strong>ИП</strong> обязаны соблюдать <strong>претензионный порядок</strong> — <strong>30 дней</strong> (п. <strong>5.1</strong> ст. <strong>1252</strong> ГК РФ). Пропуск срока ведёт к <strong>возврату иска</strong>.</p>
+<p>Рекомендуемые шаги ответчика:</p>
+<ol>
+<li><strong>Зафиксировать</strong> карточку нотариально <strong>до</strong> блокировки площадкой.</li>
+<li>Проверить, <strong>кто</strong> правообладатель: цессионарий, лицензиат или иностранная материнская компания.</li>
+<li>Сопоставить товары на <strong>однородность</strong> и оценить сходство <strong>в контексте</strong> всей карточки (бренд продавца, категория, упаковка).</li>
+<li>Ответить на претензию письменно: возражения по сходству + <strong>запрос документов</strong> по цессии, лицензии, счёту «О».</li>
+<li>Оценить риски по <strong>Указу № 322</strong> и размеру требования с учётом <strong>лимита 10 млн ₽</strong> с 2026 года.</li>
+</ol>
+<p>Общая схема судебной защиты — в обзоре <a href="/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/">защита товарного знака и иск по интеллектуальной собственности</a>; здесь акцент на <strong>иностранном правообладателе</strong> и свежем акте ВС.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">30 дней на ответ по претензии — срок, в который фиксируется позиция по сходству, цепочке прав и счёту «О». Промолчание усиливает позицию истца при расчёте компенсации до 10 млн ₽.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с ответом на претензию по товарному знаку</a></p>
+</aside>
+<h2 id="vs-komp-ukaz-322">Иностранный правообладатель и недружественные страны: Указ Президента № 322</h2>
+<section id="l24-boris-vs-kompensaciya-ukaz322" class="l24-boris-ukaz322" aria-label="Цепочка права на товарный знак: иностранный правообладатель, лицензия, цессия, иск к ИП на маркетплейсе и проверка пп. в п. 17 Указа № 322">
+<style>
+.l24-boris-ukaz322 {
+  --uk-navy: #0f2744;
+  --uk-navy-soft: #1a365d;
+  --uk-foreign: #ed8936;
+  --uk-license: #4299e1;
+  --uk-cession: #9f7aea;
+  --uk-claim: #fc8181;
+  --uk-check: #68d391;
+  --uk-gold: #ecc94b;
+  --uk-mint: #9ae6b4;
+  --uk-ink: #e2e8f0;
+  --uk-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ukaz322__shell {
+  background: linear-gradient(148deg, var(--uk-navy) 0%, #152a45 52%, var(--uk-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
+  color: var(--uk-ink);
+}
+.l24-boris-ukaz322__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--uk-gold);
+}
+.l24-boris-ukaz322__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ukaz322__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--uk-muted);
+  max-width: 68ch;
+}
+.l24-boris-ukaz322__lead strong { color: #fff; }
+.l24-boris-ukaz322__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ukaz322__panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ukaz322__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--uk-gold);
+}
+.l24-boris-ukaz322__route-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 260px;
+  margin-bottom: 12px;
+}
+.l24-boris-ukaz322__stages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ukaz322__stage {
+  margin: 0;
+  padding: 10px 9px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 8px;
+  border-left: 3px solid var(--uk-foreign);
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+.l24-boris-ukaz322__stage:nth-child(2) { border-left-color: var(--uk-license); }
+.l24-boris-ukaz322__stage:nth-child(3) { border-left-color: var(--uk-cession); }
+.l24-boris-ukaz322__stage:nth-child(4) { border-left-color: var(--uk-claim); }
+.l24-boris-ukaz322__stage:nth-child(5) { border-left-color: var(--uk-check); }
+.l24-boris-ukaz322__stage--wide {
+  grid-column: 1 / -1;
+  border-left-color: var(--uk-gold);
+}
+.l24-boris-ukaz322__stage strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 3px;
+}
+.l24-boris-ukaz322__instances {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 12px 0 0;
+}
+.l24-boris-ukaz322__inst {
+  padding: 8px 9px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.7rem;
+  line-height: 1.35;
+  text-align: center;
+}
+.l24-boris-ukaz322__inst strong {
+  display: block;
+  color: #fff;
+  font-size: 0.74rem;
+  margin-bottom: 2px;
+}
+.l24-boris-ukaz322__inst--vs { border-color: rgba(236, 201, 75, 0.45); }
+.l24-boris-ukaz322__grounds {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+.l24-boris-ukaz322__ground {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 8px 10px;
+  align-items: start;
+  padding: 10px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.74rem;
+  line-height: 1.38;
+}
+.l24-boris-ukaz322__ground--chain { border-left: 3px solid var(--uk-cession); }
+.l24-boris-ukaz322__ground--decree { border-left: 3px solid var(--uk-gold); }
+.l24-boris-ukaz322__ground--pv { border-left: 3px solid var(--uk-check); }
+.l24-boris-ukaz322__ground--size { border-left: 3px solid var(--uk-license); }
+.l24-boris-ukaz322__ground-label {
+  font-weight: 700;
+  color: #fff;
+  font-size: 0.78rem;
+}
+.l24-boris-ukaz322__ground-text {
+  color: var(--uk-muted);
+}
+.l24-boris-ukaz322__ground-text em {
+  font-style: normal;
+  color: #fff;
+  font-weight: 600;
+}
+.l24-boris-ukaz322__vs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+.l24-boris-ukaz322__vs-card {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+.l24-boris-ukaz322__vs-card--plaintiff { border-color: rgba(252, 129, 129, 0.45); }
+.l24-boris-ukaz322__vs-card--defendant { border-color: rgba(104, 211, 145, 0.45); }
+.l24-boris-ukaz322__vs-card strong {
+  display: block;
+  color: #fff;
+  font-size: 0.76rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ukaz322__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--uk-muted);
+}
+.l24-boris-ukaz322__note em {
+  font-style: normal;
+  color: var(--uk-mint);
+  font-weight: 600;
+}
+.l24-boris-ukaz322__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ukaz322__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--uk-ink);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.l24-boris-ukaz322__tag--case {
+  border-color: rgba(236, 201, 75, 0.5);
+  color: var(--uk-gold);
+}
+.l24-boris-ukaz322__tag--def { border-color: rgba(104, 211, 145, 0.45); color: #c6f6d5; }
+.l24-boris-ukaz322__tag--claim { border-color: rgba(252, 129, 129, 0.45); color: #fed7d7; }
+.l24-boris-ukaz322__caption {
+  margin: 10px 0 0;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: rgba(160, 174, 192, 0.88);
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .l24-boris-ukaz322__split { grid-template-columns: 1fr; }
+  .l24-boris-ukaz322__stages { grid-template-columns: 1fr; }
+  .l24-boris-ukaz322__stage--wide { grid-column: auto; }
+  .l24-boris-ukaz322__instances { grid-template-columns: 1fr; }
+  .l24-boris-ukaz322__ground {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+  .l24-boris-ukaz322__vs { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-ukaz322__shell">
+    <p class="l24-boris-ukaz322__eyebrow">Указ № 322 · пп. «в» п. 17 · ВС 05.06.2026 · ст. 1252.1 · маркетплейс</p>
+    <h3 class="l24-boris-ukaz322__title">Цепочка права: иностранец → лицензия → цессия → иск → проверка Указа № 322</h3>
+    <p class="l24-boris-ukaz322__lead">По фабуле, которую разъяснил <strong>Верховный суд 5 июня 2026 года</strong>, иск о <strong>компенсации за нарушение товарного знака</strong> к <strong>ИП на маркетплейсе</strong> идёт от российского цессионария, но право выросло из <strong>иностранного правообладателя</strong> через <strong>исключительную лицензию</strong> и <strong>цессию</strong>. Суды <strong>обязаны</strong> проверить недружественные действия правообладателя и <strong>пп. «в» п. 17</strong> Указа № 322 — нельзя решать спор только по «иностранному паспорту» ТЗ.</p>
+
+    <div class="l24-boris-ukaz322__split">
+      <div class="l24-boris-ukaz322__panel">
+        <p class="l24-boris-ukaz322__panel-title">Маршрут передачи права и иска (по РАПСИ)</p>
+        <svg class="l24-boris-ukaz322__route-svg" viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="uk322-route-title uk322-route-desc">
+          <title id="uk322-route-title">Схема: иностранный правообладатель, лицензия, цессия, иск к ИП, проверка пп. в п. 17</title>
+          <desc id="uk322-route-desc">Международная компания из недружественной юрисдикции передаёт право через исключительную лицензию российской фирме, затем цессию права требования компенсации третьему лицу; иск к ИП на маркетплейсе; суд проверяет пп. в пункте 17 Указа Президента № 322</desc>
+          <defs>
+            <linearGradient id="uk322-chain-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#ed8936"/>
+              <stop offset="28%" stop-color="#4299e1"/>
+              <stop offset="52%" stop-color="#9f7aea"/>
+              <stop offset="76%" stop-color="#fc8181"/>
+              <stop offset="100%" stop-color="#68d391"/>
+            </linearGradient>
+            <marker id="uk322-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0,0 L8,4 L0,8 Z" fill="#ecc94b"/>
+            </marker>
+          </defs>
+          <line x1="48" y1="92" x2="512" y2="92" stroke="url(#uk322-chain-line)" stroke-width="4" stroke-linecap="round" marker-end="url(#uk322-arrow)"/>
+          <circle cx="56" cy="92" r="26" fill="#ed8936" stroke="#fff" stroke-width="2"/>
+          <text x="56" y="88" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="700">Иностр.</text>
+          <text x="56" y="100" text-anchor="middle" fill="#1a202c" font-size="7">правообл.</text>
+          <circle cx="152" cy="92" r="24" fill="#3182ce" stroke="#fff" stroke-width="2"/>
+          <text x="152" y="88" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Лицензия</text>
+          <text x="152" y="100" text-anchor="middle" fill="#bee3f8" font-size="7">исключ.</text>
+          <circle cx="256" cy="92" r="24" fill="#805ad5" stroke="#fff" stroke-width="2"/>
+          <text x="256" y="88" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Цессия</text>
+          <text x="256" y="100" text-anchor="middle" fill="#e9d8fd" font-size="7">требование</text>
+          <circle cx="368" cy="92" r="26" fill="#e53e3e" stroke="#fff" stroke-width="2"/>
+          <text x="368" y="88" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Иск</text>
+          <text x="368" y="100" text-anchor="middle" fill="#fed7d7" font-size="7">ИП · МП</text>
+          <circle cx="488" cy="92" r="28" fill="#2f855a" stroke="#ecc94b" stroke-width="2.5"/>
+          <text x="488" y="86" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">пп. «в»</text>
+          <text x="488" y="98" text-anchor="middle" fill="#c6f6d5" font-size="7">п. 17 · № 322</text>
+          <rect x="24" y="132" width="96" height="24" rx="4" fill="rgba(0,0,0,0.35)"/>
+          <text x="72" y="148" text-anchor="middle" fill="#fbd38d" font-size="7.5">междунар. ТЗ · недруж. юрисд.</text>
+          <rect x="116" y="132" width="72" height="24" rx="4" fill="rgba(0,0,0,0.35)"/>
+          <text x="152" y="148" text-anchor="middle" fill="#90cdf4" font-size="7.5">росс. лицензиат</text>
+          <rect x="212" y="132" width="88" height="24" rx="4" fill="rgba(0,0,0,0.35)"/>
+          <text x="256" y="148" text-anchor="middle" fill="#d6bcfa" font-size="7.5">процессуал. истец</text>
+          <rect x="324" y="132" width="88" height="24" rx="4" fill="rgba(0,0,0,0.35)"/>
+          <text x="368" y="148" text-anchor="middle" fill="#feb2b2" font-size="7.5">сходное обозначение</text>
+          <rect x="432" y="132" width="104" height="24" rx="4" fill="rgba(47,133,90,0.45)"/>
+          <text x="484" y="148" text-anchor="middle" fill="#9ae6b4" font-size="7.5">обязанность суда · ВС 2026</text>
+          <text x="280" y="52" text-anchor="middle" fill="#ecc94b" font-size="8.5" font-weight="600">Деньги по цепочке могут уходить за рубеж — суд проверяет добросовестность</text>
+          <text x="56" y="178" text-anchor="middle" fill="#a0aec0" font-size="7">счёт «О» · п. 2</text>
+          <text x="256" y="178" text-anchor="middle" fill="#a0aec0" font-size="7">обход? · аффилир.</text>
+          <text x="488" y="178" text-anchor="middle" fill="#9ae6b4" font-size="7">исполнение договоров</text>
+          <path d="M 56 118 L 56 128" stroke="#ed8936" stroke-width="2" fill="none"/>
+          <path d="M 256 116 L 256 128" stroke="#9f7aea" stroke-width="2" fill="none"/>
+          <path d="M 368 118 L 368 128" stroke="#fc8181" stroke-width="2" fill="none"/>
+          <path d="M 488 120 L 488 128" stroke="#68d391" stroke-width="2" fill="none"/>
+        </svg>
+        <ol class="l24-boris-ukaz322__stages">
+          <li class="l24-boris-ukaz322__stage">
+            <strong>Иностранный правообладатель</strong>
+            Международная регистрация ТЗ; юрисдикция из перечня недружественных — режим Указа № 322.
+          </li>
+          <li class="l24-boris-ukaz322__stage">
+            <strong>Исключительная лицензия</strong>
+            Российской компании — основание для защиты знака; уступка права требования не всегда без согласия.
+          </li>
+          <li class="l24-boris-ukaz322__stage">
+            <strong>Цессия компенсации</strong>
+            Право требования уступлено третьему лицу — формально «российский» истец в суде.
+          </li>
+          <li class="l24-boris-ukaz322__stage">
+            <strong>Иск к ИП на маркетплейсе</strong>
+            «Сходное» обозначение на карточке; ответчик — продавец, не площадка (ст. 1253.1 ГК).
+          </li>
+          <li class="l24-boris-ukaz322__stage l24-boris-ukaz322__stage--wide">
+            <strong>Проверка пп. «в» п. 17 · ВС 05.06.2026</strong>
+            Апелляция не исследовала статус правообладателя → отмена актов → новое рассмотрение с дифференцированным подходом.
+          </li>
+        </ol>
+        <div class="l24-boris-ukaz322__instances" aria-label="Инстанции по фабуле ВС">
+          <div class="l24-boris-ukaz322__inst">
+            <strong>1-я инстанция</strong>
+            взыскала компенсацию
+          </div>
+          <div class="l24-boris-ukaz322__inst">
+            <strong>Апелляция / кассация</strong>
+            отменили — «иностранный ТЗ»
+          </div>
+          <div class="l24-boris-ukaz322__inst l24-boris-ukaz322__inst--vs">
+            <strong>ВС 05.06.2026</strong>
+            на пересмотр + Указ № 322
+          </div>
+        </div>
+        <p class="l24-boris-ukaz322__caption">Схема по сообщению РАПСИ / пресс-службы ВС; номер дела в открытом доступе не опубликован</p>
+      </div>
+
+      <div class="l24-boris-ukaz322__panel">
+        <p class="l24-boris-ukaz322__panel-title">Что проверяет суд (чек-лист ответчика)</p>
+        <div class="l24-boris-ukaz322__vs">
+          <div class="l24-boris-ukaz322__vs-card l24-boris-ukaz322__vs-card--plaintiff">
+            <strong>Истец (цессионарий)</strong>
+            Должен доказать цепочку права, объём нарушения и законность взыскания; иностранное происхождение само по себе не даёт автопобеды (А56-2577/2023).
+          </div>
+          <div class="l24-boris-ukaz322__vs-card l24-boris-ukaz322__vs-card--defendant">
+            <strong>Ответчик (ИП на МП)</strong>
+            Вправе требовать исследования лицензии, цессии, счёта «О» и пп. «в» п. 17 — не только спорить о визуальном сходстве.
+          </div>
+        </div>
+        <div class="l24-boris-ukaz322__grounds">
+          <div class="l24-boris-ukaz322__ground l24-boris-ukaz322__ground--chain">
+            <span class="l24-boris-ukaz322__ground-label">Лицензия → цессия</span>
+            <span class="l24-boris-ukaz322__ground-text">Действительность уступки, <em>аффилированность</em>, мнимость, условие о перечислении 100% иностранцу; обход счёта «О» (СИП 02.2026).</span>
+          </div>
+          <div class="l24-boris-ukaz322__ground l24-boris-ukaz322__ground--decree">
+            <span class="l24-boris-ukaz322__ground-label">Указ № 322 · п. 2, 11, 13</span>
+            <span class="l24-boris-ukaz322__ground-text">Компенсация на спецсчёт «О»; без согласия правообладателя должник вправе <em>не платить</em>; публикация реквизитов (п. 8).</span>
+          </div>
+          <div class="l24-boris-ukaz322__ground l24-boris-ukaz322__ground--pv">
+            <span class="l24-boris-ukaz322__ground-label">пп. «в» п. 17</span>
+            <span class="l24-boris-ukaz322__ground-text">Указ <em>не применяется</em>, если правообладатель из пп. «а» п. 1 <em>надлежащим образом исполняет</em> договоры с российскими контрагентами — суд обязан установить.</span>
+          </div>
+          <div class="l24-boris-ukaz322__ground l24-boris-ukaz322__ground--size">
+            <span class="l24-boris-ukaz322__ground-label">Размер · ст. 1252.1</span>
+            <span class="l24-boris-ukaz322__ground-text">Лимит <em>10 млн ₽</em> с 2026; бремя доказывания объёма на истце; снижение для добросовестного нарушителя (п. 7).</span>
+          </div>
+        </div>
+        <p class="l24-boris-ukaz322__note"><em>Пп. «в» п. 17</em> — не универсальный щит: при доказанном обходе платёжного режима суды отказывают в исключении (дела А50-18845/2024, А50-20994/2024). Доводы ответчика должны опираться на <em>документы</em>, а не только на недружественность.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-ukaz322__foot" aria-label="Роли в споре">
+      <span class="l24-boris-ukaz322__tag l24-boris-ukaz322__tag--case">ВС 05.06.2026 · Указ Президента № 322</span>
+      <span class="l24-boris-ukaz322__tag l24-boris-ukaz322__tag--def">Ответчик: ИП-продавец на маркетплейсе</span>
+      <span class="l24-boris-ukaz322__tag l24-boris-ukaz322__tag--claim">Истец: цессионарий по цепочке лицензия → цессия</span>
+    </div>
+  </div>
+</section>
+<p><strong>Недружественные страны товарный знак</strong> — не отдельный запрет на регистрацию, а режим <strong>особого порядка платежей</strong> правообладателям, попадающим под критерии <strong>п. 1</strong> Указа Президента РФ от <strong>27.05.2022 № 322</strong> (актуальная редакция с учётом изменений, в т.ч. Указа <strong>№ 122</strong> от <strong>15.02.2024</strong>). Текст — на <a href="http://www.kremlin.ru/acts/bank/47862" target="_blank" rel="noopener noreferrer">kremlin.ru</a>.</p>
+<h3>Недружественные страны товарный знак и пп. «в» п. 17 Указа № 322</h3>
+<p><strong>Пп. «в» п. 17</strong> — центральная норма инфоповода 05.06.2026. Дословный смысл:</p>
+<blockquote>
+<p>Положения настоящего Указа <strong>не применяются</strong> к правообладателям, названным в подпункте «а» пункта 1 настоящего Указа и <strong>надлежащим образом исполняющим свои обязанности по договорам</strong>, заключённым с должниками.</p>
+</blockquote>
+<p>Практический вывод: если иностранный правообладатель из <strong>пп. «а» п. 1</strong> (в т.ч. связан с недружественным государством) <strong>добросовестно исполняет</strong> договоры с российскими контрагентами, режим спецсчёта <strong>может не применяться</strong> — и это суд <strong>обязан установить</strong>, а не заменить проверкой фразой «знак иностранный».</p>
+<p>Разъяснения Минэкономразвития (<strong>№ 26614-КМ/Д01и</strong> от <strong>19.07.2022</strong>) указывают: при одновременном соответствии <strong>пп. «а» п. 1</strong> и <strong>пп. «в» п. 17</strong> должник вправе считать, что Указ <strong>не применяется</strong> к такому правообладателю.</p>
+<h3>Указ 322 товарный знак: какие действия правообладателя суды должны оценить</h3>
+<p>Помимо <strong>пп. «в» п. 17</strong>, суды смотрят на поведение по <strong>п. 1</strong> Указа № 322 (сокращённо):</p>
+<ul>
+<li>связь с <strong>недружественными государствами</strong>;</li>
+<li>запрет на использование ИС в РФ после <strong>23.02.2022</strong>;</li>
+<li>прекращение поставок <strong>не по экономической целесообразности</strong>;</li>
+<li>иные «недружественные» действия (в т.ч. дискредитация ВС РФ — по соответствующим подпунктам).</li>
+</ul>
+<p>Общий порядок для «попавших» под Указ ( <strong>п. 2</strong>, <strong>п. 2.1</strong> ): вознаграждение, платежи за защиту прав и <strong>компенсации</strong> — на <strong>спецсчёт типа «О»</strong>; без <strong>письменного согласия</strong> правообладателя на счёт «О» должник <strong>вправе не платить</strong> и <strong>не считается нарушителем</strong> обязательств ( <strong>п. 11</strong> ); исполнение <strong>без</strong> счёта «О» <strong>не допускается</strong> ( <strong>п. 13</strong> ).</p>
+<p>В споре с <strong>ИП на маркетплейсе</strong> ответчик вправе заявить: истец‑цессионарий выстраивает взыскание <strong>в обход</strong> установленного порядка; правообладатель <strong>не публиковал</strong> реквизиты счёта «О» ( <strong>п. 8</strong> Указа); по договору цессии <strong>100%</strong> компенсации уходит за рубеж — это предмет проверки, а не фон для автоматического отказа в иске.</p>
+<h2 id="vs-komp-otvet-isk">Ответ на иск по интеллектуальной собственности: линия защиты для бизнеса</h2>
+<p><strong>Ответ на иск по интеллектуальной собственности</strong> в связке с Указом № 322 — это не одна «волшебная» фраза, а <strong>набор взаимосвязанных доводов</strong>. Свежий акт ВС 05.06.2026 усиливает <strong>процессуально‑материальный</strong> блок: суд не вправе игнорировать статус иностранного правообладателя.</p>
+<h3>Защита от иска по товарному знаку: возражения и доказательства</h3>
+<p>Практический чеклист возражений (по фактуре дела ВС и смежной практике):</p>
+<table>
+<thead><tr>
+<th>Блок</th>
+<th>Вопросы и доказательства</th>
+</tr>
+</tr></thead><tbody><tr>
+<td>Субъект</td>
+<td>Кто реальный правообладатель? Действует цессионарий <strong>от своего имени</strong> или обязан передать выплату иностранцу?</td>
+</tr>
+<tr>
+<td>Цепочка</td>
+<td>Договор <strong>исключительной лицензии</strong>, <strong>цессия</strong> права требования, аффилированность лиц</td>
+</tr>
+<tr>
+<td>Указ № 322</td>
+<td>Соответствие <strong>пп. «в» п. 17</strong>; использование счёта «О»; письменное согласие; обход ограничений</td>
+</tr>
+<tr>
+<td>Сходство</td>
+<td>Отсутствие смешения; слабые/описательные элементы; контекст карточки <strong>маркетплейса</strong></td>
+</tr>
+<tr>
+<td>Размер</td>
+<td>Метод расчёта истца; <strong>ст. 1252.1</strong>; добросовестность (<strong>п. 7</strong>); «одно нарушение» на карточку</td>
+</tr>
+<tr>
+<td>Процесс</td>
+<td>Соблюдение <strong>30‑дневной</strong> претензии; надлежащие доказательства объёма</td>
+</tr>
+</tbody></table>
+<p>Контрпример: СИП в <strong>феврале 2026 года</strong> по делам <strong>№ А50-18845/2024</strong> ( <strong>С01-1735/2025</strong> ) и <strong>№ А50-20994/2024</strong> ( <strong>С01-1773/2025</strong> ) признал <strong>ничтожной</strong> цессию от иностранного правообладателя как <strong>обход</strong> Указа № 322; <strong>пп. «в» п. 17</strong> не спасает, если стороны <strong>миновали</strong> счёт «О». То есть довод ответчика работает, когда есть факты <strong>недобросовестности</strong>, а не как универсальный щит.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Чеклист возражений по Указу № 322 и цессии работает только с документами: без договоров и фактов об обходе счёта «О» суд может применить контрпримеры СИП 2026 года.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить защиту от иска по интеллектуальной собственности</a></p>
+</aside>
+<h3>Иск по интеллектуальной собственности: отличие от «чистого» спора о сходстве</h3>
+<p><strong>Иск по интеллектуальной собственности</strong> о компенсации совмещает:</p>
+<ol>
+<li><strong>Квалификацию нарушения</strong> — использовал ли продавец чужой знак в смысле <strong>ст. 1484</strong> ГК РФ.</li>
+<li><strong>Размер ответственности</strong> — <strong>ст. 1252.1</strong>, <strong>1515</strong> ГК РФ, Пленум ВС <strong>№ 10</strong> от <strong>23.04.2019</strong> (в т.ч. п. <strong>61</strong> о расчёте компенсации).</li>
+<li><strong>Порядок исполнения</strong> при иностранном правообладателе — <strong>Указ № 322</strong> (линия дела <strong>№ А42-5880/2023</strong>: суд должен определить не только размер, но и <strong>порядок выплаты</strong>).</li>
+</ol>
+<p>Ответчику выгодно <strong>развести</strong> эти пласты в отзыве: даже при спорном сходстве истец может проиграть на <strong>цессии</strong>, <strong>объёме</strong> или <strong>режиме платежей</strong>. Позиция ВС 05.06.2026 добавляет обязательный пласт — <strong>недружественные действия правообладателя</strong> и применимость <strong>пп. «в» п. 17</strong>.</p>
+<h2 id="vs-komp-cessiya-licenziya">Цессия и лицензия права на товарный знак: риски для истца</h2>
+<p>После изменений в законодательстве об <strong>исполнительном производстве</strong> (2024) иностранные компании массово <strong>уступают права требования</strong> российским лицам — суды относились к таким схемам с подозрением, <strong>единообразия не было</strong>. Инфоповод 05.06.2026 и линия <strong>А56-2577/2023</strong> сужают произвол: формальная «российская» подпись на иске <strong>не</strong> освобождает от проверки <strong>обхода</strong> Указа № 322.</p>
+<h3>Цессия права на товарный знак и цепочка передачи права</h3>
+<p>Типовая схема из дела ВС (по РАПСИ):</p>
+<pre>Иностранный правообладатель (междунар. регистрация)
+    → исключительная лицензия российской компании
+    → цессия права требования компенсации третьему лицу
+    → иск к ИП на маркетплейсе</pre>
+<p>Суды проверяют:</p>
+<ul>
+<li><strong>действительность</strong> цессии и лицензии;</li>
+<li>не является ли уступка <strong>мнимой</strong> или направленной <strong>исключительно</strong> на обход счёта «О»;</li>
+<li><strong>аффилированность</strong> цедента, цессионария и правообладателя;</li>
+<li>условие о <strong>перечислении 100%</strong> взысканного иностранцу.</li>
+</ul>
+<p>В определении ВС <strong>№ 307-ЭС24-18161</strong> (дело <strong>А56-2577/2023</strong>) указано: исковые требования связаны с исполнением обязательства перед иностранным правообладателем, и исполнение должно соответствовать <strong>установленному порядку</strong> — но отказ «в принципе» из‑за финансирования ВСУ <strong>необоснован</strong> без анализа договоров.</p>
+<h3>Лицензия на товарный знак: когда это усиливает позицию ответчика</h3>
+<p><strong>Исключительная лицензия</strong> сама по себе не запрещена. Но для ответчика важны детали:</p>
+<ul>
+<li>лицензиат <strong>не</strong> всегда вправе без согласия правообладателя <strong>уступать</strong> право требования компенсации;</li>
+<li><strong>доверительное управление</strong> правом <strong>≠</strong> переход исключительного права (позиция ВС в деле <strong>№ А42-5880/2023</strong>);</li>
+<li>лицензионные платежи и <strong>роялти</strong> в недружественную юрисдикцию — индикатор для проверки <strong>пп. «в» п. 17</strong> и добросовестности.</li>
+</ul>
+<p>Если в материалах истца лицензия и цессия <strong>противоречат</strong> друг другу или не содержат согласия на взыскание с третьих лиц, это отдельное основание для <strong>отказа</strong> или <strong>снижения</strong> компенсации.</p>
+<h2 id="vs-komp-1252-1">Компенсация по ст. 1252.1 ГК РФ и лимит 10 млн ₽ (214-ФЗ с 2026 года)</h2>
+<p>С <strong>04.01.2026</strong> действует <strong>ст. 1252.1</strong> ГК РФ (ФЗ <strong>№ 214-ФЗ</strong>): единый блок правил о <strong>компенсации</strong> за нарушение исключительных прав. Для ответчика на <strong>маркетплейсе</strong> это одновременно <strong>риск</strong> (жёстче претензии на верхней границе) и <strong>инструмент</strong> (предсказуемый потолок, снижение для добросовестных нарушителей).</p>
+<h3>Ст 1252.1 ГК РФ компенсация: расчёт и пределы</h3>
+<table>
+<thead><tr>
+<th>Параметр</th>
+<th>До 04.01.2026</th>
+<th>С 04.01.2026</th>
+</tr>
+</tr></thead><tbody><tr>
+<td>Макс. «твёрдая» компенсация за один объект / способ</td>
+<td>5 млн ₽</td>
+<td><strong>10 млн ₽</strong></td>
+</tr>
+<tr>
+<td>Минимум (ТЗ)</td>
+<td>10 тыс. ₽</td>
+<td>10 тыс. ₽</td>
+</tr>
+<tr>
+<td>Несколько объектов ИС на одном товаре</td>
+<td>—</td>
+<td><strong>одна</strong> компенсация от минимума до <strong>двукратного</strong> максимума</td>
+</tr>
+<tr>
+<td>Добросовестный нарушитель</td>
+<td>ограниченно</td>
+<td><strong>п. 7 ст. 1252.1</strong>: снижение до <strong>10–500 тыс. ₽</strong></td>
+</tr>
+</tbody></table>
+<p>Расчёт по <strong>двукратной стоимости</strong> товаров или лицензионному аналогу сохраняется; при этом ВС в деле <strong>№ А42-5880/2023</strong> возложил на истца доказывание <strong>фактически проданного</strong> контрафакта — завышенные цифры из отчётов площадки без детализации суд может не принять.</p>
+<h3>Лимит компенсации товарный знак 10 млн: связь с защитой от завышенных требований</h3>
+<p>Рост потолка с <strong>5 до 10 млн ₽</strong> усиливает давление в <strong>претензиях</strong> к селлерам, но <strong>не</strong> отменяет специальных оснований отказа: <strong>Указ № 322</strong>, <strong>ничтожная цессия</strong>, <strong>злоупотребление правом</strong>. Свежая позиция ВС 05.06.2026 показывает: даже в «санкционном» контексте суды <strong>не должны</strong> автоматически отклонять иск истца <strong>и</strong> не должны автоматически отклонять защиту ответчика — на новом рассмотрении предстоит <strong>согласовать</strong> размер по <strong>ст. 1252.1</strong> с режимом платежей и поведением правообладателя.</p>
+<p>Детальный разбор доказательств расчёта без повторения этой страницы — в <a href="/narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya/">нарушение товарного знака: доказательства и компенсация</a>.</p>
+<h2 id="vs-komp-zloupotreblenie">Злоупотребление правом при защите товарного знака</h2>
+<p><strong>Злоупотребление правом товарный знак</strong> — самостоятельная линия, дополняющая доводы по Указу № 322. Суды оценивают, не использует ли правообладатель (или цессионарий) регистрацию как инструмент <strong>выдавливания</strong> конкурентов с <strong>маркетплейса</strong>, а не как защиту инвестиций в бренд.</p>
+<h3>Злоупотребление правом товарный знак и злоупотребление исключительным правом</h3>
+<p>Признаки, на которые ссылаются ответчики и которые суды учитывают в смежных делах:</p>
+<ul>
+<li><strong>портфель</strong> регистраций и выборочные иски к продавцам;</li>
+<li>разрыв между <strong>лицензионной</strong> стоимостью и требуемой <strong>компенсацией</strong>;</li>
+<li>уступка права требования <strong>накануне</strong> иска с целью обойти счёт «О»;</li>
+<li>требование компенсации при <strong>отсутствии</strong> реального смешения на рынке.</li>
+</ul>
+<p><strong>Злоупотребление исключительным правом</strong> ( <strong>ст. 10</strong> ГК РФ ) не заменяет проверку <strong>пп. «в» п. 17</strong>, но усиливает позицию, если истец ведёт себя как «тролль» — особенно против <strong>малых ИП</strong>.</p>
+<h3>Когда позиция ВС дополняет линию о недобросовестном правообладателе</h3>
+<p>Акт 05.06.2026 фокусируется на <strong>обязанности суда</strong> исследовать недружественные действия <strong>самого правообладателя</strong>, а не только «защищать» ответчика из патриотических соображений. Для бизнеса это означает: аргументы должны быть <strong>документальными</strong> — договоры, переписка о платежах, публикация реквизитов счёта «О», факты прекращения лицензий в РФ.</p>
+<p>Если правообладатель <strong>добросовестен</strong> по <strong>пп. «в» п. 17</strong>, ответчику остаются классические доводы: <strong>нет сходства</strong>, <strong>малый объём</strong>, <strong>добросовестность</strong> ( <strong>п. 7 ст. 1252.1</strong> ), ошибки в претензионном порядке. Если же цессия — <strong>обход</strong> санкционного режима, позиция СИП 02.2026 и ВС по <strong>А56-2577/2023</strong> работают <strong>в пользу продавца</strong>.</p>
+<h2 id="vs-komp-sip-osporenie">СИП, оспаривание и аннулирование ТЗ — кратко (без дубля других материалов)</h2>
+<p>Не каждый спор о <strong>компенсации</strong> нужно доводить до кассации только возражениями по сходству. Параллельно смотрят на <strong>устойчивость</strong> самой регистрации и специализацию инстанций.</p>
+<h3>СИП товарный знак: когда уместна отсылка к судебной практике</h3>
+<p><strong>Суд по интеллектуальным правам</strong> рассматривает кассацию по спорам об <strong>исполнении</strong> договоров о распоряжении правами и по ряду категорий нарушений. Для <strong>ИП на маркетплейсе</strong> чаще актуален обычный арбитраж взыскания компенсации; отсылка к <strong>СИП товарный знак</strong> уместна, если спор сочетается с <strong>лицензией</strong>, <strong>цессией</strong> или <strong>ничтожностью</strong> сделки (дела <strong>А50-18845/2024</strong>, <strong>А50-20994/2024</strong>).</p>
+<p>Отдельно: ответственность <strong>площадки</strong> — не путать с ответственностью <strong>продавца</strong>. По делу <strong>№ А41-90502/2024</strong> (Wildberries) СИП отказал во взыскании компенсации с маркетплейса как с информационного посредника; по иному делу (<strong>№ А41-52523/2024</strong>) площадку обязали выплатить <strong>2 млн ₽</strong> за <strong>несвоевременную</strong> блокировку — это риск для <strong>оператора</strong>, не типовой сценарий для селлера.</p>
+<h3>Оспаривание и аннулирование товарного знака — альтернативные стратегии</h3>
+<p>Если знак <strong>слабый</strong>, описательный или получен с нарушением порядка регистрации, ответчик рассматривает <strong>оспаривание</strong> предоставления правовой охраны или <strong>аннулирование</strong> регистрации в Роспатенте / СИП. Подробный разбор маршрута — в материале <a href="/poizon-tovarnyj-znak-sip-osporenie-registracii/">POIZON / DEWU: оспаривание регистрации товарного знака в СИП</a>; здесь лишь отметим: это <strong>другой</strong> процесс, но он снижает давление <strong>компенсации</strong>, если иск опирается на спорную регистрацию.</p>
+<p>Завышение компенсации без связи с Указом № 322 разбиралось в контексте иных фабул — см. <a href="/sip-sinergetik-766-mln-otmena-kompensaciya-tz/">СИП и «Синергетик»: отмена 766 млн ₽</a> (другое дело, акцент на <strong>смешении</strong> и <strong>злоупотреблении</strong>, не на недружественных странах).</p>
+<h2 id="vs-komp-yurist">Когда подключать юриста: защита товарного знака и ответ на иск по ИС</h2>
+<p><strong>Защита товарного знака</strong> для продавца на <strong>маркетплейсе</strong> начинается с <strong>претензии</strong>, а не с подписания соглашения под угрозой <strong>10 млн ₽</strong>. После публикации позиции ВС <strong>05.06.2026</strong> имеет смысл заранее оценить:</p>
+<ul>
+<li>цепочку <strong>лицензия → цессия</strong> и риск <strong>обхода</strong> Указа № 322;</li>
+<li>применимость <strong>пп. «в» п. 17</strong> к конкретному иностранному правообладателю;</li>
+<li>доказательства <strong>объёма</strong> нарушения и <strong>сходства</strong> на карточке;</li>
+<li>соблюдение <strong>30‑дневного</strong> претензионного порядка с обеих сторон.</li>
+</ul>
+<p><strong>Защита интеллектуальной собственности</strong> в роли ответчика — это стратегия: часто выгодно <strong>комбинировать</strong> возражения по существу с ходатайствами об <strong>истребовании</strong> лицензионных и цессионных документов, экспертизой сходства, снижением по <strong>п. 7 ст. 1252.1</strong>. Юриста разумно подключать при сумме требования от <strong>сотен тысяч рублей</strong>, при угрозе блокировки всего кабинета на площадке и при признаках <strong>массового</strong> троллинга со стороны цессионария.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Комбинация возражений по сходству, ст. 1252.1 и ходатайств об истребовании лицензии — типовая стратегия после позиции ВС 05.06.2026. Имеет смысл подключить юриста до первого заседания, если сумма исчисляется сотнями тысяч рублей.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Записаться на консультацию по защите бренда</a></p>
+</aside>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации по спорам о товарных знаках на маркетплейсах: ответ на иск и претензию, защита от компенсации при иностранном правообладателе, Указ № 322.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить спор с юристом</a></p>
+</aside>
+
+<h2 id="vs-komp-istochniki">Источники и нормативная база</h2>
+<ul>
+<li><a href="https://rapsinews.ru/judicial_analyst/20260605/311909653.html" target="_blank" rel="noopener noreferrer">РАПСИ: ВС о компенсации за ТЗ и Указе № 322, 05.06.2026</a></li>
+<li><a href="http://www.kremlin.ru/acts/bank/47862" target="_blank" rel="noopener noreferrer">Указ Президента РФ № 322</a></li>
+<li><a href="http://kremlin.ru/acts/bank/52125" target="_blank" rel="noopener noreferrer">ФЗ № 214-ФЗ, ст. 1252.1 ГК РФ</a></li>
+<li><a href="https://www.consultant.ru/legalnews/28942/" target="_blank" rel="noopener noreferrer">КонсультантПлюс: компенсация за нарушение ТЗ с 2026</a></li>
+<li><a href="https://www.advgazeta.ru/novosti/vs-razyasnil-nyuansy-sporov-o-vyplatakh-royalti-pravoobladatelyam-iz-nedruzhestvennykh-stran/" target="_blank" rel="noopener noreferrer">Адвокатская газета: дело А56-2577/2023</a></li>
+<li><a href="https://www.advgazeta.ru/novosti/kak-opredelyaetsya-razmer-kompensatsii-za-narushenie-isklyuchitelnykh-prav-na-tovarnye-znaki/" target="_blank" rel="noopener noreferrer">Адвокатская газета: дело А42-5880/2023</a></li>
+</ul>
+<p><em>Материал подготовлен для продавцов и ИП, получивших претензию или иск о компенсации за <strong>сходное обозначение</strong> от правообладателя / цессионария с <strong>иностранным</strong> происхождением права. Не является индивидуальной юридической консультацией.</em></p>
+</div>
+
+<section id="vs-komp-faq" class="l24-faq" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2>Частые вопросы (FAQ)</h2>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Можно ли не платить компенсацию только потому, что товарный знак принадлежит иностранцу из недружественной страны?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Нет. ВС 05.06.2026 указал на обязанность проверки по существу, а не на автоматический отказ в иске. Иностранное происхождение — фактор для анализа Указа № 322 и цепочки прав, но не универсальное основание «не платить». С февраля 2025 года (дело А56-2577/2023) линия ВС обратная: нельзя в принципе отказывать в защите правообладателю только из‑за юрисдикции.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Что такое пп. «в» п. 17 Указа № 322 и зачем оно ответчику?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Это исключение: Указ не применяется к правообладателям из пп. «а» п. 1, которые надлежащим образом исполняют договоры с российскими должниками. Суды должны проверить, подпадает ли иностранная компания под это исключение. Для ответчика довод работает в связке с фактами; победа не гарантирована — при обходе счёта «О» СИП в 2026 году отказывал в применении пп. «в» (дела А50-18845/2024, А50-20994/2024).</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Кто обычно отвечает по иску — продавец или маркетплейс?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">По компенсации за нарушение ТЗ ответчиком выступает продавец (ИП или ООО). Маркетплейс в ряде дел признают информационным посредником (ст. 1253.1 ГК РФ) и освобождают от компенсации при своевременном удалении карточки после уведомления (дело № А41-90502/2024). Отдельно с площадкой могут спорить о запоздалой блокировке — это иной предмет.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Обязателен ли претензионный порядок перед иском?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Да, для юрлиц и ИП — 30 дней (п. 5.1 ст. 1252 ГК РФ). Пропуск ведёт к возврату иска. Ответ на претензию фиксирует позицию по сходству, цессии и Указу № 322 до суда.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Какой максимум компенсации с 2026 года?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">По ст. 1252.1 ГК РФ (214-ФЗ) «твёрдая» компенсация за один способ нарушения одного объекта — до 10 млн ₽ (ранее 5 млн ₽). При нескольких объектах на одном товаре — одна компенсация до двукратного максимума. Добросовестный нарушитель может претендовать на снижение до 10–500 тыс. ₽ (п. 7).</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Что изменил ВС 05.06.2026 для дела на маркетплейсе без номера в РАПСИ?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Коллегия отменила постановления апелляции и кассации и направила дело на новое рассмотрение. Нижестоящие суды не проверили пп. «в» п. 17 Указа № 322 и недружественные действия самого правообладателя. Номер дела и определения ВС в открытом доступе не опубликованы — ориентируйтесь на сообщение РАПСИ.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Можно ли оспорить не компенсацию, а сам товарный знак?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Да. Оспаривание и аннулирование регистрации — параллельный маршрут, если знак слабый или зарегистрирован с нарушениями. Подробности — в материале об оспаривании регистрации; это не заменяет ответ на иск, но снижает риски в долгую.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Означает ли «доводы истца заслуживают внимания», что ИП проиграет на пересмотре?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Нет. Формулировка означает, что автоматический отказ в защите только из‑за иностранного происхождения ТЗ неправомерен. Итог нового рассмотрения зависит от сходства, цессии, размера компенсации и фактов по Указу № 322 — с учётом как позиции ВС, так и контрпримеров СИП об обходе счёта «О».</p>
+    </div>
+  </div>
+</section>
+
+<pre class="l24-jsonld-vs" aria-hidden="true" hidden>{"@context": "https://schema.org","@type": "FAQPage","mainEntity": [{"@type": "Question","name": "Можно ли не платить компенсацию только потому, что товарный знак принадлежит иностранцу из недружественной страны?","acceptedAnswer": {"@type": "Answer","text": "Нет. ВС 05.06.2026 указал на обязанность проверки по существу, а не на автоматический отказ в иске. Иностранное происхождение — фактор для анализа Указа № 322 и цепочки прав, но не универсальное основание «не платить». С февраля 2025 года (дело А56-2577/2023) линия ВС обратная: нельзя в принципе отказывать в защите правообладателю только из‑за юрисдикции."}},{"@type": "Question","name": "Что такое пп. «в» п. 17 Указа № 322 и зачем оно ответчику?","acceptedAnswer": {"@type": "Answer","text": "Это исключение: Указ не применяется к правообладателям из пп. «а» п. 1, которые надлежащим образом исполняют договоры с российскими должниками. Суды должны проверить, подпадает ли иностранная компания под это исключение. Для ответчика довод работает в связке с фактами; победа не гарантирована — при обходе счёта «О» СИП в 2026 году отказывал в применении пп. «в» (дела А50-18845/2024, А50-20994/2024)."}},{"@type": "Question","name": "Кто обычно отвечает по иску — продавец или маркетплейс?","acceptedAnswer": {"@type": "Answer","text": "По компенсации за нарушение ТЗ ответчиком выступает продавец (ИП или ООО). Маркетплейс в ряде дел признают информационным посредником (ст. 1253.1 ГК РФ) и освобождают от компенсации при своевременном удалении карточки после уведомления (дело № А41-90502/2024). Отдельно с площадкой могут спорить о запоздалой блокировке — это иной предмет."}},{"@type": "Question","name": "Обязателен ли претензионный порядок перед иском?","acceptedAnswer": {"@type": "Answer","text": "Да, для юрлиц и ИП — 30 дней (п. 5.1 ст. 1252 ГК РФ). Пропуск ведёт к возврату иска. Ответ на претензию фиксирует позицию по сходству, цессии и Указу № 322 до суда."}},{"@type": "Question","name": "Какой максимум компенсации с 2026 года?","acceptedAnswer": {"@type": "Answer","text": "По ст. 1252.1 ГК РФ (214-ФЗ) «твёрдая» компенсация за один способ нарушения одного объекта — до 10 млн ₽ (ранее 5 млн ₽). При нескольких объектах на одном товаре — одна компенсация до двукратного максимума. Добросовестный нарушитель может претендовать на снижение до 10–500 тыс. ₽ (п. 7)."}},{"@type": "Question","name": "Что изменил ВС 05.06.2026 для дела на маркетплейсе без номера в РАПСИ?","acceptedAnswer": {"@type": "Answer","text": "Коллегия отменила постановления апелляции и кассации и направила дело на новое рассмотрение. Нижестоящие суды не проверили пп. «в» п. 17 Указа № 322 и недружественные действия самого правообладателя. Номер дела и определения ВС в открытом доступе не опубликованы — ориентируйтесь на сообщение РАПСИ."}},{"@type": "Question","name": "Можно ли оспорить не компенсацию, а сам товарный знак?","acceptedAnswer": {"@type": "Answer","text": "Да. Оспаривание и аннулирование регистрации — параллельный маршрут, если знак слабый или зарегистрирован с нарушениями. Подробности — в материале об оспаривании регистрации; это не заменяет ответ на иск, но снижает риски в долгую."}},{"@type": "Question","name": "Означает ли «доводы истца заслуживают внимания», что ИП проиграет на пересмотре?","acceptedAnswer": {"@type": "Answer","text": "Нет. Формулировка означает, что автоматический отказ в защите только из‑за иностранного происхождения ТЗ неправомерен. Итог нового рассмотрения зависит от сходства, цессии, размера компенсации и фактов по Указу № 322 — с учётом как позиции ВС, так и контрпримеров СИП об обходе счёта «О»."}}]}</pre>
+</main>
+<!-- /wp:html -->
+
+```
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО (2026-06-08)
+
+- **page_id:** 443
+- **slug:** `vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany`
+- **blob_id:** `iZYeaHj2gAMWCQ5BI6CTZtm` (sha256 `a7879f7495432cfba0e3b0d2a5848e30d306e5ab3f7063cf4701111ab3c04bed`, 86710 chars)
+- **URL:** https://advokat-vsem.online/vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany/
+- **curl:** HTTP 200, hero `#l24-hero-vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany` на месте
+- **ledger:** `published-pages.md`, `kirill-news-ledger.md` обновлены (KIRILL-IP)
