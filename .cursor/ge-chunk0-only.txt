@@ -1,29 +1,49 @@
-=== АЛИНА (HERO) ===
-Статус: ✅ ГОТОВО
+<!-- wp:html -->
+<style>
 
-**Hero id / class:** `l24-hero-vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026`
+.breadcrumbs,.breadcrumb,.woocommerce-breadcrumb,.rank-math-breadcrumb,.yoast-breadcrumb,
+.entry-header,.page-title-section,.entry-title,.main_title,h1.entry-title{display:none!important}
+#primary,.site-main,.site-content,#content,.content-area{padding-top:0!important;margin-top:0!important}
+#sidebar,.sidebar,#secondary{display:none!important}
+.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page .entry-content{max-width:none!important;width:100%!important;padding:0!important}
+.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page .l24-longread-wrap{max-width:820px;margin:0 auto;padding:48px 24px 80px;font-size:1.05rem;line-height:1.65;color:#1a202c}
+.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page h2{margin-top:2.5em;color:#1a365d;font-size:1.45rem}
+.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page h3{margin-top:1.5em;color:#2c5282;font-size:1.15rem}
+.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page a{color:#1e40af}
+.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page table{width:100%;border-collapse:collapse;margin:1.25em 0;font-size:.95rem}
+.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page th,.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page td{border:1px solid #e2e8f0;padding:10px 12px;text-align:left;vertical-align:top}
+.vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page th{background:#f1f5f9;color:#1a365d;font-weight:700}
+.l24-intro-ug{max-width:1200px;margin:0 auto;padding:40px 24px 8px;font-family:system-ui,sans-serif}
+.l24-intro-ug__grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);gap:28px}
+.l24-intro-ug__text{border-left:4px solid #0f2744;padding:4px 0 4px 22px}
+.l24-intro-ug__text p{margin:0 0 14px;font-size:1.02rem;line-height:1.6;color:#334155}
+.l24-intro-ug__brief{background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;padding:16px 18px;margin-top:16px;font-size:.95rem}
+.l24-intro-ug__decor{background:linear-gradient(160deg,#f1f5f9 0%,#fff 100%);border:1px solid #e2e8f0;border-radius:12px;padding:18px}
+.l24-intro-ug__chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;list-style:none}
+.l24-intro-ug__chip{font-size:.72rem;font-weight:700;padding:6px 10px;border-radius:999px;background:#fff;border:1px solid #cbd5e1;color:#475569}
+.l24-intro-ug__chip--accent{border-color:#1e40af;color:#1e40af}
+.l24-intro-ug__chip--warn{border-color:#a31830;color:#a31830}
+.ym-toc{max-width:820px;margin:24px auto 0;padding:0 24px 32px;text-align:center;font-family:system-ui,sans-serif}
+.ym-toc__title{font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#64748b;margin:0 0 12px}
+.ym-toc__list{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.ym-toc__list a{display:inline-block;padding:8px 12px;border-radius:8px;background:#f1f5f9;color:#1e40af;text-decoration:none;font-size:.88rem;font-weight:600}
+.ym-cta{margin:28px 0;padding:22px 24px;border-radius:10px;background:linear-gradient(135deg,#f8fafc,#edf2f7);border:1px solid #cbd5e1;border-left:4px solid #a31830}
+.ym-cta--legis24{border-left-color:#1e3a8a;background:linear-gradient(135deg,#eff6ff,#f8fafc)}
+.ym-cta__text{margin:0 0 14px;line-height:1.55;color:#334155}
+.ym-cta__btn{display:inline-block;background:#a31830;color:#fff!important;padding:12px 22px;border-radius:8px;font-weight:700;text-decoration:none}
+.l24-faq{margin-top:2.5em;padding:28px 24px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;max-width:820px;margin-left:auto;margin-right:auto}
+.l24-faq h2{margin-top:0!important}
+.l24-faq__item{margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid #e2e8f0}
+.l24-faq__q{margin:0 0 8px;font-size:1.05rem;color:#1a365d;font-weight:600}
+.l24-faq__a{margin:0;color:#334155}
+@media(max-width:900px){.l24-intro-ug__grid{grid-template-columns:1fr}}
 
-## Паспорт мира
+</style>
+<main id="primary" class="site-main vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="ВС 2026: Google Earth не доказывает мошенничество — отмена приговора и защита по ст. 159">
+<meta itemprop="description" content="Верховный суд отменил приговор за мошенничество с земельным участком: снимки Google Earth Pro нельзя считать единственным доказательством. Линия защиты, кассация и оспаривание цифровых улик.">
+<meta itemprop="inLanguage" content="ru-RU">
 
-| Параметр | Значение |
-|----------|----------|
-| **Мир** | «Кадастровый слой под судебными весами» — спорный земельный участок на спутниковой карте; следствие держит на GIS-скриншоте, защита поднимает выписку ЕГРН и показания; ВС снимает приговор из‑за односторонней оценки цифровой улики |
-| **Центральная метафора** | Весы ст. 88 УПК: на одной чаше — монитор с историческим слоем Google Earth Pro (пунктир «единственная улика»); на другой — свиток ЕГРН, карточка свидетеля и щит «ст. 159»; колонна ВС над сценой |
-| **Пространство** | Светлый градиент «утреннее небо над картой»; SVG — кадастровый план участка с зелёными полигонами, сетка координат, абстрактный глобус-дуга в углу (не логотип Google) |
-| **Движение** | Только CSS: лёгкий пульс щита защиты, мерцание «?» на GIS-слое, дрейф маркера участка; `prefers-reduced-motion` отключает |
-| **Палитра** | `#0f172a` текст, `#1e3a8a` ВС/акцент, `#166534` земля/GIS, `#475569` подзаголовок, `#a31830` угроза обвинения, `#f8fafc`–`#eef4f0` фон |
-| **Аудитория** | Собственники и арендаторы земли, лица с записями в Росреестре, обвиняемые по ст. 159 из‑за «скриншота из карт» |
-
-## Чеклист отличий от других hero
-
-- [x] **Не Пленум № 48** (`hero-ug-plenum48`): нет криптовалюты, CBDC, ст. 171.6 и майнинга — фокус **земля + GIS + дело Аверченкова**
-- [x] **Не ст. 199** (`hero-ug-st199`): нет ФНС, 75 дней, налоговой недоимки — инстанция **ВС 04.06.2026**, ст. **159** и **88 УПК**
-- [x] **Не компенсация ТЗ** (`l24-hero-vs-kompensaciya-…`): нет маркетплейса, ® и Указа № 322 — сцена **участок / аэрофото / ЕГРН / свидетели**
-- [x] **Уникальная сцена**: кадастровый участок на спутниковом слое + весы GIS vs ЕГРН + монитор «исторический слой» + свиток реестра + карточка свидетельницы-покупательницы
-- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
-- [x] Свой `id`/`class`: `l24-hero-vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026`
-
-```html
 <section id="l24-hero-vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026" class="l24-hero-vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026" aria-label="ВС 2026: Google Earth не доказывает мошенничество — отмена приговора и защита по ст. 159">
   <style>
     .l24-hero-vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026 {
@@ -289,84 +309,4 @@
           <rect x="6" y="6" width="136" height="14" rx="4" fill="#0f172a"/>
           <circle cx="14" cy="13" r="3" fill="#ef4444"/>
           <circle cx="24" cy="13" r="3" fill="#eab308"/>
-          <circle cx="34" cy="13" r="3" fill="#22c55e"/>
-          <text x="74" y="16" text-anchor="middle" fill="#94a3b8" font-size="5" font-weight="700">GIS · исторический слой</text>
-          <rect x="10" y="26" width="128" height="72" rx="4" fill="url(#hero-ge-sat)"/>
-          <polygon points="36,72 68,48 108,58 98,88 52,92" fill="#4ade80" opacity="0.7"/>
-          <line x1="18" y1="94" x2="130" y2="26" stroke="#dc2626" stroke-width="2" opacity="0.7"/>
-          <line x1="18" y1="26" x2="130" y2="94" stroke="#dc2626" stroke-width="2" opacity="0.7"/>
-          <text x="74" y="58" text-anchor="middle" fill="#991b1b" font-size="7" font-weight="800" class="l24-hero-vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026__gis-doubt">нет постройки</text>
-          <rect x="10" y="102" width="128" height="4" rx="2" fill="#334155"/>
-        </g>
-        <g class="l24-hero-vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026__scale-tilt" filter="url(#hero-ge-shadow)" transform="translate(108, 218)">
-          <rect x="126" y="0" width="8" height="88" rx="2" fill="#64748b"/>
-          <line x1="20" y1="28" x2="240" y2="28" stroke="#475569" stroke-width="2.5"/>
-          <line x1="130" y1="28" x2="130" y2="0" stroke="#475569" stroke-width="2"/>
-          <g transform="translate(8, 32)">
-            <line x1="52" y1="0" x2="52" y2="24" stroke="#64748b" stroke-width="1.5"/>
-            <ellipse cx="52" cy="36" rx="44" ry="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
-            <rect x="20" y="8" width="64" height="22" rx="4" fill="#fff" stroke="#fca5a5" stroke-width="1"/>
-            <text x="52" y="22" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="800">GIS-скрин</text>
-          </g>
-          <g transform="translate(148, 20)">
-            <line x1="52" y1="0" x2="52" y2="16" stroke="#64748b" stroke-width="1.5"/>
-            <ellipse cx="52" cy="28" rx="52" ry="11" fill="#f0fdf4" stroke="#86efac" stroke-width="1.2"/>
-            <rect x="8" y="4" width="40" height="18" rx="3" fill="url(#hero-ge-paper)" stroke="#d97706" stroke-width="0.8"/>
-            <text x="28" y="15" text-anchor="middle" fill="#92400e" font-size="4.5" font-weight="800">ЕГРН</text>
-            <rect x="54" y="4" width="44" height="18" rx="3" fill="#fff" stroke="#93c5fd" stroke-width="0.8"/>
-            <text x="76" y="15" text-anchor="middle" fill="#1e40af" font-size="4.5" font-weight="700">свидетель</text>
-          </g>
-          <text x="130" y="108" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="700">ст. 88 УПК — комплексная оценка</text>
-        </g>
-        <g class="l24-hero-vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026__shield-pulse" filter="url(#hero-ge-shadow)" transform="translate(24, 318)">
-          <path d="M36 0 L72 12 L72 48 C72 68 54 82 36 88 C18 82 0 68 0 48 L0 12 Z" fill="url(#hero-ge-shield)" stroke="#1e40af" stroke-width="1.5"/>
-          <text x="36" y="44" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">159</text>
-          <text x="36" y="56" text-anchor="middle" fill="#dbeafe" font-size="5" font-weight="700">ЗАЩИТА</text>
-        </g>
-        <g filter="url(#hero-ge-shadow)" transform="translate(108, 332)">
-          <rect width="108" height="56" rx="6" fill="#fff" stroke="#d97706" stroke-width="1"/>
-          <rect x="0" y="0" width="108" height="14" rx="6" fill="url(#hero-ge-paper)"/>
-          <text x="54" y="10" text-anchor="middle" fill="#92400e" font-size="5.5" font-weight="800">ВЫПИСКА ЕГРН</text>
-          <rect x="10" y="20" width="88" height="3" rx="1" fill="#e2e8f0"/>
-          <rect x="10" y="28" width="72" height="3" rx="1" fill="#e2e8f0"/>
-          <rect x="10" y="36" width="80" height="3" rx="1" fill="#bbf7d0"/>
-          <text x="54" y="50" text-anchor="middle" fill="#166534" font-size="5" font-weight="600">соседние постройки · реестр</text>
-        </g>
-        <g filter="url(#hero-ge-shadow)" transform="translate(228, 328)">
-          <rect width="96" height="64" rx="8" fill="#fff" stroke="#93c5fd" stroke-width="1.2"/>
-          <circle cx="24" cy="22" r="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1"/>
-          <text x="24" y="25" text-anchor="middle" fill="#1e40af" font-size="8" font-weight="700">👤</text>
-          <text x="58" y="20" fill="#334155" font-size="5.5" font-weight="700">свидетельница</text>
-          <text x="58" y="32" fill="#64748b" font-size="5">покупатель участка</text>
-          <rect x="10" y="40" width="76" height="16" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
-          <text x="48" y="51" text-anchor="middle" fill="#1e3a8a" font-size="5" font-weight="600">«постройка была»</text>
-        </g>
-        <g filter="url(#hero-ge-shadow)" transform="translate(340, 318)">
-          <rect width="112" height="72" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
-          <rect x="0" y="0" width="112" height="18" rx="8" fill="#f1f5f9"/>
-          <text x="56" y="12" text-anchor="middle" fill="#475569" font-size="5.5" font-weight="800">СПЕЦИАЛИСТ</text>
-          <text x="56" y="34" text-anchor="middle" fill="#334155" font-size="5.5" font-weight="600">методика фиксации</text>
-          <text x="56" y="46" text-anchor="middle" fill="#64748b" font-size="5">аэрофото · протокол</text>
-          <text x="56" y="60" text-anchor="middle" fill="#a31830" font-size="5.5" font-weight="700">оспорено в суде</text>
-        </g>
-        <g filter="url(#hero-ge-shadow)" transform="translate(248, 18)">
-          <rect x="0" y="34" width="96" height="44" rx="4" fill="url(#hero-ge-vs)"/>
-          <polygon points="48,0 96,34 0,34" fill="#1e40af"/>
-          <rect x="14" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
-          <rect x="40" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
-          <rect x="66" y="46" width="16" height="22" rx="2" fill="rgba(255,255,255,0.12)"/>
-          <text x="48" y="68" text-anchor="middle" fill="#e2e8f0" font-size="6" font-weight="800" letter-spacing="0.06em">ВЕРХОВНЫЙ СУД</text>
-          <text x="48" y="92" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">04.06.2026</text>
-        </g>
-        <g transform="translate(392, 168)">
-          <rect width="72" height="40" rx="6" fill="#fef2f2" stroke="#f87171" stroke-width="1"/>
-          <text x="36" y="16" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="800">ОТМЕНА</text>
-          <text x="36" y="28" text-anchor="middle" fill="#475569" font-size="5">приговора</text>
-          <text x="36" y="36" text-anchor="middle" fill="#64748b" font-size="4.5">новое рассмотрение</text>
-        </g>
-        <text x="240" y="418" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">GIS ≠ единственная улика · ЕГРН · свидетели · ст. 159 · не запрет карт</text>
-      </svg>
-    </div>
-  </div>
-</section>
-```
+          <circle cx="34" cy="13" r="3" fill="#2
