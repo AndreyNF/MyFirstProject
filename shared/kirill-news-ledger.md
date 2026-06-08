@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-06-08 | selected | UG | ВС отменил приговор за мошенничество: снимки Google Earth Pro не могут быть единственным доказательством (дело Аверченкова, Адыгея) | vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026 | https://rapsinews.ru/judicial_analyst/20260604/311904653.html |
 | 2026-06-08 | published | IP | ВС: при споре о компенсации за ТЗ иностранца из недружественной страны суды обязаны проверить его недружественные действия (маркетплейс, Указ № 322) | vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany | https://advokat-vsem.online/vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany/ |
 | 2026-06-03 | published | UG | ВС 2026: ст. 199 УК — отмена приговора, 75 дней после решения ФНС, защита директора | vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026 | https://advokat-vsem.online/vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026/ |
 | 2026-06-03 | selected | IP | СИП 2026: досрочное прекращение ТЗ за неиспользование (СИП-75/2025, СИП-6/2026) — заинтересованность и бремя доказывания | sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026 | https://base.garant.ru/414010545/ |
