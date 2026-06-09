@@ -1293,3 +1293,41 @@ AD_BANNER_*: не настроен — нижний баннер текстов�
 **ТИП:** IP
 
 **ПЕРЕДАТЬ:** Алина (hero) || Борис (блок статьи) → Наташа
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** `sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026`
+
+**Title:** Досрочное прекращение товарного знака за неиспользование: СИП 2026 — заинтересованность и защита бренда
+
+**Excerpt:** Практика СИП 2026 по ст. 1486 ГК РФ: решения СИП-75/2025 и СИП-898/2025 о частичном прекращении охраны, бремени доказывания использования и заинтересованности истца. Как защитить знак и ответить на иск.
+
+**Путь к файлу:** `/workspace/.cursor/page-content-natasha-sip-prekrashchenie.html`
+
+## Передача Юре
+
+**Slug:** `sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026`
+
+**Title:** Досрочное прекращение товарного знака за неиспользование: СИП 2026 — заинтересованность и защита бренда
+
+**Excerpt:** Практика СИП 2026 по ст. 1486 ГК РФ: решения СИП-75/2025 и СИП-898/2025 о частичном прекращении охраны, бремени доказывания использования и заинтересованности истца. Как защитить знак и ответить на иск.
+
+**Файл:** `/workspace/.cursor/page-content-natasha-sip-prekrashchenie.html`
+
+**Структура страницы:**
+1. Hero Алины (SVG + CSS, inline, `l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026`)
+2. Intro grid (текст слева + chips/SVG справа, `l24-intro-sip__grid`)
+3. TOC `ym-toc` с 10 якорями на H2
+4. Лонгрид (H2/H3, таблицы, списки, 3 CTA-блока Артура)
+5. Блок Бориса (`l24-boris-sip1486-matrix`) — после H3 «Процедура ст. 1486»
+6. FAQ (10 вопросов, `l24-faq`, schema.org FAQPage inline + JSON-LD в `<pre hidden>`)
+7. CTA href — только `https://advokat-vsem.ru/`, тексты кнопок без домена
+
+**Проверено:**
+- `main id="primary"` class="site-main sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026-page"
+- breadcrumbs скрыты
+- БЕЗ `<script>` и `<canvas>`
+- обёрнуто в `<!-- wp:html -->`
+- все img с alt (нет внешних img; SVG с role="img" aria-label)
+- внешние ссылки `target="_blank" rel="noopener noreferrer"`
