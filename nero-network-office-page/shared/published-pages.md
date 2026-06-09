@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-06-09 | KIRILL-ARB | vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns | 447 | https://advokat-vsem.online/vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns/ |
 | 2026-06-08 | KIRILL-UG | vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026 | 445 | https://advokat-vsem.online/vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026/ |
 | 2026-06-08 | KIRILL-IP | vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany | 443 | https://advokat-vsem.online/vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany/ |
 | 2026-06-03 | KIRILL-UG | vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026 | 441 | https://advokat-vsem.online/vs-st-199-uklonenie-nalogov-75-dnej-zashchita-2026/ |

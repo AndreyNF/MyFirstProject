@@ -3065,32 +3065,16 @@ SLUG: vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns
 
 === ЮРА (ПУБЛИКАЦИЯ) ===
 Дата: 2026-06-09
-page_id: 447 (draft, MCP wordpress_create_page)
+page_id: 447
 slug: vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns
 title: Обзор ВС № 4/2026: налог на имущество организаций и спор с ФНС в арбитраже
 excerpt: 17 позиций обзора ВС № 4/2026 о налоге на имущество организаций: движимое и недвижимое, сооружения, сделки. Как оспорить доначисления ФНС в арбитражном суде — сроки, доказательства, стратегия.
 код: KIRILL-ARB
+URL: https://advokat-vsem.online/vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns/
 
-СТАТУС: ❌ НЕ ОПУБЛИКОВАНО (blob не финализирован)
+СТАТУС: ✅ ОПУБЛИКОВАНО
 
-Blob-загрузка (сбой):
-- Старый blob `aMOyg740lAcJEzTI42QpHlm` — испорчен (PLACEHOLDER)
-- Новый blob `pfwNJNGyBmCR0z8fUvpTV9cB`: chunk0+chunk1 OK (41474 bytes), затем ошибочно отправлен PLACEHOLDER (+26 → 41500 bytes) — blob испорчен
-- Нужен ПОЛНЫЙ RESET и повторная загрузка chunk0–4
-
-Готовые MCP args (актуальные, без PLACEHOLDER):
-- `/workspace/.cursor/vs4-mcp-step0-ready.json` — reset=true, chunk 18000
-- `/workspace/.cursor/vs4-mcp-step{1..4}-ready.json` — blob_id обновить после chunk0
-- `/tmp/s0.json` — chunk0 args (bash scripts/vs4_mcp_upload_step.sh 0)
-- Чанки: `/workspace/.cursor/vs4-blob-chunks/chunk{0..4}.txt`
-
-Алгоритм (повтор):
-1. `wordpress_content_blob_append` args из `/tmp/s0.json` (reset=true) → новый blob_id
-2. steps 1–3: args из `vs4-mcp-step{N}-ready.json` с актуальным blob_id
-3. step 4: finalize=true
-4. `wordpress_update_page_from_blob` page_id=447, blob_id
-5. `wordpress_update_page` status=publish, excerpt
-6. Проверить live URL (main#primary, hero, boris-блок l24-boris-vs4-asset-matrix)
-7. published-pages.md + kirill-news-ledger.md → published
-
-Скрипты: `scripts/vs4_mcp_upload_step.sh`, `scripts/mcp_kovcheg_blob_append_json.py`
+Blob: `kPJ3Biyd37RAJcFCDZq1pA` — 109151 bytes, sha256 `00221e259dc8150590063340ffe0b048ee63e8c767188342e868b712e28fbccd`
+Чанки: `/workspace/.cursor/vs4-blob-chunks-8k/chunk{0..10}.txt` (11×8k, последний 3731)
+Live-проверка: main#primary ✅, hero `l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns` ✅, boris `l24-boris-vs4-asset-matrix` ✅, FAQ ✅
+published-pages.md + kirill-news-ledger.md обновлены
