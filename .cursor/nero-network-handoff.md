@@ -1331,3 +1331,14 @@ AD_BANNER_*: не настроен — нижний баннер текстов�
 - обёрнуто в `<!-- wp:html -->`
 - все img с alt (нет внешних img; SVG с role="img" aria-label)
 - внешние ссылки `target="_blank" rel="noopener noreferrer"`
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅
+
+**page_id:** 449
+**slug:** `sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026`
+**URL:** https://advokat-vsem.online/sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026/
+**blob_id:** 56eWR4jAmq7oG7r63OeHpkLk (10 чанков, finalize OK, sha256 b83a95df98aa9b7b33985129fed72a12109d9bc4dea6287a6a04952ca52d5b41)
+**Метод:** MCP Kovcheg (wordpress_content_blob_append → wordpress_update_page_from_blob → wordpress_update_page publish)
+**Live check:** HTTP 200, контент СИП-75/2025 + FAQ на месте
+**Ledger:** published-pages.md + kirill-news-ledger.md обновлены
