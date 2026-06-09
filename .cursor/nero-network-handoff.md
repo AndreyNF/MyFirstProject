@@ -1718,3 +1718,14 @@ SLUG: vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026
 - SLUG: `vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026`
 - TITLE: `ВС 2026: условное наказание за смертельное ДТП — смягчающие обстоятельства и ст. 73 УК РФ | Legis24`
 - EXCERPT: `Верховный суд в деле № 41-УД26-25-К4 заменил реальный срок условным за ДТП с погибшим. Разбираем процессуальную ошибку судов — немотивированный отказ от ст. 73 УК, смягчающие обстоятельства, роль ст. 88 УПК и как защита добивается условного осуждения.`
+
+=== ЮРА (ПУБЛИКАЦИЯ) === ✅
+
+- **page_id:** 451
+- **URL:** https://advokat-vsem.online/vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026/
+- **slug:** vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026
+- **код:** KIRILL-UG
+- **статус:** publish
+- **blob_id:** U9q3owkCEEvjnecdVOa8vg0N (126062 bytes, sha256 f549b04e5c7d7e6f5fdaa200da0f21340518a4eb4cc2e45021c1f70fbefc989a)
+- **проверка live:** HTTP 200, `main#primary`, hero + FAQ на месте
+- **логи:** published-pages.md ✅, kirill-news-ledger.md ✅
