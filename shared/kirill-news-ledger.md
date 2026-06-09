@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-06-09 | selected | UG | ВС 2026: гуманизм уголовного закона — условное вместо реального срока за смертельное ДТП (№ 41-УД26-25-К4) | vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026 | https://rapsinews.ru/judicial_analyst/20260605/311909577.html |
 | 2026-06-09 | published | ARB | Обзор ВС № 4/2026: споры с ФНС в арбитраже по налогу на имущество организаций (движимое/недвижимое, имущественный комплекс) | vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns | https://advokat-vsem.online/vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns/ |
 | 2026-06-08 | published | UG | ВС отменил приговор за мошенничество: снимки Google Earth Pro не могут быть единственным доказательством (дело Аверченкова, Адыгея) | vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026 | https://advokat-vsem.online/vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026/ |
 | 2026-06-08 | published | IP | ВС: при споре о компенсации за ТЗ иностранца из недружественной страны суды обязаны проверить его недружественные действия (маркетплейс, Указ № 322) | vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany | https://advokat-vsem.online/vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany/ |
