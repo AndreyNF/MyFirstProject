@@ -1,31 +1,32 @@
 === АЛИНА (HERO) ===
 Статус: ✅ ГОТОВО
 
-**Hero id / class:** `l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns`
+**Hero id / class:** `l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026`
 
 ## Паспорт мира
 
 | Параметр | Значение |
 |----------|----------|
-| **Мир** | «Промышленная весовая палата арбитража» — спор ФНС о доначислении налога на имущество разворачивается на фоне ГЭС и заводского цеха; весы сравнивают тяжесть налогового требования с доказательствами движимого ОС |
-| **Центральная метафора** | Стальные весы арбитража: на одной чаше — акт ФНС «налог на имущество» и доначисление; на другой — инвентарные карточки ГЭС (компрессоры, котлы) и паспорт сооружения; над сценой — обзор ВС № 4/2026 |
-| **Пространство** | Светлый градиент «утро над промзоной»; SVG — плотина ГЭС с водосбросом, заводские трубы, гидротурбина, налоговая декларация; не золотые весы суда и не цепочка банкротства |
-| **Движение** | Только CSS: покачивание чаш весов, пульс воды у плотины, мерцание строки доначисления; `prefers-reduced-motion` отключает |
-| **Палитра** | `#0f172a` текст, `#1e3a8a` ВС/акцент, `#0369a1` вода/ГЭС, `#475569` подзаголовок, `#a31830` ФНС/доначисление, `#f8fafc`–`#eef2f7` фон |
-| **Аудитория** | Директора и CFO компаний с производственными активами, энергетикой, складскими комплексами — оспаривание доначислений в арбитраже |
+| **Мир** | «Зал СИП: свидетельство бренда на столе судьи» — спор о неиспользовании разворачивается вокруг частичного «отщепления» классов МКТУ; правообладатель собирает доказательства реального оборота, истец доказывает заинтересованность |
+| **Центральная метафора** | Свидетельство ТЗ, разделённое на зоны: охрана сохранена (бельё, класс 25) и прекращена (брюки, колготки); над сценой — таймлайн ст. 1486 (предложение → 2 мес. → 30 дн. → иск) и песочные часы трёхлетнего периода |
+| **Пространство** | Светлый градиент «утро в СИП»; SVG — фасад Суда по интеллектуальным правам, сетка МКТУ, пакет доказательств использования, решение СИП-75/2025; не щит маркетплейса, не компенсация иностранцу, не весы ФНС |
+| **Движение** | Только CSS: пульс сохранённой зоны свидетельства, мерцание прекращённых ячеек МКТУ, «течение» песка в часах, подсветка стрелок процедуры; `prefers-reduced-motion` отключает |
+| **Палитра** | `#0f172a` текст, `#4338ca` СИП/акцент IP, `#059669` сохранённая охрана, `#dc2626` прекращение, `#475569` подзаголовок, `#a31830` CTA, `#f8fafc`–`#eef2f7` фон |
+| **Аудитория** | Правообладатели брендов под угрозой иска по ст. 1486 и конкуренты/ИП, готовящие иск о досрочном прекращении чужого знака |
 
 ## Чеклист отличий от других hero
 
-- [x] **Не обзор № 5** (`l24-hero-vs-obzor-5-2026-subs`): нет золотых весов кредитор/субсидиарка, цепочки должник→банк, реестра банкротства — фокус **налог на имущество + ГЭС/завод + ФНС**
-- [x] **Не Google Earth** (`l24-hero-vs-google-earth-…`): нет GIS/ЕГРН/ст. 159 — инстанция **обзор 4/2026**, гл. **30 НК**
-- [x] **Уникальная сцена**: плотина ГЭС + завод + стальные весы арбитража + налоговый акт ФНС vs инвентарные ОС
+- [x] **Не компенсация иностранцу** (`l24-hero-vs-kompensaciya-…`): нет щита маркетплейса, Указа № 322, цепочки лицензия→иск — фокус **неиспользование + ст. 1486**
+- [x] **Не Синергетик / POIZON**: нет суммы компенсации 766 млн и оспаривания регистрации — угол **досрочное прекращение охраны**
+- [x] **Не обзор ВС № 4 (налог)**: нет ГЭС, ФНС, весов налога на имущество — инстанция **СИП 2026**, гл. **76 ГК / ст. 1486**
+- [x] **Уникальная сцена**: фасад СИП + свидетельство с частичным прекращением по МКТУ + таймлайн 1486 + песочные часы 3 лет
 - [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
-- [x] CTA: «Получить консультацию» → `https://advokat-vsem.ru/`
+- [x] CTA: «Консультация по защите товарного знака» → `https://advokat-vsem.ru/`
 
 ```html
-<section id="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns" class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns" aria-label="Обзор ВС № 4/2026: налог на имущество организаций в арбитраже — как оспорить ФНС">
+<section id="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026" class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026" aria-label="СИП 2026: досрочное прекращение товарного знака за неиспользование — заинтересованность и защита бренда">
   <style>
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026 {
       position: relative;
       min-height: 88vh;
       min-height: 88dvh;
@@ -33,21 +34,21 @@
       display: flex;
       align-items: center;
       padding: 112px 24px 72px;
-      background: linear-gradient(152deg, #fefefe 0%, #f3f6fa 38%, #eef2f8 100%);
+      background: linear-gradient(152deg, #fefefe 0%, #f5f3ff 32%, #eef2f8 100%);
       color: #0f172a;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns::before {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026::before {
       content: "";
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse 44% 40% at 90% 6%, rgba(3, 105, 161, 0.07) 0%, transparent 55%),
-        radial-gradient(ellipse 38% 36% at 6% 94%, rgba(30, 58, 138, 0.06) 0%, transparent 52%);
+        radial-gradient(ellipse 42% 38% at 88% 8%, rgba(67, 56, 202, 0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 36% 34% at 8% 92%, rgba(5, 150, 105, 0.05) 0%, transparent 52%);
       pointer-events: none;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__inner {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__inner {
       position: relative;
       z-index: 1;
       max-width: 1200px;
@@ -58,7 +59,7 @@
       gap: 44px;
       align-items: center;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__badge {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__badge {
       display: inline-flex;
       align-items: center;
       gap: 10px;
@@ -73,32 +74,32 @@
       text-transform: uppercase;
       color: #334155;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__badge-mark {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__badge-mark {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #0369a1;
+      background: #4338ca;
       flex-shrink: 0;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__h1 {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__h1 {
       margin: 0 0 18px;
-      font-size: clamp(1.44rem, 3.2vw, 2.24rem);
+      font-size: clamp(1.42rem, 3.1vw, 2.2rem);
       line-height: 1.22;
       font-weight: 800;
       color: #0f172a;
       letter-spacing: -0.02em;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__h1-accent {
-      color: #1e3a8a;
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__h1-accent {
+      color: #4338ca;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__sub {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__sub {
       margin: 0 0 26px;
       max-width: 42em;
       font-size: clamp(0.98rem, 1.48vw, 1.1rem);
       line-height: 1.58;
       color: #475569;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__facts {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__facts {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
@@ -106,7 +107,7 @@
       padding: 0;
       list-style: none;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact {
       font-size: 0.76rem;
       font-weight: 700;
       padding: 7px 12px;
@@ -115,17 +116,22 @@
       border: 1px solid #e2e8f0;
       color: #334155;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact--accent {
-      border-color: #bae6fd;
-      color: #0369a1;
-      background: #f0f9ff;
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact--accent {
+      border-color: #c4b5fd;
+      color: #4338ca;
+      background: #f5f3ff;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact--warn {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact--ok {
+      border-color: #a7f3d0;
+      color: #047857;
+      background: #ecfdf5;
+    }
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact--warn {
       border-color: #fecaca;
       color: #991b1b;
       background: #fef2f2;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__cta {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cta {
       display: inline-block;
       background: #a31830;
       color: #fff !important;
@@ -137,248 +143,239 @@
       box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
       line-height: 1.35;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__cta:hover {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cta:hover {
       background: #8b1528;
     }
-    .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__visual {
+    .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__visual {
       display: flex;
       justify-content: center;
       align-items: center;
     }
     @media (prefers-reduced-motion: no-preference) {
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__scale-beam {
-        animation: hero-ni4-scale 5.6s ease-in-out infinite;
-        transform-origin: 250px 108px;
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cert-keep {
+        animation: hero-siptz-keep 4.4s ease-in-out infinite;
       }
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__pan-fns {
-        animation: hero-ni4-pan-down 5.6s ease-in-out infinite;
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cert-drop {
+        animation: hero-siptz-drop 3.6s ease-in-out infinite;
       }
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__pan-biz {
-        animation: hero-ni4-pan-up 5.6s ease-in-out infinite;
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__hourglass {
+        animation: hero-siptz-sand 4s ease-in-out infinite;
       }
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__water {
-        animation: hero-ni4-water 3.8s ease-in-out infinite;
-      }
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fns-stamp {
-        animation: hero-ni4-stamp 4.2s ease-in-out infinite;
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__proc-arrow {
+        animation: hero-siptz-arrow 3.2s ease-in-out infinite;
       }
     }
-    @keyframes hero-ni4-scale {
-      0%, 100% { transform: rotate(0deg); }
-      40% { transform: rotate(3deg); }
-      60% { transform: rotate(-2.5deg); }
+    @keyframes hero-siptz-keep {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.82; }
     }
-    @keyframes hero-ni4-pan-down {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(4px); }
+    @keyframes hero-siptz-drop {
+      0%, 100% { opacity: 0.45; }
+      50% { opacity: 0.85; }
     }
-    @keyframes hero-ni4-pan-up {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
+    @keyframes hero-siptz-sand {
+      0%, 100% { opacity: 0.5; transform: translateY(0); }
+      50% { opacity: 0.95; transform: translateY(2px); }
     }
-    @keyframes hero-ni4-water {
+    @keyframes hero-siptz-arrow {
       0%, 100% { opacity: 0.55; }
-      50% { opacity: 0.9; }
-    }
-    @keyframes hero-ni4-stamp {
-      0%, 100% { opacity: 0.7; }
       50% { opacity: 1; }
     }
     @media (prefers-reduced-motion: reduce) {
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__scale-beam,
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__pan-fns,
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__pan-biz,
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__water,
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fns-stamp {
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cert-keep,
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cert-drop,
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__hourglass,
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__proc-arrow {
         animation: none !important;
       }
     }
     @media (max-width: 900px) {
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns {
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026 {
         min-height: auto;
         padding: 96px 20px 56px;
       }
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__inner {
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__inner {
         grid-template-columns: 1fr;
         gap: 30px;
       }
-      .l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__visual {
+      .l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__visual {
         order: -1;
         max-height: 320px;
       }
     }
   </style>
-  <div class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__inner">
-    <div class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__content">
-      <div class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__badge">
-        <span class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__badge-mark" aria-hidden="true"></span>
-        ARB · обзор ВС № 4/2026 · гл. 30 НК · май 2026
+  <div class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__inner">
+    <div class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__content">
+      <div class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__badge">
+        <span class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__badge-mark" aria-hidden="true"></span>
+        IP · СИП 2026 · ст. 1486 ГК · СИП-75/2025
       </div>
-      <h1 class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__h1">
-        <span class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__h1-accent">Обзор ВС № 4/2026: налог на имущество организаций в арбитраже</span> — как оспорить ФНС
+      <h1 class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__h1">
+        <span class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__h1-accent">СИП 2026: досрочное прекращение товарного знака за неиспользование</span> — заинтересованность и защита бренда
       </h1>
-      <p class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__sub">
-        16 позиций ВС о движимом и недвижимом имуществе, сооружениях и сделках — стратегия защиты бизнеса в арбитражном споре с налоговой
+      <p class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__sub">
+        Решения СИП-75/2025 и практика 2026: частичное прекращение охраны, бремя доказывания и стратегия для правообладателя и истца
       </p>
-      <ul class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__facts">
-        <li class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact--accent">гл. 30 НК РФ</li>
-        <li class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact">движимое / недвижимое</li>
-        <li class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact">ГЭС · сооружения</li>
-        <li class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fact--warn">доначисление ФНС</li>
+      <ul class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__facts">
+        <li class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact--accent">ст. 1486 ГК РФ</li>
+        <li class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact">частичное прекращение · МКТУ</li>
+        <li class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact--ok">заинтересованность истца</li>
+        <li class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__fact--warn">бремя доказывания</li>
       </ul>
-      <a class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию</a>
+      <a class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите товарного знака</a>
     </div>
-    <div class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__visual" aria-hidden="true">
-      <svg viewBox="0 0 500 450" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:500px" role="img" aria-label="Промышленная весовая палата: весы арбитража сравнивают налоговый акт ФНС с инвентарными ОС ГЭС и заводского оборудования; обзор ВС № 4/2026">
+    <div class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__visual" aria-hidden="true">
+      <svg viewBox="0 0 500 450" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:500px" role="img" aria-label="Зал СИП: свидетельство товарного знака с частичным прекращением охраны по классам МКТУ, таймлайн ст. 1486 и песочные часы трёхлетнего неиспользования">
         <defs>
-          <linearGradient id="hero-ni4-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-siptz-bg" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#f8fafc"/>
-            <stop offset="100%" stop-color="#e8eef5"/>
+            <stop offset="100%" stop-color="#ede9fe"/>
           </linearGradient>
-          <linearGradient id="hero-ni4-water" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#7dd3fc"/>
-            <stop offset="50%" stop-color="#0ea5e9"/>
-            <stop offset="100%" stop-color="#0369a1"/>
+          <linearGradient id="hero-siptz-sip" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#5b21b6"/>
+            <stop offset="100%" stop-color="#312e81"/>
           </linearGradient>
-          <linearGradient id="hero-ni4-steel" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#94a3b8"/>
-            <stop offset="100%" stop-color="#475569"/>
-          </linearGradient>
-          <linearGradient id="hero-ni4-vs" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#1e40af"/>
-            <stop offset="100%" stop-color="#0f2744"/>
-          </linearGradient>
-          <linearGradient id="hero-ni4-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+          <linearGradient id="hero-siptz-paper" x1="0%" y1="0%" x2="0%" y2="100%">
             <stop offset="0%" stop-color="#fff"/>
             <stop offset="100%" stop-color="#f1f5f9"/>
           </linearGradient>
-          <linearGradient id="hero-ni4-factory" x1="0%" y1="100%" x2="0%" y2="0%">
-            <stop offset="0%" stop-color="#64748b"/>
-            <stop offset="100%" stop-color="#94a3b8"/>
+          <linearGradient id="hero-siptz-keep" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#d1fae5"/>
+            <stop offset="100%" stop-color="#6ee7b7"/>
           </linearGradient>
-          <pattern id="hero-ni4-grid" width="20" height="20" patternUnits="userSpaceOnUse">
-            <rect width="20" height="20" fill="#f1f5f9"/>
-            <path d="M20 0 L0 0 0 20" fill="none" stroke="#e2e8f0" stroke-width="0.5"/>
+          <linearGradient id="hero-siptz-drop" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#fee2e2"/>
+            <stop offset="100%" stop-color="#fecaca"/>
+          </linearGradient>
+          <pattern id="hero-siptz-grid" width="18" height="18" patternUnits="userSpaceOnUse">
+            <rect width="18" height="18" fill="#f5f3ff"/>
+            <path d="M18 0 L0 0 0 18" fill="none" stroke="#e9d5ff" stroke-width="0.5"/>
           </pattern>
-          <filter id="hero-ni4-shadow" x="-10%" y="-10%" width="120%" height="120%">
+          <filter id="hero-siptz-shadow" x="-10%" y="-10%" width="120%" height="120%">
             <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0f172a" flood-opacity="0.12"/>
           </filter>
         </defs>
-        <rect x="8" y="10" width="484" height="430" rx="18" fill="url(#hero-ni4-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
-        <rect x="8" y="10" width="484" height="430" rx="18" fill="url(#hero-ni4-grid)" opacity="0.45"/>
-        <!-- ГЭС: плотина и вода -->
-        <g transform="translate(16, 200)">
-          <path d="M0 120 L0 60 L48 20 L96 60 L96 120 Z" fill="#64748b" stroke="#475569" stroke-width="1.2"/>
-          <rect x="20" y="48" width="12" height="72" rx="2" fill="#334155"/>
-          <rect x="40" y="48" width="12" height="72" rx="2" fill="#334155"/>
-          <rect x="60" y="48" width="12" height="72" rx="2" fill="#334155"/>
-          <path class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__water" d="M96 72 Q140 68 180 76 Q220 84 260 72 L260 120 L96 120 Z" fill="url(#hero-ni4-water)" opacity="0.75"/>
-          <ellipse cx="130" cy="78" rx="28" ry="6" fill="#bae6fd" opacity="0.5"/>
-          <text x="48" y="14" text-anchor="middle" fill="#0369a1" font-size="6" font-weight="700">ГЭС</text>
-          <!-- турбина -->
-          <circle cx="48" cy="100" r="14" fill="none" stroke="#0ea5e9" stroke-width="2"/>
-          <path d="M48 86 L48 114 M34 100 L62 100 M38 88 L58 112 M58 88 L38 112" stroke="#0ea5e9" stroke-width="1.2"/>
+        <rect x="8" y="10" width="484" height="430" rx="18" fill="url(#hero-siptz-bg)" stroke="#c4b5fd" stroke-width="1.2"/>
+        <rect x="8" y="10" width="484" height="430" rx="18" fill="url(#hero-siptz-grid)" opacity="0.4"/>
+        <!-- фасад СИП -->
+        <g filter="url(#hero-siptz-shadow)" transform="translate(148, 14)">
+          <rect x="0" y="36" width="204" height="52" rx="4" fill="url(#hero-siptz-sip)"/>
+          <polygon points="102,0 204,36 0,36" fill="#6d28d9"/>
+          <rect x="24" y="48" width="28" height="32" rx="2" fill="#4c1d95" opacity="0.5"/>
+          <rect x="88" y="48" width="28" height="32" rx="2" fill="#4c1d95" opacity="0.5"/>
+          <rect x="152" y="48" width="28" height="32" rx="2" fill="#4c1d95" opacity="0.5"/>
+          <text x="102" y="58" text-anchor="middle" fill="#ede9fe" font-size="6.5" font-weight="800" letter-spacing="0.06em">СУД ПО ИНТЕЛЛЕКТУАЛЬНЫМ ПРАВАМ</text>
+          <text x="102" y="72" text-anchor="middle" fill="#c4b5fd" font-size="5.5" font-weight="600">ст. 1486 ГК · гл. 76 · 2026</text>
         </g>
-        <!-- завод -->
-        <g transform="translate(380, 168)" filter="url(#hero-ni4-shadow)">
-          <rect x="0" y="48" width="88" height="72" fill="url(#hero-ni4-factory)" rx="2"/>
-          <rect x="12" y="20" width="20" height="28" fill="#475569"/>
-          <rect x="56" y="28" width="16" height="20" fill="#475569"/>
-          <rect x="8" y="56" width="14" height="10" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
-          <rect x="28" y="56" width="14" height="10" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
-          <rect x="48" y="56" width="14" height="10" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
-          <rect x="68" y="56" width="14" height="10" fill="#fef3c7" stroke="#d97706" stroke-width="0.8"/>
-          <line x1="22" y1="20" x2="22" y2="8" stroke="#94a3b8" stroke-width="3"/>
-          <circle cx="22" cy="6" r="4" fill="#cbd5e1" opacity="0.6"/>
-          <line x1="64" y1="28" x2="64" y2="14" stroke="#94a3b8" stroke-width="2.5"/>
-          <circle cx="64" cy="12" r="3" fill="#cbd5e1" opacity="0.5"/>
-          <text x="44" y="132" text-anchor="middle" fill="#475569" font-size="5.5" font-weight="600">цех · ОС</text>
+        <!-- песочные часы 3 года -->
+        <g class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__hourglass" filter="url(#hero-siptz-shadow)" transform="translate(28, 52)">
+          <path d="M20 0 L36 0 L28 22 L36 44 L20 44 L12 22 Z" fill="#fff" stroke="#4338ca" stroke-width="1.2"/>
+          <path d="M16 8 L32 8 L28 22 L24 22 Z" fill="#c4b5fd" opacity="0.7"/>
+          <path d="M24 22 L28 22 L32 36 L16 36 Z" fill="#a78bfa" opacity="0.55"/>
+          <text x="20" y="56" text-anchor="middle" fill="#4338ca" font-size="5" font-weight="700">3 года</text>
+          <text x="20" y="66" text-anchor="middle" fill="#64748b" font-size="4.5">неиспользование</text>
         </g>
-        <!-- ВС: обзор -->
-        <g filter="url(#hero-ni4-shadow)" transform="translate(168, 18)">
-          <rect x="0" y="34" width="164" height="48" rx="4" fill="url(#hero-ni4-vs)"/>
-          <polygon points="82,0 164,34 0,34" fill="#1e40af"/>
-          <text x="82" y="52" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="800" letter-spacing="0.05em">ОБЗОР ВС № 4/2026</text>
-          <text x="82" y="66" text-anchor="middle" fill="#93c5fd" font-size="5.5" font-weight="600">налог на имущество · арбитраж</text>
-          <text x="82" y="88" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="700">29.04.2026 · 6А/2026</text>
+        <!-- таймлайн процедуры -->
+        <g filter="url(#hero-siptz-shadow)" transform="translate(360, 48)">
+          <rect width="112" height="72" rx="8" fill="#fff" stroke="#c4b5fd" stroke-width="1"/>
+          <text x="56" y="14" text-anchor="middle" fill="#4338ca" font-size="5.5" font-weight="800">ПРОЦЕДУРА</text>
+          <text x="56" y="26" text-anchor="middle" fill="#64748b" font-size="4.5">п. 1 ст. 1486</text>
+          <rect x="8" y="32" width="22" height="14" rx="3" fill="#f5f3ff" stroke="#a78bfa"/>
+          <text x="19" y="42" text-anchor="middle" fill="#4338ca" font-size="4" font-weight="700">письмо</text>
+          <line class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__proc-arrow" x1="32" y1="39" x2="40" y2="39" stroke="#4338ca" stroke-width="1.2" marker-end="url(#hero-siptz-arr)"/>
+          <rect x="40" y="32" width="22" height="14" rx="3" fill="#f5f3ff" stroke="#a78bfa"/>
+          <text x="51" y="42" text-anchor="middle" fill="#4338ca" font-size="4" font-weight="700">2 мес.</text>
+          <line class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__proc-arrow" x1="64" y1="39" x2="72" y2="39" stroke="#4338ca" stroke-width="1.2"/>
+          <rect x="72" y="32" width="22" height="14" rx="3" fill="#fef2f2" stroke="#f87171"/>
+          <text x="83" y="42" text-anchor="middle" fill="#991b1b" font-size="4" font-weight="700">30 дн.</text>
+          <text x="56" y="62" text-anchor="middle" fill="#334155" font-size="4.5" font-weight="600">иск в СИП</text>
         </g>
-        <!-- стальные весы арбитража -->
-        <g class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__scale-beam" filter="url(#hero-ni4-shadow)" transform="translate(0, 0)">
-          <rect x="238" y="100" width="24" height="100" rx="3" fill="url(#hero-ni4-steel)" stroke="#334155" stroke-width="1"/>
-          <rect x="222" y="92" width="56" height="12" rx="4" fill="url(#hero-ni4-steel)" stroke="#334155" stroke-width="1"/>
-          <line x1="250" y1="100" x2="250" y2="72" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
-          <line x1="148" y1="72" x2="352" y2="72" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
-          <!-- чаша ФНС (левая, тяжелее) -->
-          <g class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__pan-fns">
-            <line x1="168" y1="72" x2="168" y2="118" stroke="#475569" stroke-width="2"/>
-            <path d="M128 118 Q168 132 208 118 L208 138 Q168 152 128 138 Z" fill="#fef2f2" stroke="#f87171" stroke-width="1.2"/>
-            <g transform="translate(136, 108)">
-              <rect width="64" height="44" rx="4" fill="url(#hero-ni4-paper)" stroke="#a31830" stroke-width="1.2"/>
-              <rect x="0" y="0" width="64" height="12" rx="4" fill="#fef2f2"/>
-              <text x="32" y="9" text-anchor="middle" fill="#a31830" font-size="5" font-weight="800">ФНС</text>
-              <text x="32" y="22" text-anchor="middle" fill="#334155" font-size="4.5" font-weight="700">налог на имущество</text>
-              <rect x="6" y="28" width="52" height="4" rx="1" fill="#fee2e2"/>
-              <text class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__fns-stamp" x="32" y="40" text-anchor="middle" fill="#991b1b" font-size="5" font-weight="800">ДОНАЧИСЛЕНИЕ</text>
-            </g>
+        <marker id="hero-siptz-arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+          <path d="M0 0 L6 3 L0 6 Z" fill="#4338ca"/>
+        </marker>
+        <!-- свидетельство ТЗ -->
+        <g filter="url(#hero-siptz-shadow)" transform="translate(118, 118)">
+          <rect width="264" height="148" rx="10" fill="url(#hero-siptz-paper)" stroke="#94a3b8" stroke-width="1.4"/>
+          <rect x="0" y="0" width="264" height="22" rx="10" fill="#f5f3ff"/>
+          <rect x="0" y="12" width="264" height="10" fill="#f5f3ff"/>
+          <text x="132" y="15" text-anchor="middle" fill="#4338ca" font-size="7" font-weight="800">СВИДЕТЕЛЬСТВО НА ТОВАРНЫЙ ЗНАК</text>
+          <circle cx="42" cy="52" r="18" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.2"/>
+          <text x="42" y="56" text-anchor="middle" fill="#5b21b6" font-size="14" font-weight="800">®</text>
+          <text x="132" y="48" text-anchor="middle" fill="#0f172a" font-size="8" font-weight="700">класс 25 МКТУ · одежда</text>
+          <text x="132" y="62" text-anchor="middle" fill="#64748b" font-size="5.5">СИП-75/2025 · 30.03.2026</text>
+          <!-- сохранённая зона -->
+          <g class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cert-keep">
+            <rect x="16" y="78" width="108" height="54" rx="6" fill="url(#hero-siptz-keep)" stroke="#059669" stroke-width="1"/>
+            <text x="70" y="94" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">ОХРАНА СОХРАНЕНА</text>
+            <text x="70" y="108" text-anchor="middle" fill="#065f46" font-size="5">нижнее бельё</text>
+            <text x="70" y="120" text-anchor="middle" fill="#065f46" font-size="5">бюстгальтеры</text>
+            <path d="M24 126 L36 118 L48 126" fill="none" stroke="#059669" stroke-width="1.5" stroke-linecap="round"/>
           </g>
-          <!-- чаша бизнеса (правая, легче — защита) -->
-          <g class="l24-hero-vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns__pan-biz">
-            <line x1="332" y1="72" x2="332" y2="110" stroke="#475569" stroke-width="2"/>
-            <path d="M292 110 Q332 124 372 110 L372 130 Q332 144 292 130 Z" fill="#f0f9ff" stroke="#38bdf8" stroke-width="1.2"/>
-            <rect x="300" y="96" width="36" height="22" rx="3" fill="#fff" stroke="#0ea5e9" stroke-width="0.8"/>
-            <text x="318" y="106" text-anchor="middle" fill="#0369a1" font-size="4" font-weight="700">компрессор</text>
-            <text x="318" y="114" text-anchor="middle" fill="#64748b" font-size="3.5">ОС-08</text>
-            <rect x="340" y="98" width="28" height="18" rx="3" fill="#fff" stroke="#0ea5e9" stroke-width="0.8"/>
-            <text x="354" y="108" text-anchor="middle" fill="#0369a1" font-size="4" font-weight="700">котёл</text>
-            <text x="354" y="114" text-anchor="middle" fill="#64748b" font-size="3.5">движимое</text>
+          <!-- прекращённая зона -->
+          <g class="l24-hero-sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026__cert-drop">
+            <rect x="140" y="78" width="108" height="54" rx="6" fill="url(#hero-siptz-drop)" stroke="#dc2626" stroke-width="1" stroke-dasharray="4 3"/>
+            <text x="194" y="94" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="800">ПРЕКРАЩЕНО</text>
+            <text x="194" y="108" text-anchor="middle" fill="#b91c1c" font-size="5">брюки · колготки</text>
+            <text x="194" y="120" text-anchor="middle" fill="#b91c1c" font-size="5">корсеты · трусы</text>
+            <line x1="148" y1="100" x2="240" y2="118" stroke="#dc2626" stroke-width="1.5"/>
+            <line x1="148" y1="118" x2="240" y2="100" stroke="#dc2626" stroke-width="1.5"/>
           </g>
-          <text x="250" y="218" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="700">арбитраж · гл. 25 АПК</text>
         </g>
-        <!-- налоговая декларация на столе -->
-        <g filter="url(#hero-ni4-shadow)" transform="translate(28, 300)">
-          <rect width="120" height="76" rx="8" fill="url(#hero-ni4-paper)" stroke="#cbd5e1" stroke-width="1.2"/>
-          <text x="60" y="16" text-anchor="middle" fill="#334155" font-size="6" font-weight="800">РАСЧЁТ НАЛОГА</text>
-          <text x="60" y="28" text-anchor="middle" fill="#64748b" font-size="5">гл. 30 НК РФ · ст. 374–376</text>
-          <rect x="10" y="36" width="100" height="4" rx="1" fill="#e2e8f0"/>
-          <rect x="10" y="44" width="80" height="4" rx="1" fill="#e2e8f0"/>
-          <rect x="10" y="52" width="90" height="4" rx="1" fill="#bae6fd"/>
-          <rect x="10" y="60" width="70" height="4" rx="1" fill="#bbf7d0"/>
-          <text x="60" y="72" text-anchor="middle" fill="#0369a1" font-size="5" font-weight="600">ОКОФ · инвентарный объект</text>
+        <!-- сетка МКТУ -->
+        <g filter="url(#hero-siptz-shadow)" transform="translate(24, 286)">
+          <rect width="140" height="88" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+          <text x="70" y="16" text-anchor="middle" fill="#334155" font-size="5.5" font-weight="800">КЛАССЫ МКТУ</text>
+          <rect x="10" y="24" width="28" height="22" rx="3" fill="#ecfdf5" stroke="#6ee7b7"/>
+          <text x="24" y="38" text-anchor="middle" fill="#047857" font-size="4.5" font-weight="700">25✓</text>
+          <rect x="42" y="24" width="28" height="22" rx="3" fill="#fef2f2" stroke="#fca5a5"/>
+          <text x="56" y="38" text-anchor="middle" fill="#991b1b" font-size="4.5" font-weight="700">25✗</text>
+          <rect x="74" y="24" width="28" height="22" rx="3" fill="#f5f3ff" stroke="#c4b5fd"/>
+          <text x="88" y="38" text-anchor="middle" fill="#4338ca" font-size="4.5" font-weight="700">6</text>
+          <rect x="106" y="24" width="28" height="22" rx="3" fill="#f5f3ff" stroke="#c4b5fd"/>
+          <text x="120" y="38" text-anchor="middle" fill="#4338ca" font-size="4.5" font-weight="700">19</text>
+          <text x="70" y="58" text-anchor="middle" fill="#64748b" font-size="4.5">частичное прекращение</text>
+          <text x="70" y="72" text-anchor="middle" fill="#4338ca" font-size="4.5" font-weight="600">по позициям свидетельства</text>
+          <text x="70" y="84" text-anchor="middle" fill="#334155" font-size="4.5">СИП-898/2025 · BARTON'S</text>
         </g>
-        <!-- письмо ФНС -->
-        <g filter="url(#hero-ni4-shadow)" transform="translate(156, 318)">
-          <rect width="108" height="58" rx="6" fill="#fff" stroke="#fecaca" stroke-width="1"/>
-          <rect x="0" y="0" width="108" height="14" rx="6" fill="#fef2f2"/>
-          <text x="54" y="10" text-anchor="middle" fill="#991b1b" font-size="5" font-weight="800">ПИСЬМО ФНС 07.05.2026</text>
-          <text x="54" y="28" text-anchor="middle" fill="#475569" font-size="4.5">БС-36-21/3766@</text>
-          <text x="54" y="40" text-anchor="middle" fill="#64748b" font-size="4.5">обзор → все ИФНС</text>
-          <text x="54" y="52" text-anchor="middle" fill="#a31830" font-size="4.5" font-weight="700">волна проверок</text>
+        <!-- доказательства использования -->
+        <g filter="url(#hero-siptz-shadow)" transform="translate(178, 292)">
+          <rect width="108" height="82" rx="8" fill="#fff" stroke="#059669" stroke-width="1"/>
+          <text x="54" y="14" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">ДОКАЗАТЕЛЬСТВА</text>
+          <text x="54" y="26" text-anchor="middle" fill="#64748b" font-size="4.5">бремя на правообладателе</text>
+          <rect x="10" y="34" width="88" height="5" rx="1" fill="#d1fae5"/>
+          <rect x="10" y="44" width="72" height="5" rx="1" fill="#a7f3d0"/>
+          <rect x="10" y="54" width="80" height="5" rx="1" fill="#6ee7b7"/>
+          <text x="54" y="70" text-anchor="middle" fill="#334155" font-size="4.5">УПД · каталоги · договоры</text>
+          <text x="54" y="78" text-anchor="middle" fill="#64748b" font-size="4">реальное vs символическое</text>
         </g>
-        <!-- сооружение vs движимое -->
-        <g filter="url(#hero-ni4-shadow)" transform="translate(280, 308)">
-          <rect width="96" height="68" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
-          <text x="48" y="16" text-anchor="middle" fill="#334155" font-size="5.5" font-weight="800">п. 4–8 обзора</text>
-          <text x="48" y="30" text-anchor="middle" fill="#64748b" font-size="5">сооружение целиком?</text>
-          <line x1="12" y1="38" x2="84" y2="38" stroke="#e2e8f0"/>
-          <text x="48" y="50" text-anchor="middle" fill="#0369a1" font-size="5" font-weight="600">движимое ОС</text>
-          <text x="48" y="62" text-anchor="middle" fill="#166534" font-size="5" font-weight="600">защита в арбитраже</text>
+        <!-- заинтересованность истца -->
+        <g filter="url(#hero-siptz-shadow)" transform="translate(300, 286)">
+          <rect width="96" height="88" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1"/>
+          <text x="48" y="16" text-anchor="middle" fill="#4338ca" font-size="5.5" font-weight="800">ИСТЕЦ</text>
+          <text x="48" y="28" text-anchor="middle" fill="#64748b" font-size="4.5">заинтересованность</text>
+          <circle cx="48" cy="50" r="14" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1"/>
+          <text x="48" y="54" text-anchor="middle" fill="#5b21b6" font-size="6" font-weight="800">ИП</text>
+          <text x="48" y="72" text-anchor="middle" fill="#334155" font-size="4.5">заявка + деятельность</text>
+          <text x="48" y="82" text-anchor="middle" fill="#64748b" font-size="4">СП-23/20 · реальное намерение</text>
         </g>
-        <!-- сделки взаимозависимых -->
-        <g filter="url(#hero-ni4-shadow)" transform="translate(388, 300)">
-          <rect width="88" height="76" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1"/>
-          <text x="44" y="16" text-anchor="middle" fill="#1e3a8a" font-size="5.5" font-weight="800">п. 11</text>
-          <text x="44" y="30" text-anchor="middle" fill="#475569" font-size="5">рыночная стоимость</text>
-          <text x="44" y="42" text-anchor="middle" fill="#64748b" font-size="4.5">взаимозависимые</text>
-          <rect x="10" y="50" width="68" height="16" rx="4" fill="#eff6ff" stroke="#93c5fd"/>
-          <text x="44" y="61" text-anchor="middle" fill="#1e40af" font-size="4.5" font-weight="600">пересчёт базы</text>
+        <!-- решение СИП-75 -->
+        <g filter="url(#hero-siptz-shadow)" transform="translate(406, 286)">
+          <rect width="70" height="88" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="1"/>
+          <rect x="0" y="0" width="70" height="16" rx="8" fill="#f5f3ff"/>
+          <text x="35" y="11" text-anchor="middle" fill="#5b21b6" font-size="4.5" font-weight="800">СИП-75</text>
+          <text x="35" y="30" text-anchor="middle" fill="#334155" font-size="4.5" font-weight="700">30.03.26</text>
+          <text x="35" y="44" text-anchor="middle" fill="#64748b" font-size="4">частичное</text>
+          <text x="35" y="56" text-anchor="middle" fill="#64748b" font-size="4">удовлетворение</text>
+          <rect x="8" y="64" width="54" height="14" rx="4" fill="#ede9fe"/>
+          <text x="35" y="74" text-anchor="middle" fill="#4338ca" font-size="4" font-weight="600">практика 2026</text>
         </g>
-        <!-- молоток арбитража -->
-        <g transform="translate(420, 228)">
-          <rect x="0" y="20" width="48" height="10" rx="3" fill="#64748b"/>
-          <rect x="36" y="8" width="14" height="24" rx="3" fill="#475569"/>
-          <text x="24" y="44" text-anchor="middle" fill="#64748b" font-size="5" font-weight="600">АПК</text>
+        <!-- защита бренда -->
+        <g transform="translate(400, 168)">
+          <path d="M0 28 L24 8 L48 28 L48 52 Q24 68 0 52 Z" fill="#ecfdf5" stroke="#059669" stroke-width="1.2"/>
+          <text x="24" y="36" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">BRAND</text>
+          <text x="24" y="48" text-anchor="middle" fill="#065f46" font-size="4.5">защита</text>
         </g>
-        <text x="250" y="438" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">ГЭС · завод · движимое ОС · сооружения · оспаривание ФНС в арбитраже</text>
+        <text x="250" y="438" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">СИП · ст. 1486 · частичное прекращение · заинтересованность · доказательства использования</text>
       </svg>
     </div>
   </div>
@@ -386,5 +383,5 @@
 ```
 
 ## Передача Наташе
-SLUG: vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns
+SLUG: sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026
 ВНИМАНИЕ: hero — static SVG + inline CSS, без `<canvas>` и `<script>`.
