@@ -1,115 +1,123 @@
 === БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
 Статус: ✅ ГОТОВО
 
-**SLUG:** `sip-prekrashchenie-tz-neispolzovanie-zainteresovannost-2026`  
-**Якорь:** `l24-boris-sip1486-matrix`  
-**Размещение:** сразу после H3 «Процедура ст. 1486: предложение правообладателю — 2 месяца — иск в СИП в 30 дней» (внутри H2 «Статья 1486 ГК РФ»), перед H2 «Заинтересованность в прекращении товарного знака» — якорь для Natasha.  
-**Режим:** тёмная панель в теле статьи (контраст со светлым hero Алины) — **процедура ст. 1486 + матрица бремени доказывания** по практике СИП-75/2025, СИП-898/2025 и обзору ВС № 1/2026.  
+**SLUG:** `vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026`  
+**Якорь:** `l24-boris-vs73-matrix`  
+**Размещение:** сразу после H3 «Роль ст. 88 УПК: оценка всей совокупности доказательств» (внутри H2 «Статья 73 УК РФ — когда суд обязан назначить условный срок»), перед H2 «Как защита добивается условного наказания за ДТП» — якорь для Natasha.  
+**Режим:** тёмная панель в теле статьи (контраст со светлым hero Алины) — **матрица смягчающих обстоятельств + механизм ст. 73 УК + чеклист защиты по ДТП** по определению ВС № 41-УД26-25-К4 (июнь 2026).  
 **Legis24 MCP-only:** static SVG + inline CSS, без `<canvas>` и `<script>`.
 
 ```html
-<section id="l24-boris-sip1486-matrix" class="l24-boris-sip1486-matrix" aria-label="Ст. 1486 ГК РФ: процедура досрочного прекращения товарного знака и бремя доказывания правообладателя и истца">
+<section id="l24-boris-vs73-matrix" class="l24-boris-vs73-matrix" aria-label="Смягчающие обстоятельства, ст. 73 УК РФ и чеклист защиты по уголовному делу о ДТП — определение ВС № 41-УД26-25-К4">
 <style>
-.l24-boris-sip1486-matrix {
-  --sip-navy: #0f1c2e;
-  --sip-navy-soft: #1a3050;
-  --sip-plaintiff: #63b3ed;
-  --sip-owner: #f6ad55;
-  --sip-save: #68d391;
-  --sip-stop: #fc8181;
-  --sip-gold: #ecc94b;
-  --sip-ink: #e2e8f0;
-  --sip-muted: #a0aec0;
+.l24-boris-vs73-matrix {
+  --vs73-navy: #0f1c2e;
+  --vs73-navy-soft: #1a3050;
+  --vs73-smag: #68d391;
+  --vs73-cond: #63b3ed;
+  --vs73-real: #fc8181;
+  --vs73-gold: #ecc94b;
+  --vs73-violet: #b794f4;
+  --vs73-ink: #e2e8f0;
+  --vs73-muted: #a0aec0;
   margin: 48px 0;
   padding: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.l24-boris-sip1486-matrix__shell {
-  background: linear-gradient(155deg, var(--sip-navy) 0%, #152a45 50%, var(--sip-navy-soft) 100%);
+.l24-boris-vs73-matrix__shell {
+  background: linear-gradient(155deg, var(--vs73-navy) 0%, #152a45 50%, var(--vs73-navy-soft) 100%);
   border: 1px solid rgba(99, 179, 237, 0.28);
   border-radius: 14px;
   padding: 32px 28px 26px;
   box-shadow: 0 18px 48px rgba(15, 28, 46, 0.34);
-  color: var(--sip-ink);
+  color: var(--vs73-ink);
 }
-.l24-boris-sip1486-matrix__eyebrow {
+.l24-boris-vs73-matrix__eyebrow {
   margin: 0 0 8px;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--sip-gold);
+  color: var(--vs73-gold);
 }
-.l24-boris-sip1486-matrix__title {
+.l24-boris-vs73-matrix__title {
   margin: 0 0 10px;
   font-size: clamp(1.15rem, 2.4vw, 1.42rem);
   line-height: 1.25;
   color: #fff;
   font-weight: 700;
 }
-.l24-boris-sip1486-matrix__lead {
+.l24-boris-vs73-matrix__lead {
   margin: 0 0 24px;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: var(--sip-muted);
+  color: var(--vs73-muted);
   max-width: 72ch;
 }
-.l24-boris-sip1486-matrix__lead strong { color: #fff; }
-.l24-boris-sip1486-matrix__split {
+.l24-boris-vs73-matrix__lead strong { color: #fff; }
+.l24-boris-vs73-matrix__split {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
   gap: 24px;
   align-items: stretch;
 }
-.l24-boris-sip1486-matrix__panel {
+.l24-boris-vs73-matrix__panel {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 20px 18px;
 }
-.l24-boris-sip1486-matrix__panel-title {
+.l24-boris-vs73-matrix__panel-title {
   margin: 0 0 14px;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--sip-gold);
+  color: var(--vs73-gold);
 }
-.l24-boris-sip1486-matrix__scheme-svg {
+.l24-boris-vs73-matrix__scheme-svg {
   display: block;
   width: 100%;
   height: auto;
   max-height: 340px;
   margin-bottom: 12px;
 }
-.l24-boris-sip1486-matrix__steps {
+.l24-boris-vs73-matrix__smag-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  gap: 6px;
   margin: 0 0 12px;
   padding: 0;
   list-style: none;
 }
-.l24-boris-sip1486-matrix__step {
+.l24-boris-vs73-matrix__smag-item {
   margin: 0;
-  padding: 10px 9px;
+  padding: 8px 7px;
   background: rgba(0, 0, 0, 0.22);
-  border-radius: 8px;
-  border-top: 3px solid var(--sip-plaintiff);
-  font-size: 0.72rem;
-  line-height: 1.38;
+  border-radius: 6px;
+  border-top: 2px solid var(--vs73-smag);
+  font-size: 0.68rem;
+  line-height: 1.35;
+  color: var(--vs73-muted);
 }
-.l24-boris-sip1486-matrix__step:nth-child(2) { border-top-color: var(--sip-gold); }
-.l24-boris-sip1486-matrix__step:nth-child(3) { border-top-color: var(--sip-owner); }
-.l24-boris-sip1486-matrix__step:nth-child(4) { border-top-color: #b794f4; }
-.l24-boris-sip1486-matrix__step:nth-child(5) { border-top-color: var(--sip-save); grid-column: span 3; }
-.l24-boris-sip1486-matrix__step strong {
+.l24-boris-vs73-matrix__smag-item strong {
   display: block;
-  color: #fff;
-  font-size: 0.76rem;
-  margin-bottom: 4px;
+  color: #c6f6d5;
+  font-size: 0.7rem;
+  margin-bottom: 2px;
 }
-.l24-boris-sip1486-matrix__verdict {
+.l24-boris-vs73-matrix__smag-item:nth-child(4),
+.l24-boris-vs73-matrix__smag-item:nth-child(5),
+.l24-boris-vs73-matrix__smag-item:nth-child(6) { border-top-color: var(--vs73-cond); }
+.l24-boris-vs73-matrix__smag-item:nth-child(7),
+.l24-boris-vs73-matrix__smag-item:nth-child(8),
+.l24-boris-vs73-matrix__smag-item:nth-child(9) { border-top-color: var(--vs73-violet); }
+.l24-boris-vs73-matrix__smag-item:nth-child(10),
+.l24-boris-vs73-matrix__smag-item:nth-child(11) {
+  grid-column: span 1;
+  border-top-color: var(--vs73-gold);
+}
+.l24-boris-vs73-matrix__verdict {
   margin: 0;
   padding: 12px 14px;
   border-radius: 8px;
@@ -117,23 +125,23 @@
   border: 1px solid rgba(236, 201, 75, 0.38);
   font-size: 0.78rem;
   line-height: 1.45;
-  color: var(--sip-ink);
+  color: var(--vs73-ink);
 }
-.l24-boris-sip1486-matrix__verdict strong { color: var(--sip-gold); }
-.l24-boris-sip1486-matrix__caption {
+.l24-boris-vs73-matrix__verdict strong { color: var(--vs73-gold); }
+.l24-boris-vs73-matrix__caption {
   margin: 10px 0 0;
   font-size: 0.7rem;
   line-height: 1.4;
   color: rgba(160, 174, 192, 0.88);
   text-align: center;
 }
-.l24-boris-sip1486-matrix__vs {
+.l24-boris-vs73-matrix__vs {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin: 0 0 12px;
 }
-.l24-boris-sip1486-matrix__vs-card {
+.l24-boris-vs73-matrix__vs-card {
   padding: 10px;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.28);
@@ -141,23 +149,23 @@
   font-size: 0.72rem;
   line-height: 1.4;
 }
-.l24-boris-sip1486-matrix__vs-card--plaintiff { border-color: rgba(99, 179, 237, 0.45); }
-.l24-boris-sip1486-matrix__vs-card--owner { border-color: rgba(246, 173, 85, 0.45); }
-.l24-boris-sip1486-matrix__vs-card strong {
+.l24-boris-vs73-matrix__vs-card--court { border-color: rgba(252, 129, 129, 0.45); }
+.l24-boris-vs73-matrix__vs-card--def { border-color: rgba(104, 211, 145, 0.45); }
+.l24-boris-vs73-matrix__vs-card strong {
   display: block;
   color: #fff;
   font-size: 0.76rem;
   margin-bottom: 4px;
 }
-.l24-boris-sip1486-matrix__matrix {
+.l24-boris-vs73-matrix__matrix {
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin: 0 0 12px;
 }
-.l24-boris-sip1486-matrix__row {
+.l24-boris-vs73-matrix__row {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 0.55fr) minmax(0, 1.15fr);
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 0.55fr) minmax(0, 1.2fr);
   gap: 8px 10px;
   align-items: start;
   padding: 10px 11px;
@@ -167,77 +175,81 @@
   font-size: 0.74rem;
   line-height: 1.38;
 }
-.l24-boris-sip1486-matrix__row--plaintiff { border-left: 3px solid var(--sip-plaintiff); }
-.l24-boris-sip1486-matrix__row--owner { border-left: 3px solid var(--sip-owner); }
-.l24-boris-sip1486-matrix__row--both { border-left: 3px solid var(--sip-gold); }
-.l24-boris-sip1486-matrix__row-label {
+.l24-boris-vs73-matrix__row--follow { border-left: 3px solid var(--vs73-cond); }
+.l24-boris-vs73-matrix__row--court { border-left: 3px solid var(--vs73-real); }
+.l24-boris-vs73-matrix__row--cass { border-left: 3px solid var(--vs73-gold); }
+.l24-boris-vs73-matrix__row--norm { border-left: 3px solid var(--vs73-violet); }
+.l24-boris-vs73-matrix__row-label {
   font-weight: 700;
   color: #fff;
   font-size: 0.78rem;
 }
-.l24-boris-sip1486-matrix__row-who {
+.l24-boris-vs73-matrix__row-stage {
   font-weight: 700;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   padding: 3px 7px;
   border-radius: 4px;
   text-align: center;
   align-self: start;
-}
-.l24-boris-sip1486-matrix__row-who--plaintiff {
   background: rgba(99, 179, 237, 0.2);
   color: #bee3f8;
   border: 1px solid rgba(99, 179, 237, 0.45);
 }
-.l24-boris-sip1486-matrix__row-who--owner {
-  background: rgba(246, 173, 85, 0.2);
-  color: #fbd38d;
-  border: 1px solid rgba(246, 173, 85, 0.45);
+.l24-boris-vs73-matrix__row-stage--court {
+  background: rgba(252, 129, 129, 0.2);
+  color: #fed7d7;
+  border-color: rgba(252, 129, 129, 0.45);
 }
-.l24-boris-sip1486-matrix__row-text { color: var(--sip-muted); }
-.l24-boris-sip1486-matrix__row-text em {
+.l24-boris-vs73-matrix__row-stage--cass {
+  background: rgba(236, 201, 75, 0.2);
+  color: #faf089;
+  border-color: rgba(236, 201, 75, 0.45);
+}
+.l24-boris-vs73-matrix__row-text { color: var(--vs73-muted); }
+.l24-boris-vs73-matrix__row-text em {
   font-style: normal;
   color: #fff;
   font-weight: 600;
 }
-.l24-boris-sip1486-matrix__partial {
+.l24-boris-vs73-matrix__fork {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin: 0 0 10px;
 }
-.l24-boris-sip1486-matrix__partial-card {
+.l24-boris-vs73-matrix__fork-card {
   padding: 10px;
   border-radius: 8px;
   font-size: 0.72rem;
   line-height: 1.4;
 }
-.l24-boris-sip1486-matrix__partial-card--save {
-  background: rgba(104, 211, 145, 0.14);
-  border: 1px solid rgba(104, 211, 145, 0.4);
-}
-.l24-boris-sip1486-matrix__partial-card--stop {
+.l24-boris-vs73-matrix__fork-card--real {
   background: rgba(252, 129, 129, 0.14);
   border: 1px solid rgba(252, 129, 129, 0.4);
 }
-.l24-boris-sip1486-matrix__partial-card strong {
+.l24-boris-vs73-matrix__fork-card--cond {
+  background: rgba(99, 179, 237, 0.14);
+  border: 1px solid rgba(99, 179, 237, 0.4);
+}
+.l24-boris-vs73-matrix__fork-card strong {
   display: block;
   font-size: 0.76rem;
   margin-bottom: 4px;
 }
-.l24-boris-sip1486-matrix__partial-card--save strong { color: #c6f6d5; }
-.l24-boris-sip1486-matrix__partial-card--stop strong { color: #fed7d7; }
-.l24-boris-sip1486-matrix__note {
+.l24-boris-vs73-matrix__fork-card--real strong { color: #fed7d7; }
+.l24-boris-vs73-matrix__fork-card--cond strong { color: #bee3f8; }
+.l24-boris-vs73-matrix__note {
   margin: 0;
   font-size: 0.76rem;
   line-height: 1.45;
-  color: var(--sip-muted);
+  color: var(--vs73-muted);
 }
-.l24-boris-sip1486-matrix__note em {
+.l24-boris-vs73-matrix__note em {
   font-style: normal;
   color: #bee3f8;
   font-weight: 600;
 }
-.l24-boris-sip1486-matrix__foot {
+.l24-boris-vs73-matrix__foot {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -245,225 +257,203 @@
   padding-top: 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
-.l24-boris-sip1486-matrix__tag {
+.l24-boris-vs73-matrix__tag {
   font-size: 0.72rem;
   font-weight: 600;
   padding: 6px 10px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.06);
-  color: var(--sip-ink);
+  color: var(--vs73-ink);
   border: 1px solid rgba(255, 255, 255, 0.14);
 }
-.l24-boris-sip1486-matrix__tag--case {
+.l24-boris-vs73-matrix__tag--case {
   border-color: rgba(236, 201, 75, 0.5);
-  color: var(--sip-gold);
+  color: var(--vs73-gold);
 }
-.l24-boris-sip1486-matrix__tag--art { border-color: rgba(99, 179, 237, 0.45); color: #bee3f8; }
-.l24-boris-sip1486-matrix__tag--def { border-color: rgba(104, 211, 145, 0.45); color: #c6f6d5; }
+.l24-boris-vs73-matrix__tag--art { border-color: rgba(99, 179, 237, 0.45); color: #bee3f8; }
+.l24-boris-vs73-matrix__tag--def { border-color: rgba(104, 211, 145, 0.45); color: #c6f6d5; }
 @media (max-width: 900px) {
-  .l24-boris-sip1486-matrix__split { grid-template-columns: 1fr; }
-  .l24-boris-sip1486-matrix__steps { grid-template-columns: 1fr; }
-  .l24-boris-sip1486-matrix__step:nth-child(5) { grid-column: auto; }
-  .l24-boris-sip1486-matrix__row { grid-template-columns: 1fr; gap: 4px; }
-  .l24-boris-sip1486-matrix__row-who { justify-self: start; }
-  .l24-boris-sip1486-matrix__vs { grid-template-columns: 1fr; }
-  .l24-boris-sip1486-matrix__partial { grid-template-columns: 1fr; }
+  .l24-boris-vs73-matrix__split { grid-template-columns: 1fr; }
+  .l24-boris-vs73-matrix__smag-grid { grid-template-columns: 1fr 1fr; }
+  .l24-boris-vs73-matrix__row { grid-template-columns: 1fr; gap: 4px; }
+  .l24-boris-vs73-matrix__row-stage { justify-self: start; }
+  .l24-boris-vs73-matrix__vs { grid-template-columns: 1fr; }
+  .l24-boris-vs73-matrix__fork { grid-template-columns: 1fr; }
 }
 </style>
 
-  <div class="l24-boris-sip1486-matrix__shell">
-    <p class="l24-boris-sip1486-matrix__eyebrow">ст. 1486 ГК РФ · гл. 76 · СИП-75/2025 · 30.03.2026 · СИП-898/2025</p>
-    <h3 class="l24-boris-sip1486-matrix__title">Процедура ст. 1486 и бремя доказывания: истец vs правообладатель</h3>
-    <p class="l24-boris-sip1486-matrix__lead">Досрочное прекращение охраны ТЗ — <strong>строго процессуальный маршрут</strong>: предложение → 2 месяца → иск в СИП в 30 дней. В суде бремя разделено: <strong>истец</strong> доказывает заинтересованность, <strong>правообладатель</strong> — реальное использование по каждой позиции свидетельства (п. 3 ст. 1486). По <strong>СИП-75/2025</strong> это дало частичное прекращение: бельё сохранено, брюки и колготки — нет.</p>
+  <div class="l24-boris-vs73-matrix__shell">
+    <p class="l24-boris-vs73-matrix__eyebrow">ст. 73 УК · ст. 88 УПК · ч. 3 ст. 264 УК · определение № 41-УД26-25-К4 · 05.06.2026</p>
+    <h3 class="l24-boris-vs73-matrix__title">Смягчающие обстоятельства → ст. 73 УК: матрица и чеклист защиты по ДТП</h3>
+    <p class="l24-boris-vs73-matrix__lead">В деле студентки ВС заменил <strong>2 года реального</strong> срока условными и освободил из колонии: <strong>11 смягчающих</strong>, <strong>0 отягчающих</strong>, но ключ — суд первой инстанции <strong>не мотивировал отказ</strong> от ст. 73 УК. Защита по уголовному делу о ДТП строится на документировании смягчающих, требовании мотивировки и кассации при её отсутствии.</p>
 
-    <div class="l24-boris-sip1486-matrix__split">
-      <div class="l24-boris-sip1486-matrix__panel">
-        <p class="l24-boris-sip1486-matrix__panel-title">Схема процедуры ст. 1486 (предложение → 2 мес. → иск → частичное прекращение)</p>
-        <svg class="l24-boris-sip1486-matrix__scheme-svg" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sip1486-scheme-title sip1486-scheme-desc">
-          <title id="sip1486-scheme-title">Процедура досрочного прекращения товарного знака по ст. 1486 ГК РФ</title>
-          <desc id="sip1486-scheme-desc">Пять этапов: предложение правообладателю, ожидание двух месяцев, иск в СИП в течение тридцати дней, судебное разделение бремени доказывания, частичное прекращение охраны по позициям МКТУ</desc>
+    <div class="l24-boris-vs73-matrix__split">
+      <div class="l24-boris-vs73-matrix__panel">
+        <p class="l24-boris-vs73-matrix__panel-title">Схема: совокупность смягчающих → ст. 73 УК → немотивированный отказ → ВС</p>
+        <svg class="l24-boris-vs73-matrix__scheme-svg" viewBox="0 0 600 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vs73-scheme-title vs73-scheme-desc">
+          <title id="vs73-scheme-title">Механизм условного осуждения по ст. 73 УК РФ при ДТП с погибшим</title>
+          <desc id="vs73-scheme-desc">Смягчающие обстоятельства формируют основание для ст. 73 УК; при немотивированном отказе суда ВС заменяет реальный срок условным по делу № 41-УД26-25-К4</desc>
           <defs>
-            <linearGradient id="sip1486-flow" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#63b3ed"/>
-              <stop offset="50%" stop-color="#ecc94b"/>
-              <stop offset="100%" stop-color="#68d391"/>
+            <linearGradient id="vs73-flow" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#68d391"/>
+              <stop offset="50%" stop-color="#63b3ed"/>
+              <stop offset="100%" stop-color="#ecc94b"/>
             </linearGradient>
-            <marker id="sip1486-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <marker id="vs73-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
               <path d="M0,0 L8,4 L0,8 Z" fill="#ecc94b"/>
             </marker>
           </defs>
 
-          <text x="300" y="18" text-anchor="middle" fill="#ecc94b" font-size="8" font-weight="600">ст. 1486 ГК РФ · расчётный период = 3 года до предложения</text>
+          <text x="300" y="16" text-anchor="middle" fill="#ecc94b" font-size="8" font-weight="600">ч. 3 ст. 264 УК · ДТП с погибшим · срок до 5 лет → лимит ст. 73 УК (до 8 лет)</text>
 
-          <!-- Step 1: Proposal -->
-          <rect x="24" y="34" width="108" height="72" rx="8" fill="rgba(49,130,206,0.28)" stroke="#63b3ed" stroke-width="1.5"/>
-          <text x="78" y="52" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">ШАГ 1</text>
-          <text x="78" y="66" text-anchor="middle" fill="#e2e8f0" font-size="7">Предложение</text>
-          <text x="78" y="78" text-anchor="middle" fill="#a0aec0" font-size="6.5">отказ / отчуждение</text>
-          <text x="78" y="90" text-anchor="middle" fill="#a0aec0" font-size="6.5">адрес из реестра</text>
-          <rect x="36" y="96" width="84" height="12" rx="3" fill="rgba(99,179,237,0.2)" stroke="#63b3ed" stroke-width="0.8"/>
-          <text x="78" y="105" text-anchor="middle" fill="#bee3f8" font-size="6.5" font-weight="600">п. 1 ст. 1486</text>
+          <!-- Smagchayushchie stack -->
+          <rect x="24" y="28" width="552" height="72" rx="8" fill="rgba(104,211,145,0.12)" stroke="#68d391" stroke-width="1.5"/>
+          <text x="300" y="44" text-anchor="middle" fill="#c6f6d5" font-size="8.5" font-weight="700">11 СМЯГЧАЮЩИХ · 0 ОТЯГЧАЮЩИХ (дело № 41-УД26-25-К4)</text>
+          <rect x="36" y="52" width="78" height="18" rx="3" fill="rgba(104,211,145,0.25)" stroke="#68d391" stroke-width="0.8"/>
+          <text x="75" y="64" text-anchor="middle" fill="#e2e8f0" font-size="6">признание вины</text>
+          <rect x="120" y="52" width="78" height="18" rx="3" fill="rgba(104,211,145,0.25)" stroke="#68d391" stroke-width="0.8"/>
+          <text x="159" y="64" text-anchor="middle" fill="#e2e8f0" font-size="6">возмещение вреда</text>
+          <rect x="204" y="52" width="78" height="18" rx="3" fill="rgba(104,211,145,0.25)" stroke="#68d391" stroke-width="0.8"/>
+          <text x="243" y="64" text-anchor="middle" fill="#e2e8f0" font-size="6">волонтёрство</text>
+          <rect x="288" y="52" width="78" height="18" rx="3" fill="rgba(104,211,145,0.25)" stroke="#68d391" stroke-width="0.8"/>
+          <text x="327" y="64" text-anchor="middle" fill="#e2e8f0" font-size="6">мать-инвалид</text>
+          <rect x="372" y="52" width="78" height="18" rx="3" fill="rgba(104,211,145,0.25)" stroke="#68d391" stroke-width="0.8"/>
+          <text x="411" y="64" text-anchor="middle" fill="#e2e8f0" font-size="6">отчим — СВО</text>
+          <rect x="456" y="52" width="78" height="18" rx="3" fill="rgba(104,211,145,0.25)" stroke="#68d391" stroke-width="0.8"/>
+          <text x="495" y="64" text-anchor="middle" fill="#e2e8f0" font-size="6">потерпевшие</text>
+          <text x="300" y="88" text-anchor="middle" fill="#a0aec0" font-size="6.5">+ травмы в ДТП · посткриминальное поведение · отсутствие судимостей · ст. 88 УПК — оценка в совокупности</text>
 
-          <!-- Arrow 1→2 -->
-          <line x1="132" y1="70" x2="158" y2="70" stroke="#ecc94b" stroke-width="2" marker-end="url(#sip1486-arrow)"/>
+          <!-- Arrow down -->
+          <path d="M 300 100 L 300 118" stroke="#68d391" stroke-width="2" fill="none" marker-end="url(#vs73-arrow)"/>
 
-          <!-- Step 2: 2 months -->
-          <rect x="160" y="34" width="108" height="72" rx="8" fill="rgba(236,201,75,0.15)" stroke="#ecc94b" stroke-width="1.5"/>
-          <text x="214" y="52" text-anchor="middle" fill="#ecc94b" font-size="8" font-weight="700">ШАГ 2</text>
-          <text x="214" y="66" text-anchor="middle" fill="#e2e8f0" font-size="7">2 месяца</text>
-          <text x="214" y="78" text-anchor="middle" fill="#a0aec0" font-size="6.5">отказ / молчание</text>
-          <text x="214" y="90" text-anchor="middle" fill="#a0aec0" font-size="6.5">правообладателя</text>
-          <circle cx="214" cy="100" r="10" fill="none" stroke="#ecc94b" stroke-width="1.5" stroke-dasharray="3 2"/>
-          <text x="214" y="103" text-anchor="middle" fill="#ecc94b" font-size="6" font-weight="700">60</text>
+          <!-- St 73 UK gate -->
+          <rect x="180" y="120" width="240" height="44" rx="8" fill="rgba(99,179,237,0.22)" stroke="#63b3ed" stroke-width="1.5"/>
+          <text x="300" y="136" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="700">ст. 73 УК РФ</text>
+          <text x="300" y="150" text-anchor="middle" fill="#e2e8f0" font-size="7">исправление без реального отбывания · испытательный срок</text>
+          <text x="300" y="160" text-anchor="middle" fill="#a0aec0" font-size="6.5">Пленум ВС № 58: отказ = конкретные данные о личности</text>
 
-          <!-- Arrow 2→3 -->
-          <line x1="268" y1="70" x2="294" y2="70" stroke="#ecc94b" stroke-width="2" marker-end="url(#sip1486-arrow)"/>
+          <!-- Fork arrows -->
+          <path d="M 240 164 L 140 188" stroke="#fc8181" stroke-width="2" fill="none" marker-end="url(#vs73-arrow)"/>
+          <path d="M 360 164 L 460 188" stroke="#63b3ed" stroke-width="2" fill="none" marker-end="url(#vs73-arrow)"/>
 
-          <!-- Step 3: Lawsuit 30 days -->
-          <rect x="296" y="34" width="108" height="72" rx="8" fill="rgba(237,137,54,0.22)" stroke="#f6ad55" stroke-width="1.5"/>
-          <text x="350" y="52" text-anchor="middle" fill="#fbd38d" font-size="8" font-weight="700">ШАГ 3</text>
-          <text x="350" y="66" text-anchor="middle" fill="#e2e8f0" font-size="7">Иск в СИП</text>
-          <text x="350" y="78" text-anchor="middle" fill="#a0aec0" font-size="6.5">в течение 30 дней</text>
-          <text x="350" y="90" text-anchor="middle" fill="#a0aec0" font-size="6.5">пропуск = заново</text>
-          <rect x="312" y="96" width="76" height="12" rx="3" fill="rgba(246,173,85,0.2)" stroke="#f6ad55" stroke-width="0.8"/>
-          <text x="350" y="105" text-anchor="middle" fill="#fbd38d" font-size="6.5" font-weight="600">СИП-898: 01.10</text>
+          <!-- Real srok (lower court error) -->
+          <rect x="48" y="190" width="184" height="56" rx="8" fill="rgba(252,129,129,0.22)" stroke="#fc8181" stroke-width="1.5"/>
+          <text x="140" y="208" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">СУД 1-й / АП / КАС</text>
+          <text x="140" y="222" text-anchor="middle" fill="#feb2b2" font-size="7">2 года РЕАЛЬНО</text>
+          <text x="140" y="234" text-anchor="middle" fill="#a0aec0" font-size="6.5">отказ от ст. 73 без мотивировки</text>
+          <text x="140" y="244" text-anchor="middle" fill="#fc8181" font-size="6.5" font-weight="600">«тяжесть содеянного» — клише</text>
 
-          <!-- Arrow 3→4 -->
-          <line x1="404" y1="70" x2="430" y2="70" stroke="#ecc94b" stroke-width="2" marker-end="url(#sip1486-arrow)"/>
+          <!-- Conditional (VS) -->
+          <rect x="368" y="190" width="184" height="56" rx="8" fill="rgba(99,179,237,0.18)" stroke="#63b3ed" stroke-width="1.5" stroke-dasharray="4 2"/>
+          <text x="460" y="208" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">ДОЛЖНО БЫТЬ</text>
+          <text x="460" y="222" text-anchor="middle" fill="#90cdf4" font-size="7">2 года УСЛОВНО</text>
+          <text x="460" y="234" text-anchor="middle" fill="#a0aec0" font-size="6.5">испытательный срок 2 года</text>
+          <text x="460" y="244" text-anchor="middle" fill="#63b3ed" font-size="6.5">+ освобождение из колонии</text>
 
-          <!-- Step 4: Court -->
-          <rect x="432" y="34" width="144" height="72" rx="8" fill="rgba(128,90,213,0.22)" stroke="#b794f4" stroke-width="1.5"/>
-          <text x="504" y="52" text-anchor="middle" fill="#d6bcfa" font-size="8" font-weight="700">ШАГ 4 · СУД</text>
-          <text x="504" y="66" text-anchor="middle" fill="#63b3ed" font-size="6.5">Истец → заинтересованность</text>
-          <text x="504" y="78" text-anchor="middle" fill="#f6ad55" font-size="6.5">Правообладатель → использование</text>
-          <text x="504" y="90" text-anchor="middle" fill="#a0aec0" font-size="6.5">п. 3 ст. 1486 · СП-23/20</text>
-          <text x="504" y="100" text-anchor="middle" fill="#a0aec0" font-size="6">по каждой позиции МКТУ</text>
+          <!-- VS correction bar -->
+          <rect x="48" y="258" width="504" height="32" rx="8" fill="rgba(236,201,75,0.15)" stroke="url(#vs73-flow)" stroke-width="1.5"/>
+          <text x="300" y="272" text-anchor="middle" fill="#fff" font-size="8.5" font-weight="700">ВС РФ № 41-УД26-25-К4 · 05.06.2026 · замена реального срока условным + освобождение</text>
+          <text x="300" y="284" text-anchor="middle" fill="#ecc94b" font-size="7">«суд должным образом не мотивировал… почему не находит оснований для ст. 73 УК»</text>
 
-          <!-- Down arrow to partial -->
-          <path d="M 300 106 L 300 128" stroke="#ecc94b" stroke-width="2" fill="none" marker-end="url(#sip1486-arrow)"/>
-
-          <!-- Step 5: Partial termination -->
-          <rect x="80" y="132" width="440" height="88" rx="10" fill="rgba(0,0,0,0.32)" stroke="url(#sip1486-flow)" stroke-width="1.5"/>
-          <text x="300" y="150" text-anchor="middle" fill="#fff" font-size="8.5" font-weight="700">ШАГ 5 · Частичное прекращение охраны (СИП-75/2025, 30.03.2026)</text>
-
-          <rect x="100" y="162" width="180" height="48" rx="6" fill="rgba(104,211,145,0.18)" stroke="#68d391" stroke-width="1.2"/>
-          <text x="190" y="178" text-anchor="middle" fill="#c6f6d5" font-size="7.5" font-weight="700">ОХРАНА СОХРАНЕНА</text>
-          <text x="190" y="192" text-anchor="middle" fill="#9ae6b4" font-size="6.5">нижнее бельё · бюстгальтеры</text>
-          <text x="190" y="204" text-anchor="middle" fill="#a0aec0" font-size="6">доказаны реальные продажи</text>
-
-          <rect x="320" y="162" width="180" height="48" rx="6" fill="rgba(252,129,129,0.18)" stroke="#fc8181" stroke-width="1.2"/>
-          <text x="410" y="178" text-anchor="middle" fill="#fed7d7" font-size="7.5" font-weight="700">ОХРАНА ПРЕКРАЩЕНА</text>
-          <text x="410" y="192" text-anchor="middle" fill="#feb2b2" font-size="6.5">брюки · колготки · корсеты</text>
-          <text x="410" y="204" text-anchor="middle" fill="#a0aec0" font-size="6">нет убедительных доказательств</text>
-
-          <!-- Timeline bar -->
-          <rect x="40" y="236" width="520" height="28" rx="6" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
-          <rect x="48" y="244" width="120" height="12" rx="3" fill="rgba(99,179,237,0.35)"/>
-          <rect x="176" y="244" width="80" height="12" rx="3" fill="rgba(236,201,75,0.35)"/>
-          <rect x="264" y="244" width="56" height="12" rx="3" fill="rgba(246,173,85,0.35)"/>
-          <rect x="328" y="244" width="224" height="12" rx="3" fill="rgba(104,211,145,0.25)"/>
-          <text x="108" y="253" text-anchor="middle" fill="#bee3f8" font-size="6">предложение</text>
-          <text x="216" y="253" text-anchor="middle" fill="#ecc94b" font-size="6">2 мес.</text>
-          <text x="292" y="253" text-anchor="middle" fill="#fbd38d" font-size="6">30 дн.</text>
-          <text x="440" y="253" text-anchor="middle" fill="#9ae6b4" font-size="6">рассмотрение в СИП → частичный итог</text>
-
-          <!-- 3-year period note -->
-          <rect x="40" y="276" width="520" height="32" rx="6" fill="rgba(236,201,75,0.1)" stroke="rgba(236,201,75,0.35)" stroke-width="1"/>
-          <text x="300" y="290" text-anchor="middle" fill="#ecc94b" font-size="7" font-weight="600">Расчётный период неиспользования: 3 года до даты предложения (не до иска)</text>
-          <text x="300" y="302" text-anchor="middle" fill="#a0aec0" font-size="6.5">СИП-75/2025: период отсчитан от направления предложения иностранному правообладателю</text>
+          <!-- Process route -->
+          <rect x="48" y="300" width="504" height="22" rx="5" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+          <rect x="56" y="306" width="100" height="10" rx="2" fill="rgba(104,211,145,0.35)"/>
+          <rect x="164" y="306" width="88" height="10" rx="2" fill="rgba(99,179,237,0.35)"/>
+          <rect x="260" y="306" width="88" height="10" rx="2" fill="rgba(252,129,129,0.35)"/>
+          <rect x="356" y="306" width="188" height="10" rx="2" fill="rgba(236,201,75,0.35)"/>
+          <text x="106" y="314" text-anchor="middle" fill="#c6f6d5" font-size="5.5">следствие</text>
+          <text x="208" y="314" text-anchor="middle" fill="#bee3f8" font-size="5.5">суд 1 инст.</text>
+          <text x="304" y="314" text-anchor="middle" fill="#fed7d7" font-size="5.5">апелл./касс.</text>
+          <text x="450" y="314" text-anchor="middle" fill="#faf089" font-size="5.5">ВС · кассация по ст. 73 + ст. 88 УПК</text>
         </svg>
 
-        <ol class="l24-boris-sip1486-matrix__steps" aria-label="Пять шагов процедуры ст. 1486">
-          <li class="l24-boris-sip1486-matrix__step">
-            <strong>Предложение</strong>
-            Отказ от ТЗ или договор отчуждения — по адресу из реестра Роспатента. Запускает расчётный период (−3 года).
-          </li>
-          <li class="l24-boris-sip1486-matrix__step">
-            <strong>2 месяца</strong>
-            Правообладатель отказывается, предлагает отчуждение или молчит — после истечения срока открывается окно для иска.
-          </li>
-          <li class="l24-boris-sip1486-matrix__step">
-            <strong>Иск в СИП · 30 дней</strong>
-            Пропуск срока = новое предложение с нуля. СИП-898/2025: предложение 01.07.2025 → иск 01.10.2025.
-          </li>
-          <li class="l24-boris-sip1486-matrix__step">
-            <strong>Суд</strong>
-            Истец доказывает заинтересованность (СП-23/20). Правообладатель — использование по каждой позиции свидетельства.
-          </li>
-          <li class="l24-boris-sip1486-matrix__step">
-            <strong>Частичное прекращение</strong>
-            СИП-75/2025: бельё и бюстгальтеры сохранены; брюки, колготки, корсеты — охрана прекращена. Однородность для истца, детализация — для правообладателя.
-          </li>
-        </ol>
-        <p class="l24-boris-sip1486-matrix__verdict"><strong>84% исков</strong> в 1 пол. 2025 г. удовлетворены СИП (124 из 147) — но большинство проигрышей правообладателей связано с формальными ошибками доказывания, а не с отсутствием использования в принципе.</p>
-        <p class="l24-boris-sip1486-matrix__caption">Схема по ст. 1486 ГК РФ · решение СИП от 30.03.2026, дело № СИП-75/2025</p>
+        <ul class="l24-boris-vs73-matrix__smag-grid" aria-label="Смягчающие обстоятельства из определения ВС № 41-УД26-25-К4">
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Признание вины</strong>Полное, с раскаянием (п. «и» ч. 1 ст. 61 УК)</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Возмещение вреда</strong>Моральный и материальный ущерб — добровольно, с документами</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Волонтёрство</strong>Благотворительность, пожертвования СВО и храмам</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Характеристики</strong>Учёба, работа, грамоты и благодарности</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Мать-инвалид II</strong>Совместное проживание — уход под угрозой при реальном сроке</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Отчим — СВО</strong>Участник с 2022 г.; перевёл деньги потерпевшим</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Травмы в ДТП</strong>Реабилитация, ортопедический режим vs условия колонии</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Посткриминальное</strong>Не замечена в предосудительном с момента ДТП</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Потерпевшие</strong>Просили прекращение или наказание без лишения свободы</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>Без судимостей</strong>Не на учёте у нарколога и психиатра</li>
+          <li class="l24-boris-vs73-matrix__smag-item"><strong>0 отягчающих</strong>Суд не установил ни одного отягчающего обстоятельства</li>
+        </ul>
+        <p class="l24-boris-vs73-matrix__verdict"><strong>Инструмент кассации:</strong> немотивированный отказ от ст. 73 УК при совокупности смягчающих — самостоятельное основание жалобы; апелляция не вправе «подтвердить» приговор без новых доводов.</p>
+        <p class="l24-boris-vs73-matrix__caption">Схема по определению СК по уголовным делам ВС РФ № 41-УД26-25-К4 · РАПСИ 05.06.2026</p>
       </div>
 
-      <div class="l24-boris-sip1486-matrix__panel">
-        <p class="l24-boris-sip1486-matrix__panel-title">Правообладатель vs истец: бремя доказывания</p>
-        <div class="l24-boris-sip1486-matrix__vs">
-          <div class="l24-boris-sip1486-matrix__vs-card l24-boris-sip1486-matrix__vs-card--plaintiff">
-            <strong>Истец (атака)</strong>
-            Заинтересованность + реальное намерение. Одной заявки в Роспатент мало — нужна совокупность (СИП-898/2025). Проверить авторское право за ТЗ (обзор ВС № 1/2026).
+      <div class="l24-boris-vs73-matrix__panel">
+        <p class="l24-boris-vs73-matrix__panel-title">Чеклист защиты по ДТП: следствие → суд → кассация</p>
+        <div class="l24-boris-vs73-matrix__vs">
+          <div class="l24-boris-vs73-matrix__vs-card l24-boris-vs73-matrix__vs-card--court">
+            <strong>Ошибка суда</strong>
+            «Тяжесть преступления», «исправление в изоляции» без анализа личности; игнорирование позиции потерпевших; перечисление смягчающих без вывода по ст. 73.
           </div>
-          <div class="l24-boris-sip1486-matrix__vs-card l24-boris-sip1486-matrix__vs-card--owner">
-            <strong>Правообладатель (оборона)</strong>
-            Реальное использование за 3 года до предложения — по каждой позиции МКТУ отдельно (п. 3 ст. 1486). Скриншоты без дат, закупки вместо продаж — не принимаются.
-          </div>
-        </div>
-        <div class="l24-boris-sip1486-matrix__matrix">
-          <div class="l24-boris-sip1486-matrix__row l24-boris-sip1486-matrix__row--plaintiff">
-            <span class="l24-boris-sip1486-matrix__row-label">Заинтересованность</span>
-            <span class="l24-boris-sip1486-matrix__row-who l24-boris-sip1486-matrix__row-who--plaintiff">Истец</span>
-            <span class="l24-boris-sip1486-matrix__row-text">Реальное намерение + подготовительные действия + <em>однородность товаров</em> (СП-23/20, п. 165 Пленума ВС № 10). Заявка в Роспатент — лишь один из элементов совокупности.</span>
-          </div>
-          <div class="l24-boris-sip1486-matrix__row l24-boris-sip1486-matrix__row--plaintiff">
-            <span class="l24-boris-sip1486-matrix__row-label">Правомерность после прекращения</span>
-            <span class="l24-boris-sip1486-matrix__row-who l24-boris-sip1486-matrix__row-who--plaintiff">Истец</span>
-            <span class="l24-boris-sip1486-matrix__row-text">Обзор ВС № 1/2026 («Фиксики»/Симка): истец обязан доказать, что сможет <em>правомерно</em> использовать обозначение. Авторское право на персонажа блокирует «освобождение» ТЗ.</span>
-          </div>
-          <div class="l24-boris-sip1486-matrix__row l24-boris-sip1486-matrix__row--owner">
-            <span class="l24-boris-sip1486-matrix__row-label">Использование ТЗ</span>
-            <span class="l24-boris-sip1486-matrix__row-who l24-boris-sip1486-matrix__row-who--owner">Правообладатель</span>
-            <span class="l24-boris-sip1486-matrix__row-text">п. 3 ст. 1486: <em>реальное</em> введение в оборот за расчётный период. По каждой позиции свидетельства — отдельно. СИП-75/2025: бельё доказано, брюки — нет.</span>
-          </div>
-          <div class="l24-boris-sip1486-matrix__row l24-boris-sip1486-matrix__row--owner">
-            <span class="l24-boris-sip1486-matrix__row-label">Лицензиат / форма знака</span>
-            <span class="l24-boris-sip1486-matrix__row-who l24-boris-sip1486-matrix__row-who--owner">Правообладатель</span>
-            <span class="l24-boris-sip1486-matrix__row-text">Использование лицензиатом элементов по отдельности <em>≠</em> использование зарегистрированного ТЗ (СИП-410/2024). Существенное изменение существа знака не засчитывается (п. 2 ст. 1486).</span>
-          </div>
-          <div class="l24-boris-sip1486-matrix__row l24-boris-sip1486-matrix__row--both">
-            <span class="l24-boris-sip1486-matrix__row-label">Символическое vs реальное</span>
-            <span class="l24-boris-sip1486-matrix__row-who l24-boris-sip1486-matrix__row-who--owner">Правообладатель</span>
-            <span class="l24-boris-sip1486-matrix__row-text">СИП-898/2025: скриншоты вне периода, без дат, документы «закупка» вместо «продажа» — отклонены. Производство без реализации — не использование.</span>
+          <div class="l24-boris-vs73-matrix__vs-card l24-boris-vs73-matrix__vs-card--def">
+            <strong>Задача защиты</strong>
+            Документировать смягчающие с первого допроса; требовать мотивировку в прениях; при отказе — кассация с ссылкой на ст. 88 УПК и Пленум ВС № 58.
           </div>
         </div>
-        <div class="l24-boris-sip1486-matrix__partial" aria-label="Итог СИП-75/2025 по позициям МКТУ">
-          <div class="l24-boris-sip1486-matrix__partial-card l24-boris-sip1486-matrix__partial-card--save">
-            <strong>Сохранено · СИП-75/2025</strong>
-            Нижнее бельё, бюстгальтеры — приняты накладные и доказательства реальных продаж в расчётном периоде.
+        <div class="l24-boris-vs73-matrix__matrix">
+          <div class="l24-boris-vs73-matrix__row l24-boris-vs73-matrix__row--follow">
+            <span class="l24-boris-vs73-matrix__row-label">Признание вины</span>
+            <span class="l24-boris-vs73-matrix__row-stage">Следствие</span>
+            <span class="l24-boris-vs73-matrix__row-text">Только с адвокатом на допросах; не давать показания против себя по отягчающим. Зафиксировать <em>полное признание</em> как смягчающее (ст. 61 УК).</span>
           </div>
-          <div class="l24-boris-sip1486-matrix__partial-card l24-boris-sip1486-matrix__partial-card--stop">
-            <strong>Прекращено · СИП-75/2025</strong>
-            Брюки, трусы, колготки, корсеты — правообладатель не подтвердил использование по этим позициям.
+          <div class="l24-boris-vs73-matrix__row l24-boris-vs73-matrix__row--follow">
+            <span class="l24-boris-vs73-matrix__row-label">Возмещение вреда</span>
+            <span class="l24-boris-vs73-matrix__row-stage">Следствие</span>
+            <span class="l24-boris-vs73-matrix__row-text">Расписки, платёжки, нотариальные соглашения — <em>добровольный</em> характер выплат. В деле № 41-УД26-25-К4 перевод через отчима-участника СВО.</span>
+          </div>
+          <div class="l24-boris-vs73-matrix__row l24-boris-vs73-matrix__row--follow">
+            <span class="l24-boris-vs73-matrix__row-label">Потерпевшие</span>
+            <span class="l24-boris-vs73-matrix__row-stage">Следствие</span>
+            <span class="l24-boris-vs73-matrix__row-text">Письменное заявление о примирении или просьба не лишать свободы. Суд обязан учесть или <em>мотивировать игнорирование</em> (ст. 43 УК).</span>
+          </div>
+          <div class="l24-boris-vs73-matrix__row l24-boris-vs73-matrix__row--court">
+            <span class="l24-boris-vs73-matrix__row-label">Ходатайство ст. 73</span>
+            <span class="l24-boris-vs73-matrix__row-stage l24-boris-vs73-matrix__row-stage--court">Суд 1 инст.</span>
+            <span class="l24-boris-vs73-matrix__row-text">В прениях — прямой вопрос: «Почему <em>именно этот человек</em> не может быть исправлен без изоляции?» Создаёт процессуальную обязанность ответа в приговоре.</span>
+          </div>
+          <div class="l24-boris-vs73-matrix__row l24-boris-vs73-matrix__row--norm">
+            <span class="l24-boris-vs73-matrix__row-label">ст. 88 УПК</span>
+            <span class="l24-boris-vs73-matrix__row-stage l24-boris-vs73-matrix__row-stage--court">Суд 1 инст.</span>
+            <span class="l24-boris-vs73-matrix__row-text">Требовать <em>совокупную оценку</em> личности: поведение после ДТП, здоровье, семья, смягчающие — не вырывать «гибель человека» из контекста 11 факторов.</span>
+          </div>
+          <div class="l24-boris-vs73-matrix__row l24-boris-vs73-matrix__row--cass">
+            <span class="l24-boris-vs73-matrix__row-label">Кассация в ВС</span>
+            <span class="l24-boris-vs73-matrix__row-stage l24-boris-vs73-matrix__row-stage--cass">Кассация</span>
+            <span class="l24-boris-vs73-matrix__row-text">Нет развёрнутой мотивировки отказа от ст. 73 — <em>процессуальная ошибка</em>. Указать нарушенные нормы, материалы дела, позиции апелляции без новых доводов.</span>
           </div>
         </div>
-        <p class="l24-boris-sip1486-matrix__note"><em>Асимметрия СП-23/20:</em> истцу достаточно однородных товаров, правообладатель обязан доказывать использование <em>по каждой конкретной позиции</em> перечня — это ключ к стратегии частичного сохранения знака.</p>
+        <div class="l24-boris-vs73-matrix__fork" aria-label="Исход по ст. 73 УК РФ">
+          <div class="l24-boris-vs73-matrix__fork-card l24-boris-vs73-matrix__fork-card--real">
+            <strong>Реальный срок (ошибка)</strong>
+            Клише о тяжести деяния; формальный перечень смягчающих; игнор потерпевших — основание для кассации по № 41-УД26-25-К4.
+          </div>
+          <div class="l24-boris-vs73-matrix__fork-card l24-boris-vs73-matrix__fork-card--cond">
+            <strong>Условный срок (цель)</strong>
+            Испытательный срок + контроль; лишение права управления — реально. ВС: исправление возможно без изоляции при данной совокупности.
+          </div>
+        </div>
+        <p class="l24-boris-vs73-matrix__note"><em>Граница гуманизации:</em> опьянение (ч. 4–6 ст. 264), бегство с места ДТП, рецидив — условный срок маловероятен. При неосторожном ДТП без отягчающих фокус — доказательная база смягчающих и мотивировка суда.</p>
       </div>
     </div>
 
-    <div class="l24-boris-sip1486-matrix__foot" aria-label="Контекст практики СИП 2026">
-      <span class="l24-boris-sip1486-matrix__tag l24-boris-sip1486-matrix__tag--case">СИП-75/2025 · 30.03.2026</span>
-      <span class="l24-boris-sip1486-matrix__tag l24-boris-sip1486-matrix__tag--art">ст. 1486 ГК РФ · п. 1–3</span>
-      <span class="l24-boris-sip1486-matrix__tag l24-boris-sip1486-matrix__tag--def">Защита: УПД + даты в периоде + по позициям</span>
+    <div class="l24-boris-vs73-matrix__foot" aria-label="Контекст практики ВС 2026">
+      <span class="l24-boris-vs73-matrix__tag l24-boris-vs73-matrix__tag--case">№ 41-УД26-25-К4 · 05.06.2026</span>
+      <span class="l24-boris-vs73-matrix__tag l24-boris-vs73-matrix__tag--art">ст. 73 УК · ст. 88 УПК · ч. 3 ст. 264 УК</span>
+      <span class="l24-boris-vs73-matrix__tag l24-boris-vs73-matrix__tag--def">Защита: 11 смягчающих + требование мотивировки</span>
     </div>
   </div>
 </section>
 ```
 
 **Чеклист отличий от hero Алины**
-- [x] Не полноэкранный блок; в теле статьи после H3 «Процедура ст. 1486…» (внутри H2 «Статья 1486 ГК РФ»)
-- [x] Свой `id`: `l24-boris-sip1486-matrix` (не hero `#l24-hero-…`)
+- [x] Не полноэкранный блок; в теле статьи после H3 «Роль ст. 88 УПК…» (внутри H2 «Статья 73 УК РФ»)
+- [x] Свой `id`: `l24-boris-vs73-matrix` (не hero `#l24-hero-…`)
 - [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
-- [x] Тёмная панель — контраст со светлым hero Алины (IP / досрочное прекращение ТЗ)
-- [x] Сплит «схема процедуры ст. 1486 (5 шагов + частичное прекращение) | матрица бремени доказывания истец vs правообладатель»
+- [x] Тёмная панель — контраст со светлым hero Алины (UG / условное наказание за ДТП)
+- [x] Сплит «схема смягчающих → ст. 73 УК → ВС | чеклист защиты по ДТП (следствие → суд → кассация)»
