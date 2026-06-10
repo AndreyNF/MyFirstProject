@@ -1031,3 +1031,36 @@ SLUG: sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik
 H1_для_hero: СИП-565/2025: злоупотребление правом при оспаривании товарного знака — бывший участник vs общество
 ПОДЗАГОЛОВОК_HERO: Когда суды отказывают в оспаривании ТЗ: предыдущее поведение, выход из бизнеса и защита бренда
 ТИП_СТАТЬИ: IP — консультация по защите бренда / ответу на возражение по ТЗ
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**Файл:** `.cursor/page-content-natasha-sip-565.html`
+
+SLUG: `sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik`
+
+**Режим:** MCP-only — без `<script>` и `<canvas>`; hero static SVG (корпоративный спор/бренд), inline CSS scoped под `{slug}-page`.
+
+**Состав:** hero + intro grid (чипы СИП-565, ст.10, эстоппель) + ym-toc + лонгрид Артура/Жени + 4 CTA (advokat-vsem.ru) + FAQ (5 вопросов) + JSON-LD Article/FAQPage в hidden div.
+
+**Объём body:** ~35 000+ знаков текста (требование ≥8000 выполнено).
+
+## Передача Юре
+
+**Title:** СИП-565/2025: злоупотребление правом при оспаривании товарного знака — защита бренда | Legis24
+
+**Description:** Президиум СИП отказал бывшему участнику в оспаривании ТЗ общества: предыдущее поведение, выход из бизнеса и ст. 10 ГК РФ. Разбираем возражение против регистрации, защиту бренда и ответ на оспаривание — консультация по спорам о товарных знаках.
+
+**slug:** `sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik`
+
+**page_id:** `PLACEHOLDER` (заполнить после `wordpress_create_page`)
+
+**Публикация (MCP blob flow):**
+1. Прочитать `.cursor/page-content-natasha-sip-565.html` целиком.
+2. `wordpress_create_page` — title, slug, status=draft, excerpt=Description.
+3. `wordpress_content_blob_append` — чанки ≤20000 символов из файла (уже с `<!-- wp:html -->`); последний чанк `finalize=true`.
+4. `wordpress_update_page_from_blob` — page_id, blob_id.
+5. Rank Math: Title, Description, focus keyword «злоупотребление правом товарный знак».
+6. JSON-LD из hidden `<pre>` в конце страницы — при необходимости вынести в Rank Math Custom Schema (в blob остаётся как есть).
+
+**Проверка live:** `main#primary.site-main.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page`, hero `#l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik`, breadcrumbs скрыты, padding reset, CTA href только `https://advokat-vsem.ru/`, нет `<script>`/`<canvas>`.
