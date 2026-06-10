@@ -1,0 +1,871 @@
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section,
+.entry-title, .main_title, h1.entry-title { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page h3 {
+  margin-top: 1.5em; color: #312e81; font-size: 1.15rem;
+}
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page th,
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page th { background: #eef2ff; }
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page a { color: #4338ca; }
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page ol,
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page ul { margin: 1em 0; padding-left: 1.4em; }
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page li { margin-bottom: 0.45em; }
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page .l24-checklist {
+  list-style: none; padding-left: 0;
+}
+.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page .l24-checklist li::before {
+  content: "☐ "; color: #4338ca; font-weight: 700;
+}
+.l24-intro-sip {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-sip__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-sip__text {
+  border-left: 4px solid #4338ca; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-sip__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-sip__text p:last-child { margin-bottom: 0; }
+.l24-intro-sip__brief {
+  background: #f5f3ff; border: 1px solid #c4b5fd; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55; color: #334155;
+}
+.l24-intro-sip__decor {
+  background: linear-gradient(160deg, #f5f3ff 0%, #fff 100%);
+  border: 1px solid #c4b5fd; border-radius: 12px; padding: 18px;
+}
+.l24-intro-sip__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+.l24-intro-sip__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-sip__chip--accent { border-color: #4338ca; color: #4338ca; }
+.l24-intro-sip__chip--ok { border-color: #059669; color: #047857; background: #ecfdf5; }
+.l24-intro-sip__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-sip__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list { list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f5f3ff; color: #4338ca; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #ede9fe; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f5f3ff 100%);
+  border: 1px solid #c4b5fd; border-left: 4px solid #a31830;
+}
+.ym-cta--primary { border-left-color: #a31830; }
+.ym-cta--legis24.ym-cta--bottom { border-left-color: #4338ca; background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq > h2 { margin-top: 0 !important; }
+.l24-faq__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq__a { margin: 0; color: #334155; }
+.l24-jsonld-sip { display: none !important; }
+@media (max-width: 900px) {
+  .l24-intro-sip__grid { grid-template-columns: 1fr; }
+  .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__inner { grid-template-columns: 1fr !important; }
+  .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik { min-height: auto !important; padding: 96px 20px 56px !important; }
+  .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__visual { order: -1; max-height: 300px; }
+}
+
+</style>
+<main id="primary" class="site-main sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="СИП-565/2025: злоупотребление правом при оспаривании товарного знака — бывший участник vs общество">
+<meta itemprop="description" content="Президиум СИП отказал бывшему участнику в оспаривании ТЗ общества: предыдущее поведение, выход из бизнеса и ст. 10 ГК РФ. Разбираем возражение против регистрации, защиту бренда и ответ на оспаривание.">
+<meta itemprop="inLanguage" content="ru-RU">
+
+<section id="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik" class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik" aria-label="СИП-565/2025: злоупотребление правом при оспаривании товарного знака">
+  <style>
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(150deg, #fefefe 0%, #faf8ff 35%, #f0f4f8 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 44% 40% at 90% 6%, rgba(67, 56, 202, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 38% 34% at 6% 94%, rgba(163, 24, 48, 0.04) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #a31830;
+      flex-shrink: 0;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.38rem, 3vw, 2.15rem);
+      line-height: 1.22;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__h1-accent {
+      color: #4338ca;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__sub {
+      margin: 0 0 26px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.48vw, 1.1rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 26px;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact--accent { border-color: #c4b5fd; color: #4338ca; background: #f5f3ff; }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact--ok { border-color: #a7f3d0; color: #047857; background: #ecfdf5; }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact--warn { border-color: #fecaca; color: #991b1b; background: #fef2f2; }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+    }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__cta:hover { background: #8b1528; }
+    .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__flip-arrow { animation: hero565-flip 3.8s ease-in-out infinite; }
+      .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__shield-pulse { animation: hero565-pulse 4.2s ease-in-out infinite; }
+    }
+    @keyframes hero565-flip {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    @keyframes hero565-pulse {
+      0%, 100% { opacity: 0.85; }
+      50% { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__flip-arrow,
+      .l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__shield-pulse { animation: none !important; }
+    }
+</style>
+  <div class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__inner">
+    <div class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__content">
+      <div class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__badge">
+        <span class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__badge-mark" aria-hidden="true"></span>
+        IP · СИП-565/2025 · ст. 10 ГК · эстоппель
+      </div>
+      <h1 class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__h1">
+        <span class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__h1-accent">СИП-565/2025: злоупотребление правом при оспаривании товарного знака</span> — бывший участник vs общество
+      </h1>
+      <p class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__sub">
+        Когда суды отказывают в оспаривании ТЗ: предыдущее поведение, выход из бизнеса и защита бренда
+      </p>
+      <ul class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__facts">
+        <li class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact--accent">ст. 10 ГК РФ</li>
+        <li class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact">СИП-565/2025</li>
+        <li class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact--ok">эстоппель</li>
+        <li class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact">ООО «ГИГВИ»</li>
+        <li class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__fact--warn">возражение отклонено</li>
+      </ul>
+      <a class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда</a>
+    </div>
+    <div class="l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Корпоративный спор о товарном знаке: бывший участник против общества, эстоппель и ст. 10 ГК РФ">
+        <defs>
+          <linearGradient id="h565-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fafafa"/>
+            <stop offset="100%" stop-color="#ede9fe"/>
+          </linearGradient>
+          <linearGradient id="h565-shield" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#4338ca"/>
+            <stop offset="100%" stop-color="#312e81"/>
+          </linearGradient>
+          <linearGradient id="h565-split" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ecfdf5"/>
+            <stop offset="50%" stop-color="#f5f3ff"/>
+            <stop offset="100%" stop-color="#fef2f2"/>
+          </linearGradient>
+          <pattern id="h565-dots" width="14" height="14" patternUnits="userSpaceOnUse">
+            <circle cx="7" cy="7" r="1" fill="#c4b5fd" opacity="0.5"/>
+          </pattern>
+          <filter id="h565-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+          <marker id="h565-arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#a31830"/>
+          </marker>
+        </defs>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#h565-bg)" stroke="#c4b5fd" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#h565-dots)" opacity="0.35"/>
+        <g filter="url(#h565-sh)" transform="translate(168, 18)">
+          <rect x="0" y="32" width="184" height="46" rx="4" fill="url(#h565-shield)"/>
+          <polygon points="92,0 184,32 0,32" fill="#5b21b6"/>
+          <text x="92" y="52" text-anchor="middle" fill="#ede9fe" font-size="6" font-weight="800" letter-spacing="0.05em">СИП · СИП-565/2025</text>
+          <text x="92" y="64" text-anchor="middle" fill="#c4b5fd" font-size="5.5">С01-1889/2025 · 06.03.2026</text>
+        </g>
+        <g filter="url(#h565-sh)" transform="translate(24, 88)">
+          <rect width="118" height="96" rx="10" fill="#fff" stroke="#94a3b8" stroke-width="1.2"/>
+          <text x="59" y="18" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="700">БЫВШИЙ УЧАСТНИК</text>
+          <circle cx="59" cy="46" r="20" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+          <text x="59" y="50" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">Автор</text>
+          <rect x="14" y="72" width="90" height="14" rx="4" fill="#fef2f2" stroke="#fca5a5"/>
+          <text x="59" y="82" text-anchor="middle" fill="#991b1b" font-size="5" font-weight="600">возражение в Роспатент</text>
+        </g>
+        <g filter="url(#h565-sh)" transform="translate(378, 88)">
+          <rect width="118" height="96" rx="10" fill="#fff" stroke="#059669" stroke-width="1.2"/>
+          <text x="59" y="18" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="700">ООО «ГИГВИ»</text>
+          <path d="M59 30 L74 42 L74 58 L44 58 L44 42 Z" fill="url(#h565-shield)" opacity="0.85"/>
+          <text x="59" y="52" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">®</text>
+          <rect x="14" y="72" width="90" height="14" rx="4" fill="#ecfdf5" stroke="#6ee7b7"/>
+          <text x="59" y="82" text-anchor="middle" fill="#047857" font-size="5" font-weight="600">правообладатель ТЗ</text>
+        </g>
+        <path d="M148 130 Q260 100 372 130" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="5 4"/>
+        <text x="260" y="108" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">корпоративный конфликт</text>
+        <g filter="url(#h565-sh)" transform="translate(148, 200)">
+          <rect width="224" height="120" rx="10" fill="url(#h565-split)" stroke="#94a3b8" stroke-width="1.2"/>
+          <text x="112" y="18" text-anchor="middle" fill="#312e81" font-size="6.5" font-weight="800">СМЕНА ПОЗИЦИИ · ЭСТОППЕЛЬ</text>
+          <rect x="16" y="28" width="88" height="44" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1"/>
+          <text x="60" y="44" text-anchor="middle" fill="#047857" font-size="5" font-weight="700">ДО ВЫХОДА</text>
+          <text x="60" y="56" text-anchor="middle" fill="#065f46" font-size="4.5">защита знака</text>
+          <text x="60" y="66" text-anchor="middle" fill="#065f46" font-size="4.5">в суде (3-е лицо)</text>
+          <line x1="112" y1="50" x2="112" y2="50" stroke="#a31830" stroke-width="2" marker-end="url(#h565-arr)"/>
+          <path d="M104 50 L120 50" stroke="#a31830" stroke-width="1.8" marker-end="url(#h565-arr)"/>
+          <rect x="120" y="28" width="88" height="44" rx="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1"/>
+          <text x="164" y="44" text-anchor="middle" fill="#991b1b" font-size="5" font-weight="700">ПОСЛЕ ВЫХОДА</text>
+          <text x="164" y="56" text-anchor="middle" fill="#b91c1c" font-size="4.5">оспаривание</text>
+          <text x="164" y="66" text-anchor="middle" fill="#b91c1c" font-size="4.5">того же ТЗ</text>
+          <rect x="16" y="82" width="192" height="26" rx="5" fill="#312e81"/>
+          <text x="112" y="94" text-anchor="middle" fill="#ede9fe" font-size="5.5" font-weight="700">ст. 10 ГК РФ · злоупотребление правом</text>
+          <text x="112" y="104" text-anchor="middle" fill="#c4b5fd" font-size="5">отказ в удовлетворении возражения</text>
+        </g>
+        <g filter="url(#h565-sh)" transform="translate(24, 334)">
+          <rect width="148" height="72" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1"/>
+          <text x="74" y="16" text-anchor="middle" fill="#4338ca" font-size="5.5" font-weight="800">п. 9 ст. 1483</text>
+          <text x="74" y="30" text-anchor="middle" fill="#64748b" font-size="4.5">регистрация законна</text>
+          <text x="74" y="44" text-anchor="middle" fill="#334155" font-size="4.5">«я автор» не сработал</text>
+          <rect x="12" y="52" width="124" height="12" rx="3" fill="#f5f3ff"/>
+          <text x="74" y="61" text-anchor="middle" fill="#4338ca" font-size="4.5" font-weight="600">согласие · служебное произведение</text>
+        </g>
+        <g filter="url(#h565-sh)" transform="translate(186, 334)">
+          <rect width="148" height="72" rx="8" fill="#fff" stroke="#a31830" stroke-width="1"/>
+          <text x="74" y="16" text-anchor="middle" fill="#a31830" font-size="5.5" font-weight="800">РОСПАТЕНТ</text>
+          <text x="74" y="30" text-anchor="middle" fill="#64748b" font-size="4.5">возражение отклонено</text>
+          <text x="74" y="44" text-anchor="middle" fill="#334155" font-size="4.5">СИП → отказ 26.11.2025</text>
+          <rect x="12" y="52" width="124" height="12" rx="3" fill="#fef2f2"/>
+          <text x="74" y="61" text-anchor="middle" fill="#991b1b" font-size="4.5" font-weight="600">ВС 300-ЭС26-3408 · отказ</text>
+        </g>
+        <g filter="url(#h565-sh)" transform="translate(348, 334)">
+          <rect width="148" height="72" rx="8" fill="#fff" stroke="#059669" stroke-width="1"/>
+          <text x="74" y="16" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">ЗАЩИТА БРЕНДА</text>
+          <text x="74" y="30" text-anchor="middle" fill="#64748b" font-size="4.5">архив судебных актов</text>
+          <text x="74" y="44" text-anchor="middle" fill="#334155" font-size="4.5">договор выхода · ИС</text>
+          <rect x="12" y="52" width="124" height="12" rx="3" fill="#ecfdf5"/>
+          <text x="74" y="61" text-anchor="middle" fill="#047857" font-size="4.5" font-weight="600">ответ на возражение</text>
+        </g>
+        <text x="260" y="428" text-anchor="middle" fill="#64748b" font-size="6.5" font-weight="600">СИП-565 · ст. 10 ГК · эстоппель · корпоративный спор о бренде</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-sip">
+  <div class="l24-intro-sip__grid">
+    <div class="l24-intro-sip__text">
+      <p>Корпоративный конфликт после выхода из бизнеса нередко перерастает в спор о бренде. Бывший участник общества подаёт возражение против регистрации товарного знака, ссылаясь на авторство логотипа. Правообладатель отвечает: вы сами защищали этот знак в суде, знали, кому он принадлежит, — и теперь действуете недобросовестно.</p>
+      <p>Именно такой сценарий разобрал президиум Суда по интеллектуальным правам в деле № <strong>СИП-565/2025</strong> по спору бывшего участника с ООО «ГИГВИ». Итог: оспаривание отклонено, суды усмотрели злоупотребление правом по ст. 10 ГК РФ и нарушение принципа эстоппель.</p>
+      <div class="l24-intro-sip__brief">Материал разбирает фабулу дела, отличие от споров о неиспользовании (СИП-75, СИП-898), стратегию защиты бренда и риски для того, кто планирует оспорить ТЗ бывшего партнёра.</div>
+    </div>
+    <div class="l24-intro-sip__decor">
+      <ul class="l24-intro-sip__chips">
+        <li class="l24-intro-sip__chip l24-intro-sip__chip--accent">СИП-565/2025</li>
+        <li class="l24-intro-sip__chip l24-intro-sip__chip--accent">ст. 10 ГК РФ</li>
+        <li class="l24-intro-sip__chip l24-intro-sip__chip--accent">эстоппель</li>
+        <li class="l24-intro-sip__chip">С01-1889/2025</li>
+        <li class="l24-intro-sip__chip">ООО «ГИГВИ»</li>
+        <li class="l24-intro-sip__chip">п. 9 ст. 1483</li>
+        <li class="l24-intro-sip__chip l24-intro-sip__chip--ok">защита бренда</li>
+        <li class="l24-intro-sip__chip">возражение в Роспатент</li>
+        <li class="l24-intro-sip__chip">бывший участник</li>
+        <li class="l24-intro-sip__chip l24-intro-sip__chip--warn">злоупотребление правом</li>
+      </ul>
+      <svg class="l24-intro-sip__route-svg" viewBox="0 0 380 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Маршрут спора: автор логотипа → защита ТЗ → выход → возражение → отказ по ст. 10">
+        <defs>
+          <marker id="intro565-arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7Z" fill="#4338ca"/></marker>
+        </defs>
+        <rect x="4" y="40" width="52" height="40" rx="6" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.2"/>
+        <text x="30" y="58" text-anchor="middle" fill="#047857" font-size="6.5" font-weight="700">Автор</text>
+        <text x="30" y="70" text-anchor="middle" fill="#64748b" font-size="5.5">логотип</text>
+        <line x1="58" y1="60" x2="68" y2="60" stroke="#4338ca" stroke-width="1.5" marker-end="url(#intro565-arr)"/>
+        <rect x="72" y="40" width="52" height="40" rx="6" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1.2"/>
+        <text x="98" y="58" text-anchor="middle" fill="#4338ca" font-size="6.5" font-weight="700">Защита</text>
+        <text x="98" y="70" text-anchor="middle" fill="#64748b" font-size="5.5">в суде</text>
+        <line x1="126" y1="60" x2="136" y2="60" stroke="#4338ca" stroke-width="1.5" marker-end="url(#intro565-arr)"/>
+        <rect x="140" y="40" width="52" height="40" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+        <text x="166" y="58" text-anchor="middle" fill="#334155" font-size="6.5" font-weight="700">Выход</text>
+        <text x="166" y="70" text-anchor="middle" fill="#64748b" font-size="5.5">из ООО</text>
+        <line x1="194" y1="60" x2="204" y2="60" stroke="#a31830" stroke-width="1.5" marker-end="url(#intro565-arr)"/>
+        <rect x="208" y="40" width="52" height="40" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+        <text x="234" y="58" text-anchor="middle" fill="#991b1b" font-size="6.5" font-weight="700">Возра-</text>
+        <text x="234" y="70" text-anchor="middle" fill="#991b1b" font-size="6.5" font-weight="700">жение</text>
+        <line x1="262" y1="60" x2="272" y2="60" stroke="#4338ca" stroke-width="1.5" marker-end="url(#intro565-arr)"/>
+        <rect x="276" y="32" width="96" height="56" rx="6" fill="#312e81" stroke="#4338ca" stroke-width="1.2"/>
+        <text x="324" y="52" text-anchor="middle" fill="#ede9fe" font-size="6.5" font-weight="700">Отказ</text>
+        <text x="324" y="64" text-anchor="middle" fill="#c4b5fd" font-size="5.5">ст. 10 ГК</text>
+        <text x="324" y="76" text-anchor="middle" fill="#6ee7b7" font-size="5.5">эстоппель</text>
+        <text x="190" y="22" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">СИП-565/2025 · смена процессуальной позиции</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<nav class="ym-toc" aria-label="Содержание">
+  <p class="ym-toc__title">Содержание</p>
+  <ul class="ym-toc__list">
+    <li><a href="#sip565-reshenie">Решение президиума СИП</a></li>
+    <li><a href="#sip565-fabula">Фабула дела</a></li>
+    <li><a href="#sip565-st10">Ст. 10 ГК РФ</a></li>
+    <li><a href="#sip565-neispolzovanie">Отличие от неиспользования</a></li>
+    <li><a href="#sip565-vozrazhenie">Возражение против ТЗ</a></li>
+    <li><a href="#sip565-zashchita">Защита бренда</a></li>
+    <li><a href="#sip565-uroki">Уроки для бизнеса</a></li>
+    <li><a href="#sip565-nedobrosovestnost">Недобросовестная конкуренция</a></li>
+    <li><a href="#sip565-strategiya">Стратегия в СИП</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div class="l24-longread-wrap">
+
+<p>Корпоративный конфликт после выхода из бизнеса нередко перерастает в спор о бренде. Бывший участник общества подаёт возражение против регистрации товарного знака, ссылаясь на авторство логотипа. Правообладатель отвечает: вы сами защищали этот знак в суде, знали, кому он принадлежит, — и теперь действуете недобросовестно. Именно такой сценарий разобрал президиум Суда по интеллектуальным правам в деле № СИП-565/2025 по спору бывшего участника с ООО «ГИГВИ». Итог: оспаривание отклонено, возражение не сработало, суды усмотрели злоупотребление правом по ст. 10 ГК РФ и нарушение принципа эстоппель.</p>
+
+<h2 id="sip565-reshenie">Что решил президиум СИП в деле № СИП-565/2025</h2>
+
+<p>Дело СИП-565/2025 — свежий ориентир для правообладателей и для тех, кто планирует оспорить товарный знак после расставания с партнёрами. Здесь речь не о «спящем» знаке и не о патентном троллинге, а о смене процессуальной позиции человека, который ранее сам отстаивал исключительное право общества.</p>
+
+<h3>Постановление С01-1889/2025 от 06.03.2026 — суть вывода</h3>
+
+<p>26 ноября 2025 года Суд по интеллектуальным правам отказал в удовлетворении требования о признании недействительным решения Роспатента по возражению против правовой охраны товарного знака. 6 марта 2026 года президиум СИП постановлением № С01-1889/2025 оставил это решение без изменений.</p>
+
+<p>Суды согласились с Роспатентом: возражение против предоставления правовой охраны спорному средству индивидуализации отклонено, охрана товарного знака ООО «ГИГВИ» сохранена. Ключевой вывод, зафиксированный в дайджесте ГАРАНТ и обзоре IPC Magazine: в действиях заявителя по подаче возражения усмотрены признаки злоупотребления правом.</p>
+
+<p>5 мая 2026 года Верховный Суд определением № 300-ЭС26-3408 отказал в передаче кассационной жалобы для рассмотрения в судебной коллегии по экономическим спорам. Линия СИП и президиума подтверждена на всех доступных инстанциях.</p>
+
+<h3>Почему суд отказал в удовлетворении требований об оспаривании ТЗ</h3>
+
+<p>Формально заявитель оспаривал не сам товарный знак напрямую, а решение Роспатента, которое отклонило его возражение. Но по сути спор касался судьбы правовой охраны знака, зарегистрированного на общество.</p>
+
+<p>Суды отказали не потому, что у заявителя не было процессуального права подать возражение. Процедура по ст. 1513 ГК РФ позволяет оспаривать предоставление охраны. Отказ объясняется совокупностью обстоятельств: заявитель — автор графики, но ранее участвовал в защите того же знака на стороне ООО «ГИГВИ», вышел из общества, будучи осведомлённым о принадлежности права обществу, и только после этого атаковал регистрацию. Такая последовательность действий квалифицирована как недобросовестное поведение и злоупотребление правом.</p>
+
+<p>Регистрация спорного товарного знака признана соответствующей п. 9 ст. 1483 ГК РФ: аргумент «я создал логотип, значит, регистрация на общество незаконна» в данных обстоятельствах не сработал.</p>
+
+<h2 id="sip565-fabula">Фабула дела: автор графики, участник общества и возражение против ТЗ</h2>
+
+<p>Чтобы понять логику судов, важна хронология. Именно последовательность событий, а не отдельный факт авторства, стала решающей.</p>
+
+<h3>Создание обозначения и участие в бизнесе</h3>
+
+<p>Участник общества создал графическое произведение — логотип, на основе которого ООО «ГИГВИ» зарегистрировало товарный знак. Пока он оставался в бизнесе, знак использовался в интересах общества, а право на него воспринималось как принадлежащее компании.</p>
+
+<p>Суды установили, что регистрация не нарушает авторские права при сложившихся обстоятельствах. Это важный момент для дизайнеров-участников: статус автора графики сам по себе не даёт автоматического права отменить охрану знака, если ранее сложилась модель, при которой исключительное право на обозначение принадлежит обществу.</p>
+
+<h3>Выход из общества и подача возражения против регистрации</h3>
+
+<p>Участник продал долю и вышел из состава участников ООО «ГИГВИ». По данным обзора IPC Magazine, при выходе он был осведомлён о том, что право на знак принадлежит обществу. После расставания подал в Роспатент возражение против предоставления правовой охраны товарному знаку.</p>
+
+<p>Роспатент отклонил возражение. Заявитель обратился в СИП с административным иском о признании решения Роспатента недействительным. Суд первой инстанции по интеллектуальным правам поддержал позицию ведомства и правообладателя.</p>
+
+<p>Хронология в сжатом виде:</p>
+
+<table>
+<thead><tr>
+<th>Этап</th>
+<th>Событие</th>
+</tr></thead><tbody>
+<tr>
+<td>------</td>
+<td>---------</td>
+</tr>
+<tr>
+<td>До спора</td>
+<td>Участник создаёт графику → общество регистрирует ТЗ</td>
+</tr>
+<tr>
+<td>До выхода</td>
+<td>Участник защищает ТЗ общества в судебных спорах (третье лицо)</td>
+</tr>
+<tr>
+<td>Выход</td>
+<td>Продажа доли при осведомлённости о принадлежности права обществу</td>
+</tr>
+<tr>
+<td>После выхода</td>
+<td>Возражение в Роспатент → отказ</td>
+</tr>
+<tr>
+<td>Суд</td>
+<td>Административный иск → отказ 26.11.2025</td>
+</tr>
+<tr>
+<td>Кассация</td>
+<td>Президиум СИП 06.03.2026 — без изменений</td>
+</tr>
+<tr>
+<td>ВС</td>
+<td>Отказ в передаче кассации 05.05.2026</td>
+</tr>
+</tbody></table>
+
+<h3>Позиции сторон: бывший участник vs правообладатель-общество</h3>
+
+<p><strong>Заявитель</strong> опирался на авторство графического произведения и оспаривал правомерность предоставления охраны товарному знаку, зарегистрированному на ООО «ГИГВИ».</p>
+
+<p><strong>Роспатент и общество</strong> указывали на законность регистрации, предыдущее поведение заявителя и недопустимость смены позиции после выхода из бизнеса. Верховный Суд в пересказе позиции СИП отметил: в действиях заявителя по подаче возражения после выхода из состава участников общества «ГИГВИ» усмотрены признаки недобросовестного поведения по отношению к этому обществу и нарушения принципа эстоппель».</p>
+
+<h2 id="sip565-st10">Злоупотребление правом по ст. 10 ГК РФ в спорах о товарных знаках</h2>
+
+<p>Статья 10 ГК РФ — универсальный «предохранитель» гражданского оборота. В спорах о товарных знаках она всё чаще определяет исход, когда формальные основания для оспаривания формально есть, но цель обращения противоречит добросовестности.</p>
+
+<h3>Критерии злоупотребления при оспаривании правовой охраны</h3>
+
+<p>Пункт 1 ст. 10 ГК РФ запрещает заведомо недобросовестное осуществление гражданских прав. Пункт 2 прямо указывает: если злоупотребление правом установлено при обращении за судебной защитой, это самостоятельное основание для отказа в удовлетворении требований. Обзор судебной практики Верховного Суда 2023 года по делам о товарных знаках подтверждает эту линию.</p>
+
+<p>Суды оценивают совокупность обстоятельств: мотив подачи возражения, предыдущие заявления и процессуальные действия, корпоративный контекст, осведомлённость сторон. Ст. 10 может быть применена по инициативе суда, даже если сторона прямо не просила квалифицировать поведение оппонента как злоупотребление.</p>
+
+<p>В СИП-565/2025 вывод о злоупотреблении правом сформулирован так: «обоснованным вывод суда о наличии признаков злоупотребления правом в действиях заявителя по подаче возражения против предоставления правовой охраны спорному средству индивидуализации».</p>
+
+<h3>Роль предыдущего поведения заявителя возражения</h3>
+
+<p>Решающим стало не абстрактное «недобросовестное намерение», а конкретная биография участника в отношении спорного знака. До выхода из ООО «ГИГВИ» он выступал третьим лицом в судах на стороне общества и защищал спорный знак, отстаивая исключительное право компании. После продажи доли занял противоположную позицию и попытался лишить знак правовой охраны.</p>
+
+<p>Суды расценили такую смену линии как злоупотребление процессуальными и материальными правами. Для практики это означает: прошлое поведение заявителя возражения — не второстепенная деталь, а самостоятельный пласт доказательств.</p>
+
+<h3>Связь с принципом добросовестности и Справкой СИП по недобросовестности</h3>
+
+<p>Добросовестность — базовый принцип гражданского права (ст. 1 ГК РФ). Суд по интеллектуальным правам в Справке по отдельным вопросам судебной практики, связанным с недобросовестной конкуренцией, разъясняет подходы к оценке поведения участников оборота. В СИП-565 недобросовестность проявилась не при регистрации знака правообладателем, а при последующем оспаривании со стороны бывшего участника.</p>
+
+<p>Принцип эстоппель дополняет ст. 10: лицо не вправе занимать позицию, существенно противоречащую собственному предыдущему поведению, если из этого следует нарушение добросовестности. Защита прав общества в суде → оспаривание тех же прав после выхода — классический конфликт для эстоппеля.</p>
+
+<h2 id="sip565-neispolzovanie">Отличие от дел о неиспользовании товарного знака (СИП-75, СИП-898)</h2>
+
+<p>Читатели, знакомые с практикой СИП по товарным знакам, могут вспомнить дела о неиспользовании. СИП-565/2025 принципиально иной по правовой конструкции.</p>
+
+<h3>Ст. 1486 ГК РФ — прекращение охраны за неиспользование</h3>
+
+<p>По ст. 1486 ГК РФ правовая охрана товарного знака может быть прекращена досрочно, если знак не используется непрерывно в течение трёх лет. В делах СИП-75/2025 и СИП-898/2025 центральным был вопрос: использует ли правообладатель знак в гражданском обороте. Там бремя доказывания факта использования лежит на правообладателе.</p>
+
+<p>Это популярный путь для конкурента, который хочет снять с учёта «спящий» знак, блокирующий регистрацию собственного обозначения. Но он не подходит, если знак реально используется, а спор вызван корпоративным конфликтом.</p>
+
+<h3>Почему аргумент «я не пользовался знаком» не сработал в СИП-565</h3>
+
+<p>В деле против ООО «ГИГВИ» заявитель не строил стратегию на ст. 1486 ГК РФ. Он оспаривал саму регистрацию через возражение и административный иск, апеллируя к авторству и, вероятно, к доводам о нарушении авторских прав.</p>
+
+<p>Суды признали регистрацию законной по п. 9 ст. 1483 ГК РФ. Аргумент о неиспользовании знака заявителем лично вообще не являлся релевантным: речь шла о праве общества, которое заявитель ранее сам защищал. Попытка переиграть корпоративную историю через возражение в Роспатент без учёта предыдущей позиции оказалась тупиковой.</p>
+
+<h3>Когда уместен угол злоупотребления, а не неиспользования</h3>
+
+<table>
+<thead><tr>
+<th>Критерий</th>
+<th>СИП-75 / СИП-898</th>
+<th>СИП-565/2025</th>
+</tr></thead><tbody>
+<tr>
+<td>----------</td>
+<td>------------------</td>
+<td>--------------</td>
+</tr>
+<tr>
+<td>Норма</td>
+<td>ст. 1486 ГК РФ</td>
+<td>ст. 10 ГК РФ + эстоппель</td>
+</tr>
+<tr>
+<td>Требование</td>
+<td>досрочное прекращение охраны</td>
+<td>отказ в удовлетворении возражения</td>
+</tr>
+<tr>
+<td>Кто доказывает</td>
+<td>правообладатель — использование</td>
+<td>суд оценивает поведение оспаривающего</td>
+</tr>
+<tr>
+<td>Мотив</td>
+<td>«спящий» знак</td>
+<td>корпоративный конфликт, смена позиции</td>
+</tr>
+<tr>
+<td>Роль автора</td>
+<td>не центральна</td>
+<td>автор графики, но признавал право общества</td>
+</tr>
+</tbody></table>
+
+<p>Если бывший партнёр не может доказать трёхлетнее неиспользование, но в деле есть его судебные акты на стороне правообладателя — разумнее строить защиту бренда на ст. 10 ГК РФ, а не ждать, пока сработает ст. 1486.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">В корпоративном споре после выхода участника суды чаще смотрят на ст. 10 ГК РФ и эстоппель, чем на неиспользование по ст. 1486. До подачи возражения или ответа на него стоит оценить, есть ли в деле судебные акты о прежней защите знака на стороне правообладателя.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда и ответу на возражение</a></p>
+</aside>
+
+<h2 id="sip565-vozrazhenie">Возражение против регистрации товарного знака: основания и риски</h2>
+
+<p>Возражение против предоставления правовой охраны товарному знаку — стандартный инструмент до регистрации или в установленные сроки после публикации заявки. Но подача возражения без оценки рисков злоупотребления правом может обернуться полным провалом.</p>
+
+<h3>Подп. 6 п. 2 ст. 1512 и ст. 1483 ГК РФ</h3>
+
+<p>Подпункт 6 пункта 2 ст. 1512 ГК РФ позволяет оспорить правовую охрану, если действия правообладателя по регистрации квалифицируются как злоупотребление правом или недобросовестная конкуренция. В публичных обзорах по СИП-565 этот подпункт обычно упоминают в зеркальном контексте: суды искали недобросовестность не у ООО «ГИГВИ» при регистрации, а у оспаривающего при подаче возражения.</p>
+
+<p>Пункт 9 ст. 1483 ГК РФ — основание для отказа в регистрации при нарушении авторских прав на произведение. Заявитель, будучи автором графики, мог рассчитывать на эту норму. Однако суды установили: при данных обстоятельствах регистрация на общество соответствует закону. Для оспаривающего это сигнал: даже прямое авторство не спасает, если ранее признавалось право компании.</p>
+
+<h3>Доказательства недобросовестности и злоупотребления</h3>
+
+<p>Что помогло правообладателю в СИП-565:</p>
+
+<ul>
+
+<li>судебные акты, где бывший участник выступал третьим лицом на стороне общества и защищал спорный знак;</li>
+
+<li>факт продажи доли при осведомлённости о принадлежности права обществу;</li>
+
+<li>отсутствие оговорок об ИС при выходе (насколько следует из публичных источников);</li>
+
+<li>последовательность: сначала защита, потом атака.</li>
+
+</ul>
+
+<p>Для заявителя возражения критично заранее оценить, не соберёт ли общество аналогичный пакет. Один только договор авторства без учёта корпоративной истории — слабая позиция.</p>
+
+<h3>Типичные ошибки при подаче возражения бывшим участником</h3>
+
+<ol>
+
+<li><strong>Игнорирование эстоппеля.</strong> Если вы подписывали процессуальные документы в защиту знака общества, повторная атака на тот же объект выглядит недобросовестной.</li>
+
+<li><strong>Расчёт только на авторство.</strong> П. 9 ст. 1483 ГК РФ работает в связке с фактическими обстоятельствами передачи и использования графики.</li>
+
+<li><strong>Выход без IP-оговорок.</strong> Продажа доли без прямого закрепления прав на ТЗ и отказа от претензий оставляет иллюзию, что спор ещё возможен — но суды могут отказать по ст. 10 ГК РФ.</li>
+
+<li><strong>Путаница со ст. 1486.</strong> Без доказанного неиспользования знака правообладателем этот путь закрыт.</li>
+
+<li><strong>Недооценка административного иска.</strong> Проигрыш в Роспатенте — не финал, но СИП в СИП-565 поддержал ведомство.</li>
+
+</ol>
+
+<h2 id="sip565-zashchita">Защита бренда общества: как ответить на возражение и оспаривание</h2>
+
+<p>Для ООО «ГИГВИ» и любого правообладателя, столкнувшегося с возражением бывшего партнёра, дело СИП-565/2025 — образец успешной защиты товарного знака в суде без спора о неиспользовании.</p>
+
+<h3>Линия защиты правообладателя при атаке бывшего партнёра</h3>
+
+<p>Оптимальная стратегия — трёхуровневая:</p>
+
+<ol>
+
+<li><strong>Законность регистрации</strong> — п. 9 ст. 1483 ГК РФ, согласие автора, служебное произведение или договор отчуждения.</li>
+
+<li><strong>Злоупотребление правом оспаривающего</strong> — ст. 10 ГК РФ, мотивы подачи возражения после корпоративного конфликта.</li>
+
+<li><strong>Эстоппель</strong> — противоречие между прошлой защитой знака и текущим оспариванием.</li>
+
+</ol>
+
+<p>На стадии Роспатента важно представить полный пакет: не ограничиваться формальным ответом на доводы возражения, а сразу раскрывать историю поведения заявителя.</p>
+
+<h3>Доказательства законного приобретения и использования ТЗ</h3>
+
+<p>Правообладателю стоит системно хранить:</p>
+
+<ul>
+
+<li>договоры с дизайнером или участником на создание и передачу прав на логотип;</li>
+
+<li>документы о регистрации ТЗ и переписку с Роспатентом;</li>
+
+<li>материалы использования знака в гражданском обороте (договоры, реклама, маркировка);</li>
+
+<li>корпоративные документы о принадлежности бренда обществу.</li>
+
+</ul>
+
+<p>В споре с бывшим участником особую ценность имеют <strong>судебные дела</strong>, где он защищал знак от претензий третьих лиц.</p>
+
+<h3>Аргументы о противоречии прежнему поведению оппонента</h3>
+
+<p>Формулировка, близкая к позиции судов: лицо не может сначала заявлять, что исключительное право на знак принадлежит обществу, участвовать в его защите, а затем утверждать обратное в возражении против регистрации. Это не техническая формальность, а содержательный аргумент о недопустимости смены позиции.</p>
+
+<p>Если вашему бренду угрожает возражение от бывшего учредителя, имеет смысл заранее собрать архив его процессуальных действий.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Если бывшему учредителю угрожает возражение или наоборот — вашему бренду атакуют регистрацию, соберите архив процессуальных действий оппонента. Ответ на возражение в Роспатент с опорой на ст. 10 ГК РФ и эстоппель на стадии ведомства дешевле, чем исправление ошибок после проигрыша в СИП.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда</a></p>
+</aside>
+
+<h2 id="sip565-uroki">Бывший учредитель или участник и товарный знак: уроки для бизнеса</h2>
+
+<p>Дело СИП-565/2025 — предупреждение для стартапов и действующих ООО: бренд нельзя оставлять в правовом тумане, если среди участников есть автор логотипа.</p>
+
+<h3>Оформление прав на логотип и дизайн до выхода из компании</h3>
+
+<p>Пока участник создаёт графику для общества, важно юридически закрепить: результат — служебное произведение, права переходят к компании, либо автор отчуждает исключительное право по договору. Без этого возникает иллюзия у автора, что он «всегда сможет оспорить регистрацию».</p>
+
+<p>При регистрации ТЗ на юридическое лицо в досье Роспатента должно быть согласие правообладателя произведения — это прямая защита от доводов по п. 9 ст. 1483 ГК РФ.</p>
+
+<h3>Корпоративные соглашения о бренде и ИС</h3>
+
+<p>Устав, корпоративный договор или отдельное соглашение участников могут прямо указывать: товарные знаки, доменные имена, фирменный стиль и иные результаты интеллектуальной деятельности принадлежат обществу. При выходе участника — обязательство не подавать возражений и не оспаривать регистрации.</p>
+
+<p>Такие оговорки не гарантируют автоматической победы в суде, но усиливают линию эстоппеля и корпоративной осведомлённости, которая сработала против заявителя в СИП-565.</p>
+
+<h3>Что делать дизайнеру-участнику и что — оставшемуся обществу</h3>
+
+<p><strong>Дизайнеру-участнику:</strong> до создания логотипа — письменный договор; при выходе — понимание, что без оговорок оспаривание ТЗ общества рискованно, особенно если вы сами защищали знак в судах.</p>
+
+<p><strong>Обществу:</strong> регистрировать ТЗ на компанию, фиксировать согласие автора, архивировать судебные споры, в договоре купли-продажи доли — блок об отказе от претензий по ИС и товарным знакам.</p>
+
+<p>Раздел бренда при выходе из ООО без такой подготовки часто заканчивается не переговорами, а возражением в Роспатент и административным иском — как в истории с ООО «ГИГВИ».</p>
+
+<h2 id="sip565-nedobrosovestnost">Недобросовестная конкуренция и блокировка конкурента через ТЗ</h2>
+
+<p>В публичной дискуссии о товарных знаках чаще обсуждают, как правообладатель злоупотребляет исключительным правом против конкурентов. СИП-565 демонстрирует обратную ситуацию: оспаривание квалифицировано как злоупотребление со стороны того, кто формально вправе заявлять претензии.</p>
+
+<h3>Когда оспаривание квалифицируется как злоупотребление, а не защита прав</h3>
+
+<p>Суды различают добросовестную защиту законных интересов и использование процедуры оспаривания как инструмента давления после корпоративного разрыва. Признаки второго:</p>
+
+<ul>
+
+<li>заявитель ранее признавал право оппонента;</li>
+
+<li>мотив — месть, шантаж или попытка вернуться в бизнес через бренд;</li>
+
+<li>отсутствие новых фактов, оправдывающих смену позиции;</li>
+
+<li>игнорирование собственных процессуальных действий в прошлом.</li>
+
+</ul>
+
+<p>В деле против ООО «ГИГВИ» эта логика привела к отказу на всех инстанциях.</p>
+
+<h3>Пределы осуществления исключительного права на знак</h3>
+
+<p>Исключительное право на товарный знак не абсолютно: ст. 10 ГК РФ ограничивает и правообладателя, и того, кто оспаривает регистрацию. Обзор IPC Magazine по СИП-565 акцентирует: решающим стало не «кто сильнее в авторском праве», а то, как стороны вели себя в гражданском обороте и в судебных процессах.</p>
+
+<p>Контраст — дело СИП-386/2025: там использование обозначения лицензиатом само по себе не было признано злоупотреблением. В СИП-565 решающим стало именно <strong>судебное участие на стороне общества</strong> плюс выход с осведомлённостью.</p>
+
+<h3>Практические признаки недобросовестной цели в споре</h3>
+
+<p>Насторожить правообладателя должны:</p>
+
+<ul>
+
+<li>возражение подано сразу после выхода бывшего участника;</li>
+
+<li>в переписке или судах он ранее подтверждал принадлежность знака обществу;</li>
+
+<li>доводы возражения копируют те, против которых он сам выступал как третье лицо;</li>
+
+<li>параллельно идут переговоры о выкупе бренда или давление на бизнес.</li>
+
+</ul>
+
+<p>В такой ситуации ответ на возражение против товарного знака стоит строить вокруг ст. 10 ГК РФ и эстоппеля, а не только вокруг формального разбора по ст. 1483 и 1512 ГК РФ.</p>
+
+<h2 id="sip565-strategiya">Стратегия в СИП: защита товарного знака и ответ на иск по ИС</h2>
+
+<p>Суд по интеллектуальным правам — специализированная инстанция для споров о товарных знаках. Дело СИП-565/2025 показывает типичный маршрут: возражение в Роспатент → административный иск → кассация в президиум СИП → Верховный Суд.</p>
+
+<h3>Порядок рассмотрения в суде по интеллектуальным правам</h3>
+
+<p>После отклонения возражения заинтересованное лицо вправе оспорить решение Роспатента в СИП в порядке главы 34 КАС РФ. Сроки и требования к форме иска обязательны: пропуск процессуальных дедлайнов закрывает путь к судебной защите.</p>
+
+<p>СИП оценивает законность решения ведомства и доводы сторон. В СИП-565 суд не ограничился формальной проверкой: он исследовал поведение заявителя и применил ст. 10 ГК РФ.</p>
+
+<h3>Кассация и президиум СИП — когда обжаловать</h3>
+
+<p>Решение СИП обжалуется в президиум того же суда при наличии оснований, предусмотренных КАС РФ. В деле № СИП-565/2025 президиум 6 марта 2026 года оставил решение без изменений — зелёный свет для правообладателя ООО «ГИГВИ».</p>
+
+<p>Кассация в Верховный Суд — следующий этап. Определение № 300-ЭС26-3408 от 5 мая 2026 года завершило спор в пользу общества: передача в СКЭС отклонена.</p>
+
+<p>Для заявителя возражения это означает: апелляция к авторству без пересмотра стратегии с учётом эстоппеля обречена.</p>
+
+<h3>Чек-лист для правообладателя и для заявителя возражения</h3>
+
+<p><strong>Правообладатель (защита бренда):</strong></p>
+<ul class="l24-checklist">
+<li>договор с автором графики / отчуждение или лицензия;</li>
+<li>регистрация ТЗ на юрлицо + согласие автора в материалах;</li>
+<li>архив судебных дел, где партнёры защищали знак;</li>
+<li>договор выхода участника: ТЗ остаётся у общества, отказ от возражений;</li>
+<li>при возражении — пакет доказательств предыдущего поведения заявителя;</li>
+<li>аргументация по ст. 10 ГК РФ и эстоппелю на всех стадиях.</li>
+</ul>
+
+<p><strong>Заявитель возражения (оспорить товарный знак):</strong></p>
+<ul class="l24-checklist">
+<li>оценить риск эстоппеля до подачи в Роспатент;</li>
+<li>проверить, защищали ли вы этот знак ранее в суде;</li>
+<li>не полагаться только на статус автора логотипа;</li>
+<li>отделить сценарий неиспользования (ст. 1486) от оспаривания регистрации;</li>
+<li>при выходе из ООО — заранее оговорить права на бренд или отказ от претензий.</li>
+</ul>
+
+<p>Оценку шансов и стратегию до подачи иска разумно получить до первого процессуального шага.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Дело СИП-565/2025 наглядно показывает: в спорах о товарных знаках после выхода участника решает не только авторство, но и вся история отношений с брендом. <strong>Если вы правообладатель</strong> — соберите судебный архив и выстройте защиту с опорой на предыдущее поведение оппонента. <strong>Если планируете оспорить ТЗ</strong> — оцените риск эстоппеля до первого процессуального шага.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с ответом на возражение против товарного знака</a></p>
+</aside>
+
+<h2>Источники и нормы</h2>
+<ul>
+  <li>IPC Magazine, 03.06.2026 — <a href="https://ipcmagazine.ru/news/2115843/" target="_blank" rel="noopener noreferrer">обзор дела СИП-565/2025</a></li>
+  <li>ГАРАНТ, дайджест 05.06.2026 — постановление президиума СИП № С01-1889/2025</li>
+  <li>Определение ВС № 300-ЭС26-3408 от 05.05.2026 — <a href="https://sudact.ru/vsrf/doc/zXWNPdCx15HT/" target="_blank" rel="noopener noreferrer">СудАкт</a></li>
+  <li>Обзор ВС по ТЗ, 15.11.2023 — ст. 10 ГК РФ в спорах о товарных знаках</li>
+  <li>ст. 10, п. 9 ст. 1483, подп. 6 п. 2 ст. 1512, ст. 1486, ст. 1513 ГК РФ</li>
+</ul>
+
+<p><em>Материал носит информационно-аналитический характер и не является юридической консультацией. Для оценки конкретной ситуации обратитесь к специалисту по интеллектуальной собственности.</em></p>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — консультации по защите бренда, ответу на возражение против регистрации товарного знака и стратегии в СИП по делу СИП-565/2025: злоупотребление правом по ст. 10 ГК РФ, эстоппель, корпоративные споры с бывшим участником.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом</a></p>
+</aside>
+
+</div>
+
+<section id="faq" class="l24-faq" aria-label="Частые вопросы">
+<h2>Частые вопросы (FAQ)</h2>
+<div class="l24-faq__item">
+<h3 class="l24-faq__q">Может ли автор логотипа оспорить товарный знак общества после выхода из бизнеса?</h3>
+<p class="l24-faq__a">Формально — да, через возражение в Роспатент и административный иск в СИП. Но в деле СИП-565/2025 суды отказали: заявитель ранее защищал тот же знак на стороне общества, знал о принадлежности права компании и сменил позицию после выхода. Это квалифицировано как злоупотребление правом по ст. 10 ГК РФ и нарушение принципа эстоппель.</p>
+</div>
+<div class="l24-faq__item">
+<h3 class="l24-faq__q">Чем спор СИП-565 отличается от дел о неиспользовании товарного знака (СИП-75, СИП-898)?</h3>
+<p class="l24-faq__a">В СИП-75 и СИП-898 центральной была ст. 1486 ГК РФ — три года неиспользования знака правообладателем. В СИП-565 речь о возражении против регистрации и оспаривании решения Роспатента; ключевые нормы — ст. 10 ГК РФ и эстоппель. Бремя доказывания смещено на поведение оспаривающего, а не на факт использования знака обществом.</p>
+</div>
+<div class="l24-faq__item">
+<h3 class="l24-faq__q">Что такое эстоппель в споре о товарном знаке?</h3>
+<p class="l24-faq__a">Эстоппель запрещает занимать позицию, существенно противоречащую собственному предыдущему поведению, если это нарушает добросовестность. В СИП-565: участие в защите ТЗ общества в суде как третьего лица, а затем — возражение против регистрации того же знака после выхода из ООО «ГИГВИ» — классический случай для отказа в удовлетворении требований.</p>
+</div>
+<div class="l24-faq__item">
+<h3 class="l24-faq__q">Как правообладателю защитить бренд от возражения бывшего учредителя?</h3>
+<p class="l24-faq__a">Соберите архив судебных актов, где бывший участник защищал знак; подтвердите законность регистрации по п. 9 ст. 1483 ГК РФ; аргументируйте ст. 10 ГК РФ и эстоппель уже на стадии Роспатента. Договор купли-продажи доли с блоком об отказе от претензий по ИС усиливает позицию, хотя не гарантирует автоматическую победу.</p>
+</div>
+<div class="l24-faq__item">
+<h3 class="l24-faq__q">Какие ошибки допускают при подаче возражения против регистрации ТЗ?</h3>
+<p class="l24-faq__a">Типичные: расчёт только на авторство без учёта прошлой защиты знака; игнорирование эстоппеля; выход из ООО без IP-оговорок; путаница со ст. 1486 (неиспользование); недооценка административного иска в СИП. В СИП-565 все эти риски материализовались в полный отказ на всех инстанциях.</p>
+</div>
+</section>
+
+<div class="l24-jsonld-sip" hidden aria-hidden="true">
+<pre aria-hidden="true">{"@context": "https://schema.org", "@type": "Article", "headline": "СИП-565/2025: злоупотребление правом при оспаривании товарного знака — бывший участник vs общество", "description": "Президиум СИП отказал бывшему участнику в оспаривании ТЗ общества: предыдущее поведение, выход из бизнеса и ст. 10 ГК РФ. Разбираем возражение против регистрации, защиту бренда и ответ на оспаривание.", "inLanguage": "ru-RU", "about": ["СИП-565/2025", "злоупотребление правом товарный знак", "эстоппель", "защита бренда"]}</pre>
+<pre aria-hidden="true">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Может ли автор логотипа оспорить товарный знак общества после выхода из бизнеса?", "acceptedAnswer": {"@type": "Answer", "text": "Формально — да, через возражение в Роспатент и административный иск в СИП. Но в деле СИП-565/2025 суды отказали: заявитель ранее защищал тот же знак на стороне общества, знал о принадлежности права компании и сменил позицию после выхода. Это квалифицировано как злоупотребление правом по ст. 10 ГК РФ и нарушение принципа эстоппель."}}, {"@type": "Question", "name": "Чем спор СИП-565 отличается от дел о неиспользовании товарного знака (СИП-75, СИП-898)?", "acceptedAnswer": {"@type": "Answer", "text": "В СИП-75 и СИП-898 центральной была ст. 1486 ГК РФ — три года неиспользования знака правообладателем. В СИП-565 речь о возражении против регистрации и оспаривании решения Роспатента; ключевые нормы — ст. 10 ГК РФ и эстоппель. Бремя доказывания смещено на поведение оспаривающего, а не на факт использования знака обществом."}}, {"@type": "Question", "name": "Что такое эстоппель в споре о товарном знаке?", "acceptedAnswer": {"@type": "Answer", "text": "Эстоппель запрещает занимать позицию, существенно противоречащую собственному предыдущему поведению, если это нарушает добросовестность. В СИП-565: участие в защите ТЗ общества в суде как третьего лица, а затем — возражение против регистрации того же знака после выхода из ООО «ГИГВИ» — классический случай для отказа в удовлетворении требований."}}, {"@type": "Question", "name": "Как правообладателю защитить бренд от возражения бывшего учредителя?", "acceptedAnswer": {"@type": "Answer", "text": "Соберите архив судебных актов, где бывший участник защищал знак; подтвердите законность регистрации по п. 9 ст. 1483 ГК РФ; аргументируйте ст. 10 ГК РФ и эстоппель уже на стадии Роспатента. Договор купли-продажи доли с блоком об отказе от претензий по ИС усиливает позицию, хотя не гарантирует автоматическую победу."}}, {"@type": "Question", "name": "Какие ошибки допускают при подаче возражения против регистрации ТЗ?", "acceptedAnswer": {"@type": "Answer", "text": "Типичные: расчёт только на авторство без учёта прошлой защиты знака; игнорирование эстоппеля; выход из ООО без IP-оговорок; путаница со ст. 1486 (неиспользование); недооценка административного иска в СИП. В СИП-565 все эти риски материализовались в полный отказ на всех инстанциях."}}]}</pre>
+</div>
+
+</main>
+<!-- /wp:html -->
