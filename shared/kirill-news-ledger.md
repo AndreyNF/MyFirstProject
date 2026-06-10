@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-06-10 | published | ARB | Обзор ВС № 3/2026: налоговые споры с ФНС — ЕНС, безнадёжная задолженность (28 позиций, 25.03.2026 № 4А/2026) | vs-obzor-3-2026-nalogovye-spory-ens-fns | https://advokat-vsem.online/vs-obzor-3-2026-nalogovye-spory-ens-fns/ |
 | 2026-06-09 | published | UG | ВС 2026: гуманизм уголовного закона — условное вместо реального срока за смертельное ДТП (№ 41-УД26-25-К4) | vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026 | https://advokat-vsem.online/vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026/ |
 | 2026-06-09 | published | ARB | Обзор ВС № 4/2026: споры с ФНС в арбитраже по налогу на имущество организаций (движимое/недвижимое, имущественный комплекс) | vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns | https://advokat-vsem.online/vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns/ |
 | 2026-06-08 | published | UG | ВС отменил приговор за мошенничество: снимки Google Earth Pro не могут быть единственным доказательством (дело Аверченкова, Адыгея) | vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026 | https://advokat-vsem.online/vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026/ |
