@@ -1064,3 +1064,17 @@ SLUG: `sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik`
 6. JSON-LD из hidden `<pre>` в конце страницы — при необходимости вынести в Rank Math Custom Schema (в blob остаётся как есть).
 
 **Проверка live:** `main#primary.site-main.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page`, hero `#l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik`, breadcrumbs скрыты, padding reset, CTA href только `https://advokat-vsem.ru/`, нет `<script>`/`<canvas>`.
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО
+
+**page_id:** 455  
+**slug:** `sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik`  
+**blob_id:** `00g7ntygwkFinaWKhoB5X3Gi` (82323 bytes, sha256 `93b7b2565399227eef0a914cbe0a4df9e9cd7ad1fdba2a5cd96272692b696515`)  
+**URL:** https://advokat-vsem.online/sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik/
+
+**MCP blob flow:** `wordpress_content_blob_append` (чанки 2.5k/5k, reset на первом, finalize на последнем) → `wordpress_update_page_from_blob(455)` → `wordpress_update_page(455, status=publish, excerpt=Description)`.
+
+**Live-проверка (2026-06-10):** HTTP 200; `main.site-main.sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik-page`; hero `#l24-hero-sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik`; в блоке контента нет `<script>`/`<canvas>`; CTA → `https://advokat-vsem.ru/`.
+
+**Трекинг:** `published-pages.md`, `kirill-news-ledger.md` (selected → published).

@@ -2,7 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
-| 2026-06-10 | selected | IP | СИП-565/2025: злоупотребление правом при оспаривании ТЗ — бывший участник vs общество (С01-1889/2025) | sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik | https://ipcmagazine.ru/news/2115843/ |
+| 2026-06-10 | published | IP | СИП-565/2025: злоупотребление правом при оспаривании ТЗ — бывший участник vs общество (С01-1889/2025) | sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik | https://advokat-vsem.online/sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik/ |
 | 2026-06-10 | published | ARB | Обзор ВС № 3/2026: налоговые споры с ФНС — ЕНС, безнадёжная задолженность (28 позиций, 25.03.2026 № 4А/2026) | vs-obzor-3-2026-nalogovye-spory-ens-fns | https://advokat-vsem.online/vs-obzor-3-2026-nalogovye-spory-ens-fns/ |
 | 2026-06-09 | published | UG | ВС 2026: гуманизм уголовного закона — условное вместо реального срока за смертельное ДТП (№ 41-УД26-25-К4) | vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026 | https://advokat-vsem.online/vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026/ |
 | 2026-06-09 | published | ARB | Обзор ВС № 4/2026: споры с ФНС в арбитраже по налогу на имущество организаций (движимое/недвижимое, имущественный комплекс) | vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns | https://advokat-vsem.online/vs-obzor-4-2026-nalog-imushchestvo-organizacii-arbitrazh-fns/ |
