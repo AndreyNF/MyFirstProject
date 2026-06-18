@@ -47,6 +47,15 @@ SKU: {sku}
 1. ...
 ```
 
+## Освежение объявлений («освежи Avito»)
+
+1. Новые **3 фото** на SKU: `gpt-image-2` → `nano_banana_2`, промпт от **Title** объявления (`legis24-image-prompt-rules.md`)
+2. Обновить `image_urls` в `scripts/avito-generate-autoload-xml.py` (карта: `avito/autoload/image-urls-refresh-YYYY-MM.json`)
+3. `python3 scripts/avito-generate-autoload-xml.py` — **DateBegin = сегодня**, те же **Id**
+4. `git push` → Avito подтянет фид по URL
+
+Рекомендуется раз в **~3 дня** или по запросу в чате.
+
 ## Публикация (разрешено)
 
 ### Автозагрузка по URL (основной способ)

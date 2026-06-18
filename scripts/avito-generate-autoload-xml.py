@@ -17,9 +17,9 @@ ADS = [
         "title": "Возражение на акт ФНС — за 24 часа Legis24",
         "price": 70000,
         "image_urls": [
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961233_f22a669e05774c3e85e1d4f8f5d3349f.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961371_c5a0d7fbe20f41aa84422d7d74a2c8d2.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961502_ec5cfae180104270bc4a366c3758620f.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781767794739_21f3jk.jpg",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_000000004c4071f583c27d339ad32aa1.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_00000000e3e471fd91bfd6735fa8c287.png",
         ],
         "description": """Пришёл акт налоговой проверки или решение ФНС — срок на возражение ограничен.
 
@@ -39,9 +39,9 @@ https://advokat-vsem.ru""",
         "title": "Ответ на требование ФНС — от 10 000 ₽ за 24 ч",
         "price": 10000,
         "image_urls": [
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961631430-trcjuqdovy.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961687_f8d140203f62407ba8c9402ee936f6ae.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961728873-evdgp0bm23f.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_0000000035b8722f8b52df17dde994ab.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_000000009fa0720cb6b656751e24fee3.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781768470799_y9yu91.jpg",
         ],
         "description": """ФНС запросила пояснения, документы или прислала уведомление?
 
@@ -60,9 +60,9 @@ https://advokat-vsem.ru""",
         "title": "Анализ налогового спора — заключение за 24 ч",
         "price": 25000,
         "image_urls": [
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961780_d2741f7302354bf4bc7cd6571c3c021a.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961849_3e7b4040d36e43709f534c9a0e7e5ed9.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961904_fc088a27a05e4db8bf6abb6bfc01f42a.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_000000003224720c8816d3c847109d89.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_00000000fd64722fa91588f1b751f981.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_000000004e3871f5a4cbdf50e35358e6.png",
         ],
         "description": """Нужно понять перспективы до суда или возражения?
 
@@ -81,9 +81,9 @@ https://advokat-vsem.ru""",
         "title": "Иск в арбитраж по налогу — за 24 часа",
         "price": 45000,
         "image_urls": [
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779961958_17e37c77c20649049d078bc16f276829.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962029_34ccb6e90e624775933267a803400842.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962125_533cce6651ad4faa9291c696c6dc9fd7.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781768867206_qlk75q.jpg",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781768982807_y9ojet.jpg",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_000000009c2c71f78a197f755c84cd4d.png",
         ],
         "description": """УФНС отказала, срок обжалования на исходе?
 
@@ -102,9 +102,9 @@ https://advokat-vsem.ru""",
         "title": "Акт ФНС + иск в арбитраж — пакет 60 000 ₽",
         "price": 60000,
         "image_urls": [
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962201_3da51964987c46a6ba36ced57b29dd72.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962261_e57e1885cd734adca06bc50401d2874c.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962308_708a301841c344d99f470ab8b2f5d4b1.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_0000000035f871f590d002e76257d0a6.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_000000008d6c71f5b6245ab233a627ad.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781769401637_qim6hl.jpg",
         ],
         "description": """Одна правовая позиция от акта до суда.
 
@@ -123,9 +123,9 @@ https://advokat-vsem.ru""",
         "title": "Отзыв на иск в арбитраж — за 24 часа",
         "price": 30000,
         "image_urls": [
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962362151-bpqxnuryivq.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962432_8f529bb5e5d64691ac4524ba46e6014c.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962501177-o2p7ga3jni.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781769667751_z8faej.jpg",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781769796266_opjcug.jpg",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781769898587_ttbyhg.jpg",
         ],
         "description": """Иск от контрагента, заседание через несколько дней?
 
@@ -144,9 +144,9 @@ https://advokat-vsem.ru""",
         "title": "Бухгалтерам: акт ФНС — решение за 24 ч",
         "price": 25000,
         "image_urls": [
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962550_c1d1204310d04942afa8d9cd40149153.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962597_22c790784dae4259b677775759c6b47d.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962658_ff9d47ddd0e44e3695d45979f38da180.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_00000000fa8071f585754376d566e86d.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781770273028_btebjd.jpg",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_00000000ad2071fdafe328342b17dc9a.png",
         ],
         "description": """Клиент получил акт ФНС или попал в арбитраж?
 
@@ -160,9 +160,9 @@ https://advokat-vsem.ru""",
         "title": "ФНС передала в СК — позиция за 24 часа",
         "price": 25000,
         "image_urls": [
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962715_fcb930a0acf448c796170bc5cdda75df.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962767_57e15a46d4724dd9a330c39b952ee96d.png",
-            "https://advokat-vsem.online/wp-content/uploads/2026/05/1779962822_35ce5e2ba95447ceb775e754230020cd.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_00000000a49871f5b8f6678159680633.png",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/image_1781770571116_8hqxps.jpg",
+            "https://advokat-vsem.online/wp-content/uploads/2026/06/file_00000000425471f591be37088ae187e3.png",
         ],
         "description": """Материалы в СКР, допрос через 2–3 дня?
 
