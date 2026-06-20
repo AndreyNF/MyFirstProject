@@ -960,3 +960,12 @@ MCP_BLOB_FLOW (для Юры):
 5. Опубликовать / назначить дату слота 3 (15:00 UTC / 18:00 МСК)
 
 СЛЕДУЮЩИЙ_ШАГ: Юра (публикация WordPress — MCP blob flow)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+- **URL:** https://advokat-vsem.online/vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026/
+- **page_id:** 527
+- **blob_id:** bAIaM2Gy5VeJrurMbXAjgYtl
+- **status:** publish
+- **verification:** main#primary yes · hero l24-hero-vs-uslovnyy-srok yes
+- **bytes (UTF-8):** 97424 · sha256 c9fb321dc2615a748671b00c4dc09ec86308797730ac077980797e833a49c178
+- **date:** 2026-06-20
