@@ -39,6 +39,12 @@ done
 
 find_firefox_profiles() {
   local roots=()
+  if [[ -n "${APPDATA:-}" ]]; then
+    roots+=("$APPDATA/Mozilla/Firefox")
+  fi
+  if [[ -n "${LOCALAPPDATA:-}" ]]; then
+    roots+=("$LOCALAPPDATA/Mozilla/Firefox")
+  fi
   if [[ -n "${HOME:-}" ]]; then
     roots+=("$HOME/.mozilla/firefox")
     roots+=("$HOME/snap/firefox/common/.mozilla/firefox")
