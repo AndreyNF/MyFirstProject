@@ -40,6 +40,18 @@ flowchart LR
 
 Запуск: `@director` + тема (или «новость дня»).
 
+### Автопубликация блога (2× в день)
+
+| Агент | Файл | Skill |
+|-------|------|-------|
+| **Экскалибур** | `.cursor/agents/excalibur.md` | `excalibur-blog-automation` |
+
+- Расписание: **09:00** и **18:00 МСК — по 1 статье.
+- Промпты для Cloud Agent: `shared/excalibur-automation-prompt.md`
+- Журнал слотов: `shared/excalibur-run-log.md`
+
+Запуск: `@excalibur` + `Слот: morning` или `Слот: evening`.
+
 ---
 
 ## Avito — агенты
