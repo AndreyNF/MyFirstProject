@@ -88,3 +88,10 @@ scripts/poizon_upload_via_mcp.py
 scripts/vs_obzor_*
 .cursor/tmp-mcp*.json
 .cursor/tmp-args.json
+# KIRILL-UG ks-dolya-gosudarstva MCP blob temp (2026-06-29)
+.cursor/ks-*
+.cursor/final-mcp-*.json
+.cursor/current-mcp-args.json
+.cursor/build-natasha-ks-dolya.py
+scripts/ks_mcp_*.py
+!scripts/ks_mcp_blob_step.py
