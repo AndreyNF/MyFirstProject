@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-06-29 | KIRILL-UG | ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026 | 531 | https://advokat-vsem.online/ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026/ |
 | 2026-06-20 | KIRILL-UG | vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026 | 527 | https://advokat-vsem.online/vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026/ |
 | 2026-06-10 | KIRILL-IP | sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik | 455 | https://advokat-vsem.online/sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik/ |
 | 2026-06-10 | KIRILL-ARB | vs-obzor-3-2026-nalogovye-spory-ens-fns | 453 | https://advokat-vsem.online/vs-obzor-3-2026-nalogovye-spory-ens-fns/ |
