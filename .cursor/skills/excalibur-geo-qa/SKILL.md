@@ -1,109 +1,57 @@
----
+﻿---
 name: excalibur-geo-qa
-description: Excalibur GEO QA — self-check SEO/GEO статьи, CORE-EEAT lite, link verify, AI-slop, schema handoff.
+description: Excalibur BLOG GEO QA — fact-check, link verify, linter, slop, cannibalization, article-qa PASS.
 ---
 
-# Excalibur GEO QA
+# Excalibur BLOG — GEO QA
 
 ## Когда
 
-После `article.html` + `article.meta.json`, **до** обложки MCP и финального статуса.
+После `article.html` + `article.meta.json` от Writer. **До** cover/schema (их делает директор параллельно после PASS).
 
-## Вход
+## Скрипты (обязательно)
 
-- `article.html`, `article.meta.json`, `research-notes.md`
-- `teya/shared/excalibur-article-writing-contract.md`
-- `teya/skills/excalibur/references/geo-writing-checklist.md`
-- `teya/skills/excalibur/references/ai-slop-blocklist.md`
-- `teya/skills/excalibur/references/core-eeat-lite.md`
-
-## Выход
-
-- `article-qa.md`
-- `link-verify.json` (скрипт битых ссылок)
-- `html-linter-report.json` (результат проверки валидности HTML)
-- `slop-detector-report.json` (метрики удобочитаемости и ИИ-клише)
-- обновлённый `article.meta.json` с `geo_qa`
-- `promotion-checklist.md` (из template, после PASS)
-
-## Валидаторы и скрипты качества (Обязательно)
-
-1. **Link verify:**
 ```bash
-python teya/scripts/excalibur_link_verify.py \
-  teya-memory/blog/articles/<topic_id>-<slug>/article.html \
-  -o teya-memory/blog/articles/<topic_id>-<slug>/link-verify.json \
+python scripts/excalibur_blog_research_notes_gate.py \
+  --article-dir memory/blog/articles/<dir> \
+  -o research-notes-gate.json
+
+python scripts/excalibur_blog_fact_checker.py \
+  memory/blog/articles/<dir>/article.html \
+  -o memory/blog/articles/<dir>/fact-check-report.json
+
+python scripts/excalibur_blog_link_verify.py \
+  memory/blog/articles/<dir>/article.html \
+  -o memory/blog/articles/<dir>/link-verify.json \
   --site-base https://YOUR_SITE
-```
-- `verdict: pass` — OK
-- **fail** → fix URLs или замени на актуальные, max 2 цикла.
 
-2. **Strict HTML Whitelist Linter:**
+python scripts/excalibur_blog_html_linter.py \
+  memory/blog/articles/<dir>/article.html \
+  -o memory/blog/articles/<dir>/html-linter-report.json
+```
+
+HTML linter **блокирует оглавление в теле** (`<ol>/<ul>` с 3+ ссылками `href="#..."`) и любые теги вне whitelist, включая `<pre>`/`<code>`. При fail — Writer удаляет TOC (после инсайт-блока сразу `<p>`) или заменяет код/шаблон на whitelist-safe HTML (`<blockquote><p>...<br>...</p></blockquote>`, таблицу или список). Инсайт-блок не должен начинаться с шаблонного ярлыка `TL;DR` или фразы `Быстрый инсайт`. `research_notes_gate.py -o research-notes-gate.json` пишет файл внутри `--article-dir`; не передавай туда repo-relative путь с повтором `memory/blog/articles/...`.
+
 ```bash
-python teya/scripts/teya_excalibur_html_linter.py \
-  teya-memory/blog/articles/<topic_id>-<slug>/article.html \
-  -o teya-memory/blog/articles/<topic_id>-<slug>/html-linter-report.json
-```
-- **Правило:** Если вердикт FAIL (использование запрещенных тегов или незакрытый тег), публикация блокируется (`❌ HTML LINTER BLOCKER`).
+python scripts/excalibur_blog_slop_detector.py \
+  memory/blog/articles/<dir>/article.html \
+  -o memory/blog/articles/<dir>/slop-detector-report.json
 
-3. **AI-Slop & Readability Analyzer:**
-```bash
-python teya/scripts/teya_excalibur_slop_detector.py \
-  teya-memory/blog/articles/<topic_id>-<slug>/article.html \
-  -o teya-memory/blog/articles/<topic_id>-<slug>/slop-detector-report.json
-```
-- **Правило:** Если индекс читаемости Flesch RU < 40 или обнаружено более 3 ИИ-клише/длинных предложений (>25 слов), текст отправляется на рерайтинг.
+python scripts/excalibur_blog_cannibalization_guard.py \
+  --blog-dir memory/blog/articles \
+  -o memory/blog/articles/<dir>/cannibalization-report.json
 
-## Scoring (0–100)
+python scripts/excalibur_blog_utility_gate.py \
+  --article-dir memory/blog/articles/<dir> \
+  --output utility-gate-report.json
 
-| Блок | Вес | Критерии |
-|------|-----|----------|
-| SEO structure | 20 | H2/H3, primary query, internal links |
-| GEO / citability | 25 | direct answer, answer blocks (схемы/списки/таблицы по архетипу), FAQ |
-| CORE-EEAT lite | 15 | ≥16/20 (`references/core-eeat-lite.md`) |
-| Human voice | 15 | AI-slop blocklist |
-| Fact safety | 15 | research-notes / fact-bank |
-| Contract HTML | 10 | разрешенные теги (включая `<table>` для сравнений), 1-3 `<img>` с подписями `<i>`, объём, CTA, запреты |
-
-**Pass:** ≥ 80, CORE-EEAT ≥16/20, link-verify pass, нет veto.
-
-**Veto:** выдуманные факты, эмодзи, VPN, объём вне диапазона, нет FAQ, link-verify fail после 2 fixes.
-
-## article-qa.md формат
-
-```markdown
-# QA: [topic_id] [slug]
-date: YYYY-MM-DD
-score_total: 84/100
-core_eeat_lite: 18/20
-link_verify: pass
-verdict: PASS | FIX_REQUIRED | BLOCKER
-
-## Scores
-...
-
-## CORE-EEAT lite
-C01 ✓ ... (18/20)
-
-## Link verify
-- total: N, failed: 0
-- see link-verify.json
-
-## AI-slop scan
-...
-
-## Schema ready
-BlogPosting: yes | FAQPage: yes (N) | HowTo: yes/no | Review: yes/no | E-E-A-T SameAs Author: yes (N links)
+python scripts/excalibur_blog_human_voice_gate.py \
+  --article-dir memory/blog/articles/<dir> \
+  -o human-voice-report.json
 ```
 
-## После QA PASS
+**Pass:** score ≥ 80, CORE-EEAT ≥ 16/20, link-verify pass, **research notes gate PASS**, **utility gate PASS**, **human voice gate PASS**, **beginner-fit PASS**. В `article-qa.md` отдельно зафиксируй: какая боль новичка решена, где показано решение, какой первый результат получит читатель, какие сложные термины объяснены «на пальцах».
 
-1. `schema.jsonld`
-2. `promotion-checklist.md` — по `references/promotion-checklist-template.md`
-3. Обложка MCP
-4. (Опц.) WP publish — skill `excalibur-wp-publish`
+**Beginner-fit blocker:** статья звучит как для профи/разработчиков/архитекторов, не объясняет термины (API, RAG, MCP, workflow, agent), не даёт первого безопасного шага или требует команды разработчиков без альтернативы для новичка.
 
-## Blockers
-
-- `❌ QA BLOCKER` — score < 80 или CORE-EEAT < 16/20 после 2 циклов
-- `❌ LINK BLOCKER` — link-verify fail после 2 циклов
+Schema и cover — **не** твоя зона (отдельные субагенты после PASS).
