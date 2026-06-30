@@ -1223,3 +1223,1716 @@ H1: Пленум ВС № 19 (2026): цифровой рубль как пред
 SLUG: plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026
 H1_для_hero: Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество
 ПОДЗАГОЛОВОК_HERO: 16 июня 2026: ВС РФ разъяснил квалификацию хищений цифровых активов, границу кражи и ст. 159, условия ст. 158.1
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+**Hero id / class:** `l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026`
+
+## Паспорт мира
+
+| Параметр | Значение |
+|----------|----------|
+| **Мир** | «Цифровой кошелёк под весами ВС» — платёжная среда 2026: цифровой рубль на счёте, тайное списание vs добровольный перевод; Пленум № 19 разводит кражу и мошенничество |
+| **Центральная метафора** | Смартфон-кошелёк с цифровым рублём (₽) в центре; весы правосудия ВС сверху; развилка «ст. 158 — кража» / «ст. 159 — мошенничество»; критерий «обман только для доступа → тайное списание» |
+| **Пространство** | Светлый холодный градиент «утро в зале суда / цифровой банкинг»; SVG — фасад ВС, весы, кошелёк, стрелки развилки, бейдж ст. 158.1 |
+| **Движение** | Полностью static — без `<canvas>`, `<script>` и CSS-анимаций |
+| **Палитра** | `#0f172a` текст, `#1e3a5f` ВС/суд, `#0d9488` кража/ст. 158, `#b91c1c` мошенничество/ст. 159, `#0369a1` цифровой рубль, `#475569` подзаголовок, `#fefefe`–`#f0f9ff` фон |
+| **Аудитория** | Обвиняемые и потерпевшие по хищениям; дропперы; владельцы цифровых кошельков; адвокаты по переквалификации 158/159 |
+
+## Чеклист отличий от других hero
+
+- [x] **Не Пленум № 48**: не мошенничество/крипто — угол **кража, гл. 21 УК, граница 158/159**
+- [x] **Не КС № 43-П**: не госдоля в юрлице — **цифровой рубль как предмет кражи**
+- [x] **Не СИП/ВПР**: не IP — тип статьи **UG, уголовное право**
+- [x] **Не обзор ВС № 8**: не арбитраж/спецмеры — **Пленум ВС № 19 от 16.06.2026**
+- [x] Уникальная сцена: цифровой кошелёк + весы ВС + развилка 158/159 + критерий тайного списания
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
+- [x] CTA в hero **не вставлять**
+
+```html
+<section id="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026" class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026" aria-label="Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество">
+  <style>
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(158deg, #fefefe 0%, #f0f9ff 42%, #ecfeff 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 44% 36% at 88% 10%, rgba(3, 105, 161, 0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 38% 32% at 8% 88%, rgba(13, 148, 136, 0.07) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e3a5f;
+      flex-shrink: 0;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.38rem, 3vw, 2.1rem);
+      line-height: 1.24;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__h1-accent {
+      color: #1e3a5f;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__sub {
+      margin: 0 0 26px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.48vw, 1.1rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--vs {
+      border-color: #93c5fd;
+      color: #1e3a5f;
+      background: #eff6ff;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--theft {
+      border-color: #5eead4;
+      color: #0f766e;
+      background: #f0fdfa;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--fraud {
+      border-color: #fecaca;
+      color: #991b1b;
+      background: #fef2f2;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--ruble {
+      border-color: #7dd3fc;
+      color: #0369a1;
+      background: #f0f9ff;
+    }
+    .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__visual {
+        order: -1;
+        max-height: 320px;
+      }
+    }
+  </style>
+  <div class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__inner">
+    <div class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__content">
+      <div class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__badge">
+        <span class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__badge-mark" aria-hidden="true"></span>
+        UG · Пленум ВС № 19 · 16.06.2026 · цифровой рубль
+      </div>
+      <h1 class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__h1">
+        <span class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__h1-accent">Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество</span>
+      </h1>
+      <p class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__sub">
+        16 июня 2026: ВС РФ разъяснил квалификацию хищений цифровых активов, границу кражи и ст. 159, условия ст. 158.1
+      </p>
+      <ul class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__facts">
+        <li class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--vs">Пленум ВС № 19 · 16.06.2026</li>
+        <li class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--theft">ст. 158 — кража</li>
+        <li class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--fraud">ст. 159 — мошенничество</li>
+        <li class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--ruble">цифровой рубль · ст. 158.1</li>
+      </ul>
+    </div>
+    <div class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__visual" aria-hidden="true">
+      <svg viewBox="0 0 500 450" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:500px" role="img" aria-label="Цифровой кошелёк с рублём под весами Верховного суда: развилка квалификации — статья 158 кража или статья 159 мошенничество">
+        <defs>
+          <linearGradient id="hero-p19-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#ecfeff"/>
+          </linearGradient>
+          <linearGradient id="hero-p19-vs" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+          </linearGradient>
+          <linearGradient id="hero-p19-wallet" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#e0f2fe"/>
+            <stop offset="100%" stop-color="#cffafe"/>
+          </linearGradient>
+          <linearGradient id="hero-p19-ruble" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0369a1"/>
+            <stop offset="100%" stop-color="#0c4a6e"/>
+          </linearGradient>
+          <pattern id="hero-p19-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect width="20" height="20" fill="#f0f9ff"/>
+            <path d="M20 0 L0 0 0 20" fill="none" stroke="#e0f2fe" stroke-width="0.5"/>
+          </pattern>
+          <filter id="hero-p19-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+          <marker id="hero-p19-arr-teal" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+            <path d="M0 0 L6 3 L0 6 Z" fill="#0d9488"/>
+          </marker>
+          <marker id="hero-p19-arr-red" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+            <path d="M0 0 L6 3 L0 6 Z" fill="#b91c1c"/>
+          </marker>
+        </defs>
+        <rect x="8" y="10" width="484" height="430" rx="18" fill="url(#hero-p19-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <rect x="8" y="10" width="484" height="430" rx="18" fill="url(#hero-p19-grid)" opacity="0.4"/>
+        <!-- фасад ВС -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(158, 6)">
+          <rect x="0" y="38" width="184" height="50" rx="4" fill="url(#hero-p19-vs)"/>
+          <polygon points="92,0 184,38 0,38" fill="#1e3a5f"/>
+          <rect x="24" y="48" width="16" height="32" rx="1" fill="#334155" opacity="0.5"/>
+          <rect x="52" y="48" width="16" height="32" rx="1" fill="#334155" opacity="0.5"/>
+          <rect x="80" y="48" width="24" height="36" rx="1" fill="#475569" opacity="0.6"/>
+          <rect x="116" y="48" width="16" height="32" rx="1" fill="#334155" opacity="0.5"/>
+          <rect x="144" y="48" width="16" height="32" rx="1" fill="#334155" opacity="0.5"/>
+          <text x="92" y="54" text-anchor="middle" fill="#e0f2fe" font-size="6" font-weight="800" letter-spacing="0.04em">ВЕРХОВНЫЙ СУД РФ</text>
+          <text x="92" y="66" text-anchor="middle" fill="#93c5fd" font-size="5">Пленум № 19 · 16.06.2026</text>
+          <text x="92" y="78" text-anchor="middle" fill="#7dd3fc" font-size="4.5">изменения в Пленум № 29 (2002)</text>
+        </g>
+        <!-- весы правосудия -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(206, 54)">
+          <line x1="44" y1="10" x2="44" y2="30" stroke="#1e3a5f" stroke-width="2.2"/>
+          <line x1="18" y1="14" x2="70" y2="14" stroke="#1e3a5f" stroke-width="2.4"/>
+          <path d="M18 14 L10 28 L26 28 Z" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.2"/>
+          <path d="M70 14 L62 28 L78 28 Z" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.2"/>
+          <circle cx="10" cy="30" r="3.5" fill="#0d9488" opacity="0.9"/>
+          <circle cx="26" cy="30" r="3.5" fill="#0d9488" opacity="0.9"/>
+          <circle cx="62" cy="30" r="3.5" fill="#b91c1c" opacity="0.9"/>
+          <circle cx="78" cy="30" r="3.5" fill="#b91c1c" opacity="0.9"/>
+          <text x="18" y="38" text-anchor="middle" fill="#0f766e" font-size="4" font-weight="800">ст. 158</text>
+          <text x="70" y="38" text-anchor="middle" fill="#991b1b" font-size="4" font-weight="800">ст. 159</text>
+        </g>
+        <!-- цифровой кошелёк -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(168, 118)">
+          <rect width="164" height="108" rx="14" fill="url(#hero-p19-wallet)" stroke="#7dd3fc" stroke-width="1.5"/>
+          <rect x="12" y="10" width="140" height="88" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+          <!-- экран смартфона -->
+          <rect x="20" y="18" width="124" height="72" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.8"/>
+          <text x="82" y="30" text-anchor="middle" fill="#64748b" font-size="4.5" font-weight="700">ЦИФРОВОЙ КОШЕЛЁК</text>
+          <!-- монета цифрового рубля -->
+          <circle cx="82" cy="58" r="22" fill="url(#hero-p19-ruble)" stroke="#0369a1" stroke-width="1.5"/>
+          <text x="82" y="64" text-anchor="middle" fill="#e0f2fe" font-size="18" font-weight="900">₽</text>
+          <text x="82" y="78" text-anchor="middle" fill="#0369a1" font-size="4" font-weight="700">цифровой рубль</text>
+          <!-- стрелка списания -->
+          <path d="M108 52 L128 52" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="3 2" marker-end="url(#hero-p19-arr-red)"/>
+          <text x="136" y="54" fill="#991b1b" font-size="3.5" font-weight="700">−</text>
+        </g>
+        <!-- развилка 158 / 159 -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(36, 248)">
+          <text x="214" y="0" text-anchor="middle" fill="#1e3a5f" font-size="5.5" font-weight="800">КРИТЕРИЙ ПЛЕНУМА: ОБМАН ТОЛЬКО ДЛЯ ДОСТУПА</text>
+          <!-- центральный столб -->
+          <circle cx="214" cy="28" r="10" fill="#1e3a5f"/>
+          <text x="214" y="31" text-anchor="middle" fill="#fff" font-size="5" font-weight="900">?</text>
+          <!-- ветка влево — кража -->
+          <path d="M204 34 L80 70" fill="none" stroke="#0d9488" stroke-width="2.2" marker-end="url(#hero-p19-arr-teal)"/>
+          <rect x="8" y="62" width="128" height="58" rx="8" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.2"/>
+          <text x="72" y="78" text-anchor="middle" fill="#0f766e" font-size="5.5" font-weight="800">ст. 158 — КРАЖА</text>
+          <text x="72" y="90" text-anchor="middle" fill="#334155" font-size="4">обман → доступ</text>
+          <text x="72" y="100" text-anchor="middle" fill="#334155" font-size="4">тайное списание</text>
+          <text x="72" y="112" text-anchor="middle" fill="#0d9488" font-size="3.5" font-weight="600">п. 2, п. 25.1 Пленума</text>
+          <!-- ветка вправо — мошенничество -->
+          <path d="M224 34 L348 70" fill="none" stroke="#b91c1c" stroke-width="2.2" marker-end="url(#hero-p19-arr-red)"/>
+          <rect x="292" y="62" width="128" height="58" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.2"/>
+          <text x="356" y="78" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="800">ст. 159 — ОБМАН</text>
+          <text x="356" y="90" text-anchor="middle" fill="#334155" font-size="4">потерпевший сам</text>
+          <text x="356" y="100" text-anchor="middle" fill="#334155" font-size="4">передал деньги</text>
+          <text x="356" y="112" text-anchor="middle" fill="#b91c1c" font-size="3.5" font-weight="600">обман = способ завладения</text>
+        </g>
+        <!-- блок цифровых активов -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(36, 338)">
+          <rect width="200" height="56" rx="8" fill="#fff" stroke="#0369a1" stroke-width="1"/>
+          <text x="100" y="16" text-anchor="middle" fill="#0369a1" font-size="5" font-weight="800">ПРЕДМЕТ ХИЩЕНИЯ (п. 11)</text>
+          <text x="100" y="28" text-anchor="middle" fill="#334155" font-size="4">цифровой рубль · цифровые права</text>
+          <text x="100" y="38" text-anchor="middle" fill="#64748b" font-size="3.8">безналичные ДС · цифровая валюта</text>
+          <text x="100" y="48" text-anchor="middle" fill="#64748b" font-size="3.5">окончание = момент списания (п. 6)</text>
+        </g>
+        <!-- блок ст. 158.1 -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(256, 338)">
+          <rect width="216" height="56" rx="8" fill="#fff" stroke="#0d9488" stroke-width="1"/>
+          <text x="108" y="16" text-anchor="middle" fill="#0f766e" font-size="5" font-weight="800">ст. 158.1 — МЕЛКОЕ ХИЩЕНИЕ</text>
+          <text x="108" y="28" text-anchor="middle" fill="#334155" font-size="4">≤ 2 500 ₽ · повтор после КоАП</text>
+          <text x="108" y="38" text-anchor="middle" fill="#64748b" font-size="3.8">4 проверки суда (п. 17.1)</text>
+          <text x="108" y="48" text-anchor="middle" fill="#64748b" font-size="3.5">адм. дело ≠ преюдиция для УК</text>
+        </g>
+        <text x="250" y="438" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">Пленум № 19 · цифровой кошелёк · весы 158/159 · тайное списание vs перевод</text>
+      </svg>
+    </div>
+  </div>
+</section>
+```
+
+## Передача Наташе
+SLUG: plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026
+ВНИМАНИЕ: hero — static SVG + inline CSS, без `<canvas>`, `<script>` и CTA в hero.
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** `plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026`  
+**Якорь:** `boris-theft-fraud-map`  
+**Размещение для Наташи:** сразу **после H3 «Типовые схемы: перевод под влиянием обмана vs тайное хищение после доступа»** (после markdown-таблицы сценариев в тексте Жени/Артура), **перед H3 «Переквалификация со ст. 159 на ст. 158 и обратно»** и **перед primary CTA** «Следствие квалифицировало дело как мошенничество…».  
+**Режим:** тёмная панель в теле статьи (**контраст** со светлым UG-hero Алины по Пленуму № 19) — **карта разграничения 158/159** слева + **сетка цифровых сценариев списания** справа.  
+**Legis24 MCP-only:** static SVG + inline CSS, без `<canvas>` и `<script>`.
+
+## Паспорт блока
+
+| Параметр | Значение |
+|----------|----------|
+| **Метафора** | «Развилка обмана» — один телефонный звонок может вести к ст. 159 или ст. 158 в зависимости от того, кто инициировал перевод и было ли списание тайным |
+| **Цифры-крючки** | Пленум № 19 · 16.06.2026 · п. 2 и п. 25.1 Пленума № 29 · окончание кражи = **списание** · п. «г» ч. 3 ст. 158 · ≤ 2 500 ₽ → ст. 158.1 |
+| **Палитра** | Тёмный navy `#0c1222`–`#1a2744` (контраст hero); кража `#dc2626` / `#f87171`; мошенничество `#7c3aed` / `#c4b5fd`; цифровой рубль `#059669`; списание `#f59e0b`; нейтраль `#94a3b8` |
+| **Композиция** | Сплит: SVG-карта решений 158 vs 159 \| SVG-сетка 5 цифровых сценариев + HTML-таблица квалификации |
+
+**Чеклист отличий от hero Алины**
+- [x] Не полноэкранный блок; в теле статьи после H2 «Кража или мошенничество»
+- [x] Свой `id`: `boris-theft-fraud-map` (не `l24-hero-…`)
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
+- [x] Тёмная панель — контраст со светлым UG-hero (navy/судебная палитра Legis24)
+- [x] Сплит «карта разграничения» \| «сетка цифровых списаний по Пленуму № 19»
+
+```html
+<section id="boris-theft-fraud-map" class="boris-theft-fraud-map" aria-label="Пленум ВС № 19: карта разграничения кражи (ст. 158) и мошенничества (ст. 159) при цифровых списаниях">
+<style>
+.boris-theft-fraud-map {
+  --tf-ink: #0c1222;
+  --tf-navy: #1a2744;
+  --tf-navy-soft: #243352;
+  --tf-theft: #dc2626;
+  --tf-theft-soft: #fca5a5;
+  --tf-fraud: #7c3aed;
+  --tf-fraud-soft: #c4b5fd;
+  --tf-digital: #059669;
+  --tf-digital-soft: #6ee7b7;
+  --tf-debit: #f59e0b;
+  --tf-debit-soft: #fde68a;
+  --tf-muted: #94a3b8;
+  --tf-text: #e2e8f0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.boris-theft-fraud-map__shell {
+  background: linear-gradient(152deg, var(--tf-ink) 0%, var(--tf-navy) 46%, var(--tf-navy-soft) 100%);
+  border: 1px solid rgba(30, 58, 138, 0.35);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  box-shadow: 0 18px 48px rgba(12, 18, 34, 0.45);
+  color: var(--tf-text);
+}
+.boris-theft-fraud-map__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tf-debit);
+}
+.boris-theft-fraud-map__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.boris-theft-fraud-map__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--tf-muted);
+  max-width: 72ch;
+}
+.boris-theft-fraud-map__lead strong { color: #fff; }
+.boris-theft-fraud-map__lead em {
+  font-style: normal;
+  color: var(--tf-debit-soft);
+  font-weight: 600;
+}
+.boris-theft-fraud-map__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.boris-theft-fraud-map__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.boris-theft-fraud-map__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tf-debit);
+}
+.boris-theft-fraud-map__map-svg,
+.boris-theft-fraud-map__grid-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.boris-theft-fraud-map__map-svg { max-height: 340px; margin-bottom: 12px; }
+.boris-theft-fraud-map__grid-svg { max-height: 220px; margin-bottom: 14px; }
+.boris-theft-fraud-map__branches {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+.boris-theft-fraud-map__branch {
+  padding: 12px 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.28);
+  font-size: 0.72rem;
+  line-height: 1.42;
+  color: var(--tf-muted);
+}
+.boris-theft-fraud-map__branch--theft {
+  border-top: 3px solid var(--tf-theft);
+}
+.boris-theft-fraud-map__branch--fraud {
+  border-top: 3px solid var(--tf-fraud);
+}
+.boris-theft-fraud-map__branch strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.78rem;
+  color: #fff;
+}
+.boris-theft-fraud-map__branch--theft strong { color: var(--tf-theft-soft); }
+.boris-theft-fraud-map__branch--fraud strong { color: var(--tf-fraud-soft); }
+.boris-theft-fraud-map__quote {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.32);
+  font-size: 0.76rem;
+  line-height: 1.48;
+  color: var(--tf-text);
+  font-style: italic;
+}
+.boris-theft-fraud-map__quote cite {
+  display: block;
+  margin-top: 8px;
+  font-style: normal;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--tf-debit);
+  letter-spacing: 0.03em;
+}
+.boris-theft-fraud-map__table-wrap {
+  overflow-x: auto;
+  margin: 0 0 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.boris-theft-fraud-map__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.boris-theft-fraud-map__table th,
+.boris-theft-fraud-map__table td {
+  padding: 9px 10px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  vertical-align: top;
+}
+.boris-theft-fraud-map__table th {
+  background: rgba(0, 0, 0, 0.32);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.boris-theft-fraud-map__table tr:last-child td { border-bottom: none; }
+.boris-theft-fraud-map__table td { color: var(--tf-muted); }
+.boris-theft-fraud-map__table td strong { color: #fff; }
+.boris-theft-fraud-map__qual--theft {
+  color: var(--tf-theft-soft) !important;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.boris-theft-fraud-map__qual--fraud {
+  color: var(--tf-fraud-soft) !important;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.boris-theft-fraud-map__note {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(5, 150, 105, 0.12);
+  border: 1px solid rgba(5, 150, 105, 0.35);
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: var(--tf-text);
+}
+.boris-theft-fraud-map__note strong { color: var(--tf-digital-soft); }
+.boris-theft-fraud-map__caption {
+  margin: 10px 0 0;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: rgba(148, 163, 184, 0.88);
+  text-align: center;
+}
+.boris-theft-fraud-map__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.boris-theft-fraud-map__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--tf-text);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.boris-theft-fraud-map__tag--plenum { border-color: rgba(245, 158, 11, 0.5); color: var(--tf-debit-soft); }
+.boris-theft-fraud-map__tag--theft { border-color: rgba(220, 38, 38, 0.5); color: var(--tf-theft-soft); }
+.boris-theft-fraud-map__tag--fraud { border-color: rgba(124, 58, 237, 0.5); color: var(--tf-fraud-soft); }
+.boris-theft-fraud-map__tag--digital { border-color: rgba(5, 150, 105, 0.5); color: var(--tf-digital-soft); }
+@media (max-width: 900px) {
+  .boris-theft-fraud-map__split { grid-template-columns: 1fr; }
+  .boris-theft-fraud-map__branches { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="boris-theft-fraud-map__shell">
+    <p class="boris-theft-fraud-map__eyebrow">UG · Пленум ВС № 19 · 16.06.2026 · ст. 158 vs ст. 159</p>
+    <h3 class="boris-theft-fraud-map__title">Кража или мошенничество: карта квалификации при цифровых списаниях</h3>
+    <p class="boris-theft-fraud-map__lead">Пленум № 19 закрепил критерий ВС: если обман служил <strong>только доступу</strong> к счёту, а деньги списаны <strong>тайно</strong> — это <strong>кража</strong> (ст. 158, в т.ч. п. «г» ч. 3). Если потерпевший <strong>сам инициировал перевод</strong> — <strong>мошенничество</strong> (ст. 159). Для безналичных ДС преступление окончено с момента <em>списания</em> (п. 6 Пленума № 29).</p>
+
+    <div class="boris-theft-fraud-map__split">
+      <div class="boris-theft-fraud-map__panel">
+        <p class="boris-theft-fraud-map__panel-title">Карта решений: обман → квалификация</p>
+        <svg class="boris-theft-fraud-map__map-svg" viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tf-map-title tf-map-desc">
+          <title id="tf-map-title">Разграничение кражи и мошенничества по Пленуму ВС № 19</title>
+          <desc id="tf-map-desc">Дерево решений: при тайном списании после обмана для доступа — ст. 158; при добровольном переводе потерпевшим — ст. 159</desc>
+          <defs>
+            <linearGradient id="tf-axis" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#f59e0b"/>
+              <stop offset="50%" stop-color="#64748b"/>
+              <stop offset="100%" stop-color="#334155"/>
+            </linearGradient>
+            <marker id="tf-arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#94a3b8"/>
+            </marker>
+            <marker id="tf-arr-theft" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#f87171"/>
+            </marker>
+            <marker id="tf-arr-fraud" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#c4b5fd"/>
+            </marker>
+          </defs>
+
+          <rect x="4" y="4" width="552" height="312" rx="14" fill="rgba(0,0,0,0.22)" stroke="#334155" stroke-width="1"/>
+
+          <!-- Root -->
+          <rect x="196" y="20" width="168" height="48" rx="10" fill="rgba(245,158,11,0.14)" stroke="#f59e0b" stroke-width="1.8"/>
+          <text x="280" y="40" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="800">ОБМАН ПРИ ХИЩЕНИИ ДС</text>
+          <text x="280" y="54" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="600">телефон · СМС · «сотрудник банка»</text>
+          <line x1="280" y1="68" x2="280" y2="88" stroke="url(#tf-axis)" stroke-width="2.5"/>
+
+          <!-- Question 1 -->
+          <rect x="176" y="88" width="208" height="44" rx="8" fill="rgba(100,116,139,0.18)" stroke="#64748b" stroke-width="1.5"/>
+          <text x="280" y="106" text-anchor="middle" fill="#fff" font-size="6.8" font-weight="700">Кто инициировал изъятие денег?</text>
+          <text x="280" y="120" text-anchor="middle" fill="#94a3b8" font-size="6">перевод / распоряжение vs тайное списание</text>
+
+          <!-- Left branch: victim transfers -->
+          <path d="M176 110 L88 110 L88 168" stroke="#c4b5fd" stroke-width="2" fill="none" marker-end="url(#tf-arr-fraud)"/>
+          <rect x="20" y="168" width="136" height="56" rx="8" fill="rgba(124,58,237,0.14)" stroke="#7c3aed" stroke-width="1.8"/>
+          <text x="88" y="188" text-anchor="middle" fill="#c4b5fd" font-size="6.5" font-weight="800">ПОТЕРПЕВШИЙ САМ</text>
+          <text x="88" y="202" text-anchor="middle" fill="#e2e8f0" font-size="6">перевод на «безопасный счёт»</text>
+          <text x="88" y="214" text-anchor="middle" fill="#94a3b8" font-size="5.8">открытое распоряжение</text>
+
+          <!-- Right branch: secret debit -->
+          <path d="M384 110 L472 110 L472 168" stroke="#f87171" stroke-width="2" fill="none" marker-end="url(#tf-arr-theft)"/>
+          <rect x="404" y="168" width="136" height="56" rx="8" fill="rgba(220,38,38,0.14)" stroke="#dc2626" stroke-width="1.8"/>
+          <text x="472" y="188" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-weight="800">ВИНОВНЫЙ ТАЙНО</text>
+          <text x="472" y="202" text-anchor="middle" fill="#e2e8f0" font-size="6">списание с карты / кошелька</text>
+          <text x="472" y="214" text-anchor="middle" fill="#94a3b8" font-size="5.8">код СМС «только для доступа»</text>
+
+          <!-- Question 2 center -->
+          <path d="M280 132 L280 168" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#tf-arr)"/>
+          <rect x="196" y="168" width="168" height="44" rx="8" fill="rgba(100,116,139,0.12)" stroke="#475569" stroke-width="1.2"/>
+          <text x="280" y="186" text-anchor="middle" fill="#cbd5e1" font-size="6.5" font-weight="600">Обман = способ завладения?</text>
+          <text x="280" y="200" text-anchor="middle" fill="#94a3b8" font-size="5.8">или лишь прикрытие для доступа</text>
+
+          <!-- Outcomes -->
+          <path d="M88 224 L88 252" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#tf-arr-fraud)"/>
+          <rect x="24" y="252" width="128" height="52" rx="8" fill="rgba(124,58,237,0.2)" stroke="#7c3aed" stroke-width="2"/>
+          <text x="88" y="272" text-anchor="middle" fill="#c4b5fd" font-size="8" font-weight="800">ст. 159</text>
+          <text x="88" y="286" text-anchor="middle" fill="#e2e8f0" font-size="6">мошенничество</text>
+          <text x="88" y="298" text-anchor="middle" fill="#94a3b8" font-size="5.5">обман = завладение</text>
+
+          <path d="M472 224 L472 252" stroke="#dc2626" stroke-width="2.5" fill="none" marker-end="url(#tf-arr-theft)"/>
+          <rect x="408" y="252" width="128" height="52" rx="8" fill="rgba(220,38,38,0.2)" stroke="#dc2626" stroke-width="2"/>
+          <text x="472" y="270" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="800">ст. 158</text>
+          <text x="472" y="284" text-anchor="middle" fill="#e2e8f0" font-size="6">кража · п. «г» ч. 3</text>
+          <text x="472" y="296" text-anchor="middle" fill="#94a3b8" font-size="5.5">п. 2 · п. 25.1 Пленума</text>
+
+          <!-- Center outcome: depends -->
+          <path d="M280 212 L280 252" stroke="#059669" stroke-width="2" fill="none" marker-end="url(#tf-arr)"/>
+          <rect x="196" y="252" width="168" height="52" rx="8" fill="rgba(5,150,105,0.14)" stroke="#059669" stroke-width="1.5"/>
+          <text x="280" y="272" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700">ЦИФРОВОЙ РУБЛЬ / ДС</text>
+          <text x="280" y="286" text-anchor="middle" fill="#e2e8f0" font-size="6">окончание = списание</text>
+          <text x="280" y="298" text-anchor="middle" fill="#94a3b8" font-size="5.5">п. 6 · п. 11 Пленума № 29</text>
+
+          <!-- Debit moment indicator -->
+          <g transform="translate(16, 248)">
+            <rect width="52" height="28" rx="6" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="1"/>
+            <text x="26" y="14" text-anchor="middle" fill="#fde68a" font-size="5.5" font-weight="700">СПИСАНИЕ</text>
+            <text x="26" y="24" text-anchor="middle" fill="#94a3b8" font-size="5">= ущерб</text>
+          </g>
+        </svg>
+
+        <ul class="boris-theft-fraud-map__branches" aria-label="Два итога разграничения">
+          <li class="boris-theft-fraud-map__branch boris-theft-fraud-map__branch--theft">
+            <strong>Кража · ст. 158</strong>
+            Обман только для доступа → тайное списание с карты, кошелька или счёта цифрового рубля. П. 25.1: даже без взлома ПО.
+          </li>
+          <li class="boris-theft-fraud-map__branch boris-theft-fraud-map__branch--fraud">
+            <strong>Мошенничество · ст. 159</strong>
+            Потерпевший сам перевёл деньги или передал доступ — виновный распорядился имуществом открыто.
+          </li>
+        </ul>
+        <blockquote class="boris-theft-fraud-map__quote">
+          «Если виновное лицо использовало обман либо злоупотребление доверием только для обеспечения или облегчения доступа к имуществу… но при этом само изъятие имущества осуществило тайно, то его действия образуют состав кражи.»
+          <cite>п. 2 Пленума ВС № 29 (ред. Пленума № 19 от 16.06.2026)</cite>
+        </blockquote>
+        <p class="boris-theft-fraud-map__caption">Логика ВС: не всякий обман при хищении = мошенничество</p>
+      </div>
+
+      <div class="boris-theft-fraud-map__panel">
+        <p class="boris-theft-fraud-map__panel-title">Цифровые сценарии: списание и статья УК</p>
+        <svg class="boris-theft-fraud-map__grid-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tf-grid-title tf-grid-desc">
+          <title id="tf-grid-title">Схемы цифровых списаний: кража или мошенничество</title>
+          <desc id="tf-grid-desc">Пять типовых сценариев хищения безналичных денежных средств и цифрового рубля по разъяснениям Пленума № 19</desc>
+
+          <!-- Row 1: SMS + Transfer -->
+          <rect x="8" y="8" width="148" height="88" rx="8" fill="rgba(220,38,38,0.1)" stroke="#dc2626" stroke-width="1.2"/>
+          <text x="82" y="26" text-anchor="middle" fill="#fca5a5" font-size="6" font-weight="800">КОД ИЗ СМС</text>
+          <rect x="20" y="34" width="36" height="24" rx="4" fill="#1e293b" stroke="#475569"/>
+          <text x="38" y="50" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="700">SMS</text>
+          <path d="M58 46 L72 46" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
+          <rect x="72" y="34" width="36" height="24" rx="4" fill="#1e293b" stroke="#dc2626"/>
+          <text x="90" y="48" text-anchor="middle" fill="#fca5a5" font-size="5.5" font-weight="700">− ₽</text>
+          <path d="M108 46 L122 46" stroke="#94a3b8" stroke-width="1"/>
+          <rect x="122" y="36" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
+          <text x="134" y="50" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
+          <text x="82" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.5">тайное списание · п. 25.1</text>
+          <text x="82" y="84" text-anchor="middle" fill="#64748b" font-size="5">п. «г» ч. 3 ст. 158</text>
+
+          <rect x="164" y="8" width="148" height="88" rx="8" fill="rgba(124,58,237,0.1)" stroke="#7c3aed" stroke-width="1.2"/>
+          <text x="238" y="26" text-anchor="middle" fill="#c4b5fd" font-size="6" font-weight="800">«БЕЗОПАСНЫЙ СЧЁТ»</text>
+          <circle cx="200" cy="48" r="14" fill="rgba(100,116,139,0.3)" stroke="#94a3b8"/>
+          <text x="200" y="51" text-anchor="middle" fill="#e2e8f0" font-size="6">👤</text>
+          <path d="M214 48 L228 48" stroke="#c4b5fd" stroke-width="1.5" marker-end="url(#tf-arr-fraud)"/>
+          <rect x="228" y="36" width="36" height="24" rx="4" fill="#1e293b" stroke="#7c3aed"/>
+          <text x="246" y="50" text-anchor="middle" fill="#c4b5fd" font-size="5.5" font-weight="700">→ ₽</text>
+          <rect x="276" y="36" width="24" height="20" rx="3" fill="rgba(124,58,237,0.25)" stroke="#7c3aed"/>
+          <text x="288" y="50" text-anchor="middle" fill="#c4b5fd" font-size="5" font-weight="700">159</text>
+          <text x="238" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.5">сам инициировал перевод</text>
+          <text x="238" y="84" text-anchor="middle" fill="#64748b" font-size="5">мошенничество</text>
+
+          <!-- Row 2: Digital ruble + Dropper -->
+          <rect x="8" y="104" width="148" height="88" rx="8" fill="rgba(5,150,105,0.1)" stroke="#059669" stroke-width="1.2"/>
+          <text x="82" y="122" text-anchor="middle" fill="#6ee7b7" font-size="6" font-weight="800">ЦИФРОВОЙ РУБЛЬ</text>
+          <rect x="24" y="132" width="44" height="28" rx="5" fill="#064e3b" stroke="#059669"/>
+          <text x="46" y="146" text-anchor="middle" fill="#6ee7b7" font-size="5.5" font-weight="700">CBDC</text>
+          <text x="46" y="156" text-anchor="middle" fill="#94a3b8" font-size="4.5">счёт ЦВ</text>
+          <path d="M70 146 L88 146" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
+          <text x="108" y="142" fill="#fde68a" font-size="5.5" font-weight="600">списание</text>
+          <text x="108" y="154" fill="#94a3b8" font-size="5">без согласия</text>
+          <rect x="122" y="136" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
+          <text x="134" y="150" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
+          <text x="82" y="178" text-anchor="middle" fill="#64748b" font-size="5">п. 11 · безналичные ДС · не крипто</text>
+
+          <rect x="164" y="104" width="148" height="88" rx="8" fill="rgba(220,38,38,0.08)" stroke="#475569" stroke-width="1.2"/>
+          <text x="238" y="122" text-anchor="middle" fill="#fca5a5" font-size="6" font-weight="800">ДРОППЕР / КАРТА</text>
+          <rect x="178" y="134" width="32" height="22" rx="4" fill="#1e293b" stroke="#64748b"/>
+          <text x="194" y="149" text-anchor="middle" fill="#e2e8f0" font-size="5">CARD</text>
+          <path d="M212 145 L226 145" stroke="#94a3b8" stroke-width="1"/>
+          <rect x="226" y="132" width="32" height="26" rx="4" fill="rgba(0,0,0,0.3)" stroke="#f59e0b"/>
+          <text x="242" y="149" text-anchor="middle" fill="#fde68a" font-size="5">данные</text>
+          <path d="M260 145 L274 145" stroke="#f87171" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
+          <rect x="276" y="136" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
+          <text x="288" y="150" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
+          <text x="238" y="168" text-anchor="middle" fill="#94a3b8" font-size="5.5">обман → данные → тайное списание</text>
+          <text x="238" y="180" text-anchor="middle" fill="#64748b" font-size="5">не ст. 159 при тайности</text>
+        </svg>
+
+        <div class="boris-theft-fraud-map__table-wrap">
+          <table class="boris-theft-fraud-map__table">
+            <thead>
+              <tr>
+                <th scope="col">Сценарий</th>
+                <th scope="col">Механизм</th>
+                <th scope="col">Статья</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Код из СМС</strong></td>
+                <td>Обман → доступ → <strong>тайное</strong> списание с карты/счёта</td>
+                <td class="boris-theft-fraud-map__qual--theft">ст. 158 п. «г» ч. 3</td>
+              </tr>
+              <tr>
+                <td><strong>«Безопасный счёт»</strong></td>
+                <td>Потерпевший <strong>сам</strong> инициировал перевод</td>
+                <td class="boris-theft-fraud-map__qual--fraud">ст. 159</td>
+              </tr>
+              <tr>
+                <td><strong>Цифровой рубль</strong></td>
+                <td>Тайное списание со счёта цифровой валюты; окончание — момент списания</td>
+                <td class="boris-theft-fraud-map__qual--theft">ст. 158</td>
+              </tr>
+              <tr>
+                <td><strong>Дроппер / курьер</strong></td>
+                <td>Данные карты под обманом → скрытое изъятие без взлома ПО</td>
+                <td class="boris-theft-fraud-map__qual--theft">ст. 158 · п. 25.1</td>
+              </tr>
+              <tr>
+                <td><strong>Серия списаний</strong></td>
+                <td>Несколько операций с одного счёта при едином умысле</td>
+                <td class="boris-theft-fraud-map__qual--theft">единое хищение · п. 25.3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="boris-theft-fraud-map__note"><strong>Защита:</strong> при квалификации по ст. 159 требуйте пересмотр, если доказано тайное списание; при п. «г» ч. 3 — учитывайте сумму и способ (аргументы смягчения). Пленум № 48 — о <em>мошенничестве</em>; № 19 — о <em>краже</em> и границе 158/159.</p>
+        <p class="boris-theft-fraud-map__caption">Таблица-схема по п. 2, 6, 11, 25.1–25.3 Пленума № 29 (ред. 16.06.2026)</p>
+      </div>
+    </div>
+
+    <div class="boris-theft-fraud-map__foot" aria-label="Нормативный контекст Пленума № 19">
+      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--plenum">Пленум ВС № 19 · 16.06.2026</span>
+      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--theft">ст. 158 · п. «г» ч. 3</span>
+      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--fraud">ст. 159 · мошенничество</span>
+      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--digital">цифровой рубль · CBDC</span>
+    </div>
+  </div>
+</section>
+```
+
+## Передача Наташе
+
+- **Якорь вставки:** `#boris-theft-fraud-map`
+- **После H3:** «Типовые схемы: перевод под влиянием обмана vs тайное хищение после доступа»
+- **Перед:** H3 «Переквалификация со ст. 159 на ст. 158…» и primary CTA Артура
+- **MCP-only:** без `<canvas>` и `<script>`
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+SLUG: plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026
+ВНИМАНИЕ: MCP-only Legis24 — без `<canvas>` и `<script>` (кроме JSON-LD). При публикации обернуть в `<!-- wp:html -->`.
+
+<!-- wp:html -->
+<style>
+
+.breadcrumbs,.breadcrumb,.woocommerce-breadcrumb,.rank-math-breadcrumb,.yoast-breadcrumb,
+.entry-header,.page-title-section,.entry-title,.main_title,h1.entry-title{display:none!important}
+#primary,.site-main,.site-content,#content,.content-area{padding-top:0!important;margin-top:0!important}
+#sidebar,.sidebar,#secondary,.et_pb_column_1_4{display:none!important}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page .entry-content{max-width:none!important;width:100%!important;padding:0!important}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page .l24-longread-wrap{
+  max-width:820px;margin:0 auto;padding:48px 24px 80px;font-size:1.05rem;line-height:1.65;color:#1a202c;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page h2{margin-top:2.5em;color:#1a365d;font-size:1.45rem;font-weight:800}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page h3{margin-top:1.5em;color:#1e3a5f;font-size:1.15rem;font-weight:700}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page table{width:100%;border-collapse:collapse;margin:1.5em 0;font-size:.95rem}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page th,.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page td{border:1px solid #e2e8f0;padding:10px 12px;text-align:left;vertical-align:top}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page th{background:#eff6ff;color:#1e3a5f}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page a{color:#0369a1}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page blockquote{
+  margin:1.5em 0;padding:16px 22px;border-left:4px solid #0d9488;background:#f0fdfa;
+  color:#334155;font-style:italic;border-radius:0 6px 6px 0;
+}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page ol,.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page ul{margin:1em 0;padding-left:1.4em}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page li{margin-bottom:.45em}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page .l24-checklist{list-style:none;padding-left:0}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page .l24-checklist li{padding-left:1.6em;position:relative}
+.plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page .l24-checklist li::before{content:"☐";position:absolute;left:0;color:#0d9488}
+.l24-intro-ug{max-width:1200px;margin:0 auto;padding:40px 24px 8px}
+.l24-intro-ug__grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(260px,.9fr);gap:28px;align-items:start}
+.l24-intro-ug__text{border-left:4px solid #1e3a5f;padding:4px 0 4px 22px}
+.l24-intro-ug__text p{margin:0 0 14px;font-size:1.02rem;line-height:1.6;color:#334155}
+.l24-intro-ug__brief{
+  background:#f0f9ff;border:1px solid #bae6fd;border-radius:10px;padding:16px 18px;
+  margin-top:16px;font-size:.95rem;line-height:1.55;color:#334155;
+}
+.l24-intro-ug__decor{
+  background:linear-gradient(160deg,#f0f9ff 0%,#fff 100%);border:1px solid #e2e8f0;
+  border-radius:12px;padding:18px;
+}
+.l24-intro-ug__chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 14px;padding:0;list-style:none}
+.l24-intro-ug__chip{
+  font-size:.72rem;font-weight:700;padding:6px 10px;border-radius:999px;background:#fff;
+  border:1px solid #cbd5e1;color:#475569;
+}
+.l24-intro-ug__chip--accent{border-color:#0369a1;color:#0369a1;background:#f0f9ff}
+.l24-intro-ug__chip--theft{border-color:#0d9488;color:#0f766e;background:#f0fdfa}
+.l24-intro-ug__chip--fraud{border-color:#b91c1c;color:#991b1b;background:#fef2f2}
+.ym-toc{max-width:820px;margin:24px auto 0;padding:0 24px 32px;text-align:center}
+.ym-toc__title{
+  font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:#64748b;margin:0 0 12px;
+}
+.ym-toc__list{
+  list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;justify-content:center;gap:8px 10px;
+}
+.ym-toc__list a{
+  display:inline-block;padding:8px 12px;border-radius:8px;background:#f0f9ff;color:#0369a1;
+  text-decoration:none;font-size:.88rem;font-weight:600;border:1px solid #bae6fd;
+}
+.ym-cta{
+  margin:28px 0;padding:22px 24px;border-radius:10px;
+  background:linear-gradient(135deg,#f8fafc 0%,#f0f9ff 100%);
+  border:1px solid #cbd5e1;border-left:4px solid #0d9488;
+}
+.ym-cta--primary{border-left-color:#0d9488}
+.ym-cta--legis24.ym-cta--bottom{
+  border-left-color:#1e3a5f;background:linear-gradient(135deg,#eff6ff 0%,#f0f9ff 100%);border-color:#93c5fd;
+}
+.ym-cta__text{margin:0 0 14px;line-height:1.55;color:#334155}
+.ym-cta__actions{margin:0}
+.ym-cta__btn{
+  display:inline-block;background:#0d9488;color:#fff!important;padding:12px 22px;border-radius:8px;
+  font-weight:700;text-decoration:none;font-size:.93rem;
+}
+.ym-cta__btn:hover{background:#0f766e}
+.ym-cta--legis24.ym-cta--bottom .ym-cta__btn{background:#1e3a5f}
+.ym-cta--legis24.ym-cta--bottom .ym-cta__btn:hover{background:#0f2744}
+.l24-faq-ug{margin-top:2.5em;padding:28px 24px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:12px}
+.l24-faq-ug h2{margin-top:0!important}
+.l24-faq-ug__item{margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid #e2e8f0}
+.l24-faq-ug__item:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.l24-faq-ug__q{margin:0 0 8px;font-size:1.05rem;color:#1a365d;font-weight:700}
+.l24-faq-ug__a{margin:0;color:#334155;line-height:1.6}
+.l24-reveal{
+  opacity:0;transform:translateY(18px);
+  animation:l24-p19-reveal .65s ease forwards;
+  animation-delay:var(--reveal-delay,0ms);
+}
+@keyframes l24-p19-reveal{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.l24-reveal{opacity:1;transform:none;animation:none}}
+@media (max-width:900px){.l24-intro-ug__grid{grid-template-columns:1fr}}
+
+
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 {
+  position: relative; min-height: 88vh; min-height: 88dvh; box-sizing: border-box;
+  display: flex; align-items: center; padding: 112px 24px 72px;
+  background: linear-gradient(158deg, #fefefe 0%, #f0f9ff 42%, #ecfeff 100%);
+  color: #0f172a; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  overflow: hidden;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 44% 36% at 88% 10%, rgba(3,105,161,.08) 0%, transparent 55%),
+    radial-gradient(ellipse 38% 32% at 8% 88%, rgba(13,148,136,.07) 0%, transparent 52%);
+  pointer-events: none;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__inner {
+  position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; width: 100%;
+  display: grid; grid-template-columns: 1.04fr 0.96fr; gap: 44px; align-items: center;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__badge {
+  display: inline-flex; align-items: center; gap: 10px; margin: 0 0 18px; padding: 8px 14px;
+  border-radius: 999px; background: rgba(255,255,255,.96); border: 1px solid rgba(15,23,42,.1);
+  font-size: .78rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: #334155;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__badge-mark {
+  width: 8px; height: 8px; border-radius: 50%; background: #1e3a5f; flex-shrink: 0;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__h1 {
+  margin: 0 0 18px; font-size: clamp(1.38rem, 3vw, 2.1rem); line-height: 1.24;
+  font-weight: 800; color: #0f172a; letter-spacing: -.02em;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__h1-accent { color: #1e3a5f; }
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__sub {
+  margin: 0 0 26px; max-width: 42em; font-size: clamp(.98rem, 1.48vw, 1.1rem);
+  line-height: 1.58; color: #475569;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__facts {
+  display: flex; flex-wrap: wrap; gap: 10px; margin: 0; padding: 0; list-style: none;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact {
+  font-size: .76rem; font-weight: 700; padding: 7px 12px; border-radius: 8px;
+  background: #fff; border: 1px solid #e2e8f0; color: #334155;
+}
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--vs { border-color: #93c5fd; color: #1e3a5f; background: #eff6ff; }
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--theft { border-color: #5eead4; color: #0f766e; background: #f0fdfa; }
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--fraud { border-color: #fecaca; color: #991b1b; background: #fef2f2; }
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--ruble { border-color: #7dd3fc; color: #0369a1; background: #f0f9ff; }
+.l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__visual { display: flex; justify-content: center; align-items: center; }
+@media (max-width: 900px) {
+  .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 { min-height: auto; padding: 96px 20px 56px; }
+  .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__inner { grid-template-columns: 1fr; gap: 30px; }
+  .l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__visual { order: -1; max-height: 320px; }
+}
+
+</style>
+
+<main id="primary" class="site-main plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество">
+<meta itemprop="description" content="16.06.2026: Пленум ВС РФ № 19 разъяснил квалификацию хищений цифрового рубля и цифровых прав, отличие кражи от мошенничества и условия ст. 158.1 УК РФ. Защита при обвинении.">
+<meta itemprop="inLanguage" content="ru-RU">
+
+<section id="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026" class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026" aria-label="Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество">
+  <div class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__inner">
+    <div class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__content">
+      <div class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__badge">
+        <span class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__badge-mark" aria-hidden="true"></span>
+        UG · Пленум ВС № 19 · 16.06.2026 · цифровой рубль
+      </div>
+      <h1 class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__h1">
+        <span class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__h1-accent">Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество</span>
+      </h1>
+      <p class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__sub">
+        16 июня 2026: ВС РФ разъяснил квалификацию хищений цифровых активов, границу кражи и ст. 159, условия ст. 158.1
+      </p>
+      <ul class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__facts">
+        <li class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--vs">Пленум ВС № 19 · 16.06.2026</li>
+        <li class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--theft">ст. 158 — кража</li>
+        <li class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--fraud">ст. 159 — мошенничество</li>
+        <li class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__fact--ruble">цифровой рубль · ст. 158.1</li>
+      </ul>
+    </div>
+    <div class="l24-hero-plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026__visual" aria-hidden="true">
+      <svg viewBox="0 0 500 450" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:500px" role="img" aria-label="Цифровой кошелёк с рублём под весами Верховного суда: развилка квалификации — статья 158 кража или статья 159 мошенничество">
+        <defs>
+          <linearGradient id="hero-p19-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#ecfeff"/>
+          </linearGradient>
+          <linearGradient id="hero-p19-vs" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+          </linearGradient>
+          <linearGradient id="hero-p19-wallet" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#e0f2fe"/>
+            <stop offset="100%" stop-color="#cffafe"/>
+          </linearGradient>
+          <linearGradient id="hero-p19-ruble" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0369a1"/>
+            <stop offset="100%" stop-color="#0c4a6e"/>
+          </linearGradient>
+          <pattern id="hero-p19-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect width="20" height="20" fill="#f0f9ff"/>
+            <path d="M20 0 L0 0 0 20" fill="none" stroke="#e0f2fe" stroke-width="0.5"/>
+          </pattern>
+          <filter id="hero-p19-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+          <marker id="hero-p19-arr-teal" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+            <path d="M0 0 L6 3 L0 6 Z" fill="#0d9488"/>
+          </marker>
+          <marker id="hero-p19-arr-red" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+            <path d="M0 0 L6 3 L0 6 Z" fill="#b91c1c"/>
+          </marker>
+        </defs>
+        <rect x="8" y="10" width="484" height="430" rx="18" fill="url(#hero-p19-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <rect x="8" y="10" width="484" height="430" rx="18" fill="url(#hero-p19-grid)" opacity="0.4"/>
+        <!-- фасад ВС -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(158, 6)">
+          <rect x="0" y="38" width="184" height="50" rx="4" fill="url(#hero-p19-vs)"/>
+          <polygon points="92,0 184,38 0,38" fill="#1e3a5f"/>
+          <rect x="24" y="48" width="16" height="32" rx="1" fill="#334155" opacity="0.5"/>
+          <rect x="52" y="48" width="16" height="32" rx="1" fill="#334155" opacity="0.5"/>
+          <rect x="80" y="48" width="24" height="36" rx="1" fill="#475569" opacity="0.6"/>
+          <rect x="116" y="48" width="16" height="32" rx="1" fill="#334155" opacity="0.5"/>
+          <rect x="144" y="48" width="16" height="32" rx="1" fill="#334155" opacity="0.5"/>
+          <text x="92" y="54" text-anchor="middle" fill="#e0f2fe" font-size="6" font-weight="800" letter-spacing="0.04em">ВЕРХОВНЫЙ СУД РФ</text>
+          <text x="92" y="66" text-anchor="middle" fill="#93c5fd" font-size="5">Пленум № 19 · 16.06.2026</text>
+          <text x="92" y="78" text-anchor="middle" fill="#7dd3fc" font-size="4.5">изменения в Пленум № 29 (2002)</text>
+        </g>
+        <!-- весы правосудия -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(206, 54)">
+          <line x1="44" y1="10" x2="44" y2="30" stroke="#1e3a5f" stroke-width="2.2"/>
+          <line x1="18" y1="14" x2="70" y2="14" stroke="#1e3a5f" stroke-width="2.4"/>
+          <path d="M18 14 L10 28 L26 28 Z" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.2"/>
+          <path d="M70 14 L62 28 L78 28 Z" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.2"/>
+          <circle cx="10" cy="30" r="3.5" fill="#0d9488" opacity="0.9"/>
+          <circle cx="26" cy="30" r="3.5" fill="#0d9488" opacity="0.9"/>
+          <circle cx="62" cy="30" r="3.5" fill="#b91c1c" opacity="0.9"/>
+          <circle cx="78" cy="30" r="3.5" fill="#b91c1c" opacity="0.9"/>
+          <text x="18" y="38" text-anchor="middle" fill="#0f766e" font-size="4" font-weight="800">ст. 158</text>
+          <text x="70" y="38" text-anchor="middle" fill="#991b1b" font-size="4" font-weight="800">ст. 159</text>
+        </g>
+        <!-- цифровой кошелёк -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(168, 118)">
+          <rect width="164" height="108" rx="14" fill="url(#hero-p19-wallet)" stroke="#7dd3fc" stroke-width="1.5"/>
+          <rect x="12" y="10" width="140" height="88" rx="10" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+          <!-- экран смартфона -->
+          <rect x="20" y="18" width="124" height="72" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.8"/>
+          <text x="82" y="30" text-anchor="middle" fill="#64748b" font-size="4.5" font-weight="700">ЦИФРОВОЙ КОШЕЛЁК</text>
+          <!-- монета цифрового рубля -->
+          <circle cx="82" cy="58" r="22" fill="url(#hero-p19-ruble)" stroke="#0369a1" stroke-width="1.5"/>
+          <text x="82" y="64" text-anchor="middle" fill="#e0f2fe" font-size="18" font-weight="900">₽</text>
+          <text x="82" y="78" text-anchor="middle" fill="#0369a1" font-size="4" font-weight="700">цифровой рубль</text>
+          <!-- стрелка списания -->
+          <path d="M108 52 L128 52" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="3 2" marker-end="url(#hero-p19-arr-red)"/>
+          <text x="136" y="54" fill="#991b1b" font-size="3.5" font-weight="700">−</text>
+        </g>
+        <!-- развилка 158 / 159 -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(36, 248)">
+          <text x="214" y="0" text-anchor="middle" fill="#1e3a5f" font-size="5.5" font-weight="800">КРИТЕРИЙ ПЛЕНУМА: ОБМАН ТОЛЬКО ДЛЯ ДОСТУПА</text>
+          <!-- центральный столб -->
+          <circle cx="214" cy="28" r="10" fill="#1e3a5f"/>
+          <text x="214" y="31" text-anchor="middle" fill="#fff" font-size="5" font-weight="900">?</text>
+          <!-- ветка влево — кража -->
+          <path d="M204 34 L80 70" fill="none" stroke="#0d9488" stroke-width="2.2" marker-end="url(#hero-p19-arr-teal)"/>
+          <rect x="8" y="62" width="128" height="58" rx="8" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.2"/>
+          <text x="72" y="78" text-anchor="middle" fill="#0f766e" font-size="5.5" font-weight="800">ст. 158 — КРАЖА</text>
+          <text x="72" y="90" text-anchor="middle" fill="#334155" font-size="4">обман → доступ</text>
+          <text x="72" y="100" text-anchor="middle" fill="#334155" font-size="4">тайное списание</text>
+          <text x="72" y="112" text-anchor="middle" fill="#0d9488" font-size="3.5" font-weight="600">п. 2, п. 25.1 Пленума</text>
+          <!-- ветка вправо — мошенничество -->
+          <path d="M224 34 L348 70" fill="none" stroke="#b91c1c" stroke-width="2.2" marker-end="url(#hero-p19-arr-red)"/>
+          <rect x="292" y="62" width="128" height="58" rx="8" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.2"/>
+          <text x="356" y="78" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="800">ст. 159 — ОБМАН</text>
+          <text x="356" y="90" text-anchor="middle" fill="#334155" font-size="4">потерпевший сам</text>
+          <text x="356" y="100" text-anchor="middle" fill="#334155" font-size="4">передал деньги</text>
+          <text x="356" y="112" text-anchor="middle" fill="#b91c1c" font-size="3.5" font-weight="600">обман = способ завладения</text>
+        </g>
+        <!-- блок цифровых активов -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(36, 338)">
+          <rect width="200" height="56" rx="8" fill="#fff" stroke="#0369a1" stroke-width="1"/>
+          <text x="100" y="16" text-anchor="middle" fill="#0369a1" font-size="5" font-weight="800">ПРЕДМЕТ ХИЩЕНИЯ (п. 11)</text>
+          <text x="100" y="28" text-anchor="middle" fill="#334155" font-size="4">цифровой рубль · цифровые права</text>
+          <text x="100" y="38" text-anchor="middle" fill="#64748b" font-size="3.8">безналичные ДС · цифровая валюта</text>
+          <text x="100" y="48" text-anchor="middle" fill="#64748b" font-size="3.5">окончание = момент списания (п. 6)</text>
+        </g>
+        <!-- блок ст. 158.1 -->
+        <g filter="url(#hero-p19-shadow)" transform="translate(256, 338)">
+          <rect width="216" height="56" rx="8" fill="#fff" stroke="#0d9488" stroke-width="1"/>
+          <text x="108" y="16" text-anchor="middle" fill="#0f766e" font-size="5" font-weight="800">ст. 158.1 — МЕЛКОЕ ХИЩЕНИЕ</text>
+          <text x="108" y="28" text-anchor="middle" fill="#334155" font-size="4">≤ 2 500 ₽ · повтор после КоАП</text>
+          <text x="108" y="38" text-anchor="middle" fill="#64748b" font-size="3.8">4 проверки суда (п. 17.1)</text>
+          <text x="108" y="48" text-anchor="middle" fill="#64748b" font-size="3.5">адм. дело ≠ преюдиция для УК</text>
+        </g>
+        <text x="250" y="438" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">Пленум № 19 · цифровой кошелёк · весы 158/159 · тайное списание vs перевод</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="l24-intro-ug l24-reveal" aria-label="Кратко о Пленуме ВС № 19" style="--reveal-delay:40ms">
+<div class="l24-intro-ug__grid">
+<div class="l24-intro-ug__text">
+<p>16 июня 2026 года Пленум Верховного Суда РФ принял постановление № 19 — <strong>15 изменений</strong> в разъяснения по краже, грабежу и разбою. Три главные новеллы: цифровой рубль как предмет хищения, критерий «обман только для доступа → кража», чеклист по <strong>ст. 158.1 УК РФ</strong>.</p>
+<p>Материал для обвиняемых, потерпевших и тех, кто работает с цифровыми платежами: как отличить кражу от мошенничества и какие шаги защиты возможны на каждой стадии уголовного дела.</p>
+<div class="l24-intro-ug__brief"><strong>Источник:</strong> <a href="https://vsrf.ru/press_center/news/36011/" target="_blank" rel="noopener noreferrer">официальный инфоповод ВС от 16.06.2026</a> · публикация в «Российской газете» 23.06.2026.</div>
+</div>
+<div class="l24-intro-ug__decor">
+<ul class="l24-intro-ug__chips">
+<li class="l24-intro-ug__chip l24-intro-ug__chip--accent">Пленум № 19 · 16.06.2026</li>
+<li class="l24-intro-ug__chip l24-intro-ug__chip--theft">ст. 158 · кража</li>
+<li class="l24-intro-ug__chip l24-intro-ug__chip--fraud">ст. 159 · мошенничество</li>
+<li class="l24-intro-ug__chip">цифровой рубль · ст. 158.1</li>
+</ul>
+<p style="margin:0;font-size:.9rem;color:#475569;line-height:1.5">Спрос Wordstat: «ст 158.1 ук» ~984; «отличие кражи от мошенничества» ~268; «защита по уголовным делам» ~3 606 показов/мес.</p>
+</div>
+</div>
+</section>
+
+
+<nav class="ym-toc l24-reveal" aria-label="Содержание статьи" style="--reveal-delay:120ms"><p class="ym-toc__title">Содержание</p><ol class="ym-toc__list"><li><a href="#постановление-пленума-вс-рф-19-от-16-06-2026-что-изменилось">Постановление Пленума ВС РФ № 19 от 16.06.202…</a></li><li><a href="#цифровой-рубль-и-цифровые-права-как-предмет-кражи-ст-158-ук-рф">Цифровой рубль и цифровые права как предмет к…</a></li><li><a href="#кража-или-мошенничество-критерий-обман-только-для-доступа">Кража или мошенничество: критерий «обман толь…</a></li><li><a href="#ст-158-1-ук-рф-мелкое-хищение-и-повторность">Ст. 158.1 УК РФ: мелкое хищение и повторность</a></li><li><a href="#квалификация-хищений-по-ст-158-161-162-ук-рф-после-разъяснений">Квалификация хищений по ст. 158, 161, 162 УК …</a></li><li><a href="#защита-при-обвинении-в-краже-и-мошенничестве">Защита при обвинении в краже и мошенничестве</a></li><li><a href="#кому-актуально-физлица-бизнес-и-операторы-цифровых-платежей">Кому актуально: физлица, бизнес и операторы ц…</a></li><li><a href="#практика-2026-пленум-19-vs-другие-ug-материалы-legis24">Практика 2026: Пленум № 19 vs другие UG-матер…</a></li><li><a href="#частые-вопросы">Частые вопросы</a></li><li><a href="#l24-faq-plenum19">Частые вопросы</a></li></ol></nav>
+
+<div class="l24-longread-wrap l24-reveal" itemprop="articleBody" style="--reveal-delay:160ms">
+<p>16 июня 2026 года Пленум Верховного Суда РФ принял постановление № 19 «О внесении изменений в постановление Пленума ВС РФ от 27.12.2002 № 29». Документ напрямую затрагивает квалификацию хищений в цифровой среде: цифровой рубль, цифровые права и цифровая валюта закреплены как предмет кражи, грабежа и разбоя. Отдельно ВС разъяснил, когда обман при хищении денег со счёта — это кража по ст. 158 УК РФ, а не мошенничество по ст. 159, и какие проверки обязан провести суд при привлечении по ст. 158.1 УК РФ.</p>
+<p>Ниже — разбор постановления для обвиняемых, потерпевших и тех, кто работает с цифровыми платежами: что изменилось, как отличить кражу от мошенничества и какие шаги защиты возможны на каждой стадии уголовного дела.</p>
+<h2 id="постановление-пленума-вс-рф-19-от-16-06-2026-что-изменилось">Постановление Пленума ВС РФ № 19 от 16.06.2026: что изменилось</h2>
+<p>Постановление Пленума ВС РФ № 19 от 16.06.2026 вносит <strong>15 изменений</strong> в разъяснения по краже, грабежу и разбою (Пленум № 29 от 27.12.2002). Текст подписали председатель ВС И.В. Краснов и секретарь О.К. Зателепин; официальная публикация — в «Российской газете» от 23.06.2026 (федеральный выпуск № 134).</p>
+<p>Пленум № 19 — не самостоятельный акт о новых составах преступлений. Он <strong>уточняет судебную практику</strong> по уже действующим статьям главы 21 УК РФ на фоне цифровизации платежей и признания цифровой валюты имуществом с 03.03.2026 (ФЗ № 259-ФЗ).</p>
+<h3>Связь с Пленумом № 29 от 27.12.2002 о краже, грабеже и разбое</h3>
+<p>Пленум № 29 — базовый документ по квалификации хищений с 2002 года. Постановление № 19 <strong>дополняет и корректирует</strong> его положения, не отменяя прежнюю логику:</p>
+<ul><li>расширяет перечень объектов посягательства (цифровой рубль, цифровые права, цифровая валюта);</li><li>закрепляет критерий «обман только для доступа → кража»;</li><li>уточняет момент окончания кражи безналичных денежных средств;</li><li>вводит чеклист проверок по ст. 158.1 УК РФ;</li><li>детализирует квалификацию тайных списаний с банковских счетов и электронных кошельков.</li></ul>
+<p>Суды по-прежнему руководствуются Пленумом № 29, но с учётом редакции, введённой постановлением от 16 июня 2026 года.</p>
+<h3>Ключевые положения по цифровому рублю и цифровым правам</h3>
+<p>Новый <strong>п. 11</strong> Пленума № 29 прямо указывает: предметом кражи, грабежа и разбоя могут быть не только вещи, но и:</p>
+<ul><li><strong>безналичные денежные средства</strong>, в том числе <strong>цифровые рубли</strong>;</li><li><strong>бездокументарные ценные бумаги</strong>;</li><li><strong>цифровые права</strong>;</li><li><strong>цифровая валюта</strong>.</li></ul>
+<p>Ссылки в тексте постановления — на примечания к ст. 158 и ст. 104.1 УК РФ, а также на ст. 128 ГК РФ об имуществе.</p>
+<p><strong>П. 6</strong> уточняет окончание преступления: при хищении безналичных ДС преступление считается оконченным <strong>с момента списания</strong> со счёта или с электронных денежных средств, когда владельцу причинён имущественный ущерб.</p>
+<p>Цифровой рубль с <strong>01.09.2026</strong> вводится поэтапно в массовый оборот. Ректор РГУП им. Лебедева Ольга Тисен в комментарии для «Российской газеты» (22.06.2026) подчеркнула: цифровой рубль — <strong>разновидность безналичных денежных средств</strong>, эмитируемых Банком России, и <strong>не является криптовалютой</strong>. Для уголовной квалификации это означает применение общих правил о хищении денег, а не споров о «нематериальности» актива.</p>
+<h3>Отличие от Пленума ВС № 48 (мошенничество и криптовалюта — другой документ)</h3>
+<p>На Legis24 уже опубликован разбор <strong>Пленума ВС № 48</strong> (мошенничество, криптовалюта, дропперы, ст. 171.6 УК РФ). Пленум № 19 решает <strong>другую задачу</strong>:</p>
+<table><thead><tr><th scope="col">Параметр</th><th scope="col">Пленум № 48</th><th scope="col">Пленум № 19</th></tr></thead><tbody><tr><td>Глава УК</td><td>22 — преступления против собственности (ст. 159)</td><td>21 — кража, грабёж, разбой (ст. 158, 161, 162)</td></tr><tr><td>Фокус</td><td>мошенничество, цифровые активы, схемы обмана</td><td>кража, граница 158/159, ст. 158.1, списания</td></tr><tr><td>Ключевой вопрос</td><td>как квалифицировать обман при передаче активов</td><td>когда обман — не мошенничество, а кража</td></tr><tr><td>Цифровой рубль</td><td>упоминается контекстно</td><td>прямо назван предметом хищения</td></tr></tbody></table>
+<p>Путать два документа нельзя: защита по ст. 159 и по ст. 158 строится на разных доказательствах и разных процессуальных тактиках.</p>
+<h2 id="цифровой-рубль-и-цифровые-права-как-предмет-кражи-ст-158-ук-рф">Цифровой рубль и цифровые права как предмет кражи (ст. 158 УК РФ)</h2>
+<p>Ст. 158 УК РФ охраняет <strong>чужое имущество</strong>. До 2026 года суды уже квалифицировали криптовалюту как имущество — более пяти лет такой практики, по оценке Андрея Яковлева (А-ПРО, «Ведомости»). Пленум № 19 <strong>легализовал сложившийся подход</strong>, а не создал принципиально новую доктрину.</p>
+<p>Елизавета Лобутева (White Stone) отмечала: разъяснение снимает спор о том, может ли цифровая валюта быть предметом кражи, и адаптирует практику к кибер- и «классическим» схемам хищения цифровых активов.</p>
+<h3>Цифровой рубль на счёте цифровой валюты: когда это имущество для ст. 158</h3>
+<p>Цифровой рубль — безналичные денежные средства на счёте цифровой валюты. При тайном или открытом изъятии без согласия владельца действия подпадают под состав кражи (или грабежа/разбоя — в зависимости от способа).</p>
+<p><strong>Момент окончания преступления</strong> — списание с соответствующего счёта, когда потерпевший понёс ущерб. Это важно для:</p>
+<ul><li>определения срока давности;</li><li>установления размера ущерба при серии операций;</li><li>разграничения покушения и оконченного преступления.</li></ul>
+<h3>Цифровые права и цифровая валюта: единый подход ВС к объектам хищения</h3>
+<p>Пленум объединяет под одним подходом:</p>
+<ul><li>цифровые рубли;</li><li>цифровую валюту (в т.ч. криптовалюту как имущество);</li><li>цифровые права — требования, закреплённые в информационной системе.</li></ul>
+<p>Александр Филипенко (Адвокатская газета) указывал: постановление снижает риск квалификации кражи криптовалюты как несанкционированного доступа к компьютерной информации (ст. 272 УК РФ) <strong>в совокупности</strong>, если нет взлома программного обеспечения.</p>
+<h3>Банковские карты, электронные кошельки и смежная практика</h3>
+<p><strong>П. 25.1</strong> Пленума № 29: тайное списание денег с банковского счёта или электронного кошелька <strong>без взлома</strong> программного обеспечения или сетей квалифицируется как кража по <strong>п. «г» ч. 3 ст. 158 УК РФ</strong> — даже если конфиденциальные данные (код из СМС, реквизиты карты) получены под воздействием обмана.</p>
+<p><strong>П. 25.2</strong> уточняет предмет п. «г» ч. 3 ст. 158: только безналичные ДС в рублях или иностранной валюте на <strong>банковских счетах</strong> или <strong>электронных кошельках</strong> в смысле 161-ФЗ.</p>
+<p><strong>П. 25.3</strong>: несколько списаний с одного счёта при <strong>едином умысле</strong> образуют <strong>единое продолжаемое хищение</strong>; размер ущерба и квалификация определяются <strong>по общей сумме</strong>.</p>
+<p>По данным «Российской газеты», кража с банковского счёта по п. «г» ч. 3 ст. 158 — преступление повышенной тяжести <strong>вне зависимости от суммы</strong> списания. Это принципиально отличает «мелкое хищение» по ст. 158.1 от квалифицированной кражи со счёта.</p>
+<h2 id="кража-или-мошенничество-критерий-обман-только-для-доступа">Кража или мошенничество: критерий «обман только для доступа»</h2>
+<p>Разграничение кражи (ст. 158) и мошенничества (ст. 159) — центральная тема постановления № 19. Запросы «отличие кражи от мошенничества» и «разграничение кражи и мошенничества» отражают практический спрос: от квалификации зависят сроки наказания, возможность досудебки и стратегия защиты.</p>
+<h3>Когда обман — лишь способ получить доступ к имуществу → ст. 158, а не ст. 159</h3>
+<p><strong>П. 2</strong> Пленума № 29 (дополнение) формулирует правило дословно:</p>
+<blockquote><p>«Если виновное лицо использовало обман либо злоупотребление доверием только для обеспечения или облегчения доступа к имуществу, отвлечения внимания потерпевшего или иных лиц, но при этом само изъятие имущества осуществило тайно, то его действия образуют состав кражи.»</p></blockquote>
+<p>Адвокат Михаил Кузнецов (Адвокатская газета) пояснял: <strong>не всякий обман, направленный на хищение, образует мошенничество</strong>. Если обман служил лишь прикрытием для тайного изъятия — это кража.</p>
+<table><thead><tr><th scope="col">Ситуация</th><th scope="col">Квалификация</th><th scope="col">Логика ВС</th></tr></thead><tbody><tr><td>Потерпевший <strong>сам передаёт</strong> деньги или доступ, виновный <strong>распоряжается открыто</strong></td><td><strong>Мошенничество</strong>, ст. 159</td><td>обман = способ завладения</td></tr><tr><td>Обман <strong>только для доступа</strong>, затем <strong>тайное</strong> списание</td><td><strong>Кража</strong>, ст. 158 (в т.ч. п. «г» ч. 3)</td><td>п. 2, п. 25.1 Пленума</td></tr><tr><td>Списание с карты/кошелька <strong>без взлома</strong> ПО</td><td><strong>Кража</strong>, п. «г» ч. 3 ст. 158</td><td>п. 25.1</td></tr><tr><td>Несколько списаний, единый умысел</td><td><strong>Одно продолжаемое</strong> хищение</td><td>п. 25.3</td></tr><tr><td>Взлом ПО/сетей для доступа</td><td><strong>Не</strong> п. 25.1; возможна ст. 272 и др.</td><td>отрицательная оговорка п. 25.1</td></tr></tbody></table>
+<h3>Типовые схемы: перевод под влиянием обмана vs тайное хищение после доступа</h3>
+<p><strong>Практическая таблица сценариев</strong> — главный ориентир для потерпевших и обвиняемых:</p>
+<table><thead><tr><th scope="col">Сценарий</th><th scope="col">Что произошло</th><th scope="col">Вероятная квалификация</th></tr></thead><tbody><tr><td>«Сотрудник банка» убедил перевести деньги на «безопасный счёт»</td><td>потерпевший <strong>сам</strong> инициировал перевод</td><td><strong>ст. 159</strong> — мошенничество</td></tr><tr><td>Мошенник выманил код из СМС и <strong>тайно списал</strong> со счёта</td><td>обман → доступ → <strong>скрытое</strong> списание</td><td><strong>ст. 158</strong> п. «г» ч. 3 — кража</td></tr><tr><td>Передача данных карты «курьеру» / дропперу с последующим списанием</td><td>данные под обманом, изъятие тайное</td><td><strong>ст. 158</strong>, не ст. 159</td></tr><tr><td>Списание цифровых рублей со счёта цифровой валюты без согласия</td><td>тайное изъятие безналичных ДС</td><td><strong>ст. 158</strong></td></tr><tr><td>Проникновение в «хранилище» (шкаф, витрина в ТЦ) с предварительным обманом охраны</td><td>п. 18–19: выяснять, использовался ли обман для доступа</td><td><strong>кража</strong> при тайном изъятии</td></tr></tbody></table>
+<p>При проникновении в помещения, шкафы, витрины торговых центров суды обязаны выяснять (п. 18, 19): применялся ли обман <strong>исключительно</strong> для доступа — тогда при тайном изъятии это кража, а не мошенничество.</p>
+
+<section id="boris-theft-fraud-map" class="boris-theft-fraud-map" aria-label="Пленум ВС № 19: карта разграничения кражи (ст. 158) и мошенничества (ст. 159) при цифровых списаниях">
+<style>
+.boris-theft-fraud-map {
+  --tf-ink: #0c1222;
+  --tf-navy: #1a2744;
+  --tf-navy-soft: #243352;
+  --tf-theft: #dc2626;
+  --tf-theft-soft: #fca5a5;
+  --tf-fraud: #7c3aed;
+  --tf-fraud-soft: #c4b5fd;
+  --tf-digital: #059669;
+  --tf-digital-soft: #6ee7b7;
+  --tf-debit: #f59e0b;
+  --tf-debit-soft: #fde68a;
+  --tf-muted: #94a3b8;
+  --tf-text: #e2e8f0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.boris-theft-fraud-map__shell {
+  background: linear-gradient(152deg, var(--tf-ink) 0%, var(--tf-navy) 46%, var(--tf-navy-soft) 100%);
+  border: 1px solid rgba(30, 58, 138, 0.35);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  box-shadow: 0 18px 48px rgba(12, 18, 34, 0.45);
+  color: var(--tf-text);
+}
+.boris-theft-fraud-map__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tf-debit);
+}
+.boris-theft-fraud-map__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.boris-theft-fraud-map__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--tf-muted);
+  max-width: 72ch;
+}
+.boris-theft-fraud-map__lead strong { color: #fff; }
+.boris-theft-fraud-map__lead em {
+  font-style: normal;
+  color: var(--tf-debit-soft);
+  font-weight: 600;
+}
+.boris-theft-fraud-map__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.boris-theft-fraud-map__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.boris-theft-fraud-map__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--tf-debit);
+}
+.boris-theft-fraud-map__map-svg,
+.boris-theft-fraud-map__grid-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.boris-theft-fraud-map__map-svg { max-height: 340px; margin-bottom: 12px; }
+.boris-theft-fraud-map__grid-svg { max-height: 220px; margin-bottom: 14px; }
+.boris-theft-fraud-map__branches {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+.boris-theft-fraud-map__branch {
+  padding: 12px 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.28);
+  font-size: 0.72rem;
+  line-height: 1.42;
+  color: var(--tf-muted);
+}
+.boris-theft-fraud-map__branch--theft {
+  border-top: 3px solid var(--tf-theft);
+}
+.boris-theft-fraud-map__branch--fraud {
+  border-top: 3px solid var(--tf-fraud);
+}
+.boris-theft-fraud-map__branch strong {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.78rem;
+  color: #fff;
+}
+.boris-theft-fraud-map__branch--theft strong { color: var(--tf-theft-soft); }
+.boris-theft-fraud-map__branch--fraud strong { color: var(--tf-fraud-soft); }
+.boris-theft-fraud-map__quote {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.32);
+  font-size: 0.76rem;
+  line-height: 1.48;
+  color: var(--tf-text);
+  font-style: italic;
+}
+.boris-theft-fraud-map__quote cite {
+  display: block;
+  margin-top: 8px;
+  font-style: normal;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--tf-debit);
+  letter-spacing: 0.03em;
+}
+.boris-theft-fraud-map__table-wrap {
+  overflow-x: auto;
+  margin: 0 0 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.boris-theft-fraud-map__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.boris-theft-fraud-map__table th,
+.boris-theft-fraud-map__table td {
+  padding: 9px 10px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  vertical-align: top;
+}
+.boris-theft-fraud-map__table th {
+  background: rgba(0, 0, 0, 0.32);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.boris-theft-fraud-map__table tr:last-child td { border-bottom: none; }
+.boris-theft-fraud-map__table td { color: var(--tf-muted); }
+.boris-theft-fraud-map__table td strong { color: #fff; }
+.boris-theft-fraud-map__qual--theft {
+  color: var(--tf-theft-soft) !important;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.boris-theft-fraud-map__qual--fraud {
+  color: var(--tf-fraud-soft) !important;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.boris-theft-fraud-map__note {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(5, 150, 105, 0.12);
+  border: 1px solid rgba(5, 150, 105, 0.35);
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: var(--tf-text);
+}
+.boris-theft-fraud-map__note strong { color: var(--tf-digital-soft); }
+.boris-theft-fraud-map__caption {
+  margin: 10px 0 0;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  color: rgba(148, 163, 184, 0.88);
+  text-align: center;
+}
+.boris-theft-fraud-map__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.boris-theft-fraud-map__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--tf-text);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.boris-theft-fraud-map__tag--plenum { border-color: rgba(245, 158, 11, 0.5); color: var(--tf-debit-soft); }
+.boris-theft-fraud-map__tag--theft { border-color: rgba(220, 38, 38, 0.5); color: var(--tf-theft-soft); }
+.boris-theft-fraud-map__tag--fraud { border-color: rgba(124, 58, 237, 0.5); color: var(--tf-fraud-soft); }
+.boris-theft-fraud-map__tag--digital { border-color: rgba(5, 150, 105, 0.5); color: var(--tf-digital-soft); }
+@media (max-width: 900px) {
+  .boris-theft-fraud-map__split { grid-template-columns: 1fr; }
+  .boris-theft-fraud-map__branches { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="boris-theft-fraud-map__shell">
+    <p class="boris-theft-fraud-map__eyebrow">UG · Пленум ВС № 19 · 16.06.2026 · ст. 158 vs ст. 159</p>
+    <h3 class="boris-theft-fraud-map__title">Кража или мошенничество: карта квалификации при цифровых списаниях</h3>
+    <p class="boris-theft-fraud-map__lead">Пленум № 19 закрепил критерий ВС: если обман служил <strong>только доступу</strong> к счёту, а деньги списаны <strong>тайно</strong> — это <strong>кража</strong> (ст. 158, в т.ч. п. «г» ч. 3). Если потерпевший <strong>сам инициировал перевод</strong> — <strong>мошенничество</strong> (ст. 159). Для безналичных ДС преступление окончено с момента <em>списания</em> (п. 6 Пленума № 29).</p>
+
+    <div class="boris-theft-fraud-map__split">
+      <div class="boris-theft-fraud-map__panel">
+        <p class="boris-theft-fraud-map__panel-title">Карта решений: обман → квалификация</p>
+        <svg class="boris-theft-fraud-map__map-svg" viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tf-map-title tf-map-desc">
+          <title id="tf-map-title">Разграничение кражи и мошенничества по Пленуму ВС № 19</title>
+          <desc id="tf-map-desc">Дерево решений: при тайном списании после обмана для доступа — ст. 158; при добровольном переводе потерпевшим — ст. 159</desc>
+          <defs>
+            <linearGradient id="tf-axis" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#f59e0b"/>
+              <stop offset="50%" stop-color="#64748b"/>
+              <stop offset="100%" stop-color="#334155"/>
+            </linearGradient>
+            <marker id="tf-arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#94a3b8"/>
+            </marker>
+            <marker id="tf-arr-theft" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#f87171"/>
+            </marker>
+            <marker id="tf-arr-fraud" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#c4b5fd"/>
+            </marker>
+          </defs>
+
+          <rect x="4" y="4" width="552" height="312" rx="14" fill="rgba(0,0,0,0.22)" stroke="#334155" stroke-width="1"/>
+
+          <!-- Root -->
+          <rect x="196" y="20" width="168" height="48" rx="10" fill="rgba(245,158,11,0.14)" stroke="#f59e0b" stroke-width="1.8"/>
+          <text x="280" y="40" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="800">ОБМАН ПРИ ХИЩЕНИИ ДС</text>
+          <text x="280" y="54" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="600">телефон · СМС · «сотрудник банка»</text>
+          <line x1="280" y1="68" x2="280" y2="88" stroke="url(#tf-axis)" stroke-width="2.5"/>
+
+          <!-- Question 1 -->
+          <rect x="176" y="88" width="208" height="44" rx="8" fill="rgba(100,116,139,0.18)" stroke="#64748b" stroke-width="1.5"/>
+          <text x="280" y="106" text-anchor="middle" fill="#fff" font-size="6.8" font-weight="700">Кто инициировал изъятие денег?</text>
+          <text x="280" y="120" text-anchor="middle" fill="#94a3b8" font-size="6">перевод / распоряжение vs тайное списание</text>
+
+          <!-- Left branch: victim transfers -->
+          <path d="M176 110 L88 110 L88 168" stroke="#c4b5fd" stroke-width="2" fill="none" marker-end="url(#tf-arr-fraud)"/>
+          <rect x="20" y="168" width="136" height="56" rx="8" fill="rgba(124,58,237,0.14)" stroke="#7c3aed" stroke-width="1.8"/>
+          <text x="88" y="188" text-anchor="middle" fill="#c4b5fd" font-size="6.5" font-weight="800">ПОТЕРПЕВШИЙ САМ</text>
+          <text x="88" y="202" text-anchor="middle" fill="#e2e8f0" font-size="6">перевод на «безопасный счёт»</text>
+          <text x="88" y="214" text-anchor="middle" fill="#94a3b8" font-size="5.8">открытое распоряжение</text>
+
+          <!-- Right branch: secret debit -->
+          <path d="M384 110 L472 110 L472 168" stroke="#f87171" stroke-width="2" fill="none" marker-end="url(#tf-arr-theft)"/>
+          <rect x="404" y="168" width="136" height="56" rx="8" fill="rgba(220,38,38,0.14)" stroke="#dc2626" stroke-width="1.8"/>
+          <text x="472" y="188" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-weight="800">ВИНОВНЫЙ ТАЙНО</text>
+          <text x="472" y="202" text-anchor="middle" fill="#e2e8f0" font-size="6">списание с карты / кошелька</text>
+          <text x="472" y="214" text-anchor="middle" fill="#94a3b8" font-size="5.8">код СМС «только для доступа»</text>
+
+          <!-- Question 2 center -->
+          <path d="M280 132 L280 168" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#tf-arr)"/>
+          <rect x="196" y="168" width="168" height="44" rx="8" fill="rgba(100,116,139,0.12)" stroke="#475569" stroke-width="1.2"/>
+          <text x="280" y="186" text-anchor="middle" fill="#cbd5e1" font-size="6.5" font-weight="600">Обман = способ завладения?</text>
+          <text x="280" y="200" text-anchor="middle" fill="#94a3b8" font-size="5.8">или лишь прикрытие для доступа</text>
+
+          <!-- Outcomes -->
+          <path d="M88 224 L88 252" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#tf-arr-fraud)"/>
+          <rect x="24" y="252" width="128" height="52" rx="8" fill="rgba(124,58,237,0.2)" stroke="#7c3aed" stroke-width="2"/>
+          <text x="88" y="272" text-anchor="middle" fill="#c4b5fd" font-size="8" font-weight="800">ст. 159</text>
+          <text x="88" y="286" text-anchor="middle" fill="#e2e8f0" font-size="6">мошенничество</text>
+          <text x="88" y="298" text-anchor="middle" fill="#94a3b8" font-size="5.5">обман = завладение</text>
+
+          <path d="M472 224 L472 252" stroke="#dc2626" stroke-width="2.5" fill="none" marker-end="url(#tf-arr-theft)"/>
+          <rect x="408" y="252" width="128" height="52" rx="8" fill="rgba(220,38,38,0.2)" stroke="#dc2626" stroke-width="2"/>
+          <text x="472" y="270" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="800">ст. 158</text>
+          <text x="472" y="284" text-anchor="middle" fill="#e2e8f0" font-size="6">кража · п. «г» ч. 3</text>
+          <text x="472" y="296" text-anchor="middle" fill="#94a3b8" font-size="5.5">п. 2 · п. 25.1 Пленума</text>
+
+          <!-- Center outcome: depends -->
+          <path d="M280 212 L280 252" stroke="#059669" stroke-width="2" fill="none" marker-end="url(#tf-arr)"/>
+          <rect x="196" y="252" width="168" height="52" rx="8" fill="rgba(5,150,105,0.14)" stroke="#059669" stroke-width="1.5"/>
+          <text x="280" y="272" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700">ЦИФРОВОЙ РУБЛЬ / ДС</text>
+          <text x="280" y="286" text-anchor="middle" fill="#e2e8f0" font-size="6">окончание = списание</text>
+          <text x="280" y="298" text-anchor="middle" fill="#94a3b8" font-size="5.5">п. 6 · п. 11 Пленума № 29</text>
+
+          <!-- Debit moment indicator -->
+          <g transform="translate(16, 248)">
+            <rect width="52" height="28" rx="6" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="1"/>
+            <text x="26" y="14" text-anchor="middle" fill="#fde68a" font-size="5.5" font-weight="700">СПИСАНИЕ</text>
+            <text x="26" y="24" text-anchor="middle" fill="#94a3b8" font-size="5">= ущерб</text>
+          </g>
+        </svg>
+
+        <ul class="boris-theft-fraud-map__branches" aria-label="Два итога разграничения">
+          <li class="boris-theft-fraud-map__branch boris-theft-fraud-map__branch--theft">
+            <strong>Кража · ст. 158</strong>
+            Обман только для доступа → тайное списание с карты, кошелька или счёта цифрового рубля. П. 25.1: даже без взлома ПО.
+          </li>
+          <li class="boris-theft-fraud-map__branch boris-theft-fraud-map__branch--fraud">
+            <strong>Мошенничество · ст. 159</strong>
+            Потерпевший сам перевёл деньги или передал доступ — виновный распорядился имуществом открыто.
+          </li>
+        </ul>
+        <blockquote class="boris-theft-fraud-map__quote">
+          «Если виновное лицо использовало обман либо злоупотребление доверием только для обеспечения или облегчения доступа к имуществу… но при этом само изъятие имущества осуществило тайно, то его действия образуют состав кражи.»
+          <cite>п. 2 Пленума ВС № 29 (ред. Пленума № 19 от 16.06.2026)</cite>
+        </blockquote>
+        <p class="boris-theft-fraud-map__caption">Логика ВС: не всякий обман при хищении = мошенничество</p>
+      </div>
+
+      <div class="boris-theft-fraud-map__panel">
+        <p class="boris-theft-fraud-map__panel-title">Цифровые сценарии: списание и статья УК</p>
+        <svg class="boris-theft-fraud-map__grid-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tf-grid-title tf-grid-desc">
+          <title id="tf-grid-title">Схемы цифровых списаний: кража или мошенничество</title>
+          <desc id="tf-grid-desc">Пять типовых сценариев хищения безналичных денежных средств и цифрового рубля по разъяснениям Пленума № 19</desc>
+
+          <!-- Row 1: SMS + Transfer -->
+          <rect x="8" y="8" width="148" height="88" rx="8" fill="rgba(220,38,38,0.1)" stroke="#dc2626" stroke-width="1.2"/>
+          <text x="82" y="26" text-anchor="middle" fill="#fca5a5" font-size="6" font-weight="800">КОД ИЗ СМС</text>
+          <rect x="20" y="34" width="36" height="24" rx="4" fill="#1e293b" stroke="#475569"/>
+          <text x="38" y="50" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="700">SMS</text>
+          <path d="M58 46 L72 46" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
+          <rect x="72" y="34" width="36" height="24" rx="4" fill="#1e293b" stroke="#dc2626"/>
+          <text x="90" y="48" text-anchor="middle" fill="#fca5a5" font-size="5.5" font-weight="700">− ₽</text>
+          <path d="M108 46 L122 46" stroke="#94a3b8" stroke-width="1"/>
+          <rect x="122" y="36" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
+          <text x="134" y="50" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
+          <text x="82" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.5">тайное списание · п. 25.1</text>
+          <text x="82" y="84" text-anchor="middle" fill="#64748b" font-size="5">п. «г» ч. 3 ст. 158</text>
+
+          <rect x="164" y="8" width="148" height="88" rx="8" fill="rgba(124,58,237,0.1)" stroke="#7c3aed" stroke-width="1.2"/>
+          <text x="238" y="26" text-anchor="middle" fill="#c4b5fd" font-size="6" font-weight="800">«БЕЗОПАСНЫЙ СЧЁТ»</text>
+          <circle cx="200" cy="48" r="14" fill="rgba(100,116,139,0.3)" stroke="#94a3b8"/>
+          <text x="200" y="51" text-anchor="middle" fill="#e2e8f0" font-size="6">👤</text>
+          <path d="M214 48 L228 48" stroke="#c4b5fd" stroke-width="1.5" marker-end="url(#tf-arr-fraud)"/>
+          <rect x="228" y="36" width="36" height="24" rx="4" fill="#1e293b" stroke="#7c3aed"/>
+          <text x="246" y="50" text-anchor="middle" fill="#c4b5fd" font-size="5.5" font-weight="700">→ ₽</text>
+          <rect x="276" y="36" width="24" height="20" rx="3" fill="rgba(124,58,237,0.25)" stroke="#7c3aed"/>
+          <text x="288" y="50" text-anchor="middle" fill="#c4b5fd" font-size="5" font-weight="700">159</text>
+          <text x="238" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.5">сам инициировал перевод</text>
+          <text x="238" y="84" text-anchor="middle" fill="#64748b" font-size="5">мошенничество</text>
+
+          <!-- Row 2: Digital ruble + Dropper -->
+          <rect x="8" y="104" width="148" height="88" rx="8" fill="rgba(5,150,105,0.1)" stroke="#059669" stroke-width="1.2"/>
+          <text x="82" y="122" text-anchor="middle" fill="#6ee7b7" font-size="6" font-weight="800">ЦИФРОВОЙ РУБЛЬ</text>
+          <rect x="24" y="132" width="44" height="28" rx="5" fill="#064e3b" stroke="#059669"/>
+          <text x="46" y="146" text-anchor="middle" fill="#6ee7b7" font-size="5.5" font-weight="700">CBDC</text>
+          <text x="46" y="156" text-anchor="middle" fill="#94a3b8" font-size="4.5">счёт ЦВ</text>
+          <path d="M70 146 L88 146" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
+          <text x="108" y="142" fill="#fde68a" font-size="5.5" font-weight="600">списание</text>
+          <text x="108" y="154" fill="#94a3b8" font-size="5">без согласия</text>
+          <rect x="122" y="136" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
+          <text x="134" y="150" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
+          <text x="82" y="178" text-anchor="middle" fill="#64748b" font-size="5">п. 11 · безналичные ДС · не крипто</text>
+
+          <rect x="164" y="104" width="148" height="88" rx="8" fill="rgba(220,38,38,0.08)" stroke="#475569" stroke-width="1.2"/>
+          <text x="238" y="122" text-anchor="middle" fill="#fca5a5" font-size="6" font-weight="800">ДРОППЕР / КАРТА</text>
+          <rect x="178" y="134" width="32" height="22" rx="4" fill="#1e293b" stroke="#64748b"/>
+          <text x="194" y="149" text-anchor="middle" fill="#e2e8f0" font-size="5">CARD</text>
+          <path d="M212 145 L226 145" stroke="#94a3b8" stroke-width="1"/>
+          <rect x="226" y="132" width="32" height="26" rx="4" fill="rgba(0,0,0,0.3)" stroke="#f59e0b"/>
+          <text x="242" y="149" text-anchor="middle" fill="#fde68a" font-size="5">данные</text>
+          <path d="M260 145 L274 145" stroke="#f87171" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
+          <rect x="276" y="136" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
+          <text x="288" y="150" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
+          <text x="238" y="168" text-anchor="middle" fill="#94a3b8" font-size="5.5">обман → данные → тайное списание</text>
+          <text x="238" y="180" text-anchor="middle" fill="#64748b" font-size="5">не ст. 159 при тайности</text>
+        </svg>
+
+        <div class="boris-theft-fraud-map__table-wrap">
+          <table class="boris-theft-fraud-map__table">
+            <thead>
+              <tr>
+                <th scope="col">Сценарий</th>
+                <th scope="col">Механизм</th>
+                <th scope="col">Статья</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Код из СМС</strong></td>
+                <td>Обман → доступ → <strong>тайное</strong> списание с карты/счёта</td>
+                <td class="boris-theft-fraud-map__qual--theft">ст. 158 п. «г» ч. 3</td>
+              </tr>
+              <tr>
+                <td><strong>«Безопасный счёт»</strong></td>
+                <td>Потерпевший <strong>сам</strong> инициировал перевод</td>
+                <td class="boris-theft-fraud-map__qual--fraud">ст. 159</td>
+              </tr>
+              <tr>
+                <td><strong>Цифровой рубль</strong></td>
+                <td>Тайное списание со счёта цифровой валюты; окончание — момент списания</td>
+                <td class="boris-theft-fraud-map__qual--theft">ст. 158</td>
+              </tr>
+              <tr>
+                <td><strong>Дроппер / курьер</strong></td>
+                <td>Данные карты под обманом → скрытое изъятие без взлома ПО</td>
+                <td class="boris-theft-fraud-map__qual--theft">ст. 158 · п. 25.1</td>
+              </tr>
+              <tr>
+                <td><strong>Серия списаний</strong></td>
+                <td>Несколько операций с одного счёта при едином умысле</td>
+                <td class="boris-theft-fraud-map__qual--theft">единое хищение · п. 25.3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="boris-theft-fraud-map__note"><strong>Защита:</strong> при квалификации по ст. 159 требуйте пересмотр, если доказано тайное списание; при п. «г» ч. 3 — учитывайте сумму и способ (аргументы смягчения). Пленум № 48 — о <em>мошенничестве</em>; № 19 — о <em>краже</em> и границе 158/159.</p>
+        <p class="boris-theft-fraud-map__caption">Таблица-схема по п. 2, 6, 11, 25.1–25.3 Пленума № 29 (ред. 16.06.2026)</p>
+      </div>
+    </div>
+
+    <div class="boris-theft-fraud-map__foot" aria-label="Нормативный контекст Пленума № 19">
+      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--plenum">Пленум ВС № 19 · 16.06.2026</span>
+      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--theft">ст. 158 · п. «г» ч. 3</span>
+      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--fraud">ст. 159 · мошенничество</span>
+      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--digital">цифровой рубль · CBDC</span>
+    </div>
+  </div>
+</section>
+<h3>Переквалификация со ст. 159 на ст. 158 и обратно: риски для обвиняемого</h3>
+<p>Для обвиняемого переквалификация <strong>мошенничества в кражу</strong> (или наоборот) меняет:</p>
+<ul><li>предельный срок наказания;</li><li>тяжесть преступления (п. «г» ч. 3 ст. 158 — особый квалифицирующий признак);</li><li>основания для заключения под стражу и меры пресечения;</li><li>возможность соглашения о сотрудничестве.</li></ul>
+<p>Следствие нередко изначально квалифицирует телефонные схемы как <strong>ст. 159</strong>. Защита может требовать <strong>ст. 158</strong>, если доказано тайное списание после обмана «для доступа». Обратная ситуация тоже возможна: при открытой передаче денег потерпевшим квалификация по ст. 158 будет ошибочной.</p>
+<p>Аргумент защиты при смещении 159 → 158: потерпевший <strong>не передавал</strong> деньги виновному добровольно — обман не был способом <strong>непосредственного</strong> завладения, а лишь средством получения доступа к счёту.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Следствие квалифицировало дело как мошенничество, а фактически было тайное списание? По Пленуму № 19 это может быть кража по ст. 158 — от квалификации зависят срок и мера пресечения.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помочь с переквалификацией кражи и мошенничества</a></p>
+</aside>
+<h2 id="ст-158-1-ук-рф-мелкое-хищение-и-повторность">Ст. 158.1 УК РФ: мелкое хищение и повторность</h2>
+<p>Ст. 158.1 УК РФ введена для <strong>повторного мелкого хищения</strong> после административного наказания. Запросы «ст 158.1 ук рф» (~853–984 в Wordstat) и «мелкое хищение ст 158.1 ук рф» (~120) показывают устойчивый интерес к условиям применения статьи. Пленум дополнил <strong>п. 17.1</strong> — чеклист обязательных проверок для суда.</p>
+<h3>Условие административного наказания за хищение до 2 500 ₽</h3>
+<p>Ст. 158.1 применяется, если одновременно:</p>
+<ol><li><strong>Размер хищения</strong> — не более <strong>2 500 рублей</strong> (кража, мошенничество, присвоение, растрата).</li><li>Лицо <strong>подвергалось административному наказанию</strong> по <strong>ч. 2 ст. 7.27 КоАП РФ</strong> за мелкое хищение.</li></ol>
+<p><strong>Наказание по ст. 158.1 УК РФ:</strong> штраф до 40 000 руб., обязательные работы до 180 часов, исправительные работы до 6 месяцев, ограничение свободы до 1 года, принудительные работы до 1 года, арест до 2 месяцев, <strong>лишение свободы до 1 года</strong>.</p>
+<h3>Проверка судами: вступило ли постановление о виновности в админправонарушении</h3>
+<p><strong>П. 17.1</strong> Пленума обязывает суд проверить <strong>четыре условия</strong>:</p>
+<ol><li>Вступило ли постановление по делу об административном правонарушении в законную силу <strong>на момент совершения повторного хищения</strong>.</li><li><strong>Исполнено</strong> ли административное наказание.</li><li>Не истёк ли <strong>один год</strong> с момента окончания исполнения наказания (в т.ч. уплаты штрафа).</li><li>Не было ли административное постановление <strong>отменено</strong> в порядке гл. 30 КоАП РФ.</li></ol>
+<p>Михаил Кузнецов подчёркивал: <strong>административное дело не является преюдицией</strong> для уголовного. Виновность по ст. 158.1 должна доказываться заново в уголовно-процессуальном порядке. Наличие протокола по КоАП само по себе не заменяет доказательства вины по УК.</p>
+<p>Александр Чарыков (Адвокатская газета) указывал: при нарушении условий применения ст. 158.1 ВС ориентирует на <strong>возврат дела прокурору</strong>, а не на оправдательный приговор. Это процессуальный аргумент для защиты при процедурных ошибках.</p>
+<h3>Ч. 1 и ч. 3 ст. 158.1: состав, наказание, судебная практика</h3>
+<p><strong>Ч. 1 ст. 158.1</strong> — базовый состав повторного мелкого хищения.</p>
+<p><strong>Ч. 3 ст. 158.1</strong> — квалифицированный состав (с дополнительными признаками по тексту статьи).</p>
+<p>При оценке приговоров по ст. 158.1 защита проверяет:</p>
+<ul><li>доказан ли размер ущерба (≤ 2 500 руб.);</li><li>соблюдён ли годовой интервал после админнаказания;</li><li>не переквалифицировали ли дело из КоАП в УК формально, без доказывания состава.</li></ul>
+<p><strong>Чеклист защиты по ст. 158.1:</strong></p>
+<ul class="l24-checklist"><li>Запросить материалы административного дела: дата вступления постановления в силу.</li><li>Проверить справку об исполнении штрафа / отбытии наказания.</li><li>Сопоставить дату повторного хищения с годовым сроком.</li><li>Установить, не отменялось ли админпостановление.</li><li>Требовать самостоятельного доказывания вины по УК, а не ссылок на КоАП.</li></ul>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Обвинение по ст. 158.1 требует проверки четырёх условий из п. 17.1 Пленума: административное дело само по себе не доказывает вину по УК.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите при ст. 158.1</a></p>
+</aside>
+<h2 id="квалификация-хищений-по-ст-158-161-162-ук-рф-после-разъяснений">Квалификация хищений по ст. 158, 161, 162 УК РФ после разъяснений</h2>
+<p>Пленум № 19 затрагивает не только кражу, но и <strong>грабёж</strong> (ст. 161) и <strong>разбой</strong> (ст. 162). Общий принцип: способ изъятия и открытость посягательства определяют статью.</p>
+<h3>Кража, грабёж, разбой: общие и отличительные признаки по Пленуму</h3>
+<table><thead><tr><th scope="col">Преступление</th><th scope="col">Суть</th><th scope="col">Отличие</th></tr></thead><tbody><tr><td><strong>Кража</strong>, ст. 158</td><td>тайное хищение</td><td>потерпевший не осознаёт изъятие в момент совершения</td></tr><tr><td><strong>Грабёж</strong>, ст. 161</td><td>открытое хищение</td><td>без насилия или угрозы</td></tr><tr><td><strong>Разбой</strong>, ст. 162</td><td>открытое хищение с насилием/угрозой</td><td>наиболее тяжкая форма</td></tr></tbody></table>
+<p>При списании с чужого счёта без ведома владельца применяется <strong>кража</strong> (п. «г» ч. 3 ст. 158), а не грабёж — нет открытого противостояния с потерпевшим в момент изъятия.</p>
+<h3>Состав преступления и предмет посягательства в цифровой среде</h3>
+<p><strong>Объективная сторона</strong> кражи безналичных ДС включает:</p>
+<ul><li>неправомерное <strong>списание</strong> без согласия владельца;</li><li>причинение <strong>имущественного ущерба</strong>;</li><li><strong>причинно-следственную связь</strong> между действиями и списанием.</li></ul>
+<p>Михаил Кузнецов рекомендует требовать не только факт списания, но и документы о <strong>получении</strong> денежных средств конкретным лицом (в практике встречается, в частности, дело № 22-4388/2024 Кемеровского областного суда).</p>
+<p><strong>Субъективная сторона</strong> — умысел на хищение. При серии списаний важен вопрос <strong>единого умысла</strong> (п. 25.3). Александр Филипенко отмечал: Пленум <strong>не раскрыл критерии единого умысла</strong> в цифровой среде — защита может оспаривать объединение эпизодов при разрыве во времени, разных устройствах или IP-адресах.</p>
+<p>При крупном и особо крупном размере п. 25 (дополнение) допускает учёт признака <strong>«с причинением значительного ущерба гражданину»</strong>.</p>
+<h3>Смежные статьи: присвоение, растрата — кратко</h3>
+<p><strong>Присвоение и растрата</strong> (ст. 160 УК РФ) применяются, когда виновный <strong>законно владел</strong> имуществом или распоряжался им по служебному положению. При тайном списании с чужого счёта третьим лицом без доверительных отношений — <strong>ст. 158</strong>, а не ст. 160.</p>
+<p>Разграничение кражи, присвоения и мошенничества — типовой предмет судебной практики; постановление № 19 не отменяет прежние критерии, но ужесточает ясность для <strong>цифровых</strong> объектов и <strong>электронных</strong> списаний.</p>
+<h2 id="защита-при-обвинении-в-краже-и-мошенничестве">Защита при обвинении в краже и мошенничестве</h2>
+<p>Запрос «защита по уголовным делам» (~3 606) и «защита адвоката по уголовным делам» (~899) отражают потребность в тактике до суда. Пленум № 19 даёт конкретные аргументы на стадии проверки, предварительного расследования и судебного разбирательства.</p>
+<h3>Оспаривание квалификации на стадии доследственной проверки</h3>
+<p>На стадии <strong>доследственной проверки</strong> (ст. 144–145 УПК РФ) заявитель или будущий подозреваемый вправе:</p>
+<ul><li>подать <strong>заявление</strong> о возбуждении или отказе в возбуждении дела;</li><li>представить документы о добровольной передаче денег (для аргументации ст. 159);</li><li>указать на <strong>тайный характер</strong> списания (для аргументации ст. 158);</li><li>ходатайствовать о <strong>процессуальной проверке</strong> действий следователя.</li></ul>
+<p>Ранняя <strong>консультация по уголовным рискам</strong> позволяет не давать показания, противоречащие будущей линии защиты.</p>
+<h3>Доказательства доступа, согласия потерпевшего, отсутствия тайности</h3>
+<p>Ключевые доказательственные блоки:</p>
+<p><strong>При защите от обвинения в мошенничестве (ст. 159):</strong>
+- переписка, звонки, подтверждение «добровольного» перевода;
+- отсутствие тайного доступа к счёту обвиняемым.</p>
+<p><strong>При защите от обвинения в краже (ст. 158), в т.ч. п. «г» ч. 3:</strong>
+- оспаривание факта, что списание совершил именно клиент;
+- данные о <strong>получателе</strong> денежных средств;
+- экспертиза банковских и технических логов.</p>
+<p><strong>При смягчении наказания по п. «г» ч. 3 ст. 158:</strong>
+- Александр Чарыков указывал: суд должен учитывать <strong>сумму, способ и поведение</strong> виновного;
+- аргументы по <strong>ч. 6 ст. 15, ч. 1 ст. 64 УК РФ</strong> — существенное отличие карточного списания на небольшую сумму от кражи со значительным ущербом.</p>
+<h3>Ходатайства о переквалификации и смягчении ответственности по ст. 158.1</h3>
+<p>Типовые ходатайства защиты:</p>
+<ol><li><strong>О переквалификации</strong> со ст. 159 на ст. 158 (или обратно) с ссылкой на п. 2 и п. 25.1 Пленума.</li><li><strong>О прекращении дела</strong> по ст. 158.1 при несоблюдении условий п. 17.1.</li><li><strong>О возврате дела прокурору</strong> при процедурных нарушениях (позиция ВС, Чарыков).</li><li><strong>О разъединении эпизодов</strong> при отсутствии единого умысла (п. 25.3).</li><li><strong>О назначении наказания без лишения свободы</strong> с учётом характера деяния и размера ущерба.</li></ol>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">На стадии доследственной проверки и следствия важно выстроить линию защиты до первых показаний: квалификация по ст. 158 или 159, доказательства тайного списания, ходатайства о переквалификации.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с защитой в уголовном деле о хищении</a></p>
+</aside>
+<h2 id="кому-актуально-физлица-бизнес-и-операторы-цифровых-платежей">Кому актуально: физлица, бизнес и операторы цифровых платежей</h2>
+<h3>Риски при переводах цифрового рубля и работе с цифровыми активами</h3>
+<p><strong>Физическим лицам</strong> важно понимать:</p>
+<ul><li>передача кода из СМС «сотруднику банка» может повлечь <strong>тяжкую</strong> квалификацию по ст. 158 для лица, списавшего средства;</li><li>потерпевший вправе подать заявление с корректной квалификацией — от этого зависит ход расследования.</li></ul>
+<p><strong>Бизнесу</strong> и <strong>операторам платёжной инфраструктуры</strong>:</p>
+<ul><li>рост числа операций с цифровым рублем с 01.09.2026 увеличит поток уголовных дел о списаниях;</li><li>внутренние регламенты идентификации клиента влияют на доказательства «тайности» и «доступа».</li></ul>
+<p>По данным обсуждения в «Российской газете», в 2024 году потерпевшие подали <strong>79 804 иска</strong> о возмещении ущерба от преступлений — уголовное дело и гражданский иск могут идти <strong>параллельно</strong>.</p>
+<h3>Поведение при возбуждении уголовного дела по ст. 158 или 159</h3>
+<ol><li><strong>Не обсуждать детали</strong> с оператором по телефону и не передавать коды до консультации.</li><li><strong>Сохранить</strong> переписку, выписки, скриншоты, записи звонков.</li><li><strong>Обратиться за защитой</strong> до первой явки на допрос.</li><li><strong>Проверить квалификацию</strong> в постановлении о возбуждении: ст. 158 и ст. 159 требуют разной доказательственной базы.</li><li><strong>Заявить ходатайства</strong> о доказательствах списания и получателе денег.</li></ol>
+<h3>Чек-лист: когда нужна консультация адвоката до дачи показаний</h3>
+<p>Обратиться к защитнику <strong>до допроса</strong> стоит, если:</p>
+<ul class="l24-checklist"><li>звонили «из банка» или «из полиции» с просьбой перевести деньги или назвать код;</li><li>со счёта списали средства без вашего согласия;</li><li>вас вызывают как <strong>подозреваемого</strong> по ст. 158, 158.1 или 159;</li><li>после штрафа по ч. 2 ст. 7.27 КоАП вновь предъявлено обвинение в мелком хищении;</li><li>следователь настаивает на квалификации, не совпадающей с фактическими обстоятельствами (перевод vs тайное списание);</li><li>вы дроппер / курьер и не понимаете, в чём вас обвиняют.</li></ul>
+<p><a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовным рискам при хищении цифровых активов</a> — разбор ситуации по критериям Пленума № 19 до дачи показаний.</p>
+<h2 id="практика-2026-пленум-19-vs-другие-ug-материалы-legis24">Практика 2026: Пленум № 19 vs другие UG-материалы Legis24</h2>
+<h3>Отличие от plenum-vs-48-moshennichestvo-kriptovalyuta-zashchita (мошенничество/крипто)</h3>
+<p>Материал <strong>Пленум ВС № 48</strong> на Legis24 посвящён <strong>мошенничеству</strong>, криптовалюте, дропперам и ст. 171.6 УК РФ. Пленум № 19 дополняет линейку, но не дублирует её:</p>
+<ul><li>№ 48 — защита при обвинении в <strong>обмане</strong> и схемах с цифровыми активами;</li><li>№ 19 — <strong>кража</strong>, списания, ст. 158.1, граница 158/159, цифровой рубль как безналичные ДС.</li></ul>
+<p>При комплексных схемах (обман + тайное списание + отмывание) может потребоваться анализ <strong>обоих</strong> документов и смежных статей.</p>
+<h3>Отличие от ks-43-p-2026 (мошенничество, госдоля)</h3>
+<p>Определение КС РФ № 43-П/2026 касалось <strong>мошенничества</strong> и разграничения с иными составами при доле государства в юрлице. Пленум № 19 <strong>не затрагивает</strong> эту проблематику. Пересечение — только в общем вопросе <strong>квалификации хищений</strong>.</p>
+<h3>Где искать полный текст постановления и комментарии</h3>
+<table><thead><tr><th scope="col">Источник</th><th scope="col">Содержание</th></tr></thead><tbody><tr><td><a href="https://vsrf.ru/press_center/news/36011/" target="_blank" rel="noopener noreferrer">vsrf.ru/press_center/news/36011</a></td><td>официальный инфоповод ВС</td></tr><tr><td><a href="https://www.consultant.ru/document/cons_doc_LAW_537044/" target="_blank" rel="noopener noreferrer">consultant.ru — LAW_537044</a></td><td>полный текст постановления</td></tr><tr><td><a href="https://rg.ru/documents/2026/06/23/postanovlenije16-dok.html" target="_blank" rel="noopener noreferrer">rg.ru — документ 23.06.2026</a></td><td>публикация в «Российской газете»</td></tr><tr><td><a href="https://www.garant.ru/news/2133854/" target="_blank" rel="noopener noreferrer">garant.ru/news/2133854</a></td><td>структурированный пересказ новелл</td></tr><tr><td><a href="https://www.advgazeta.ru/novosti/plenum-vs-vnov-skorrektiroval-svoi-razyasneniya-po-delam-o-krazhe-grabezhe-i-razboe/" target="_blank" rel="noopener noreferrer">advgazeta.ru</a></td><td>комментарии Цирика, Кузнецова, Чарыкова, Филипенко</td></tr></tbody></table>
+<section id="l24-faq-plenum19" class="l24-faq-ug" aria-label="Частые вопросы">
+<h2>Частые вопросы</h2>
+<div class="l24-faq-ug__item">
+<p class="l24-faq-ug__q">Что изменил постановление Пленума ВС № 19 от 16.06.2026?</p>
+<p class="l24-faq-ug__a">Пленум внёс 15 изменений в разъяснения по краже, грабежу и разбою: закрепил цифровой рубль, цифровые права и цифровую валюту как предмет хищения, уточнил критерий «обман только для доступа», момент окончания кражи при списании безналичных ДС и чеклист проверок по ст. 158.1 УК РФ.</p>
+</div>
+<div class="l24-faq-ug__item">
+<p class="l24-faq-ug__q">Цифровой рубль — предмет кражи по УК РФ?</p>
+<p class="l24-faq-ug__a">Да. Пленум прямо относит цифровые рубли к безналичным денежным средствам — объектам кражи по ст. 158 УК РФ. Цифровой рубль — не криптовалюта, а разновидность безналичных ДС, эмитируемых Банком России.</p>
+</div>
+<div class="l24-faq-ug__item">
+<p class="l24-faq-ug__q">Чем отличается кража от мошенничества после Пленума № 19?</p>
+<p class="l24-faq-ug__a">Если обман использован <strong>только</strong> для доступа или отвлечения внимания, а имущество изъято <strong>тайно</strong> — это <strong>кража</strong> (ст. 158). Если потерпевший <strong>сам передал</strong> деньги или доступ, а виновный распорядился имуществом <strong>открыто</strong> — <strong>мошенничество</strong> (ст. 159).</p>
+</div>
+<div class="l24-faq-ug__item">
+<p class="l24-faq-ug__q">Когда применяется ст. 158.1 УК РФ?</p>
+<p class="l24-faq-ug__a">При хищении на сумму <strong>не более 2 500 руб.</strong> лицом, которое в течение года после исполнения наказания по ч. 2 ст. 7.27 КоАП было подвергнуто административному наказанию за мелкое хищение. Суд обязан проверить четыре условия из п. 17.1 Пленума.</p>
+</div>
+<div class="l24-faq-ug__item">
+<p class="l24-faq-ug__q">Тайное списание с карты после обмана — кража или мошенничество?</p>
+<p class="l24-faq-ug__a">По п. 25.1 Пленума — <strong>кража</strong> по п. «г» ч. 3 ст. 158 УК РФ, даже если данные карты или код из СМС получены обманом, при условии отсутствия взлома программного обеспечения.</p>
+</div>
+<div class="l24-faq-ug__item">
+<p class="l24-faq-ug__q">Чем Пленум № 19 отличается от Пленума № 48?</p>
+<p class="l24-faq-ug__a">Пленум № 48 разъясняет <strong>мошенничество</strong> (ст. 159) и работу с криптовалютой в контексте обмана. Пленум № 19 — о <strong>краже, грабеже, разбое</strong> (гл. 21 УК), границе ст. 158 и ст. 159, ст. 158.1 и списаниях с счетов.</p>
+</div>
+</section><aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text">Постановление Пленума ВС РФ № 19 от 16.06.2026 меняет расклад в делах о хищении цифровых рублей, списаниях с карт и повторном мелком хищении. От правильной квалификации — кража или мошенничество, ст. 158.1 или п. «г» ч. 3 ст. 158 — зависят сроки, мера пресечения и итог суда.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите при квалификации хищения цифровых активов</a></p>
+</aside>
+
+<p><em>Материал носит информационно-аналитический характер и не является юридической консультацией. Для оценки конкретной ситуации обратитесь к специалисту по уголовному праву.</em></p>
+</div>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество", "description": "16.06.2026: Пленум ВС РФ № 19 разъяснил квалификацию хищений цифрового рубля и цифровых прав, отличие кражи от мошенничества и условия ст. 158.1 УК РФ. Защита при обвинении.", "inLanguage": "ru-RU", "datePublished": "2026-06-16", "dateModified": "2026-06-30", "author": {"@type": "Organization", "name": "Legis24"}, "publisher": {"@type": "Organization", "name": "Legis24"}, "mainEntityOfPage": "https://vsrf.ru/press_center/news/36011/", "about": ["Пленум ВС № 19 2026", "цифровой рубль кража", "ст 158.1 ук рф", "отличие кражи от мошенничества", "защита по уголовным делам"]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Что изменил постановление Пленума ВС № 19 от 16.06.2026?", "acceptedAnswer": {"@type": "Answer", "text": "Пленум внёс 15 изменений в разъяснения по краже, грабежу и разбою: закрепил цифровой рубль, цифровые права и цифровую валюту как предмет хищения, уточнил критерий «обман только для доступа», момент окончания кражи при списании безналичных ДС и чеклист проверок по ст. 158.1 УК РФ."}}, {"@type": "Question", "name": "Цифровой рубль — предмет кражи по УК РФ?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Пленум прямо относит цифровые рубли к безналичным денежным средствам — объектам кражи по ст. 158 УК РФ."}}, {"@type": "Question", "name": "Чем отличается кража от мошенничества после Пленума № 19?", "acceptedAnswer": {"@type": "Answer", "text": "Если обман использован только для доступа, а имущество изъято тайно — это кража (ст. 158). Если потерпевший сам передал деньги — мошенничество (ст. 159)."}}, {"@type": "Question", "name": "Когда применяется ст. 158.1 УК РФ?", "acceptedAnswer": {"@type": "Answer", "text": "При хищении на сумму не более 2 500 руб. лицом, которое в течение года после исполнения наказания по ч. 2 ст. 7.27 КоАП было подвергнуто административному наказанию за мелкое хищение."}}, {"@type": "Question", "name": "Тайное списание с карты после обмана — кража или мошенничество?", "acceptedAnswer": {"@type": "Answer", "text": "По п. 25.1 Пленума — кража по п. «г» ч. 3 ст. 158 УК РФ, даже если данные карты получены обманом."}}, {"@type": "Question", "name": "Чем Пленум № 19 отличается от Пленума № 48?", "acceptedAnswer": {"@type": "Answer", "text": "Пленум № 48 разъясняет мошенничество (ст. 159). Пленум № 19 — о краже, грабеже, разбое, границе ст. 158 и ст. 159, ст. 158.1."}}]}</script>
+</main>
+<!-- /wp:html -->
+
+
+## Передача Юре
+SLUG: plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026
+excerpt (Description): 16.06.2026: Пленум ВС РФ № 19 разъяснил квалификацию хищений цифрового рубля и цифровых прав, отличие кражи от мошенничества и условия ст. 158.1 УК РФ. Защита при обвинении.
+Режим: MCP-only — HTML без canvas/script-анимаций; JSON-LD Article + FAQPage в конце `<main>`.
+Файл: `.cursor/page-content-natasha-plenum19.html`
