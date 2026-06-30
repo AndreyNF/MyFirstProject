@@ -37,6 +37,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 17 | B3 | IP | POIZON в СИП: как суд признал товарный знак недействительным (Кирилл, май 2026) | poizon-tovarnyj-znak-sip-osporenie-registracii | ✅ page_id 422 |
 | 18 | B4 | IP | ВС: защита от компенсации за ТЗ иностранца из недружественной страны (Кирилл, июнь 2026) | vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany | ✅ page_id 443 |
 | 19 | B5 / KIRILL-ARB | ARB | ВС РФ обзор № 8/2026: спецмеры в арбитраже — ничтожность сделок в обход Указов № 81, 95, 322 (Кирилл, июнь 2026) | vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok | ✅ page_id 535 |
+| 20 | B6 / KIRILL-IP | IP | СИП 2026: Президиум аннулировал товарный знак «ВПР» издательства «Просвещение» — злоупотребление правом (Кирилл, июнь 2026) | sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie | ✅ page_id 540 |
 
 > Канонический URL A3 на проде: `srok-vozrazhenij-30-vs-15-mify` (без «dnej» в slug).  
 > Типы и углы: `article-types-legis24.md`.

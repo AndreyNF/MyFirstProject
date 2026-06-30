@@ -5285,3 +5285,39 @@ H1: СИП 2026: Президиум аннулировал товарный зн
 SLUG: sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie
 H1_для_hero: СИП 2026: Президиум аннулировал товарный знак «ВПР» издательства «Просвещение»
 ПОДЗАГОЛОВОК_HERO: Злоупотребление правом и монополия на аббревиатуру госпроекта — полное прекращение охраны (дело СИП-844/2025)
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**Файл:** `.cursor/page-content-natasha-vpr.html`
+**SLUG:** `sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie`
+**Title:** СИП 2026: аннулировали ТЗ «ВПР» «Просвещение» — злоупотребление правом | Legis24
+**Description:** СИП 2026 прекратил охрану ТЗ «ВПР» «Просвещение»: злоупотребление правом на госаббревиатуру. Оспаривание, ответ на претензию и иск — ст. 10, 1483 ГК РФ.
+**Размер файла:** 102141 байт
+**Класс main:** `site-main sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie-page`
+
+ВНИМАНИЕ: MCP-only — без `<canvas>` и произвольных `<script>`; единственный script — `application/ld+json` (Article + FAQPage). Hero Алины и блок Бориса — static SVG + inline CSS.
+
+**Структура:** hero → intro grid + ym-toc → контент Артура (4 CTA) → `#boris-vpr-process` после таблицы стратегий в H2 оспаривания → FAQ → JSON-LD.
+
+## Передача Юре
+
+**slug:** `sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie`
+**title:** СИП 2026: аннулировали ТЗ «ВПР» «Просвещение» — злоупотребление правом | Legis24
+**excerpt (Description):** СИП 2026 прекратил охрану ТЗ «ВПР» «Просвещение»: злоупотребление правом на госаббревиатуру. Оспаривание, ответ на претензию и иск — ст. 10, 1483 ГК РФ.
+**page_id:** `PLACEHOLDER` (после `wordpress_create_page`)
+**Публикация:** blob flow; обернуть в `<!-- wp:html -->`; не добавлять `<script>` кроме JSON-LD.
+**Проверить:** `main#primary`, класс `sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie-page`, hero `#l24-hero-sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie`, Boris `#boris-vpr-process`, FAQ `#faq`, breadcrumbs скрыты, padding-top сброшен.
+**CTA:** https://advokat-vsem.ru/ (4 блока ym-cta)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО (MCP Kovcheg blob flow, 7 чанков)
+Дата: 2026-06-30
+Код: KIRILL-IP
+page_id: 540
+blob_id: 5kVab1HbZrcw8MVTUWjNbA
+sha256: 2a93751580ddd3f6a8eff2e60fa6887a509ff569174f76bf9a01253fbd8c5b0c
+bytes: 77531
+URL: https://advokat-vsem.online/sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie/
+Метод: wordpress_content_blob_append (reset + 6 чанков, finalize) → wordpress_update_page_from_blob → wordpress_update_page (publish + excerpt)
+Проверить: `main#primary`, `sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie-page`, hero `#l24-hero-sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie`, Boris `#boris-vpr-process`, FAQ `#faq`
