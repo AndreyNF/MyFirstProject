@@ -95,3 +95,9 @@ scripts/vs_obzor_*
 .cursor/build-natasha-ks-dolya.py
 scripts/ks_mcp_*.py
 !scripts/ks_mcp_blob_step.py
+# KIRILL-ARB vs-obzor-8 MCP blob temp (2026-06-30)
+.cursor/vs8-*
+scripts/vs8_mcp_*.py
+scripts/vs8_blob_*.py
+scripts/vs8_kovcheg_*.py
+!scripts/vs8_mcp_invoke_step.py
