@@ -1,202 +1,230 @@
 === БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
 Статус: ✅ ГОТОВО
 
-**SLUG:** `ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026`  
-**Якорь:** `l24-boris-st159-ch4-ch5-matrix`  
-**Размещение:** сразу после H3 «Таблица сравнения: состав, ущерб, санкции, сроки» (внутри H2 «Ч. 4 и ч. 5 ст. 159 УК РФ — в чём разница»), перед H2 «Ошибочная практика судов до постановления КС» — якорь для Natasha.  
-**Режим:** тёмная панель в теле статьи (контраст со светлым hero Алины) — **сравнительная сетка ч. 4 vs ч. 5 ст. 159 + SVG «ловушка порогов»** по делу Шеврюкова (КС № 43-П/2026, ВС № 64-УД26-2-К9).  
+**SLUG:** `vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok`  
+**Якорь:** `l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map`  
+**Размещение для Наташи:** сразу **после H2 «Ничтожность сделок в обход спецпорядка (ст. 10, 168 ГК РФ)»** (после последнего H3 «Отличие ничтожной сделки от оспоримой в спорах о спецмерах»), **перед H2 «Продажа недвижимости без разрешения Правкомиссии (Указ № 81)»**.  
+**Режим:** тёмная панель в теле статьи (**контраст** со светлым hero Алины по обзору ВС № 8/2026) — **карта трёх рисков + SVG «счёт С / 10 млн ₽ / счёт О»** вместо перечисления 22 позиций.  
 **Legis24 MCP-only:** static SVG + inline CSS, без `<canvas>` и `<script>`.
 
+## Паспорт блока
+
+| Параметр | Значение |
+|----------|----------|
+| **Метафора** | «Три коридора риска» от центрального узла спецмер (Указы 81/95/322) — сделки/платежи, ИС, санкционный процесс |
+| **Цифры-крючки** | 10 млн ₽/мес., счета «С»/«О», 6+ млрд ₽ дробления, 46,5% порта, 22 позиции → 3 блока |
+| **Палитра** | Тёмный navy `#0c1829`–`#1e3a5f` (контраст hero); риск `#f87171`; порог `#fbbf24`; ИС `#a78bfa`; процесс `#38bdf8` |
+| **Композиция** | Сплит: SVG-карта счетов и указов \| сетка из 3 карточек риска + теги |
+
+**Чеклист отличий от hero Алины**
+- [x] Не полноэкранный блок; в теле статьи после 2-й секции H2
+- [x] Свой `id`: `l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map` (не `l24-hero-…`)
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
+- [x] Тёмная панель — контраст со светлым ARB-hero Алины (обзор ВС, спецмеры)
+- [x] Сплит «SVG счёт С / 10 млн / счёт О + три коридора» | «3 карточки риска по п. 1–21»
+
 ```html
-<section id="l24-boris-st159-ch4-ch5-matrix" class="l24-boris-st159-ch4-ch5-matrix" aria-label="Сравнение ч. 4 и ч. 5 ст. 159 УК РФ: состав, ущерб, санкции и ловушка порогов в деле Шеврюкова">
+<section id="l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map" class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map" aria-label="Обзор ВС № 8/2026: карта рисков ничтожности сделок — счета С и О, порог 10 млн рублей, три блока для бизнеса">
 <style>
-.l24-boris-st159-ch4-ch5-matrix {
-  --st159-navy: #0f1c2e;
-  --st159-navy-soft: #1a3050;
-  --st159-ch4: #fc8181;
-  --st159-ch4-soft: #fed7d7;
-  --st159-ch5: #68d391;
-  --st159-ch5-soft: #c6f6d5;
-  --st159-gold: #ecc94b;
-  --st159-blue: #63b3ed;
-  --st159-ink: #e2e8f0;
-  --st159-muted: #a0aec0;
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map {
+  --vs8rm-ink: #0c1829;
+  --vs8rm-navy: #152238;
+  --vs8rm-navy-soft: #1e3a5f;
+  --vs8rm-gold: #fbbf24;
+  --vs8rm-risk: #f87171;
+  --vs8rm-risk-soft: #fecaca;
+  --vs8rm-deal: #fb923c;
+  --vs8rm-ip: #a78bfa;
+  --vs8rm-ip-soft: #ddd6fe;
+  --vs8rm-proc: #38bdf8;
+  --vs8rm-proc-soft: #bae6fd;
+  --vs8rm-muted: #94a3b8;
+  --vs8rm-text: #e2e8f0;
   margin: 48px 0;
   padding: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.l24-boris-st159-ch4-ch5-matrix__shell {
-  background: linear-gradient(155deg, var(--st159-navy) 0%, #152a45 50%, var(--st159-navy-soft) 100%);
-  border: 1px solid rgba(99, 179, 237, 0.28);
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__shell {
+  background: linear-gradient(152deg, var(--vs8rm-ink) 0%, var(--vs8rm-navy) 46%, var(--vs8rm-navy-soft) 100%);
+  border: 1px solid rgba(56, 189, 248, 0.28);
   border-radius: 14px;
   padding: 32px 28px 26px;
-  box-shadow: 0 18px 48px rgba(15, 28, 46, 0.34);
-  color: var(--st159-ink);
+  box-shadow: 0 18px 48px rgba(12, 24, 41, 0.38);
+  color: var(--vs8rm-text);
 }
-.l24-boris-st159-ch4-ch5-matrix__eyebrow {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__eyebrow {
   margin: 0 0 8px;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--st159-gold);
+  color: var(--vs8rm-gold);
 }
-.l24-boris-st159-ch4-ch5-matrix__title {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__title {
   margin: 0 0 10px;
   font-size: clamp(1.15rem, 2.4vw, 1.42rem);
   line-height: 1.25;
   color: #fff;
   font-weight: 700;
 }
-.l24-boris-st159-ch4-ch5-matrix__lead {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__lead {
   margin: 0 0 24px;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: var(--st159-muted);
+  color: var(--vs8rm-muted);
   max-width: 72ch;
 }
-.l24-boris-st159-ch4-ch5-matrix__lead strong { color: #fff; }
-.l24-boris-st159-ch4-ch5-matrix__split {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__lead strong { color: #fff; }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__split {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
   gap: 24px;
   align-items: stretch;
 }
-.l24-boris-st159-ch4-ch5-matrix__panel {
-  background: rgba(255, 255, 255, 0.06);
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel {
+  background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 20px 18px;
 }
-.l24-boris-st159-ch4-ch5-matrix__panel-title {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel-title {
   margin: 0 0 14px;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--st159-gold);
+  color: var(--vs8rm-gold);
 }
-.l24-boris-st159-ch4-ch5-matrix__scheme-svg {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__map-svg {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 360px;
+  max-height: 340px;
   margin-bottom: 12px;
 }
-.l24-boris-st159-ch4-ch5-matrix__verdict {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__accounts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account {
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.28);
+  border-top: 3px solid var(--vs8rm-proc);
+  font-size: 0.72rem;
+  line-height: 1.38;
+  text-align: center;
+  color: var(--vs8rm-muted);
+}
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account:nth-child(1) { border-top-color: var(--vs8rm-proc); }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account:nth-child(2) { border-top-color: var(--vs8rm-gold); }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account:nth-child(3) { border-top-color: var(--vs8rm-ip); }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account strong {
+  display: block;
+  color: #fff;
+  font-size: 0.82rem;
+  margin-bottom: 4px;
+}
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__verdict {
   margin: 0;
   padding: 12px 14px;
   border-radius: 8px;
-  background: rgba(236, 201, 75, 0.12);
-  border: 1px solid rgba(236, 201, 75, 0.38);
+  background: rgba(251, 191, 36, 0.1);
+  border: 1px solid rgba(251, 191, 36, 0.35);
   font-size: 0.78rem;
   line-height: 1.45;
-  color: var(--st159-ink);
+  color: var(--vs8rm-text);
 }
-.l24-boris-st159-ch4-ch5-matrix__verdict strong { color: var(--st159-gold); }
-.l24-boris-st159-ch4-ch5-matrix__caption {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__verdict strong { color: var(--vs8rm-gold); }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__caption {
   margin: 10px 0 0;
   font-size: 0.7rem;
   line-height: 1.4;
-  color: rgba(160, 174, 192, 0.88);
+  color: rgba(148, 163, 184, 0.88);
   text-align: center;
 }
-.l24-boris-st159-ch4-ch5-matrix__compare-head {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr) minmax(0, 1fr);
-  gap: 8px;
-  margin: 0 0 8px;
-  padding: 0 4px;
-  font-size: 0.72rem;
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk {
+  margin: 0;
+  padding: 14px 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.24);
+  border-left: 3px solid var(--vs8rm-deal);
+  font-size: 0.76rem;
+  line-height: 1.42;
+  color: #cbd5e1;
+}
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--ip { border-left-color: var(--vs8rm-ip); }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--proc { border-left-color: var(--vs8rm-proc); }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag {
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  background: rgba(251, 146, 60, 0.18);
+  color: var(--vs8rm-deal);
 }
-.l24-boris-st159-ch4-ch5-matrix__compare-head span:nth-child(2) { color: var(--st159-ch4-soft); text-align: center; }
-.l24-boris-st159-ch4-ch5-matrix__compare-head span:nth-child(3) { color: var(--st159-ch5-soft); text-align: center; }
-.l24-boris-st159-ch4-ch5-matrix__grid {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  margin: 0 0 14px;
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--ip .vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag {
+  background: rgba(167, 139, 250, 0.18);
+  color: var(--vs8rm-ip);
 }
-.l24-boris-st159-ch4-ch5-matrix__row {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr) minmax(0, 1fr);
-  gap: 8px;
-  align-items: start;
-  padding: 10px 11px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  font-size: 0.74rem;
-  line-height: 1.38;
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--proc .vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag {
+  background: rgba(56, 189, 248, 0.18);
+  color: var(--vs8rm-proc);
 }
-.l24-boris-st159-ch4-ch5-matrix__row--key { border-left: 3px solid var(--st159-gold); }
-.l24-boris-st159-ch4-ch5-matrix__row-label {
-  font-weight: 700;
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk strong {
+  display: block;
   color: #fff;
-  font-size: 0.76rem;
+  font-size: 0.82rem;
+  margin-bottom: 5px;
 }
-.l24-boris-st159-ch4-ch5-matrix__cell {
-  color: var(--st159-muted);
-  padding: 4px 8px;
-  border-radius: 6px;
-}
-.l24-boris-st159-ch4-ch5-matrix__cell--ch4 {
-  background: rgba(252, 129, 129, 0.12);
-  border: 1px solid rgba(252, 129, 129, 0.28);
-}
-.l24-boris-st159-ch4-ch5-matrix__cell--ch5 {
-  background: rgba(104, 211, 145, 0.12);
-  border: 1px solid rgba(104, 211, 145, 0.28);
-}
-.l24-boris-st159-ch4-ch5-matrix__cell em {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk em {
   font-style: normal;
   font-weight: 600;
   color: #fff;
 }
-.l24-boris-st159-ch4-ch5-matrix__cell--ch4 em { color: var(--st159-ch4-soft); }
-.l24-boris-st159-ch4-ch5-matrix__cell--ch5 em { color: var(--st159-ch5-soft); }
-.l24-boris-st159-ch4-ch5-matrix__case-bar {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  margin: 0 0 10px;
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
 }
-.l24-boris-st159-ch4-ch5-matrix__case-card {
-  padding: 10px 12px;
-  border-radius: 8px;
-  font-size: 0.72rem;
-  line-height: 1.4;
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact {
+  font-size: 0.66rem;
+  font-weight: 600;
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--vs8rm-muted);
 }
-.l24-boris-st159-ch4-ch5-matrix__case-card--before {
-  background: rgba(252, 129, 129, 0.14);
-  border: 1px solid rgba(252, 129, 129, 0.4);
-}
-.l24-boris-st159-ch4-ch5-matrix__case-card--after {
-  background: rgba(104, 211, 145, 0.14);
-  border: 1px solid rgba(104, 211, 145, 0.4);
-}
-.l24-boris-st159-ch4-ch5-matrix__case-card strong {
-  display: block;
-  font-size: 0.76rem;
-  margin-bottom: 4px;
-}
-.l24-boris-st159-ch4-ch5-matrix__case-card--before strong { color: var(--st159-ch4-soft); }
-.l24-boris-st159-ch4-ch5-matrix__case-card--after strong { color: var(--st159-ch5-soft); }
-.l24-boris-st159-ch4-ch5-matrix__note {
-  margin: 0;
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__note {
+  margin: 12px 0 0;
   font-size: 0.76rem;
   line-height: 1.45;
-  color: var(--st159-muted);
+  color: var(--vs8rm-muted);
 }
-.l24-boris-st159-ch4-ch5-matrix__note em {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__note em {
   font-style: normal;
-  color: #bee3f8;
+  color: var(--vs8rm-risk-soft);
   font-weight: 600;
 }
-.l24-boris-st159-ch4-ch5-matrix__foot {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__foot {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -204,213 +232,185 @@
   padding-top: 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
-.l24-boris-st159-ch4-ch5-matrix__tag {
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag {
   font-size: 0.72rem;
   font-weight: 600;
   padding: 6px 10px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.06);
-  color: var(--st159-ink);
+  color: var(--vs8rm-text);
   border: 1px solid rgba(255, 255, 255, 0.14);
 }
-.l24-boris-st159-ch4-ch5-matrix__tag--case {
-  border-color: rgba(236, 201, 75, 0.5);
-  color: var(--st159-gold);
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--doc {
+  border-color: rgba(251, 191, 36, 0.5);
+  color: var(--vs8rm-gold);
 }
-.l24-boris-st159-ch4-ch5-matrix__tag--art { border-color: rgba(99, 179, 237, 0.45); color: #bee3f8; }
-.l24-boris-st159-ch4-ch5-matrix__tag--def { border-color: rgba(104, 211, 145, 0.45); color: #c6f6d5; }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--law { border-color: rgba(248, 113, 113, 0.45); color: var(--vs8rm-risk-soft); }
+.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--proc { border-color: rgba(56, 189, 248, 0.45); color: var(--vs8rm-proc-soft); }
 @media (max-width: 900px) {
-  .l24-boris-st159-ch4-ch5-matrix__split { grid-template-columns: 1fr; }
-  .l24-boris-st159-ch4-ch5-matrix__compare-head { display: none; }
-  .l24-boris-st159-ch4-ch5-matrix__row {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-  .l24-boris-st159-ch4-ch5-matrix__cell--ch4::before,
-  .l24-boris-st159-ch4-ch5-matrix__cell--ch5::before {
-    display: block;
-    font-size: 0.65rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    margin-bottom: 3px;
-  }
-  .l24-boris-st159-ch4-ch5-matrix__cell--ch4::before { content: "ч. 4 ст. 159"; color: var(--st159-ch4-soft); }
-  .l24-boris-st159-ch4-ch5-matrix__cell--ch5::before { content: "ч. 5 ст. 159"; color: var(--st159-ch5-soft); }
-  .l24-boris-st159-ch4-ch5-matrix__case-bar { grid-template-columns: 1fr; }
+  .vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__split { grid-template-columns: 1fr; }
+  .vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__accounts { grid-template-columns: 1fr; }
 }
 </style>
 
-  <div class="l24-boris-st159-ch4-ch5-matrix__shell">
-    <p class="l24-boris-st159-ch4-ch5-matrix__eyebrow">ст. 159 УК · ч. 4 vs ч. 5 · КС № 43-П/2026 · ВС № 64-УД26-2-К9 · дело Шеврюкова</p>
-    <h3 class="l24-boris-st159-ch4-ch5-matrix__title">Переквалификация мошенничества: ч. 4 (тяжкое) ↔ ч. 5 (предпринимательское)</h3>
-    <p class="l24-boris-st159-ch4-ch5-matrix__lead">Один и тот же ущерб <strong>2 159 315,11 ₽</strong> в деле Шеврюкова (подряд с ПАО «Сахалинэнерго») по общей норме — <strong>особо крупный</strong> (ч. 4, до 10 лет), по специальной шкале ч. 5–7 — лишь <strong>значительный</strong> (до 5 лет). ВС переквалифицировал состав; КС признал неконституционной практику отказа из‑за госакционера.</p>
+  <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__shell">
+    <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__eyebrow">ARB · обзор ВС № 8/2026 · № 11А/2026 · 17.06.2026 · Указы 81, 95, 322</p>
+    <h3 class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__title">22 позиции ВС → три коридора риска: сделки, ИС и санкционный процесс</h3>
+    <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__lead">Обзор не требует заучивать все 22 пункта: суды группируют практику вокруг <strong>ничтожности с момента сделки</strong> (ст. 10, 168 ГК РФ), спецсчетов <strong>«С»</strong> и <strong>«О»</strong> и порога <strong>10 млн ₽/мес.</strong> ФНС, Генпрокуратура и прокуратура активно оспаривают обходные схемы; суд вправе проверить уступку <strong>сам</strong> (п. 7).</p>
 
-    <div class="l24-boris-st159-ch4-ch5-matrix__split">
-      <div class="l24-boris-st159-ch4-ch5-matrix__panel">
-        <p class="l24-boris-st159-ch4-ch5-matrix__panel-title">Ловушка порогов: две шкалы ущерба при ~2,16 млн ₽</p>
-        <svg class="l24-boris-st159-ch4-ch5-matrix__scheme-svg" viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="st159-scheme-title st159-scheme-desc">
-          <title id="st159-scheme-title">Схема переквалификации мошенничества с ч. 4 на ч. 5 ст. 159 УК РФ</title>
-          <desc id="st159-scheme-desc">Ущерб 2,16 млн рублей квалифицируется как особо крупный по ч. 4 и как значительный по ч. 5; дело Шеврюкова — переквалификация ВС и постановление КС № 43-П/2026</desc>
+    <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__split">
+      <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel">
+        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel-title">Узел спецмер: счёт «С» · 10 млн ₽ · счёт «О»</p>
+        <svg class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__map-svg" viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vs8rm-map-title vs8rm-map-desc">
+          <title id="vs8rm-map-title">Карта рисков обзора ВС № 8/2026: три блока от узла спецмер и спецсчетов</title>
+          <desc id="vs8rm-map-desc">Центральный узел Указы 81, 95, 322 со счетами С и О и порогом 10 миллионов рублей; три коридора риска — сделки и платежи, интеллектуальная собственность, санкционный процесс</desc>
           <defs>
-            <linearGradient id="st159-flow" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="#fc8181"/>
-              <stop offset="50%" stop-color="#ecc94b"/>
-              <stop offset="100%" stop-color="#68d391"/>
+            <linearGradient id="vs8rm-hub" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1e3a5f"/>
+              <stop offset="100%" stop-color="#0c1829"/>
             </linearGradient>
-            <marker id="st159-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path d="M0,0 L8,4 L0,8 Z" fill="#ecc94b"/>
+            <marker id="vs8rm-arr-deal" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#fb923c"/>
+            </marker>
+            <marker id="vs8rm-arr-ip" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#a78bfa"/>
+            </marker>
+            <marker id="vs8rm-arr-proc" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#38bdf8"/>
             </marker>
           </defs>
 
-          <text x="300" y="16" text-anchor="middle" fill="#ecc94b" font-size="8" font-weight="600">дело Шеврюкова · ПАО «Сахалинэнерго» · ущерб 2 159 315,11 ₽</text>
+          <rect x="4" y="4" width="552" height="312" rx="14" fill="rgba(0,0,0,0.22)" stroke="#334155" stroke-width="1"/>
 
-          <!-- Damage marker -->
-          <rect x="220" y="26" width="160" height="28" rx="6" fill="rgba(236,201,75,0.2)" stroke="#ecc94b" stroke-width="1.5"/>
-          <text x="300" y="44" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">2,16 млн ₽</text>
+          <!-- Central hub -->
+          <circle cx="280" cy="118" r="52" fill="url(#vs8rm-hub)" stroke="#fbbf24" stroke-width="2"/>
+          <text x="280" y="104" text-anchor="middle" fill="#fbbf24" font-size="8" font-weight="700">СПЕЦМЕРЫ</text>
+          <text x="280" y="118" text-anchor="middle" fill="#fff" font-size="7" font-weight="600">Указы 81 · 95 · 322</text>
+          <text x="280" y="132" text-anchor="middle" fill="#94a3b8" font-size="6.5">ст. 10, 168 ГК РФ</text>
 
-          <!-- Fork arrows -->
-          <path d="M 260 54 L 140 78" stroke="#fc8181" stroke-width="2" fill="none" marker-end="url(#st159-arrow)"/>
-          <path d="M 340 54 L 460 78" stroke="#68d391" stroke-width="2" fill="none" marker-end="url(#st159-arrow)"/>
+          <!-- Account S -->
+          <rect x="88" y="168" width="96" height="56" rx="8" fill="#0f2744" stroke="#38bdf8" stroke-width="1.8"/>
+          <text x="136" y="188" text-anchor="middle" fill="#38bdf8" font-size="9" font-weight="800">счёт «С»</text>
+          <text x="136" y="202" text-anchor="middle" fill="#bae6fd" font-size="6.5">Указ № 95</text>
+          <text x="136" y="214" text-anchor="middle" fill="#94a3b8" font-size="6">кредиторы</text>
+          <path d="M184 196 L228 148" stroke="#38bdf8" stroke-width="1.8" fill="none"/>
 
-          <!-- Ch4 scale -->
-          <rect x="24" y="80" width="232" height="108" rx="8" fill="rgba(252,129,129,0.15)" stroke="#fc8181" stroke-width="1.5"/>
-          <text x="140" y="98" text-anchor="middle" fill="#fed7d7" font-size="9" font-weight="700">ч. 4 ст. 159 — общий состав</text>
-          <text x="140" y="112" text-anchor="middle" fill="#fc8181" font-size="7.5" font-weight="600">особо крупный размер ≥ 1 000 000 ₽</text>
-          <!-- scale bar ch4 -->
-          <rect x="40" y="122" width="200" height="12" rx="3" fill="rgba(0,0,0,0.3)"/>
-          <rect x="40" y="122" width="200" height="12" rx="3" fill="#fc8181" opacity="0.7"/>
-          <line x1="40" y1="118" x2="40" y2="138" stroke="#fff" stroke-width="1"/>
-          <text x="40" y="148" text-anchor="middle" fill="#a0aec0" font-size="5.5">0</text>
-          <line x1="140" y1="118" x2="140" y2="138" stroke="#ecc94b" stroke-width="1.5"/>
-          <text x="140" y="148" text-anchor="middle" fill="#ecc94b" font-size="5.5">1 млн</text>
-          <circle cx="195" cy="128" r="6" fill="#fff" stroke="#fc8181" stroke-width="2"/>
-          <text x="195" y="160" text-anchor="middle" fill="#fed7d7" font-size="6.5" font-weight="600">2,16 млн = ОКР</text>
-          <text x="140" y="174" text-anchor="middle" fill="#feb2b2" font-size="7">тяжкое · до 10 лет ЛС</text>
-          <text x="140" y="184" text-anchor="middle" fill="#a0aec0" font-size="6">арест по общим правилам УПК</text>
+          <!-- 10 mln threshold -->
+          <rect x="232" y="178" width="96" height="56" rx="8" fill="#422006" stroke="#fbbf24" stroke-width="2"/>
+          <text x="280" y="198" text-anchor="middle" fill="#fbbf24" font-size="10" font-weight="800">10 млн ₽</text>
+          <text x="280" y="212" text-anchor="middle" fill="#fde68a" font-size="6.5">/ мес. · единоврем.</text>
+          <text x="280" y="224" text-anchor="middle" fill="#94a3b8" font-size="6">п. 3–4 обзора</text>
+          <line x1="280" y1="170" x2="280" y2="178" stroke="#fbbf24" stroke-width="1.8"/>
 
-          <!-- Ch5 scale -->
-          <rect x="344" y="80" width="232" height="108" rx="8" fill="rgba(104,211,145,0.15)" stroke="#68d391" stroke-width="1.5"/>
-          <text x="460" y="98" text-anchor="middle" fill="#c6f6d5" font-size="9" font-weight="700">ч. 5 ст. 159 — предпринимательское</text>
-          <text x="460" y="112" text-anchor="middle" fill="#68d391" font-size="7.5" font-weight="600">значительный ущерб ≥ 250 000 ₽</text>
-          <rect x="360" y="122" width="200" height="12" rx="3" fill="rgba(0,0,0,0.3)"/>
-          <rect x="360" y="122" width="52" height="12" rx="3" fill="#68d391" opacity="0.7"/>
-          <line x1="360" y1="118" x2="360" y2="138" stroke="#fff" stroke-width="1"/>
-          <text x="360" y="148" text-anchor="middle" fill="#a0aec0" font-size="5.5">0</text>
-          <line x1="412" y1="118" x2="412" y2="138" stroke="#ecc94b" stroke-width="1.5"/>
-          <text x="412" y="148" text-anchor="middle" fill="#ecc94b" font-size="5.5">250 тыс</text>
-          <circle cx="430" cy="128" r="6" fill="#fff" stroke="#68d391" stroke-width="2"/>
-          <text x="430" y="160" text-anchor="middle" fill="#c6f6d5" font-size="6.5" font-weight="600">2,16 млн = значит.</text>
-          <text x="460" y="174" text-anchor="middle" fill="#9ae6b4" font-size="7">средней тяжести · до 5 лет</text>
-          <text x="460" y="184" text-anchor="middle" fill="#a0aec0" font-size="6">запрет ареста (ч. 1.1 ст. 108 УПК)</text>
+          <!-- Account O -->
+          <rect x="376" y="168" width="96" height="56" rx="8" fill="#2e1065" stroke="#a78bfa" stroke-width="1.8"/>
+          <text x="424" y="188" text-anchor="middle" fill="#a78bfa" font-size="9" font-weight="800">счёт «О»</text>
+          <text x="424" y="202" text-anchor="middle" fill="#ddd6fe" font-size="6.5">Указ № 322</text>
+          <text x="424" y="214" text-anchor="middle" fill="#94a3b8" font-size="6">правообладатели</text>
+          <path d="M376 196 L332 148" stroke="#a78bfa" stroke-width="1.8" fill="none"/>
 
-          <!-- Requalification arrow -->
-          <path d="M 140 192 L 300 218 L 460 192" stroke="url(#st159-flow)" stroke-width="2.5" fill="none" marker-end="url(#st159-arrow)"/>
-          <rect x="200" y="222" width="200" height="36" rx="8" fill="rgba(99,179,237,0.18)" stroke="#63b3ed" stroke-width="1.5"/>
-          <text x="300" y="238" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">ПЕРЕКВАЛИФИКАЦИЯ ч. 4 → ч. 5</text>
-          <text x="300" y="250" text-anchor="middle" fill="#e2e8f0" font-size="6.5">ВС № 64-УД26-2-К9 · 25.02.2026</text>
+          <!-- Corridor 1: deals -->
+          <path d="M228 88 L72 52" stroke="#fb923c" stroke-width="2.2" fill="none" marker-end="url(#vs8rm-arr-deal)"/>
+          <rect x="8" y="24" width="128" height="58" rx="8" fill="rgba(251,146,60,0.14)" stroke="#fb923c" stroke-width="1.6"/>
+          <text x="72" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Сделки и платежи</text>
+          <text x="72" y="58" text-anchor="middle" fill="#fb923c" font-size="6.5" font-weight="600">п. 1–9</text>
+          <text x="72" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.8">недвижимость · дробление · цессия</text>
 
-          <!-- Sentence comparison -->
-          <rect x="48" y="268" width="220" height="44" rx="8" fill="rgba(252,129,129,0.2)" stroke="#fc8181" stroke-width="1.5"/>
-          <text x="158" y="286" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">ДО: ч. 4</text>
-          <text x="158" y="300" text-anchor="middle" fill="#feb2b2" font-size="7">4 года ЛС условно · исп. срок 3 года</text>
+          <!-- Corridor 2: IP -->
+          <path d="M332 88 L488 52" stroke="#a78bfa" stroke-width="2.2" fill="none" marker-end="url(#vs8rm-arr-ip)"/>
+          <rect x="424" y="24" width="128" height="58" rx="8" fill="rgba(167,139,250,0.14)" stroke="#a78bfa" stroke-width="1.6"/>
+          <text x="488" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">ИС и лицензии</text>
+          <text x="488" y="58" text-anchor="middle" fill="#a78bfa" font-size="6.5" font-weight="600">п. 10–12</text>
+          <text x="488" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.8">РИД · счёт «О» · п. 17 «в»</text>
 
-          <rect x="332" y="268" width="220" height="44" rx="8" fill="rgba(104,211,145,0.18)" stroke="#68d391" stroke-width="1.5" stroke-dasharray="4 2"/>
-          <text x="442" y="286" text-anchor="middle" fill="#c6f6d5" font-size="8" font-weight="700">ПОСЛЕ: ч. 5</text>
-          <text x="442" y="300" text-anchor="middle" fill="#9ae6b4" font-size="7">2 года ЛС условно · исп. срок 2 года</text>
+          <!-- Corridor 3: process -->
+          <path d="M280 170 L280 248" stroke="#38bdf8" stroke-width="2.2" fill="none" marker-end="url(#vs8rm-arr-proc)"/>
+          <rect x="196" y="248" width="168" height="58" rx="8" fill="rgba(56,189,248,0.12)" stroke="#38bdf8" stroke-width="1.6"/>
+          <text x="280" y="268" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Санкционный процесс</text>
+          <text x="280" y="282" text-anchor="middle" fill="#38bdf8" font-size="6.5" font-weight="600">п. 13–21</text>
+          <text x="280" y="296" text-anchor="middle" fill="#94a3b8" font-size="5.8">ст. 248 АПК · иностр. арбитраж</text>
 
-          <!-- KS bar -->
-          <rect x="48" y="322" width="504" height="22" rx="5" fill="rgba(236,201,75,0.12)" stroke="rgba(236,201,75,0.45)" stroke-width="1"/>
-          <text x="300" y="336" text-anchor="middle" fill="#ecc94b" font-size="7" font-weight="600">КС № 43-П/2026 · 29.06.2026 · госдоля в акционерах не блокирует ч. 5–7</text>
+          <!-- Nullity stamp -->
+          <rect x="196" y="88" width="168" height="22" rx="5" fill="rgba(248,113,113,0.16)" stroke="#f87171" stroke-width="1" stroke-dasharray="4 2"/>
+          <text x="280" y="102" text-anchor="middle" fill="#fecaca" font-size="6.5" font-weight="700">НИЧТОЖНОСТЬ · с момента сделки · п. 7 — суд сам</text>
+
+          <!-- decree badges -->
+          <rect x="16" y="248" width="52" height="20" rx="4" fill="#1e3a5f" stroke="#64748b"/>
+          <text x="42" y="261" text-anchor="middle" fill="#cbd5e1" font-size="6" font-weight="600">№ 81</text>
+          <rect x="76" y="248" width="52" height="20" rx="4" fill="#1e3a5f" stroke="#64748b"/>
+          <text x="102" y="261" text-anchor="middle" fill="#cbd5e1" font-size="6" font-weight="600">№ 95</text>
+          <rect x="136" y="248" width="52" height="20" rx="4" fill="#1e3a5f" stroke="#64748b"/>
+          <text x="162" y="261" text-anchor="middle" fill="#cbd5e1" font-size="6" font-weight="600">№ 322</text>
         </svg>
 
-        <p class="l24-boris-st159-ch4-ch5-matrix__verdict"><strong>Ключ для защиты:</strong> при подряде с ПАО/АО с госучастием расчёт ущерба по <em>двум шкалам</em> — аргумент переквалификации, а не только смягчения наказания. Состав акционеров «не имеет значения» (ВС).</p>
-        <p class="l24-boris-st159-ch4-ch5-matrix__caption">Схема по определению ВС № 64-УД26-2-К9 и постановлению КС № 43-П/2026</p>
+        <ul class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__accounts" aria-label="Спецсчета и пороги по Указам 95 и 322">
+          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account">
+            <strong>счёт «С»</strong>
+            Платежи иностранным кредиторам &gt; 10 млн ₽/мес. (Указ № 95)
+          </li>
+          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account">
+            <strong>10 млн ₽</strong>
+            Дробление &lt; лимита не спасает — смотрят совокупность (п. 4: 6+ млрд ₽)
+          </li>
+          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account">
+            <strong>счёт «О»</strong>
+            Расчёты с правообладателями РИД — только с разрешения Правкомиссии (№ 322)
+          </li>
+        </ul>
+        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__verdict"><strong>Формула ВС:</strong> формальное соблюдение лимита по каждому платежу <em>не является иммунитетом</em> — суды оценивают суть операций и цепочки уступок.</p>
+        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__caption">Схема по обзору ВС № 8/2026 (постановление № 11А/2026 от 17.06.2026)</p>
       </div>
 
-      <div class="l24-boris-st159-ch4-ch5-matrix__panel">
-        <p class="l24-boris-st159-ch4-ch5-matrix__panel-title">Сравнительная сетка: состав, ущерб, санкции, процесс</p>
-
-        <div class="l24-boris-st159-ch4-ch5-matrix__compare-head" aria-hidden="true">
-          <span>Критерий</span>
-          <span>ч. 4</span>
-          <span>ч. 5</span>
-        </div>
-
-        <div class="l24-boris-st159-ch4-ch5-matrix__grid" role="table" aria-label="Таблица сравнения ч. 4 и ч. 5 ст. 159 УК РФ">
-          <div class="l24-boris-st159-ch4-ch5-matrix__row l24-boris-st159-ch4-ch5-matrix__row--key" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Квалифицирующий признак</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell">Организованная группа <em>или особо крупный размер</em></span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell"><em>Преднамеренное неисполнение</em> договорных обязательств в предпринимательской сфере + значительный ущерб</span>
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__row" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Порог ущерба</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell">Особо крупный: <em>≥ 1 000 000 ₽</em> (прим. к ст. 158)</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell">Значит.: <em>≥ 250 000 ₽</em>; крупный: &gt; 4,5 млн; ОКР: &gt; 18 млн (прим. к ст. 159)</span>
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__row" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Категория</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell"><em>Тяжкое</em> преступление</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell"><em>Средней тяжести</em></span>
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__row" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Макс. наказание</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell">До <em>10 лет</em> лишения свободы</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell">До <em>5 лет</em> ЛС (+ штраф, обязательные/исправительные работы)</span>
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__row" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Заключение под стражу</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell">По <em>общим правилам</em> УПК</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell"><em>Запрещено</em> по общему правилу (ч. 1.1 ст. 108 УПК), кроме исключений</span>
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__row" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Возбуждение дела</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell">По общим правилам УПК</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell">По заявлению потерпевшика-коммерсанта (ч. 3 ст. 20 УПК)</span>
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__row" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Стороны договора</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell">Не требуется</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell">Обе — ИП и/или <em>коммерческие организации</em> (прим. 2 к ст. 159)</span>
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__row" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Момент умысла</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell">До получения имущества (общая практика)</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell">Может возникнуть <em>до, при или в процессе</em> исполнения договора (ВС, п. 9 Пленума № 48)</span>
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__row" role="row">
-            <span class="l24-boris-st159-ch4-ch5-matrix__row-label" role="rowheader">Судебный штраф</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch4" role="cell">Ограниченно</span>
-            <span class="l24-boris-st159-ch4-ch5-matrix__cell l24-boris-st159-ch4-ch5-matrix__cell--ch5" role="cell">ст. 76.2 УК РФ — при соблюдении условий</span>
-          </div>
-        </div>
-
-        <div class="l24-boris-st159-ch4-ch5-matrix__case-bar" aria-label="Исход дела Шеврюкова">
-          <div class="l24-boris-st159-ch4-ch5-matrix__case-card l24-boris-st159-ch4-ch5-matrix__case-card--before">
-            <strong>Нижестоящие суды: ч. 4</strong>
-            Отказ в ч. 5 из‑за госакционера ПАО «Сахалинэнерго» и момента умысла «в процессе договора».
-          </div>
-          <div class="l24-boris-st159-ch4-ch5-matrix__case-card l24-boris-st159-ch4-ch5-matrix__case-card--after">
-            <strong>ВС + КС: ч. 5</strong>
-            Обе стороны — коммерческие организации; ущерб по спец. шкале — значительный; практика фильтра по госдоле — неконституционна.
-          </div>
-        </div>
-        <p class="l24-boris-st159-ch4-ch5-matrix__note"><em>Статистика 2024:</em> по ч. 4 осуждено 5 817 чел., по ч. 5 — 42. Следствие нередко квалифицирует договорные споры по ч. 4, обходя запрет ареста по ч. 5.</p>
+      <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel">
+        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel-title">Три блока риска для арбитражного спора</p>
+        <ul class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risks">
+          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk">
+            <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag">п. 1–9 · Указы 81, 95, 322</span>
+            <strong>Сделки и платежи</strong>
+            КП недвижимости без Правкомиссии — ничтожна (№ 81); платёж &gt; 10 млн ₽ не через «С» — ничтожен (п. 3, истец <em>ФНС</em>); искусственное дробление кредитов — ничтожно (п. 4); уступка и мировое соглашение-обход — отказ суда (п. 5–9).
+            <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-facts">
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">6+ млрд ₽</span>
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">46,5% порта</span>
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">ФНС · Генпрокуратура</span>
+            </div>
+          </li>
+          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--ip">
+            <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag">п. 10–12 · РИД</span>
+            <strong>ИС и лицензии</strong>
+            Спецпорядок № 322 — на <em>все</em> обязательства по РИД, включая деликт (п. 10). Правообладатель снимает счёт «О», доказав работу в РФ (п. 11, п. 17 «в»). Принудительная лицензия — крайняя мера при злоупотреблении патентом (п. 12).
+            <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-facts">
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">счёт «О»</span>
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">п. 17 «в»</span>
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">ст. 1362 ГК</span>
+            </div>
+          </li>
+          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--proc">
+            <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag">п. 13–21 · АПК</span>
+            <strong>Санкционный процесс</strong>
+            Брокер и банк — ограниченная ответственность при санкционных блокировках (п. 13–14). <em>Ст. 248.1–248.2 АПК</em>: арбитражная оговорка не блокирует подсудность РФ; запрет въезда = санкция (п. 15–17). Иностранные решения — проверка публичного порядка (п. 19–20); судебная неустойка за иностранное разбирательство (п. 21).
+            <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-facts">
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">ст. 248.1 АПК</span>
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">Euroclear</span>
+              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">публичный порядок</span>
+            </div>
+          </li>
+        </ul>
+        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__note"><em>Ответчик:</em> иск ФНС о ничтожности платежа, суд проверит цессию сам. <em>Истец:</em> пересмотр по вновь открывшимся обстоятельствам (п. 8, ст. 309–311 АПК).</p>
       </div>
     </div>
 
-    <div class="l24-boris-st159-ch4-ch5-matrix__foot" aria-label="Контекст практики КС и ВС 2026">
-      <span class="l24-boris-st159-ch4-ch5-matrix__tag l24-boris-st159-ch4-ch5-matrix__tag--case">Шеврюков · 2 159 315,11 ₽</span>
-      <span class="l24-boris-st159-ch4-ch5-matrix__tag l24-boris-st159-ch4-ch5-matrix__tag--art">ч. 4 vs ч. 5 ст. 159 УК</span>
-      <span class="l24-boris-st159-ch4-ch5-matrix__tag l24-boris-st159-ch4-ch5-matrix__tag--def">КС 43-П/2026 · ВС 64-УД26-2-К9</span>
+    <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__foot" aria-label="Контекст обзора ВС № 8/2026">
+      <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--doc">ВС № 8/2026 · № 11А/2026 · 22 позиции</span>
+      <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--law">ст. 10, 168 ГК · ничтожность</span>
+      <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--proc">ст. 248.1–248.2 АПК · подсудность РФ</span>
     </div>
   </div>
 </section>
 ```
 
-**Чеклист отличий от hero Алины**
-- [x] Не полноэкранный блок; в теле статьи после H3 «Таблица сравнения: состав, ущерб, санкции, сроки»
-- [x] Свой `id`: `l24-boris-st159-ch4-ch5-matrix` (не hero `#l24-hero-…`)
-- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
-- [x] Тёмная панель — контраст со светлым hero Алины (UG / мошенничество ст. 159, КС 2026)
-- [x] Сплит «SVG ловушка порогов (2,16 млн ₽) | сравнительная сетка ч. 4 vs ч. 5 + исход дела Шеврюкова»
+## Передача Наташе
+
+- **Якорь вставки:** `#l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map`
+- **После H2:** «Ничтожность сделок в обход спецпорядка (ст. 10, 168 ГК РФ)»
+- **Перед H2:** «Продажа недвижимости без разрешения Правкомиссии (Указ № 81)»
+- **MCP-only:** без `<canvas>` и `<script>`
