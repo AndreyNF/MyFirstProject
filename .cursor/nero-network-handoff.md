@@ -4207,3 +4207,14 @@ HERO: static SVG + inline CSS (Алина) — `l24-hero-vs-obzor-8-2026-specmer
 БОРИС: якорь `#l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map` (после H2 «Ничтожность сделок…», перед «Продажа недвижимости…»)
 CTA_БЛОКОВ: 4 (3 × primary + 1 × bottom Legis24) + 1 inline secondary
 КЛАСС_СТРАНИЦЫ: `vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-page`
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ОПУБЛИКОВАНО
+Дата: 2026-06-30
+Код: KIRILL-ARB
+page_id: 535
+blob_id: PDBvIlPEeP73qtNQ0bAemyb
+sha256: 8bbb9e31204ae5644b94a827ac4641df4065e1338a86356b99b162d0d7a13d00
+bytes: 99486
+URL: https://advokat-vsem.online/vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok/
+Проверка live: HTTP 200, `main#primary` ✅, hero `l24-hero-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok` ✅

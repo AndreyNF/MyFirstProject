@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-06-30 | published | ARB | ВС РФ обзор № 8/2026: спецмеры в арбитраже — ничтожность сделок в обход Указов № 81, 95, 322 (постановление № 11А/2026) | vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok | https://advokat-vsem.online/vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok/ |
 | 2026-06-29 | published | UG | КС РФ 2026: доля государства в компании не отягчает мошенничество — переквалификация с ч. 4 на ч. 5 ст. 159 (постановление № 43-П/2026) | ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026 | https://advokat-vsem.online/ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026/ |
 | 2026-06-10 | published | UG | ВС 2026: условный срок за мошенничество — кассация не вправе ужесточить приговор без конкретного нарушения (дело № 18-УД26-4-К4, ст.73 + ст.159) | vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026 | https://advokat-vsem.online/vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026/ |
 | 2026-06-10 | published | IP | СИП-565/2025: злоупотребление правом при оспаривании ТЗ — бывший участник vs общество (С01-1889/2025) | sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik | https://advokat-vsem.online/sip-565-zloupotreblenie-pravom-tovarnyj-znak-byvshij-uchastnik/ |
