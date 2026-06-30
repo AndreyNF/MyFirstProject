@@ -38,6 +38,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 18 | B4 | IP | ВС: защита от компенсации за ТЗ иностранца из недружественной страны (Кирилл, июнь 2026) | vs-kompensaciya-tovarnyj-znak-nedruzhestvennye-strany | ✅ page_id 443 |
 | 19 | B5 / KIRILL-ARB | ARB | ВС РФ обзор № 8/2026: спецмеры в арбитраже — ничтожность сделок в обход Указов № 81, 95, 322 (Кирилл, июнь 2026) | vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok | ✅ page_id 535 |
 | 20 | B6 / KIRILL-IP | IP | СИП 2026: Президиум аннулировал товарный знак «ВПР» издательства «Просвещение» — злоупотребление правом (Кирилл, июнь 2026) | sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie | ✅ page_id 540 |
+| 21 | B7 / KIRILL-UG | UG | Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество (Кирилл, июнь 2026) | plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 | ✅ page_id 543 |
 
 > Канонический URL A3 на проде: `srok-vozrazhenij-30-vs-15-mify` (без «dnej» в slug).  
 > Типы и углы: `article-types-legis24.md`.

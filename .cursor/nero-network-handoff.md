@@ -2936,3 +2936,13 @@ SLUG: plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026
 excerpt (Description): 16.06.2026: Пленум ВС РФ № 19 разъяснил квалификацию хищений цифрового рубля и цифровых прав, отличие кражи от мошенничества и условия ст. 158.1 УК РФ. Защита при обвинении.
 Режим: MCP-only — HTML без canvas/script-анимаций; JSON-LD Article + FAQPage в конце `<main>`.
 Файл: `.cursor/page-content-natasha-plenum19.html`
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+## Публикация от Юры
+URL: https://advokat-vsem.online/plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026/
+Статус: опубликовано
+page_id: 543
+blob_id: ph8o2J671wsrttRZq2W7Z
+Проверка: main#primary ✓, hero SVG ✓, MCP blob ✓, meta description ✓
+Способ: MCP Kovcheg → wordpress_create_page + blob append + update_page_from_blob
+Журнал публикаций: nero-network-office-page/shared/published-pages.md updated
+Журнал Кирилла: shared/kirill-news-ledger.md updated (published)

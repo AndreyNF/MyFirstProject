@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-06-30 | KIRILL-UG | plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 | 543 | https://advokat-vsem.online/plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026/ |
 | 2026-06-30 | KIRILL-IP | sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie | 540 | https://advokat-vsem.online/sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie/ |
 | 2026-06-30 | KIRILL-ARB | vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok | 535 | https://advokat-vsem.online/vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok/ |
 | 2026-06-29 | KIRILL-UG | ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026 | 531 | https://advokat-vsem.online/ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026/ |

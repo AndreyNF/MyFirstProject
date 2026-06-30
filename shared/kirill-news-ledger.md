@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-06-30 | published | UG | Пленум ВС РФ № 19 от 16.06.2026: цифровой рубль и цифровые права как предмет хищения, разграничение кражи и мошенничества, ст. 158.1 УК РФ | plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 | https://advokat-vsem.online/plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026/ |
 | 2026-06-30 | published | IP | Президиум СИП 01.06.2026: полное аннулирование ТЗ «ВПР» издательства «Просвещение» — злоупотребление правом, монополия на аббревиатуру госпроекта (СИП-844/2025) | sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie | https://advokat-vsem.online/sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie/ |
 | 2026-06-30 | published | ARB | ВС РФ обзор № 8/2026: спецмеры в арбитраже — ничтожность сделок в обход Указов № 81, 95, 322 (постановление № 11А/2026) | vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok | https://advokat-vsem.online/vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok/ |
 | 2026-06-29 | published | UG | КС РФ 2026: доля государства в компании не отягчает мошенничество — переквалификация с ч. 4 на ч. 5 ст. 159 (постановление № 43-П/2026) | ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026 | https://advokat-vsem.online/ks-dolya-gosudarstva-moshennichestvo-st-159-perekvalifikaciya-2026/ |
