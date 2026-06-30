@@ -1,0 +1,9 @@
+# Вставьте в Cursor → Automation → Schedule
+
+0 3,9,15 * * *
+
+# Слот 1: 03:00 UTC (06:00 МСК) — арбитраж (ARB)
+# Слот 2: 09:00 UTC (12:00 МСК) — защита ИС / товарный знак (IP)
+# Слот 3: 15:00 UTC (18:00 МСК) — уголовное право (UG)
+
+# Instructions: скопировать cursor-automation-prompt.txt
