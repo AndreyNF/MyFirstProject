@@ -1,135 +1,137 @@
 === БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
 Статус: ✅ ГОТОВО
 
-**SLUG:** `vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok`  
-**Якорь:** `l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map`  
-**Размещение для Наташи:** сразу **после H2 «Ничтожность сделок в обход спецпорядка (ст. 10, 168 ГК РФ)»** (после последнего H3 «Отличие ничтожной сделки от оспоримой в спорах о спецмерах»), **перед H2 «Продажа недвижимости без разрешения Правкомиссии (Указ № 81)»**.  
-**Режим:** тёмная панель в теле статьи (**контраст** со светлым hero Алины по обзору ВС № 8/2026) — **карта трёх рисков + SVG «счёт С / 10 млн ₽ / счёт О»** вместо перечисления 22 позиций.  
+**SLUG:** `sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie`  
+**Якорь:** `boris-vpr-process`  
+**Размещение для Наташи:** сразу **после H2 «Оспаривание товарного знака: возражение в Роспатенте и иск в СИП»** (после таблицы «Полное прекращение охраны vs частичное исключение»), **перед primary CTA** «Роспатент частично удовлетворил возражение…».  
+**Режим:** тёмная панель в теле статьи (**контраст** со светлым hero Алины по ТЗ «ВПР» / СИП-844/2025) — **карта процесса (возражение → Роспатент → СИП → Президиум)** слева + **SVG-таймлайн** справа.  
 **Legis24 MCP-only:** static SVG + inline CSS, без `<canvas>` и `<script>`.
 
 ## Паспорт блока
 
 | Параметр | Значение |
 |----------|----------|
-| **Метафора** | «Три коридора риска» от центрального узла спецмер (Указы 81/95/322) — сделки/платежи, ИС, санкционный процесс |
-| **Цифры-крючки** | 10 млн ₽/мес., счета «С»/«О», 6+ млрд ₽ дробления, 46,5% порта, 22 позиции → 3 блока |
-| **Палитра** | Тёмный navy `#0c1829`–`#1e3a5f` (контраст hero); риск `#f87171`; порог `#fbbf24`; ИС `#a78bfa`; процесс `#38bdf8` |
-| **Композиция** | Сплит: SVG-карта счетов и указов \| сетка из 3 карточек риска + теги |
+| **Метафора** | «Двухинстанционный маршрут с ловушкой» — административное возражение не снимает монополию; отказ СИП — не финал; Президиум переворачивает исход |
+| **Цифры-крючки** | 17.12.2024 → 16.06.2025 (частично) → 16.01.2026 (отказ) → 01.06.2026 (полное аннулирование); свидетельство № 652761; 100 000 ₽ госпошлины |
+| **Палитра** | Тёмный plum-navy `#1a1225`–`#2d1f3d` (контраст hero); ВПР-красный `#dc2626`; Роспатент `#f59e0b`; СИП `#8b5cf6`; победа `#34d399`; ловушка `#fbbf24` |
+| **Композиция** | Сплит: SVG-карта 4 инстанций \| вертикальный SVG-таймлайн 2018–2026 |
 
 **Чеклист отличий от hero Алины**
-- [x] Не полноэкранный блок; в теле статьи после 2-й секции H2
-- [x] Свой `id`: `l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map` (не `l24-hero-…`)
+- [x] Не полноэкранный блок; в теле статьи после H2 об оспаривании
+- [x] Свой `id`: `boris-vpr-process` (не `l24-hero-…`)
 - [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
-- [x] Тёмная панель — контраст со светлым ARB-hero Алины (обзор ВС, спецмеры)
-- [x] Сплит «SVG счёт С / 10 млн / счёт О + три коридора» | «3 карточки риска по п. 1–21»
+- [x] Тёмная панель — контраст со светлым IP-hero Алины (красные квадраты «ВПР», светлый градиент)
+- [x] Сплит «карта процесса 4 стадии» \| «таймлайн дела СИП-844/2025»
 
 ```html
-<section id="l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map" class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map" aria-label="Обзор ВС № 8/2026: карта рисков ничтожности сделок — счета С и О, порог 10 млн рублей, три блока для бизнеса">
+<section id="boris-vpr-process" class="boris-vpr-process" aria-label="Дело СИП-844/2025: маршрут оспаривания ТЗ «ВПР» — возражение, Роспатент, СИП, Президиум">
 <style>
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map {
-  --vs8rm-ink: #0c1829;
-  --vs8rm-navy: #152238;
-  --vs8rm-navy-soft: #1e3a5f;
-  --vs8rm-gold: #fbbf24;
-  --vs8rm-risk: #f87171;
-  --vs8rm-risk-soft: #fecaca;
-  --vs8rm-deal: #fb923c;
-  --vs8rm-ip: #a78bfa;
-  --vs8rm-ip-soft: #ddd6fe;
-  --vs8rm-proc: #38bdf8;
-  --vs8rm-proc-soft: #bae6fd;
-  --vs8rm-muted: #94a3b8;
-  --vs8rm-text: #e2e8f0;
+.boris-vpr-process {
+  --vpr-ink: #1a1225;
+  --vpr-plum: #2d1f3d;
+  --vpr-plum-soft: #3d2d52;
+  --vpr-red: #dc2626;
+  --vpr-red-soft: #fca5a5;
+  --vpr-gold: #fbbf24;
+  --vpr-gold-soft: #fde68a;
+  --vpr-sip: #8b5cf6;
+  --vpr-sip-soft: #c4b5fd;
+  --vpr-win: #34d399;
+  --vpr-win-soft: #a7f3d0;
+  --vpr-muted: #a8a3b3;
+  --vpr-text: #e8e4ef;
   margin: 48px 0;
   padding: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__shell {
-  background: linear-gradient(152deg, var(--vs8rm-ink) 0%, var(--vs8rm-navy) 46%, var(--vs8rm-navy-soft) 100%);
-  border: 1px solid rgba(56, 189, 248, 0.28);
+.boris-vpr-process__shell {
+  background: linear-gradient(152deg, var(--vpr-ink) 0%, var(--vpr-plum) 48%, var(--vpr-plum-soft) 100%);
+  border: 1px solid rgba(220, 38, 38, 0.28);
   border-radius: 14px;
   padding: 32px 28px 26px;
-  box-shadow: 0 18px 48px rgba(12, 24, 41, 0.38);
-  color: var(--vs8rm-text);
+  box-shadow: 0 18px 48px rgba(26, 18, 37, 0.42);
+  color: var(--vpr-text);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__eyebrow {
+.boris-vpr-process__eyebrow {
   margin: 0 0 8px;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--vs8rm-gold);
+  color: var(--vpr-gold);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__title {
+.boris-vpr-process__title {
   margin: 0 0 10px;
   font-size: clamp(1.15rem, 2.4vw, 1.42rem);
   line-height: 1.25;
   color: #fff;
   font-weight: 700;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__lead {
+.boris-vpr-process__lead {
   margin: 0 0 24px;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: var(--vs8rm-muted);
+  color: var(--vpr-muted);
   max-width: 72ch;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__lead strong { color: #fff; }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__split {
+.boris-vpr-process__lead strong { color: #fff; }
+.boris-vpr-process__split {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
   gap: 24px;
   align-items: stretch;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel {
+.boris-vpr-process__panel {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 20px 18px;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel-title {
+.boris-vpr-process__panel-title {
   margin: 0 0 14px;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--vs8rm-gold);
+  color: var(--vpr-gold);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__map-svg {
+.boris-vpr-process__map-svg,
+.boris-vpr-process__timeline-svg {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 340px;
-  margin-bottom: 12px;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__accounts {
+.boris-vpr-process__map-svg { max-height: 300px; margin-bottom: 12px; }
+.boris-vpr-process__timeline-svg { max-height: 380px; }
+.boris-vpr-process__stages {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin: 0 0 12px;
   padding: 0;
   list-style: none;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account {
-  padding: 10px 8px;
+.boris-vpr-process__stage {
+  padding: 10px 6px;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.28);
-  border-top: 3px solid var(--vs8rm-proc);
-  font-size: 0.72rem;
+  border-top: 3px solid var(--vpr-gold);
+  font-size: 0.68rem;
   line-height: 1.38;
   text-align: center;
-  color: var(--vs8rm-muted);
+  color: var(--vpr-muted);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account:nth-child(1) { border-top-color: var(--vs8rm-proc); }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account:nth-child(2) { border-top-color: var(--vs8rm-gold); }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account:nth-child(3) { border-top-color: var(--vs8rm-ip); }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account strong {
+.boris-vpr-process__stage:nth-child(1) { border-top-color: var(--vpr-gold); }
+.boris-vpr-process__stage:nth-child(2) { border-top-color: var(--vpr-gold); }
+.boris-vpr-process__stage:nth-child(3) { border-top-color: var(--vpr-sip); }
+.boris-vpr-process__stage:nth-child(4) { border-top-color: var(--vpr-win); }
+.boris-vpr-process__stage strong {
   display: block;
   color: #fff;
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   margin-bottom: 4px;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__verdict {
+.boris-vpr-process__verdict {
   margin: 0;
   padding: 12px 14px;
   border-radius: 8px;
@@ -137,94 +139,63 @@
   border: 1px solid rgba(251, 191, 36, 0.35);
   font-size: 0.78rem;
   line-height: 1.45;
-  color: var(--vs8rm-text);
+  color: var(--vpr-text);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__verdict strong { color: var(--vs8rm-gold); }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__caption {
+.boris-vpr-process__verdict strong { color: var(--vpr-gold); }
+.boris-vpr-process__caption {
   margin: 10px 0 0;
   font-size: 0.7rem;
   line-height: 1.4;
-  color: rgba(148, 163, 184, 0.88);
+  color: rgba(168, 163, 179, 0.88);
   text-align: center;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risks {
+.boris-vpr-process__events {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin: 0;
+  gap: 8px;
+  margin: 14px 0 0;
   padding: 0;
   list-style: none;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk {
+.boris-vpr-process__event {
   margin: 0;
-  padding: 14px 12px;
+  padding: 10px 12px;
   border-radius: 8px;
   background: rgba(0, 0, 0, 0.24);
-  border-left: 3px solid var(--vs8rm-deal);
-  font-size: 0.76rem;
+  border-left: 3px solid var(--vpr-muted);
+  font-size: 0.74rem;
   line-height: 1.42;
   color: #cbd5e1;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--ip { border-left-color: var(--vs8rm-ip); }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--proc { border-left-color: var(--vs8rm-proc); }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag {
+.boris-vpr-process__event--trap { border-left-color: var(--vpr-gold); }
+.boris-vpr-process__event--loss { border-left-color: var(--vpr-red); }
+.boris-vpr-process__event--win { border-left-color: var(--vpr-win); }
+.boris-vpr-process__event-date {
   display: inline-block;
-  margin-bottom: 6px;
-  padding: 2px 8px;
-  border-radius: 4px;
-  font-size: 0.68rem;
+  margin-right: 6px;
   font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  background: rgba(251, 146, 60, 0.18);
-  color: var(--vs8rm-deal);
-}
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--ip .vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag {
-  background: rgba(167, 139, 250, 0.18);
-  color: var(--vs8rm-ip);
-}
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--proc .vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag {
-  background: rgba(56, 189, 248, 0.18);
-  color: var(--vs8rm-proc);
-}
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk strong {
-  display: block;
   color: #fff;
-  font-size: 0.82rem;
-  margin-bottom: 5px;
+  font-size: 0.7rem;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk em {
+.boris-vpr-process__event em {
   font-style: normal;
   font-weight: 600;
-  color: #fff;
+  color: var(--vpr-gold-soft);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-facts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 8px;
-}
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact {
-  font-size: 0.66rem;
-  font-weight: 600;
-  padding: 3px 7px;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  color: var(--vs8rm-muted);
-}
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__note {
+.boris-vpr-process__event--loss em { color: var(--vpr-red-soft); }
+.boris-vpr-process__event--win em { color: var(--vpr-win-soft); }
+.boris-vpr-process__note {
   margin: 12px 0 0;
   font-size: 0.76rem;
   line-height: 1.45;
-  color: var(--vs8rm-muted);
+  color: var(--vpr-muted);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__note em {
+.boris-vpr-process__note em {
   font-style: normal;
-  color: var(--vs8rm-risk-soft);
+  color: var(--vpr-sip-soft);
   font-weight: 600;
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__foot {
+.boris-vpr-process__foot {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -232,177 +203,242 @@
   padding-top: 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag {
+.boris-vpr-process__tag {
   font-size: 0.72rem;
   font-weight: 600;
   padding: 6px 10px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.06);
-  color: var(--vs8rm-text);
+  color: var(--vpr-text);
   border: 1px solid rgba(255, 255, 255, 0.14);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--doc {
-  border-color: rgba(251, 191, 36, 0.5);
-  color: var(--vs8rm-gold);
+.boris-vpr-process__tag--case {
+  border-color: rgba(220, 38, 38, 0.5);
+  color: var(--vpr-red-soft);
 }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--law { border-color: rgba(248, 113, 113, 0.45); color: var(--vs8rm-risk-soft); }
-.vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--proc { border-color: rgba(56, 189, 248, 0.45); color: var(--vs8rm-proc-soft); }
+.boris-vpr-process__tag--law { border-color: rgba(139, 92, 246, 0.45); color: var(--vpr-sip-soft); }
+.boris-vpr-process__tag--norm { border-color: rgba(52, 211, 153, 0.45); color: var(--vpr-win-soft); }
 @media (max-width: 900px) {
-  .vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__split { grid-template-columns: 1fr; }
-  .vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__accounts { grid-template-columns: 1fr; }
+  .boris-vpr-process__split { grid-template-columns: 1fr; }
+  .boris-vpr-process__stages { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+  .boris-vpr-process__stages { grid-template-columns: 1fr; }
 }
 </style>
 
-  <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__shell">
-    <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__eyebrow">ARB · обзор ВС № 8/2026 · № 11А/2026 · 17.06.2026 · Указы 81, 95, 322</p>
-    <h3 class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__title">22 позиции ВС → три коридора риска: сделки, ИС и санкционный процесс</h3>
-    <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__lead">Обзор не требует заучивать все 22 пункта: суды группируют практику вокруг <strong>ничтожности с момента сделки</strong> (ст. 10, 168 ГК РФ), спецсчетов <strong>«С»</strong> и <strong>«О»</strong> и порога <strong>10 млн ₽/мес.</strong> ФНС, Генпрокуратура и прокуратура активно оспаривают обходные схемы; суд вправе проверить уступку <strong>сам</strong> (п. 7).</p>
+  <div class="boris-vpr-process__shell">
+    <p class="boris-vpr-process__eyebrow">IP · СИП-844/2025 · ТЗ «ВПР» № 652761 · ФИОКО vs Роспатент</p>
+    <h3 class="boris-vpr-process__title">Маршрут оспаривания: возражение → Роспатент → СИП → Президиум</h3>
+    <p class="boris-vpr-process__lead">Дело «ВПР» — не линейная победа: <strong>частичное</strong> решение Роспатента от 16.06.2025 оставило монополию через родовые позиции МКТУ; СИП отказал 16.01.2026. Президиум 01.06.2026 признал <strong>злоупотребление правом</strong> (ст. 10 ГК) и обязал <strong>полностью</strong> прекратить охрану — ст. 1483 + подп. 6 п. 2 ст. 1512.</p>
 
-    <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__split">
-      <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel">
-        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel-title">Узел спецмер: счёт «С» · 10 млн ₽ · счёт «О»</p>
-        <svg class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__map-svg" viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vs8rm-map-title vs8rm-map-desc">
-          <title id="vs8rm-map-title">Карта рисков обзора ВС № 8/2026: три блока от узла спецмер и спецсчетов</title>
-          <desc id="vs8rm-map-desc">Центральный узел Указы 81, 95, 322 со счетами С и О и порогом 10 миллионов рублей; три коридора риска — сделки и платежи, интеллектуальная собственность, санкционный процесс</desc>
+    <div class="boris-vpr-process__split">
+      <div class="boris-vpr-process__panel">
+        <p class="boris-vpr-process__panel-title">Карта процесса: 4 инстанции</p>
+        <svg class="boris-vpr-process__map-svg" viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vpr-map-title vpr-map-desc">
+          <title id="vpr-map-title">Карта оспаривания ТЗ «ВПР»: возражение ФИОКО, Роспатент, СИП, Президиум</title>
+          <desc id="vpr-map-desc">Горизонтальный маршрут от возражения в Роспатенте через частичное решение и отказ СИП к полному аннулированию в Президиуме СИП 01.06.2026</desc>
           <defs>
-            <linearGradient id="vs8rm-hub" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stop-color="#1e3a5f"/>
-              <stop offset="100%" stop-color="#0c1829"/>
+            <linearGradient id="vpr-route" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#f59e0b"/>
+              <stop offset="45%" stop-color="#8b5cf6"/>
+              <stop offset="100%" stop-color="#34d399"/>
             </linearGradient>
-            <marker id="vs8rm-arr-deal" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path d="M0 0 L8 4 L0 8 Z" fill="#fb923c"/>
+            <marker id="vpr-arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#c4b5fd"/>
             </marker>
-            <marker id="vs8rm-arr-ip" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path d="M0 0 L8 4 L0 8 Z" fill="#a78bfa"/>
-            </marker>
-            <marker id="vs8rm-arr-proc" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path d="M0 0 L8 4 L0 8 Z" fill="#38bdf8"/>
+            <marker id="vpr-arr-win" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0 0 L8 4 L0 8 Z" fill="#34d399"/>
             </marker>
           </defs>
 
-          <rect x="4" y="4" width="552" height="312" rx="14" fill="rgba(0,0,0,0.22)" stroke="#334155" stroke-width="1"/>
+          <rect x="4" y="4" width="552" height="272" rx="14" fill="rgba(0,0,0,0.22)" stroke="#4a3d5c" stroke-width="1"/>
 
-          <!-- Central hub -->
-          <circle cx="280" cy="118" r="52" fill="url(#vs8rm-hub)" stroke="#fbbf24" stroke-width="2"/>
-          <text x="280" y="104" text-anchor="middle" fill="#fbbf24" font-size="8" font-weight="700">СПЕЦМЕРЫ</text>
-          <text x="280" y="118" text-anchor="middle" fill="#fff" font-size="7" font-weight="600">Указы 81 · 95 · 322</text>
-          <text x="280" y="132" text-anchor="middle" fill="#94a3b8" font-size="6.5">ст. 10, 168 ГК РФ</text>
+          <!-- Route line -->
+          <path d="M72 118 L488 118" stroke="url(#vpr-route)" stroke-width="3" fill="none" stroke-dasharray="6 3" opacity="0.7"/>
+          <path d="M400 118 L488 118" stroke="#34d399" stroke-width="3.5" fill="none" marker-end="url(#vpr-arr-win)"/>
 
-          <!-- Account S -->
-          <rect x="88" y="168" width="96" height="56" rx="8" fill="#0f2744" stroke="#38bdf8" stroke-width="1.8"/>
-          <text x="136" y="188" text-anchor="middle" fill="#38bdf8" font-size="9" font-weight="800">счёт «С»</text>
-          <text x="136" y="202" text-anchor="middle" fill="#bae6fd" font-size="6.5">Указ № 95</text>
-          <text x="136" y="214" text-anchor="middle" fill="#94a3b8" font-size="6">кредиторы</text>
-          <path d="M184 196 L228 148" stroke="#38bdf8" stroke-width="1.8" fill="none"/>
+          <!-- Stage 1: Возражение -->
+          <g>
+            <rect x="16" y="72" width="112" height="92" rx="10" fill="rgba(245,158,11,0.12)" stroke="#f59e0b" stroke-width="1.8"/>
+            <text x="72" y="94" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="800">1 · ВОЗРАЖЕНИЕ</text>
+            <text x="72" y="108" text-anchor="middle" fill="#fff" font-size="6.5" font-weight="600">ФИОКО → Роспатент</text>
+            <text x="72" y="122" text-anchor="middle" fill="#a8a3b3" font-size="6">17.12.2024</text>
+            <text x="72" y="136" text-anchor="middle" fill="#a8a3b3" font-size="5.8">ст. 1512–1513 ГК</text>
+            <text x="72" y="150" text-anchor="middle" fill="#fde68a" font-size="5.8" font-weight="600">ст. 1483 · ст. 10</text>
+          </g>
+          <path d="M128 118 L168 118" stroke="#f59e0b" stroke-width="2" fill="none" marker-end="url(#vpr-arr)"/>
 
-          <!-- 10 mln threshold -->
-          <rect x="232" y="178" width="96" height="56" rx="8" fill="#422006" stroke="#fbbf24" stroke-width="2"/>
-          <text x="280" y="198" text-anchor="middle" fill="#fbbf24" font-size="10" font-weight="800">10 млн ₽</text>
-          <text x="280" y="212" text-anchor="middle" fill="#fde68a" font-size="6.5">/ мес. · единоврем.</text>
-          <text x="280" y="224" text-anchor="middle" fill="#94a3b8" font-size="6">п. 3–4 обзора</text>
-          <line x1="280" y1="170" x2="280" y2="178" stroke="#fbbf24" stroke-width="1.8"/>
+          <!-- Stage 2: Роспатент -->
+          <g>
+            <rect x="168" y="62" width="112" height="112" rx="10" fill="rgba(251,191,36,0.14)" stroke="#fbbf24" stroke-width="2"/>
+            <text x="224" y="84" text-anchor="middle" fill="#fbbf24" font-size="7" font-weight="800">2 · РОСПАТЕНТ</text>
+            <text x="224" y="98" text-anchor="middle" fill="#fff" font-size="6.5" font-weight="600">Палата по спорам</text>
+            <text x="224" y="112" text-anchor="middle" fill="#a8a3b3" font-size="6">16.06.2025</text>
+            <rect x="184" y="120" width="80" height="18" rx="4" fill="rgba(251,191,36,0.2)" stroke="#fbbf24" stroke-width="1"/>
+            <text x="224" y="132" text-anchor="middle" fill="#fde68a" font-size="5.8" font-weight="700">ЧАСТИЧНО ⚠</text>
+            <text x="224" y="152" text-anchor="middle" fill="#a8a3b3" font-size="5.5">«книги» · «издания»</text>
+            <text x="224" y="164" text-anchor="middle" fill="#fca5a5" font-size="5.5">монополия осталась</text>
+          </g>
+          <path d="M280 118 L320 118" stroke="#8b5cf6" stroke-width="2" fill="none" marker-end="url(#vpr-arr)"/>
 
-          <!-- Account O -->
-          <rect x="376" y="168" width="96" height="56" rx="8" fill="#2e1065" stroke="#a78bfa" stroke-width="1.8"/>
-          <text x="424" y="188" text-anchor="middle" fill="#a78bfa" font-size="9" font-weight="800">счёт «О»</text>
-          <text x="424" y="202" text-anchor="middle" fill="#ddd6fe" font-size="6.5">Указ № 322</text>
-          <text x="424" y="214" text-anchor="middle" fill="#94a3b8" font-size="6">правообладатели</text>
-          <path d="M376 196 L332 148" stroke="#a78bfa" stroke-width="1.8" fill="none"/>
+          <!-- Stage 3: СИП -->
+          <g>
+            <rect x="320" y="72" width="96" height="92" rx="10" fill="rgba(139,92,246,0.12)" stroke="#8b5cf6" stroke-width="1.8"/>
+            <text x="368" y="94" text-anchor="middle" fill="#c4b5fd" font-size="7" font-weight="800">3 · СИП</text>
+            <text x="368" y="108" text-anchor="middle" fill="#fff" font-size="6.5" font-weight="600">1-я инстанция</text>
+            <text x="368" y="122" text-anchor="middle" fill="#a8a3b3" font-size="6">16.01.2026</text>
+            <rect x="332" y="130" width="72" height="18" rx="4" fill="rgba(220,38,38,0.18)" stroke="#dc2626" stroke-width="1"/>
+            <text x="368" y="142" text-anchor="middle" fill="#fca5a5" font-size="5.8" font-weight="700">ОТКАЗ ✗</text>
+            <text x="368" y="156" text-anchor="middle" fill="#a8a3b3" font-size="5.5">23.12.2025 — РИА</text>
+          </g>
+          <path d="M416 118 L456 118" stroke="#34d399" stroke-width="2.5" fill="none" marker-end="url(#vpr-arr-win)"/>
 
-          <!-- Corridor 1: deals -->
-          <path d="M228 88 L72 52" stroke="#fb923c" stroke-width="2.2" fill="none" marker-end="url(#vs8rm-arr-deal)"/>
-          <rect x="8" y="24" width="128" height="58" rx="8" fill="rgba(251,146,60,0.14)" stroke="#fb923c" stroke-width="1.6"/>
-          <text x="72" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Сделки и платежи</text>
-          <text x="72" y="58" text-anchor="middle" fill="#fb923c" font-size="6.5" font-weight="600">п. 1–9</text>
-          <text x="72" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.8">недвижимость · дробление · цессия</text>
+          <!-- Stage 4: Президиум -->
+          <g>
+            <rect x="456" y="58" width="96" height="120" rx="10" fill="rgba(52,211,153,0.14)" stroke="#34d399" stroke-width="2.2"/>
+            <text x="504" y="80" text-anchor="middle" fill="#a7f3d0" font-size="7" font-weight="800">4 · ПРЕЗИДИУМ</text>
+            <text x="504" y="94" text-anchor="middle" fill="#fff" font-size="6.5" font-weight="600">кассация СИП</text>
+            <text x="504" y="108" text-anchor="middle" fill="#a8a3b3" font-size="6">01.06.2026</text>
+            <rect x="468" y="116" width="72" height="20" rx="4" fill="rgba(52,211,153,0.22)" stroke="#34d399" stroke-width="1.2"/>
+            <text x="504" y="130" text-anchor="middle" fill="#a7f3d0" font-size="5.8" font-weight="800">ПОЛНОЕ ✓</text>
+            <text x="504" y="148" text-anchor="middle" fill="#a8a3b3" font-size="5.5">аннулирование</text>
+            <text x="504" y="162" text-anchor="middle" fill="#a8a3b3" font-size="5.5">Госреестр ТЗ</text>
+          </g>
 
-          <!-- Corridor 2: IP -->
-          <path d="M332 88 L488 52" stroke="#a78bfa" stroke-width="2.2" fill="none" marker-end="url(#vs8rm-arr-ip)"/>
-          <rect x="424" y="24" width="128" height="58" rx="8" fill="rgba(167,139,250,0.14)" stroke="#a78bfa" stroke-width="1.6"/>
-          <text x="488" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">ИС и лицензии</text>
-          <text x="488" y="58" text-anchor="middle" fill="#a78bfa" font-size="6.5" font-weight="600">п. 10–12</text>
-          <text x="488" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.8">РИД · счёт «О» · п. 17 «в»</text>
+          <!-- Parties row -->
+          <rect x="16" y="188" width="168" height="44" rx="8" fill="rgba(0,0,0,0.3)" stroke="#64748b" stroke-width="1"/>
+          <text x="100" y="206" text-anchor="middle" fill="#e8e4ef" font-size="6" font-weight="700">ИСТЕЦ: ФИОКО</text>
+          <text x="100" y="220" text-anchor="middle" fill="#a8a3b3" font-size="5.5">Рособрнадзор · госаббревиатура ВПР</text>
 
-          <!-- Corridor 3: process -->
-          <path d="M280 170 L280 248" stroke="#38bdf8" stroke-width="2.2" fill="none" marker-end="url(#vs8rm-arr-proc)"/>
-          <rect x="196" y="248" width="168" height="58" rx="8" fill="rgba(56,189,248,0.12)" stroke="#38bdf8" stroke-width="1.6"/>
-          <text x="280" y="268" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">Санкционный процесс</text>
-          <text x="280" y="282" text-anchor="middle" fill="#38bdf8" font-size="6.5" font-weight="600">п. 13–21</text>
-          <text x="280" y="296" text-anchor="middle" fill="#94a3b8" font-size="5.8">ст. 248 АПК · иностр. арбитраж</text>
+          <rect x="196" y="188" width="168" height="44" rx="8" fill="rgba(0,0,0,0.3)" stroke="#f59e0b" stroke-width="1"/>
+          <text x="280" y="206" text-anchor="middle" fill="#fde68a" font-size="6" font-weight="700">ОТВЕТЧИК: Роспатент</text>
+          <text x="280" y="220" text-anchor="middle" fill="#a8a3b3" font-size="5.5">решение 16.06.2025 отменено</text>
 
-          <!-- Nullity stamp -->
-          <rect x="196" y="88" width="168" height="22" rx="5" fill="rgba(248,113,113,0.16)" stroke="#f87171" stroke-width="1" stroke-dasharray="4 2"/>
-          <text x="280" y="102" text-anchor="middle" fill="#fecaca" font-size="6.5" font-weight="700">НИЧТОЖНОСТЬ · с момента сделки · п. 7 — суд сам</text>
+          <rect x="376" y="188" width="168" height="44" rx="8" fill="rgba(220,38,38,0.12)" stroke="#dc2626" stroke-width="1"/>
+          <text x="460" y="206" text-anchor="middle" fill="#fca5a5" font-size="6" font-weight="700">3-е ЛИЦО: «Просвещение»</text>
+          <text x="460" y="220" text-anchor="middle" fill="#a8a3b3" font-size="5.5">лицензии · 100 000 ₽ госпошлины</text>
 
-          <!-- decree badges -->
-          <rect x="16" y="248" width="52" height="20" rx="4" fill="#1e3a5f" stroke="#64748b"/>
-          <text x="42" y="261" text-anchor="middle" fill="#cbd5e1" font-size="6" font-weight="600">№ 81</text>
-          <rect x="76" y="248" width="52" height="20" rx="4" fill="#1e3a5f" stroke="#64748b"/>
-          <text x="102" y="261" text-anchor="middle" fill="#cbd5e1" font-size="6" font-weight="600">№ 95</text>
-          <rect x="136" y="248" width="52" height="20" rx="4" fill="#1e3a5f" stroke="#64748b"/>
-          <text x="162" y="261" text-anchor="middle" fill="#cbd5e1" font-size="6" font-weight="600">№ 322</text>
+          <!-- VPR mark hint -->
+          <g transform="translate(16, 244)">
+            <rect width="20" height="20" rx="3" fill="#dc2626"/>
+            <rect x="24" width="20" height="20" rx="3" fill="#dc2626"/>
+            <rect x="48" width="20" height="20" rx="3" fill="#dc2626"/>
+            <text x="80" y="14" fill="#a8a3b3" font-size="6">комбинированный знак «ВПР» · заявка № 2017709530 · классы 09, 16, 35, 41</text>
+          </g>
         </svg>
 
-        <ul class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__accounts" aria-label="Спецсчета и пороги по Указам 95 и 322">
-          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account">
-            <strong>счёт «С»</strong>
-            Платежи иностранным кредиторам &gt; 10 млн ₽/мес. (Указ № 95)
+        <ul class="boris-vpr-process__stages" aria-label="Краткие итоги по стадиям">
+          <li class="boris-vpr-process__stage">
+            <strong>Возражение</strong>
+            17.12.2024 · ФИОКО · ст. 10 bis
           </li>
-          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account">
-            <strong>10 млн ₽</strong>
-            Дробление &lt; лимита не спасает — смотрят совокупность (п. 4: 6+ млрд ₽)
+          <li class="boris-vpr-process__stage">
+            <strong>Роспатент</strong>
+            16.06.2025 · частично · ловушка МКТУ
           </li>
-          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__account">
-            <strong>счёт «О»</strong>
-            Расчёты с правообладателями РИД — только с разрешения Правкомиссии (№ 322)
+          <li class="boris-vpr-process__stage">
+            <strong>СИП</strong>
+            16.01.2026 · отказ · не финал
+          </li>
+          <li class="boris-vpr-process__stage">
+            <strong>Президиум</strong>
+            01.06.2026 · полное аннулирование
           </li>
         </ul>
-        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__verdict"><strong>Формула ВС:</strong> формальное соблюдение лимита по каждому платежу <em>не является иммунитетом</em> — суды оценивают суть операций и цепочки уступок.</p>
-        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__caption">Схема по обзору ВС № 8/2026 (постановление № 11А/2026 от 17.06.2026)</p>
+        <p class="boris-vpr-process__verdict"><strong>Урок ВПР:</strong> компромисс Роспатента <em>не снимает монополию</em> — при родовых формулировках («книги», «издания печатные») правообладатель сохраняет рычаги. Имеет смысл идти в СИП за <strong>полным</strong> прекращением охраны и готовить кассацию (определение С01-405/2026).</p>
+        <p class="boris-vpr-process__caption">Схема по делу № СИП-844/2025 · постановление Президиума СИП от 01.06.2026</p>
       </div>
 
-      <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel">
-        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__panel-title">Три блока риска для арбитражного спора</p>
-        <ul class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risks">
-          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk">
-            <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag">п. 1–9 · Указы 81, 95, 322</span>
-            <strong>Сделки и платежи</strong>
-            КП недвижимости без Правкомиссии — ничтожна (№ 81); платёж &gt; 10 млн ₽ не через «С» — ничтожен (п. 3, истец <em>ФНС</em>); искусственное дробление кредитов — ничтожно (п. 4); уступка и мировое соглашение-обход — отказ суда (п. 5–9).
-            <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-facts">
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">6+ млрд ₽</span>
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">46,5% порта</span>
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">ФНС · Генпрокуратура</span>
-            </div>
+      <div class="boris-vpr-process__panel">
+        <p class="boris-vpr-process__panel-title">Таймлайн дела: от регистрации до аннулирования</p>
+        <svg class="boris-vpr-process__timeline-svg" viewBox="0 0 320 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vpr-tl-title vpr-tl-desc">
+          <title id="vpr-tl-title">Хронология дела СИП-844/2025: товарный знак «ВПР»</title>
+          <desc id="vpr-tl-desc">Вертикальный таймлайн от регистрации ТЗ в 2018 году до полного прекращения охраны Президиумом СИП 1 июня 2026 года</desc>
+          <defs>
+            <linearGradient id="vpr-tl-axis" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#64748b"/>
+              <stop offset="35%" stop-color="#fbbf24"/>
+              <stop offset="65%" stop-color="#dc2626"/>
+              <stop offset="100%" stop-color="#34d399"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Axis -->
+          <line x1="56" y1="28" x2="56" y2="372" stroke="url(#vpr-tl-axis)" stroke-width="3" stroke-linecap="round"/>
+
+          <!-- 2018 -->
+          <circle cx="56" cy="40" r="10" fill="#64748b" stroke="#fff" stroke-width="2"/>
+          <text x="76" y="36" fill="#a8a3b3" font-size="7" font-weight="700">2018</text>
+          <text x="76" y="48" fill="#e8e4ef" font-size="6.5" font-weight="600">Регистрация ТЗ «ВПР»</text>
+          <text x="76" y="60" fill="#a8a3b3" font-size="5.8">«Просвещение» · свид. № 652761</text>
+
+          <!-- 17.12.2024 -->
+          <circle cx="56" cy="88" r="10" fill="#f59e0b" stroke="#fff" stroke-width="2"/>
+          <text x="76" y="84" fill="#fde68a" font-size="7" font-weight="700">17.12.2024</text>
+          <text x="76" y="96" fill="#e8e4ef" font-size="6.5" font-weight="600">Возражение ФИОКО</text>
+          <text x="76" y="108" fill="#a8a3b3" font-size="5.8">Палата: заседание 22.04.2025</text>
+
+          <!-- 16.06.2025 -->
+          <circle cx="56" cy="148" r="12" fill="#fbbf24" stroke="#fff" stroke-width="2"/>
+          <text x="76" y="142" fill="#fbbf24" font-size="7" font-weight="800">16.06.2025</text>
+          <text x="76" y="154" fill="#e8e4ef" font-size="6.5" font-weight="600">Роспатент: частично ⚠</text>
+          <text x="76" y="166" fill="#fca5a5" font-size="5.8">родовые позиции МКТУ сохранены</text>
+          <rect x="76" y="172" width="220" height="16" rx="4" fill="rgba(251,191,36,0.15)" stroke="#fbbf24" stroke-width="0.8"/>
+          <text x="186" y="183" text-anchor="middle" fill="#fde68a" font-size="5.5" font-weight="600">ловушка частичного аннулирования</text>
+
+          <!-- Sep 2025 -->
+          <circle cx="56" cy="218" r="9" fill="#8b5cf6" stroke="#fff" stroke-width="2"/>
+          <text x="76" y="214" fill="#c4b5fd" font-size="7" font-weight="700">сент. 2025</text>
+          <text x="76" y="226" fill="#e8e4ef" font-size="6.5" font-weight="600">Иск ФИОКО в СИП</text>
+          <text x="76" y="238" fill="#a8a3b3" font-size="5.8">оспаривание решения Роспатента</text>
+
+          <!-- 23.12.2025 -->
+          <circle cx="56" cy="268" r="10" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+          <text x="76" y="264" fill="#fca5a5" font-size="7" font-weight="700">23.12.2025</text>
+          <text x="76" y="276" fill="#e8e4ef" font-size="6.5" font-weight="600">СИП отказал ФИОКО</text>
+          <text x="76" y="288" fill="#a8a3b3" font-size="5.8">нет ассоциации «ВПР» у потребителей (РИА)</text>
+
+          <!-- 16.01.2026 -->
+          <circle cx="56" cy="308" r="10" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+          <text x="76" y="304" fill="#fca5a5" font-size="7" font-weight="700">16.01.2026</text>
+          <text x="76" y="316" fill="#e8e4ef" font-size="6.5" font-weight="600">Решение СИП-844/2025</text>
+          <text x="76" y="328" fill="#a8a3b3" font-size="5.8">отказ в иске · 1-я инстанция</text>
+
+          <!-- 20.03.2026 -->
+          <circle cx="56" cy="340" r="8" fill="#8b5cf6" stroke="#fff" stroke-width="1.5"/>
+          <text x="76" y="338" fill="#c4b5fd" font-size="6.5" font-weight="600">20.03.2026 · С01-405/2026</text>
+          <text x="76" y="350" fill="#a8a3b3" font-size="5.8">кассация принята · срок восстановлен</text>
+
+          <!-- 01.06.2026 -->
+          <circle cx="56" cy="378" r="14" fill="#34d399" stroke="#fff" stroke-width="2.5"/>
+          <text x="76" y="372" fill="#a7f3d0" font-size="8" font-weight="800">01.06.2026</text>
+          <text x="76" y="386" fill="#fff" font-size="7" font-weight="700">Президиум: полное аннулирование ✓</text>
+          <text x="76" y="398" fill="#a8a3b3" font-size="5.8">ст. 10 ГК · ст. 1483 · подп. 6 п. 2 ст. 1512</text>
+        </svg>
+
+        <ul class="boris-vpr-process__events" aria-label="Ключевые повороты хронологии">
+          <li class="boris-vpr-process__event boris-vpr-process__event--trap">
+            <span class="boris-vpr-process__event-date">16.06.2025</span>
+            Роспатент исключил «ВПР» для части классов 16 и 41, но оставил <em>«книги»</em> и <em>«издания печатные»</em> — монополия сохранилась.
           </li>
-          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--ip">
-            <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag">п. 10–12 · РИД</span>
-            <strong>ИС и лицензии</strong>
-            Спецпорядок № 322 — на <em>все</em> обязательства по РИД, включая деликт (п. 10). Правообладатель снимает счёт «О», доказав работу в РФ (п. 11, п. 17 «в»). Принудительная лицензия — крайняя мера при злоупотреблении патентом (п. 12).
-            <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-facts">
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">счёт «О»</span>
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">п. 17 «в»</span>
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">ст. 1362 ГК</span>
-            </div>
+          <li class="boris-vpr-process__event boris-vpr-process__event--loss">
+            <span class="boris-vpr-process__event-date">16.01.2026</span>
+            СИП отказал: по 1-й инстанции <em>не дожали</em> описательность — нужна линия злоупотребления правом и лицензирования.
           </li>
-          <li class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk--proc">
-            <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-tag">п. 13–21 · АПК</span>
-            <strong>Санкционный процесс</strong>
-            Брокер и банк — ограниченная ответственность при санкционных блокировках (п. 13–14). <em>Ст. 248.1–248.2 АПК</em>: арбитражная оговорка не блокирует подсудность РФ; запрет въезда = санкция (п. 15–17). Иностранные решения — проверка публичного порядка (п. 19–20); судебная неустойка за иностранное разбирательство (п. 21).
-            <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-facts">
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">ст. 248.1 АПК</span>
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">Euroclear</span>
-              <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__risk-fact">публичный порядок</span>
-            </div>
+          <li class="boris-vpr-process__event boris-vpr-process__event--win">
+            <span class="boris-vpr-process__event-date">01.06.2026</span>
+            Кассация <em>полностью</em> прекратила охрану; ст. 1515 не применялась — только <em>100 000 ₽</em> госпошлины.
           </li>
         </ul>
-        <p class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__note"><em>Ответчик:</em> иск ФНС о ничтожности платежа, суд проверит цессию сам. <em>Истец:</em> пересмотр по вновь открывшимся обстоятельствам (п. 8, ст. 309–311 АПК).</p>
+        <p class="boris-vpr-process__note"><em>Ориентир сроков:</em> от возражения (12.2024) до итога кассации (06.2026) — ~18 месяцев; проигрыш в декабре–январе не финал при правильной кассационной стратегии.</p>
       </div>
     </div>
 
-    <div class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__foot" aria-label="Контекст обзора ВС № 8/2026">
-      <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--doc">ВС № 8/2026 · № 11А/2026 · 22 позиции</span>
-      <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--law">ст. 10, 168 ГК · ничтожность</span>
-      <span class="vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map__tag--proc">ст. 248.1–248.2 АПК · подсудность РФ</span>
+    <div class="boris-vpr-process__foot" aria-label="Контекст дела СИП-844/2025">
+      <span class="boris-vpr-process__tag boris-vpr-process__tag--case">СИП-844/2025 · № 652761 · ВПР</span>
+      <span class="boris-vpr-process__tag boris-vpr-process__tag--law">ст. 10 ГК · злоупотребление правом</span>
+      <span class="boris-vpr-process__tag boris-vpr-process__tag--norm">ст. 1483 · подп. 6 п. 2 ст. 1512</span>
     </div>
   </div>
 </section>
@@ -410,7 +446,7 @@
 
 ## Передача Наташе
 
-- **Якорь вставки:** `#l24-boris-vs-obzor-8-2026-specmery-arbitrazh-nichtozhnost-sdelok-risk-map`
-- **После H2:** «Ничтожность сделок в обход спецпорядка (ст. 10, 168 ГК РФ)»
-- **Перед H2:** «Продажа недвижимости без разрешения Правкомиссии (Указ № 81)»
+- **Якорь вставки:** `#boris-vpr-process`
+- **После H2:** «Оспаривание товарного знака: возражение в Роспатенте и иск в СИП»
+- **Перед:** primary CTA «Роспатент частично удовлетворил возражение…»
 - **MCP-only:** без `<canvas>` и `<script>`

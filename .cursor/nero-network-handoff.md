@@ -5311,13 +5311,13 @@ H1_для_hero: СИП 2026: Президиум аннулировал това�
 **CTA:** https://advokat-vsem.ru/ (4 блока ym-cta)
 
 === ЮРА (ПУБЛИКАЦИЯ) ===
-Статус: ✅ ОПУБЛИКОВАНО (MCP Kovcheg blob flow, 7 чанков)
+Статус: ✅ ОПУБЛИКОВАНО (MCP Kovcheg blob flow, 7 чанков, перезагрузка 00→06)
 Дата: 2026-06-30
 Код: KIRILL-IP
 page_id: 540
-blob_id: 5kVab1HbZrcw8MVTUWjNbA
-sha256: 2a93751580ddd3f6a8eff2e60fa6887a509ff569174f76bf9a01253fbd8c5b0c
-bytes: 77531
+blob_id: g7eJU5NHlBmQpTLrOkoGz9xi
+sha256: 19396ce31442b128f416fba49eee2b5b6894712e75f6d462d168fc121379bd47
+bytes: 96920
 URL: https://advokat-vsem.online/sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie/
-Метод: wordpress_content_blob_append (reset + 6 чанков, finalize) → wordpress_update_page_from_blob → wordpress_update_page (publish + excerpt)
-Проверить: `main#primary`, `sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie-page`, hero `#l24-hero-sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie`, Boris `#boris-vpr-process`, FAQ `#faq`
+Метод: wordpress_content_blob_append (reset + 6 чанков, finalize, строгий порядок 00→06) → wordpress_update_page_from_blob → wordpress_update_page (publish + excerpt)
+Проверить: `main#primary`, `sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie-page`, hero `#l24-hero-sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie`, Boris `#boris-vpr-process`, FAQ `#faq`, дисклеймер «юридической консультацией» (без «злоой»)

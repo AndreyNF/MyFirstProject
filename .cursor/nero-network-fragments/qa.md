@@ -165,3 +165,78 @@
 
 **Проверил:** Макс (QA Agent)
 **Timestamp:** Tue Jun 30, 2026, 03:46 UTC
+
+---
+
+=== МАКС (QA) ===
+
+**URL:** https://advokat-vsem.online/sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie/
+
+**Дата проверки:** 2026-06-30
+
+**Статус:** ❌
+
+---
+
+## Результаты проверки:
+
+### ✅ Hero секция
+- `#l24-hero-sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie` — в DOM
+- H1, подзаголовок, факты-чипы, SVG-иллюстрация — на месте
+- `@media (max-width: 900px)` для hero — есть
+
+### ❌ Блок Бориса (`#boris-vpr-process`)
+- Секция присутствует, карта и таймлайн SVG отрисовываются
+- **КРИТИЧНО:** разрыв blob-чанков — FAQ вставлен внутрь таймлайна, до закрытия секции
+- **КРИТИЧНО:** битый текст события 16.01.2026: `…нужна линия злоой консультацией; для вашей ситуации необходим анализ документов специалистом.</em></p>` (ожидалось: `…злоупотребления правом и лицензирования.`)
+- Незакрытые `<li>` / `<ul>` внутри Boris; `boris-vpr-process__foot` и win-событие 01.06.2026 оказались **после** `</main>`
+
+### ❌ `main#primary`
+- Элемент найден: `main#primary.site-main.sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie-page`
+- **КРИТИЧНО:** `</main>` закрывается на ~59% страницы; ~39 KB контента (5 H2-секций, 3 CTA, хвост Boris) — **вне** `main#primary`
+- Причина: chunk 06 (`finalize=true`, содержит FAQ + `</main>`) загружен **до** chunk 05
+
+### ✅ Breadcrumbs скрыты
+- CSS: `.breadcrumbs, .breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb { display: none !important; }`
+- `padding-top: 0 !important` — сброшен
+- Видимых `<nav class="breadcrumb">` в body нет; schema.org BreadcrumbList в JSON-LD — только для SEO
+
+### ✅ CTA ссылки на advokat-vsem.ru
+- 4 CTA-блока (`ym-cta__btn`), все ведут на `https://advokat-vsem.ru/`
+- Домен `.ru`, не `.online` — корректно
+
+### ⚠️ FAQ (`#faq`)
+- Секция `#faq` с 7 вопросами и JSON-LD FAQPage — присутствует
+- **ПРОБЛЕМА:** вставлена внутрь `#boris-vpr-process` (до foot и win-события), а не после закрытия Boris
+- Порядок на эталоне (`page-content-natasha-vpr.html`): Boris foot → FAQ → остальной контент
+
+### ✅ Mobile-friendly CSS
+- 6 `@media`-правил, включая `max-width: 900px` (hero, boris split) и `max-width: 520px` (boris stages)
+- `boris-vpr-process__split` → `grid-template-columns: 1fr` на мобильных
+
+### ✅ Alt / aria у SVG
+- 4 SVG на странице; все с `role="img"` + `aria-label` или `aria-labelledby`
+- Hero SVG, intro route SVG, Boris map SVG, Boris timeline SVG — accessibility OK
+
+---
+
+## Итоговая оценка: ❌ FAILED
+
+### Критические проблемы:
+1. **Неверный порядок blob-чанков** (06 до 05) — сломан DOM, FAQ внутри Boris
+2. **Преждевременное закрытие `</main>`** — ~39 KB контента вне основного контейнера
+3. **Искажённый текст таймлайна Boris** — CTA-фрагмент вместо «злоупотребления правом и лицензирования»
+4. **Битая HTML-разметка** в блоке Boris (незакрытые теги, orphan-фрагменты после `</main>`)
+
+### Что прошло:
+- Hero, breadcrumbs hidden, CTA → advokat-vsem.ru, mobile CSS, SVG aria
+
+### Рекомендации:
+1. Переопубликовать страницу: chunks **00→06 по порядку**, chunk 06 — только с `finalize=true`
+2. Пересобрать границы чанков 04/05/06: не резать середину `<li>` и CTA-текста
+3. После фикса — повторный QA: Boris foot до FAQ, весь контент внутри `main#primary`
+
+---
+
+**Проверил:** Макс (QA Agent)
+**Timestamp:** Tue Jun 30, 2026, 10:12 UTC
