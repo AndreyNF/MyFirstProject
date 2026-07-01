@@ -74,6 +74,8 @@ scripts/sip565_ws_mcp_call.js
 .cursor/poizon-mcp-args/
 .cursor/vs-obzor-*
 .cursor/vs-komp-blob-mcp/
+.cursor/vs-mos-blob-mcp/
+.cursor/vs-mos-*.json
 .cursor/vs-mcp-*
 .cursor/vs-4c-mcp-*
 .cursor/vs-4chunk-*

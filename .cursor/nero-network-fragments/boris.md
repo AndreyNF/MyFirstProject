@@ -1,255 +1,314 @@
 === БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
 Статус: ✅ ГОТОВО
-ЯКОРЬ: l24-boris-plenum42-size
+ЯКОРЬ: l24-boris-vs-moshennichestvo-umysel
 
 ## Паспорт блока
 
 | Параметр | Значение |
 |----------|----------|
-| **Статья** | Пленум ВС № 42 — субсидиарная ответственность при банкротстве |
-| **SLUG** | `plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026` |
-| **Якорь** | `l24-boris-plenum42-size` |
-| **Тема** | Схема «Размер СО»: что включается / не включается (штрафы ФНС, реестр, текущие платежи) |
-| **Размещение** | В теле статьи под H2 «Как определяется размер субсидиарной ответственности» |
-| **Режим** | MCP-only: только inline CSS + SVG, без `<canvas>` и `<script>` |
-| **Палитра** | Тёмный navy `#060f1e`–`#0f2244`; включено: emerald `#059669`; исключено: crimson `#dc2626`; штрафы ФНС: orange `#ea580c`; центр: amber `#d97706` |
+| **Статья** | ВС отменил приговор директору МУП за мошенничество по ч. 3 ст. 159 — муниципальный контракт |
+| **SLUG** | `vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026` |
+| **Якорь** | `l24-boris-vs-moshennichestvo-umysel` |
+| **Тема** | Split/grid «Гражданский спор ↔ Уголовное дело» — 4 узла защиты: контракт исполнен, акты без претензий, экспертиза ≠ умысел, зарплата ≠ корысть |
+| **Размещение** | После H2-3 «Гражданский спор или уголовное дело: когда переплата по контракту не равна мошенничеству» |
+| **Режим** | Контраст к hero: карта границы ответственности в теле статьи; MCP-only — inline CSS + SVG, без `<canvas>` и `<script>` |
+| **Палитра** | Тёмный navy `#0c1f33`–`#163352`; гражданский: teal `#38b2ac` / `#68d391`; уголовный: crimson `#fc8181` / `#dc2626`; ВС: gold `#ecc94b`; контракт 44-ФЗ: blue `#4299e1` |
+
+## Чеклист отличий от hero Алины
+
+- [x] Не полноэкранный первый экран — блок в теле лонгрида
+- [x] Другой `id`: `l24-boris-vs-moshennichestvo-umysel` (не hero-id Алины)
+- [x] Сплит «Гражданский спор ↔ Уголовное дело» + 4 узла — не дублирует сцену hero
+- [x] Без `<canvas>` и `<script>` — только inline CSS + SVG + grid
+- [x] CTA в блоке **не вставлять**
 
 ```html
-<section id="l24-boris-plenum42-size" class="bsp42" aria-label="Схема: размер субсидиарной ответственности — что включается и что нет, Пленум ВС № 42">
+<section id="l24-boris-vs-moshennichestvo-umysel" class="l24-boris-vs-mos-umysel" aria-label="Граница гражданского спора и уголовного дела: дело Столярова, ВС № 85-УД26-2-К1, ч. 3 ст. 159 УК">
 <style>
-.bsp42{
-  --bg0:#060f1e;--bg1:#0b1c36;--bg2:#0f2244;
-  --inc:#059669;--incs:#6ee7b7;--incp:rgba(5,150,105,.14);
-  --exc:#dc2626;--excs:#fca5a5;--excp:rgba(220,38,38,.14);
-  --acc:#d97706;--acc2:#f59e0b;--accs:#fde68a;
-  --ks:#ea580c;--ks2:#f97316;--kss:#fdba74;--ksp:rgba(234,88,12,.15);
-  --txt:#e2e8f0;--mut:#94a3b8;--brd:rgba(255,255,255,.1);
-  margin:48px 0;
-  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+.l24-boris-vs-mos-umysel {
+  --bm-navy: #0c1f33;
+  --bm-navy-soft: #163352;
+  --bm-civil: #38b2ac;
+  --bm-civil-soft: #68d391;
+  --bm-civil-bg: rgba(56, 178, 172, 0.14);
+  --bm-crim: #fc8181;
+  --bm-crim-dark: #dc2626;
+  --bm-crim-bg: rgba(220, 38, 38, 0.12);
+  --bm-gold: #ecc94b;
+  --bm-blue: #4299e1;
+  --bm-muted: #a0aec0;
+  --bm-txt: #e2e8f0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.bsp42__shell{
-  background:linear-gradient(145deg,var(--bg0) 0%,var(--bg1) 52%,var(--bg2) 100%);
-  border:1px solid rgba(15,34,68,.8);
-  border-radius:16px;
-  padding:32px 28px 24px;
-  box-shadow:0 20px 54px rgba(6,15,30,.52);
-  color:var(--txt);
+.l24-boris-vs-mos-umysel__shell {
+  background: linear-gradient(152deg, var(--bm-navy) 0%, #122a42 48%, var(--bm-navy-soft) 100%);
+  border: 1px solid rgba(56, 178, 172, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 24px;
+  color: var(--bm-txt);
+  box-shadow: 0 18px 48px rgba(12, 31, 51, 0.32);
 }
-.bsp42__ew{
-  margin:0 0 8px;
-  font-size:.69rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
-  color:var(--acc2);
+.l24-boris-vs-mos-umysel__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bm-gold);
 }
-.bsp42__h3{
-  margin:0 0 10px;
-  font-size:clamp(1.08rem,2.2vw,1.36rem);line-height:1.22;
-  color:#fff;font-weight:700;
+.l24-boris-vs-mos-umysel__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
 }
-.bsp42__lead{
-  margin:0 0 24px;
-  font-size:.92rem;line-height:1.56;color:var(--mut);max-width:82ch;
+.l24-boris-vs-mos-umysel__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bm-muted);
+  max-width: 72ch;
 }
-.bsp42__lead strong{color:#fff;}
-.bsp42__svg{display:block;width:100%;height:auto;margin-bottom:22px;}
-.bsp42__cols{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;}
-.bsp42__col{border-radius:10px;padding:18px 16px;}
-.bsp42__col--in{background:var(--incp);border:1px solid rgba(5,150,105,.32);}
-.bsp42__col--out{background:var(--excp);border:1px solid rgba(220,38,38,.32);}
-.bsp42__col-hd{
-  margin:0 0 12px;
-  font-size:.71rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;
+.l24-boris-vs-mos-umysel__lead strong { color: #fff; }
+.l24-boris-vs-mos-umysel__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 18px;
+  margin-bottom: 20px;
 }
-.bsp42__col--in .bsp42__col-hd{color:var(--incs);}
-.bsp42__col--out .bsp42__col-hd{color:var(--excs);}
-.bsp42__ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px;}
-.bsp42__ul>li{font-size:.78rem;line-height:1.44;color:var(--mut);}
-.bsp42__ul>li:not(.bsp42__li-ks){padding-left:16px;position:relative;}
-.bsp42__ul>li:not(.bsp42__li-ks)::before{position:absolute;left:0;font-weight:800;}
-.bsp42__col--in .bsp42__ul>li:not(.bsp42__li-ks)::before{content:"✓";color:var(--incs);}
-.bsp42__col--out .bsp42__ul>li:not(.bsp42__li-ks)::before{content:"✕";color:var(--excs);}
-.bsp42__ul>li strong{color:var(--txt);}
-.bsp42__ul>li small{display:block;font-size:.67rem;margin-top:3px;font-weight:600;opacity:.85;}
-.bsp42__li-ks{
-  background:var(--ksp);
-  border:1px solid rgba(234,88,12,.38);
-  border-radius:8px;
-  padding:10px 12px;
+.l24-boris-vs-mos-umysel__pole {
+  border-radius: 10px;
+  padding: 16px 14px;
+  text-align: center;
 }
-.bsp42__ks-ico{color:var(--kss);font-weight:800;margin-right:4px;}
-.bsp42__ks-tag{
-  display:inline-block;font-size:.62rem;font-weight:800;
-  text-transform:uppercase;letter-spacing:.05em;
-  background:rgba(234,88,12,.3);border:1px solid var(--ks2);color:var(--kss);
-  border-radius:4px;padding:2px 6px;margin-right:5px;
+.l24-boris-vs-mos-umysel__pole--civil {
+  background: var(--bm-civil-bg);
+  border: 1px solid rgba(56, 178, 172, 0.38);
 }
-.bsp42__ks-box{
-  display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start;
-  background:var(--ksp);border:1px solid rgba(234,88,12,.38);
-  border-radius:10px;padding:16px 18px;margin-bottom:16px;
+.l24-boris-vs-mos-umysel__pole--crim {
+  background: var(--bm-crim-bg);
+  border: 1px solid rgba(252, 129, 129, 0.38);
 }
-.bsp42__ks-lbl{
-  display:inline-block;white-space:nowrap;
-  font-size:.67rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;
-  background:rgba(234,88,12,.25);border:1px solid var(--ks2);color:var(--kss);
-  border-radius:6px;padding:5px 10px;flex-shrink:0;
+.l24-boris-vs-mos-umysel__pole-hd {
+  margin: 0 0 6px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
-.bsp42__ks-p{margin:0;font-size:.79rem;line-height:1.53;color:var(--mut);flex:1;min-width:180px;}
-.bsp42__ks-p strong{color:var(--kss);}
-.bsp42__foot{
-  display:flex;flex-wrap:wrap;gap:7px;
-  margin-top:14px;padding-top:14px;border-top:1px solid var(--brd);
+.l24-boris-vs-mos-umysel__pole--civil .l24-boris-vs-mos-umysel__pole-hd { color: #b2f5ea; }
+.l24-boris-vs-mos-umysel__pole--crim .l24-boris-vs-mos-umysel__pole-hd { color: #fed7d7; }
+.l24-boris-vs-mos-umysel__pole-sub {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: var(--bm-muted);
 }
-.bsp42__tag{
-  font-size:.7rem;font-weight:600;padding:5px 10px;border-radius:999px;
-  background:rgba(255,255,255,.05);color:var(--txt);border:1px solid rgba(255,255,255,.13);
+.l24-boris-vs-mos-umysel__scheme-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
-.bsp42__tag--a{border-color:rgba(217,119,6,.5);color:var(--accs);}
-.bsp42__tag--i{border-color:rgba(5,150,105,.5);color:var(--incs);}
-.bsp42__tag--e{border-color:rgba(220,38,38,.5);color:var(--excs);}
-.bsp42__tag--k{border-color:rgba(234,88,12,.5);color:var(--kss);}
-@media(max-width:740px){
-  .bsp42__cols{grid-template-columns:1fr;}
-  .bsp42__shell{padding:24px 18px 20px;}
+.l24-boris-vs-mos-umysel__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.l24-boris-vs-mos-umysel__node {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 14px 12px;
+  text-align: center;
+  border-top: 3px solid var(--bm-civil);
+}
+.l24-boris-vs-mos-umysel__node:nth-child(2) { border-top-color: var(--bm-blue); }
+.l24-boris-vs-mos-umysel__node:nth-child(3) { border-top-color: var(--bm-gold); }
+.l24-boris-vs-mos-umysel__node:nth-child(4) { border-top-color: var(--bm-civil-soft); }
+.l24-boris-vs-mos-umysel__node-tag {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--bm-gold);
+  margin-bottom: 6px;
+  letter-spacing: 0.04em;
+}
+.l24-boris-vs-mos-umysel__node-label {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: #cbd5e1;
+  font-weight: 600;
+}
+.l24-boris-vs-mos-umysel__node-label small {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--bm-muted);
+  line-height: 1.35;
+}
+.l24-boris-vs-mos-umysel__verdict {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: rgba(236, 201, 75, 0.12);
+  border: 1px solid rgba(236, 201, 75, 0.38);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--bm-muted);
+}
+.l24-boris-vs-mos-umysel__verdict strong { color: var(--bm-gold); }
+.l24-boris-vs-mos-umysel__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-mos-umysel__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--bm-txt);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.l24-boris-vs-mos-umysel__tag--case { border-color: rgba(236, 201, 75, 0.5); color: var(--bm-gold); }
+.l24-boris-vs-mos-umysel__tag--civil { border-color: rgba(56, 178, 172, 0.45); color: #b2f5ea; }
+.l24-boris-vs-mos-umysel__tag--crim { border-color: rgba(252, 129, 129, 0.45); color: #fed7d7; }
+.l24-boris-vs-mos-umysel__tag--law { border-color: rgba(66, 153, 225, 0.45); color: #bee3f8; }
+@media (max-width: 800px) {
+  .l24-boris-vs-mos-umysel__grid { grid-template-columns: 1fr 1fr; }
+  .l24-boris-vs-mos-umysel__split { grid-template-columns: 1fr; }
+  .l24-boris-vs-mos-umysel__shell { padding: 24px 18px 20px; }
+}
+@media (max-width: 480px) {
+  .l24-boris-vs-mos-umysel__grid { grid-template-columns: 1fr; }
 }
 </style>
 
-<div class="bsp42__shell">
-  <p class="bsp42__ew">ARB · Пленум ВС № 42 · 23.12.2025 · пп. 26¹–26¹¹ Пленума ВС № 53</p>
-  <h3 class="bsp42__h3">Размер субсидиарной ответственности: что включается и что нет — схема по п. 26¹</h3>
-  <p class="bsp42__lead">Пленум № 42 создал единый раздел «Размер СО» (пп. 26¹–26¹¹). Главное правило: <strong>штрафы ФНС за налоговые правонарушения прямо исключены</strong> — позиция КС РФ № 50-П стала обязательной нормой для всех судов с 23.12.2025.</p>
+<div class="l24-boris-vs-mos-umysel__shell">
+  <p class="l24-boris-vs-mos-umysel__eyebrow">UG · ч. 3 ст. 159 · 44-ФЗ · дело № 85-УД26-2-К1 · ВС 14.05.2026</p>
+  <h3 class="l24-boris-vs-mos-umysel__title">Гражданский спор ↔ Уголовное дело: четыре узла, которые сдвигают границу к защите</h3>
+  <p class="l24-boris-vs-mos-umysel__lead">В деле <strong>Столярова</strong> (МУП МРЭП, контракт <strong>612 144 ₽</strong> на ремонт переправы) Верховный суд отменил приговор по <strong>ч. 3 ст. 159 УК РФ</strong>: переплата по экспертизе не равна мошенничеству, если контракт исполнен, акты подписаны без претензий, а деньги ушли на зарплату сотрудников — не в личную корысть директора.</p>
 
-  <svg class="bsp42__svg" viewBox="0 0 720 232" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="b42t b42d">
-    <title id="b42t">Схема: размер субсидиарной ответственности по Пленуму ВС № 42</title>
-    <desc id="b42d">Что включается (реестровые, зареестровые, текущие платежи, санкции без штрафов ФНС, мораторные проценты) и что не включается (штрафы ФНС — КС 50-П, аффилированные, осведомлённые кредиторы, без причинно-следственной связи) в размер субсидиарной ответственности — пп. 26¹–26¹¹ Пленума ВС № 53 в редакции Пленума № 42</desc>
+  <div class="l24-boris-vs-mos-umysel__split" role="group" aria-label="Два полюса: гражданский спор и уголовное дело">
+    <div class="l24-boris-vs-mos-umysel__pole l24-boris-vs-mos-umysel__pole--civil">
+      <p class="l24-boris-vs-mos-umysel__pole-hd">Гражданский спор</p>
+      <p class="l24-boris-vs-mos-umysel__pole-sub">Переплата, убытки, неосновательное обогащение — после приёмки работ</p>
+    </div>
+    <div class="l24-boris-vs-mos-umysel__pole l24-boris-vs-mos-umysel__pole--crim">
+      <p class="l24-boris-vs-mos-umysel__pole-hd">Уголовное дело</p>
+      <p class="l24-boris-vs-mos-umysel__pole-sub">ч. 3 ст. 159 — умысел на хищение <em>до</em> получения денег, корыстная цель</p>
+    </div>
+  </div>
+
+  <svg class="l24-boris-vs-mos-umysel__scheme-svg" viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bm159t bm159d">
+    <title id="bm159t">Схема границы гражданского спора и уголовного дела при муниципальном контракте — дело Столярова</title>
+    <desc id="bm159d">Четыре аргумента защиты (контракт исполнен, акты без претензий, экспертиза не заменяет умысел, зарплата не корысть) сдвигают спор из уголовной плоскости в гражданскую — позиция ВС РФ № 85-УД26-2-К1</desc>
     <defs>
-      <linearGradient id="b42gctr" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
-        <stop offset="0%" stop-color="#0c1e42"/>
-        <stop offset="100%" stop-color="#07121f"/>
-      </linearGradient>
-      <marker id="b42mg" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
-        <polygon points="0 0, 8 3.5, 0 7" fill="#10b981"/>
+      <marker id="bm159-arr-c" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+        <polygon points="0 0, 8 3.5, 0 7" fill="#38b2ac"/>
+      </marker>
+      <marker id="bm159-arr-r" markerWidth="8" markerHeight="7" refX="1" refY="3.5" orient="auto">
+        <polygon points="8 0, 0 3.5, 8 7" fill="#fc8181"/>
       </marker>
     </defs>
 
-    <!-- ===== ЛЕВАЯ ЧАСТЬ: ВКЛЮЧАЕТСЯ (x=8–226) ===== -->
-    <rect x="8" y="16" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
-    <text x="19" y="29" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
-    <text x="31" y="29" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Реестровые требования кредиторов</text>
-    <text x="31" y="42" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">1–3 очередь · основная база СО</text>
+    <!-- Центральная граница -->
+    <line x1="360" y1="18" x2="360" y2="202" stroke="rgba(236,201,75,0.45)" stroke-width="2" stroke-dasharray="6,5"/>
+    <text x="360" y="14" text-anchor="middle" fill="#ecc94b" font-size="7" font-weight="700" font-family="system-ui,sans-serif" letter-spacing=".05em">ГРАНИЦА</text>
 
-    <rect x="8" y="58" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
-    <text x="19" y="71" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
-    <text x="31" y="71" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Зареестровые требования</text>
-    <text x="31" y="84" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">заявленные после закрытия реестра</text>
+    <!-- Левый полюс: гражданский -->
+    <rect x="16" y="28" width="148" height="164" rx="10" fill="rgba(56,178,172,0.12)" stroke="#38b2ac" stroke-width="1.5"/>
+    <text x="90" y="50" text-anchor="middle" fill="#b2f5ea" font-size="8.5" font-weight="800" font-family="system-ui,sans-serif">ГРАЖДАНСКИЙ</text>
+    <text x="90" y="64" text-anchor="middle" fill="#b2f5ea" font-size="8.5" font-weight="800" font-family="system-ui,sans-serif">СПОР</text>
+    <text x="90" y="84" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-family="system-ui,sans-serif">иск о переплате</text>
+    <text x="90" y="96" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-family="system-ui,sans-serif">убытки · 44-ФЗ</text>
+    <rect x="32" y="108" width="116" height="22" rx="5" fill="rgba(56,178,172,0.22)" stroke="#68d391" stroke-width="1"/>
+    <text x="90" y="122" text-anchor="middle" fill="#c6f6d5" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">дело Столярова →</text>
+    <text x="90" y="148" text-anchor="middle" fill="#68d391" font-size="7" font-weight="700" font-family="system-ui,sans-serif">Пленум № 48:</text>
+    <text x="90" y="160" text-anchor="middle" fill="#94a3b8" font-size="6.2" font-family="system-ui,sans-serif">неисполнение ≠ мошенничество</text>
+    <text x="90" y="172" text-anchor="middle" fill="#94a3b8" font-size="6.2" font-family="system-ui,sans-serif">само по себе</text>
 
-    <rect x="8" y="100" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
-    <text x="19" y="113" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
-    <text x="31" y="113" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Текущие платежи</text>
-    <text x="31" y="126" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">ст. 5 Закона о банкротстве</text>
+    <!-- Правый полюс: уголовный -->
+    <rect x="556" y="28" width="148" height="164" rx="10" fill="rgba(220,38,38,0.1)" stroke="#fc8181" stroke-width="1.5"/>
+    <text x="630" y="50" text-anchor="middle" fill="#fed7d7" font-size="8.5" font-weight="800" font-family="system-ui,sans-serif">УГОЛОВНОЕ</text>
+    <text x="630" y="64" text-anchor="middle" fill="#fed7d7" font-size="8.5" font-weight="800" font-family="system-ui,sans-serif">ДЕЛО</text>
+    <text x="630" y="84" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-family="system-ui,sans-serif">ч. 3 ст. 159 УК</text>
+    <text x="630" y="96" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-family="system-ui,sans-serif">умысел + корысть</text>
+    <rect x="572" y="108" width="116" height="22" rx="5" fill="rgba(220,38,38,0.18)" stroke="#fc8181" stroke-width="1"/>
+    <text x="630" y="122" text-anchor="middle" fill="#feb2b2" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">← нужно доказать</text>
+    <text x="630" y="148" text-anchor="middle" fill="#fc8181" font-size="7" font-weight="700" font-family="system-ui,sans-serif">экспертиза «470 000 ₽»</text>
+    <text x="630" y="160" text-anchor="middle" fill="#94a3b8" font-size="6.2" font-family="system-ui,sans-serif">недостаточна без</text>
+    <text x="630" y="172" text-anchor="middle" fill="#94a3b8" font-size="6.2" font-family="system-ui,sans-serif">умысла до оплаты</text>
 
-    <rect x="8" y="142" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
-    <text x="19" y="155" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
-    <text x="31" y="155" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Санкции за публичные нарушения</text>
-    <text x="31" y="168" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">кроме штрафов ФНС · п. 26¹</text>
+    <!-- 4 узла (центр) -->
+    <rect x="188" y="36" width="124" height="36" rx="7" fill="rgba(56,178,172,0.2)" stroke="#38b2ac" stroke-width="1.3"/>
+    <text x="250" y="52" text-anchor="middle" fill="#e2e8f0" font-size="7" font-weight="700" font-family="system-ui,sans-serif">① Контракт исполнен</text>
+    <text x="250" y="64" text-anchor="middle" fill="#94a3b8" font-size="5.8" font-family="system-ui,sans-serif">612 144 ₽ · работы сделаны</text>
+    <line x1="188" y1="54" x2="164" y2="90" stroke="#38b2ac" stroke-width="1.4" marker-end="url(#bm159-arr-c)"/>
 
-    <rect x="8" y="184" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
-    <text x="19" y="197" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
-    <text x="31" y="197" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Мораторные проценты</text>
-    <text x="31" y="210" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">пп. 4 ст. 63, 2 ст. 81, 2¹ ст. 126</text>
+    <rect x="408" y="36" width="124" height="36" rx="7" fill="rgba(66,153,225,0.18)" stroke="#4299e1" stroke-width="1.3"/>
+    <text x="470" y="52" text-anchor="middle" fill="#e2e8f0" font-size="7" font-weight="700" font-family="system-ui,sans-serif">② Акты без претензий</text>
+    <text x="470" y="64" text-anchor="middle" fill="#94a3b8" font-size="5.8" font-family="system-ui,sans-serif">приёмка заказчиком · КС-2</text>
+    <line x1="408" y1="54" x2="196" y2="100" stroke="#4299e1" stroke-width="1.4" marker-end="url(#bm159-arr-c)"/>
 
-    <!-- Стрелки к центральному блоку (x=268) -->
-    <line x1="226" y1="32"  x2="268" y2="90"  stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.75"/>
-    <line x1="226" y1="74"  x2="268" y2="104" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.85"/>
-    <line x1="226" y1="116" x2="268" y2="118" stroke="#10b981" stroke-width="1.6" marker-end="url(#b42mg)"/>
-    <line x1="226" y1="158" x2="268" y2="132" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.85"/>
-    <line x1="226" y1="200" x2="268" y2="146" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.75"/>
+    <rect x="188" y="148" width="124" height="36" rx="7" fill="rgba(236,201,75,0.16)" stroke="#ecc94b" stroke-width="1.3"/>
+    <text x="250" y="164" text-anchor="middle" fill="#e2e8f0" font-size="7" font-weight="700" font-family="system-ui,sans-serif">③ Экспертиза ≠ умысел</text>
+    <text x="250" y="176" text-anchor="middle" fill="#94a3b8" font-size="5.8" font-family="system-ui,sans-serif">разница стоимости · не хищение</text>
+    <line x1="188" y1="166" x2="164" y2="130" stroke="#ecc94b" stroke-width="1.4" marker-end="url(#bm159-arr-c)"/>
 
-    <!-- ===== ЦЕНТРАЛЬНЫЙ БЛОК: РАЗМЕР СО (x=268–438, y=58–174) ===== -->
-    <rect x="268" y="58" width="170" height="116" rx="12" fill="url(#b42gctr)" stroke="#d97706" stroke-width="2"/>
-    <rect x="268" y="58" width="170" height="116" rx="12" fill="none" stroke="rgba(217,119,6,.18)" stroke-width="7"/>
-    <text x="353" y="90"  text-anchor="middle" fill="#fde68a" font-size="9"   font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".04em">РАЗМЕР</text>
-    <text x="353" y="106" text-anchor="middle" fill="#fde68a" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".03em">СУБСИДИАРНОЙ</text>
-    <text x="353" y="120" text-anchor="middle" fill="#fde68a" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".03em">ОТВЕТСТВЕННОСТИ</text>
-    <line x1="282" y1="127" x2="424" y2="127" stroke="rgba(217,119,6,.28)" stroke-width="1"/>
-    <text x="353" y="140" text-anchor="middle" fill="#94a3b8" font-size="6.2" font-family="system-ui,sans-serif">= Σ включённых требований</text>
-    <text x="353" y="153" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">п. 26¹ Пленума ВС № 53</text>
-    <text x="353" y="165" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">(ред. Пленума № 42 · 23.12.2025)</text>
+    <rect x="408" y="148" width="124" height="36" rx="7" fill="rgba(104,211,145,0.16)" stroke="#68d391" stroke-width="1.3"/>
+    <text x="470" y="164" text-anchor="middle" fill="#e2e8f0" font-size="7" font-weight="700" font-family="system-ui,sans-serif">④ Зарплата ≠ корысть</text>
+    <text x="470" y="176" text-anchor="middle" fill="#94a3b8" font-size="5.8" font-family="system-ui,sans-serif">сотрудники МУП · не личная польза</text>
+    <line x1="408" y1="166" x2="196" y2="120" stroke="#68d391" stroke-width="1.4" marker-end="url(#bm159-arr-c)"/>
 
-    <!-- ===== ПРАВАЯ ЧАСТЬ: НЕ ВКЛЮЧАЕТСЯ (x=450–712) ===== -->
-    <line x1="445" y1="14" x2="445" y2="220" stroke="rgba(220,38,38,.22)" stroke-width="1.5" stroke-dasharray="5,4"/>
+    <!-- Центральный вердикт ВС -->
+    <rect x="248" y="88" width="224" height="44" rx="8" fill="rgba(236,201,75,0.14)" stroke="#ecc94b" stroke-width="1.6"/>
+    <text x="360" y="106" text-anchor="middle" fill="#ecc94b" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">ВС 14.05.2026 · № 85-УД26-2-К1</text>
+    <text x="360" y="120" text-anchor="middle" fill="#fde68a" font-size="6.5" font-family="system-ui,sans-serif">отмена приговора · ГП РФ поддержал защиту</text>
 
-    <!-- R1: Штрафы ФНС — особо выделено -->
-    <rect x="450" y="14" width="262" height="62" rx="9" fill="rgba(234,88,12,.18)" stroke="#ea580c" stroke-width="2"/>
-    <rect x="450" y="14" width="262" height="62" rx="9" fill="none" stroke="rgba(234,88,12,.35)" stroke-width="5" stroke-dasharray="4,3"/>
-    <text x="465" y="32" fill="#fdba74" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif">✕  Штрафы ФНС за налоговые</text>
-    <text x="465" y="46" fill="#fdba74" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif">     правонарушения должника</text>
-    <rect x="465" y="52" width="92" height="16" rx="4" fill="rgba(234,88,12,.4)"/>
-    <text x="511" y="63" text-anchor="middle" fill="#fff" font-size="6" font-weight="800" font-family="system-ui,sans-serif">КС РФ № 50-П · п. 26¹</text>
+    <!-- Стрелки от уголовного (блокированы) -->
+    <line x1="532" y1="54" x2="360" y2="110" stroke="#fc8181" stroke-width="1" stroke-dasharray="4,3" opacity="0.45" marker-end="url(#bm159-arr-r)"/>
+    <line x1="532" y1="166" x2="360" y2="118" stroke="#fc8181" stroke-width="1" stroke-dasharray="4,3" opacity="0.45" marker-end="url(#bm159-arr-r)"/>
 
-    <!-- R2: Аффилированные -->
-    <rect x="450" y="86" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
-    <text x="463" y="99"  fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
-    <text x="475" y="99"  fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования аффилированных лиц</text>
-    <text x="475" y="112" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">контролирующих / подконтрольных КДЛ · п. 26²</text>
-
-    <!-- R3: Осведомлённые кредиторы -->
-    <rect x="450" y="129" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
-    <text x="463" y="142" fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
-    <text x="475" y="142" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования «осведомлённых» кредиторов</text>
-    <text x="475" y="155" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">знали о нарушениях при заключении договора · п. 26⁷</text>
-
-    <!-- R4: Отсутствие причинно-следственной связи -->
-    <rect x="450" y="172" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
-    <text x="463" y="185" fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
-    <text x="475" y="185" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования без причинно-след. связи</text>
-    <text x="475" y="198" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">КДЛ доказало отсутствие влияния · п. 26⁶</text>
-
-    <!-- Подписи колонок -->
-    <text x="117" y="224" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif" letter-spacing=".05em">ВКЛЮЧАЕТСЯ В РАЗМЕР СО (п. 26¹)</text>
-    <text x="581" y="224" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif" letter-spacing=".04em">НЕ ВКЛЮЧАЕТСЯ / СНИЖАЕТ РАЗМЕР СО</text>
+    <text x="360" y="208" text-anchor="middle" fill="#64748b" font-size="6.2" font-family="system-ui,sans-serif">Четыре узла → гражданская плоскость · уголовная требует умысел до оплаты</text>
   </svg>
 
-  <!-- Детальный разбор: HTML-колонки -->
-  <div class="bsp42__cols">
-    <div class="bsp42__col bsp42__col--in">
-      <p class="bsp42__col-hd">✓ Что включается в размер СО</p>
-      <ul class="bsp42__ul">
-        <li><strong>Реестровые требования кредиторов</strong> — все три очереди (основная база)</li>
-        <li><strong>Зареестровые требования</strong> — заявленные после закрытия реестра</li>
-        <li><strong>Текущие платежи</strong> — ст. 5 Закона о банкротстве</li>
-        <li><strong>Санкции за публичные правонарушения</strong> — кроме штрафов ФНС<small>пени ФНС и санкции за иные нарушения — включаются; штрафы за налоговые — нет</small></li>
-        <li><strong>Мораторные проценты</strong> — пп. 4 ст. 63, 2 ст. 81, абз. 4 п. 2 ст. 95, п. 2¹ ст. 126 Закона о банкротстве</li>
-      </ul>
+  <div class="l24-boris-vs-mos-umysel__grid" role="list" aria-label="Четыре узла границы ответственности">
+    <div class="l24-boris-vs-mos-umysel__node" role="listitem">
+      <span class="l24-boris-vs-mos-umysel__node-tag">узел ①</span>
+      <span class="l24-boris-vs-mos-umysel__node-label">Контракт исполнен<small>Работы по переправе выполнены МУП МРЭП; оплата 612 144 ₽ в пределах цены контракта</small></span>
     </div>
-    <div class="bsp42__col bsp42__col--out">
-      <p class="bsp42__col-hd">✕ Что не включается / снижает размер</p>
-      <ul class="bsp42__ul">
-        <li class="bsp42__li-ks">
-          <span class="bsp42__ks-ico">✕</span><span class="bsp42__ks-tag">КС 50-П · п. 26¹</span><strong>Штрафы ФНС</strong> за налоговые правонарушения должника
-          <small>Карательная мера ≠ компенсационная СО · обязательно для всех судов с 23.12.2025</small>
-        </li>
-        <li><strong>Требования аффилированных лиц</strong> — контролирующих или подконтрольных КДЛ структур — п. 26²</li>
-        <li><strong>Требования, уступленные заинтересованному лицу</strong> — п. 26², ст. 384 ГК РФ</li>
-        <li><strong>Требования «осведомлённых» кредиторов</strong> — знали о нарушениях при заключении договора<small>исключение: недобровольные кредиторы (работники, обязательные платежи) защищены всегда — п. 26⁷</small></li>
-        <li><strong>Требования без причинно-следственной связи</strong> — КДЛ доказало, что конкретное требование не связано с его действиями — п. 26⁶</li>
-      </ul>
+    <div class="l24-boris-vs-mos-umysel__node" role="listitem">
+      <span class="l24-boris-vs-mos-umysel__node-tag">узел ②</span>
+      <span class="l24-boris-vs-mos-umysel__node-label">Акты без претензий<small>Заказчик подписал акт приёмки без оговорок — спор о «переплате» после факта исполнения</small></span>
+    </div>
+    <div class="l24-boris-vs-mos-umysel__node" role="listitem">
+      <span class="l24-boris-vs-mos-umysel__node-tag">узел ③</span>
+      <span class="l24-boris-vs-mos-umysel__node-label">Экспертиза ≠ умысел<small>Заключение о разнице стоимости (470 000 ₽) не заменяет доказывание умысла на хищение до получения денег</small></span>
+    </div>
+    <div class="l24-boris-vs-mos-umysel__node" role="listitem">
+      <span class="l24-boris-vs-mos-umysel__node-tag">узел ④</span>
+      <span class="l24-boris-vs-mos-umysel__node-label">Зарплата ≠ корысть<small>Средства на заработную плату сотрудников, выполнявших работы — не личное обогащение директора</small></span>
     </div>
   </div>
 
-  <!-- Блок КС РФ № 50-П -->
-  <div class="bsp42__ks-box">
-    <span class="bsp42__ks-lbl">КС РФ № 50-П · 30.10.2023 → п. 26¹ Пленума № 42</span>
-    <p class="bsp42__ks-p"><strong>Субсидиарная ответственность — компенсационная, а не карательная.</strong> Налоговый штраф — персональная санкция за конкретное правонарушение должника; перенос её на КДЛ нарушает принцип персонализации публичного наказания. До Пленума № 42 часть судов включала штрафы ФНС в базу СО. С 23.12.2025 это прямо запрещено: <strong>если ФНС заявила штрафы в составе требований о привлечении к СО — это прямое основание для снижения заявленной суммы.</strong></p>
-  </div>
+  <p class="l24-boris-vs-mos-umysel__verdict"><strong>Вывод ВС:</strong> при надлежащем исполнении муниципального контракта и приёмке без претензий переплата по экспертизе остаётся в зоне гражданского спора — пока не доказан заведомый обман и умысел на хищение до оплаты (Пленум ВС № 48, п. 9–10).</p>
 
-  <!-- Теги -->
-  <div class="bsp42__foot" aria-label="Нормативная база блока">
-    <span class="bsp42__tag bsp42__tag--a">Пленум ВС № 42 · 23.12.2025</span>
-    <span class="bsp42__tag bsp42__tag--a">пп. 26¹–26¹¹ Пленума ВС № 53</span>
-    <span class="bsp42__tag bsp42__tag--i">реестр · зареестровые · текущие платежи</span>
-    <span class="bsp42__tag bsp42__tag--e">штрафы ФНС — исключаются</span>
-    <span class="bsp42__tag bsp42__tag--k">КС РФ № 50-П · 30.10.2023</span>
-    <span class="bsp42__tag bsp42__tag--e">аффилированные · осведомлённые · п. 26², 26⁶, 26⁷</span>
+  <div class="l24-boris-vs-mos-umysel__foot" aria-label="Нормативная база блока">
+    <span class="l24-boris-vs-mos-umysel__tag l24-boris-vs-mos-umysel__tag--case">ВС 14.05.2026 · № 85-УД26-2-К1 · Столяров</span>
+    <span class="l24-boris-vs-mos-umysel__tag l24-boris-vs-mos-umysel__tag--crim">ч. 3 ст. 159 УК · крупный размер</span>
+    <span class="l24-boris-vs-mos-umysel__tag l24-boris-vs-mos-umysel__tag--civil">гражданский спор · переплата</span>
+    <span class="l24-boris-vs-mos-umysel__tag l24-boris-vs-mos-umysel__tag--law">44-ФЗ · п. 9 ч. 1 ст. 93 · экстренный контракт</span>
+    <span class="l24-boris-vs-mos-umysel__tag l24-boris-vs-mos-umysel__tag--law">Пленум ВС № 48 · умысел до получения</span>
   </div>
 </div>
 </section>
@@ -257,7 +316,7 @@
 
 ## Передача Наташе
 
-- **Якорь:** `l24-boris-plenum42-size`
-- **После H3:** «Что входит в размер: реестровые и зареестровые требования кредиторов»
-- **Перед:** H3 «Штрафы и санкции ФНС: почему они не включаются (позиция КС РФ № 50-П)»
-- **MCP-only:** без `<canvas>` и `<script>` — только inline CSS + SVG
+- **Якорь:** `l24-boris-vs-moshennichestvo-umysel`
+- **После H2-3:** «Гражданский спор или уголовное дело: когда переплата по контракту не равна мошенничеству»
+- **Перед:** H2-4 «Умысел до получения денег: Пленум ВС № 48 и доказывание корыстной цели»
+- **MCP-only:** без `<canvas>` и `<script>` — только inline CSS + SVG + grid
