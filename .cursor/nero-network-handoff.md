@@ -1421,3 +1421,707 @@ H1_для_hero: Пленум ВС № 42 (2025–2026): новые правил�
 ПОДЗАГОЛОВОК_HERO: Размер ответственности, штрафы ФНС, презумпции вины и тактика в арбитраже
 ТИП_СТАТЬИ: ARB — арбитраж при банкротстве
 СЛЕДУЮЩИЙ_ШАГ: Алина / Наташа (публикация)
+
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+**Hero id / class:** `l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026`
+
+## Паспорт мира
+
+| Параметр | Значение |
+|----------|----------|
+| **Мир** | «Весы субсидиарной ответственности» — банкротная среда 2025–2026: КДЛ под давлением кредиторов и ФНС, Пленум № 42 меняет правила расчёта размера СО, щит защиты директора и учредителя |
+| **Центральная метафора** | Здание Верховного суда с бейджем «42» (Пленум); весы правосудия (долги vs защита); три колонки КДЛ (директор, учредитель, наследники); щит с инструментами защиты; три факт-блока внизу |
+| **Пространство** | Тёплый кремово-янтарный градиент «правовой документ / арбитражный зал»; SVG — фасад ВС, весы, три КДЛ-карточки, бирюзовый щит защиты, блоки фактов |
+| **Движение** | Полностью static — без `<canvas>`, `<script>` и CSS-анимаций |
+| **Палитра** | `#0f172a` текст, `#1e3a5f` ВС/суд, `#b45309`/`#92400e` банкротство/долги, `#0d9488` защита/щит, `#0369a1` учредитель, `#7c3aed` наследники, `#dc2626` исключения, `#fefefe`–`#fff7ed` фон |
+| **Аудитория** | Директора и учредители под угрозой субсидиарки; бенефициары ООО; адвокаты по банкротству; арбитражные управляющие; кредиторы по банкротным делам |
+
+## Чеклист отличий от других hero
+
+- [x] **Не Пленум № 19**: не цифровой рубль/кража — угол **ARB, субсидиарная ответственность при банкротстве**
+- [x] **Не Пленум № 53**: это hero к статье о **Пленуме № 42 (23.12.2025)** — первом системном обновлении Пленума 53 за 8 лет
+- [x] **Не СИП/ВПР**: не IP — тип статьи **ARB, арбитраж при банкротстве**
+- [x] **Не обзор ВС № 8**: не спецмеры — **Пленум ВС № 42 от 23.12.2025**
+- [x] Уникальная сцена: суд с бейджем «42» + весы СО + три КДЛ-карточки + щит защиты + блоки фактов (размер СО, штрафы ФНС, наследники)
+- [x] Тёплый янтарный фон — отличается от холодного синего UG-hero Пленума № 19
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
+- [x] CTA в hero **не вставлять**
+
+```html
+<section id="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026" class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026" aria-label="Пленум ВС № 42 — новые правила субсидиарной ответственности в банкротстве 2025–2026: защита директора и учредителя">
+  <style>
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026 {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(158deg, #fefefe 0%, #fffbf5 42%, #fff7ed 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 44% 36% at 88% 10%, rgba(180, 83, 9, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 38% 32% at 8% 88%, rgba(13, 148, 136, 0.06) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.96);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #b45309;
+      flex-shrink: 0;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.38rem, 3vw, 2.1rem);
+      line-height: 1.24;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__h1-accent {
+      color: #1e3a5f;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__sub {
+      margin: 0 0 26px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.48vw, 1.1rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--court {
+      border-color: #93c5fd;
+      color: #1e3a5f;
+      background: #eff6ff;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--dir {
+      border-color: #fcd34d;
+      color: #78350f;
+      background: #fffbeb;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--found {
+      border-color: #fca5a5;
+      color: #b91c1c;
+      background: #fef2f2;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--fns {
+      border-color: #5eead4;
+      color: #0f766e;
+      background: #f0fdfa;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--heirs {
+      border-color: #c4b5fd;
+      color: #5b21b6;
+      background: #f5f3ff;
+    }
+    .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026 {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__visual {
+        order: -1;
+        max-height: 320px;
+      }
+    }
+  </style>
+
+  <div class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__inner">
+
+    <!-- Текстовый блок -->
+    <div class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__content">
+      <div class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__badge">
+        <span class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__badge-mark" aria-hidden="true"></span>
+        ARB · Пленум ВС № 42 · 23.12.2025 · субсидиарная ответственность при банкротстве
+      </div>
+      <h1 class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__h1">
+        <span class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__h1-accent">Пленум ВС&nbsp;№&nbsp;42 (2025–2026): новые правила субсидиарной ответственности в&nbsp;банкротстве — защита директора и&nbsp;учредителя</span>
+      </h1>
+      <p class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__sub">
+        Размер ответственности, штрафы ФНС, презумпции вины и тактика в арбитраже
+      </p>
+      <ul class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__facts">
+        <li class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--court">Пленум ВС&nbsp;№&nbsp;42 · 23.12.2025</li>
+        <li class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--dir">субсидиарная ответственность директора</li>
+        <li class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--found">субсидиарная ответственность учредителя</li>
+        <li class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--fns">штрафы ФНС исключены · КС&nbsp;50-П</li>
+        <li class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__fact--heirs">наследники КДЛ · пп.&nbsp;37¹–37⁵</li>
+      </ul>
+    </div>
+
+    <!-- SVG визуализация -->
+    <div class="l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026__visual" aria-hidden="true">
+      <svg viewBox="0 0 500 450" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:500px" role="img" aria-label="Пленум ВС № 42 по субсидиарной ответственности: здание суда с бейджем 42, весы баланса долгов и защиты, три категории КДЛ и бирюзовый щит с инструментами защиты директора">
+
+        <defs>
+          <linearGradient id="arb42-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fffdf8"/>
+            <stop offset="100%" stop-color="#fff7ed"/>
+          </linearGradient>
+          <linearGradient id="arb42-court" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+          </linearGradient>
+          <linearGradient id="arb42-debt" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fef3c7"/>
+            <stop offset="100%" stop-color="#fde68a"/>
+          </linearGradient>
+          <linearGradient id="arb42-prot" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ccfbf1"/>
+            <stop offset="100%" stop-color="#99f6e4"/>
+          </linearGradient>
+          <linearGradient id="arb42-shield-g" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0d9488"/>
+            <stop offset="100%" stop-color="#0f766e"/>
+          </linearGradient>
+          <pattern id="arb42-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <rect width="20" height="20" fill="#fffdf8"/>
+            <path d="M20 0 L0 0 0 20" fill="none" stroke="#fde68a" stroke-width="0.35" opacity="0.45"/>
+          </pattern>
+          <filter id="arb42-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.09"/>
+          </filter>
+          <marker id="arb42-arr-amber" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+            <path d="M0 0 L6 3 L0 6 Z" fill="#b45309"/>
+          </marker>
+          <marker id="arb42-arr-teal" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+            <path d="M0 0 L6 3 L0 6 Z" fill="#0d9488"/>
+          </marker>
+        </defs>
+
+        <!-- Фон SVG -->
+        <rect x="8" y="8" width="484" height="434" rx="18" fill="url(#arb42-bg)" stroke="#e8dfc0" stroke-width="1.2"/>
+        <rect x="8" y="8" width="484" height="434" rx="18" fill="url(#arb42-grid)" opacity="0.55"/>
+
+        <!-- ЗДАНИЕ ВЕРХОВНОГО СУДА -->
+        <g filter="url(#arb42-shadow)" transform="translate(157,5)">
+          <!-- Фронтон (треугольная крыша) -->
+          <polygon points="93,0 186,42 0,42" fill="#1e3a5f"/>
+          <!-- Бейдж «42» на фронтоне -->
+          <circle cx="93" cy="18" r="14" fill="#b45309"/>
+          <text x="93" y="23" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="900">42</text>
+          <!-- Корпус здания -->
+          <rect x="0" y="42" width="186" height="50" rx="3" fill="url(#arb42-court)"/>
+          <!-- Колонны -->
+          <rect x="12" y="46" width="10" height="36" rx="1" fill="#334155" opacity="0.55"/>
+          <rect x="30" y="46" width="10" height="36" rx="1" fill="#334155" opacity="0.55"/>
+          <rect x="50" y="46" width="16" height="40" rx="1" fill="#475569" opacity="0.60"/>
+          <rect x="80" y="48" width="10" height="38" rx="1" fill="#475569" opacity="0.65"/>
+          <rect x="96" y="48" width="10" height="38" rx="1" fill="#475569" opacity="0.65"/>
+          <rect x="120" y="46" width="16" height="40" rx="1" fill="#475569" opacity="0.60"/>
+          <rect x="148" y="46" width="10" height="36" rx="1" fill="#334155" opacity="0.55"/>
+          <rect x="166" y="46" width="10" height="36" rx="1" fill="#334155" opacity="0.55"/>
+          <!-- Надписи в здании -->
+          <text x="93" y="57" text-anchor="middle" fill="#e0f2fe" font-size="5.8" font-weight="800" letter-spacing="0.04em">ВЕРХОВНЫЙ СУД РФ</text>
+          <text x="93" y="69" text-anchor="middle" fill="#93c5fd" font-size="5">Пленум № 42 · 23.12.2025</text>
+          <text x="93" y="81" text-anchor="middle" fill="#7dd3fc" font-size="4.5">первое системное обновление Пленума № 53 за 8 лет</text>
+        </g>
+
+        <!-- ВЕСЫ ПРАВОСУДИЯ / БАЛАНС СО -->
+        <g transform="translate(175,105)">
+          <!-- Заголовок весов -->
+          <text x="75" y="0" text-anchor="middle" fill="#1e3a5f" font-size="5.2" font-weight="800" letter-spacing="0.02em">ВЕСЫ БАЛАНСА · РАЗМЕР ОТВЕТСТВЕННОСТИ</text>
+          <!-- Центральная стойка весов -->
+          <line x1="75" y1="8" x2="75" y2="44" stroke="#1e3a5f" stroke-width="2.5"/>
+          <!-- Поворотный шарнир -->
+          <circle cx="75" cy="44" r="4" fill="#b45309"/>
+          <!-- Горизонтальная балка -->
+          <line x1="10" y1="14" x2="140" y2="14" stroke="#1e3a5f" stroke-width="2.8"/>
+          <!-- Левое плечо: ДОЛГИ (янтарный) -->
+          <line x1="10" y1="14" x2="10" y2="32" stroke="#92400e" stroke-width="1.6"/>
+          <rect x="-16" y="32" width="52" height="30" rx="5" fill="url(#arb42-debt)" stroke="#b45309" stroke-width="1.5"/>
+          <text x="10" y="44" text-anchor="middle" fill="#78350f" font-size="4.8" font-weight="800">ДОЛГИ</text>
+          <text x="10" y="54" text-anchor="middle" fill="#92400e" font-size="4.2">реестр кредиторов</text>
+          <!-- Правое плечо: ЗАЩИТА (бирюзовый) -->
+          <line x1="140" y1="14" x2="140" y2="32" stroke="#0d9488" stroke-width="1.6"/>
+          <rect x="116" y="32" width="52" height="30" rx="5" fill="url(#arb42-prot)" stroke="#0d9488" stroke-width="1.5"/>
+          <text x="140" y="44" text-anchor="middle" fill="#065f46" font-size="4.8" font-weight="800">ЗАЩИТА</text>
+          <text x="140" y="54" text-anchor="middle" fill="#0f766e" font-size="4.2">аргументы КДЛ</text>
+        </g>
+
+        <!-- КДЛ: три категории (левая колонка) -->
+        <g filter="url(#arb42-shadow)" transform="translate(18,172)">
+          <text x="74" y="0" text-anchor="middle" fill="#1e3a5f" font-size="5.5" font-weight="800">КТО НЕСЁТ СУБСИДИАРКУ</text>
+
+          <!-- Карточка 1: Директор (янтарный) -->
+          <rect x="0" y="8" width="144" height="38" rx="8" fill="#ffffff" stroke="#b45309" stroke-width="1.5"/>
+          <circle cx="15" cy="27" r="10" fill="#fef3c7" stroke="#b45309" stroke-width="1.2"/>
+          <text x="15" y="31" text-anchor="middle" fill="#b45309" font-size="9" font-weight="800">Д</text>
+          <text x="82" y="22" text-anchor="middle" fill="#0f172a" font-size="5.2" font-weight="700">ДИРЕКТОР ООО</text>
+          <text x="82" y="32" text-anchor="middle" fill="#64748b" font-size="4.2">ст. 61.11 · доведение до банкротства</text>
+          <text x="82" y="42" text-anchor="middle" fill="#b45309" font-size="4" font-weight="600">молчание = перенос бремени (п. 56¹)</text>
+
+          <!-- Карточка 2: Учредитель (синий) -->
+          <rect x="0" y="54" width="144" height="38" rx="8" fill="#ffffff" stroke="#0369a1" stroke-width="1.5"/>
+          <circle cx="15" cy="73" r="10" fill="#e0f2fe" stroke="#0369a1" stroke-width="1.2"/>
+          <text x="15" y="77" text-anchor="middle" fill="#0369a1" font-size="9" font-weight="800">У</text>
+          <text x="82" y="68" text-anchor="middle" fill="#0f172a" font-size="5.2" font-weight="700">УЧРЕДИТЕЛЬ (УЧАСТНИК)</text>
+          <text x="82" y="78" text-anchor="middle" fill="#64748b" font-size="4.2">одобрял сделки · пп. 22¹–22² — индив.</text>
+          <text x="82" y="88" text-anchor="middle" fill="#0369a1" font-size="4" font-weight="600">снижение с 40 млн до 8 млн (практика)</text>
+
+          <!-- Карточка 3: Наследники / Номинал (фиолетовый) -->
+          <rect x="0" y="100" width="144" height="38" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.5"/>
+          <circle cx="15" cy="119" r="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.2"/>
+          <text x="15" y="123" text-anchor="middle" fill="#7c3aed" font-size="8" font-weight="800">Н</text>
+          <text x="82" y="114" text-anchor="middle" fill="#0f172a" font-size="5.2" font-weight="700">НАСЛЕДНИКИ / НОМИНАЛ</text>
+          <text x="82" y="124" text-anchor="middle" fill="#64748b" font-size="4.2">пп. 37¹–37⁵ · в пределах наследства</text>
+          <text x="82" y="134" text-anchor="middle" fill="#7c3aed" font-size="4" font-weight="600">раскрытие бенефициара снижает СО</text>
+        </g>
+
+        <!-- ЩИТ ЗАЩИТЫ КДЛ (правая колонка) -->
+        <g filter="url(#arb42-shadow)" transform="translate(336,170)">
+          <!-- Форма щита (геральдический пятиугольник) -->
+          <path d="M72 0 L144 28 L144 88 L72 132 L0 88 L0 28 Z" fill="url(#arb42-shield-g)" stroke="#0f766e" stroke-width="1.5" opacity="0.97"/>
+          <!-- Внутренний контур блика -->
+          <path d="M72 6 L138 32 L138 85 L72 126 L6 85 L6 32 Z" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="1"/>
+          <!-- Заголовок щита -->
+          <text x="72" y="30" text-anchor="middle" fill="#ffffff" font-size="6.2" font-weight="900" letter-spacing="0.04em">ЗАЩИТА КДЛ</text>
+          <text x="72" y="42" text-anchor="middle" fill="#ccfbf1" font-size="5.2" font-weight="700">Пленум № 42 · 2026</text>
+          <line x1="16" y1="48" x2="128" y2="48" stroke="rgba(255,255,255,0.25)" stroke-width="0.8"/>
+          <!-- Инструменты защиты -->
+          <text x="72" y="60" text-anchor="middle" fill="#e0fdf4" font-size="4.2">✓ предпринимат. риск (п. 1)</text>
+          <text x="72" y="71" text-anchor="middle" fill="#e0fdf4" font-size="4.2">✓ штрафы ФНС исключены (п. 26¹)</text>
+          <text x="72" y="82" text-anchor="middle" fill="#e0fdf4" font-size="4.2">✓ инд-ия вины органа (пп. 22¹–22²)</text>
+          <text x="72" y="93" text-anchor="middle" fill="#e0fdf4" font-size="4.2">✓ ранний вход в дело (п. 26¹⁰)</text>
+          <text x="72" y="104" text-anchor="middle" fill="#e0fdf4" font-size="4.2">✓ обеспечит. меры (п. 36¹)</text>
+        </g>
+
+        <!-- НИЖНИЕ ФАКТ-БЛОКИ (три в ряд) -->
+
+        <!-- Блок А: Размер СО -->
+        <g filter="url(#arb42-shadow)" transform="translate(18,316)">
+          <rect x="0" y="0" width="149" height="70" rx="8" fill="#ffffff" stroke="#1e3a5f" stroke-width="1.2"/>
+          <rect x="0" y="0" width="149" height="20" rx="8" fill="#1e3a5f"/>
+          <rect x="0" y="12" width="149" height="8" fill="#1e3a5f"/>
+          <text x="74" y="14" text-anchor="middle" fill="#e0f2fe" font-size="5" font-weight="800">РАЗМЕР СО · пп. 26¹–26¹¹</text>
+          <text x="74" y="30" text-anchor="middle" fill="#334155" font-size="4.3">включается: реестр + текущие</text>
+          <text x="74" y="40" text-anchor="middle" fill="#334155" font-size="4.3">+ зареестровые + мораторные %</text>
+          <text x="74" y="52" text-anchor="middle" fill="#dc2626" font-size="4.2">исключения: аффил. лица,</text>
+          <text x="74" y="62" text-anchor="middle" fill="#dc2626" font-size="4.2">«осведомлённые» кредиторы</text>
+        </g>
+
+        <!-- Блок Б: Штрафы ФНС исключены -->
+        <g filter="url(#arb42-shadow)" transform="translate(175,316)">
+          <rect x="0" y="0" width="150" height="70" rx="8" fill="#ffffff" stroke="#b45309" stroke-width="1.2"/>
+          <rect x="0" y="0" width="150" height="20" rx="8" fill="#b45309"/>
+          <rect x="0" y="12" width="150" height="8" fill="#b45309"/>
+          <text x="75" y="14" text-anchor="middle" fill="#ffffff" font-size="5" font-weight="800">ФНС: ШТРАФЫ ИСКЛЮЧЕНЫ</text>
+          <text x="75" y="30" text-anchor="middle" fill="#334155" font-size="4.3">п. 26¹ прямо закрепил:</text>
+          <text x="75" y="40" text-anchor="middle" fill="#92400e" font-size="4.5" font-weight="700">штрафы за нал. правонарушения</text>
+          <text x="75" y="50" text-anchor="middle" fill="#92400e" font-size="4.5" font-weight="700">НЕ входят в размер СО</text>
+          <text x="75" y="62" text-anchor="middle" fill="#64748b" font-size="4.2">КС РФ № 50-П · 30.10.2023</text>
+        </g>
+
+        <!-- Блок В: Наследники КДЛ -->
+        <g filter="url(#arb42-shadow)" transform="translate(333,316)">
+          <rect x="0" y="0" width="149" height="70" rx="8" fill="#ffffff" stroke="#0d9488" stroke-width="1.2"/>
+          <rect x="0" y="0" width="149" height="20" rx="8" fill="#0d9488"/>
+          <rect x="0" y="12" width="149" height="8" fill="#0d9488"/>
+          <text x="74" y="14" text-anchor="middle" fill="#ffffff" font-size="5" font-weight="800">НАСЛЕДНИКИ КДЛ</text>
+          <text x="74" y="30" text-anchor="middle" fill="#334155" font-size="4.3">пп. 37¹–37⁵ Пленума 42:</text>
+          <text x="74" y="40" text-anchor="middle" fill="#0f172a" font-size="4.5">ответственность только</text>
+          <text x="74" y="50" text-anchor="middle" fill="#0f172a" font-size="4.5">в пределах стоимости наследства</text>
+          <text x="74" y="62" text-anchor="middle" fill="#64748b" font-size="4.2">А41-29270/2021 · АСМО · янв. 2026</text>
+        </g>
+
+        <!-- ЦИТАТА ЭКСПЕРТА -->
+        <g transform="translate(18,398)">
+          <rect x="0" y="0" width="462" height="40" rx="8" fill="rgba(30,58,95,0.05)" stroke="#1e3a5f" stroke-width="0.8" stroke-dasharray="4 2"/>
+          <text x="231" y="14" text-anchor="middle" fill="#1e3a5f" font-size="4.8" font-weight="700">«Это первое системное обновление разъяснений по субсидиарной ответственности КДЛ за восемь лет.»</text>
+          <text x="231" y="26" text-anchor="middle" fill="#475569" font-size="4.5">— Антон Пуляев, ADVOLAW (ГАРАНТ, 29.05.2026)</text>
+          <text x="231" y="37" text-anchor="middle" fill="#94a3b8" font-size="4">ARB · арбитраж при банкротстве · субсидиарная ответственность директора и учредителя · Legis24</text>
+        </g>
+
+        <!-- ПОДПИСЬ ВНИЗУ SVG -->
+        <text x="250" y="446" text-anchor="middle" fill="#b8a487" font-size="6.5" font-weight="600">Пленум № 42 · Пленум № 53 · КДЛ · субсидиарная ответственность · банкротство 2025–2026</text>
+
+      </svg>
+    </div>
+  </div>
+</section>
+```
+
+## Передача пайплайну
+
+SLUG: plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026
+H1_для_hero: Пленум ВС № 42 (2025–2026): новые правила субсидиарной ответственности в банкротстве — защита директора и учредителя
+ПОДЗАГОЛОВОК_HERO: Размер ответственности, штрафы ФНС, презумпции вины и тактика в арбитраже
+ТИП_СТАТЬИ: ARB — арбитраж при банкротстве
+СЛЕДУЮЩИЙ_ШАГ: Наташа (сборка + публикация)
+ВНИМАНИЕ: hero — static SVG + inline CSS, без `<canvas>`, `<script>` и CTA в hero.
+
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+ЯКОРЬ: l24-boris-plenum42-size
+
+## Паспорт блока
+
+| Параметр | Значение |
+|----------|----------|
+| **Статья** | Пленум ВС № 42 — субсидиарная ответственность при банкротстве |
+| **SLUG** | `plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026` |
+| **Якорь** | `l24-boris-plenum42-size` |
+| **Тема** | Схема «Размер СО»: что включается / не включается (штрафы ФНС, реестр, текущие платежи) |
+| **Размещение** | В теле статьи под H2 «Как определяется размер субсидиарной ответственности» |
+| **Режим** | MCP-only: только inline CSS + SVG, без `<canvas>` и `<script>` |
+| **Палитра** | Тёмный navy `#060f1e`–`#0f2244`; включено: emerald `#059669`; исключено: crimson `#dc2626`; штрафы ФНС: orange `#ea580c`; центр: amber `#d97706` |
+
+```html
+<section id="l24-boris-plenum42-size" class="bsp42" aria-label="Схема: размер субсидиарной ответственности — что включается и что нет, Пленум ВС № 42">
+<style>
+.bsp42{
+  --bg0:#060f1e;--bg1:#0b1c36;--bg2:#0f2244;
+  --inc:#059669;--incs:#6ee7b7;--incp:rgba(5,150,105,.14);
+  --exc:#dc2626;--excs:#fca5a5;--excp:rgba(220,38,38,.14);
+  --acc:#d97706;--acc2:#f59e0b;--accs:#fde68a;
+  --ks:#ea580c;--ks2:#f97316;--kss:#fdba74;--ksp:rgba(234,88,12,.15);
+  --txt:#e2e8f0;--mut:#94a3b8;--brd:rgba(255,255,255,.1);
+  margin:48px 0;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+.bsp42__shell{
+  background:linear-gradient(145deg,var(--bg0) 0%,var(--bg1) 52%,var(--bg2) 100%);
+  border:1px solid rgba(15,34,68,.8);
+  border-radius:16px;
+  padding:32px 28px 24px;
+  box-shadow:0 20px 54px rgba(6,15,30,.52);
+  color:var(--txt);
+}
+.bsp42__ew{
+  margin:0 0 8px;
+  font-size:.69rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--acc2);
+}
+.bsp42__h3{
+  margin:0 0 10px;
+  font-size:clamp(1.08rem,2.2vw,1.36rem);line-height:1.22;
+  color:#fff;font-weight:700;
+}
+.bsp42__lead{
+  margin:0 0 24px;
+  font-size:.92rem;line-height:1.56;color:var(--mut);max-width:82ch;
+}
+.bsp42__lead strong{color:#fff;}
+.bsp42__svg{display:block;width:100%;height:auto;margin-bottom:22px;}
+.bsp42__cols{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;}
+.bsp42__col{border-radius:10px;padding:18px 16px;}
+.bsp42__col--in{background:var(--incp);border:1px solid rgba(5,150,105,.32);}
+.bsp42__col--out{background:var(--excp);border:1px solid rgba(220,38,38,.32);}
+.bsp42__col-hd{
+  margin:0 0 12px;
+  font-size:.71rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;
+}
+.bsp42__col--in .bsp42__col-hd{color:var(--incs);}
+.bsp42__col--out .bsp42__col-hd{color:var(--excs);}
+.bsp42__ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px;}
+.bsp42__ul>li{font-size:.78rem;line-height:1.44;color:var(--mut);}
+.bsp42__ul>li:not(.bsp42__li-ks){padding-left:16px;position:relative;}
+.bsp42__ul>li:not(.bsp42__li-ks)::before{position:absolute;left:0;font-weight:800;}
+.bsp42__col--in .bsp42__ul>li:not(.bsp42__li-ks)::before{content:"✓";color:var(--incs);}
+.bsp42__col--out .bsp42__ul>li:not(.bsp42__li-ks)::before{content:"✕";color:var(--excs);}
+.bsp42__ul>li strong{color:var(--txt);}
+.bsp42__ul>li small{display:block;font-size:.67rem;margin-top:3px;font-weight:600;opacity:.85;}
+.bsp42__li-ks{
+  background:var(--ksp);
+  border:1px solid rgba(234,88,12,.38);
+  border-radius:8px;
+  padding:10px 12px;
+}
+.bsp42__ks-ico{color:var(--kss);font-weight:800;margin-right:4px;}
+.bsp42__ks-tag{
+  display:inline-block;font-size:.62rem;font-weight:800;
+  text-transform:uppercase;letter-spacing:.05em;
+  background:rgba(234,88,12,.3);border:1px solid var(--ks2);color:var(--kss);
+  border-radius:4px;padding:2px 6px;margin-right:5px;
+}
+.bsp42__ks-box{
+  display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start;
+  background:var(--ksp);border:1px solid rgba(234,88,12,.38);
+  border-radius:10px;padding:16px 18px;margin-bottom:16px;
+}
+.bsp42__ks-lbl{
+  display:inline-block;white-space:nowrap;
+  font-size:.67rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;
+  background:rgba(234,88,12,.25);border:1px solid var(--ks2);color:var(--kss);
+  border-radius:6px;padding:5px 10px;flex-shrink:0;
+}
+.bsp42__ks-p{margin:0;font-size:.79rem;line-height:1.53;color:var(--mut);flex:1;min-width:180px;}
+.bsp42__ks-p strong{color:var(--kss);}
+.bsp42__foot{
+  display:flex;flex-wrap:wrap;gap:7px;
+  margin-top:14px;padding-top:14px;border-top:1px solid var(--brd);
+}
+.bsp42__tag{
+  font-size:.7rem;font-weight:600;padding:5px 10px;border-radius:999px;
+  background:rgba(255,255,255,.05);color:var(--txt);border:1px solid rgba(255,255,255,.13);
+}
+.bsp42__tag--a{border-color:rgba(217,119,6,.5);color:var(--accs);}
+.bsp42__tag--i{border-color:rgba(5,150,105,.5);color:var(--incs);}
+.bsp42__tag--e{border-color:rgba(220,38,38,.5);color:var(--excs);}
+.bsp42__tag--k{border-color:rgba(234,88,12,.5);color:var(--kss);}
+@media(max-width:740px){
+  .bsp42__cols{grid-template-columns:1fr;}
+  .bsp42__shell{padding:24px 18px 20px;}
+}
+</style>
+
+<div class="bsp42__shell">
+  <p class="bsp42__ew">ARB · Пленум ВС № 42 · 23.12.2025 · пп. 26¹–26¹¹ Пленума ВС № 53</p>
+  <h3 class="bsp42__h3">Размер субсидиарной ответственности: что включается и что нет — схема по п. 26¹</h3>
+  <p class="bsp42__lead">Пленум № 42 создал единый раздел «Размер СО» (пп. 26¹–26¹¹). Главное правило: <strong>штрафы ФНС за налоговые правонарушения прямо исключены</strong> — позиция КС РФ № 50-П стала обязательной нормой для всех судов с 23.12.2025.</p>
+
+  <svg class="bsp42__svg" viewBox="0 0 720 232" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="b42t b42d">
+    <title id="b42t">Схема: размер субсидиарной ответственности по Пленуму ВС № 42</title>
+    <desc id="b42d">Что включается (реестровые, зареестровые, текущие платежи, санкции без штрафов ФНС, мораторные проценты) и что не включается (штрафы ФНС — КС 50-П, аффилированные, осведомлённые кредиторы, без причинно-следственной связи) в размер субсидиарной ответственности — пп. 26¹–26¹¹ Пленума ВС № 53 в редакции Пленума № 42</desc>
+    <defs>
+      <linearGradient id="b42gctr" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+        <stop offset="0%" stop-color="#0c1e42"/>
+        <stop offset="100%" stop-color="#07121f"/>
+      </linearGradient>
+      <marker id="b42mg" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+        <polygon points="0 0, 8 3.5, 0 7" fill="#10b981"/>
+      </marker>
+    </defs>
+
+    <!-- ===== ЛЕВАЯ ЧАСТЬ: ВКЛЮЧАЕТСЯ (x=8–226) ===== -->
+    <rect x="8" y="16" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="29" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="29" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Реестровые требования кредиторов</text>
+    <text x="31" y="42" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">1–3 очередь · основная база СО</text>
+
+    <rect x="8" y="58" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="71" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="71" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Зареестровые требования</text>
+    <text x="31" y="84" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">заявленные после закрытия реестра</text>
+
+    <rect x="8" y="100" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="113" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="113" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Текущие платежи</text>
+    <text x="31" y="126" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">ст. 5 Закона о банкротстве</text>
+
+    <rect x="8" y="142" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="155" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="155" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Санкции за публичные нарушения</text>
+    <text x="31" y="168" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">кроме штрафов ФНС · п. 26¹</text>
+
+    <rect x="8" y="184" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="197" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="197" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Мораторные проценты</text>
+    <text x="31" y="210" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">пп. 4 ст. 63, 2 ст. 81, 2¹ ст. 126</text>
+
+    <!-- Стрелки к центральному блоку (x=268) -->
+    <line x1="226" y1="32"  x2="268" y2="90"  stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.75"/>
+    <line x1="226" y1="74"  x2="268" y2="104" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.85"/>
+    <line x1="226" y1="116" x2="268" y2="118" stroke="#10b981" stroke-width="1.6" marker-end="url(#b42mg)"/>
+    <line x1="226" y1="158" x2="268" y2="132" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.85"/>
+    <line x1="226" y1="200" x2="268" y2="146" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.75"/>
+
+    <!-- ===== ЦЕНТРАЛЬНЫЙ БЛОК: РАЗМЕР СО (x=268–438, y=58–174) ===== -->
+    <rect x="268" y="58" width="170" height="116" rx="12" fill="url(#b42gctr)" stroke="#d97706" stroke-width="2"/>
+    <rect x="268" y="58" width="170" height="116" rx="12" fill="none" stroke="rgba(217,119,6,.18)" stroke-width="7"/>
+    <text x="353" y="90"  text-anchor="middle" fill="#fde68a" font-size="9"   font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".04em">РАЗМЕР</text>
+    <text x="353" y="106" text-anchor="middle" fill="#fde68a" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".03em">СУБСИДИАРНОЙ</text>
+    <text x="353" y="120" text-anchor="middle" fill="#fde68a" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".03em">ОТВЕТСТВЕННОСТИ</text>
+    <line x1="282" y1="127" x2="424" y2="127" stroke="rgba(217,119,6,.28)" stroke-width="1"/>
+    <text x="353" y="140" text-anchor="middle" fill="#94a3b8" font-size="6.2" font-family="system-ui,sans-serif">= Σ включённых требований</text>
+    <text x="353" y="153" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">п. 26¹ Пленума ВС № 53</text>
+    <text x="353" y="165" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">(ред. Пленума № 42 · 23.12.2025)</text>
+
+    <!-- ===== ПРАВАЯ ЧАСТЬ: НЕ ВКЛЮЧАЕТСЯ (x=450–712) ===== -->
+    <line x1="445" y1="14" x2="445" y2="220" stroke="rgba(220,38,38,.22)" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+    <!-- R1: Штрафы ФНС — особо выделено -->
+    <rect x="450" y="14" width="262" height="62" rx="9" fill="rgba(234,88,12,.18)" stroke="#ea580c" stroke-width="2"/>
+    <rect x="450" y="14" width="262" height="62" rx="9" fill="none" stroke="rgba(234,88,12,.35)" stroke-width="5" stroke-dasharray="4,3"/>
+    <text x="465" y="32" fill="#fdba74" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif">✕  Штрафы ФНС за налоговые</text>
+    <text x="465" y="46" fill="#fdba74" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif">     правонарушения должника</text>
+    <rect x="465" y="52" width="92" height="16" rx="4" fill="rgba(234,88,12,.4)"/>
+    <text x="511" y="63" text-anchor="middle" fill="#fff" font-size="6" font-weight="800" font-family="system-ui,sans-serif">КС РФ № 50-П · п. 26¹</text>
+
+    <!-- R2: Аффилированные -->
+    <rect x="450" y="86" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="463" y="99"  fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
+    <text x="475" y="99"  fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования аффилированных лиц</text>
+    <text x="475" y="112" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">контролирующих / подконтрольных КДЛ · п. 26²</text>
+
+    <!-- R3: Осведомлённые кредиторы -->
+    <rect x="450" y="129" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="463" y="142" fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
+    <text x="475" y="142" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования «осведомлённых» кредиторов</text>
+    <text x="475" y="155" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">знали о нарушениях при заключении договора · п. 26⁷</text>
+
+    <!-- R4: Отсутствие причинно-следственной связи -->
+    <rect x="450" y="172" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="463" y="185" fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
+    <text x="475" y="185" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования без причинно-след. связи</text>
+    <text x="475" y="198" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">КДЛ доказало отсутствие влияния · п. 26⁶</text>
+
+    <!-- Подписи колонок -->
+    <text x="117" y="224" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif" letter-spacing=".05em">ВКЛЮЧАЕТСЯ В РАЗМЕР СО (п. 26¹)</text>
+    <text x="581" y="224" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif" letter-spacing=".04em">НЕ ВКЛЮЧАЕТСЯ / СНИЖАЕТ РАЗМЕР СО</text>
+  </svg>
+
+  <!-- Детальный разбор: HTML-колонки -->
+  <div class="bsp42__cols">
+    <div class="bsp42__col bsp42__col--in">
+      <p class="bsp42__col-hd">✓ Что включается в размер СО</p>
+      <ul class="bsp42__ul">
+        <li><strong>Реестровые требования кредиторов</strong> — все три очереди (основная база)</li>
+        <li><strong>Зареестровые требования</strong> — заявленные после закрытия реестра</li>
+        <li><strong>Текущие платежи</strong> — ст. 5 Закона о банкротстве</li>
+        <li><strong>Санкции за публичные правонарушения</strong> — кроме штрафов ФНС<small>пени ФНС и санкции за иные нарушения — включаются; штрафы за налоговые — нет</small></li>
+        <li><strong>Мораторные проценты</strong> — пп. 4 ст. 63, 2 ст. 81, абз. 4 п. 2 ст. 95, п. 2¹ ст. 126 Закона о банкротстве</li>
+      </ul>
+    </div>
+    <div class="bsp42__col bsp42__col--out">
+      <p class="bsp42__col-hd">✕ Что не включается / снижает размер</p>
+      <ul class="bsp42__ul">
+        <li class="bsp42__li-ks">
+          <span class="bsp42__ks-ico">✕</span><span class="bsp42__ks-tag">КС 50-П · п. 26¹</span><strong>Штрафы ФНС</strong> за налоговые правонарушения должника
+          <small>Карательная мера ≠ компенсационная СО · обязательно для всех судов с 23.12.2025</small>
+        </li>
+        <li><strong>Требования аффилированных лиц</strong> — контролирующих или подконтрольных КДЛ структур — п. 26²</li>
+        <li><strong>Требования, уступленные заинтересованному лицу</strong> — п. 26², ст. 384 ГК РФ</li>
+        <li><strong>Требования «осведомлённых» кредиторов</strong> — знали о нарушениях при заключении договора<small>исключение: недобровольные кредиторы (работники, обязательные платежи) защищены всегда — п. 26⁷</small></li>
+        <li><strong>Требования без причинно-следственной связи</strong> — КДЛ доказало, что конкретное требование не связано с его действиями — п. 26⁶</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Блок КС РФ № 50-П -->
+  <div class="bsp42__ks-box">
+    <span class="bsp42__ks-lbl">КС РФ № 50-П · 30.10.2023 → п. 26¹ Пленума № 42</span>
+    <p class="bsp42__ks-p"><strong>Субсидиарная ответственность — компенсационная, а не карательная.</strong> Налоговый штраф — персональная санкция за конкретное правонарушение должника; перенос её на КДЛ нарушает принцип персонализации публичного наказания. До Пленума № 42 часть судов включала штрафы ФНС в базу СО. С 23.12.2025 это прямо запрещено: <strong>если ФНС заявила штрафы в составе требований о привлечении к СО — это прямое основание для снижения заявленной суммы.</strong></p>
+  </div>
+
+  <!-- Теги -->
+  <div class="bsp42__foot" aria-label="Нормативная база блока">
+    <span class="bsp42__tag bsp42__tag--a">Пленум ВС № 42 · 23.12.2025</span>
+    <span class="bsp42__tag bsp42__tag--a">пп. 26¹–26¹¹ Пленума ВС № 53</span>
+    <span class="bsp42__tag bsp42__tag--i">реестр · зареестровые · текущие платежи</span>
+    <span class="bsp42__tag bsp42__tag--e">штрафы ФНС — исключаются</span>
+    <span class="bsp42__tag bsp42__tag--k">КС РФ № 50-П · 30.10.2023</span>
+    <span class="bsp42__tag bsp42__tag--e">аффилированные · осведомлённые · п. 26², 26⁶, 26⁷</span>
+  </div>
+</div>
+</section>
+```
+
+## Передача Наташе
+
+- **Якорь:** `l24-boris-plenum42-size`
+- **После H3:** «Что входит в размер: реестровые и зареестровые требования кредиторов»
+- **Перед:** H3 «Штрафы и санкции ФНС: почему они не включаются (позиция КС РФ № 50-П)»
+- **MCP-only:** без `<canvas>` и `<script>` — только inline CSS + SVG
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+SLUG: plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026
+Title: Пленум ВС № 42 — субсидиарная ответственность при банкротстве 2025–2026 | Legis24
+Description: Пленум ВС РФ № 42 от 23.12.2025: новые правила субсидиарной ответственности директора, учредителя и КДЛ. Размер, штрафы ФНС (КС РФ № 50-П), наследники КДЛ, защита в арбитраже.
+
+## Состав страницы
+
+1. Hero АЛИНЫ — section#l24-hero-plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026
+2. Введение — 2 параграфа из Артура
+3. Контент из Артура (markdown→HTML) — все H2/H3 разделы (6 крупных блоков)
+4. Блок БОРИСА — section#l24-boris-plenum42-size — вставлен после H3 «Что входит в размер» перед H3 «Штрафы ФНС»
+5. FAQ — schema.org (JSON-LD в head + microdata в body), 3 вопроса
+6. CTA — финальный блок + 3 inline CTA из Артура
+7. main#primary, скрытие breadcrumbs, padding reset — в глобальных стилях
+
+## Технические параметры
+
+- Файл: /workspace/.cursor/page-content-natasha-plenum42.html
+- Размер: ~123 KB, 1254 строки
+- script: только `<script type="application/ld+json">` (FAQ schema.org) — никаких других script
+- canvas: отсутствует
+- inline CSS: все стили в <style> тегах (hero, article base, tables, FAQ, CTA, Boris block)
+- SVG: два статических SVG (hero Алины, схема Бориса)
+
+## Передача Юре: готово к MCP blob публикации
+
+Публикация через blob flow:
+1. wordpress_create_page (slug, title, status=draft)
+2. wordpress_content_blob_append (чанки ≤20k chars, порядок 00→N строго)
+3. wordpress_update_page_from_blob (finalize)
+4. wordpress_update_page (status=publish)
+
+Исходный HTML: /workspace/.cursor/page-content-natasha-plenum42.html
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Дата: 2026-07-01
+Статус: ✅ ОПУБЛИКОВАНО
+
+URL: https://advokat-vsem.online/plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026/
+page_id: 545
+blob_id: 1eC52GkCPcNz1LHSaZJdmWdn
+blob sha256: 6e03e7ab5c0242bd1de016b2a94258c380c2f1d754829b3c706343e12c9efe67
+blob bytes: 147583 (5 чанков: 00→04)
+
+slug: plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026
+Excerpt: Пленум ВС РФ № 42 от 23.12.2025: новые правила субсидиарной ответственности директора, учредителя и КДЛ. Размер, штрафы ФНС (КС РФ № 50-П), наследники КДЛ, защита в арбитраже.
+
+Проверка: HTTP 200, main#primary — ✅
