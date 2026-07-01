@@ -105,3 +105,11 @@ scripts/vs8_kovcheg_*.py
 .cursor/vpr-blob-calls/
 .cursor/vpr-chunk-*
 .cursor/vpr-mcp-*
+# KIRILL-IP Alej MCP blob temp (2026-07-01)
+.cursor/alej-blob/
+.cursor/alej-envelope-*.json
+.cursor/alej-mcp-*.json
+.cursor/alej-upload-meta-*.json
+scripts/alej_kovcheg_*.py
+scripts/alej_mcp_*.py
+scripts/kovcheg_blob_invoke_from_file.py
