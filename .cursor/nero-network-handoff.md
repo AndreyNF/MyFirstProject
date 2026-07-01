@@ -1598,3 +1598,15 @@ SLUG: vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026
 Контент MCP-only: hero static SVG, блок Бориса static SVG, JSON-LD Article. Обязательно обернуть в <!-- wp:html --> при публикации.
 Размер HTML: 77641 символов
 main#primary: да
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+
+- **page_id:** 551
+- **URL:** https://advokat-vsem.online/vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026/
+- **slug:** vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026
+- **код:** KIRILL-UG
+- **статус:** publish
+- **способ:** MCP Kovcheg — `wordpress_content_blob_append` (chunks 00→04) → `wordpress_update_page_from_blob` → `wordpress_update_page`
+- **blob_id:** zlIDy22CFvEpqZUuLieffaS (95799 bytes, sha256 695d740c51778d68b9bb29ffcd3271e791e5a320a96bb15cf85c230c05fdf6c1)
+- **проверка live:** HTTP 200; main#primary ✓; hero `l24-hero-vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026` ✓; boris `l24-boris-vs-moshennichestvo-umysel` ✓
+- **логи:** published-pages.md updated; kirill-news-ledger.md updated
