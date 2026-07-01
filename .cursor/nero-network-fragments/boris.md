@@ -1,469 +1,263 @@
 === БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
 Статус: ✅ ГОТОВО
-
-**SLUG:** `plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026`  
-**Якорь:** `boris-theft-fraud-map`  
-**Размещение для Наташи:** сразу **после H3 «Типовые схемы: перевод под влиянием обмана vs тайное хищение после доступа»** (после markdown-таблицы сценариев в тексте Жени/Артура), **перед H3 «Переквалификация со ст. 159 на ст. 158 и обратно»** и **перед primary CTA** «Следствие квалифицировало дело как мошенничество…».  
-**Режим:** тёмная панель в теле статьи (**контраст** со светлым UG-hero Алины по Пленуму № 19) — **карта разграничения 158/159** слева + **сетка цифровых сценариев списания** справа.  
-**Legis24 MCP-only:** static SVG + inline CSS, без `<canvas>` и `<script>`.
+ЯКОРЬ: l24-boris-plenum42-size
 
 ## Паспорт блока
 
 | Параметр | Значение |
 |----------|----------|
-| **Метафора** | «Развилка обмана» — один телефонный звонок может вести к ст. 159 или ст. 158 в зависимости от того, кто инициировал перевод и было ли списание тайным |
-| **Цифры-крючки** | Пленум № 19 · 16.06.2026 · п. 2 и п. 25.1 Пленума № 29 · окончание кражи = **списание** · п. «г» ч. 3 ст. 158 · ≤ 2 500 ₽ → ст. 158.1 |
-| **Палитра** | Тёмный navy `#0c1222`–`#1a2744` (контраст hero); кража `#dc2626` / `#f87171`; мошенничество `#7c3aed` / `#c4b5fd`; цифровой рубль `#059669`; списание `#f59e0b`; нейтраль `#94a3b8` |
-| **Композиция** | Сплит: SVG-карта решений 158 vs 159 \| SVG-сетка 5 цифровых сценариев + HTML-таблица квалификации |
-
-**Чеклист отличий от hero Алины**
-- [x] Не полноэкранный блок; в теле статьи после H2 «Кража или мошенничество»
-- [x] Свой `id`: `boris-theft-fraud-map` (не `l24-hero-…`)
-- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
-- [x] Тёмная панель — контраст со светлым UG-hero (navy/судебная палитра Legis24)
-- [x] Сплит «карта разграничения» \| «сетка цифровых списаний по Пленуму № 19»
+| **Статья** | Пленум ВС № 42 — субсидиарная ответственность при банкротстве |
+| **SLUG** | `plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026` |
+| **Якорь** | `l24-boris-plenum42-size` |
+| **Тема** | Схема «Размер СО»: что включается / не включается (штрафы ФНС, реестр, текущие платежи) |
+| **Размещение** | В теле статьи под H2 «Как определяется размер субсидиарной ответственности» |
+| **Режим** | MCP-only: только inline CSS + SVG, без `<canvas>` и `<script>` |
+| **Палитра** | Тёмный navy `#060f1e`–`#0f2244`; включено: emerald `#059669`; исключено: crimson `#dc2626`; штрафы ФНС: orange `#ea580c`; центр: amber `#d97706` |
 
 ```html
-<section id="boris-theft-fraud-map" class="boris-theft-fraud-map" aria-label="Пленум ВС № 19: карта разграничения кражи (ст. 158) и мошенничества (ст. 159) при цифровых списаниях">
+<section id="l24-boris-plenum42-size" class="bsp42" aria-label="Схема: размер субсидиарной ответственности — что включается и что нет, Пленум ВС № 42">
 <style>
-.boris-theft-fraud-map {
-  --tf-ink: #0c1222;
-  --tf-navy: #1a2744;
-  --tf-navy-soft: #243352;
-  --tf-theft: #dc2626;
-  --tf-theft-soft: #fca5a5;
-  --tf-fraud: #7c3aed;
-  --tf-fraud-soft: #c4b5fd;
-  --tf-digital: #059669;
-  --tf-digital-soft: #6ee7b7;
-  --tf-debit: #f59e0b;
-  --tf-debit-soft: #fde68a;
-  --tf-muted: #94a3b8;
-  --tf-text: #e2e8f0;
-  margin: 48px 0;
-  padding: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+.bsp42{
+  --bg0:#060f1e;--bg1:#0b1c36;--bg2:#0f2244;
+  --inc:#059669;--incs:#6ee7b7;--incp:rgba(5,150,105,.14);
+  --exc:#dc2626;--excs:#fca5a5;--excp:rgba(220,38,38,.14);
+  --acc:#d97706;--acc2:#f59e0b;--accs:#fde68a;
+  --ks:#ea580c;--ks2:#f97316;--kss:#fdba74;--ksp:rgba(234,88,12,.15);
+  --txt:#e2e8f0;--mut:#94a3b8;--brd:rgba(255,255,255,.1);
+  margin:48px 0;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
 }
-.boris-theft-fraud-map__shell {
-  background: linear-gradient(152deg, var(--tf-ink) 0%, var(--tf-navy) 46%, var(--tf-navy-soft) 100%);
-  border: 1px solid rgba(30, 58, 138, 0.35);
-  border-radius: 14px;
-  padding: 32px 28px 26px;
-  box-shadow: 0 18px 48px rgba(12, 18, 34, 0.45);
-  color: var(--tf-text);
+.bsp42__shell{
+  background:linear-gradient(145deg,var(--bg0) 0%,var(--bg1) 52%,var(--bg2) 100%);
+  border:1px solid rgba(15,34,68,.8);
+  border-radius:16px;
+  padding:32px 28px 24px;
+  box-shadow:0 20px 54px rgba(6,15,30,.52);
+  color:var(--txt);
 }
-.boris-theft-fraud-map__eyebrow {
-  margin: 0 0 8px;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--tf-debit);
+.bsp42__ew{
+  margin:0 0 8px;
+  font-size:.69rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--acc2);
 }
-.boris-theft-fraud-map__title {
-  margin: 0 0 10px;
-  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
-  line-height: 1.25;
-  color: #fff;
-  font-weight: 700;
+.bsp42__h3{
+  margin:0 0 10px;
+  font-size:clamp(1.08rem,2.2vw,1.36rem);line-height:1.22;
+  color:#fff;font-weight:700;
 }
-.boris-theft-fraud-map__lead {
-  margin: 0 0 24px;
-  font-size: 0.95rem;
-  line-height: 1.55;
-  color: var(--tf-muted);
-  max-width: 72ch;
+.bsp42__lead{
+  margin:0 0 24px;
+  font-size:.92rem;line-height:1.56;color:var(--mut);max-width:82ch;
 }
-.boris-theft-fraud-map__lead strong { color: #fff; }
-.boris-theft-fraud-map__lead em {
-  font-style: normal;
-  color: var(--tf-debit-soft);
-  font-weight: 600;
+.bsp42__lead strong{color:#fff;}
+.bsp42__svg{display:block;width:100%;height:auto;margin-bottom:22px;}
+.bsp42__cols{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;}
+.bsp42__col{border-radius:10px;padding:18px 16px;}
+.bsp42__col--in{background:var(--incp);border:1px solid rgba(5,150,105,.32);}
+.bsp42__col--out{background:var(--excp);border:1px solid rgba(220,38,38,.32);}
+.bsp42__col-hd{
+  margin:0 0 12px;
+  font-size:.71rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;
 }
-.boris-theft-fraud-map__split {
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
-  gap: 24px;
-  align-items: stretch;
+.bsp42__col--in .bsp42__col-hd{color:var(--incs);}
+.bsp42__col--out .bsp42__col-hd{color:var(--excs);}
+.bsp42__ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px;}
+.bsp42__ul>li{font-size:.78rem;line-height:1.44;color:var(--mut);}
+.bsp42__ul>li:not(.bsp42__li-ks){padding-left:16px;position:relative;}
+.bsp42__ul>li:not(.bsp42__li-ks)::before{position:absolute;left:0;font-weight:800;}
+.bsp42__col--in .bsp42__ul>li:not(.bsp42__li-ks)::before{content:"✓";color:var(--incs);}
+.bsp42__col--out .bsp42__ul>li:not(.bsp42__li-ks)::before{content:"✕";color:var(--excs);}
+.bsp42__ul>li strong{color:var(--txt);}
+.bsp42__ul>li small{display:block;font-size:.67rem;margin-top:3px;font-weight:600;opacity:.85;}
+.bsp42__li-ks{
+  background:var(--ksp);
+  border:1px solid rgba(234,88,12,.38);
+  border-radius:8px;
+  padding:10px 12px;
 }
-.boris-theft-fraud-map__panel {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  padding: 20px 18px;
+.bsp42__ks-ico{color:var(--kss);font-weight:800;margin-right:4px;}
+.bsp42__ks-tag{
+  display:inline-block;font-size:.62rem;font-weight:800;
+  text-transform:uppercase;letter-spacing:.05em;
+  background:rgba(234,88,12,.3);border:1px solid var(--ks2);color:var(--kss);
+  border-radius:4px;padding:2px 6px;margin-right:5px;
 }
-.boris-theft-fraud-map__panel-title {
-  margin: 0 0 14px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--tf-debit);
+.bsp42__ks-box{
+  display:flex;flex-wrap:wrap;gap:14px;align-items:flex-start;
+  background:var(--ksp);border:1px solid rgba(234,88,12,.38);
+  border-radius:10px;padding:16px 18px;margin-bottom:16px;
 }
-.boris-theft-fraud-map__map-svg,
-.boris-theft-fraud-map__grid-svg {
-  display: block;
-  width: 100%;
-  height: auto;
+.bsp42__ks-lbl{
+  display:inline-block;white-space:nowrap;
+  font-size:.67rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;
+  background:rgba(234,88,12,.25);border:1px solid var(--ks2);color:var(--kss);
+  border-radius:6px;padding:5px 10px;flex-shrink:0;
 }
-.boris-theft-fraud-map__map-svg { max-height: 340px; margin-bottom: 12px; }
-.boris-theft-fraud-map__grid-svg { max-height: 220px; margin-bottom: 14px; }
-.boris-theft-fraud-map__branches {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin: 0 0 12px;
-  padding: 0;
-  list-style: none;
+.bsp42__ks-p{margin:0;font-size:.79rem;line-height:1.53;color:var(--mut);flex:1;min-width:180px;}
+.bsp42__ks-p strong{color:var(--kss);}
+.bsp42__foot{
+  display:flex;flex-wrap:wrap;gap:7px;
+  margin-top:14px;padding-top:14px;border-top:1px solid var(--brd);
 }
-.boris-theft-fraud-map__branch {
-  padding: 12px 10px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.28);
-  font-size: 0.72rem;
-  line-height: 1.42;
-  color: var(--tf-muted);
+.bsp42__tag{
+  font-size:.7rem;font-weight:600;padding:5px 10px;border-radius:999px;
+  background:rgba(255,255,255,.05);color:var(--txt);border:1px solid rgba(255,255,255,.13);
 }
-.boris-theft-fraud-map__branch--theft {
-  border-top: 3px solid var(--tf-theft);
-}
-.boris-theft-fraud-map__branch--fraud {
-  border-top: 3px solid var(--tf-fraud);
-}
-.boris-theft-fraud-map__branch strong {
-  display: block;
-  margin-bottom: 4px;
-  font-size: 0.78rem;
-  color: #fff;
-}
-.boris-theft-fraud-map__branch--theft strong { color: var(--tf-theft-soft); }
-.boris-theft-fraud-map__branch--fraud strong { color: var(--tf-fraud-soft); }
-.boris-theft-fraud-map__quote {
-  margin: 0;
-  padding: 12px 14px;
-  border-radius: 8px;
-  background: rgba(245, 158, 11, 0.1);
-  border: 1px solid rgba(245, 158, 11, 0.32);
-  font-size: 0.76rem;
-  line-height: 1.48;
-  color: var(--tf-text);
-  font-style: italic;
-}
-.boris-theft-fraud-map__quote cite {
-  display: block;
-  margin-top: 8px;
-  font-style: normal;
-  font-size: 0.68rem;
-  font-weight: 700;
-  color: var(--tf-debit);
-  letter-spacing: 0.03em;
-}
-.boris-theft-fraud-map__table-wrap {
-  overflow-x: auto;
-  margin: 0 0 12px;
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.boris-theft-fraud-map__table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.72rem;
-  line-height: 1.38;
-}
-.boris-theft-fraud-map__table th,
-.boris-theft-fraud-map__table td {
-  padding: 9px 10px;
-  text-align: left;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  vertical-align: top;
-}
-.boris-theft-fraud-map__table th {
-  background: rgba(0, 0, 0, 0.32);
-  color: #fff;
-  font-weight: 700;
-  font-size: 0.68rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-.boris-theft-fraud-map__table tr:last-child td { border-bottom: none; }
-.boris-theft-fraud-map__table td { color: var(--tf-muted); }
-.boris-theft-fraud-map__table td strong { color: #fff; }
-.boris-theft-fraud-map__qual--theft {
-  color: var(--tf-theft-soft) !important;
-  font-weight: 700;
-  white-space: nowrap;
-}
-.boris-theft-fraud-map__qual--fraud {
-  color: var(--tf-fraud-soft) !important;
-  font-weight: 700;
-  white-space: nowrap;
-}
-.boris-theft-fraud-map__note {
-  margin: 0;
-  padding: 10px 12px;
-  border-radius: 8px;
-  background: rgba(5, 150, 105, 0.12);
-  border: 1px solid rgba(5, 150, 105, 0.35);
-  font-size: 0.74rem;
-  line-height: 1.45;
-  color: var(--tf-text);
-}
-.boris-theft-fraud-map__note strong { color: var(--tf-digital-soft); }
-.boris-theft-fraud-map__caption {
-  margin: 10px 0 0;
-  font-size: 0.7rem;
-  line-height: 1.4;
-  color: rgba(148, 163, 184, 0.88);
-  text-align: center;
-}
-.boris-theft-fraud-map__foot {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 18px;
-  padding-top: 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-}
-.boris-theft-fraud-map__tag {
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 6px 10px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--tf-text);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-}
-.boris-theft-fraud-map__tag--plenum { border-color: rgba(245, 158, 11, 0.5); color: var(--tf-debit-soft); }
-.boris-theft-fraud-map__tag--theft { border-color: rgba(220, 38, 38, 0.5); color: var(--tf-theft-soft); }
-.boris-theft-fraud-map__tag--fraud { border-color: rgba(124, 58, 237, 0.5); color: var(--tf-fraud-soft); }
-.boris-theft-fraud-map__tag--digital { border-color: rgba(5, 150, 105, 0.5); color: var(--tf-digital-soft); }
-@media (max-width: 900px) {
-  .boris-theft-fraud-map__split { grid-template-columns: 1fr; }
-  .boris-theft-fraud-map__branches { grid-template-columns: 1fr; }
+.bsp42__tag--a{border-color:rgba(217,119,6,.5);color:var(--accs);}
+.bsp42__tag--i{border-color:rgba(5,150,105,.5);color:var(--incs);}
+.bsp42__tag--e{border-color:rgba(220,38,38,.5);color:var(--excs);}
+.bsp42__tag--k{border-color:rgba(234,88,12,.5);color:var(--kss);}
+@media(max-width:740px){
+  .bsp42__cols{grid-template-columns:1fr;}
+  .bsp42__shell{padding:24px 18px 20px;}
 }
 </style>
 
-  <div class="boris-theft-fraud-map__shell">
-    <p class="boris-theft-fraud-map__eyebrow">UG · Пленум ВС № 19 · 16.06.2026 · ст. 158 vs ст. 159</p>
-    <h3 class="boris-theft-fraud-map__title">Кража или мошенничество: карта квалификации при цифровых списаниях</h3>
-    <p class="boris-theft-fraud-map__lead">Пленум № 19 закрепил критерий ВС: если обман служил <strong>только доступу</strong> к счёту, а деньги списаны <strong>тайно</strong> — это <strong>кража</strong> (ст. 158, в т.ч. п. «г» ч. 3). Если потерпевший <strong>сам инициировал перевод</strong> — <strong>мошенничество</strong> (ст. 159). Для безналичных ДС преступление окончено с момента <em>списания</em> (п. 6 Пленума № 29).</p>
+<div class="bsp42__shell">
+  <p class="bsp42__ew">ARB · Пленум ВС № 42 · 23.12.2025 · пп. 26¹–26¹¹ Пленума ВС № 53</p>
+  <h3 class="bsp42__h3">Размер субсидиарной ответственности: что включается и что нет — схема по п. 26¹</h3>
+  <p class="bsp42__lead">Пленум № 42 создал единый раздел «Размер СО» (пп. 26¹–26¹¹). Главное правило: <strong>штрафы ФНС за налоговые правонарушения прямо исключены</strong> — позиция КС РФ № 50-П стала обязательной нормой для всех судов с 23.12.2025.</p>
 
-    <div class="boris-theft-fraud-map__split">
-      <div class="boris-theft-fraud-map__panel">
-        <p class="boris-theft-fraud-map__panel-title">Карта решений: обман → квалификация</p>
-        <svg class="boris-theft-fraud-map__map-svg" viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tf-map-title tf-map-desc">
-          <title id="tf-map-title">Разграничение кражи и мошенничества по Пленуму ВС № 19</title>
-          <desc id="tf-map-desc">Дерево решений: при тайном списании после обмана для доступа — ст. 158; при добровольном переводе потерпевшим — ст. 159</desc>
-          <defs>
-            <linearGradient id="tf-axis" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stop-color="#f59e0b"/>
-              <stop offset="50%" stop-color="#64748b"/>
-              <stop offset="100%" stop-color="#334155"/>
-            </linearGradient>
-            <marker id="tf-arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path d="M0 0 L8 4 L0 8 Z" fill="#94a3b8"/>
-            </marker>
-            <marker id="tf-arr-theft" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path d="M0 0 L8 4 L0 8 Z" fill="#f87171"/>
-            </marker>
-            <marker id="tf-arr-fraud" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-              <path d="M0 0 L8 4 L0 8 Z" fill="#c4b5fd"/>
-            </marker>
-          </defs>
+  <svg class="bsp42__svg" viewBox="0 0 720 232" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="b42t b42d">
+    <title id="b42t">Схема: размер субсидиарной ответственности по Пленуму ВС № 42</title>
+    <desc id="b42d">Что включается (реестровые, зареестровые, текущие платежи, санкции без штрафов ФНС, мораторные проценты) и что не включается (штрафы ФНС — КС 50-П, аффилированные, осведомлённые кредиторы, без причинно-следственной связи) в размер субсидиарной ответственности — пп. 26¹–26¹¹ Пленума ВС № 53 в редакции Пленума № 42</desc>
+    <defs>
+      <linearGradient id="b42gctr" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+        <stop offset="0%" stop-color="#0c1e42"/>
+        <stop offset="100%" stop-color="#07121f"/>
+      </linearGradient>
+      <marker id="b42mg" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+        <polygon points="0 0, 8 3.5, 0 7" fill="#10b981"/>
+      </marker>
+    </defs>
 
-          <rect x="4" y="4" width="552" height="312" rx="14" fill="rgba(0,0,0,0.22)" stroke="#334155" stroke-width="1"/>
+    <!-- ===== ЛЕВАЯ ЧАСТЬ: ВКЛЮЧАЕТСЯ (x=8–226) ===== -->
+    <rect x="8" y="16" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="29" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="29" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Реестровые требования кредиторов</text>
+    <text x="31" y="42" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">1–3 очередь · основная база СО</text>
 
-          <!-- Root -->
-          <rect x="196" y="20" width="168" height="48" rx="10" fill="rgba(245,158,11,0.14)" stroke="#f59e0b" stroke-width="1.8"/>
-          <text x="280" y="40" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="800">ОБМАН ПРИ ХИЩЕНИИ ДС</text>
-          <text x="280" y="54" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="600">телефон · СМС · «сотрудник банка»</text>
-          <line x1="280" y1="68" x2="280" y2="88" stroke="url(#tf-axis)" stroke-width="2.5"/>
+    <rect x="8" y="58" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="71" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="71" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Зареестровые требования</text>
+    <text x="31" y="84" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">заявленные после закрытия реестра</text>
 
-          <!-- Question 1 -->
-          <rect x="176" y="88" width="208" height="44" rx="8" fill="rgba(100,116,139,0.18)" stroke="#64748b" stroke-width="1.5"/>
-          <text x="280" y="106" text-anchor="middle" fill="#fff" font-size="6.8" font-weight="700">Кто инициировал изъятие денег?</text>
-          <text x="280" y="120" text-anchor="middle" fill="#94a3b8" font-size="6">перевод / распоряжение vs тайное списание</text>
+    <rect x="8" y="100" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="113" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="113" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Текущие платежи</text>
+    <text x="31" y="126" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">ст. 5 Закона о банкротстве</text>
 
-          <!-- Left branch: victim transfers -->
-          <path d="M176 110 L88 110 L88 168" stroke="#c4b5fd" stroke-width="2" fill="none" marker-end="url(#tf-arr-fraud)"/>
-          <rect x="20" y="168" width="136" height="56" rx="8" fill="rgba(124,58,237,0.14)" stroke="#7c3aed" stroke-width="1.8"/>
-          <text x="88" y="188" text-anchor="middle" fill="#c4b5fd" font-size="6.5" font-weight="800">ПОТЕРПЕВШИЙ САМ</text>
-          <text x="88" y="202" text-anchor="middle" fill="#e2e8f0" font-size="6">перевод на «безопасный счёт»</text>
-          <text x="88" y="214" text-anchor="middle" fill="#94a3b8" font-size="5.8">открытое распоряжение</text>
+    <rect x="8" y="142" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="155" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="155" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Санкции за публичные нарушения</text>
+    <text x="31" y="168" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">кроме штрафов ФНС · п. 26¹</text>
 
-          <!-- Right branch: secret debit -->
-          <path d="M384 110 L472 110 L472 168" stroke="#f87171" stroke-width="2" fill="none" marker-end="url(#tf-arr-theft)"/>
-          <rect x="404" y="168" width="136" height="56" rx="8" fill="rgba(220,38,38,0.14)" stroke="#dc2626" stroke-width="1.8"/>
-          <text x="472" y="188" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-weight="800">ВИНОВНЫЙ ТАЙНО</text>
-          <text x="472" y="202" text-anchor="middle" fill="#e2e8f0" font-size="6">списание с карты / кошелька</text>
-          <text x="472" y="214" text-anchor="middle" fill="#94a3b8" font-size="5.8">код СМС «только для доступа»</text>
+    <rect x="8" y="184" width="218" height="33" rx="7" fill="rgba(5,150,105,.17)" stroke="#10b981" stroke-width="1.3"/>
+    <text x="19" y="197" fill="#6ee7b7" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✓</text>
+    <text x="31" y="197" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Мораторные проценты</text>
+    <text x="31" y="210" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">пп. 4 ст. 63, 2 ст. 81, 2¹ ст. 126</text>
 
-          <!-- Question 2 center -->
-          <path d="M280 132 L280 168" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#tf-arr)"/>
-          <rect x="196" y="168" width="168" height="44" rx="8" fill="rgba(100,116,139,0.12)" stroke="#475569" stroke-width="1.2"/>
-          <text x="280" y="186" text-anchor="middle" fill="#cbd5e1" font-size="6.5" font-weight="600">Обман = способ завладения?</text>
-          <text x="280" y="200" text-anchor="middle" fill="#94a3b8" font-size="5.8">или лишь прикрытие для доступа</text>
+    <!-- Стрелки к центральному блоку (x=268) -->
+    <line x1="226" y1="32"  x2="268" y2="90"  stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.75"/>
+    <line x1="226" y1="74"  x2="268" y2="104" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.85"/>
+    <line x1="226" y1="116" x2="268" y2="118" stroke="#10b981" stroke-width="1.6" marker-end="url(#b42mg)"/>
+    <line x1="226" y1="158" x2="268" y2="132" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.85"/>
+    <line x1="226" y1="200" x2="268" y2="146" stroke="#10b981" stroke-width="1.3" marker-end="url(#b42mg)" opacity="0.75"/>
 
-          <!-- Outcomes -->
-          <path d="M88 224 L88 252" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#tf-arr-fraud)"/>
-          <rect x="24" y="252" width="128" height="52" rx="8" fill="rgba(124,58,237,0.2)" stroke="#7c3aed" stroke-width="2"/>
-          <text x="88" y="272" text-anchor="middle" fill="#c4b5fd" font-size="8" font-weight="800">ст. 159</text>
-          <text x="88" y="286" text-anchor="middle" fill="#e2e8f0" font-size="6">мошенничество</text>
-          <text x="88" y="298" text-anchor="middle" fill="#94a3b8" font-size="5.5">обман = завладение</text>
+    <!-- ===== ЦЕНТРАЛЬНЫЙ БЛОК: РАЗМЕР СО (x=268–438, y=58–174) ===== -->
+    <rect x="268" y="58" width="170" height="116" rx="12" fill="url(#b42gctr)" stroke="#d97706" stroke-width="2"/>
+    <rect x="268" y="58" width="170" height="116" rx="12" fill="none" stroke="rgba(217,119,6,.18)" stroke-width="7"/>
+    <text x="353" y="90"  text-anchor="middle" fill="#fde68a" font-size="9"   font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".04em">РАЗМЕР</text>
+    <text x="353" y="106" text-anchor="middle" fill="#fde68a" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".03em">СУБСИДИАРНОЙ</text>
+    <text x="353" y="120" text-anchor="middle" fill="#fde68a" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif" letter-spacing=".03em">ОТВЕТСТВЕННОСТИ</text>
+    <line x1="282" y1="127" x2="424" y2="127" stroke="rgba(217,119,6,.28)" stroke-width="1"/>
+    <text x="353" y="140" text-anchor="middle" fill="#94a3b8" font-size="6.2" font-family="system-ui,sans-serif">= Σ включённых требований</text>
+    <text x="353" y="153" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">п. 26¹ Пленума ВС № 53</text>
+    <text x="353" y="165" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">(ред. Пленума № 42 · 23.12.2025)</text>
 
-          <path d="M472 224 L472 252" stroke="#dc2626" stroke-width="2.5" fill="none" marker-end="url(#tf-arr-theft)"/>
-          <rect x="408" y="252" width="128" height="52" rx="8" fill="rgba(220,38,38,0.2)" stroke="#dc2626" stroke-width="2"/>
-          <text x="472" y="270" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="800">ст. 158</text>
-          <text x="472" y="284" text-anchor="middle" fill="#e2e8f0" font-size="6">кража · п. «г» ч. 3</text>
-          <text x="472" y="296" text-anchor="middle" fill="#94a3b8" font-size="5.5">п. 2 · п. 25.1 Пленума</text>
+    <!-- ===== ПРАВАЯ ЧАСТЬ: НЕ ВКЛЮЧАЕТСЯ (x=450–712) ===== -->
+    <line x1="445" y1="14" x2="445" y2="220" stroke="rgba(220,38,38,.22)" stroke-width="1.5" stroke-dasharray="5,4"/>
 
-          <!-- Center outcome: depends -->
-          <path d="M280 212 L280 252" stroke="#059669" stroke-width="2" fill="none" marker-end="url(#tf-arr)"/>
-          <rect x="196" y="252" width="168" height="52" rx="8" fill="rgba(5,150,105,0.14)" stroke="#059669" stroke-width="1.5"/>
-          <text x="280" y="272" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700">ЦИФРОВОЙ РУБЛЬ / ДС</text>
-          <text x="280" y="286" text-anchor="middle" fill="#e2e8f0" font-size="6">окончание = списание</text>
-          <text x="280" y="298" text-anchor="middle" fill="#94a3b8" font-size="5.5">п. 6 · п. 11 Пленума № 29</text>
+    <!-- R1: Штрафы ФНС — особо выделено -->
+    <rect x="450" y="14" width="262" height="62" rx="9" fill="rgba(234,88,12,.18)" stroke="#ea580c" stroke-width="2"/>
+    <rect x="450" y="14" width="262" height="62" rx="9" fill="none" stroke="rgba(234,88,12,.35)" stroke-width="5" stroke-dasharray="4,3"/>
+    <text x="465" y="32" fill="#fdba74" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif">✕  Штрафы ФНС за налоговые</text>
+    <text x="465" y="46" fill="#fdba74" font-size="7.8" font-weight="800" font-family="system-ui,sans-serif">     правонарушения должника</text>
+    <rect x="465" y="52" width="92" height="16" rx="4" fill="rgba(234,88,12,.4)"/>
+    <text x="511" y="63" text-anchor="middle" fill="#fff" font-size="6" font-weight="800" font-family="system-ui,sans-serif">КС РФ № 50-П · п. 26¹</text>
 
-          <!-- Debit moment indicator -->
-          <g transform="translate(16, 248)">
-            <rect width="52" height="28" rx="6" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="1"/>
-            <text x="26" y="14" text-anchor="middle" fill="#fde68a" font-size="5.5" font-weight="700">СПИСАНИЕ</text>
-            <text x="26" y="24" text-anchor="middle" fill="#94a3b8" font-size="5">= ущерб</text>
-          </g>
-        </svg>
+    <!-- R2: Аффилированные -->
+    <rect x="450" y="86" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="463" y="99"  fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
+    <text x="475" y="99"  fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования аффилированных лиц</text>
+    <text x="475" y="112" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">контролирующих / подконтрольных КДЛ · п. 26²</text>
 
-        <ul class="boris-theft-fraud-map__branches" aria-label="Два итога разграничения">
-          <li class="boris-theft-fraud-map__branch boris-theft-fraud-map__branch--theft">
-            <strong>Кража · ст. 158</strong>
-            Обман только для доступа → тайное списание с карты, кошелька или счёта цифрового рубля. П. 25.1: даже без взлома ПО.
-          </li>
-          <li class="boris-theft-fraud-map__branch boris-theft-fraud-map__branch--fraud">
-            <strong>Мошенничество · ст. 159</strong>
-            Потерпевший сам перевёл деньги или передал доступ — виновный распорядился имуществом открыто.
-          </li>
-        </ul>
-        <blockquote class="boris-theft-fraud-map__quote">
-          «Если виновное лицо использовало обман либо злоупотребление доверием только для обеспечения или облегчения доступа к имуществу… но при этом само изъятие имущества осуществило тайно, то его действия образуют состав кражи.»
-          <cite>п. 2 Пленума ВС № 29 (ред. Пленума № 19 от 16.06.2026)</cite>
-        </blockquote>
-        <p class="boris-theft-fraud-map__caption">Логика ВС: не всякий обман при хищении = мошенничество</p>
-      </div>
+    <!-- R3: Осведомлённые кредиторы -->
+    <rect x="450" y="129" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="463" y="142" fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
+    <text x="475" y="142" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования «осведомлённых» кредиторов</text>
+    <text x="475" y="155" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">знали о нарушениях при заключении договора · п. 26⁷</text>
 
-      <div class="boris-theft-fraud-map__panel">
-        <p class="boris-theft-fraud-map__panel-title">Цифровые сценарии: списание и статья УК</p>
-        <svg class="boris-theft-fraud-map__grid-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tf-grid-title tf-grid-desc">
-          <title id="tf-grid-title">Схемы цифровых списаний: кража или мошенничество</title>
-          <desc id="tf-grid-desc">Пять типовых сценариев хищения безналичных денежных средств и цифрового рубля по разъяснениям Пленума № 19</desc>
+    <!-- R4: Отсутствие причинно-следственной связи -->
+    <rect x="450" y="172" width="262" height="33" rx="7" fill="rgba(220,38,38,.12)" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="463" y="185" fill="#fca5a5" font-size="7.2" font-weight="800" font-family="system-ui,sans-serif">✕</text>
+    <text x="475" y="185" fill="#e2e8f0" font-size="6.8" font-weight="700" font-family="system-ui,sans-serif">Требования без причинно-след. связи</text>
+    <text x="475" y="198" fill="#94a3b8" font-size="5.9" font-family="system-ui,sans-serif">КДЛ доказало отсутствие влияния · п. 26⁶</text>
 
-          <!-- Row 1: SMS + Transfer -->
-          <rect x="8" y="8" width="148" height="88" rx="8" fill="rgba(220,38,38,0.1)" stroke="#dc2626" stroke-width="1.2"/>
-          <text x="82" y="26" text-anchor="middle" fill="#fca5a5" font-size="6" font-weight="800">КОД ИЗ СМС</text>
-          <rect x="20" y="34" width="36" height="24" rx="4" fill="#1e293b" stroke="#475569"/>
-          <text x="38" y="50" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="700">SMS</text>
-          <path d="M58 46 L72 46" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
-          <rect x="72" y="34" width="36" height="24" rx="4" fill="#1e293b" stroke="#dc2626"/>
-          <text x="90" y="48" text-anchor="middle" fill="#fca5a5" font-size="5.5" font-weight="700">− ₽</text>
-          <path d="M108 46 L122 46" stroke="#94a3b8" stroke-width="1"/>
-          <rect x="122" y="36" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
-          <text x="134" y="50" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
-          <text x="82" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.5">тайное списание · п. 25.1</text>
-          <text x="82" y="84" text-anchor="middle" fill="#64748b" font-size="5">п. «г» ч. 3 ст. 158</text>
+    <!-- Подписи колонок -->
+    <text x="117" y="224" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif" letter-spacing=".05em">ВКЛЮЧАЕТСЯ В РАЗМЕР СО (п. 26¹)</text>
+    <text x="581" y="224" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif" letter-spacing=".04em">НЕ ВКЛЮЧАЕТСЯ / СНИЖАЕТ РАЗМЕР СО</text>
+  </svg>
 
-          <rect x="164" y="8" width="148" height="88" rx="8" fill="rgba(124,58,237,0.1)" stroke="#7c3aed" stroke-width="1.2"/>
-          <text x="238" y="26" text-anchor="middle" fill="#c4b5fd" font-size="6" font-weight="800">«БЕЗОПАСНЫЙ СЧЁТ»</text>
-          <circle cx="200" cy="48" r="14" fill="rgba(100,116,139,0.3)" stroke="#94a3b8"/>
-          <text x="200" y="51" text-anchor="middle" fill="#e2e8f0" font-size="6">👤</text>
-          <path d="M214 48 L228 48" stroke="#c4b5fd" stroke-width="1.5" marker-end="url(#tf-arr-fraud)"/>
-          <rect x="228" y="36" width="36" height="24" rx="4" fill="#1e293b" stroke="#7c3aed"/>
-          <text x="246" y="50" text-anchor="middle" fill="#c4b5fd" font-size="5.5" font-weight="700">→ ₽</text>
-          <rect x="276" y="36" width="24" height="20" rx="3" fill="rgba(124,58,237,0.25)" stroke="#7c3aed"/>
-          <text x="288" y="50" text-anchor="middle" fill="#c4b5fd" font-size="5" font-weight="700">159</text>
-          <text x="238" y="72" text-anchor="middle" fill="#94a3b8" font-size="5.5">сам инициировал перевод</text>
-          <text x="238" y="84" text-anchor="middle" fill="#64748b" font-size="5">мошенничество</text>
-
-          <!-- Row 2: Digital ruble + Dropper -->
-          <rect x="8" y="104" width="148" height="88" rx="8" fill="rgba(5,150,105,0.1)" stroke="#059669" stroke-width="1.2"/>
-          <text x="82" y="122" text-anchor="middle" fill="#6ee7b7" font-size="6" font-weight="800">ЦИФРОВОЙ РУБЛЬ</text>
-          <rect x="24" y="132" width="44" height="28" rx="5" fill="#064e3b" stroke="#059669"/>
-          <text x="46" y="146" text-anchor="middle" fill="#6ee7b7" font-size="5.5" font-weight="700">CBDC</text>
-          <text x="46" y="156" text-anchor="middle" fill="#94a3b8" font-size="4.5">счёт ЦВ</text>
-          <path d="M70 146 L88 146" stroke="#f59e0b" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
-          <text x="108" y="142" fill="#fde68a" font-size="5.5" font-weight="600">списание</text>
-          <text x="108" y="154" fill="#94a3b8" font-size="5">без согласия</text>
-          <rect x="122" y="136" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
-          <text x="134" y="150" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
-          <text x="82" y="178" text-anchor="middle" fill="#64748b" font-size="5">п. 11 · безналичные ДС · не крипто</text>
-
-          <rect x="164" y="104" width="148" height="88" rx="8" fill="rgba(220,38,38,0.08)" stroke="#475569" stroke-width="1.2"/>
-          <text x="238" y="122" text-anchor="middle" fill="#fca5a5" font-size="6" font-weight="800">ДРОППЕР / КАРТА</text>
-          <rect x="178" y="134" width="32" height="22" rx="4" fill="#1e293b" stroke="#64748b"/>
-          <text x="194" y="149" text-anchor="middle" fill="#e2e8f0" font-size="5">CARD</text>
-          <path d="M212 145 L226 145" stroke="#94a3b8" stroke-width="1"/>
-          <rect x="226" y="132" width="32" height="26" rx="4" fill="rgba(0,0,0,0.3)" stroke="#f59e0b"/>
-          <text x="242" y="149" text-anchor="middle" fill="#fde68a" font-size="5">данные</text>
-          <path d="M260 145 L274 145" stroke="#f87171" stroke-width="1.5" marker-end="url(#tf-arr-theft)"/>
-          <rect x="276" y="136" width="24" height="20" rx="3" fill="rgba(220,38,38,0.25)" stroke="#dc2626"/>
-          <text x="288" y="150" text-anchor="middle" fill="#fca5a5" font-size="5" font-weight="700">158</text>
-          <text x="238" y="168" text-anchor="middle" fill="#94a3b8" font-size="5.5">обман → данные → тайное списание</text>
-          <text x="238" y="180" text-anchor="middle" fill="#64748b" font-size="5">не ст. 159 при тайности</text>
-        </svg>
-
-        <div class="boris-theft-fraud-map__table-wrap">
-          <table class="boris-theft-fraud-map__table">
-            <thead>
-              <tr>
-                <th scope="col">Сценарий</th>
-                <th scope="col">Механизм</th>
-                <th scope="col">Статья</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Код из СМС</strong></td>
-                <td>Обман → доступ → <strong>тайное</strong> списание с карты/счёта</td>
-                <td class="boris-theft-fraud-map__qual--theft">ст. 158 п. «г» ч. 3</td>
-              </tr>
-              <tr>
-                <td><strong>«Безопасный счёт»</strong></td>
-                <td>Потерпевший <strong>сам</strong> инициировал перевод</td>
-                <td class="boris-theft-fraud-map__qual--fraud">ст. 159</td>
-              </tr>
-              <tr>
-                <td><strong>Цифровой рубль</strong></td>
-                <td>Тайное списание со счёта цифровой валюты; окончание — момент списания</td>
-                <td class="boris-theft-fraud-map__qual--theft">ст. 158</td>
-              </tr>
-              <tr>
-                <td><strong>Дроппер / курьер</strong></td>
-                <td>Данные карты под обманом → скрытое изъятие без взлома ПО</td>
-                <td class="boris-theft-fraud-map__qual--theft">ст. 158 · п. 25.1</td>
-              </tr>
-              <tr>
-                <td><strong>Серия списаний</strong></td>
-                <td>Несколько операций с одного счёта при едином умысле</td>
-                <td class="boris-theft-fraud-map__qual--theft">единое хищение · п. 25.3</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="boris-theft-fraud-map__note"><strong>Защита:</strong> при квалификации по ст. 159 требуйте пересмотр, если доказано тайное списание; при п. «г» ч. 3 — учитывайте сумму и способ (аргументы смягчения). Пленум № 48 — о <em>мошенничестве</em>; № 19 — о <em>краже</em> и границе 158/159.</p>
-        <p class="boris-theft-fraud-map__caption">Таблица-схема по п. 2, 6, 11, 25.1–25.3 Пленума № 29 (ред. 16.06.2026)</p>
-      </div>
+  <!-- Детальный разбор: HTML-колонки -->
+  <div class="bsp42__cols">
+    <div class="bsp42__col bsp42__col--in">
+      <p class="bsp42__col-hd">✓ Что включается в размер СО</p>
+      <ul class="bsp42__ul">
+        <li><strong>Реестровые требования кредиторов</strong> — все три очереди (основная база)</li>
+        <li><strong>Зареестровые требования</strong> — заявленные после закрытия реестра</li>
+        <li><strong>Текущие платежи</strong> — ст. 5 Закона о банкротстве</li>
+        <li><strong>Санкции за публичные правонарушения</strong> — кроме штрафов ФНС<small>пени ФНС и санкции за иные нарушения — включаются; штрафы за налоговые — нет</small></li>
+        <li><strong>Мораторные проценты</strong> — пп. 4 ст. 63, 2 ст. 81, абз. 4 п. 2 ст. 95, п. 2¹ ст. 126 Закона о банкротстве</li>
+      </ul>
     </div>
-
-    <div class="boris-theft-fraud-map__foot" aria-label="Нормативный контекст Пленума № 19">
-      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--plenum">Пленум ВС № 19 · 16.06.2026</span>
-      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--theft">ст. 158 · п. «г» ч. 3</span>
-      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--fraud">ст. 159 · мошенничество</span>
-      <span class="boris-theft-fraud-map__tag boris-theft-fraud-map__tag--digital">цифровой рубль · CBDC</span>
+    <div class="bsp42__col bsp42__col--out">
+      <p class="bsp42__col-hd">✕ Что не включается / снижает размер</p>
+      <ul class="bsp42__ul">
+        <li class="bsp42__li-ks">
+          <span class="bsp42__ks-ico">✕</span><span class="bsp42__ks-tag">КС 50-П · п. 26¹</span><strong>Штрафы ФНС</strong> за налоговые правонарушения должника
+          <small>Карательная мера ≠ компенсационная СО · обязательно для всех судов с 23.12.2025</small>
+        </li>
+        <li><strong>Требования аффилированных лиц</strong> — контролирующих или подконтрольных КДЛ структур — п. 26²</li>
+        <li><strong>Требования, уступленные заинтересованному лицу</strong> — п. 26², ст. 384 ГК РФ</li>
+        <li><strong>Требования «осведомлённых» кредиторов</strong> — знали о нарушениях при заключении договора<small>исключение: недобровольные кредиторы (работники, обязательные платежи) защищены всегда — п. 26⁷</small></li>
+        <li><strong>Требования без причинно-следственной связи</strong> — КДЛ доказало, что конкретное требование не связано с его действиями — п. 26⁶</li>
+      </ul>
     </div>
   </div>
+
+  <!-- Блок КС РФ № 50-П -->
+  <div class="bsp42__ks-box">
+    <span class="bsp42__ks-lbl">КС РФ № 50-П · 30.10.2023 → п. 26¹ Пленума № 42</span>
+    <p class="bsp42__ks-p"><strong>Субсидиарная ответственность — компенсационная, а не карательная.</strong> Налоговый штраф — персональная санкция за конкретное правонарушение должника; перенос её на КДЛ нарушает принцип персонализации публичного наказания. До Пленума № 42 часть судов включала штрафы ФНС в базу СО. С 23.12.2025 это прямо запрещено: <strong>если ФНС заявила штрафы в составе требований о привлечении к СО — это прямое основание для снижения заявленной суммы.</strong></p>
+  </div>
+
+  <!-- Теги -->
+  <div class="bsp42__foot" aria-label="Нормативная база блока">
+    <span class="bsp42__tag bsp42__tag--a">Пленум ВС № 42 · 23.12.2025</span>
+    <span class="bsp42__tag bsp42__tag--a">пп. 26¹–26¹¹ Пленума ВС № 53</span>
+    <span class="bsp42__tag bsp42__tag--i">реестр · зареестровые · текущие платежи</span>
+    <span class="bsp42__tag bsp42__tag--e">штрафы ФНС — исключаются</span>
+    <span class="bsp42__tag bsp42__tag--k">КС РФ № 50-П · 30.10.2023</span>
+    <span class="bsp42__tag bsp42__tag--e">аффилированные · осведомлённые · п. 26², 26⁶, 26⁷</span>
+  </div>
+</div>
 </section>
 ```
 
 ## Передача Наташе
 
-- **Якорь вставки:** `#boris-theft-fraud-map`
-- **После H3:** «Типовые схемы: перевод под влиянием обмана vs тайное хищение после доступа»
-- **Перед:** H3 «Переквалификация со ст. 159 на ст. 158…» и primary CTA Артура
-- **MCP-only:** без `<canvas>` и `<script>`
+- **Якорь:** `l24-boris-plenum42-size`
+- **После H3:** «Что входит в размер: реестровые и зареестровые требования кредиторов»
+- **Перед:** H3 «Штрафы и санкции ФНС: почему они не включаются (позиция КС РФ № 50-П)»
+- **MCP-only:** без `<canvas>` и `<script>` — только inline CSS + SVG
