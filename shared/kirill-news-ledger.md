@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-07-01 | published | IP | СИП 2026: исключение слова «Алей» из охраны ТЗ на подсолнечное масло — описательное обозначение, соцопрос 57,5%, словарь Даля (БерталСервис vs производитель ЧР) | sip-alej-tovarnyj-znak-neohranyaemyj-element-maslo-2026 | https://advokat-vsem.online/sip-alej-tovarnyj-znak-neohranyaemyj-element-maslo-2026/ |
 | 2026-07-01 | published | ARB | Пленум ВС РФ № 42 от 23.12.2025: новые правила субсидиарной ответственности контролирующих лиц при банкротстве — размер, презумпции, штрафы ФНС, наследники | plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026 | https://advokat-vsem.online/plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026/ |
 | 2026-06-30 | published | UG | Пленум ВС РФ № 19 от 16.06.2026: цифровой рубль и цифровые права как предмет хищения, разграничение кражи и мошенничества, ст. 158.1 УК РФ | plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 | https://advokat-vsem.online/plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026/ |
 | 2026-06-30 | published | IP | Президиум СИП 01.06.2026: полное аннулирование ТЗ «ВПР» издательства «Просвещение» — злоупотребление правом, монополия на аббревиатуру госпроекта (СИП-844/2025) | sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie | https://advokat-vsem.online/sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie/ |
