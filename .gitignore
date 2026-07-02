@@ -121,3 +121,26 @@ scripts/kovcheg_blob_invoke_from_file.py
 .cursor/vs-osparivanie-mcp-step-*.json
 .cursor/step0-mcp-args.json
 .cursor/page-content-natasha-vs-osparivanie.html
+# KIRILL-IP NIDO MCP blob temp (2026-07-02)
+.cursor/nido-blob-calls-*/
+.cursor/nido-blob-step*.json
+.cursor/nido-mcp-*
+.cursor/nido-step*
+.cursor/nido-page-wp.html
+.cursor/nido-upload-queue.jsonl
+.cursor/nido-live-*
+.cursor/.chunk*.txt
+.cursor/.mcp-*
+.cursor/.meta*.json
+.cursor/.step*-mcp-args.json
+scripts/nido_mcp_invoke_from_file*.py
+scripts/nido_mcp_run_*.py
+scripts/nido_mcp_sequential_invoke.py
+scripts/nido_mcp_blob_upload_loop.py
+scripts/nido_mcp_kovcheg_upload.py
+scripts/nido_mcp_prepare.py
+scripts/nido_mcp_load_and_print_meta.py
+scripts/nido_mcp_args_from_file.py
+scripts/nido_mcp_invoke_cli.py
+scripts/nido_mcp_upload_remaining.sh
+scripts/kovcheg_mcp_invoke_from_json.py
