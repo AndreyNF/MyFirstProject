@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-07-02 | KIRILL-IP | sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026 | 560 | https://advokat-vsem.online/sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026/ |
 | 2026-07-02 | KIRILL-ARB | vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 | 555 | https://advokat-vsem.online/vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026/ |
 | 2026-07-01 | KIRILL-UG | vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026 | 551 | https://advokat-vsem.online/vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026/ |
 | 2026-07-01 | KIRILL-IP | sip-alej-tovarnyj-znak-neohranyaemyj-element-maslo-2026 | 549 | https://advokat-vsem.online/sip-alej-tovarnyj-znak-neohranyaemyj-element-maslo-2026/ |

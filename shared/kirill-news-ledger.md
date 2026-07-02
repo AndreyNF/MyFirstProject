@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-07-02 | published | IP | СИП 01.07.2026: знак NIDO оставили в силе — аббревиатура Nigerians in Diaspora Organization не лишает различительной способности; Роспатент и СИП отклонили возражение конкурирующей НКО | sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026 | https://advokat-vsem.online/sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026/ |
 | 2026-07-02 | published | ARB | Обзор ВС РФ 01.07.2026: оспаривание сделок с жильём в банкротстве — подозрительные сделки (ст. 61.2), дарение, заниженная цена, мнимость (20 позиций) | vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 | https://advokat-vsem.online/vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026/ |
 | 2026-07-01 | published | UG | ВС РФ отменил приговор директору МУП за мошенничество (ч. 3 ст. 159): работы по муниципальному контракту выполнены и приняты, умысел и корыстная цель не доказаны (дело № 85-УД26-2-К1) | vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026 | https://advokat-vsem.online/vs-moshennichestvo-municipalnyj-kontrakt-umysel-st-159-2026/ |
 | 2026-07-01 | published | IP | СИП 2026: исключение слова «Алей» из охраны ТЗ на подсолнечное масло — описательное обозначение, соцопрос 57,5%, словарь Даля (БерталСервис vs производитель ЧР) | sip-alej-tovarnyj-znak-neohranyaemyj-element-maslo-2026 | https://advokat-vsem.online/sip-alej-tovarnyj-znak-neohranyaemyj-element-maslo-2026/ |
