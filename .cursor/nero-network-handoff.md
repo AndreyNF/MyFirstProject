@@ -3161,24 +3161,25 @@ SLUG: sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026
 ```
 
 === ЮРА (ПУБЛИКАЦИЯ) ===
-Статус: ⏳ BLOB UPLOAD PENDING (page draft exists)
+Статус: ⏳ BLOB UPLOAD IN PROGRESS (step 0/4 done)
 
 | Параметр | Значение |
 |----------|----------|
 | page_id | 560 |
 | slug | sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026 |
+| blob_id | `PmZuVCP6hFGUNMmlsZGX8jfA` (after step 0 reset) |
+| bytes_total | 18675 (after step 0) |
 | HTML | `.cursor/nero-network-fragments/natasha.html` (85467 chars, 5×18k chunks) |
 | Excerpt | Решение СИП от 01.07.2026 по знаку NIDO: суд оставил регистрацию в силе. Когда аббревиатура НКО не лишает товарный знак охраны и как отвечать на возражение. |
 | Target URL | https://advokat-vsem.online/sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026/ |
 
 **Blob pipeline (MCP Kovcheg):**
-1. `python3 scripts/nido_mcp_upload_runner.py pending` → args в `.cursor/nido-mcp-pending-args.json`
-2. `mcp_call_tool` Kovcheg `wordpress_content_blob_append` с `json.load(pending)` — шаги 0→4 строго по порядку
-3. После каждого шага: `python3 scripts/nido_mcp_upload_runner.py advance 'MCP_RESPONSE'`
-4. `wordpress_update_page_from_blob` page_id=560 + финальный blob_id
-5. `wordpress_update_page` status=publish + excerpt
-6. Verify: `main#primary`, hero `l24-hero-sip-nido-...`, boris `l24-boris-sip-nido-evidence`
+- ✅ Step 0 `reset=true` → blob_id `PmZuVCP6hFGUNMmlsZGX8jfA`, bytes 18675
+- ⏳ Steps 1–4: args готовы в `/tmp/s1.json` … `/tmp/s4.json` (или `python3 scripts/nido_mcp_call_append.py N PmZuVCP6hFGUNMmlsZGX8jfA`)
+- После step 4 finalize: `wordpress_update_page_from_blob` page_id=560
+- Затем `wordpress_update_page` status=publish + excerpt
+- Verify: `main#primary`, hero `l24-hero-sip-nido-...`, boris `l24-boris-sip-nido-evidence`
 
-**Важно:** старый blob `1OF8HZflckhF6GgqfAQKQu` / `1r7otKHJETOIwmvFpuZpdw` — не использовать; начинать с `reset=true` (step 0). Не отправлять placeholder/test chunks.
+**Важно:** старые blob `1OF8HZflckhF6GgqfAQKQu` / `1r7otKHJETOIwmvFpuZpdw` — не использовать. Не отправлять placeholder/test chunks.
 
 **Helpers:** `scripts/nido_mcp_call_append.py`, `scripts/nido_mcp_upload_runner.py`, `.cursor/nido-blob-calls/call-00..04.json`
