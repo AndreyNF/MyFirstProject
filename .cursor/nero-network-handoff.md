@@ -3115,3 +3115,18 @@ Description: Обзор ВС РФ от 01.07.2026: когда продажа к�
 main#primary: да
 script: нет
 canvas: нет
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: **PUBLISHED**
+page_id: 562
+slug: vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026
+URL: https://advokat-vsem.online/vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026/
+blob_id: `6Gf2WCalZCOIm5LjdnCzUAS7`
+bytes_total: 105568
+sha256: `4c1188008a43bfe0f95f7a0d18a4fad6feb21634816d7b7fe2dd0158f042780e`
+chunks: 42×2k (`/tmp/ug-fresh-2k/00.json` … `41.json`, finalize на 41)
+verify: HTTP 200 · `l24-hero-vs-prodazha-kvartiry-moshenniki-st-159` · `l24-boris-vs-prodazha-kvartiry` · `main id="primary"`
+Excerpt: Обзор ВС РФ от 01.07.2026: когда продажа квартиры после обмана ведёт к делу по ст. 159 УК (ч. 3–4), риски покупателя и защита на проверке и в суде. Консультация адвоката по мошенничеству.
+published-pages.md: KIRILL-UG, 2026-07-02, page_id 562
+kirill-news-ledger.md: selected → published
+content-plan-legis24.md: B10 KIRILL-UG ✅
