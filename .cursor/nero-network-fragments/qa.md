@@ -240,3 +240,64 @@
 
 **Проверил:** Макс (QA Agent)
 **Timestamp:** Tue Jun 30, 2026, 10:12 UTC
+
+---
+
+=== МАКС (QA) ===
+
+**URL:** https://advokat-vsem.online/vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026/
+
+**Дата проверки:** 2026-07-02
+
+**Статус:** ✅
+
+---
+
+## Результаты проверки:
+
+### ✅ HTTP 200
+- `curl -w "%{http_code}"` → **200**
+- Редиректов нет
+
+### ✅ `main#primary`
+- Элемент найден: `main#primary.site-main.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page`
+- `</main>` на ~78.6% страницы; hero, Boris и весь контент Legis24 внутри `main`
+- 11 секций H2 внутри контейнера
+
+### ✅ Hero (`l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026`)
+- `section#l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026` с классом `l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026`
+- H1, подзаголовок, факты-чипы, SVG-иллюстрация, hero-CTA — на месте
+- `@media (max-width: 900px)` для адаптива — есть
+
+### ✅ Блок Бориса (`l24-boris-vs-osparivanie-sdelok-zhiloe`)
+- `section#l24-boris-vs-osparivanie-sdelok-zhiloe` с классом `l24-boris-vs-osparivanie-sdelok-zhiloe`
+- Карта двух контуров (гражданское / банкротное), SVG-схема, сравнительная таблица, теги — в DOM
+
+### ✅ NO script tags (MCP-only)
+- Внутри `main#primary` (MCP blob): **0** тегов `<script>`
+- 22 `<script>` на странице — только WordPress/Divi/GA в `<head>` и footer (вне MCP-контента)
+
+### ✅ CTA → `https://advokat-vsem.ru/`
+- 5 CTA-ссылок в контенте, все ведут на `https://advokat-vsem.ru/`
+- Hero-CTA: «Консультация по оспариванию и защите сделки с жильём»
+
+### ✅ Alt / aria у изображений
+- `<img>` в MCP-контенте: **0** (контент на SVG)
+- 5 SVG в `main`: все с `role="img"` + `aria-label` / `aria-labelledby` / `aria-hidden="true"`
+- Логотип темы в header: `alt=""` (декоративный, вне MCP)
+
+### ✅ Breadcrumbs скрыты
+- CSS: `.breadcrumbs, .breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb { display: none !important; }`
+- Видимых `<nav class="breadcrumb">` в body нет
+- BreadcrumbList в JSON-LD Yoast — только для SEO
+
+---
+
+## Итоговая оценка: ✅ PASSED
+
+Все обязательные проверки пройдены.
+
+---
+
+**Проверил:** Макс (QA Agent)
+**Timestamp:** Thu Jul 2, 2026, 04:30 UTC
