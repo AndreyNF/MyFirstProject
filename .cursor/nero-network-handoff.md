@@ -1095,3 +1095,1882 @@ H1_для_hero: Обзор ВС 2026: оспаривание сделок с ж�
 ЧИСЛО_CTA: 4
 ТИП_CTA: ARB — консультация по оспариванию/защите сделки с жильём в арбитраже
 PRIMARY_CTA_URL: https://advokat-vsem.ru/
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+**Hero id / class:** `l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026`
+
+## Паспорт мира
+
+| Параметр | Значение |
+|----------|----------|
+| **Мир** | «Арбитражный вес сделки с жильём» — обзор ВС 01.07.2026, 20 позиций после «эффекта Долиной», спор ФУ и добросовестного покупателя по ст. 61.2 |
+| **Центральная метафора** | Квартира + стопка документов сделки (ДКП, дарственная); весы: «ФУ оспорит» vs «покупатель защитит»; бейдж обзора ВС 01.07.2026 и ст. 61.2 |
+| **Пространство** | ARB-градиент (#f8fafc → #eef2f8); SVG — жилой дом, договор, весы, блок 20 позиций |
+| **Движение** | Полностью static — без `<canvas>`, `<script>` и CSS-анимаций |
+| **Палитра** | `#1e3a8a`, `#0369a1` ARB; `#a31830` CTA; `#0f172a` текст |
+| **Аудитория** | Покупатели квартир, должники, финансовые управляющие, кредиторы в арбитраже |
+
+## Чеклист отличий от других hero
+
+- [x] **Не vs-moshennichestvo (UG)**: не мост/МУП/ст. 159 — угол **ст. 61.2, жильё, банкротство**
+- [x] **Не plenum-42**: не субсидиарка/директор — **оспаривание сделок с квартирой**
+- [x] Уникальная сцена: **квартира + документы сделки** + весы «ФУ оспорит / покупатель защитит»
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
+- [x] Badge **ARB · обзор ВС 01.07.2026 · ст. 61.2**; chips: 20 позиций, дарение, >20% цена, добросовестный покупатель
+
+```html
+<section id="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026" class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026" aria-label="Обзор ВС 2026: оспаривание сделок с жильём в банкротстве — дарение, цена, мнимость">
+  <style>
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(152deg, #fefefe 0%, #f3f6fa 36%, #eef2f8 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 42% 38% at 88% 8%, rgba(3, 105, 161, 0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 36% 34% at 8% 92%, rgba(30, 58, 138, 0.06) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(30, 58, 138, 0.14);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #0369a1;
+      flex-shrink: 0;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.32rem, 2.85vw, 2.08rem);
+      line-height: 1.22;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__h1-accent {
+      color: #1e3a8a;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__sub {
+      margin: 0 0 26px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 26px;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--blue {
+      border-color: #bae6fd;
+      color: #0369a1;
+      background: #f0f9ff;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--navy {
+      border-color: #93c5fd;
+      color: #1e3a8a;
+      background: #eff6ff;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--warn {
+      border-color: #fecaca;
+      color: #991b1b;
+      background: #fef2f2;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--ok {
+      border-color: #a7f3d0;
+      color: #047857;
+      background: #ecfdf5;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+      line-height: 1.35;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__cta:hover {
+      background: #8b1528;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__visual {
+        order: -1;
+        max-height: 320px;
+        overflow: hidden;
+      }
+    }
+  </style>
+
+  <div class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__inner">
+    <div class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__content">
+      <div class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__badge">
+        <span class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__badge-mark" aria-hidden="true"></span>
+        ARB · обзор ВС 01.07.2026 · ст. 61.2
+      </div>
+      <h1 class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__h1">
+        <span class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__h1-accent">Обзор ВС 2026: оспаривание сделок с жильём в банкротстве</span> — дарение, цена, мнимость
+      </h1>
+      <p class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__sub">
+        20 позиций после «эффекта Долиной»: когда ФУ оспорит продажу квартиры, а покупатель защитит сделку
+      </p>
+      <ul class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__facts">
+        <li class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--navy">20 позиций</li>
+        <li class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--blue">дарение</li>
+        <li class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--warn">&gt;20% цена</li>
+        <li class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--ok">добросовестный покупатель</li>
+      </ul>
+      <a class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по оспариванию и защите сделки с жильём</a>
+    </div>
+
+    <div class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Квартира и документы сделки на весах арбитража: ФУ оспорит продажу или покупатель защитит сделку — обзор ВС 01.07.2026, ст. 61.2, 20 позиций">
+        <defs>
+          <linearGradient id="hos612-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e8eef5"/>
+          </linearGradient>
+          <linearGradient id="hos612-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hos612-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0369a1"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
+          </linearGradient>
+          <linearGradient id="hos612-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hos612-brick" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#cbd5e1"/>
+            <stop offset="100%" stop-color="#94a3b8"/>
+          </linearGradient>
+          <pattern id="hos612-grid" width="18" height="18" patternUnits="userSpaceOnUse">
+            <rect width="18" height="18" fill="#f1f5f9"/>
+            <path d="M18 0 L0 0 0 18" fill="none" stroke="#e2e8f0" stroke-width="0.5"/>
+          </pattern>
+          <filter id="hos612-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+        </defs>
+
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hos612-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hos612-grid)" opacity="0.45"/>
+
+        <!-- VS review badge -->
+        <g filter="url(#hos612-sh)" transform="translate(138,14)">
+          <rect x="0" y="26" width="244" height="50" rx="6" fill="url(#hos612-navy)"/>
+          <polygon points="122,4 238,26 6,26" fill="#1e3a8a"/>
+          <text x="122" y="46" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="800" letter-spacing="0.04em">ВС РФ · обзор 01.07.2026</text>
+          <text x="122" y="60" text-anchor="middle" fill="#7dd3fc" font-size="5.5">20 позиций · жильё · «эффект Долиной»</text>
+        </g>
+
+        <!-- Scales pillar -->
+        <rect x="254" y="78" width="6" height="78" rx="3" fill="#475569"/>
+        <circle cx="257" cy="76" r="7" fill="#334155"/>
+        <line x1="138" y1="94" x2="376" y2="88" stroke="#475569" stroke-width="4.5" stroke-linecap="round"/>
+        <circle cx="257" cy="91" r="5" fill="#64748b"/>
+
+        <!-- Left pan: FU OSPORIT (higher, lighter) -->
+        <line x1="168" y1="95" x2="158" y2="124" stroke="#94a3b8" stroke-width="1.5"/>
+        <line x1="184" y1="95" x2="194" y2="124" stroke="#94a3b8" stroke-width="1.5"/>
+        <g filter="url(#hos612-sh)" transform="translate(118,122)">
+          <ellipse cx="58" cy="6" rx="60" ry="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+          <rect x="0" y="4" width="118" height="62" rx="7" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+          <text x="59" y="18" text-anchor="middle" fill="#991b1b" font-size="6" font-weight="800">ФУ ОСПОРИТ</text>
+          <text x="59" y="30" text-anchor="middle" fill="#b91c1c" font-size="5">п. 1–2 ст. 61.2</text>
+          <text x="59" y="41" text-anchor="middle" fill="#b91c1c" font-size="5">дарение · &gt;20% цена</text>
+          <text x="59" y="52" text-anchor="middle" fill="#b91c1c" font-size="5">мнимость сделки</text>
+          <rect x="8" y="56" width="102" height="11" rx="3" fill="#fee2e2"/>
+          <text x="59" y="64" text-anchor="middle" fill="#dc2626" font-size="5" font-weight="600">подозрительная сделка</text>
+        </g>
+
+        <!-- Right pan: POKUPATEL ZASHCHITIT (lower, heavier) -->
+        <line x1="338" y1="89" x2="332" y2="114" stroke="#94a3b8" stroke-width="1.5"/>
+        <line x1="354" y1="89" x2="360" y2="114" stroke="#94a3b8" stroke-width="1.5"/>
+        <g filter="url(#hos612-sh)" transform="translate(324,112)">
+          <ellipse cx="52" cy="7" rx="54" ry="7" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+          <rect x="0" y="5" width="106" height="72" rx="7" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+          <text x="53" y="20" text-anchor="middle" fill="#047857" font-size="6" font-weight="800">ПОКУПАТЕЛЬ ЗАЩИТИТ</text>
+          <text x="53" y="32" text-anchor="middle" fill="#065f46" font-size="5">ст. 61.4 · осмотрительность</text>
+          <text x="53" y="43" text-anchor="middle" fill="#065f46" font-size="5">заверения · ячейка</text>
+          <text x="53" y="54" text-anchor="middle" fill="#065f46" font-size="5">307-ЭС25-13338</text>
+          <rect x="8" y="58" width="90" height="13" rx="4" fill="#059669"/>
+          <text x="53" y="68" text-anchor="middle" fill="#fff" font-size="5.5" font-weight="700">ВС: отказ ФУ</text>
+        </g>
+
+        <!-- Apartment building (center-bottom) -->
+        <g filter="url(#hos612-sh)" transform="translate(196,196)">
+          <rect x="0" y="28" width="128" height="96" rx="4" fill="url(#hos612-brick)" stroke="#64748b" stroke-width="1.2"/>
+          <polygon points="64,8 122,30 6,30" fill="#475569"/>
+          <rect x="14" y="42" width="22" height="18" rx="2" fill="#bae6fd" stroke="#0369a1" stroke-width="0.8"/>
+          <rect x="42" y="42" width="22" height="18" rx="2" fill="#bae6fd" stroke="#0369a1" stroke-width="0.8"/>
+          <rect x="70" y="42" width="22" height="18" rx="2" fill="#bae6fd" stroke="#0369a1" stroke-width="0.8"/>
+          <rect x="98" y="42" width="16" height="18" rx="2" fill="#bae6fd" stroke="#0369a1" stroke-width="0.8"/>
+          <rect x="14" y="68" width="22" height="18" rx="2" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="0.8"/>
+          <rect x="42" y="68" width="22" height="18" rx="2" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="0.8"/>
+          <rect x="70" y="68" width="22" height="18" rx="2" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="0.8"/>
+          <rect x="98" y="68" width="16" height="18" rx="2" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="0.8"/>
+          <rect x="52" y="94" width="24" height="30" rx="2" fill="#334155"/>
+          <text x="64" y="22" text-anchor="middle" fill="#f8fafc" font-size="5.5" font-weight="700">КВАРТИРА</text>
+        </g>
+
+        <!-- Left: DKP document stack -->
+        <g filter="url(#hos612-sh)" transform="translate(22,188)">
+          <rect x="8" y="6" width="108" height="88" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+          <rect x="0" y="0" width="108" height="88" rx="6" fill="url(#hos612-paper)" stroke="#0369a1" stroke-width="1.3"/>
+          <rect x="0" y="0" width="108" height="16" rx="6" fill="url(#hos612-sky)"/>
+          <rect y="10" width="108" height="6" fill="url(#hos612-sky)"/>
+          <text x="54" y="11" text-anchor="middle" fill="#e0f2fe" font-size="5.5" font-weight="800">ДКП КВАРТИРЫ</text>
+          <text x="54" y="28" text-anchor="middle" fill="#334155" font-size="5">цена в договоре</text>
+          <text x="54" y="40" text-anchor="middle" fill="#0369a1" font-size="6.5" font-weight="800">5 000 000 ₽</text>
+          <text x="54" y="52" text-anchor="middle" fill="#64748b" font-size="5">кадастр · экспертиза</text>
+          <text x="54" y="64" text-anchor="middle" fill="#64748b" font-size="5">банковская ячейка</text>
+          <rect x="10" y="70" width="88" height="11" rx="3" fill="#f0f9ff"/>
+          <text x="54" y="78" text-anchor="middle" fill="#0369a1" font-size="4.8" font-weight="600">заверения продавца</text>
+        </g>
+
+        <!-- Right: gift deed -->
+        <g filter="url(#hos612-sh)" transform="translate(390,188)">
+          <rect x="6" y="4" width="108" height="88" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+          <rect x="0" y="0" width="108" height="88" rx="6" fill="url(#hos612-paper)" stroke="#1e3a8a" stroke-width="1.3"/>
+          <rect x="0" y="0" width="108" height="16" rx="6" fill="url(#hos612-navy)"/>
+          <rect y="10" width="108" height="6" fill="url(#hos612-navy)"/>
+          <text x="54" y="11" text-anchor="middle" fill="#bfdbfe" font-size="5.5" font-weight="800">ДАРСТВЕННАЯ</text>
+          <text x="54" y="28" text-anchor="middle" fill="#334155" font-size="5">п. 2 ст. 61.2</text>
+          <text x="54" y="40" text-anchor="middle" fill="#1e3a8a" font-size="5.5" font-weight="700">цель вреда кредиторам</text>
+          <text x="54" y="52" text-anchor="middle" fill="#64748b" font-size="5">look-back 3 года</text>
+          <text x="54" y="64" text-anchor="middle" fill="#64748b" font-size="5">возврат в массу</text>
+          <rect x="10" y="70" width="88" height="11" rx="3" fill="#eff6ff"/>
+          <text x="54" y="78" text-anchor="middle" fill="#1e3a8a" font-size="4.8" font-weight="600">поз. 13 обзора</text>
+        </g>
+
+        <!-- st. 61.2 central tag -->
+        <g filter="url(#hos612-sh)" transform="translate(214,308)">
+          <rect width="92" height="36" rx="8" fill="url(#hos612-sky)"/>
+          <text x="46" y="14" text-anchor="middle" fill="#e0f2fe" font-size="5.5" font-weight="700">ЗАКОН О БАНКРОТСТВЕ</text>
+          <text x="46" y="27" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">ст. 61.2</text>
+        </g>
+
+        <!-- Bottom info boxes -->
+        <g filter="url(#hos612-sh)" transform="translate(18,358)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">20 ПОЗИЦИЙ</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">гражданское + банкротное</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">дарение · цена · мнимость</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">реституция ст. 167 ГК</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#eff6ff"/>
+          <text x="77" y="63" text-anchor="middle" fill="#1e3a8a" font-size="5" font-weight="600">обзор 01.07.2026</text>
+        </g>
+        <g filter="url(#hos612-sh)" transform="translate(183,358)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#dc2626" font-size="6" font-weight="800">&gt;20% НЕ ДОСТАТОЧНО</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">п. 1 ст. 61.2 · цена</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">контекст отношений сторон</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">совокупная оценка ВС</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#fef2f2"/>
+          <text x="77" y="63" text-anchor="middle" fill="#dc2626" font-size="5" font-weight="600">поз. 14 · Чигарчакова</text>
+        </g>
+        <g filter="url(#hos612-sh)" transform="translate(348,358)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#059669" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#059669" font-size="6" font-weight="800">ДОБРОСОВЕСТНЫЙ</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">покупатель · ст. 61.4</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">ЕГРН · заверения · ячейка</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">защита в арбитраже</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#ecfdf5"/>
+          <text x="77" y="63" text-anchor="middle" fill="#059669" font-size="5" font-weight="600">поз. 15 обзора</text>
+        </g>
+
+        <text x="260" y="432" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-weight="600">ARB · ст. 61.2 · жильё · ФУ · покупатель · обзор ВС 2026</text>
+      </svg>
+    </div>
+  </div>
+</section>
+```
+
+## Передача Наташе
+
+SLUG: vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026
+H1_для_hero: Обзор ВС 2026: оспаривание сделок с жильём в банкротстве — дарение, цена, мнимость
+ПОДЗАГОЛОВОК_HERO: 20 позиций после «эффекта Долиной»: когда ФУ оспорит продажу квартиры, а покупатель защитит сделку
+ТИП_СТАТЬИ: ARB — арбитраж при банкротстве
+СЛЕДУЮЩИЙ_ШАГ: Наташа (сборка + публикация)
+ВНИМАНИЕ: hero — static SVG + inline CSS, без `<canvas>`, `<script>`.
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+ЯКОРЬ: l24-boris-vs-osparivanie-sdelok-zhiloe
+
+## Паспорт блока
+
+| Параметр | Значение |
+|----------|----------|
+| **Статья** | Обзор ВС РФ 01.07.2026: оспаривание сделок с жильём в банкротстве — дарение, цена, мнимость |
+| **SLUG** | `vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026` |
+| **Якорь** | `l24-boris-vs-osparivanie-sdelok-zhiloe` |
+| **Тема** | Горизонтальная «карта двух контуров»: гражданское оспаривание (ст. 178–179, обман, Долина) ↔ банкротное (ст. 61.2, ФУ, Чигарчакова) |
+| **Размещение** | После H2 «Обзор ВС 2026: 20 позиций по оспариванию сделок с жильём» — перед H2 «Ст. 61.2 Закона о банкротстве» |
+| **Режим** | Контраст к hero Алины: горизонтальная карта в теле статьи, не полноэкранная сцена; MCP-only — inline CSS + static SVG, без `<canvas>` и `<script>` |
+| **Палитра** | Тёмный navy `#0a1628`–`#152a45`; гражданский контур: indigo `#6366f1` / `#a5b4fc`; банкротный: amber `#f59e0b` / `#fbbf24`; ВС: gold `#ecc94b`; жильё: teal `#2dd4bf` |
+
+## Чеклист отличий от hero Алины
+
+- [x] Не полноэкранный первый экран — блок в теле лонгрида
+- [x] Другой `id`: `l24-boris-vs-osparivanie-sdelok-zhiloe` (не hero-id Алины)
+- [x] Горизонтальная сплит-карта «Гражданский контур ↔ Банкротный контур» — не дублирует сцену hero
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG + grid
+- [x] CTA в блоке **не вставлять**
+
+```html
+<section id="l24-boris-vs-osparivanie-sdelok-zhiloe" class="l24-boris-vs-osparivanie-sdelok-zhiloe" aria-label="Два контура оспаривания сделок с жильём: гражданское право и банкротство по обзору ВС 01.07.2026">
+<style>
+.l24-boris-vs-osparivanie-sdelok-zhiloe {
+  --bo-navy: #0a1628;
+  --bo-navy-soft: #152a45;
+  --bo-civil: #6366f1;
+  --bo-civil-soft: #a5b4fc;
+  --bo-civil-bg: rgba(99, 102, 241, 0.14);
+  --bo-arb: #f59e0b;
+  --bo-arb-soft: #fbbf24;
+  --bo-arb-bg: rgba(245, 158, 11, 0.12);
+  --bo-gold: #ecc94b;
+  --bo-teal: #2dd4bf;
+  --bo-muted: #94a3b8;
+  --bo-txt: #e2e8f0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__shell {
+  background: linear-gradient(155deg, var(--bo-navy) 0%, #0f2038 46%, var(--bo-navy-soft) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 24px;
+  color: var(--bo-txt);
+  box-shadow: 0 18px 48px rgba(10, 22, 40, 0.34);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bo-gold);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bo-muted);
+  max-width: 74ch;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__lead strong { color: #fff; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__map {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 52px minmax(0, 1fr);
+  gap: 0;
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour {
+  border-radius: 12px;
+  padding: 18px 16px 16px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil {
+  background: var(--bo-civil-bg);
+  border: 1px solid rgba(99, 102, 241, 0.38);
+  border-radius: 12px 0 0 12px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb {
+  background: var(--bo-arb-bg);
+  border: 1px solid rgba(245, 158, 11, 0.38);
+  border-radius: 0 12px 12px 0;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-hd {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil .l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title { color: #c7d2fe; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb .l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title { color: #fde68a; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-case {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--bo-gold);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item {
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item strong {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 3px;
+  letter-spacing: 0.03em;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil .l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item strong { color: var(--bo-civil-soft); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb .l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item strong { color: var(--bo-arb-soft); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__bridge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-line {
+  width: 2px;
+  flex: 1;
+  min-height: 40px;
+  background: linear-gradient(180deg, rgba(99,102,241,0.5), rgba(236,201,75,0.7), rgba(245,158,11,0.5));
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-badge {
+  margin: 6px 0;
+  padding: 8px 6px;
+  border-radius: 8px;
+  background: rgba(236, 201, 75, 0.16);
+  border: 1px solid rgba(236, 201, 75, 0.45);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--bo-gold);
+  line-height: 1.3;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__scheme-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 12px 10px;
+  text-align: center;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label {
+  display: block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  color: var(--bo-muted);
+  margin-bottom: 6px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil,
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb {
+  display: block;
+  font-size: 0.76rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil { color: var(--bo-civil-soft); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb { color: var(--bo-arb-soft); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__verdict {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: rgba(45, 212, 191, 0.1);
+  border: 1px solid rgba(45, 212, 191, 0.32);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--bo-muted);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__verdict strong { color: var(--bo-teal); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--bo-txt);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag--civil { border-color: rgba(99, 102, 241, 0.45); color: #c7d2fe; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag--arb { border-color: rgba(245, 158, 11, 0.45); color: #fde68a; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag--case { border-color: rgba(236, 201, 75, 0.5); color: var(--bo-gold); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag--law { border-color: rgba(45, 212, 191, 0.4); color: #99f6e4; }
+@media (max-width: 800px) {
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__map {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil { border-radius: 12px 12px 0 0; }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb { border-radius: 0 0 12px 12px; }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__bridge {
+    flex-direction: row;
+    padding: 10px 0;
+  }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-line {
+    width: auto;
+    height: 2px;
+    flex: 1;
+    min-height: 0;
+    background: linear-gradient(90deg, rgba(99,102,241,0.5), rgba(236,201,75,0.7), rgba(245,158,11,0.5));
+  }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-badge {
+    writing-mode: horizontal-tb;
+    transform: none;
+    padding: 6px 12px;
+  }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__grid { grid-template-columns: 1fr 1fr; }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__shell { padding: 24px 18px 20px; }
+}
+@media (max-width: 480px) {
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="l24-boris-vs-osparivanie-sdelok-zhiloe__shell">
+  <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__eyebrow">ARB · обзор ВС 01.07.2026 · 20 позиций · жильё · ст. 61.2</p>
+  <h3 class="l24-boris-vs-osparivanie-sdelok-zhiloe__title">Два контура оспаривания: гражданское право ↔ банкротство</h3>
+  <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__lead">Обзор ВС объединяет <strong>гражданское оспаривание</strong> (мошенники, заблуждение, обман — «эффект Долиной») и <strong>банкротный контур</strong> (подозрительные сделки по ст. 61.2 — дело Чигарчаковой). Покупатель квартиры рискует попасть в оба процесса, если не различить основания, сроки и бремя доказывания.</p>
+
+  <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__map" role="group" aria-label="Карта двух контуров оспаривания сделок с жильём">
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil">
+      <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-hd">
+        <svg class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-icon" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="2" width="32" height="32" rx="8" fill="rgba(99,102,241,0.2)" stroke="#6366f1" stroke-width="1.5"/>
+          <path d="M10 26V14l8-6 8 6v12" fill="none" stroke="#a5b4fc" stroke-width="1.8" stroke-linejoin="round"/>
+          <rect x="14" y="18" width="8" height="8" rx="1" fill="rgba(165,180,252,0.35)" stroke="#c7d2fe" stroke-width="1"/>
+          <circle cx="18" cy="10" r="2" fill="#ecc94b"/>
+        </svg>
+        <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title">Гражданское оспаривание</p>
+      </div>
+      <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-case">Дело Долина–Лурье · № 5-КГ25-174-К2</p>
+      <ul class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-list">
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>ст. 178 п. 3 ГК</strong>Заблуждение продавца о мотивах сделки — недостаточно для недействительности</li>
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>ст. 179 ГК · обман</strong>Квартира возвращается только если покупатель знал или должен был знать об обмане мошенников</li>
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>Суд общей юрисдикции</strong>Иск потерпевшего-продавца · срок 1 год (ст. 181 ГК) · двусторонняя реституция (ст. 167)</li>
+      </ul>
+    </div>
+
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__bridge" aria-hidden="true">
+      <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-line"></div>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-badge">ВС 01.07.2026</span>
+      <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-line"></div>
+    </div>
+
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb">
+      <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-hd">
+        <svg class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-icon" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="2" width="32" height="32" rx="8" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="1.5"/>
+          <path d="M8 28h20" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/>
+          <rect x="10" y="10" width="16" height="14" rx="2" fill="rgba(251,191,36,0.2)" stroke="#fde68a" stroke-width="1.2"/>
+          <path d="M14 16h8M14 20h5" stroke="#fde68a" stroke-width="1.2" stroke-linecap="round"/>
+          <circle cx="26" cy="8" r="4" fill="#ecc94b" stroke="#f59e0b" stroke-width="1"/>
+          <text x="26" y="10" text-anchor="middle" fill="#0a1628" font-size="5" font-weight="800" font-family="system-ui,sans-serif">ФУ</text>
+        </svg>
+        <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title">Банкротное оспаривание</p>
+      </div>
+      <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-case">Дело Чигарчакова · № 307-ЭС25-13338</p>
+      <ul class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-list">
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>п. 1 ст. 61.2 127-ФЗ</strong>Неравноценность: отклонение &gt;20% от рынка — недостаточно; нужна совокупность обстоятельств</li>
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>п. 2 ст. 61.2 · дарение</strong>Подозрительная сделка при доказанной цели вреда кредиторам · look-back 3 года</li>
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>Арбитражный суд</strong>Заявление ФУ/АУ/кредитора · добросовестность покупателя (ст. 61.4) · реституция в массу</li>
+      </ul>
+    </div>
+  </div>
+
+  <svg class="l24-boris-vs-osparivanie-sdelok-zhiloe__scheme-svg" viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="boZhT boZhD">
+    <title id="boZhT">Схема двух контуров оспаривания сделок с жильём: гражданское и банкротное</title>
+    <desc id="boZhD">Слева — гражданский контур (ст. 178–179, Долина); справа — банкротный (ст. 61.2, ФУ, Чигарчакова); в центре — обзор ВС 01.07.2026</desc>
+    <defs>
+      <marker id="boZh-arr-c" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+        <polygon points="0 0, 8 3.5, 0 7" fill="#6366f1"/>
+      </marker>
+      <marker id="boZh-arr-a" markerWidth="8" markerHeight="7" refX="1" refY="3.5" orient="auto">
+        <polygon points="8 0, 0 3.5, 8 7" fill="#f59e0b"/>
+      </marker>
+    </defs>
+
+    <!-- Центральная ось -->
+    <line x1="360" y1="16" x2="360" y2="184" stroke="rgba(236,201,75,0.4)" stroke-width="2" stroke-dasharray="5,4"/>
+    <rect x="296" y="78" width="128" height="44" rx="8" fill="rgba(236,201,75,0.14)" stroke="#ecc94b" stroke-width="1.5"/>
+    <text x="360" y="98" text-anchor="middle" fill="#ecc94b" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">ОБЗОР ВС</text>
+    <text x="360" y="112" text-anchor="middle" fill="#fde68a" font-size="6.5" font-family="system-ui,sans-serif">01.07.2026 · 20 позиций</text>
+
+    <!-- Левый контур: гражданский -->
+    <rect x="14" y="24" width="158" height="152" rx="10" fill="rgba(99,102,241,0.12)" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="93" y="44" text-anchor="middle" fill="#c7d2fe" font-size="8" font-weight="800" font-family="system-ui,sans-serif">ГРАЖДАНСКИЙ</text>
+    <text x="93" y="58" text-anchor="middle" fill="#a5b4fc" font-size="7" font-family="system-ui,sans-serif">ст. 178–179 ГК</text>
+    <!-- дом-иконка -->
+    <path d="M78 72 L93 62 L108 72 V88 H78 Z" fill="none" stroke="#a5b4fc" stroke-width="1.3" stroke-linejoin="round"/>
+    <rect x="86" y="78" width="14" height="10" rx="1" fill="rgba(165,180,252,0.3)"/>
+    <text x="93" y="102" text-anchor="middle" fill="#ecc94b" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">Долина–Лурье</text>
+    <text x="93" y="116" text-anchor="middle" fill="#94a3b8" font-size="5.8" font-family="system-ui,sans-serif">5-КГ25-174-К2</text>
+    <rect x="28" y="124" width="130" height="20" rx="5" fill="rgba(99,102,241,0.2)" stroke="#6366f1" stroke-width="1"/>
+    <text x="93" y="137" text-anchor="middle" fill="#c7d2fe" font-size="6.2" font-weight="600" font-family="system-ui,sans-serif">обман · заблуждение · реституция</text>
+    <text x="93" y="162" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">суд общей юрисдикции · 1 год</text>
+    <line x1="172" y1="100" x2="296" y2="100" stroke="#6366f1" stroke-width="1.4" marker-end="url(#boZh-arr-c)"/>
+
+    <!-- Правый контур: банкротный -->
+    <rect x="548" y="24" width="158" height="152" rx="10" fill="rgba(245,158,11,0.1)" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="627" y="44" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="800" font-family="system-ui,sans-serif">БАНКРОТНЫЙ</text>
+    <text x="627" y="58" text-anchor="middle" fill="#fbbf24" font-size="7" font-family="system-ui,sans-serif">ст. 61.2 127-ФЗ</text>
+    <!-- весы арбитража -->
+    <line x1="607" y1="68" x2="647" y2="68" stroke="#fbbf24" stroke-width="1.5"/>
+    <line x1="627" y1="68" x2="627" y2="78" stroke="#fbbf24" stroke-width="1.5"/>
+    <line x1="612" y1="78" x2="612" y2="86" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="642" y1="78" x2="642" y2="86" stroke="#94a3b8" stroke-width="1"/>
+    <ellipse cx="612" cy="88" rx="10" ry="3" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="1"/>
+    <ellipse cx="642" cy="88" rx="10" ry="3" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="1"/>
+    <text x="627" y="102" text-anchor="middle" fill="#ecc94b" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">Чигарчакова</text>
+    <text x="627" y="116" text-anchor="middle" fill="#94a3b8" font-size="5.8" font-family="system-ui,sans-serif">307-ЭС25-13338</text>
+    <rect x="562" y="124" width="130" height="20" rx="5" fill="rgba(245,158,11,0.18)" stroke="#f59e0b" stroke-width="1"/>
+    <text x="627" y="137" text-anchor="middle" fill="#fde68a" font-size="6.2" font-weight="600" font-family="system-ui,sans-serif">ФУ · цена · добросовестность</text>
+    <text x="627" y="162" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">арбитраж · look-back 1–3 года</text>
+    <line x1="548" y1="100" x2="424" y2="100" stroke="#f59e0b" stroke-width="1.4" marker-end="url(#boZh-arr-a)"/>
+
+  </svg>
+
+  <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__grid" role="table" aria-label="Сравнение двух контуров">
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell" role="cell">
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label">Кто оспаривает</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil">Потерпевший-продавец</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb">ФУ / АУ / кредитор</span>
+    </div>
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell" role="cell">
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label">Суд</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil">Общая юрисдикция</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb">Арбитраж</span>
+    </div>
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell" role="cell">
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label">Срок</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil">1 год (ст. 181 ГК)</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb">1–3 года look-back + 1 год ФУ</span>
+    </div>
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell" role="cell">
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label">Защита покупателя</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil">Не знал об обмане (ст. 179)</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb">Добросовестность (ст. 61.4)</span>
+    </div>
+  </div>
+
+  <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__verdict"><strong>Практический вывод:</strong> после «эффекта Долиной» покупатель в гражданском споре защищается отсутствием знания об обмане; в банкротстве — осмотрительностью и заверениями (ячейка, ЕГРН, отсутствие намерения банкротиться). Один и тот же ДКП может стать предметом обоих контуров — но основания, сроки и бремя доказывания различаются.</p>
+
+  <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__foot" aria-label="Нормативная база блока">
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--case">ВС 01.07.2026 · обзор по жилью</span>
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--civil">ст. 178–179 ГК · Долина</span>
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--arb">ст. 61.2 · Чигарчакова</span>
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--law">ст. 61.4 · добросовестный покупатель</span>
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--law">ст. 167 ГК · двусторонняя реституция</span>
+  </div>
+</div>
+</section>
+```
+
+## Передача Наташе
+
+- **Якорь:** `l24-boris-vs-osparivanie-sdelok-zhiloe`
+- **После H2:** «Обзор ВС 2026: 20 позиций по оспариванию сделок с жильём»
+- **Перед:** H2 «Ст. 61.2 Закона о банкротстве: подозрительные сделки с недвижимостью»
+- **MCP-only:** без `<canvas>` и `<script>` — только inline CSS + static SVG + grid
+- **script:** нет
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+SLUG: vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026
+Размер HTML: 78274 символов
+main#primary: да
+script: нет
+canvas: нет
+JSON-LD Article: да (скрытый `<pre class="l24-jsonld-vs-zhiloe" hidden>` + microdata на `<main>`)
+ВНИМАНИЕ: MCP-only Legis24 — без `<script>` и `<canvas>`; hero Алины и блок Бориса — static SVG + inline CSS. При публикации обернуть в <!-- wp:html -->
+
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page .ym-section h2 {
+  margin-top: 0; color: #1e3a8a; font-size: 1.45rem; font-weight: 800;
+}
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page .ym-section + .ym-section h2,
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page .l24-boris-vs-osparivanie-sdelok-zhiloe + .ym-section h2 {
+  margin-top: 2.5em;
+}
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page .ym-section:first-child h2 { margin-top: 0; }
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page h3 { margin-top: 1.5em; color: #0369a1; font-size: 1.15rem; font-weight: 700; }
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page a { color: #1e3a8a; }
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page p { margin: 0 0 1.1em; }
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page ol, .vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page ul { margin: 1em 0; padding-left: 1.4em; }
+.vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page li { margin-bottom: 0.45em; }
+.l24-tbl-wrap { overflow-x: auto; margin: 1.25em 0; }
+.l24-tbl { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.l24-tbl th { background: #eff6ff; color: #1e3a8a; font-weight: 700; padding: 10px 12px; border: 1px solid #bfdbfe; text-align: left; }
+.l24-tbl td { padding: 9px 12px; border: 1px solid #e2e8f0; vertical-align: top; }
+.l24-tbl tr:nth-child(even) td { background: #f8fafc; }
+.l24-intro-arb { max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px; font-family: system-ui, sans-serif; }
+.l24-intro-arb__grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr); gap: 28px; align-items: start; }
+.l24-intro-arb__text { border-left: 4px solid #1e3a8a; padding: 4px 0 4px 22px; text-align: left; }
+.l24-intro-arb__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-arb__brief { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55; color: #334155; }
+.l24-intro-arb__decor { background: linear-gradient(160deg, #eff6ff 0%, #fff 100%); border: 1px solid #bfdbfe; border-radius: 12px; padding: 18px; }
+.l24-intro-arb__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+.l24-intro-arb__chip { font-size: 0.72rem; font-weight: 700; padding: 6px 10px; border-radius: 999px; background: #fff; border: 1px solid #cbd5e1; color: #475569; }
+.l24-intro-arb__chip--accent { border-color: #1e3a8a; color: #1e3a8a; background: #eff6ff; }
+.l24-intro-arb__chip--navy { border-color: #0f2744; color: #0f2744; background: #f1f5f9; }
+.l24-intro-arb__chip--blue { border-color: #0369a1; color: #0369a1; background: #f0f9ff; }
+.l24-intro-arb__chip--ok { border-color: #059669; color: #047857; background: #ecfdf5; }
+.l24-intro-arb__chip--warn { border-color: #dc2626; color: #991b1b; background: #fef2f2; }
+.l24-intro-arb__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc { max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px; text-align: center; font-family: system-ui, sans-serif; }
+.ym-toc__title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #64748b; margin: 0 0 12px; }
+.ym-toc__list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px; }
+.ym-toc__list a { display: inline-block; padding: 8px 12px; border-radius: 8px; background: #eff6ff; color: #1e3a8a; text-decoration: none; font-size: 0.88rem; font-weight: 600; border: 1px solid #bfdbfe; }
+.ym-toc__list a:hover { background: #dbeafe; }
+.ym-section { display: block; }
+.ym-cta { margin: 28px 0; padding: 22px 24px; border-radius: 10px; background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%); border: 1px solid #bfdbfe; border-left: 4px solid #1e3a8a; }
+.ym-cta--legis24.ym-cta--bottom { border-left-color: #0369a1; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-color: #7dd3fc; }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; font-size: 0.98rem; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn { display: inline-block; background: #a31830; color: #fff !important; padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.93rem; }
+.ym-cta__btn:hover { background: #8b1528; }
+.ym-cta--legis24.ym-cta--bottom .ym-cta__btn { background: #1e3a8a; }
+.ym-cta--legis24.ym-cta--bottom .ym-cta__btn:hover { background: #0f2744; }
+.l24-faq { margin-top: 2.5em; padding: 28px 24px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; }
+.l24-faq > h2 { margin-top: 0 !important; }
+.l24-faq__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq__q { margin: 0 0 8px; font-size: 1.05rem; color: #1e3a8a; font-weight: 700; }
+.l24-faq__a { margin: 0; color: #334155; font-size: 0.97rem; line-height: 1.6; }
+.l24-jsonld-vs-zhiloe { display: none !important; }
+@media (max-width: 900px) { .l24-intro-arb__grid { grid-template-columns: 1fr; } }
+
+</style>
+<main id="primary" class="site-main vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="Обзор ВС 2026: оспаривание сделок с жильём в банкротстве — дарение, цена, мнимость">
+<meta itemprop="description" content="Обзор практики ВС РФ от 01.07.2026: оспаривание сделок с жильём при банкротстве по ст. 61.2 — дарение, заниженная цена, мнимость. Риски покупателя и защита сделки в арбитраже.">
+<meta itemprop="inLanguage" content="ru-RU">
+
+<section id="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026" class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026" aria-label="Обзор ВС 2026: оспаривание сделок с жильём в банкротстве — дарение, цена, мнимость">
+  <style>
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(152deg, #fefefe 0%, #f3f6fa 36%, #eef2f8 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 42% 38% at 88% 8%, rgba(3, 105, 161, 0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 36% 34% at 8% 92%, rgba(30, 58, 138, 0.06) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(30, 58, 138, 0.14);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #0369a1;
+      flex-shrink: 0;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.32rem, 2.85vw, 2.08rem);
+      line-height: 1.22;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__h1-accent {
+      color: #1e3a8a;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__sub {
+      margin: 0 0 26px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 26px;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--blue {
+      border-color: #bae6fd;
+      color: #0369a1;
+      background: #f0f9ff;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--navy {
+      border-color: #93c5fd;
+      color: #1e3a8a;
+      background: #eff6ff;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--warn {
+      border-color: #fecaca;
+      color: #991b1b;
+      background: #fef2f2;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--ok {
+      border-color: #a7f3d0;
+      color: #047857;
+      background: #ecfdf5;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+      line-height: 1.35;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__cta:hover {
+      background: #8b1528;
+    }
+    .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__visual {
+        order: -1;
+        max-height: 320px;
+        overflow: hidden;
+      }
+    }
+  </style>
+
+  <div class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__inner">
+    <div class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__content">
+      <div class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__badge">
+        <span class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__badge-mark" aria-hidden="true"></span>
+        ARB · обзор ВС 01.07.2026 · ст. 61.2
+      </div>
+      <h1 class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__h1">
+        <span class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__h1-accent">Обзор ВС 2026: оспаривание сделок с жильём в банкротстве</span> — дарение, цена, мнимость
+      </h1>
+      <p class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__sub">
+        20 позиций после «эффекта Долиной»: когда ФУ оспорит продажу квартиры, а покупатель защитит сделку
+      </p>
+      <ul class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__facts">
+        <li class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--navy">20 позиций</li>
+        <li class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--blue">дарение</li>
+        <li class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--warn">&gt;20% цена</li>
+        <li class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__fact--ok">добросовестный покупатель</li>
+      </ul>
+      <a class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по оспариванию и защите сделки с жильём</a>
+    </div>
+
+    <div class="l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Квартира и документы сделки на весах арбитража: ФУ оспорит продажу или покупатель защитит сделку — обзор ВС 01.07.2026, ст. 61.2, 20 позиций">
+        <defs>
+          <linearGradient id="hos612-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e8eef5"/>
+          </linearGradient>
+          <linearGradient id="hos612-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hos612-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#0369a1"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
+          </linearGradient>
+          <linearGradient id="hos612-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#fff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hos612-brick" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#cbd5e1"/>
+            <stop offset="100%" stop-color="#94a3b8"/>
+          </linearGradient>
+          <pattern id="hos612-grid" width="18" height="18" patternUnits="userSpaceOnUse">
+            <rect width="18" height="18" fill="#f1f5f9"/>
+            <path d="M18 0 L0 0 0 18" fill="none" stroke="#e2e8f0" stroke-width="0.5"/>
+          </pattern>
+          <filter id="hos612-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+        </defs>
+
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hos612-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hos612-grid)" opacity="0.45"/>
+
+        <!-- VS review badge -->
+        <g filter="url(#hos612-sh)" transform="translate(138,14)">
+          <rect x="0" y="26" width="244" height="50" rx="6" fill="url(#hos612-navy)"/>
+          <polygon points="122,4 238,26 6,26" fill="#1e3a8a"/>
+          <text x="122" y="46" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="800" letter-spacing="0.04em">ВС РФ · обзор 01.07.2026</text>
+          <text x="122" y="60" text-anchor="middle" fill="#7dd3fc" font-size="5.5">20 позиций · жильё · «эффект Долиной»</text>
+        </g>
+
+        <!-- Scales pillar -->
+        <rect x="254" y="78" width="6" height="78" rx="3" fill="#475569"/>
+        <circle cx="257" cy="76" r="7" fill="#334155"/>
+        <line x1="138" y1="94" x2="376" y2="88" stroke="#475569" stroke-width="4.5" stroke-linecap="round"/>
+        <circle cx="257" cy="91" r="5" fill="#64748b"/>
+
+        <!-- Left pan: FU OSPORIT (higher, lighter) -->
+        <line x1="168" y1="95" x2="158" y2="124" stroke="#94a3b8" stroke-width="1.5"/>
+        <line x1="184" y1="95" x2="194" y2="124" stroke="#94a3b8" stroke-width="1.5"/>
+        <g filter="url(#hos612-sh)" transform="translate(118,122)">
+          <ellipse cx="58" cy="6" rx="60" ry="6" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+          <rect x="0" y="4" width="118" height="62" rx="7" fill="#fef2f2" stroke="#dc2626" stroke-width="1.5"/>
+          <text x="59" y="18" text-anchor="middle" fill="#991b1b" font-size="6" font-weight="800">ФУ ОСПОРИТ</text>
+          <text x="59" y="30" text-anchor="middle" fill="#b91c1c" font-size="5">п. 1–2 ст. 61.2</text>
+          <text x="59" y="41" text-anchor="middle" fill="#b91c1c" font-size="5">дарение · &gt;20% цена</text>
+          <text x="59" y="52" text-anchor="middle" fill="#b91c1c" font-size="5">мнимость сделки</text>
+          <rect x="8" y="56" width="102" height="11" rx="3" fill="#fee2e2"/>
+          <text x="59" y="64" text-anchor="middle" fill="#dc2626" font-size="5" font-weight="600">подозрительная сделка</text>
+        </g>
+
+        <!-- Right pan: POKUPATEL ZASHCHITIT (lower, heavier) -->
+        <line x1="338" y1="89" x2="332" y2="114" stroke="#94a3b8" stroke-width="1.5"/>
+        <line x1="354" y1="89" x2="360" y2="114" stroke="#94a3b8" stroke-width="1.5"/>
+        <g filter="url(#hos612-sh)" transform="translate(324,112)">
+          <ellipse cx="52" cy="7" rx="54" ry="7" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+          <rect x="0" y="5" width="106" height="72" rx="7" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+          <text x="53" y="20" text-anchor="middle" fill="#047857" font-size="6" font-weight="800">ПОКУПАТЕЛЬ ЗАЩИТИТ</text>
+          <text x="53" y="32" text-anchor="middle" fill="#065f46" font-size="5">ст. 61.4 · осмотрительность</text>
+          <text x="53" y="43" text-anchor="middle" fill="#065f46" font-size="5">заверения · ячейка</text>
+          <text x="53" y="54" text-anchor="middle" fill="#065f46" font-size="5">307-ЭС25-13338</text>
+          <rect x="8" y="58" width="90" height="13" rx="4" fill="#059669"/>
+          <text x="53" y="68" text-anchor="middle" fill="#fff" font-size="5.5" font-weight="700">ВС: отказ ФУ</text>
+        </g>
+
+        <!-- Apartment building (center-bottom) -->
+        <g filter="url(#hos612-sh)" transform="translate(196,196)">
+          <rect x="0" y="28" width="128" height="96" rx="4" fill="url(#hos612-brick)" stroke="#64748b" stroke-width="1.2"/>
+          <polygon points="64,8 122,30 6,30" fill="#475569"/>
+          <rect x="14" y="42" width="22" height="18" rx="2" fill="#bae6fd" stroke="#0369a1" stroke-width="0.8"/>
+          <rect x="42" y="42" width="22" height="18" rx="2" fill="#bae6fd" stroke="#0369a1" stroke-width="0.8"/>
+          <rect x="70" y="42" width="22" height="18" rx="2" fill="#bae6fd" stroke="#0369a1" stroke-width="0.8"/>
+          <rect x="98" y="42" width="16" height="18" rx="2" fill="#bae6fd" stroke="#0369a1" stroke-width="0.8"/>
+          <rect x="14" y="68" width="22" height="18" rx="2" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="0.8"/>
+          <rect x="42" y="68" width="22" height="18" rx="2" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="0.8"/>
+          <rect x="70" y="68" width="22" height="18" rx="2" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="0.8"/>
+          <rect x="98" y="68" width="16" height="18" rx="2" fill="#e0f2fe" stroke="#7dd3fc" stroke-width="0.8"/>
+          <rect x="52" y="94" width="24" height="30" rx="2" fill="#334155"/>
+          <text x="64" y="22" text-anchor="middle" fill="#f8fafc" font-size="5.5" font-weight="700">КВАРТИРА</text>
+        </g>
+
+        <!-- Left: DKP document stack -->
+        <g filter="url(#hos612-sh)" transform="translate(22,188)">
+          <rect x="8" y="6" width="108" height="88" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+          <rect x="0" y="0" width="108" height="88" rx="6" fill="url(#hos612-paper)" stroke="#0369a1" stroke-width="1.3"/>
+          <rect x="0" y="0" width="108" height="16" rx="6" fill="url(#hos612-sky)"/>
+          <rect y="10" width="108" height="6" fill="url(#hos612-sky)"/>
+          <text x="54" y="11" text-anchor="middle" fill="#e0f2fe" font-size="5.5" font-weight="800">ДКП КВАРТИРЫ</text>
+          <text x="54" y="28" text-anchor="middle" fill="#334155" font-size="5">цена в договоре</text>
+          <text x="54" y="40" text-anchor="middle" fill="#0369a1" font-size="6.5" font-weight="800">5 000 000 ₽</text>
+          <text x="54" y="52" text-anchor="middle" fill="#64748b" font-size="5">кадастр · экспертиза</text>
+          <text x="54" y="64" text-anchor="middle" fill="#64748b" font-size="5">банковская ячейка</text>
+          <rect x="10" y="70" width="88" height="11" rx="3" fill="#f0f9ff"/>
+          <text x="54" y="78" text-anchor="middle" fill="#0369a1" font-size="4.8" font-weight="600">заверения продавца</text>
+        </g>
+
+        <!-- Right: gift deed -->
+        <g filter="url(#hos612-sh)" transform="translate(390,188)">
+          <rect x="6" y="4" width="108" height="88" rx="6" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+          <rect x="0" y="0" width="108" height="88" rx="6" fill="url(#hos612-paper)" stroke="#1e3a8a" stroke-width="1.3"/>
+          <rect x="0" y="0" width="108" height="16" rx="6" fill="url(#hos612-navy)"/>
+          <rect y="10" width="108" height="6" fill="url(#hos612-navy)"/>
+          <text x="54" y="11" text-anchor="middle" fill="#bfdbfe" font-size="5.5" font-weight="800">ДАРСТВЕННАЯ</text>
+          <text x="54" y="28" text-anchor="middle" fill="#334155" font-size="5">п. 2 ст. 61.2</text>
+          <text x="54" y="40" text-anchor="middle" fill="#1e3a8a" font-size="5.5" font-weight="700">цель вреда кредиторам</text>
+          <text x="54" y="52" text-anchor="middle" fill="#64748b" font-size="5">look-back 3 года</text>
+          <text x="54" y="64" text-anchor="middle" fill="#64748b" font-size="5">возврат в массу</text>
+          <rect x="10" y="70" width="88" height="11" rx="3" fill="#eff6ff"/>
+          <text x="54" y="78" text-anchor="middle" fill="#1e3a8a" font-size="4.8" font-weight="600">поз. 13 обзора</text>
+        </g>
+
+        <!-- st. 61.2 central tag -->
+        <g filter="url(#hos612-sh)" transform="translate(214,308)">
+          <rect width="92" height="36" rx="8" fill="url(#hos612-sky)"/>
+          <text x="46" y="14" text-anchor="middle" fill="#e0f2fe" font-size="5.5" font-weight="700">ЗАКОН О БАНКРОТСТВЕ</text>
+          <text x="46" y="27" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">ст. 61.2</text>
+        </g>
+
+        <!-- Bottom info boxes -->
+        <g filter="url(#hos612-sh)" transform="translate(18,358)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">20 ПОЗИЦИЙ</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">гражданское + банкротное</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">дарение · цена · мнимость</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">реституция ст. 167 ГК</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#eff6ff"/>
+          <text x="77" y="63" text-anchor="middle" fill="#1e3a8a" font-size="5" font-weight="600">обзор 01.07.2026</text>
+        </g>
+        <g filter="url(#hos612-sh)" transform="translate(183,358)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#dc2626" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#dc2626" font-size="6" font-weight="800">&gt;20% НЕ ДОСТАТОЧНО</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">п. 1 ст. 61.2 · цена</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">контекст отношений сторон</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">совокупная оценка ВС</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#fef2f2"/>
+          <text x="77" y="63" text-anchor="middle" fill="#dc2626" font-size="5" font-weight="600">поз. 14 · Чигарчакова</text>
+        </g>
+        <g filter="url(#hos612-sh)" transform="translate(348,358)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#059669" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#059669" font-size="6" font-weight="800">ДОБРОСОВЕСТНЫЙ</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">покупатель · ст. 61.4</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">ЕГРН · заверения · ячейка</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">защита в арбитраже</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#ecfdf5"/>
+          <text x="77" y="63" text-anchor="middle" fill="#059669" font-size="5" font-weight="600">поз. 15 обзора</text>
+        </g>
+
+        <text x="260" y="432" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-weight="600">ARB · ст. 61.2 · жильё · ФУ · покупатель · обзор ВС 2026</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="l24-intro-arb ym-section" aria-label="Введение">
+  <div class="l24-intro-arb__grid">
+    <div class="l24-intro-arb__text">
+      <p>1 июля 2026 года Президиум Верховного Суда РФ под председательством Игоря Краснова утвердил тематический обзор судебной практики «По делам, связанным с оспариванием сделок, повлекших переход права собственности на жилые помещения». Документ содержит <strong>20 правовых позиций</strong> по делам 2022–2025 годов и напрямую затрагивает <strong>оспаривание сделок при банкротстве</strong> — в том числе по <strong>ст. 61.2</strong> Закона о банкротстве. Для покупателей квартир, должников и финансовых управляющих обзор задаёт новые ориентиры: когда продажа или дарение жилья будет признано подозрительным, а когда <strong>добросовестный покупатель</strong> отстоит сделку в арбитражном суде.</p>
+      <div class="l24-intro-arb__brief">Материал разбирает обзор ВС 01.07.2026 по оспариванию сделок с жильём: <strong>20 позиций</strong> после «эффекта Долиной», <strong>ст. 61.2</strong> Закона о банкротстве, дела Чигарчаковой и Рыбалко — когда ФУ оспорит продажу или дарение квартиры, а добросовестный покупатель отстоит сделку в арбитраже.</div>
+    </div>
+    <aside class="l24-intro-arb__decor" aria-label="Ключевые маркеры обзора ВС">
+      <ul class="l24-intro-arb__chips">
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--accent">обзор ВС 01.07.2026</li>
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--navy">ст. 61.2</li>
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--blue">20 позиций</li>
+        <li class="l24-intro-arb__chip">дарение</li>
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--warn">&gt;20% цена</li>
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--ok">добросовестный покупатель</li>
+        <li class="l24-intro-arb__chip">эффект Долиной</li>
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--navy">307-ЭС25-13338</li>
+      </ul>
+      <svg class="l24-intro-arb__route-svg" viewBox="0 0 360 88" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Маршрут: обзор ВС 01.07.2026 → ст. 61.2 → 20 позиций по жилью">
+        <rect x="4" y="20" width="88" height="48" rx="8" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.2"/>
+        <text x="48" y="42" text-anchor="middle" fill="#1e3a8a" font-size="6.5" font-weight="800">ОБЗОР ВС</text>
+        <text x="48" y="56" text-anchor="middle" fill="#0369a1" font-size="5.5">01.07.2026</text>
+        <line x1="94" y1="44" x2="118" y2="44" stroke="#0369a1" stroke-width="1.5" marker-end="url(#intrZh-arr)"/>
+        <rect x="122" y="20" width="88" height="48" rx="8" fill="#f0f9ff" stroke="#0369a1" stroke-width="1.2"/>
+        <text x="166" y="42" text-anchor="middle" fill="#0369a1" font-size="6.5" font-weight="800">ст. 61.2</text>
+        <text x="166" y="56" text-anchor="middle" fill="#64748b" font-size="5.5">подозр. сделки</text>
+        <line x1="212" y1="44" x2="236" y2="44" stroke="#1e3a8a" stroke-width="1.5" marker-end="url(#intrZh-arr)"/>
+        <rect x="240" y="14" width="112" height="60" rx="8" fill="#1e3a8a" stroke="#0369a1" stroke-width="1.2"/>
+        <text x="296" y="36" text-anchor="middle" fill="#e0f2fe" font-size="6.5" font-weight="800">20 ПОЗИЦИЙ</text>
+        <text x="296" y="50" text-anchor="middle" fill="#93c5fd" font-size="5.5">жильё · дарение</text>
+        <text x="296" y="62" text-anchor="middle" fill="#93c5fd" font-size="5.5">цена · мнимость</text>
+        <defs>
+          <marker id="intrZh-arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7Z" fill="#0369a1"/>
+          </marker>
+        </defs>
+        <text x="180" y="12" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">оспаривание сделок с жильём · банкротство · арбитраж</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+
+<nav class="ym-toc ym-section" aria-label="Содержание статьи">
+  <p class="ym-toc__title">Содержание</p>
+  <ul class="ym-toc__list">
+    <li><a href="#vs-zhiloe-obzor">Обзор ВС 01.07.2026</a></li>
+    <li><a href="#l24-boris-vs-osparivanie-sdelok-zhiloe">Два контура</a></li>
+    <li><a href="#vs-zhiloe-612">ст. 61.2</a></li>
+    <li><a href="#vs-zhiloe-darenie">Дарение</a></li>
+    <li><a href="#vs-zhiloe-cena">Цена >20%</a></li>
+    <li><a href="#vs-zhiloe-mnimaya">Мнимость</a></li>
+    <li><a href="#vs-zhiloe-riski">Риски покупателя</a></li>
+    <li><a href="#vs-zhiloe-dobrosovest">Добросовестность</a></li>
+    <li><a href="#vs-zhiloe-sroki">Сроки</a></li>
+    <li><a href="#vs-zhiloe-praktika">Практика 2026</a></li>
+    <li><a href="#vs-zhiloe-faq">FAQ</a></li>
+    <li><a href="#vs-zhiloe-konsult">Консультация</a></li>
+  </ul>
+</nav>
+
+
+<div class="l24-longread-wrap" itemprop="articleBody">
+
+<section class="ym-section" id="vs-zhiloe-obzor" aria-labelledby="vs-zhiloe-obzor-h">
+<h2 id="vs-zhiloe-obzor-h">Обзор ВС РФ от 01.07.2026: что изменилось в оспаривании сделок с жильём</h2>
+<p>Тематический обзор — не Пленум и не квартальный Обзор судебной практики № 2 за 2026 год (он утверждён тем же заседанием, но охватывает иные темы). Подготовили документ три коллегии ВС: по гражданским, административным и экономическим спорам. Повод — поручение председателя ВС после резонансного дела <strong>Долина — Лурье</strong> (определение 5-КГ25-174-К2, декабрь 2025) и волна споров о телефонных мошенниках на рынке жилья.</p>
+<p>Канонический источник — <a href="https://vsrf.ru/press_center/news/36101/" target="_blank" rel="noopener noreferrer">пресс-релиз ВС РФ</a>. Краснов на заседании отметил: «Наша цель – сделать судебную практику предсказуемой и понятной каждому… Краткость – сестра таланта.»</p>
+<h3>20 позиций обзора: какие блоки касаются жилья и ст. 61.2</h3>
+<p>Обзор объединяет гражданское оспаривание (ст. 177–179, 178, 170 ГК) и банкротный контур (ст. 61.2, 61.3, 61.4, 61.6 Закона о банкротстве). Для арбитража ключевы позиции 13–20:</p>
+<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>№</th><th>Тема</th><th>Норма</th><th>Суть для арбитража</th></tr></thead><tbody><tr><td>13</td><td>Дарение жилья</td><td>п. 2 ст. 61.2</td><td>Подозрительная сделка при доказанной <strong>цели вреда</strong> кредиторам</td></tr><tr><td>14</td><td>Заниженная цена</td><td>п. 1 ст. 61.2</td><td>Отклонение >20% от рынка <strong>недостаточно</strong> — нужен контекст</td></tr><tr><td>15</td><td>Добросовестный покупатель</td><td>п. 1 ст. 61.2, ст. 61.4</td><td>Осмотрительность → отказ в оспаривании (дело <strong>307-ЭС25-13338</strong>)</td></tr><tr><td>16</td><td>Оценка</td><td>п. 1 ст. 61.2</td><td>Разброс экспертиз — вывод о занижении неочевиден; кадастр — ориентир</td></tr><tr><td>17</td><td>Единственное жильё</td><td>п. 2 ст. 61.2, ст. 446 ГПК</td><td>Дарение доли — не оспаривается, если масса не пополнится</td></tr><tr><td>18</td><td>Аффилированность</td><td>п. 2 ст. 61.2</td><td>Родство ≠ основание; нужна цель вреда</td></tr><tr><td>19</td><td>Злоупотребление</td><td>ст. 10 ГК, ст. 61.2</td><td>Ложные заверения должника + попытка вернуть жильё покупателю</td></tr><tr><td>20</td><td>Последствия</td><td>ст. 61.6, 167 ГК</td><td>Реституция в конкурсную массу; регресс покупателя к должнику</td></tr></tbody></table></div>
+<p>Позиции 1–12 касаются гражданских споров (заблуждение, обман, мнимость, реституция), но задают общую логику: суды оценивают <strong>поведение обеих сторон</strong>, а не только продавца.</p>
+<h3>«Эффект Долиной» и резонанс: почему суды ужесточили подход к сделкам с квартирами</h3>
+<p>В деле <strong>Долина — Лурье</strong> ВС защитил покупательницу: заблуждение продавца <strong>о мотивах</strong> сделки не является достаточным основанием для недействительности по ст. 178 п. 3 ГК. Обзор 01.07.2026 закрепил этот подход и распространил его на смежные ситуации — обман третьих лиц (ст. 179), мнимость (ст. 170), двустороннюю реституцию (ст. 167).</p>
+<p>Эксперты (Право.ру) предупреждают: <strong>универсального алгоритма нет</strong> — после Долиной кассация по-разному решала дела 8Г-1490/2026, 8Г-24321/2025, 8Г-31933/2025.</p>
+<h3>Отличие от общего гайда по оспариванию (A11): здесь — свежая практика ВС, не учебник</h3>
+<p>Если вам нужна процедура — кто подаёт заявление, какие сроки look-back, что такое ст. 61.3 — начните с базового материала: <a href="https://advokat-vsem.online/arbitrazhnyj-upravlyayushchij-osparivanie-sdelok/" target="_blank" rel="noopener noreferrer">арбитражный управляющий: оспаривание сделок</a>. Текущая статья — <strong>разъяснение по оспариванию сделок с жильём 2026</strong>: актуализация после обзора ВС 01.07.2026, с делами Долиной, Чигарчаковой, Рыбалко и акцентом на арбитраж при банкротстве физических лиц.</p>
+</section>
+
+<section id="l24-boris-vs-osparivanie-sdelok-zhiloe" class="l24-boris-vs-osparivanie-sdelok-zhiloe" aria-label="Два контура оспаривания сделок с жильём: гражданское право и банкротство по обзору ВС 01.07.2026">
+<style>
+.l24-boris-vs-osparivanie-sdelok-zhiloe {
+  --bo-navy: #0a1628;
+  --bo-navy-soft: #152a45;
+  --bo-civil: #6366f1;
+  --bo-civil-soft: #a5b4fc;
+  --bo-civil-bg: rgba(99, 102, 241, 0.14);
+  --bo-arb: #f59e0b;
+  --bo-arb-soft: #fbbf24;
+  --bo-arb-bg: rgba(245, 158, 11, 0.12);
+  --bo-gold: #ecc94b;
+  --bo-teal: #2dd4bf;
+  --bo-muted: #94a3b8;
+  --bo-txt: #e2e8f0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__shell {
+  background: linear-gradient(155deg, var(--bo-navy) 0%, #0f2038 46%, var(--bo-navy-soft) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 24px;
+  color: var(--bo-txt);
+  box-shadow: 0 18px 48px rgba(10, 22, 40, 0.34);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bo-gold);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bo-muted);
+  max-width: 74ch;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__lead strong { color: #fff; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__map {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 52px minmax(0, 1fr);
+  gap: 0;
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour {
+  border-radius: 12px;
+  padding: 18px 16px 16px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil {
+  background: var(--bo-civil-bg);
+  border: 1px solid rgba(99, 102, 241, 0.38);
+  border-radius: 12px 0 0 12px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb {
+  background: var(--bo-arb-bg);
+  border: 1px solid rgba(245, 158, 11, 0.38);
+  border-radius: 0 12px 12px 0;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-hd {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil .l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title { color: #c7d2fe; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb .l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title { color: #fde68a; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-case {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--bo-gold);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item {
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item strong {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 3px;
+  letter-spacing: 0.03em;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil .l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item strong { color: var(--bo-civil-soft); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb .l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item strong { color: var(--bo-arb-soft); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__bridge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-line {
+  width: 2px;
+  flex: 1;
+  min-height: 40px;
+  background: linear-gradient(180deg, rgba(99,102,241,0.5), rgba(236,201,75,0.7), rgba(245,158,11,0.5));
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-badge {
+  margin: 6px 0;
+  padding: 8px 6px;
+  border-radius: 8px;
+  background: rgba(236, 201, 75, 0.16);
+  border: 1px solid rgba(236, 201, 75, 0.45);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--bo-gold);
+  line-height: 1.3;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__scheme-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 12px 10px;
+  text-align: center;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label {
+  display: block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  color: var(--bo-muted);
+  margin-bottom: 6px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil,
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb {
+  display: block;
+  font-size: 0.76rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil { color: var(--bo-civil-soft); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb { color: var(--bo-arb-soft); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__verdict {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: rgba(45, 212, 191, 0.1);
+  border: 1px solid rgba(45, 212, 191, 0.32);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--bo-muted);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__verdict strong { color: var(--bo-teal); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--bo-txt);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag--civil { border-color: rgba(99, 102, 241, 0.45); color: #c7d2fe; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag--arb { border-color: rgba(245, 158, 11, 0.45); color: #fde68a; }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag--case { border-color: rgba(236, 201, 75, 0.5); color: var(--bo-gold); }
+.l24-boris-vs-osparivanie-sdelok-zhiloe__tag--law { border-color: rgba(45, 212, 191, 0.4); color: #99f6e4; }
+@media (max-width: 800px) {
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__map {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil { border-radius: 12px 12px 0 0; }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb { border-radius: 0 0 12px 12px; }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__bridge {
+    flex-direction: row;
+    padding: 10px 0;
+  }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-line {
+    width: auto;
+    height: 2px;
+    flex: 1;
+    min-height: 0;
+    background: linear-gradient(90deg, rgba(99,102,241,0.5), rgba(236,201,75,0.7), rgba(245,158,11,0.5));
+  }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-badge {
+    writing-mode: horizontal-tb;
+    transform: none;
+    padding: 6px 12px;
+  }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__grid { grid-template-columns: 1fr 1fr; }
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__shell { padding: 24px 18px 20px; }
+}
+@media (max-width: 480px) {
+  .l24-boris-vs-osparivanie-sdelok-zhiloe__grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="l24-boris-vs-osparivanie-sdelok-zhiloe__shell">
+  <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__eyebrow">ARB · обзор ВС 01.07.2026 · 20 позиций · жильё · ст. 61.2</p>
+  <h3 class="l24-boris-vs-osparivanie-sdelok-zhiloe__title">Два контура оспаривания: гражданское право ↔ банкротство</h3>
+  <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__lead">Обзор ВС объединяет <strong>гражданское оспаривание</strong> (мошенники, заблуждение, обман — «эффект Долиной») и <strong>банкротный контур</strong> (подозрительные сделки по ст. 61.2 — дело Чигарчаковой). Покупатель квартиры рискует попасть в оба процесса, если не различить основания, сроки и бремя доказывания.</p>
+
+  <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__map" role="group" aria-label="Карта двух контуров оспаривания сделок с жильём">
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour l24-boris-vs-osparivanie-sdelok-zhiloe__contour--civil">
+      <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-hd">
+        <svg class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-icon" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="2" width="32" height="32" rx="8" fill="rgba(99,102,241,0.2)" stroke="#6366f1" stroke-width="1.5"/>
+          <path d="M10 26V14l8-6 8 6v12" fill="none" stroke="#a5b4fc" stroke-width="1.8" stroke-linejoin="round"/>
+          <rect x="14" y="18" width="8" height="8" rx="1" fill="rgba(165,180,252,0.35)" stroke="#c7d2fe" stroke-width="1"/>
+          <circle cx="18" cy="10" r="2" fill="#ecc94b"/>
+        </svg>
+        <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title">Гражданское оспаривание</p>
+      </div>
+      <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-case">Дело Долина–Лурье · № 5-КГ25-174-К2</p>
+      <ul class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-list">
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>ст. 178 п. 3 ГК</strong>Заблуждение продавца о мотивах сделки — недостаточно для недействительности</li>
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>ст. 179 ГК · обман</strong>Квартира возвращается только если покупатель знал или должен был знать об обмане мошенников</li>
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>Суд общей юрисдикции</strong>Иск потерпевшего-продавца · срок 1 год (ст. 181 ГК) · двусторонняя реституция (ст. 167)</li>
+      </ul>
+    </div>
+
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__bridge" aria-hidden="true">
+      <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-line"></div>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-badge">ВС 01.07.2026</span>
+      <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__bridge-line"></div>
+    </div>
+
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour l24-boris-vs-osparivanie-sdelok-zhiloe__contour--arb">
+      <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-hd">
+        <svg class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-icon" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="2" width="32" height="32" rx="8" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="1.5"/>
+          <path d="M8 28h20" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/>
+          <rect x="10" y="10" width="16" height="14" rx="2" fill="rgba(251,191,36,0.2)" stroke="#fde68a" stroke-width="1.2"/>
+          <path d="M14 16h8M14 20h5" stroke="#fde68a" stroke-width="1.2" stroke-linecap="round"/>
+          <circle cx="26" cy="8" r="4" fill="#ecc94b" stroke="#f59e0b" stroke-width="1"/>
+          <text x="26" y="10" text-anchor="middle" fill="#0a1628" font-size="5" font-weight="800" font-family="system-ui,sans-serif">ФУ</text>
+        </svg>
+        <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-title">Банкротное оспаривание</p>
+      </div>
+      <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-case">Дело Чигарчакова · № 307-ЭС25-13338</p>
+      <ul class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-list">
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>п. 1 ст. 61.2 127-ФЗ</strong>Неравноценность: отклонение &gt;20% от рынка — недостаточно; нужна совокупность обстоятельств</li>
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>п. 2 ст. 61.2 · дарение</strong>Подозрительная сделка при доказанной цели вреда кредиторам · look-back 3 года</li>
+        <li class="l24-boris-vs-osparivanie-sdelok-zhiloe__contour-item"><strong>Арбитражный суд</strong>Заявление ФУ/АУ/кредитора · добросовестность покупателя (ст. 61.4) · реституция в массу</li>
+      </ul>
+    </div>
+  </div>
+
+  <svg class="l24-boris-vs-osparivanie-sdelok-zhiloe__scheme-svg" viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="boZhT boZhD">
+    <title id="boZhT">Схема двух контуров оспаривания сделок с жильём: гражданское и банкротное</title>
+    <desc id="boZhD">Слева — гражданский контур (ст. 178–179, Долина); справа — банкротный (ст. 61.2, ФУ, Чигарчакова); в центре — обзор ВС 01.07.2026</desc>
+    <defs>
+      <marker id="boZh-arr-c" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+        <polygon points="0 0, 8 3.5, 0 7" fill="#6366f1"/>
+      </marker>
+      <marker id="boZh-arr-a" markerWidth="8" markerHeight="7" refX="1" refY="3.5" orient="auto">
+        <polygon points="8 0, 0 3.5, 8 7" fill="#f59e0b"/>
+      </marker>
+    </defs>
+
+    <!-- Центральная ось -->
+    <line x1="360" y1="16" x2="360" y2="184" stroke="rgba(236,201,75,0.4)" stroke-width="2" stroke-dasharray="5,4"/>
+    <rect x="296" y="78" width="128" height="44" rx="8" fill="rgba(236,201,75,0.14)" stroke="#ecc94b" stroke-width="1.5"/>
+    <text x="360" y="98" text-anchor="middle" fill="#ecc94b" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">ОБЗОР ВС</text>
+    <text x="360" y="112" text-anchor="middle" fill="#fde68a" font-size="6.5" font-family="system-ui,sans-serif">01.07.2026 · 20 позиций</text>
+
+    <!-- Левый контур: гражданский -->
+    <rect x="14" y="24" width="158" height="152" rx="10" fill="rgba(99,102,241,0.12)" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="93" y="44" text-anchor="middle" fill="#c7d2fe" font-size="8" font-weight="800" font-family="system-ui,sans-serif">ГРАЖДАНСКИЙ</text>
+    <text x="93" y="58" text-anchor="middle" fill="#a5b4fc" font-size="7" font-family="system-ui,sans-serif">ст. 178–179 ГК</text>
+    <!-- дом-иконка -->
+    <path d="M78 72 L93 62 L108 72 V88 H78 Z" fill="none" stroke="#a5b4fc" stroke-width="1.3" stroke-linejoin="round"/>
+    <rect x="86" y="78" width="14" height="10" rx="1" fill="rgba(165,180,252,0.3)"/>
+    <text x="93" y="102" text-anchor="middle" fill="#ecc94b" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">Долина–Лурье</text>
+    <text x="93" y="116" text-anchor="middle" fill="#94a3b8" font-size="5.8" font-family="system-ui,sans-serif">5-КГ25-174-К2</text>
+    <rect x="28" y="124" width="130" height="20" rx="5" fill="rgba(99,102,241,0.2)" stroke="#6366f1" stroke-width="1"/>
+    <text x="93" y="137" text-anchor="middle" fill="#c7d2fe" font-size="6.2" font-weight="600" font-family="system-ui,sans-serif">обман · заблуждение · реституция</text>
+    <text x="93" y="162" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">суд общей юрисдикции · 1 год</text>
+    <line x1="172" y1="100" x2="296" y2="100" stroke="#6366f1" stroke-width="1.4" marker-end="url(#boZh-arr-c)"/>
+
+    <!-- Правый контур: банкротный -->
+    <rect x="548" y="24" width="158" height="152" rx="10" fill="rgba(245,158,11,0.1)" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="627" y="44" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="800" font-family="system-ui,sans-serif">БАНКРОТНЫЙ</text>
+    <text x="627" y="58" text-anchor="middle" fill="#fbbf24" font-size="7" font-family="system-ui,sans-serif">ст. 61.2 127-ФЗ</text>
+    <!-- весы арбитража -->
+    <line x1="607" y1="68" x2="647" y2="68" stroke="#fbbf24" stroke-width="1.5"/>
+    <line x1="627" y1="68" x2="627" y2="78" stroke="#fbbf24" stroke-width="1.5"/>
+    <line x1="612" y1="78" x2="612" y2="86" stroke="#94a3b8" stroke-width="1"/>
+    <line x1="642" y1="78" x2="642" y2="86" stroke="#94a3b8" stroke-width="1"/>
+    <ellipse cx="612" cy="88" rx="10" ry="3" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="1"/>
+    <ellipse cx="642" cy="88" rx="10" ry="3" fill="rgba(245,158,11,0.2)" stroke="#f59e0b" stroke-width="1"/>
+    <text x="627" y="102" text-anchor="middle" fill="#ecc94b" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">Чигарчакова</text>
+    <text x="627" y="116" text-anchor="middle" fill="#94a3b8" font-size="5.8" font-family="system-ui,sans-serif">307-ЭС25-13338</text>
+    <rect x="562" y="124" width="130" height="20" rx="5" fill="rgba(245,158,11,0.18)" stroke="#f59e0b" stroke-width="1"/>
+    <text x="627" y="137" text-anchor="middle" fill="#fde68a" font-size="6.2" font-weight="600" font-family="system-ui,sans-serif">ФУ · цена · добросовестность</text>
+    <text x="627" y="162" text-anchor="middle" fill="#64748b" font-size="5.8" font-family="system-ui,sans-serif">арбитраж · look-back 1–3 года</text>
+    <line x1="548" y1="100" x2="424" y2="100" stroke="#f59e0b" stroke-width="1.4" marker-end="url(#boZh-arr-a)"/>
+
+  </svg>
+
+  <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__grid" role="table" aria-label="Сравнение двух контуров">
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell" role="cell">
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label">Кто оспаривает</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil">Потерпевший-продавец</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb">ФУ / АУ / кредитор</span>
+    </div>
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell" role="cell">
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label">Суд</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil">Общая юрисдикция</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb">Арбитраж</span>
+    </div>
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell" role="cell">
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label">Срок</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil">1 год (ст. 181 ГК)</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb">1–3 года look-back + 1 год ФУ</span>
+    </div>
+    <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell" role="cell">
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-label">Защита покупателя</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-civil">Не знал об обмане (ст. 179)</span>
+      <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__cell-arb">Добросовестность (ст. 61.4)</span>
+    </div>
+  </div>
+
+  <p class="l24-boris-vs-osparivanie-sdelok-zhiloe__verdict"><strong>Практический вывод:</strong> после «эффекта Долиной» покупатель в гражданском споре защищается отсутствием знания об обмане; в банкротстве — осмотрительностью и заверениями (ячейка, ЕГРН, отсутствие намерения банкротиться). Один и тот же ДКП может стать предметом обоих контуров — но основания, сроки и бремя доказывания различаются.</p>
+
+  <div class="l24-boris-vs-osparivanie-sdelok-zhiloe__foot" aria-label="Нормативная база блока">
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--case">ВС 01.07.2026 · обзор по жилью</span>
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--civil">ст. 178–179 ГК · Долина</span>
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--arb">ст. 61.2 · Чигарчакова</span>
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--law">ст. 61.4 · добросовестный покупатель</span>
+    <span class="l24-boris-vs-osparivanie-sdelok-zhiloe__tag l24-boris-vs-osparivanie-sdelok-zhiloe__tag--law">ст. 167 ГК · двусторонняя реституция</span>
+  </div>
+</div>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-612" aria-labelledby="vs-zhiloe-612-h">
+<h2 id="vs-zhiloe-612-h">Ст. 61.2 Закона о банкротстве: подозрительные сделки с недвижимостью</h2>
+<p><strong>Ст. 61.2 закона о банкротстве</strong> — главный инструмент оспаривания сделок должника в деле о банкротстве. Финансовый управляющий, конкурсный или внешний арбитражный управляющий, а также кредитор (ст. 61.1) вправе требовать признания сделки недействительной, если она подпадает под признаки <strong>подозрительных сделок при банкротстве</strong>.</p>
+<h3>П. 1 ст. 61.2: мнимость, притворность, совершение с целью причинить вред кредиторам</h3>
+<p>Пункт 1 охватывает сделки, направленные на <strong>причинение вреда</strong> имущественным правам кредиторов, совершённые в течение <strong>одного года</strong> до принятия заявления о банкротстве. Сюда же относится <strong>неравноценное встречное исполнение</strong> — когда должник передал имущество (квартиру), а получил явно меньше, чем рыночная стоимость.</p>
+<p>Важно: после обзора 01.07.2026 формальный расчёт «цена ниже рынка на 20%» <strong>не является самостоятельным основанием</strong>. Нужна совокупная оценка обстоятельств.</p>
+<h3>П. 2 ст. 61.2: неравноценность и дарение — когда сделка подозрительная</h3>
+<p>Пункт 2 действует в <strong>трёхлетний</strong> период подозрительности. Ключевые основания оспаривания сделок с жильём:</p>
+<ul>
+<li><strong>дарение</strong> квартиры, дома, доли;</li>
+<li>сделка с <strong>аффилированным</strong> лицом при цели причинения вреда кредиторам;</li>
+<li>иные сделки, если доказана недобросовестность контрагента.</li>
+</ul>
+<p>Презумпции при аффилированности (знание о неплатёжеспособности, цель вреда) <strong>опровержимы</strong> — это прямо следует из позиции 18 обзора и дела <strong>Рыбалко — Беликовы</strong> (18-КГ23-32-К4).</p>
+<h3>Связка со ст. 61.3: кто вправе подать заявление (ФУ, конкурсный управляющий, кредитор)</h3>
+<p>Ст. 61.3 регулирует <strong>предпочтение</strong> одному кредитору (look-back 1 или 6 месяцев). Переквалифицировать такую сделку в подозрительную по п. 2 ст. 61.2 для обхода сроков нельзя — это разъяснено в Обзоре ВС № 5/2026 (п. 10). Подробнее о ролях управляющего и кредитора — в <a href="https://advokat-vsem.online/arbitrazhnyj-upravlyayushchij-osparivanie-sdelok/" target="_blank" rel="noopener noreferrer">гайде по оспариванию сделок</a>.</p>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-darenie" aria-labelledby="vs-zhiloe-darenie-h">
+<h2 id="vs-zhiloe-darenie-h">Дарение квартиры при банкротстве: когда ФУ оспорит договор дарения</h2>
+<p>Вопрос «<strong>можно ли оспорить дарственную на квартиру</strong>» в банкротстве решается через <strong>п. 2 ст. 61.2</strong>: дарение — подозрительная сделка при доказанной <strong>цели вреда</strong> кредиторам (поз. 13 обзора).</p>
+<h3>Дарение родственникам vs третьим лицам: разная доказательственная нагрузка</h3>
+<p>Родство <strong>само по себе</strong> не делает дарение или продажу недействительной. Дело <strong>Рыбалко — Беликовы</strong>: дарение на 2,9 млн руб. родственнице — ВС указал, что нужно доказать <strong>притворность</strong> (ст. 170 п. 2 ГК) и выявить прикрываемую сделку, а не опираться на семейные связи.</p>
+<p>При аффилированности действуют презумпции п. 2 ст. 61.2, но контрагент вправе их <strong>опровергнуть</strong> — доказать отсутствие цели вреда и добросовестность.</p>
+<h3>Дарение до и после возбуждения дела о банкротстве</h3>
+<p>Период подозрительности для п. 2 ст. 61.2 — <strong>3 года</strong> до принятия заявления о банкротстве. Дарение, совершённое за три года до банкротства, потенциально оспоримо. Срок подачи заявления управляющим — <strong>1 год</strong> с момента, когда он узнал или должен был узнать об основаниях (п. 2 ст. 181 ГК, п. 32 Пленума ВАС № 63).</p>
+<h3>Последствия оспаривания: возврат квартиры в конкурсную массу (ст. 167 ГК)</h3>
+<p>При признании дарения недействительным в банкротстве квартира возвращается в <strong>конкурсную массу</strong> (ст. 61.6). Одноручная реституция «только квартира продавцу» без учёта встречных предоставлений — нарушение ст. 167 п. 2 ГК (позиция 6 обзора). Одаряемый, лишившийся жилья, вправе регрессировать к должнику (п. 3 ст. 61.6).</p>
+<p><strong>Исключение:</strong> дарение доли в <strong>единственном жилье</strong> не оспаривается, если возврат в массу бессмысленен из-за исполнительского иммунитета (поз. 17, ст. 446 ГПК) — конкурсная масса не пополнится.</p>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-cena" aria-labelledby="vs-zhiloe-cena-h">
+<h2 id="vs-zhiloe-cena-h">Заниженная цена и неравноценность: почему отклонение >20% уже недостаточно</h2>
+<p><strong>Неравноценная сделка при банкротстве</strong> — предмет п. 1 ст. 61.2. Раньше суды часто ориентировались на отклонение цены <strong>более чем на 20%</strong> от рынка. Обзор 01.07.2026 эту логику пересмотрел.</p>
+<h3>Формальный критерий 20% и его отмена в новой практике</h3>
+<p>РАПСИ (01.07.2026) цитирует позицию ВС: «Одного формального отклонения договорной цены от рыночной для признания сделки подозрительной недостаточно. Такое отклонение нужно оценивать вместе с обстоятельствами совершения сделки и характером отношений должника с покупателем.»</p>
+<p>Главный банкротный кейс обзора — <strong>А56-96799/2023</strong> (определение ВС <strong>307-ЭС25-13338</strong>, Счастная — Чигарчакова).</p>
+<h3>Контекст отношений сторон: аффилированность, круг общения, повторные сделки</h3>
+<p>Фабула дела: должница Екатерина Счастная продала квартиру Татьяне Чигарчаковой 10.08.2023 за <strong>5 млн руб.</strong> — в пределах года до банкротства (возбуждено 12.12.2023, АС СПб и ЛО). В объявлении стояло 6,3 млн, покупательница торговалась до 5 млн наличными. Расчёт — через банковскую ячейку. В договоре — <strong>заверения</strong> об отсутствии кредиторов и намерения банкротиться в ближайшие 3 года.</p>
+<p>Экспертизы дали разброс <strong>6,3–9,3 млн</strong>, кадастр — <strong>4,8 млн</strong>. Формально цена ниже рынка >20%, но ВС <strong>отказал финансовому управляющему</strong>: без учёта переговоров, кадастра и осмотрительности покупателя вывод о подозрительности нарушает ст. 61.2. Суды также отметили: банкротство могло использоваться как инструмент <strong>возврата проданного жилья</strong>.</p>
+<h3>Рыночная цена vs цена в договоре: какие экспертизы принимает арбитраж</h3>
+<p>При разбросе оценок вывод о <strong>занижении неочевиден</strong> (поз. 16). Арбитраж оценивает переговоры, способ расчёта, конъюнктуру на дату сделки; кадастр — ориентир, не единственный критерий.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Финансовый управляющий или кредитор готовит заявление об оспаривании продажи квартиры? После обзора ВС 01.07.2026 одной экспертизы «минус 20%» недостаточно — нужна оценка перспектив до суда.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по оспариванию сделки с жильём в арбитраже</a></p>
+</aside>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-mnimaya" aria-labelledby="vs-zhiloe-mnimaya-h">
+<h2 id="vs-zhiloe-mnimaya-h">Мнимая сделка продажи квартиры: признаки и доказательства в арбитраже</h2>
+<p><strong>Мнимая сделка продажи квартиры</strong> — основание как в гражданском процессе (ст. 170 п. 1 ГК), так и в банкротстве (п. 1 ст. 61.2, если доказана цель вреда кредиторам). Обзор дал два блока разъяснений по мнимости (поз. 9–10).</p>
+<h3>Отличие мнимой сделки от притворной (номинальный покупатель vs фиктивный расчёт)</h3>
+<p><strong>Мнимая сделка</strong> — стороны <strong>не имели намерения</strong> создать правовые последствия; обе стороны недобросовестны. <strong>Притворная</strong> — прикрывает иную сделку (например, дарение прикрыто куплей-продажей); нужно установить прикрываемую сделку и её условия (дело Рыбалко — Беликовы).</p>
+<h3>Доказательства: расчёты, проживание продавца, отсутствие передачи вещи</h3>
+<p>ВС указал: факт <strong>передачи имущества и денег</strong>, <strong>регистрация права</strong> — аргументы <strong>против</strong> мнимости. То, что продавец распорядился деньгами после сделки, <strong>само по себе</strong> не доказывает фиктивность.</p>
+<p>ФУ и кредитору нужны доказательства отсутствия расчёта, проживания продавца после «продажи», номинальности покупателя.</p>
+<h3>Позиция ВС из обзора 01.07.2026 по мнимым сделкам с жильём</h3>
+<p>Мнимость должна быть доказана в отношении <strong>обеих</strong> сторон. Если покупатель реально заплатил, осмотрел объект, зарегистрировал право — суды с осторожностью признают сделку мнимой. В банкротстве дополнительно требуется связка с <strong>целью вреда</strong> кредиторам по п. 1 или п. 2 ст. 61.2.</p>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-riski" aria-labelledby="vs-zhiloe-riski-h">
+<h2 id="vs-zhiloe-riski-h">Банкротство после продажи квартиры: риски для покупателя</h2>
+<p>При <strong>банкротстве после продажи квартиры</strong> покупатель в зоне риска, если сделка в <strong>подозрительном периоде</strong> и есть признаки неравноценности или вреда кредиторам.</p>
+<h3>Когда покупатель теряет квартиру, а когда нет</h3>
+<p>Квартиру могут изъять из владения покупателя при признании сделки недействительной — с <strong>двусторонней реституцией</strong> (поз. 6, 20 обзора): покупатель возвращает жильё, деньги возвращаются ему из массы или через регресс к должнику (п. 3 ст. 61.6).</p>
+<p>Покупатель <strong>сохраняет</strong> квартиру, если:</p>
+<ul>
+<li>докажет <strong>добросовестность</strong> (ст. 61.4) — кейс Чигарчаковой;</li>
+<li>сделка вне подозрительного периода;</li>
+<li>оспаривание — злоупотребление правом (поз. 19: ложные заверения должника + попытка «вернуть» жильё).</li>
+</ul>
+<p>Параллельно возможен гражданский иск по ст. 178, 179 ГК — но обман мошенников влечёт недействительность <strong>только если</strong> покупатель знал или должен был знать об обмане.</p>
+<h3>Проверка продавца до сделки: реестр банкротов, суды, исполнительные производства</h3>
+<p>Чеклист осмотрительности (из поз. 15 обзора, эксперты AdvokatSeregin):</p>
+<ul>
+<li>выписка ЕГРН (обременения, притязания);</li>
+<li>проверка в реестре банкротств, картотеке арбитражных дел;</li>
+<li>базы исполнительных производств;</li>
+<li><strong>заверения</strong> в договоре: нет кредиторов, нет намерения банкротиться, нет споров по объекту.</li>
+</ul>
+<h3>Безопасный расчёт и эскроу: снижение, но не устранение риска оспаривания</h3>
+<p>Банковская ячейка, аккредитив, эскроу-счёт — доказательства реального расчёта (как у Чигарчаковой). Но даже безупречный расчёт <strong>не гарантирует</strong> защиту: если цена явно занижена, покупатель аффилирован с должником, а заверения заведомо ложны — риск оспаривания сохраняется.</p>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-dobrosovest" aria-labelledby="vs-zhiloe-dobrosovest-h">
+<h2 id="vs-zhiloe-dobrosovest-h">Добросовестный покупатель: как защитить сделку в арбитражном суде</h2>
+<p><strong>Добросовестный покупатель при банкротстве продавца</strong> — тема поз. 15 и 19 обзора, определение <strong>307-ЭС25-13338</strong>. ВС <strong>сразу отказал</strong> финансовому управляющему, не возвращая дело — сильный сигнал для защиты сделки.</p>
+<h3>Критерии добросовестности: цена, осмотр, проверка документов, отсутствие связи с должником</h3>
+<p>Суды оценивают:</p>
+<ul>
+<li><strong>реальную</strong> рыночную цену с учётом торга (не только экспертизу);</li>
+<li>осмотр объекта, срок владения до сделки;</li>
+<li>способ расчёта (банк, ячейка);</li>
+<li><strong>заверения</strong> и их согласованность с фактами;</li>
+<li>отсутствие аффилированности, давления, сговора.</li>
+</ul>
+<h3>Граница: обман третьих лиц vs реальный риск оспаривания по ст. 61.2</h3>
+<p>Гражданский контур (ст. 179) и банкротный (ст. 61.2) сосуществуют: в гражданском споре защищён покупатель, не знавший об обмане; в банкротстве отдельно оценивается вред кредиторам. Обзор учит оценивать <strong>обе стороны</strong> (поз. 2, 3).</p>
+<h3>Процессуальная тактика: возражения на заявление ФУ, встречные доказательства</h3>
+<p>При получении заявления об оспаривании покупатель вправе участвовать в деле о банкротстве и заявлять самостоятельные требования. Стратегия:</p>
+<ol>
+<li>документировать осмотрительность <strong>до</strong> сделки;</li>
+<li>ходатайствовать о <strong>своей</strong> оценке, если экспертиза ФУ односторонняя;</li>
+<li>ссылаться на <strong>ст. 61.4</strong> и позицию 307-ЭС25-13338;</li>
+<li>при ложных заверениях должника — заявлять о <strong>злоупотреблении</strong> (поз. 19, ст. 10 ГК).</li>
+</ol>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Получили заявление финансового управляющего об оспаривании купли-продажи квартиры? Поможем собрать доказательства осмотрительности, подготовить возражения и отстоять право собственности в арбитражном деле о банкротстве.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите сделки в арбитраже</a></p>
+</aside>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-sroki" aria-labelledby="vs-zhiloe-sroki-h">
+<h2 id="vs-zhiloe-sroki-h">Сроки оспаривания сделок при банкротстве</h2>
+<p><strong>Срок оспаривания сделок при банкротстве</strong> — два измерения: период подозрительности (look-back) и срок подачи заявления управляющим.</p>
+<h3>Подозрительный период (1 год / 3 года) для физлиц и юрлиц</h3>
+<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Основание</th><th>Look-back</th><th>Кто оспаривает</th></tr></thead><tbody><tr><td>п. 1 ст. 61.2 (неравноценность, вред)</td><td><strong>1 год</strong></td><td>ФУ, АУ, кредитор</td></tr><tr><td>п. 2 ст. 61.2 (дарение, аффилированность)</td><td><strong>3 года</strong></td><td>ФУ, АУ, кредитор</td></tr><tr><td>ст. 61.3 (предпочтение)</td><td>1 мес. / 6 мес.</td><td>ФУ, АУ, кредитор</td></tr></tbody></table></div>
+<h3>Срок подачи заявления об оспаривании в деле о банкротстве</h3>
+<p>Заявление — в течение <strong>1 года</strong> с момента, когда управляющий узнал или должен был узнать об основаниях (п. 2 ст. 181 ГК). Пропуск срока — основание для отказа. Детали процедуры — в <a href="https://advokat-vsem.online/arbitrazhnyj-upravlyayushchij-osparivanie-sdelok/" target="_blank" rel="noopener noreferrer">материале об оспаривании сделок арбитражным управляющим</a>.</p>
+<h3>Госпошлина и судебные расходы при оспаривании</h3>
+<p>Госпошлина — фиксированная (50 000 руб. для организаций; для физлиц — по ст. 333.21 НК). Расходы на экспертизы и представителей — по ст. 110, 112 АПК.</p>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-praktika" aria-labelledby="vs-zhiloe-praktika-h">
+<h2 id="vs-zhiloe-praktika-h">Практика арбитражных судов 2026: кто оспорит, а кто отстоит сделку</h2>
+<p><strong>Оспаривание сделок при банкротстве</strong> — одна из самых результативных процедур для пополнения конкурсной массы. После обзора 01.07.2026 практика смещается: формальные основания уступают <strong>фактическому анализу</strong>.</p>
+<h3>Роль финансового управляющего vs кредитора-заявителя</h3>
+<p>Финансовый управляющий обязан анализировать сделки должника и при наличии оснований подавать заявления (ст. 20.3, 61.1). Кредитор вправе подать сам, если управляющий бездействует. Но после Чигарчаковой управляющим стоит оценивать перспективы <strong>до</strong> суда: отклонение цены >20% без контекста — слабая позиция.</p>
+<h3>Двусторонняя реституция (ст. 167 ГК): что возвращается в массу и что — покупателю</h3>
+<p>При недействительности с взаимными предоставлениями каждая сторона возвращает полученное (ст. 167 п. 2 ГК). В банкротстве: квартира — в <strong>массу</strong>, деньги — <strong>покупателю</strong> (из массы или регрессом к должнику, п. 3 ст. 61.6). Суды, вернувшие только квартиру без денег покупателю, нарушали закон — поз. 6 обзора.</p>
+<h3>Типичные исходы по делам из обзора ВС (краткие кейсы)</h3>
+<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Дело</th><th>Исход</th><th>Урок</th></tr></thead><tbody><tr><td><strong>5-КГ25-174-К2</strong> (Долина)</td><td>Покупатель защищён</td><td>Заблуждение о мотивах ≠ недействительность</td></tr><tr><td><strong>307-ЭС25-13338</strong> (Чигарчакова)</td><td>ФУ отказано</td><td>Добросовестность + контекст цены</td></tr><tr><td><strong>18-КГ23-32-К4</strong> (Рыбалко)</td><td>На новое рассмотрение</td><td>Родство ≠ притворность</td></tr><tr><td>Дарение ¼ доли сыну (поз. 17)</td><td>ФУ отказано</td><td>Иммунитет единственного жилья</td></tr><tr><td>Реституция 2023 (поз. 6)</td><td>Отмена без возврата денег</td><td>Нарушение ст. 167</td></tr></tbody></table></div>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Сделка с жильём попала в подозрительный период, а продавец подал на банкротство? Разберём, есть ли смысл оспаривать сделку или, наоборот, защищать её — с учётом обзора ВС 01.07.2026 и сроков look-back.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом по арбитражу</a></p>
+</aside>
+</section>
+
+<section id="vs-zhiloe-faq" class="ym-section l24-faq" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2 id="vs-zhiloe-faq-h">Частые вопросы об оспаривании сделок с жильём в банкротстве</h2>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Можно ли оспорить дарственную, если прошло больше года?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Да, если сделка в <strong>трёхлетнем</strong> периоде п. 2 ст. 61.2 и управляющий подал заявление в <strong>годичный</strong> срок с момента осведомлённости. Годичный look-back п. 1 ст. 61.2 для дарения не применяется — дарение всегда по п. 2 (3 года). Вопрос «<strong>можно ли оспорить договор дарения</strong>» в банкротстве решается через доказательство <strong>цели вреда</strong>, а не через срок «больше года» сам по себе.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Оспорят ли сделку, если квартира — единственное жильё?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text"><strong>Оспаривание сделок с единственным жильём</strong> возможно, если объект уже продан третьему лицу — спор идёт о деньгах или о возврате. Но дарение <strong>доли</strong> в единственном жилье близкому родственнику может быть бесперспективным: возврат в массу невозможен из-за <strong>исполнительского иммунитета</strong> (поз. 17, ст. 446 ГПК). ФУ получит отказ — масса не пополнится.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Что делать покупателю, если продавец подал на банкротство через месяц после продажи?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Сделка в <strong>подозрительном периоде</strong> (1 год для п. 1 ст. 61.2). Действия: 1. получить определение о принятии заявления, следить за заявлениями ФУ; 2. собрать доказательства осмотрительности (договор, расчёт, переписка, заверения); 3. подключиться к делу о банкротстве с возражениями; 4. при необходимости — заранее оценить перспективы защиты сделки с учётом практики Чигарчаковой. Если цена соответствовала рынку (с учётом торга), расчёт — через банк, заверения — добросовестны — шансы отстоять жильё высоки (модель Чигарчаковой).</p>
+    </div>
+  </div>
+</section>
+
+<section class="ym-section" id="vs-zhiloe-konsult" aria-labelledby="vs-zhiloe-konsult-h">
+<h2 id="vs-zhiloe-konsult-h">Консультация по оспариванию или защите сделки с жильём в арбитраже</h2>
+<p>Обзор ВС 01.07.2026 меняет расклад: ФУ и кредитору недостаточно экспертизы «минус 20%», покупателю — расчёта без заверений. Процедурная база — <a href="https://advokat-vsem.online/arbitrazhnyj-upravlyayushchij-osparivanie-sdelok/" target="_blank" rel="noopener noreferrer">арбитражный управляющий: оспаривание сделок</a>.</p>
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text">Нужна стратегия по сделке с жильём в арбитражном деле о банкротстве — оспорить продажу или дарение, либо защитить право собственности покупателя? Разберём документы, сроки look-back и перспективы с учётом обзора ВС 01.07.2026.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по оспариванию и защите сделки с жильём</a></p>
+</aside>
+</section>
+
+</div>
+
+<pre class="l24-jsonld-vs-zhiloe" aria-hidden="true" hidden>{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Обзор ВС 2026: оспаривание сделок с жильём в банкротстве — дарение, цена, мнимость", "description": "Обзор практики ВС РФ от 01.07.2026: оспаривание сделок с жильём при банкротстве по ст. 61.2 — дарение, заниженная цена, мнимость. Риски покупателя и защита сделки в арбитраже.", "datePublished": "2026-07-01", "dateModified": "2026-07-02", "author": {"@type": "Organization", "name": "Legis24"}, "publisher": {"@type": "Organization", "name": "Legis24"}, "inLanguage": "ru-RU", "about": ["оспаривание сделок при банкротстве", "ст 61.2 закона о банкротстве", "оспаривание сделок с жильем", "обзор верховного суда 2026 банкротство", "добросовестный покупатель банкротство"]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Можно ли оспорить дарственную, если прошло больше года?", "acceptedAnswer": {"@type": "Answer", "text": "Да, если сделка в трёхлетнем периоде п. 2 ст. 61.2 и управляющий подал заявление в годичный срок с момента осведомлённости. Годичный look-back п. 1 ст. 61.2 для дарения не применяется — дарение всегда по п. 2 (3 года). Вопрос «можно ли оспорить договор дарения» в банкротстве решается через доказательство цели вреда, а не через срок «больше года» сам по себе."}}, {"@type": "Question", "name": "Оспорят ли сделку, если квартира — единственное жильё?", "acceptedAnswer": {"@type": "Answer", "text": "Оспаривание сделок с единственным жильём возможно, если объект уже продан третьему лицу — спор идёт о деньгах или о возврате. Но дарение доли в единственном жилье близкому родственнику может быть бесперспективным: возврат в массу невозможен из-за исполнительского иммунитета (поз. 17, ст. 446 ГПК). ФУ получит отказ — масса не пополнится."}}, {"@type": "Question", "name": "Что делать покупателю, если продавец подал на банкротство через месяц после продажи?", "acceptedAnswer": {"@type": "Answer", "text": "Сделка в подозрительном периоде (1 год для п. 1 ст. 61.2). Действия: 1. получить определение о принятии заявления, следить за заявлениями ФУ; 2. собрать доказательства осмотрительности (договор, расчёт, переписка, заверения); 3. подключиться к делу о банкротстве с возражениями; 4. при необходимости — заранее оценить перспективы защиты сделки с учётом практики Чигарчаковой. Если цена соответствовала рынку (с учётом торга), расчёт — через банк, заверения — добросовестны — шансы отстоять жильё высоки (модель Чигарчаковой)."}}]}]}</pre>
+</main>
+<!-- /wp:html -->
+
+
+## Передача Юре
+SLUG: vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026
+Title: Обзор ВС 2026: оспаривание сделок с жильём в банкротстве | Legis24
+Description: Обзор практики ВС РФ от 01.07.2026: оспаривание сделок с жильём при банкротстве по ст. 61.2 — дарение, заниженная цена, мнимость. Риски покупателя и защита сделки в арбитраже.
+Контент MCP-only: hero static SVG, блок Бориса static SVG, JSON-LD Article в hidden pre. Обязательно обернуть в <!-- wp:html --> при публикации.
+Размер HTML: 78274 символов
+main#primary: да
+script: нет
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+## Публикация от Юры
+URL: https://advokat-vsem.online/vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026/
+page_id: 555
+blob_id: YCApIYxY9YvoIRjTXk9Soq4
+sha256: b6e7a71f1f0aaf8bbf25a22f194498794fc73afe0ed0f297ed748e5d0a9a07f1
+Статус: опубликовано
+Проверка: HTTP 200 ✓, main#primary ✓, hero l24-hero-vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 ✓, boris l24-boris-vs-osparivanie-sdelok-zhiloe ✓, script отсутствует ✓
+Способ: MCP Kovcheg blob flow (wordpress_content_blob_append → wordpress_update_page_from_blob → wordpress_update_page publish)
+Журнал публикаций: /workspace/nero-network-office-page/shared/published-pages.md updated
+Журнал Кирилла: /workspace/shared/kirill-news-ledger.md updated
+Контент-план: /workspace/nero-network-office-page/shared/content-plan-legis24.md row 23 ✅ page_id 555

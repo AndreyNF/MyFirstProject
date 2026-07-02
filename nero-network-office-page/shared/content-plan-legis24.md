@@ -40,6 +40,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 20 | B6 / KIRILL-IP | IP | СИП 2026: Президиум аннулировал товарный знак «ВПР» издательства «Просвещение» — злоупотребление правом (Кирилл, июнь 2026) | sip-vpr-prosveshchenie-annulirovanie-tovarnyj-znak-zloupotreblenie | ✅ page_id 540 |
 | 21 | B7 / KIRILL-UG | UG | Пленум ВС № 19 (2026): цифровой рубль как предмет кражи — когда обман это не мошенничество (Кирилл, июнь 2026) | plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026 | ✅ page_id 543 |
 | 22 | B8 / KIRILL-ARB | ARB | Пленум ВС РФ № 42 от 23.12.2025: новые правила субсидиарной ответственности директора, учредителя и КДЛ при банкротстве (Кирилл, июль 2026) | plenum-vs-42-subsidiarnaya-otvetstvennost-bankrotstvo-2026 | ✅ page_id 545 |
+| 23 | B9 / KIRILL-ARB | ARB | Обзор ВС 2026: оспаривание сделок с жильём в банкротстве — дарение, цена, мнимость | vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 | ✅ page_id 555 |
 
 > Канонический URL A3 на проде: `srok-vozrazhenij-30-vs-15-mify` (без «dnej» в slug).  
 > Типы и углы: `article-types-legis24.md`.
