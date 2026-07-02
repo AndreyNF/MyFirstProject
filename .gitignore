@@ -115,3 +115,9 @@ scripts/vs8_kovcheg_*.py
 scripts/alej_kovcheg_*.py
 scripts/alej_mcp_*.py
 scripts/kovcheg_blob_invoke_from_file.py
+# KIRILL-ARB vs-osparivanie MCP blob temp (2026-07-02)
+.cursor/vs-osparivanie-blob-calls/
+.cursor/vs-osparivanie-blob-9k/
+.cursor/vs-osparivanie-mcp-step-*.json
+.cursor/step0-mcp-args.json
+.cursor/page-content-natasha-vs-osparivanie.html
