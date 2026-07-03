@@ -1,5 +1,16 @@
 # Nero Network — новая сессия
 
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+
+- **page_id:** 572
+- **URL:** https://advokat-vsem.online/vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026/
+- **slug:** vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026
+- **код:** B11 / KIRILL-UG
+- **статус:** publish
+- **blob_id:** kMJISOFnbPCyntWno7LjYLQR (110527 bytes, sha256 7847c1010c182de80768d4e2551a05af9062b75f2e5b4cb3a34eca26d7087bf9)
+- **проверка live:** publish OK, page_id 572
+- **логи:** published-pages.md, content-plan-legis24.md (✅ B11), kirill-news-ledger.md
+
 === PRECHECK (ГЕЙТ) ===
 Статус: ✅ KIRILL
 Причина: Все 16 строк очереди ✅ — следующий запуск: Кирилл (новость дня)

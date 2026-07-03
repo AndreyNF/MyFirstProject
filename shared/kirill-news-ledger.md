@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-07-03 | published | UG | Дайджест ВС №7 (июль 2026): кража признана малозначительной — прекращение дела по ч. 2 ст. 14 УК, кассация № 11-УД26-3-К6 (ч. 1 ст. 158) | vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026 | https://advokat-vsem.online/vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026/ |
 | 2026-07-03 | published | IP | Coca-Cola vs Роспатент: иск в СИП об отказе признать Fanta и Sprite общеизвестными товарными знаками — заседание 20.07.2026 | sip-fanta-rospatent-obshcheizvestnyy-tovarnyy-znak-2026 | https://advokat-vsem.online/sip-fanta-rospatent-obshcheizvestnyy-tovarnyy-znak-2026/ |
 | 2026-07-03 | published | ARB | Президиум ВС 01.07.2026: штраф 3,5 млн СРО «Созидание» за запрет неаккредитованных ЭТП/организаторов торгов — антимонопольный спор с ФАС (дело № А40-232008/2023) | vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026 | https://advokat-vsem.online/vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026/ |
 | 2026-07-02 | published | UG | Обзор ВС РФ 01.07.2026: продажа квартиры под влиянием мошенников — уголовные риски ст. 159, защита продавца/покупателя на проверке и в суде (уголовное дело + ст. 178–179 ГК, дело Долиной) | vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026 | https://advokat-vsem.online/vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026/ |
