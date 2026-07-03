@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-07-03 | published | IP | Coca-Cola vs Роспатент: иск в СИП об отказе признать Fanta и Sprite общеизвестными товарными знаками — заседание 20.07.2026 | sip-fanta-rospatent-obshcheizvestnyy-tovarnyy-znak-2026 | https://advokat-vsem.online/sip-fanta-rospatent-obshcheizvestnyy-tovarnyy-znak-2026/ |
 | 2026-07-03 | published | ARB | Президиум ВС 01.07.2026: штраф 3,5 млн СРО «Созидание» за запрет неаккредитованных ЭТП/организаторов торгов — антимонопольный спор с ФАС (дело № А40-232008/2023) | vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026 | https://advokat-vsem.online/vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026/ |
 | 2026-07-02 | published | UG | Обзор ВС РФ 01.07.2026: продажа квартиры под влиянием мошенников — уголовные риски ст. 159, защита продавца/покупателя на проверке и в суде (уголовное дело + ст. 178–179 ГК, дело Долиной) | vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026 | https://advokat-vsem.online/vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026/ |
 | 2026-07-02 | published | IP | СИП 01.07.2026: знак NIDO оставили в силе — аббревиатура Nigerians in Diaspora Organization не лишает различительной способности; Роспатент и СИП отклонили возражение конкурирующей НКО | sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026 | https://advokat-vsem.online/sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026/ |
