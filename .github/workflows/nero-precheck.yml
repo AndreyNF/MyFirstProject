@@ -1,0 +1,19 @@
+# Проверка журналов на CI (не публикует на WP)
+name: nero-precheck
+on:
+  push:
+    paths:
+      - 'nero-network-office-page/shared/**'
+      - 'scripts/nero-precheck-queue.py'
+  pull_request:
+    paths:
+      - 'nero-network-office-page/shared/**'
+      - 'scripts/nero-precheck-queue.py'
+
+jobs:
+  precheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run queue precheck
+        run: python3 scripts/nero-precheck-queue.py --json || true

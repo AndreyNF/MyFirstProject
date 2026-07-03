@@ -1,0 +1,948 @@
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page th, .arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page th { background: #edf2f7; }
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page a { color: #1e40af; }
+.arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page code {
+  font-size: 0.9em; background: #f1f5f9; padding: 2px 6px; border-radius: 4px;
+}
+.l24-intro-arb {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-arb__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-arb__text {
+  border-left: 4px solid #1e3a8a; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-arb__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-arb__text p:last-child { margin-bottom: 0; }
+.l24-intro-arb__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-arb__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-arb__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-arb__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-arb__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-arb__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-arb__chip--navy { border-color: #0f2744; color: #0f2744; }
+.l24-intro-arb__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-arb {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-arb > h2 { margin-top: 0 !important; }
+.l24-faq-arb__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-arb__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-arb__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-arb__a { margin: 0; color: #334155; }
+.ym-section { display: block; }
+@media (max-width: 900px) {
+  .l24-intro-arb__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main arbitrazhnyj-spor-s-kreditorom-sroki-strategiya-page" role="main" tabindex="-1">
+
+<section id="l24-hero-arb-kred" class="hero-arb-kred" aria-label="Арбитражный спор с кредитором">
+  <style>
+    .hero-arb-kred {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(168deg, #f8fafc 0%, #eef2f7 42%, #e8eef6 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-arb-kred::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 92% 12%, rgba(30, 58, 138, 0.09) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 45% at 6% 88%, rgba(15, 39, 68, 0.07) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-arb-kred__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-arb-kred__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(15, 23, 42, 0.12);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-arb-kred__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e3a8a;
+      flex-shrink: 0;
+    }
+    .hero-arb-kred__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.6rem, 3.6vw, 2.4rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-arb-kred__h1-accent {
+      color: #1e3a8a;
+    }
+    .hero-arb-kred__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-arb-kred__tracks {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-arb-kred__track {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-arb-kred__track-label {
+      flex-shrink: 0;
+      min-width: 118px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      background: #0f2744;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .hero-arb-kred__track--bank .hero-arb-kred__track-label {
+      background: #1e3a8a;
+    }
+    .hero-arb-kred__track--dual .hero-arb-kred__track-label {
+      background: #a31830;
+    }
+    .hero-arb-kred__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+    }
+    .hero-arb-kred__cta:hover {
+      background: #8b1528;
+    }
+    .hero-arb-kred__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-arb-kred__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-arb-kred__visual {
+        order: -1;
+        max-height: 320px;
+      }
+      .hero-arb-kred__track-label {
+        min-width: 96px;
+        font-size: 0.68rem;
+      }
+    }
+  </style>
+  <div class="hero-arb-kred__inner">
+    <div class="hero-arb-kred__content">
+      <div class="hero-arb-kred__badge">
+        <span class="hero-arb-kred__badge-dot" aria-hidden="true"></span>
+        АПК · 127-ФЗ · защита ответчика · три трека · 2026
+      </div>
+      <h1 class="hero-arb-kred__h1">
+        <span class="hero-arb-kred__h1-accent">Арбитражный спор с кредитором:</span> сроки, подсудность и первая стратегия ответа
+      </h1>
+      <p class="hero-arb-kred__sub">
+        Иск в арбитраж или требование в банкротстве — разберём подсудность, сроки и план защиты ответчика до первого заседания.
+      </p>
+      <ul class="hero-arb-kred__tracks">
+        <li class="hero-arb-kred__track hero-arb-kred__track--isk">
+          <span class="hero-arb-kred__track-label">Иск в АС</span>
+          <span><strong>Подсудность и сроки</strong> — отзыв, возражения, ходатайства до первого заседания по АПК</span>
+        </li>
+        <li class="hero-arb-kred__track hero-arb-kred__track--bank">
+          <span class="hero-arb-kred__track-label">Банкротство</span>
+          <span><strong>Требование в реестр</strong> — возражения, оспаривание, связка с арбитражным иском кредитора</span>
+        </li>
+        <li class="hero-arb-kred__track hero-arb-kred__track--dual">
+          <span class="hero-arb-kred__track-label">Двойной фронт</span>
+          <span><strong>Иск + дело о банкротстве</strong> — единая стратегия ответчика, чтобы не проиграть на одном треке</span>
+        </li>
+      </ul>
+      <a class="hero-arb-kred__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию по арбитражному спору с кредитором — стратегия ответа и представительство в суде</a>
+    </div>
+    <div class="hero-arb-kred__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Три трека защиты ответчика: арбитражный иск, банкротство кредитора, двойной фронт">
+        <defs>
+          <linearGradient id="hero-arb-scene" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0f2744"/>
+            <stop offset="50%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#172554"/>
+          </linearGradient>
+          <linearGradient id="hero-arb-panel" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e40af"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-arb-card" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hero-arb-fork" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="0%" stop-color="#93c5fd"/>
+            <stop offset="45%" stop-color="#60a5fa"/>
+            <stop offset="100%" stop-color="#f87171"/>
+          </linearGradient>
+          <filter id="hero-arb-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.26"/>
+          </filter>
+          <filter id="hero-arb-shadow-soft" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1e293b" flood-opacity="0.12"/>
+          </filter>
+          <marker id="hero-arb-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#93c5fd"/>
+          </marker>
+        </defs>
+        <rect x="14" y="18" width="412" height="364" rx="18" fill="url(#hero-arb-scene)" stroke="#0c1a33" stroke-width="1.5" filter="url(#hero-arb-shadow)"/>
+        <text x="220" y="48" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="700" letter-spacing="0.12em">СТРАТЕГИЯ ОТВЕТЧИКА</text>
+        <line x1="44" y1="58" x2="396" y2="58" stroke="rgba(148,163,184,0.35)" stroke-width="1"/>
+        <!-- центр: ответчик -->
+        <circle cx="220" cy="118" r="34" fill="url(#hero-arb-card)" stroke="#93c5fd" stroke-width="2" filter="url(#hero-arb-shadow-soft)"/>
+        <text x="220" y="114" text-anchor="middle" fill="#0f2744" font-size="9" font-weight="700">ОТВЕТЧИК</text>
+        <text x="220" y="128" text-anchor="middle" fill="#475569" font-size="8">защита</text>
+        <!-- развилка -->
+        <path d="M220 152 L220 178" stroke="url(#hero-arb-fork)" stroke-width="3" fill="none"/>
+        <path d="M220 178 L92 210" stroke="#60a5fa" stroke-width="2.5" fill="none" marker-end="url(#hero-arb-arrow)"/>
+        <path d="M220 178 L220 210" stroke="#93c5fd" stroke-width="2.5" fill="none"/>
+        <path d="M220 178 L348 210" stroke="#f87171" stroke-width="2.5" fill="none"/>
+        <!-- трек 1: арбитраж -->
+        <g transform="translate(28, 218)">
+          <rect width="128" height="148" rx="10" fill="url(#hero-arb-panel)" opacity="0.95"/>
+          <text x="64" y="22" text-anchor="middle" fill="#bfdbfe" font-size="8" font-weight="700" letter-spacing="0.08em">ИСК В АС</text>
+          <rect x="14" y="34" width="100" height="36" rx="6" fill="rgba(255,255,255,0.12)"/>
+          <text x="22" y="52" fill="#fff" font-size="8">ст. 35–37 АПК</text>
+          <text x="22" y="64" fill="#cbd5e1" font-size="7">подсудность</text>
+          <rect x="14" y="78" width="100" height="28" rx="5" fill="rgba(255,255,255,0.08)"/>
+          <text x="22" y="96" fill="#e2e8f0" font-size="7">отзыв · возражения</text>
+          <rect x="14" y="114" width="100" height="22" rx="5" fill="#a31830"/>
+          <text x="64" y="129" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">1-е заседание</text>
+        </g>
+        <!-- трек 2: банкротство -->
+        <g transform="translate(156, 218)">
+          <rect width="128" height="148" rx="10" fill="url(#hero-arb-card)" stroke="#1e3a8a" stroke-width="1.2" filter="url(#hero-arb-shadow-soft)"/>
+          <text x="64" y="22" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="700" letter-spacing="0.08em">БАНКРОТСТВО</text>
+          <rect x="14" y="34" width="100" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+          <text x="22" y="52" fill="#1e3a8a" font-size="8">127-ФЗ</text>
+          <text x="22" y="64" fill="#64748b" font-size="7">требование в реестр</text>
+          <rect x="14" y="78" width="100" height="28" rx="5" fill="#f8fafc" stroke="#e2e8f0"/>
+          <text x="22" y="96" fill="#334155" font-size="7">возражения · оспаривание</text>
+          <rect x="14" y="114" width="100" height="22" rx="5" fill="#1e3a8a"/>
+          <text x="64" y="129" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">реестр</text>
+        </g>
+        <!-- трек 3: двойной фронт -->
+        <g transform="translate(284, 218)">
+          <rect width="128" height="148" rx="10" fill="#7f1d1d" opacity="0.92"/>
+          <text x="64" y="22" text-anchor="middle" fill="#fecaca" font-size="8" font-weight="700" letter-spacing="0.06em">ДВОЙНОЙ ФРОНТ</text>
+          <line x1="20" y1="50" x2="108" y2="50" stroke="rgba(255,255,255,0.35)" stroke-width="1"/>
+          <text x="64" y="72" text-anchor="middle" fill="#fff" font-size="8">иск + банкротство</text>
+          <text x="64" y="88" text-anchor="middle" fill="#fecaca" font-size="7">синхрон сроков</text>
+          <rect x="14" y="98" width="100" height="38" rx="6" fill="rgba(0,0,0,0.2)" stroke="#fca5a5"/>
+          <text x="64" y="116" text-anchor="middle" fill="#fff" font-size="7">единый план</text>
+          <text x="64" y="128" text-anchor="middle" fill="#fecaca" font-size="7">ответчика</text>
+        </g>
+        <!-- сроки внизу -->
+        <rect x="44" y="372" width="352" height="2" rx="1" fill="rgba(148,163,184,0.4)"/>
+        <text x="72" y="390" fill="#94a3b8" font-size="7">сроки АПК</text>
+        <text x="200" y="390" text-anchor="middle" fill="#94a3b8" font-size="7">2 мес. требования</text>
+        <text x="368" y="390" text-anchor="end" fill="#fca5a5" font-size="7">до 1-го заседания</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="l24-intro-arb ym-section" aria-label="Введение">
+  <div class="l24-intro-arb__grid">
+    <div class="l24-intro-arb__text">
+      <p>Когда банк, поставщик, цессионарий или налоговый орган уже подал <strong>иск в арбитражный суд</strong> или заявление в деле о банкротстве, у ответчика нет роскоши «разобраться потом». <strong>Арбитражные споры</strong> с кредиторами — это процессуальные вилки: подсудность, срок исковой давности, отзыв, обеспечение иска, реестр требований.</p>
+      <p>Материал собран с угла <strong>защиты ответчика и должника</strong>, а не инструкции «как взыскать долг». До первого заседания важно выбрать трек A, B или C и сверить срок отзыва с <strong>определением суда</strong>, а не с «15 днями из интернета».</p>
+      <div class="l24-intro-arb__brief">
+        <strong>Кратко:</strong> отзыв по ст. 131 АПК обязателен; исковая давность — только по заявлению (ст. 199 ГК); в банкротстве на обособленный спор — <strong>1 месяц</strong> на апелляцию (ст. 61 127-ФЗ).
+      </div>
+    </div>
+    <aside class="l24-intro-arb__decor" aria-label="Нормы и треки">
+      <ul class="l24-intro-arb__chips">
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--navy">АПК ст. 131</li>
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--accent">ст. 39 подсудность</li>
+        <li class="l24-intro-arb__chip">127-ФЗ реестр</li>
+        <li class="l24-intro-arb__chip l24-intro-arb__chip--warn">3 / 10 лет</li>
+        <li class="l24-intro-arb__chip">ст. 93 обеспечение</li>
+        <li class="l24-intro-arb__chip">трек A/B/C</li>
+      </ul>
+      <svg class="l24-intro-arb__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Иск кредитора: арбитраж, третейский суд или банкротство">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">ИСК КРЕДИТОРА → РАЗВИЛКА</text>
+        <rect x="108" y="44" width="104" height="28" rx="6" fill="#1e3a8a"/>
+        <text x="160" y="63" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">ответчик</text>
+        <line x1="160" y1="72" x2="56" y2="108" stroke="#63b3ed" stroke-width="2"/>
+        <line x1="160" y1="72" x2="160" y2="108" stroke="#5eead4" stroke-width="2"/>
+        <line x1="160" y1="72" x2="264" y2="108" stroke="#f56565" stroke-width="2"/>
+        <rect x="24" y="112" width="72" height="40" rx="6" fill="#eff6ff" stroke="#93c5fd"/>
+        <text x="60" y="132" text-anchor="middle" fill="#1e40af" font-size="8" font-weight="700">АС</text>
+        <text x="60" y="144" text-anchor="middle" fill="#64748b" font-size="7">трек A</text>
+        <rect x="124" y="112" width="72" height="40" rx="6" fill="#f0fdfa" stroke="#99f6e4"/>
+        <text x="160" y="132" text-anchor="middle" fill="#0f766e" font-size="8" font-weight="700">третейский</text>
+        <rect x="224" y="112" width="72" height="40" rx="6" fill="#fef2f2" stroke="#fca5a5"/>
+        <text x="260" y="132" text-anchor="middle" fill="#b91c1c" font-size="8" font-weight="700">127-ФЗ</text>
+        <text x="260" y="144" text-anchor="middle" fill="#64748b" font-size="7">трек B/C</text>
+        <rect x="24" y="158" width="272" height="28" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+        <text x="160" y="176" text-anchor="middle" fill="#0f2744" font-size="9" font-weight="700">14 дней · срок из определения суда</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#arb-tri-treka">Три трека A/B/C</a></li>
+    <li><a href="#arb-kogda">Когда возникает спор</a></li>
+    <li><a href="#arb-podsudnost">Подсудность</a></li>
+    <li><a href="#arb-sroki">Сроки и давность</a></li>
+    <li><a href="#arb-strategiya">Отзыв и возражения</a></li>
+    <li><a href="#arb-dokazatelstva">Доказательства</a></li>
+    <li><a href="#arb-cheklist">Чеклист 14 дней</a></li>
+    <li><a href="#arb-bankrotstvo">Банкротство</a></li>
+    <li><a href="#arb-oshibki">Ошибки ответчика</a></li>
+    <li><a href="#arb-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+
+<section class="ym-section">
+<div class="l24-longread-wrap">
+
+<h2 id="arb-tri-treka">Три трека защиты: выберите сценарий до первого заседания</h2>
+
+<p>Прежде чем писать отзыв, определите, в каком процессе вы защищаетесь. От этого зависят все дедлайны.</p>
+
+<table><thead><tr><th>Трек</th><th>Ситуация</th><th>Фокус защиты</th></tr></thead><tbody><tr><td><strong>A</strong></td><td>Иск о долге, банкротства нет</td><td>Отзыв (ст. 131 АПК), исковая давность, подсудность (ст. 39 АПК), отмена обеспечения (ст. 93 АПК)</td></tr><tr><td><strong>B</strong></td><td>Банкротство введено</td><td>Реестр, обособленные споры, <strong>не</strong> параллельный иск по залогу; апелляция <strong>1 месяц</strong> (ст. 61 127-ФЗ)</td></tr><tr><td><strong>C</strong></td><td>Иск + угроза банкротства / реструктуризация</td><td>Связка процессуальной защиты с планом реструктуризации и переговорами; единая линия позиции</td></tr></tbody></table>
+
+<p><strong>Трек A</strong> — классический <strong>иск кредитора</strong> о взыскании по договору поставки, кредита, аренды. <strong>Трек B</strong> — <strong>иск кредитора о банкротстве должника</strong> уже принят, введена процедура: спор идёт о <strong>включении в реестр требований кредиторов</strong>, <strong>оспаривании требований кредиторов</strong>, резервировании при залоге. <strong>Трек C</strong> — кредитор давит иском, параллельно готовит заявление о несостоятельности (порог для юрлиц — <strong>2 млн ₽</strong> по 107-ФЗ): ошибка — вести два несогласованных фронта.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Получили иск или заявление о банкротстве? До первого заседания важно определить трек A, B или C и срок отзыва из определения суда — не из «советов из интернета».</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по арбитражному спору с кредитором</a></p>
+</aside>
+
+<section id="l24-boris-arb-kreditor-track" class="l24-boris-arb-kred" aria-label="Арбитражный спор с кредитором: развилка треков и первые 14 дней защиты">
+<style>
+.l24-boris-arb-kred {
+  --arb-navy: #0c1f33;
+  --arb-navy-soft: #152a45;
+  --arb-gold: #d4a853;
+  --arb-mint: #5eead4;
+  --arb-accent: #f56565;
+  --arb-blue: #63b3ed;
+  --arb-ink: #e2e8f0;
+  --arb-muted: #94a3b8;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-arb-kred__shell {
+  background: linear-gradient(148deg, var(--arb-navy) 0%, #122640 52%, var(--arb-navy-soft) 100%);
+  border: 1px solid rgba(212, 168, 83, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(12, 31, 51, 0.35);
+  color: var(--arb-ink);
+}
+.l24-boris-arb-kred__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--arb-gold);
+}
+.l24-boris-arb-kred__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-arb-kred__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--arb-muted);
+  max-width: 68ch;
+}
+.l24-boris-arb-kred__lead strong { color: #fff; }
+.l24-boris-arb-kred__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-arb-kred__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-arb-kred__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--arb-gold);
+}
+.l24-boris-arb-kred__fork-svg,
+.l24-boris-arb-kred__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-arb-kred__fork-svg { max-height: 200px; margin-bottom: 12px; }
+.l24-boris-arb-kred__timeline-svg { max-height: 150px; }
+.l24-boris-arb-kred__tracks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-arb-kred__track {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 3px solid var(--arb-blue);
+  font-size: 0.72rem;
+  line-height: 1.38;
+}
+.l24-boris-arb-kred__track:nth-child(2) { border-top-color: var(--arb-mint); }
+.l24-boris-arb-kred__track:nth-child(3) { border-top-color: var(--arb-accent); }
+.l24-boris-arb-kred__track strong {
+  display: block;
+  color: #fff;
+  font-size: 0.78rem;
+  margin-bottom: 4px;
+}
+.l24-boris-arb-kred__days {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-arb-kred__day {
+  margin: 0;
+  padding: 10px 7px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  border-left: 3px solid var(--arb-gold);
+  font-size: 0.7rem;
+  line-height: 1.35;
+}
+.l24-boris-arb-kred__day:nth-child(2) { border-left-color: var(--arb-blue); }
+.l24-boris-arb-kred__day:nth-child(3) { border-left-color: var(--arb-mint); }
+.l24-boris-arb-kred__day:nth-child(4) { border-left-color: var(--arb-accent); }
+.l24-boris-arb-kred__day strong {
+  display: block;
+  color: #fff;
+  font-size: 0.76rem;
+  margin-bottom: 3px;
+}
+.l24-boris-arb-kred__nums {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 12px;
+}
+.l24-boris-arb-kred__num {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-arb-kred__num--wide {
+  grid-column: 1 / -1;
+  border-color: rgba(212, 168, 83, 0.35);
+  background: rgba(212, 168, 83, 0.08);
+}
+.l24-boris-arb-kred__num-label {
+  display: block;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--arb-muted);
+  margin-bottom: 4px;
+}
+.l24-boris-arb-kred__num-value {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-arb-kred__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--arb-muted);
+}
+.l24-boris-arb-kred__note em {
+  font-style: normal;
+  color: var(--arb-mint);
+  font-weight: 600;
+}
+.l24-boris-arb-kred__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-arb-kred__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--arb-ink);
+}
+.l24-boris-arb-kred__tag--a { border: 1px solid var(--arb-blue); color: #bee3f8; }
+.l24-boris-arb-kred__tag--b { border: 1px solid var(--arb-accent); color: #feb2b2; }
+.l24-boris-arb-kred__tag--c { border: 1px solid var(--arb-gold); color: #faf089; }
+@media (max-width: 900px) {
+  .l24-boris-arb-kred__split { grid-template-columns: 1fr; }
+  .l24-boris-arb-kred__tracks { grid-template-columns: 1fr; }
+  .l24-boris-arb-kred__days { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 520px) {
+  .l24-boris-arb-kred__days { grid-template-columns: 1fr; }
+  .l24-boris-arb-kred__nums { grid-template-columns: 1fr; }
+}
+</style>
+
+  <div class="l24-boris-arb-kred__shell">
+    <p class="l24-boris-arb-kred__eyebrow">АПК · 127-ФЗ · ст. 131 / 196 / 61 · 2025–2026</p>
+    <h3 class="l24-boris-arb-kred__title">Иск кредитора → три трека и 14 дней: не «15 дней по закону»</h3>
+    <p class="l24-boris-arb-kred__lead">Слева — <strong>развилка</strong>: государственный арбитражный суд, <strong>третейский</strong> (при действующей оговорке) или <strong>банкротное дело</strong>. Справа — <strong>первые 14 дней</strong> после получения иска: срок отзыва берётся из <strong>определения суда</strong>, а не из мифа «15/30 дней»; параллельно — давность, обеспечение и контроль апелляции в банкротстве.</p>
+
+    <div class="l24-boris-arb-kred__split">
+      <div class="l24-boris-arb-kred__panel">
+        <p class="l24-boris-arb-kred__panel-title">Развилка: куда ушёл спор</p>
+        <svg class="l24-boris-arb-kred__fork-svg" viewBox="0 0 520 168" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="arb-fork-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1e3a5f"/>
+              <stop offset="100%" stop-color="#0f2744"/>
+            </linearGradient>
+          </defs>
+          <rect width="520" height="168" rx="8" fill="url(#arb-fork-bg)" opacity="0.5"/>
+          <text x="260" y="22" text-anchor="middle" fill="#d4a853" font-size="9" font-weight="700" letter-spacing="0.12em">ИСК / ТРЕБОВАНИЕ КРЕДИТОРА</text>
+          <rect x="200" y="30" width="120" height="28" rx="6" fill="#2d3748" stroke="#d4a853" stroke-width="1.2"/>
+          <text x="260" y="49" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">Ответчик</text>
+          <path d="M260 58 L260 72" stroke="#718096" stroke-width="1.5"/>
+          <path d="M260 72 L80 100" stroke="#63b3ed" stroke-width="1.5" fill="none"/>
+          <path d="M260 72 L260 100" stroke="#5eead4" stroke-width="1.5" fill="none"/>
+          <path d="M260 72 L440 100" stroke="#f56565" stroke-width="1.5" fill="none"/>
+          <rect x="24" y="104" width="112" height="52" rx="8" fill="rgba(99,179,237,0.15)" stroke="#63b3ed" stroke-width="1.2"/>
+          <text x="80" y="124" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="700">Трек A</text>
+          <text x="80" y="140" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="600">АС · иск о долге</text>
+          <text x="80" y="152" text-anchor="middle" fill="#94a3b8" font-size="7">ст. 131 · 39 АПК</text>
+          <rect x="204" y="104" width="112" height="52" rx="8" fill="rgba(94,234,212,0.12)" stroke="#5eead4" stroke-width="1.2"/>
+          <text x="260" y="124" text-anchor="middle" fill="#99f6e4" font-size="9" font-weight="700">Оговорка</text>
+          <text x="260" y="140" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="600">Третейский суд</text>
+          <text x="260" y="152" text-anchor="middle" fill="#94a3b8" font-size="7">не гос. АС</text>
+          <rect x="384" y="104" width="112" height="52" rx="8" fill="rgba(245,101,101,0.12)" stroke="#f56565" stroke-width="1.2"/>
+          <text x="440" y="124" text-anchor="middle" fill="#feb2b2" font-size="9" font-weight="700">Трек B/C</text>
+          <text x="440" y="140" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="600">127-ФЗ · реестр</text>
+          <text x="440" y="152" text-anchor="middle" fill="#94a3b8" font-size="7">ст. 61 · 1 мес.</text>
+        </svg>
+        <ul class="l24-boris-arb-kred__tracks">
+          <li class="l24-boris-arb-kred__track">
+            <strong>Трек A — АС</strong>
+            Отзыв, давность, подсудность, отмена обеспечения (ст. 93 АПК).
+          </li>
+          <li class="l24-boris-arb-kred__track">
+            <strong>Третейский</strong>
+            Проверить оговорку до отзыва; при действительности — не гос. арбитраж.
+          </li>
+          <li class="l24-boris-arb-kred__track">
+            <strong>Трек B — банкротство</strong>
+            Реестр, обособленный спор; не второй фронт по залогу вне дела.
+          </li>
+        </ul>
+      </div>
+
+      <div class="l24-boris-arb-kred__panel">
+        <p class="l24-boris-arb-kred__panel-title">14 дней + цифры из практики</p>
+        <svg class="l24-boris-arb-kred__timeline-svg" viewBox="0 0 520 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <line x1="40" y1="58" x2="480" y2="58" stroke="#4a5568" stroke-width="2" stroke-dasharray="6 4"/>
+          <circle cx="56" cy="58" r="14" fill="#d4a853"/><text x="56" y="63" text-anchor="middle" fill="#1a202c" font-size="9" font-weight="800">0</text>
+          <circle cx="168" cy="58" r="14" fill="#63b3ed"/><text x="168" y="63" text-anchor="middle" fill="#1a202c" font-size="9" font-weight="800">3</text>
+          <circle cx="280" cy="58" r="14" fill="#5eead4"/><text x="280" y="63" text-anchor="middle" fill="#1a202c" font-size="9" font-weight="800">7</text>
+          <circle cx="392" cy="58" r="14" fill="#ed8936"/><text x="392" y="63" text-anchor="middle" fill="#1a202c" font-size="9" font-weight="800">10</text>
+          <circle cx="464" cy="58" r="14" fill="#f56565"/><text x="464" y="63" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">14</text>
+          <text x="56" y="38" text-anchor="middle" fill="#d4a853" font-size="8" font-weight="600">иск получен</text>
+          <text x="168" y="38" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="600">оговорка</text>
+          <text x="280" y="38" text-anchor="middle" fill="#99f6e4" font-size="8" font-weight="600">определение</text>
+          <text x="392" y="38" text-anchor="middle" fill="#faf089" font-size="8" font-weight="600">отзыв</text>
+          <text x="464" y="38" text-anchor="middle" fill="#feb2b2" font-size="8" font-weight="600">заседание</text>
+          <text x="56" y="92" text-anchor="middle" fill="#94a3b8" font-size="7">ст. 37 АПК</text>
+          <text x="280" y="92" text-anchor="middle" fill="#94a3b8" font-size="7">срок ст. 131</text>
+          <text x="464" y="92" text-anchor="middle" fill="#94a3b8" font-size="7">до начала</text>
+        </svg>
+        <ol class="l24-boris-arb-kred__days">
+          <li class="l24-boris-arb-kred__day">
+            <strong>День 0–1</strong>
+            Определение о принятии: выписать срок отзыва из акта, не из «15 дней».
+          </li>
+          <li class="l24-boris-arb-kred__day">
+            <strong>День 2–4</strong>
+            Договор: третейский / договорная подсудность (ст. 37, 39 АПК).
+          </li>
+          <li class="l24-boris-arb-kred__day">
+            <strong>День 5–9</strong>
+            Заявление о давности (ст. 199 ГК): 3 года + 10 лет предел.
+          </li>
+          <li class="l24-boris-arb-kred__day">
+            <strong>День 10–14</strong>
+            Отзыв по каждому доводу; отмена обеспечения; зачёт / встречный иск.
+          </li>
+        </ol>
+        <div class="l24-boris-arb-kred__nums" style="margin-top:16px">
+          <div class="l24-boris-arb-kred__num l24-boris-arb-kred__num--wide">
+            <span class="l24-boris-arb-kred__num-label">Отзыв (ст. 131 АПК)</span>
+            <span class="l24-boris-arb-kred__num-value">Срок из определения суда</span>
+          </div>
+          <div class="l24-boris-arb-kred__num">
+            <span class="l24-boris-arb-kred__num-label">Исковая давность</span>
+            <span class="l24-boris-arb-kred__num-value">3 года</span>
+          </div>
+          <div class="l24-boris-arb-kred__num">
+            <span class="l24-boris-arb-kred__num-label">Предельный срок</span>
+            <span class="l24-boris-arb-kred__num-value">10 лет</span>
+          </div>
+          <div class="l24-boris-arb-kred__num">
+            <span class="l24-boris-arb-kred__num-label">Банкротство · обособленный спор</span>
+            <span class="l24-boris-arb-kred__num-value">1 месяц</span>
+          </div>
+          <div class="l24-boris-arb-kred__num">
+            <span class="l24-boris-arb-kred__num-label">ст. 61 127-ФЗ</span>
+            <span class="l24-boris-arb-kred__num-value">апелляция</span>
+          </div>
+        </div>
+        <p class="l24-boris-arb-kred__note"><em>10 лет</em> — с даты сделки при оспаривании в банкротстве (ВС 04.07.2025 № 307-ЭС14-7082). <em>3 года</em> — только по заявлению стороны (ст. 199 ГК).</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-arb-kred__foot" aria-label="Треки защиты ответчика">
+      <span class="l24-boris-arb-kred__tag l24-boris-arb-kred__tag--a">Трек A: отзыв + давность + подсудность</span>
+      <span class="l24-boris-arb-kred__tag l24-boris-arb-kred__tag--b">Трек B: реестр · 1 мес. апелляция</span>
+      <span class="l24-boris-arb-kred__tag l24-boris-arb-kred__tag--c">Трек C: иск + угроза банкротства — единая линия</span>
+    </div>
+  </div>
+</section>
+
+
+
+<h2 id="arb-kogda">Когда возникает арбитражный спор с кредитором</h2>
+
+<p><strong>Экономические арбитражные споры</strong> возникают, когда предмет спора связан с предпринимательской деятельностью, а субъектный состав подпадает под ст. 27–28 АПК РФ. Важно: для подведомственности арбитражному суду значим <strong>характер спора</strong>, а не только статус заявителя — жалоба физлица на антимонопольное нарушение компании тоже может оказаться в АС (практика ВС 2025).</p>
+
+<h3>Иск кредитора вне банкротства и в деле о несостоятельности</h3>
+
+<p><strong>Иски кредиторов</strong> вне банкротства — взыскание долга, процентов, неустойки, убытков, расторжение договора. <strong>Иск в арбитражный суд</strong> принимается при соблюдении подсудности и госпошлины; далее суд выносит определение о принятии — в нём закрепляется срок на <strong>отзыв ответчика</strong>.</p>
+
+<p>В банкротстве картина иная: <strong>иск кредитора о банкротстве должника</strong> или заявление о включении требования — это не «второй такой же» гражданский процесс. После введения процедуры по позиции ВС (в т.ч. дело <strong>А56-119496/2023</strong>, обзор Legal Academy 2025) взыскание на заложенное у <strong>физлица-должника</strong> — <strong>только в рамках дела о банкротстве</strong>; параллельные изъятия имущества недопустимы.</p>
+
+<h3>Требования в реестре и оспаривание включения</h3>
+
+<p><strong>Реестр требований кредиторов</strong> — центральный институт банкротства. <strong>Включение в реестр</strong> оспаривается должником, конкурсным кредитором, арбитражным управляющим: завышенная сумма, неверная очередь, «бумажный» цессионарий. <strong>Оспаривание требований кредитора в банкротстве</strong> и <strong>оспаривание включения в реестр</strong> — обособленные споры с ускоренными сроками обжалования.</p>
+
+<table><thead><tr><th>Тип процесса</th><th>Что подал кредитор</th><th>Ваша первая реакция</th></tr></thead><tbody><tr><td>Обычный иск</td><td>Исковое о задолженности</td><td>Отзыв + давность + подсудность</td></tr><tr><td>Банкротство</td><td>Заявление о признании / включении</td><td>Возражения в деле о банкротстве, контроль срока <strong>1 месяц</strong> на апелляцию</td></tr><tr><td>Залог</td><td>Требование в реестре + спор о статусе</td><td>Резервирование (ст. 142 127-ФЗ), не параллельный иск</td></tr></tbody></table>
+
+<h2 id="arb-podsudnost">Подсудность: в какой арбитражный суд идти и как оспорить</h2>
+
+<p><strong>Подсудность арбитраж</strong> — частая «тихая» ошибка: ответчик не заявляет возражение — и спор уже идёт в неудобном регионе.</p>
+
+<h3>По месту ответчика и договорная подсудность</h3>
+
+<p>Общее правило (ст. 35 АПК, ред. с 01.01.2026): иск к юрлицу или ИП предъявляется по <strong>месту нахождения ответчика</strong>. Альтернативы — ст. 36 АПК (место исполнения договора, нахождение имущества и др.). <strong>Договорная подсудность</strong> (ст. 37 АПК) позволяет сторонам изменить правила <strong>до принятия иска</strong> — институт сохранён, попытки его упразднить в законопроекте не прошли.</p>
+
+<p>Проверьте договор: нет ли <strong>оговорки о третейском суде</strong>? При действительной арбитражной оговорке спор уходит в третейский суд, а не в государственный АС. <strong>Арбитражный суд по месту ответчика</strong> в договоре может быть указан явно — это законно, если оговорка не нарушает императивных норм.</p>
+
+<p><strong>Подсудность арбитражного суда по ответчику</strong> оспаривается <strong>ходатайством до первого заседания по существу</strong> (ст. 39 АПК). Пропуск срока — риск рассмотрения «чужим» судом до конца.</p>
+
+<h3>Споры кредитора при банкротстве — особенности</h3>
+
+<p>Дело о банкротстве подсудно АС по <strong>месту нахождения</strong> юрлица или <strong>жительства</strong> гражданина (ст. 33 127-ФЗ). <strong>Арбитражный суд банкротство</strong> ведёт централизованно: обособленные споры о <strong>требованиях кредиторов в деле о банкротстве</strong> рассматриваются в том же деле.</p>
+
+<p><strong>Кейс (подсудность / кассация):</strong> Определение ВС от <strong>17.04.2025</strong> № 309-ЭС25-1479(2) — отказ в передаче кассации по спору о подсудности в банкротном деле: пересмотр только при существенной судебной ошибке (ст. 291.11 АПК). Вывод для ответчика: заявляйте неправильную подсудность <strong>на старте</strong>, а не в надежде «переиграть» в кассации.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Спор ушёл в «чужой» арбитражный суд или сработала договорная подсудность? Ходатайство по ст. 39 АПК подают до первого заседания по существу — иначе защищаться придётся уже на чужой территории.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Проверка подсудности и стратегия ответа</a></p>
+</aside>
+
+<h2 id="arb-sroki">Сроки: исковая давность, процессуальные сроки и реестр</h2>
+
+<h3>Срок исковой давности и пропуск</h3>
+
+<p><strong>Срок исковой давности арбитраж</strong> для большинства требований — <strong>3 года</strong> (ст. 196 ГК); начало течения — по ст. 200 ГК (нарушение, окончание срока исполнения, предъявление при обязательстве «по требованию»). <strong>Арбитраж исковая давность</strong> применяется судом <strong>только по заявлению стороны</strong> (ст. 199 ГК) — молчание ответчика = упущенный инструмент.</p>
+
+<table><thead><tr><th>Срок</th><th>Норма</th><th>Защита ответчика</th></tr></thead><tbody><tr><td>3 года</td><td>ст. 196 ГК</td><td>Расчёт по периодам, цессия, частичные платежи (п. 24–25 Пленума ВС № 43)</td></tr><tr><td>10 лет</td><td>п. 2 ст. 196 ГК</td><td>Предельный срок; <strong>не восстанавливается</strong>; для оспаривания сделок в банкротстве — с даты сделки, не с назначения АУ</td></tr><tr><td>Пропуск</td><td>ст. 199, 207 ГК</td><td>Отдельное заявление в отзыве; для юрлиц/ИП восстановление практически недоступно</td></tr></tbody></table>
+
+<p><strong>Кейс (давность и досрочное требование):</strong> Определение ВС <strong>27.01.2026</strong> № 5-КГ25-172-К2 — предъявление требования о <strong>досрочном</strong> возврате кредита <strong>сдвигает</strong> начало течения по основному долгу и <strong>акцессорным</strong> требованиям (проценты, неустойка, залог). Суды нередко ошибаются, «отсекая» долг по дате подачи иска — проверьте хронологию претензий.</p>
+
+<p><strong>Кейс (10-летний предел):</strong> Определение ВС <strong>04.07.2025</strong> № 307-ЭС14-7082(15) — при оспаривании сделок в банкротстве предельный срок течёт с <strong>даты сделки/регистрации</strong>, а не с назначения арбитражного управляющего.</p>
+
+<h3>Сроки включения в реестр требований кредиторов</h3>
+
+<p><strong>Срок включения в реестр</strong> зависит от процедуры и соблюдения кредитором процессуальных правил. <strong>Заявление кредитора о банкротстве</strong> и <strong>иск о включении в реестр кредиторов</strong> сопровождаются доказательствами возникновения требования. Для ответчика-должника критичен <strong>срок 1 месяца</strong> на апелляцию по обособленным спорам (ст. 61 127-ФЗ после 107-ФЗ) — пропуск лишает быстрого пересмотра.</p>
+
+<p><strong>Миф «15 или 30 дней» на отзыв:</strong> в арбитраже нет универсальных «15 дней по закону» для отзыва — ориентир <strong>определение суда</strong> о принятии иска (ст. 131 АПК). Подробнее — в материале о сроках возражений (A3: <code>srok-vozrazhenij-30-vs-15-mify</code>).</p>
+
+<p><strong>Процессуальные ориентиры (2024–2026):</strong></p>
+
+<table><thead><tr><th>Действие</th><th>Правило</th></tr></thead><tbody><tr><td>Отзыв (ст. 131 АПК)</td><td>До начала заседания — срок в <strong>определении о принятии</strong></td></tr><tr><td>Упрощённое производство</td><td>Учёт доставки почтой (п. 25 Пленума ВС № 10); пропуск → риск рассмотрения по материалам истца</td></tr><tr><td>Приказное производство</td><td>До <strong>750 000 ₽</strong> — оспорить в <strong>10 дней</strong> (ст. 229.5 АПК)</td></tr><tr><td>Упрощёнка</td><td>До <strong>600 000 ₽</strong> к ИП, <strong>1,2 млн ₽</strong> к юрлицам</td></tr></tbody></table>
+
+<h2 id="arb-strategiya">Первая стратегия ответа: отзыв, возражения, встречный иск</h2>
+
+<h3>Отзыв ответчика и права в арбитражном процессе</h3>
+
+<p><strong>Отзыв ответчика в арбитражный суд</strong> обязателен (ст. 131 АПК). Это не формальная отписка: по ч. 7 ст. 131 нужны <strong>возражения по каждому доводу</strong> истца и доказательства, согласованные с раскрытием по ст. 65 АПК. <strong>Права ответчика в арбитражном суде</strong> включают ходатайства, заявление о <strong>применении исковой давности</strong>, оспаривание подсудности, ходатайство об отмене обеспечения.</p>
+
+<p>Структура сильного отзыва:</p>
+
+<ol>
+
+<li>Процессуальные возражения (подсудность, подведомственность, третейская оговорка).</li>
+
+<li>Материально-правовые (отсутствие долга, неверный расчёт, прекращение обязательства).</li>
+
+<li>Исковая давность — <strong>отдельным блоком</strong> с таблицей периодов.</li>
+
+<li>Зачёт (ст. 410–411 ГК) — при наличии встречного требования.</li>
+
+<li>Ходатайства (об отмене обеспечения, об истребовании документов у истца).</li>
+
+</ol>
+
+<h3>Возражения на иск и встречные требования к кредитору</h3>
+
+<p><strong>Возражение на иск арбитраж</strong> может сочетаться с <strong>встречным иском</strong> (ст. 132 АПК): взыскание с кредитора убытков, признание недействительным одностороннего акта, <strong>иск должника к кредитору</strong> по встречным поставкам. <strong>Встречный иск кредитору</strong> уместен, когда активное требование не пропущено по давности — иначе зачёт не сработает (п. 18 Пленума № 6; позиция ВС <strong>27.05.2025</strong> № 305-ЭС25-1730).</p>
+
+<h3>Обеспечение иска и срочные ходатайства</h3>
+
+<p>С <strong>05.01.2024</strong> обжалуется только <strong>отказ</strong> в обеспечении; снятие принятых мер — <strong>заявление об отмене</strong> (ч. 7 ст. 93 АПК), а не апелляция на определение о принятии мер. При аресте счетов и запрете распоряжения имуществом промедление бьёт по обороту сильнее, чем спор по существу долга.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Отзыв по ст. 131 АПК, заявление об исковой давности и отмена обеспечения иска — три разных инструмента. Смешать их в одной «отписке» — типичная ошибка, которую суд учитывает в пользу истца.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с отзывом и возражениями в арбитраже</a></p>
+</aside>
+
+<h2 id="arb-dokazatelstva">Доказательства и представитель в арбитраже</h2>
+
+<h3>Что собрать в первые 2–4 недели</h3>
+
+<p><strong>Доказательства в арбитражном суде</strong> должны подтверждать каждый тезис отзыва:</p>
+
+<table><thead><tr><th>Категория</th><th>Примеры</th></tr></thead><tbody><tr><td>Договор и исполнение</td><td>Договор, спецификации, УПД, акты, переписка о просрочке</td></tr><tr><td>Платежи</td><td>Выписки, платёжные поручения, зачёты</td></tr><tr><td>Давность</td><td>Даты претензий, цессия, график платежей по периодам</td></tr><tr><td>Подсудность</td><td>Оговорка, адреса сторон, место исполнения</td></tr><tr><td>Банкротство</td><td>Определения о процедуре, реестр, возражения других кредиторов</td></tr></tbody></table>
+
+<p><strong>Представление доказательств</strong> — с учётом сроков раскрытия: опоздание = риск отказа в оценке довода.</p>
+
+<h3>Полномочия представителя ответчика</h3>
+
+<p><strong>Представитель ответчика в арбитражном суде</strong> действует по доверенности с полномочиями на подписание отзыва, заявление о давности, ходатайства об отмене обеспечения, признание иска (если стратегия это допускает). <strong>Представитель в арбитраже</strong> для юрлица — не роскошь, а способ не пропусть процессуальный срок, пока руководитель занят операционкой.</p>
+
+<a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с арбитражным спором</a> — имеет смысл, когда сумма иска превышает порог упрощёнки, подключено обеспечение или параллельно идёт банкротство.
+
+<h2 id="arb-cheklist">Чеклист первых 14 дней после получения иска</h2>
+
+<table><thead><tr><th>День</th><th>Действие</th><th>Норма / риск</th></tr></thead><tbody><tr><td>1</td><td>Зафиксировать дату получения иска; проверить трек A/B/C</td><td>Пропуск = хаос в сроках</td></tr><tr><td>1–2</td><td>Прочитать определение о принятии: <strong>срок отзыва</strong>, судья, заседание</td><td>ст. 131 АПК — не «15 дней из интернета»</td></tr><tr><td>2–3</td><td>Проверить подведомственность (АС/СОЮ/третейский) и подсудность</td><td>ст. 27–28, 37, 39 АПК</td></tr><tr><td>3–5</td><td>Собрать договор, расчёт истца, платежи, переписку</td><td>ст. 65, 131 АПК</td></tr><tr><td>5–7</td><td>Расчёт исковой давности по периодам; цессия; досрочные требования</td><td>ст. 196–200 ГК; дело 5-КГ25-172-К2</td></tr><tr><td>7–10</td><td>Направить <strong>отзыв</strong> суду и лицам в деле</td><td>Пропуск → упрощёнка «по материалам истца»</td></tr><tr><td>8–10</td><td>При обеспечении — <strong>заявление об отмене</strong>, не апелляция</td><td>ч. 7 ст. 93 АПК</td></tr><tr><td>10–12</td><td>Ходатайство о неправильной подсудности (если есть основания)</td><td>ст. 39 АПК — до 1-го заседания по существу</td></tr><tr><td>12–14</td><td>Оценить зачёт и встречный иск; при банкротстве — возражение в реестр</td><td>ст. 410–411 ГК; ст. 61 127-ФЗ</td></tr></tbody></table>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Чеклист на 14 дней — каркас, но без согласованной линии по банкротству, обеспечению и давности легко пропустить месяц на апелляцию в обособленном споре или перепутать срок отзыва с «15 днями из интернета».</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Разбор сроков и плана защиты ответчика</a></p>
+</aside>
+
+<h2 id="arb-bankrotstvo">Банкротство и кредитор: что меняется для ответчика</h2>
+
+<p><strong>Банкротство кредиторы должники</strong> — не симметричная «драка»: у должника приоритет — сохранить процедуру и оспорить необоснованные <strong>требования кредиторов в деле о банкротстве</strong>.</p>
+
+<ul>
+
+<li><strong>Мораторий</strong> не отменяет неустойку за <strong>новые</strong> нарушения во время моратория (практика «Крыловский центр», Балтийский завод).</li>
+
+<li><strong>Залог:</strong> с наблюдения взыскание — через <strong>заявление в реестр</strong> (Пленум ВАС № 58); принудительное исполнение по залогу приостанавливается.</li>
+
+<li><strong>Резервирование:</strong> п. 6 ст. 142 127-ФЗ; КС РФ (2025) подтвердил обязанность КУ резервировать при споре о залоге (ориентир судов — <strong>~80%</strong> выручки от залогового имущества).</li>
+
+<li><strong>Налоговый арест:</strong> Обзор ВС (апр. 2026, № 7А/2026) — п. 2.1 ст. 73 НК: при неуплате ФНС может получить <strong>залоговый</strong> статус в банкротстве.</li>
+
+</ul>
+
+<p><strong>Кейс (залоговый кредитор и план):</strong> Определение ВС <strong>17.04.2026</strong> № 305-ЭС26-470 (дело № А40-260780/2023) — отказ залогового кредитора от локального плана с погашением <strong>6,3%</strong> залоговых требований признан <strong>разумным</strong> (нарушение реабилитационного паритета). Для должника это аргумент, что не любое предложение кредитора обязательно принимать.</p>
+
+<p><strong>Кредиторы при банкротстве</strong> конкурируют за очередность; <strong>оспаривание требований кредиторов</strong> защищает конкурсную массу от «раздувания» реестра.</p>
+
+<h2 id="arb-oshibki">Типовые ошибки ответчика и когда нужен адвокат</h2>
+
+<table><thead><tr><th>Ошибка</th><th>Последствие</th></tr></thead><tbody><tr><td>Ждать «15 дней» без чтения определения суда</td><td>Пропуск отзыва, рассмотрение в упрощёнке без вас</td></tr><tr><td>Не заявить исковую давность</td><td>Суд взыскивает весь срок, хотя 3 года истекли</td></tr><tr><td>Апеллировать принятие обеспечения вместо отмены</td><td>Потеря времени, счета остаются заблокированными</td></tr><tr><td>Параллельный иск по залогу при банкротстве</td><td>Отказ во взыскании, процессуальные издержки</td></tr><tr><td>Признать иск «чтобы не портить отношения»</td><td>Немедленное взыскание, преюдиция</td></tr><tr><td>Игнорировать срок <strong>1 месяц</strong> в обособленном споре</td><td>Закрепление требования в реестре</td></tr></tbody></table>
+
+<p><strong>Защита ответчика в арбитражном суде</strong> на профессиональном уровне нужна, когда: сумма выше <strong>1,2 млн ₽</strong>, наложено обеспечение, идёт <strong>иск кредитора о банкротстве</strong>, спорная <strong>цессия</strong>, или активен <strong>залоговый</strong> кредитор. <strong>Адвокат по арбитражным спорам</strong> выстраивает единую линию: отзыв, давность, подсудность, банкротная вилка. На этом этапе можно <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">получить консультацию по арбитражному спору</a> — разбор трека A/B/C и черновик позиции до заседания.</p>
+
+<section class="l24-faq-arb ym-section"><h2 id="arb-faq">Частые вопросы (FAQ)</h2>
+
+<div class="l24-faq-arb__item"><h3 class="l24-faq-arb__q">Чем арбитражный суд отличается от третейского арбитража?</h3>
+
+<p class="l24-faq-arb__a">Государственный АС — суд общей юрисдикции для экономических споров (АПК). Третейский суд — по договорной оговорке; оспаривание решения — в АС (гл. 37 АПК).</p></div>
+
+<div class="l24-faq-arb__item"><h3 class="l24-faq-arb__q">Можно ли не подавать отзыв?</h3>
+
+<p class="l24-faq-arb__a">Отзыв обязателен (ст. 131 АПК). Без него суд вправе рассмотреть дело по имеющимся доказательствам — обычно в пользу истца.</p></div>
+
+<div class="l24-faq-arb__item"><h3 class="l24-faq-arb__q">Как оспорить включение кредитора в реестр?</h3>
+
+<p class="l24-faq-arb__a">Возражения в деле о банкротстве, обособленный спор; апелляция — <strong>1 месяц</strong> со дня определения (ст. 61 127-ФЗ).</p></div>
+
+<div class="l24-faq-arb__item"><h3 class="l24-faq-arb__q">Работает ли исковая давность автоматически?</h3>
+
+<p class="l24-faq-arb__a">Нет (ст. 199 ГК). Нужно заявление ответчика с расчётом.</p></div>
+
+<div class="l24-faq-arb__item"><h3 class="l24-faq-arb__q">Что делать при приказном производстве?</h3>
+
+<p class="l24-faq-arb__a">Возражения в <strong>10 дней</strong> с получения копии приказа (ст. 229.5 АПК).</p></div>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации по арбитражным спорам с кредиторами: подсудность, сроки, отзыв, реестр требований и защита ответчика до первого заседания.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом</a></p>
+</aside>
+</section>
+
+</div>
+</section>
+
+</main>
+<!-- /wp:html -->

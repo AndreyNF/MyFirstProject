@@ -1,0 +1,1035 @@
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section,
+.entry-title, h1.entry-title, .et_pb_title_container,
+#main-content > .container > .et_pb_row:first-child h1 { display: none !important; visibility: hidden !important; height: 0 !important; overflow: hidden !important; margin: 0 !important; padding: 0 !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page th, .otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page th { background: #edf2f7; }
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page a { color: #1e40af; }
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page ol, .otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page ul { margin: 1em 0; padding-left: 1.4em; }
+.otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page li { margin-bottom: 0.45em; }
+.l24-intro-ip-pret {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-ip-pret__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-ip-pret__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-ip-pret__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-ip-pret__text p:last-child { margin-bottom: 0; }
+.l24-intro-ip-pret__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-ip-pret__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-ip-pret__chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none; }
+.l24-intro-ip-pret__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-ip-pret__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-ip-pret__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-ip-pret__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list { list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-ip-pret {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-ip-pret h2 { margin-top: 0 !important; }
+.l24-faq-ip-pret__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-ip-pret__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-ip-pret__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-ip-pret__a { margin: 0; color: #334155; }
+@media (max-width: 900px) {
+  .l24-intro-ip-pret__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<section id="l24-hero-ip-pret-otvet" class="hero-ip-pret-otvet" aria-label="Ответ на претензию по интеллектуальной собственности">
+  <style>
+    .hero-ip-pret-otvet {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(158deg, #fafbfc 0%, #f4f6f9 40%, #eef1f6 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ip-pret-otvet::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 62% 48% at 88% 18%, rgba(30, 64, 175, 0.08) 0%, transparent 58%),
+        radial-gradient(ellipse 48% 42% at 8% 88%, rgba(163, 24, 48, 0.05) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .hero-ip-pret-otvet__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-ip-pret-otvet__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-ip-pret-otvet__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e40af;
+      flex-shrink: 0;
+    }
+    .hero-ip-pret-otvet__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.55rem, 3.6vw, 2.35rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-ip-pret-otvet__h1-accent {
+      color: #1e40af;
+    }
+    .hero-ip-pret-otvet__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-ip-pret-otvet__deadlines {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-ip-pret-otvet__deadline {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-ip-pret-otvet__deadline-tag {
+      flex-shrink: 0;
+      min-width: 72px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.72rem;
+      letter-spacing: 0.03em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    .hero-ip-pret-otvet__deadline--soft .hero-ip-pret-otvet__deadline-tag {
+      background: #f1f5f9;
+      color: #64748b;
+      border: 1px solid #e2e8f0;
+    }
+    .hero-ip-pret-otvet__deadline--key .hero-ip-pret-otvet__deadline-tag {
+      background: #1e40af;
+      color: #fff;
+    }
+    .hero-ip-pret-otvet__deadline--spec .hero-ip-pret-otvet__deadline-tag {
+      background: #0f766e;
+      color: #fff;
+    }
+    .hero-ip-pret-otvet__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+      line-height: 1.35;
+    }
+    .hero-ip-pret-otvet__cta:hover {
+      background: #8b1528;
+    }
+    .hero-ip-pret-otvet__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ip-pret-otvet__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-ip-pret-otvet__visual {
+        order: -1;
+        max-height: 300px;
+      }
+      .hero-ip-pret-otvet__deadline-tag {
+        min-width: 64px;
+        font-size: 0.68rem;
+      }
+    }
+  </style>
+  <div class="hero-ip-pret-otvet__inner">
+    <div class="hero-ip-pret-otvet__content">
+      <div class="hero-ip-pret-otvet__badge">
+        <span class="hero-ip-pret-otvet__badge-dot" aria-hidden="true"></span>
+        ИС · претензия · ст. 1252 · 214-ФЗ · 2026
+      </div>
+      <h1 class="hero-ip-pret-otvet__h1">
+        <span class="hero-ip-pret-otvet__h1-accent">Ответ на претензию</span> по интеллектуальной собственности: сроки и типовые ошибки
+      </h1>
+      <p class="hero-ip-pret-otvet__sub">
+        Сроки досудебного порядка, типичные ошибки ответчика и доказательства до иска по товарному знаку и авторским правам
+      </p>
+      <ul class="hero-ip-pret-otvet__deadlines">
+        <li class="hero-ip-pret-otvet__deadline hero-ip-pret-otvet__deadline--soft">
+          <span class="hero-ip-pret-otvet__deadline-tag">7–14 дн.</span>
+          <span><strong>Срок «из шапки»</strong> — психологическое давление; пропуск не ухудшает позицию автоматически</span>
+        </li>
+        <li class="hero-ip-pret-otvet__deadline hero-ip-pret-otvet__deadline--key">
+          <span class="hero-ip-pret-otvet__deadline-tag">30 дн.</span>
+          <span><strong>п. 5.1 ст. 1252 ГК РФ</strong> — окно для мотивированного ответа до иска о comp/убытках в арбитраже</span>
+        </li>
+        <li class="hero-ip-pret-otvet__deadline hero-ip-pret-otvet__deadline--spec">
+          <span class="hero-ip-pret-otvet__deadline-tag">2 мес.</span>
+          <span><strong>ст. 1486 ГК РФ</strong> — спецрежим по неиспользованию ТЗ; иные сроки и последствия</span>
+        </li>
+      </ul>
+      <a class="hero-ip-pret-otvet__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по ответу на претензию по ИС</a>
+    </div>
+    <div class="hero-ip-pret-otvet__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Претензия, ответ с печатью и щит защиты интеллектуальной собственности">
+        <defs>
+          <linearGradient id="hero-pret-paper" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hero-pret-shield" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="55%" stop-color="#1e40af"/>
+            <stop offset="100%" stop-color="#2563eb"/>
+          </linearGradient>
+          <linearGradient id="hero-pret-stamp" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#b91c1c"/>
+            <stop offset="100%" stop-color="#a31830"/>
+          </linearGradient>
+          <linearGradient id="hero-pret-desk" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#e7e5e4"/>
+            <stop offset="100%" stop-color="#d6d3d1"/>
+          </linearGradient>
+          <filter id="hero-pret-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.14"/>
+          </filter>
+        </defs>
+        <!-- фоновые линии канцелярии -->
+        <g opacity="0.28" stroke="#94a3b8" stroke-width="0.7">
+          <line x1="30" y1="72" x2="410" y2="72"/>
+          <line x1="30" y1="112" x2="410" y2="112"/>
+          <line x1="30" y1="152" x2="410" y2="152"/>
+          <line x1="30" y1="192" x2="410" y2="192"/>
+          <line x1="30" y1="232" x2="410" y2="232"/>
+          <line x1="30" y1="272" x2="410" y2="272"/>
+          <line x1="30" y1="312" x2="410" y2="312"/>
+        </g>
+        <!-- щит ИС (задний план) -->
+        <g filter="url(#hero-pret-shadow)" transform="translate(148, 58)">
+          <path d="M72 0 L144 28 V88 C144 128 108 158 72 172 C36 158 0 128 0 88 V28 Z" fill="url(#hero-pret-shield)" stroke="#1e3a8a" stroke-width="2"/>
+          <circle cx="72" cy="78" r="34" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"/>
+          <text x="72" y="72" text-anchor="middle" fill="#fff" font-size="22" font-weight="800" font-family="Georgia, serif">©</text>
+          <text x="52" y="98" text-anchor="middle" fill="#bfdbfe" font-size="14" font-weight="700" font-family="Georgia, serif">®</text>
+          <text x="92" y="98" text-anchor="middle" fill="#bfdbfe" font-size="13" font-weight="700" font-family="system-ui, sans-serif">№</text>
+          <text x="72" y="152" text-anchor="middle" fill="#dbeafe" font-size="9" font-weight="700" letter-spacing="0.08em">ИС</text>
+        </g>
+        <!-- входящая претензия -->
+        <g filter="url(#hero-pret-shadow)" transform="translate(36, 118) rotate(-6 70 90)">
+          <rect width="140" height="180" rx="8" fill="url(#hero-pret-paper)" stroke="#cbd5e1" stroke-width="1.4"/>
+          <rect x="0" y="0" width="140" height="32" rx="8" fill="#fef2f2"/>
+          <rect x="0" y="24" width="140" height="8" fill="#fef2f2"/>
+          <text x="70" y="21" text-anchor="middle" fill="#a31830" font-size="10" font-weight="800" letter-spacing="0.06em">ПРЕТЕНЗИЯ</text>
+          <line x1="18" y1="48" x2="122" y2="48" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+          <line x1="18" y1="64" x2="110" y2="64" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+          <line x1="18" y1="78" x2="118" y2="78" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+          <line x1="18" y1="92" x2="96" y2="92" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+          <rect x="18" y="112" width="104" height="22" rx="4" fill="#fee2e2" stroke="#fecaca" stroke-width="1"/>
+          <text x="70" y="127" text-anchor="middle" fill="#b91c1c" font-size="9" font-weight="700">10 дней · comp</text>
+          <line x1="18" y1="148" x2="122" y2="148" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+          <line x1="18" y1="162" x2="108" y2="162" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <!-- исходящий ответ -->
+        <g filter="url(#hero-pret-shadow)" transform="translate(248, 108) rotate(4 70 95)">
+          <rect width="148" height="188" rx="8" fill="url(#hero-pret-paper)" stroke="#93c5fd" stroke-width="1.6"/>
+          <rect x="0" y="0" width="148" height="34" rx="8" fill="#eff6ff"/>
+          <rect x="0" y="26" width="148" height="8" fill="#eff6ff"/>
+          <text x="74" y="22" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="800" letter-spacing="0.06em">ОТВЕТ</text>
+          <line x1="20" y1="50" x2="128" y2="50" stroke="#dbeafe" stroke-width="5" stroke-linecap="round"/>
+          <line x1="20" y1="66" x2="116" y2="66" stroke="#dbeafe" stroke-width="4" stroke-linecap="round"/>
+          <line x1="20" y1="80" x2="124" y2="80" stroke="#dbeafe" stroke-width="4" stroke-linecap="round"/>
+          <line x1="20" y1="94" x2="100" y2="94" stroke="#dbeafe" stroke-width="4" stroke-linecap="round"/>
+          <rect x="20" y="110" width="108" height="24" rx="4" fill="#ecfdf5" stroke="#a7f3d0" stroke-width="1"/>
+          <text x="74" y="126" text-anchor="middle" fill="#047857" font-size="8.5" font-weight="700">по пунктам · без признаний</text>
+          <line x1="20" y1="150" x2="128" y2="150" stroke="#dbeafe" stroke-width="4" stroke-linecap="round"/>
+          <line x1="20" y1="164" x2="112" y2="164" stroke="#dbeafe" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <!-- печать на ответе -->
+        <g filter="url(#hero-pret-shadow)" transform="translate(318, 248) rotate(12)">
+          <circle cx="0" cy="0" r="34" fill="none" stroke="url(#hero-pret-stamp)" stroke-width="3.5" opacity="0.92"/>
+          <circle cx="0" cy="0" r="26" fill="none" stroke="url(#hero-pret-stamp)" stroke-width="1.5" opacity="0.75"/>
+          <text x="0" y="-4" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800" letter-spacing="0.1em">ОТВЕТ</text>
+          <text x="0" y="10" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">НАПРАВЛЕН</text>
+        </g>
+        <!-- стрелка претензия → ответ -->
+        <g stroke="#64748b" stroke-width="2" fill="none" opacity="0.55">
+          <path d="M178 210 C210 200, 230 198, 252 205" stroke-dasharray="5 4"/>
+          <polygon points="252,205 244,200 246,210" fill="#64748b" stroke="none"/>
+        </g>
+        <!-- календарь 30 дней -->
+        <g filter="url(#hero-pret-shadow)" transform="translate(52, 28)">
+          <rect width="108" height="72" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="108" height="22" rx="10" fill="#1e40af"/>
+          <rect x="0" y="14" width="108" height="8" fill="#1e40af"/>
+          <text x="54" y="15" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">ст. 1252 · 30 дней</text>
+          <g fill="#e2e8f0">
+            <rect x="12" y="30" width="14" height="12" rx="2"/>
+            <rect x="30" y="30" width="14" height="12" rx="2"/>
+            <rect x="48" y="30" width="14" height="12" rx="2"/>
+            <rect x="66" y="30" width="14" height="12" rx="2"/>
+            <rect x="84" y="30" width="14" height="12" rx="2"/>
+            <rect x="12" y="46" width="14" height="12" rx="2"/>
+            <rect x="30" y="46" width="14" height="12" rx="2"/>
+            <rect x="48" y="46" width="14" height="12" rx="2"/>
+            <rect x="66" y="46" width="14" height="12" rx="2"/>
+            <rect x="84" y="46" width="14" height="12" rx="2"/>
+          </g>
+          <rect x="12" y="30" width="86" height="28" rx="4" fill="none" stroke="#1e40af" stroke-width="1.5" stroke-dasharray="3 2" opacity="0.5"/>
+          <rect x="66" y="46" width="14" height="12" rx="2" fill="#1e40af"/>
+          <text x="73" y="55" text-anchor="middle" fill="#fff" font-size="8" font-weight="800">30</text>
+        </g>
+        <!-- подставка / стол -->
+        <rect x="24" y="328" width="392" height="14" rx="7" fill="url(#hero-pret-desk)" stroke="#a8a29e" stroke-width="1"/>
+        <!-- подпись потока -->
+        <text x="220" y="368" text-anchor="middle" fill="#64748b" font-size="9" font-weight="600" letter-spacing="0.04em">ПРЕТЕНЗИЯ → ОТВЕТ → ЗАЩИТА ИС</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-ip-pret" aria-label="Введение">
+  <div class="l24-intro-ip-pret__grid">
+    <div class="l24-intro-ip-pret__text">
+      <p>Письмо от правообладателя с требованием прекратить использование чужого товарного знака, текста или изображения — это <strong>претензия по интеллектуальной собственности</strong>. Для ответчика это точка, где ещё можно повлиять на исход: зафиксировать позицию, собрать доказательства и не усугубить риски до иска.</p>
+      <p>Ниже — практическая дорожная карта: что проверить в сроках, как ответить по пунктам без лишних признаний и какие доказательства подготовить до суда по товарному знаку и авторским правам.</p>
+      <div class="l24-intro-ip-pret__brief">
+        <strong>Кратко:</strong> срок «10 дней» в шапке претензии — давление, не дедлайн; для comp/убытков в арбитраже ориентир — <strong>30 календарных дней</strong> (п. 5.1 ст. 1252 ГК РФ); с 04.01.2026 comp по ТЗ — до 10 млн ₽ (214-ФЗ); ответ должен быть мотивированным и по каждому требованию.
+      </div>
+    </div>
+    <aside class="l24-intro-ip-pret__decor" aria-label="Маршрут ответчика">
+      <ul class="l24-intro-ip-pret__chips">
+        <li class="l24-intro-ip-pret__chip l24-intro-ip-pret__chip--warn">30 дней</li>
+        <li class="l24-intro-ip-pret__chip l24-intro-ip-pret__chip--accent">ст. 1252</li>
+        <li class="l24-intro-ip-pret__chip">ТЗ / ©</li>
+        <li class="l24-intro-ip-pret__chip">214-ФЗ</li>
+        <li class="l24-intro-ip-pret__chip">ст. 1486</li>
+        <li class="l24-intro-ip-pret__chip l24-intro-ip-pret__chip--accent">1252.1</li>
+      </ul>
+      <svg class="l24-intro-ip-pret__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Схема: претензия, сроки, ответ, иск">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">ОТВЕТЧИК</text>
+        <circle cx="56" cy="88" r="18" fill="#a31830"/><text x="56" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">ПР</text>
+        <circle cx="136" cy="88" r="18" fill="#1e40af"/><text x="136" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">30д</text>
+        <circle cx="216" cy="88" r="18" fill="#0f766e"/><text x="216" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">ОТВ</text>
+        <circle cx="284" cy="88" r="18" fill="#475569"/><text x="284" y="93" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">иск</text>
+        <line x1="74" y1="88" x2="118" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="154" y1="88" x2="198" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="234" y1="88" x2="266" y2="88" stroke="#94a3b8" stroke-width="2"/>
+        <text x="56" y="130" text-anchor="middle" fill="#475569" font-size="8">претензия</text>
+        <text x="136" y="130" text-anchor="middle" fill="#475569" font-size="8">сроки</text>
+        <text x="216" y="130" text-anchor="middle" fill="#475569" font-size="8">ответ</text>
+        <text x="284" y="130" text-anchor="middle" fill="#475569" font-size="8">отзыв</text>
+        <rect x="24" y="148" width="272" height="36" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+        <text x="160" y="170" text-anchor="middle" fill="#1e40af" font-size="10" font-weight="700">comp · 1252.1 · без признаний</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#ip-pret-what">Что такое претензия</a></li>
+    <li><a href="#ip-pret-sroki">Сроки ответа</a></li>
+    <li><a href="#ip-pret-otvet">Как ответить</a></li>
+    <li><a href="#ip-pret-errors">Типовые ошибки</a></li>
+    <li><a href="#ip-pret-evidence">Доказательства</a></li>
+    <li><a href="#ip-pret-consequences">Последствия</a></li>
+    <li><a href="#ip-pret-lawyer">Помощь юриста</a></li>
+    <li><a href="#ip-pret-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div class="l24-longread-wrap" itemprop="articleBody">
+<h2 id="ip-pret-what">Что такое претензия по интеллектуальной собственности и когда её ждать</h2>
+
+<p>Письмо от правообладателя с требованием прекратить использование чужого товарного знака, текста, изображения или другого объекта интеллектуальной собственности — это <strong>претензия по интеллектуальной собственности</strong>. Формально это досудебное обращение: правообладатель фиксирует, что, по его мнению, нарушены его <strong>исключительные права</strong>, и предлагает урегулировать спор без суда.</p>
+
+<p>Получить такую претензию может интернет-магазин, маркетплейс-продавец, рекламное агентство, издательство, SaaS-сервис — любой, кто размещает обозначения, контент или технологии на сайте, в соцсетях, на упаковке или в рекламе. Частые поводы: <strong>нарушение товарного знака</strong> (сходное название, логотип, домен), <strong>нарушение авторских прав</strong> (фото, тексты, дизайн, музыка), претензии по патентам, программам для ЭВМ, базам данных.</p>
+
+<p><strong>Претензия о нарушении исключительного права</strong> отличается от иска тем, что суд ещё не подключён. У претензии три задачи для правообладателя: уведомить вас о правах, зафиксировать состав нарушения и дать шанс урегулировать спор. Для вас как ответчика это точка, где ещё можно повлиять на исход — через позицию, доказательства и переговоры.</p>
+
+<p><strong>Досудебная претензия по интеллектуальной собственности</strong> не всегда обязательна по закону (об этом ниже), но игнорировать её рискованно: после получения вы считаетесь уведомлённым о правах, и продолжение спорных действий может квалифицироваться как виновное нарушение.</p>
+
+<p>Типичное содержание претензии:</p>
+
+<ul><li>указание на объект ИС (регистрация товарного знака, свидетельство, договор);</li><li>описание ваших действий, которые правообладатель считает незаконными;</li><li>требования: прекратить использование, удалить материалы, выплатить <strong>компенсацию</strong> или <strong>убытки</strong>, предоставить отчёт;</li><li>срок для ответа — часто 7–14 дней, реже 30 дней.</li></ul>
+
+<p>Важно: претензия должна быть реакцией на <strong>конкретные действия</strong>, а не абстрактным предупреждением. Если в письме нет чёткой привязки к вашему поведению, это аргумент в вашу пользу — но ответить всё равно стоит.</p>
+
+<h3>Претензия по товарному знаку и по авторским правам — в чём разница для ответчика</h3>
+
+<p>Для ответчика разница не в «форме письма», а в <strong>предмете спора и доказательствах</strong>.</p>
+
+<p><strong>Претензия о нарушении товарного знака</strong> обычно строится вокруг:</p>
+
+<ul><li>зарегистрированного обозначения и перечня товаров/услуг (классы МКТУ);</li><li><strong>сходства до степени смешения</strong> вашего обозначения с чужим;</li><li><strong>однородности</strong> товаров или услуг;</li><li>факта использования в предпринимательской деятельности.</li></ul>
+
+<p>Спор часто идёт в <strong>арбитражный суд</strong> — даже если вы физлицо без статуса ИП: по разъяснениям Верховного Суда (п. 4 Постановления Пленума ВС РФ от 23.04.2019 № 10) споры о средствах индивидуализации подведомственны арбитражу <strong>независимо от субъектного состава</strong>.</p>
+
+<p><strong>Претензия о нарушении авторских прав</strong> чаще касается:</p>
+
+<ul><li>копирования текста, фото, иллюстраций, видео, музыки;</li><li>размещения на сайте, в соцсетях, в рекламных материалах;</li><li>отсутствия лицензии или превышения её пределов.</li></ul>
+
+<p>Здесь ключевые вопросы: <strong>произведение ли это</strong>, <strong>ваше ли использование</strong>, есть ли <strong>лицензия</strong>, <strong>свободное использование</strong> (цитирование, служебное произведение и т.д.). Если правообладатель — физлицо и спор не подпадает под арбитражную подведомственность, дело может уйти в <strong>суд общей юрисдикции</strong>, где обязательного претензионного порядка нет — но стратегически ответ всё равно нужен.</p>
+
+<table>
+<thead><tr><th>Критерий</th><th>Товарный знак</th><th>Авторское право</th></tr></thead>
+<tbody>
+<tr><td>Объект</td><td>Зарегистрированное обозначение</td><td>Произведение (текст, фото, код и т.д.)</td></tr>
+<tr><td>Ядро спора</td><td>Сходство + однородность</td><td>Факт копирования + охраноспособность</td></tr>
+<tr><td>Типичный суд</td><td>Арбитраж</td><td>Арбитраж или СОЮ</td></tr>
+<tr><td>Частые требования</td><td>Запрет + компенсация</td><td>Удаление + компенсация</td></tr>
+</tbody></table>
+
+<h2 id="ip-pret-sroki">Сроки ответа на претензию: что проверить в первую очередь</h2>
+
+<p>Главная ловушка для ответчика — <strong>путаница сроков</strong>. В шапке претензии часто пишут: «ответьте в течение 10 дней». Это <strong>не юридический дедлайн</strong> для вас: пропуск такого срока не влечёт автоматических санкций. Это инструмент давления, а не процессуальная отсечка.</p>
+
+<p>Реально важны три режима:</p>
+
+<table>
+<thead><tr><th>Режим</th><th>Срок</th><th>Что означает для ответчика</th></tr></thead>
+<tbody>
+<tr><td>Срок «из шапки претензии» (7–14 дней)</td><td>Не установлен законом</td><td>Психологическое давление; пропуск не ухудшает позицию автоматически</td></tr>
+<tr><td><strong>п. 5.1 ст. 1252 ГК РФ</strong></td><td><strong>30 календарных дней</strong></td><td>После истечения при отсутствии ответа или отказе правообладатель <strong>вправе</strong> подать иск о компенсации/убытках</td></tr>
+<tr><td><strong>ст. 1486 ГК РФ</strong> (неиспользование ТЗ)</td><td><strong>2 месяца</strong> для правообладателя</td><td>Спецрежим: иной срок ответа и иные последствия пропуска</td></tr>
+</tbody></table>
+
+<p>По <strong>п. 5.1 ст. 1252 ГК РФ</strong> претензия <strong>обязательна</strong> перед иском о возмещении убытков или выплате компенсации, если обе стороны — юрлица и/или ИП и спор подлежит рассмотрению в арбитражном суде. Иск возможен при полном или частичном отказе либо <strong>неполучении ответа в 30 дней</strong> со дня направления претензии. Иной срок возможен, если он предусмотрен <strong>договором</strong> между сторонами — проверьте договоры поставки, франшизы, лицензии.</p>
+
+<p>Претензия <strong>не обязательна</strong> для требований по пп. 1, 2, 4, 5 п. 1 и п. 5 ст. 1252 ГК РФ: запрет использования, изъятие контрафакта, признание недействительной регистрации и аналогичные неимущественные требования. По ним правообладатель может идти в суд <strong>сразу</strong> — без ожидания 30 дней.</p>
+
+<p><strong>Ч. 5 ст. 4 АПК РФ</strong> закрепляет общий принцип: 30 дней на досудебное урегулирование споров из гражданских правоотношений, если иное не установлено законом или договором.</p>
+
+<p><strong>Практический календарь ответчика:</strong></p>
+
+<ol><li>День получения претензии — зафиксировать дату (штамп на конверте, уведомление ЭДО, акт курьера).</li><li>Дни 1–3 — проверить полномочия отправителя, объект ИС, состав требований.</li><li>Дни 3–10 — собрать доказательства, определить стратегию (оспаривание / прекращение / переговоры).</li><li>До 30-го дня — направить <strong>мотивированный ответ</strong> с фиксацией отправки.</li></ol>
+
+<p>Истечение 30 дней не означает автоматической подачи иска — но лишает вас рычага на переговорах и фиксации позиции до суда.</p>
+
+<h3>Обязателен ли досудебный порядок по спорам об ИС</h3>
+
+<p><strong>Претензионный порядок</strong> по спорам об интеллектуальной собственности зависит от <strong>вида требования</strong> и <strong>суда</strong>, куда пойдёт спор.</p>
+
+<p><strong>Обязателен</strong> (п. 5.1 ст. 1252 ГК РФ):</p>
+
+<ul><li>иск о <strong>компенсации</strong> за нарушение исключительных прав;</li><li>иск о <strong>убытках</strong> (с оговоркой: в претензии по убыткам нужна <strong>конкретная сумма</strong>, в отличие от компенсации, где достаточно указать пределы и суть спора — п. 10 Обзора ВС от 22.07.2020, п. 16 ПП ВС № 18 от 22.06.2021);</li><li>стороны — юрлица и/или ИП;</li><li>подведомственность — арбитраж.</li></ul>
+
+<p><strong>Не обязателен</strong>:</p>
+
+<ul><li>требования о запрете использования, изъятии, признании регистрации недействительной (п. 5.1 ст. 1252);</li><li>споры в <strong>судах общей юрисдикции</strong> — ГПК РФ не устанавливает обязательный досудебный порядок для таких дел. Один и тот же фактический спор может требовать или не требовать претензию в зависимости от того, куда обратится истец.</li></ul>
+
+<p><strong>Досудебный претензионный порядок</strong> считается соблюдённым, когда в обращении есть указание на конкретный материально-правовой спор и предложение урегулировать — без обязательной точной суммы компенсации.</p>
+
+<p>По практике Суда по интеллектуальным правам (дело СИП-360/2022): претензия иностранному правообладателю на русском без перевода может считаться достаточной, если достигнута цель — переписка и разъяснение спора.</p>
+
+<p>Если вы получили претензию, но спор, вероятно, уйдёт в СОЮ — формально ждать 30 дней не обязательно. <strong>Стратегически</strong> ответ всё равно нужен: он фиксирует позицию, исковую давность, возражения по существу — и пригодится в отзыве на иск.</p>
+
+<section id="l24-boris-ip-pret-sroki-track" class="l24-boris-ip-pret-sroki" aria-label="Календарь ответчика: сроки ответа на претензию по интеллектуальной собственности">
+<style>
+.l24-boris-ip-pret-sroki {
+  --ip-navy: #0f2744;
+  --ip-navy-soft: #1a365d;
+  --ip-blue: #63b3ed;
+  --ip-gold: #ecc94b;
+  --ip-teal: #4fd1c5;
+  --ip-accent: #fc8181;
+  --ip-ink: #e2e8f0;
+  --ip-muted: #a0aec0;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ip-pret-sroki__shell {
+  background: linear-gradient(148deg, var(--ip-navy) 0%, #122640 52%, var(--ip-navy-soft) 100%);
+  border: 1px solid rgba(99, 179, 237, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(15, 39, 68, 0.32);
+  color: var(--ip-ink);
+}
+.l24-boris-ip-pret-sroki__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ip-gold);
+}
+.l24-boris-ip-pret-sroki__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ip-pret-sroki__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ip-muted);
+  max-width: 68ch;
+}
+.l24-boris-ip-pret-sroki__lead strong { color: #fff; }
+.l24-boris-ip-pret-sroki__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.98fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ip-pret-sroki__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ip-pret-sroki__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ip-gold);
+}
+.l24-boris-ip-pret-sroki__calendar-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  margin-bottom: 14px;
+}
+.l24-boris-ip-pret-sroki__steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ip-pret-sroki__step {
+  margin: 0;
+  padding: 12px 10px;
+  background: rgba(0, 0, 0, 0.22);
+  border-radius: 8px;
+  border-left: 3px solid var(--ip-blue);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+.l24-boris-ip-pret-sroki__step:nth-child(2) { border-left-color: var(--ip-gold); }
+.l24-boris-ip-pret-sroki__step:nth-child(3) { border-left-color: var(--ip-teal); }
+.l24-boris-ip-pret-sroki__step:nth-child(4) { border-left-color: #68d391; grid-column: 1 / -1; }
+.l24-boris-ip-pret-sroki__step strong {
+  display: block;
+  color: #fff;
+  font-size: 0.82rem;
+  margin-bottom: 4px;
+}
+.l24-boris-ip-pret-sroki__regime-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 0 0 14px;
+}
+.l24-boris-ip-pret-sroki__regime {
+  padding: 12px 11px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ip-pret-sroki__regime--soft { border-left: 3px solid var(--ip-muted); }
+.l24-boris-ip-pret-sroki__regime--key {
+  border-left: 3px solid var(--ip-blue);
+  border-color: rgba(99, 179, 237, 0.35);
+  background: rgba(30, 64, 175, 0.14);
+}
+.l24-boris-ip-pret-sroki__regime--spec {
+  border-left: 3px solid var(--ip-teal);
+  border-color: rgba(79, 209, 197, 0.35);
+  background: rgba(15, 118, 110, 0.12);
+}
+.l24-boris-ip-pret-sroki__regime-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.l24-boris-ip-pret-sroki__regime-tag {
+  flex-shrink: 0;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.l24-boris-ip-pret-sroki__regime--soft .l24-boris-ip-pret-sroki__regime-tag {
+  background: rgba(160, 174, 192, 0.2);
+  color: var(--ip-muted);
+}
+.l24-boris-ip-pret-sroki__regime--key .l24-boris-ip-pret-sroki__regime-tag {
+  background: rgba(99, 179, 237, 0.25);
+  color: var(--ip-blue);
+}
+.l24-boris-ip-pret-sroki__regime--spec .l24-boris-ip-pret-sroki__regime-tag {
+  background: rgba(79, 209, 197, 0.22);
+  color: var(--ip-teal);
+}
+.l24-boris-ip-pret-sroki__regime-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #fff;
+}
+.l24-boris-ip-pret-sroki__regime-text {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ip-muted);
+}
+.l24-boris-ip-pret-sroki__regime-text em {
+  font-style: normal;
+  color: var(--ip-accent);
+  font-weight: 600;
+}
+.l24-boris-ip-pret-sroki__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ip-muted);
+}
+.l24-boris-ip-pret-sroki__note em {
+  font-style: normal;
+  color: var(--ip-teal);
+  font-weight: 600;
+}
+.l24-boris-ip-pret-sroki__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ip-pret-sroki__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--ip-ink);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ip-pret-sroki__tag--warn { border-color: rgba(252, 129, 129, 0.45); color: #fed7d7; }
+.l24-boris-ip-pret-sroki__tag--ok { border-color: rgba(104, 211, 145, 0.45); color: #c6f6d5; }
+.l24-boris-ip-pret-sroki__caption {
+  margin: 14px 0 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: rgba(160, 174, 192, 0.85);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+@media (max-width: 900px) {
+  .l24-boris-ip-pret-sroki__split { grid-template-columns: 1fr; }
+  .l24-boris-ip-pret-sroki__steps { grid-template-columns: 1fr; }
+  .l24-boris-ip-pret-sroki__step:nth-child(4) { grid-column: auto; }
+}
+</style>
+
+  <div class="l24-boris-ip-pret-sroki__shell">
+    <p class="l24-boris-ip-pret-sroki__eyebrow">ст. 1252 · 1486 · ч. 5 ст. 4 АПК · календарь ответчика</p>
+    <h3 class="l24-boris-ip-pret-sroki__title">Три срока в претензии — одна шкала действий до иска</h3>
+    <p class="l24-boris-ip-pret-sroki__lead">Слева — <strong>практический маршрут</strong> с дня получения письма до мотивированного ответа. Справа — <strong>три юридических режима</strong>: «10 дней» из шапки, 30 календарных дней по comp/убыткам и 2 месяца по неиспользованию ТЗ. Путаница между ними — главная ошибка ответчика.</p>
+
+    <div class="l24-boris-ip-pret-sroki__split">
+      <div class="l24-boris-ip-pret-sroki__panel">
+        <p class="l24-boris-ip-pret-sroki__panel-title">Практический календарь (ст. 1252)</p>
+        <svg class="l24-boris-ip-pret-sroki__calendar-svg" viewBox="0 0 540 168" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="boris-ip-sroki-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#63b3ed"/>
+              <stop offset="45%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#4fd1c5"/>
+            </linearGradient>
+          </defs>
+          <line x1="40" y1="78" x2="500" y2="78" stroke="url(#boris-ip-sroki-line)" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="56" cy="78" r="20" fill="#1e40af" stroke="#fff" stroke-width="2"/>
+          <text x="56" y="83" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">Д0</text>
+          <circle cx="168" cy="78" r="18" fill="#2b6cb0" stroke="#fff" stroke-width="2"/>
+          <text x="168" y="83" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">1–3</text>
+          <circle cx="280" cy="78" r="18" fill="#d69e2e" stroke="#fff" stroke-width="2"/>
+          <text x="280" y="83" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="700">3–10</text>
+          <circle cx="392" cy="78" r="18" fill="#319795" stroke="#fff" stroke-width="2"/>
+          <text x="392" y="83" text-anchor="middle" fill="#fff" font-size="8" font-weight="700">…</text>
+          <circle cx="484" cy="78" r="22" fill="#276749" stroke="#ecc94b" stroke-width="2.5"/>
+          <text x="484" y="83" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">30</text>
+          <text x="56" y="38" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="600">получение</text>
+          <text x="168" y="38" text-anchor="middle" fill="#bee3f8" font-size="9" font-weight="600">проверка</text>
+          <text x="280" y="38" text-anchor="middle" fill="#faf089" font-size="9" font-weight="600">доказательства</text>
+          <text x="484" y="38" text-anchor="middle" fill="#9ae6b4" font-size="9" font-weight="600">ответ</text>
+          <rect x="24" y="118" width="120" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="84" y="136" text-anchor="middle" fill="#e2e8f0" font-size="8.5">штамп · ЭДО · акт</text>
+          <rect x="156" y="118" width="120" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="216" y="136" text-anchor="middle" fill="#e2e8f0" font-size="8.5">полномочия · объект ИС</text>
+          <rect x="288" y="118" width="120" height="28" rx="5" fill="rgba(0,0,0,0.35)"/>
+          <text x="348" y="136" text-anchor="middle" fill="#e2e8f0" font-size="8.5">стратегия · лицензии</text>
+          <rect x="420" y="118" width="108" height="28" rx="5" fill="rgba(39,103,73,0.45)" stroke="rgba(104,211,145,0.4)" stroke-width="1"/>
+          <text x="474" y="136" text-anchor="middle" fill="#c6f6d5" font-size="8.5" font-weight="600">→ основа отзыва</text>
+          <rect x="200" y="152" width="140" height="12" rx="3" fill="rgba(252,129,129,0.25)"/>
+          <text x="270" y="161" text-anchor="middle" fill="#fed7d7" font-size="7.5" font-weight="600">«10 дней» в шапке — не дедлайн</text>
+        </svg>
+        <ol class="l24-boris-ip-pret-sroki__steps">
+          <li class="l24-boris-ip-pret-sroki__step">
+            <strong>День 0 — фиксация</strong>
+            Дата получения: штамп на конверте, уведомление ЭДО, акт курьера. Без этого сложно оспорить срок направления претензии.
+          </li>
+          <li class="l24-boris-ip-pret-sroki__step">
+            <strong>Дни 1–3 — проверка</strong>
+            Полномочия подписанта, объект ИС в реестре, состав требований: comp vs убытки vs запрет (последний — без 30 дней).
+          </li>
+          <li class="l24-boris-ip-pret-sroki__step">
+            <strong>Дни 3–10 — доказательства</strong>
+            Лицензии, сравнение знаков/контента, prior use, переписка. Стратегия: оспорить, точечно прекратить, переговоры.
+          </li>
+          <li class="l24-boris-ip-pret-sroki__step">
+            <strong>До 30-го дня — мотивированный ответ</strong>
+            По пунктам, без лишних признаний, с контрасчётом comp (214-ФЗ, ст. 1252.1) и заявлением об исковой давности. Доказательства отправки — обязательны.
+          </li>
+        </ol>
+      </div>
+
+      <div class="l24-boris-ip-pret-sroki__panel">
+        <p class="l24-boris-ip-pret-sroki__panel-title">Три режима сроков</p>
+        <div class="l24-boris-ip-pret-sroki__regime-grid">
+          <div class="l24-boris-ip-pret-sroki__regime l24-boris-ip-pret-sroki__regime--soft">
+            <div class="l24-boris-ip-pret-sroki__regime-head">
+              <span class="l24-boris-ip-pret-sroki__regime-tag">7–14 дн.</span>
+              <span class="l24-boris-ip-pret-sroki__regime-name">Срок «из шапки претензии»</span>
+            </div>
+            <p class="l24-boris-ip-pret-sroki__regime-text"><em>Не установлен законом.</em> Инструмент психологического давления: пропуск не влечёт автоматических санкций и не улучшает позицию истца сам по себе.</p>
+          </div>
+          <div class="l24-boris-ip-pret-sroki__regime l24-boris-ip-pret-sroki__regime--key">
+            <div class="l24-boris-ip-pret-sroki__regime-head">
+              <span class="l24-boris-ip-pret-sroki__regime-tag">30 дн.</span>
+              <span class="l24-boris-ip-pret-sroki__regime-name">п. 5.1 ст. 1252 ГК РФ</span>
+            </div>
+            <p class="l24-boris-ip-pret-sroki__regime-text">Обязателен перед иском о <strong style="color:#fff">comp/убытках</strong> в арбитраже (юрлица/ИП). Иск — при отказе или неполучении ответа. Иной срок возможен по <strong style="color:#fff">договору</strong>.</p>
+          </div>
+          <div class="l24-boris-ip-pret-sroki__regime l24-boris-ip-pret-sroki__regime--spec">
+            <div class="l24-boris-ip-pret-sroki__regime-head">
+              <span class="l24-boris-ip-pret-sroki__regime-tag">2 мес.</span>
+              <span class="l24-boris-ip-pret-sroki__regime-name">ст. 1486 ГК РФ</span>
+            </div>
+            <p class="l24-boris-ip-pret-sroki__regime-text">Спецрежим <strong style="color:#fff">неиспользования ТЗ</strong>: иной срок для правообладателя, иные последствия пропуска. Не смешивать с 30 днями по comp.</p>
+          </div>
+        </div>
+        <p class="l24-boris-ip-pret-sroki__note"><em>Запрет использования и изъятие</em> (пп. 1, 2, 4, 5 п. 1 ст. 1252) — претензия не обязательна, иск возможен сразу. В <strong style="color:#fff">СОЮ</strong> досудебный порядок для ИС формально не обязателен — но ответ фиксирует позицию для отзыва.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-ip-pret-sroki__foot" aria-label="Ключевые оговорки для ответчика">
+      <span class="l24-boris-ip-pret-sroki__tag l24-boris-ip-pret-sroki__tag--warn">comp в претензии — пределы, не обязательна точная сумма</span>
+      <span class="l24-boris-ip-pret-sroki__tag l24-boris-ip-pret-sroki__tag--warn">убытки — нужна конкретная сумма в претензии</span>
+      <span class="l24-boris-ip-pret-sroki__tag l24-boris-ip-pret-sroki__tag--ok">30 дней истекли ≠ автоматический иск</span>
+      <span class="l24-boris-ip-pret-sroki__tag">214-ФЗ · comp до 10 млн ₽ по ТЗ</span>
+    </div>
+    <p class="l24-boris-ip-pret-sroki__caption">Подпись блока: календарь ответчика на претензию по ИС — не путать давление «10 дней», процессуальные 30 дней и спецрежим 1486.</p>
+  </div>
+</section>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Получили претензию с «10 днями на ответ» или требованием компенсации до 10 млн ₽? До истечения 30 календарных дней по ст. 1252 ещё можно проверить полномочия отправителя, подведомственность и состав требований — без паники и лишних признаний.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по срокам ответа на претензию</a></p>
+</aside>
+
+<h2 id="ip-pret-otvet">Как правильно ответить на претензию правообладателя</h2>
+
+<p><strong>Ответ на претензию по интеллектуальной собственности</strong> — это не вежливое «мы получили ваше письмо», а юридический документ, который может лечь в основу <strong>отзыва на иск</strong>. Его задача: зафиксировать вашу позицию по каждому требованию, не признать лишнего, предложить конструктив (если уместно) и сохранить процессуальные аргументы.</p>
+
+<p><strong>Рекомендуемая структура ответа:</strong></p>
+
+<ol><li><strong>Реквизиты и ссылка на претензию</strong> — дата, исходящий номер, кому направлено.</li><li><strong>Проверка полномочий</strong> — кто подписал претензию, есть ли доверенность, совпадает ли правообладатель с записью в реестре (товарный знак, Роспатент).</li><li><strong>Позиция по существу</strong> — по каждому пункту: признаёте / не признаёте нарушение; готовы ли прекратить использование; оспариваете ли сходство, однородность, факт копирования.</li><li><strong>Процессуальные возражения</strong> — исковая давность (3 года по ст. 196, 200 ГК РФ; применяется только по заявлению ответчика — ст. 199 ГК РФ); отсутствие вины; необоснованность размера компенсации.</li><li><strong>Контрасчёт компенсации</strong> — с учётом ФЗ № 214-ФЗ (с 04.01.2026): новые пределы, п. 7 ст. 1252.1 при отсутствии вины.</li><li><strong>Предложение по урегулированию</strong> — если готовы к переговорам: на ваших условиях, с оговорками.</li><li><strong>Приложения</strong> — лицензии, скриншоты, экспертные заключения, переписка.</li><li><strong>Способ и дата отправки</strong> — заказное письмо с описью, ЭДО, курьер с отметкой.</li></ol>
+
+<p><strong>Ответ на претензию правообладателя</strong> направляйте на адрес из претензии и, при необходимости, на адрес из государственного реестра (для товарных знаков). Сохраните доказательства отправки и получения.</p>
+
+<p>Чек-лист «ответ → иск» — что включить сразу, чтобы не переписывать отзыв:</p>
+
+<ul><li>полномочия заявителя;</li><li>корректность указания объекта ИС и классов МКТУ;</li><li>возражения по сходству / факту копирования;</li><li>заявление об <strong>исковой давности</strong>;</li><li>контрасчёт компенсации с учётом <strong>214-ФЗ</strong>;</li><li>указание на отсутствие вины (п. 7 ст. 1252.1 ГК РФ);</li><li>фиксация добросовестности (прекращение использования, если принято решение).</li></ul>
+
+<h3>Ответ на претензию об использовании товарного знака</h3>
+
+<p><strong>Ответ на претензию по товарному знаку</strong> строится вокруг трёх блоков: <strong>правомерность использования</strong>, <strong>отсутствие нарушения</strong>, <strong>размер ответственности</strong>.</p>
+
+<p>Если вы используете знак на основании <strong>лицензии</strong>, <strong>франшизы</strong> или <strong>согласия</strong> правообладателя — приложите договор и укажите пределы использования. Если обозначение <strong>не сходно</strong> до степени смешения — опишите отличия (шрифт, цвет, слоган, общее впечатление) и приложите сравнительные материалы. Если товары <strong>не однородны</strong> — укажите классы МКТУ и аргументируйте различие целевой аудитории и каналов сбыта.</p>
+
+<p>При <strong>претензии о нарушении прав на товарный знак</strong> с требованием компенсации проверьте расчёт истца. С 04.01.2026 по <strong>ст. 1515 ГК РФ</strong> (изменения ФЗ № 214-ФЗ от 07.07.2025) максимум компенсации по товарному знаку вырос с 5 до <strong>10 млн ₽</strong>; минимум — от 10 000 ₽. При отсутствии вины предпринимателя п. 7 ст. 1252.1 допускает снижение до <strong>10 000–500 000 ₽</strong> (твёрдая компенсация) или однократной/двукратной стоимости контрафакта.</p>
+
+<p>Если вы готовы <strong>прекратить использование</strong> — зафиксируйте это письменно, но не признавайте автоматически всю сумму компенсации и не подписывайте «мировую» без юридической проверки.</p>
+
+<h3>Ответ на претензию о нарушении авторских прав</h3>
+
+<p><strong>Ответ на претензию о нарушении авторских прав</strong> требует иного акцента. Проверьте:</p>
+
+<ul><li><strong>охраноспособность</strong> объекта (оригинальность, объём заимствования);</li><li><strong>факт вашего использования</strong> именно этого произведения;</li><li>наличие <strong>лицензии</strong>, <strong>Creative Commons</strong>, <strong>служебного произведения</strong>, <strong>цитирования</strong> (ст. 1274 ГК РФ);</li><li>не истекла ли <strong>исковая давность</strong> (3 года с момента, когда правообладатель узнал или должен был узнать о нарушении).</li></ul>
+
+<p><strong>Ответ на досудебную претензию по авторскому праву</strong> часто сопровождается удалением спорного контента с сайта или маркетплейса. Удаление — тактический шаг, но не равно признанию нарушения: в ответе укажите, что материал снят добровольно и без признания размера компенсации.</p>
+
+<p>По <strong>ст. 1301 ГК РФ</strong> компенсация за нарушение авторских прав с 04.01.2026 также может достигать <strong>10 млн ₽</strong> (ранее — до 5 млн ₽). П. 5 ст. 1252.1: при множественных объектах на одном носителе компенсация взыскивается <strong>по одному объекту</strong>, а не умножается.</p>
+
+<h2 id="ip-pret-errors">Типовые ошибки ответчика при ответе на претензию по ИС</h2>
+
+<p>Ошибки на этапе претензии дорого обходятся в суде: они фиксируют позицию, которую потом сложно переиграть.</p>
+
+<p><strong>1. Молчание.</strong> Нет ответа — нет досудебной позиции. Через 30 дней истец вправе подать иск; на переговорах вы теряете leverage. Молчание нередко воспринимается как косвенное признание нарушения.</p>
+
+<p><strong>2. Признание лишнего.</strong> Фразы «признаём нарушение», «готовы оплатить без проверки» по всем пунктам закрывают путь к оспариванию сходства, однородности, размера компенсации. Даже если нарушение очевидно, признание должно быть <strong>точечным</strong> и с оговорками.</p>
+
+<p><strong>3. Панические переговоры.</strong> Готовность заплатить «хоть что-нибудь» без анализа уязвимостей претензии — типичная ошибка. Сначала проверьте полномочия, состав, давность, расчёт comp.</p>
+
+<p><strong>4. Путаница сроков.</strong> Спешка из-за «10 дней» в шапке или, наоборот, затягивание качественного ответа до иска. Ориентируйтесь на <strong>30 дней по ст. 1252</strong>, а не на давление в тексте.</p>
+
+<p><strong>5. Не проверяют полномочия.</strong> Претензию подписал «менеджер по защите бренда» без доверенности; правообладатель в реестре другой; знак уже прекращён. Это основания для возражений.</p>
+
+<p><strong>6. Общий отказ вместо ответа по пунктам.</strong> «Не согласны» без комментария к каждому требованию (прекращение, comp, убытки, отчёт) — слабая позиция.</p>
+
+<p><strong>7. Не заявляют исковую давность.</strong> Суд не применит 3-летний срок сам (ст. 199 ГК РФ) — заявление должно быть в ответе и повторено в отзыве на иск.</p>
+
+<p><strong>8. Игнорируют подсудность.</strong> Путают СИП, арбитраж субъекта, СОЮ. Неверный суд — возврат иска и потеря 2–4 месяцев.</p>
+
+<p><strong>9. Не фиксируют отправку ответа.</strong> Без заказного письма, описи, ЭДО нет доказательства ответа — спор о соблюдении досудебного порядка и судебных расходах.</p>
+
+<p><strong>10. Универсальный юрист без спецподготовки.</strong> Пропуск аргументов по <strong>214-ФЗ</strong>, <strong>ст. 1486</strong>, <strong>п. 7 ст. 1252.1</strong>, необоснованности comp, бремени доказывания на истце.</p>
+
+<p>Две крайности — <strong>«молчание»</strong> и <strong>«признал лишнее»</strong> — одинаково опасны. В первом случае суд не слышал вашу версию; во втором — вы сами её закрыли.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Молчание, общий отказ или готовность «заплатить и закрыть вопрос» без разбора претензии — типичные ошибки, которые потом переносятся в отзыв на иск. На досудебной стадии ещё можно выстроить позицию по пунктам: сходство, давность, контрасчёт comp по 214-ФЗ.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с ответом на претензию по ИС</a></p>
+</aside>
+
+<h3>Ошибки в доказательствах и документообороте</h3>
+
+<p>На этапе претензии ответчики часто не собирают доказательства, рассчитывая «разберёмся в суде». Это ошибка: <strong>иск о нарушении исключительных прав</strong> будет опираться на то, что зафиксировано до иска.</p>
+
+<p>Типичные промахи:</p>
+
+<ul><li>нет скриншотов <strong>до</strong> удаления контента (не доказать, что использовалось);</li><li>нет договоров с подрядчиком, который разместил чужой контент (ваша зона ответственности перед правообладателем);</li><li>уничтожены переписки с правообладателем или маркетплейсом;</li><li>не запрошены документы у истца (основания полномочий, расчёт comp).</li></ul>
+
+<p>По <strong>Определению СК ВС РФ от 03.06.2025 № 309-ЭС25-764</strong> (дело А76-28418/2023) нельзя формально возлагать на ответчика доказательства, которые он объективно не мог представить (онлайн-торговля, прямые поставки). <strong>Бремя доказывания контрафактности — на истце.</strong> Но это не отменяет вашей задачи — собрать то, что доказывает правомерность или отсутствие вины.</p>
+
+<h2 id="ip-pret-evidence">Какие доказательства собрать до суда</h2>
+
+<p><strong>Защита интеллектуальной собственности</strong> на стороне ответчика — это доказательства <strong>легальности</strong>, <strong>отсутствия нарушения</strong> или <strong>смягчения ответственности</strong>.</p>
+
+<p><strong>Базовый набор:</strong></p>
+
+<ul><li>договоры <strong>лицензии</strong>, <strong>отчуждения</strong>, <strong>франшизы</strong>;</li><li>доказательства <strong>собственного использования до даты приоритета</strong> (prior use) — где применимо;</li><li>материалы <strong>сравнения обозначений</strong> или контента;</li><li>доказательства <strong>прекращения</strong> спорного использования (скриншоты с датой, акты);</li><li>переписка с правообладателем, маркетплейсом, хостингом;</li><li>документы о <strong>добросовестности</strong> (проверка контрагента, правки после уведомления).</li></ul>
+
+<p>Заявляйте <strong>исковую давность</strong>: 3 года со дня, когда правообладатель узнал или должен был узнать о нарушении и ответчике; предельный срок — 10 лет (ст. 196, 200 ГК РФ).</p>
+
+<p>При подготовке к <strong>иску о нарушении исключительных прав</strong> заранее оцените подсудность: <strong>арбитражные суды субъектов</strong> — 1-я инстанция по спорам о нарушении прав (компенсация, запрет); <strong>СИП</strong> — кассация (ст. 34, 43.4 АПК РФ). СИП как 1-я инстанция — для оспаривания решений Роспатента, недействительности регистрации, административных споров с ФОИВ.</p>
+
+<h3>Доказательства при споре о товарном знаке</h3>
+
+<p><strong>Защита товарного знака</strong> со стороны ответчика (то есть защита от претензии по чужому знаку) включает:</p>
+
+<ul><li>выписка из <strong>Госреестра товарных знаков</strong> — действующий ли знак, кто правообладатель, какие классы МКТУ;</li><li><strong>сравнительный анализ</strong> обозначений: визуальное, фонетическое, смысловое сходство;</li><li>доказательства <strong>различия товаров/услуг</strong> (ассортимент, цены, каналы, география);</li><li>документы о <strong>вашем знаке</strong> (если есть регистрация или использование до приоритета);</li><li>доказательства <strong>неиспользования</strong> чужого знака правообладателем (для споров по ст. 1486 — отдельный спецрежим: 2 месяца на ответ правообладателя, иск о досрочном прекращении охраны — в 30 дней после истечения двухмесячного срока);</li><li>расчёт <strong>контркомпенсации</strong> с учётом п. 7 ст. 1252.1 при отсутствии вины.</li></ul>
+
+<p>При <strong>нарушении товарного знака</strong> истец должен доказать факт использования, сходство и однородность. Ваша задача — представить контрдоказательства или альтернативную квалификацию (например, описательность обозначения).</p>
+
+<h2 id="ip-pret-consequences">Что будет, если не ответить или ответить неправильно</h2>
+
+<p><strong>Иск о нарушении исключительных прав</strong> — главное последствие игнора или слабого ответа. После 30 дней молчания (при обязательной претензии) правообладатель вправе обратиться в суд.</p>
+
+<p><strong>Чем грозит суд:</strong></p>
+
+<ul><li><strong>Компенсация</strong> — по товарному знаку (ст. 1515 ГК РФ): 10 000 – 10 млн ₽; по авторскому праву (ст. 1301): 10 000 – 10 млн ₽; по патенту (ст. 1406.1): минимум 50 000 ₽, максимум до 10 млн ₽;</li><li><strong>Убытки</strong> — если истец перейдёт на этот способ (с обязательным расчётом);</li><li><strong>Запрет использования</strong> — судебный запрет распространения обозначения, контента, товара;</li><li><strong>Изъятие и уничтожение</strong> контрафакта (ст. 1252 ГК РФ);</li><li><strong>Судебные расходы</strong> — госпошлина, представительство (ст. 110 АПК РФ);</li><li><strong>Блокировка</strong> сайта, карточек на маркетплейсе по решению суда или по обращению правообладателя.</li></ul>
+
+<p>С 04.01.2026 <strong>ФЗ № 214-ФЗ</strong> ввёл <strong>ст. 1252.1 ГК РФ</strong> — единые принципы расчёта компенсации. Суд вправе назначить твёрдую сумму, если выбранный истцом способ расчёта неприменим. П. 11 ст. 1252: нарушение — это незаконное использование <strong>одним способом</strong> (важно при «нагруженных» претензиях).</p>
+
+<p>Неправильный ответ («признали всё») хуже молчания: он даёт истцу готовую позицию для иска и переговоров. <strong>Компенсация за нарушение товарного знака</strong> и <strong>компенсация за нарушение исключительных прав</strong> по авторскому объекту могут быть существенно снижены только при активной позиции ответчика — в том числе при доказанном <strong>отсутствии вины</strong>.</p>
+
+<p>Если иск подан с нарушением досудебного порядка (нет претензии, не выдержаны 30 дней, претензия по убыткам без суммы) — заявите об этом в отзыве. Ч. 1 ст. 111 АПК РФ предусматривает расходы при нарушении досудебного порядка, но суды применяют её редко; всё равно это процессуальный аргумент.</p>
+
+<h2 id="ip-pret-lawyer">Когда нужна помощь юриста по защите ИС</h2>
+
+<p><strong>Защита интеллектуальной собственности</strong> на стороне ответчика — узкая специализация. Универсальный «договорник» может пропустить спецаргументы: 214-ФЗ, ст. 1486, подведомственность, бремя доказывания по практике ВС.</p>
+
+<p>Обращаться к юристу стоит, если:</p>
+
+<ul><li>сумма требований <strong>существенная</strong> (сотни тысяч и выше);</li><li>претензия касается <strong>нескольких объектов</strong> ИС или площадок;</li><li>вы <strong>не уверены</strong> в сходстве знаков или правомерности контента;</li><li>правообладатель — <strong>крупный бренд</strong> или патентный тролль с серией претензий;</li><li>уже получен <strong>иск</strong> — нужен отзыв и стратегия;</li><li>спор затрагивает <strong>ст. 1486</strong> (неиспользование знака) или <strong>оспаривание регистрации</strong>.</li></ul>
+
+<p>Специалисты Legis24 разбирают претензию по ИС за 48 часов: проверяют сроки, полномочия, уязвимости, готовят проект ответа и контрасчёт компенсации с учётом изменений 2026 года. Это дешевле, чем исправлять последствия признания лишнего или молчания до суда.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Претензия по товарному знаку или авторским правам с расчётом компенсации, параллельный иск или серия требований по нескольким объектам — ситуация, где ошибка в первом ответе дороже консультации. Разберём претензию до подачи иска: стратегия, проект ответа, контрасчёт по 214-ФЗ и ст. 1252.1.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Разбор претензии и иска по интеллектуальной собственности</a></p>
+</aside>
+
+<p><strong>Краткий итог для ответчика:</strong></p>
+<ul>
+  <li>претензия — не приговор, а старт переговоров и фиксации позиции;</li>
+  <li>срок «10 дней» в письме — давление; ориентир по comp/убыткам в арбитраже — <strong>30 дней</strong> (ст. 1252);</li>
+  <li>ответ должен быть <strong>по пунктам</strong>, с доказательствами и без лишних признаний;</li>
+  <li>молчание и «признал всё» — две одинаково опасные крайности;</li>
+  <li>с 04.01.2026 пересмотрите контрасчёт comp по <strong>214-ФЗ</strong> и <strong>ст. 1252.1</strong>.</li>
+</ul>
+
+<section id="ip-pret-faq" class="l24-faq-ip-pret" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2>FAQ: короткие ответы</h2>
+  <div class="l24-faq-ip-pret__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-ip-pret__q" itemprop="name">Обязательна ли претензия перед иском о компенсации по ИС?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-ip-pret__a" itemprop="text">По п. 5.1 ст. 1252 ГК РФ — да, для иска о comp/убытках в арбитраже между юрлицами и/или ИП. Иск возможен при отказе или неполучении ответа в 30 календарных дней.</p>
+    </div>
+  </div>
+  <div class="l24-faq-ip-pret__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-ip-pret__q" itemprop="name">Что означает срок «10 дней» в шапке претензии?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-ip-pret__a" itemprop="text">Это не юридический дедлайн: законом не установлен. Пропуск не влечёт автоматических санкций — это инструмент психологического давления.</p>
+    </div>
+  </div>
+  <div class="l24-faq-ip-pret__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-ip-pret__q" itemprop="name">Как ответить на претензию по товарному знаку без лишних признаний?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-ip-pret__a" itemprop="text">По каждому пункту: полномочия отправителя, сходство/однородность, лицензии, контрасчёт comp (214-ФЗ, ст. 1252.1), заявление об исковой давности. Прекращение использования — отдельно от признания суммы.</p>
+    </div>
+  </div>
+  <div class="l24-faq-ip-pret__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-ip-pret__q" itemprop="name">Какой максимум компенсации по товарному знаку с 2026 года?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-ip-pret__a" itemprop="text">По ст. 1515 ГК РФ (214-ФЗ): от 10 000 до 10 млн ₽; при отсутствии вины п. 7 ст. 1252.1 допускает снижение твёрдой comp до 10 000–500 000 ₽.</p>
+    </div>
+  </div>
+  <div class="l24-faq-ip-pret__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-ip-pret__q" itemprop="name">Что будет, если не ответить на претензию 30 дней?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-ip-pret__a" itemprop="text">Правообладатель вправе подать иск о comp/убытках; вы теряете досудебную позицию на переговорах. Истечение 30 дней не означает автоматический иск, но риски растут.</p>
+    </div>
+  </div>
+</section>
+
+
+<h2>Итог</h2>
+<p><strong>Ответ на претензию по интеллектуальной собственности</strong> — это не формальность, а основа будущего отзыва на иск. Ориентируйтесь на 30 дней по ст. 1252, отвечайте по пунктам, собирайте доказательства и не признавайте лишнего. С 04.01.2026 пересмотрите контрасчёт comp по <strong>214-ФЗ</strong> и <strong>ст. 1252.1</strong>.</p>
+<p><em>Материал носит информационный характер и не заменяет юридическую консультацию. Нормы ГК РФ ч. 4, АПК РФ, ФЗ № 214-ФЗ уточняйте по официальным текстам и с учётом вашей ситуации.</em></p>
+
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации по ответу на претензию и иску по интеллектуальной собственности: сроки досудебного порядка, типовые ошибки ответчика, доказательства и защита до суда по товарному знаку и авторским правам.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом</a></p>
+</aside>
+
+</div>
+</main>
+<!-- /wp:html -->

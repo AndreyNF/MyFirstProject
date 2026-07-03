@@ -1,0 +1,1154 @@
+<!-- wp:html -->
+<style>
+
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page th, .dosudebnaya-zashchita-po-ugolovnomu-delu-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page th { background: #edf2f7; }
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page a { color: #1e40af; }
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page code {
+  font-size: 0.9em; background: #f1f5f9; padding: 2px 6px; border-radius: 4px;
+}
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page .l24-code-block {
+  background: #0f172a; color: #e2e8f0; padding: 16px 18px; border-radius: 10px;
+  overflow-x: auto; font-size: 0.88rem; line-height: 1.5; margin: 1.25em 0;
+}
+.ym-lead {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.ym-lead__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.ym-lead__text {
+  border-left: 4px solid #0f2744; padding: 4px 0 4px 22px; text-align: left;
+}
+.ym-lead__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.ym-lead__text p:last-child { margin-bottom: 0; }
+.ym-lead__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.ym-lead__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.ym-lead__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.ym-lead__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.ym-lead__chip--accent { border-color: #1e40af; color: #1e40af; }
+.ym-lead__chip--warn { border-color: #a31830; color: #a31830; }
+.ym-lead__chip--navy { border-color: #0f2744; color: #0f2744; }
+.ym-lead__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-a13 {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-a13 > h2 { margin-top: 0 !important; }
+.l24-faq-a13__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-a13__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-a13__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-a13__a { margin: 0; color: #334155; }
+.ym-section { display: block; }
+    @media (max-width: 900px) {
+    }
+@media (max-width: 900px) {
+}
+@media (max-width: 520px) {
+}
+@media (max-width: 900px) {
+  .ym-lead__grid { grid-template-columns: 1fr; }
+}
+
+
+    .hero-ug-dosudeb {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(165deg, #f9f8f6 0%, #f2f0eb 42%, #eae8e2 100%);
+      color: #18181b;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ug-dosudeb::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 52% 44% at 88% 8%, rgba(30, 58, 95, 0.08) 0%, transparent 58%),
+        radial-gradient(ellipse 48% 40% at 8% 92%, rgba(120, 53, 15, 0.05) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .hero-ug-dosudeb::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.035;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cpath d='M8 8h20v4H12v28H8z' fill='%2318181b'/%3E%3C/svg%3E");
+      background-size: 80px 80px;
+      pointer-events: none;
+    }
+    .hero-ug-dosudeb__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.06fr 0.94fr;
+      gap: 46px;
+      align-items: center;
+    }
+    .hero-ug-dosudeb__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.93);
+      border: 1px solid rgba(24, 24, 27, 0.12);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #3f3f46;
+    }
+    .hero-ug-dosudeb__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e3a5f;
+      flex-shrink: 0;
+      animation: hero-dosudeb-pulse 2.4s ease-in-out infinite;
+    }
+    @keyframes hero-dosudeb-pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(30, 58, 95, 0.35); }
+      50% { box-shadow: 0 0 0 5px rgba(30, 58, 95, 0); }
+    }
+    .hero-ug-dosudeb__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.6rem, 3.6vw, 2.38rem);
+      line-height: 1.18;
+      font-weight: 800;
+      color: #09090b;
+      letter-spacing: -0.024em;
+    }
+    .hero-ug-dosudeb__h1-accent {
+      color: #1e3a5f;
+      display: block;
+    }
+    .hero-ug-dosudeb__sub {
+      margin: 0 0 26px;
+      max-width: 40em;
+      font-size: clamp(1rem, 1.55vw, 1.1rem);
+      line-height: 1.58;
+      color: #52525b;
+    }
+    .hero-ug-dosudeb__rights {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+    }
+    .hero-ug-dosudeb__right {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 13px;
+      font-size: 0.93rem;
+      line-height: 1.48;
+      color: #3f3f46;
+    }
+    .hero-ug-dosudeb__right-tag {
+      flex-shrink: 0;
+      min-width: 58px;
+      padding: 5px 8px;
+      border-radius: 6px;
+      background: #1e3a5f;
+      color: #f8fafc;
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.03em;
+      text-align: center;
+    }
+    .hero-ug-dosudeb__right-tag--warn {
+      background: #78350f;
+    }
+    .hero-ug-dosudeb__right-tag--law {
+      background: #27272a;
+    }
+    .hero-ug-dosudeb__cta {
+      display: inline-block;
+      background: #1e3a5f;
+      color: #fff !important;
+      padding: 14px 26px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.94rem;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(30, 58, 95, 0.28);
+    }
+    .hero-ug-dosudeb__cta:hover {
+      background: #172554;
+    }
+    .hero-ug-dosudeb__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-ug-dosudeb__balance-arm {
+      transform-origin: 220px 168px;
+      animation: hero-dosudeb-balance 5s ease-in-out infinite;
+    }
+    @keyframes hero-dosudeb-balance {
+      0%, 100% { transform: rotate(-2deg); }
+      50% { transform: rotate(2deg); }
+    }
+    .hero-ug-dosudeb__shield-glow {
+      animation: hero-dosudeb-shield 3.2s ease-in-out infinite;
+    }
+    @keyframes hero-dosudeb-shield {
+      0%, 100% { opacity: 0.92; }
+      50% { opacity: 1; filter: drop-shadow(0 0 8px rgba(30, 58, 95, 0.25)); }
+    }
+    .hero-ug-dosudeb__corridor-light {
+      animation: hero-dosudeb-light 4s ease-in-out infinite;
+    }
+    @keyframes hero-dosudeb-light {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 0.85; }
+    }
+    @media (max-width: 900px) {
+      .hero-ug-dosudeb__inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+      .hero-ug-dosudeb__visual {
+        order: -1;
+        max-height: 310px;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-ug-dosudeb__badge-dot,
+      .hero-ug-dosudeb__balance-arm,
+      .hero-ug-dosudeb__shield-glow,
+      .hero-ug-dosudeb__corridor-light {
+        animation: none;
+      }
+    }
+  
+
+.l24-boris-ug-dosudeb {
+  --ugd-navy: #0f2744;
+  --ugd-navy-soft: #1a365d;
+  --ugd-blue: #63b3ed;
+  --ugd-gold: #ecc94b;
+  --ugd-teal: #4fd1c5;
+  --ugd-mint: #68d391;
+  --ugd-warn: #fc8181;
+  --ugd-muted: #a0aec0;
+  --ugd-say: #68d391;
+  --ugd-quiet: #ecc94b;
+  --ugd-law: #fc8181;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ug-dosudeb__shell {
+  background: linear-gradient(148deg, var(--ugd-navy) 0%, #152a45 52%, var(--ugd-navy-soft) 100%);
+  border: 1px solid rgba(99, 179, 237, 0.22);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(15, 39, 68, 0.32);
+  color: #e2e8f0;
+}
+.l24-boris-ug-dosudeb__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ugd-gold);
+}
+.l24-boris-ug-dosudeb__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ug-dosudeb__lead {
+  margin: 0 0 20px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ugd-muted);
+  max-width: 72ch;
+}
+.l24-boris-ug-dosudeb__lead strong { color: #fff; }
+.l24-boris-ug-dosudeb__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 18px;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ug-dosudeb__legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-ug-dosudeb__legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.l24-boris-ug-dosudeb__legend-dot--say { background: var(--ugd-say); }
+.l24-boris-ug-dosudeb__legend-dot--quiet { background: var(--ugd-quiet); }
+.l24-boris-ug-dosudeb__legend-dot--law { background: var(--ugd-law); }
+.l24-boris-ug-dosudeb__split {
+  display: grid;
+  grid-template-columns: minmax(0, 0.42fr) minmax(0, 1.58fr);
+  gap: 20px;
+  align-items: start;
+}
+.l24-boris-ug-dosudeb__rail {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 16px 14px;
+}
+.l24-boris-ug-dosudeb__rail-title {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ugd-gold);
+}
+.l24-boris-ug-dosudeb__stages-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  margin-bottom: 12px;
+}
+.l24-boris-ug-dosudeb__deadlines {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.l24-boris-ug-dosudeb__deadline {
+  margin: 0;
+  padding: 8px 9px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.22);
+  font-size: 0.72rem;
+  line-height: 1.38;
+  color: var(--ugd-muted);
+  border-left: 3px solid var(--ugd-blue);
+}
+.l24-boris-ug-dosudeb__deadline:nth-child(2) { border-left-color: var(--ugd-warn); }
+.l24-boris-ug-dosudeb__deadline:nth-child(3) { border-left-color: var(--ugd-teal); }
+.l24-boris-ug-dosudeb__deadline strong {
+  display: block;
+  color: #fff;
+  font-size: 0.76rem;
+  margin-bottom: 2px;
+}
+.l24-boris-ug-dosudeb__matrix-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.l24-boris-ug-dosudeb__matrix {
+  display: grid;
+  grid-template-columns: minmax(108px, 0.95fr) repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  min-width: 520px;
+}
+.l24-boris-ug-dosudeb__corner,
+.l24-boris-ug-dosudeb__colhead,
+.l24-boris-ug-dosudeb__rowhead {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+.l24-boris-ug-dosudeb__corner {
+  padding: 10px 8px;
+  color: var(--ugd-muted);
+  align-self: end;
+}
+.l24-boris-ug-dosudeb__colhead {
+  padding: 10px 8px;
+  text-align: center;
+  color: var(--ugd-blue);
+  background: rgba(99, 179, 237, 0.12);
+  border-radius: 8px 8px 0 0;
+}
+.l24-boris-ug-dosudeb__colhead:nth-child(3) { color: var(--ugd-warn); background: rgba(252, 129, 129, 0.12); }
+.l24-boris-ug-dosudeb__colhead:nth-child(4) { color: var(--ugd-teal); background: rgba(79, 209, 197, 0.12); }
+.l24-boris-ug-dosudeb__rowhead {
+  padding: 12px 10px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 8px 0 0 8px;
+  border-left: 3px solid var(--ugd-gold);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+.l24-boris-ug-dosudeb__rowhead span {
+  font-size: 0.62rem;
+  font-weight: 500;
+  text-transform: none;
+  color: var(--ugd-muted);
+  letter-spacing: 0;
+}
+.l24-boris-ug-dosudeb__rowhead--det { border-left-color: var(--ugd-warn); }
+.l24-boris-ug-dosudeb__rowhead--inv { border-left-color: var(--ugd-teal); }
+.l24-boris-ug-dosudeb__cell {
+  margin: 0;
+  padding: 11px 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 0.74rem;
+  line-height: 1.42;
+  color: #cbd5e0;
+}
+.l24-boris-ug-dosudeb__cell--na {
+  background: rgba(0, 0, 0, 0.12);
+  color: var(--ugd-muted);
+  text-align: center;
+  font-style: italic;
+}
+.l24-boris-ug-dosudeb__tactic {
+  display: inline-block;
+  margin: 0 0 6px;
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.l24-boris-ug-dosudeb__tactic--say {
+  background: rgba(104, 211, 145, 0.2);
+  color: #9ae6b4;
+  border: 1px solid rgba(104, 211, 145, 0.45);
+}
+.l24-boris-ug-dosudeb__tactic--quiet {
+  background: rgba(236, 201, 75, 0.15);
+  color: #faf089;
+  border: 1px solid rgba(236, 201, 75, 0.4);
+}
+.l24-boris-ug-dosudeb__tactic--law {
+  background: rgba(252, 129, 129, 0.15);
+  color: #fed7d7;
+  border: 1px solid rgba(252, 129, 129, 0.4);
+}
+.l24-boris-ug-dosudeb__cell strong {
+  color: #fff;
+  font-weight: 600;
+}
+.l24-boris-ug-dosudeb__cell em {
+  font-style: normal;
+  color: var(--ugd-teal);
+  font-weight: 600;
+}
+.l24-boris-ug-dosudeb__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-ug-dosudeb__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+}
+.l24-boris-ug-dosudeb__tag--144 { border: 1px solid var(--ugd-blue); color: #bee3f8; }
+.l24-boris-ug-dosudeb__tag--92 { border: 1px solid var(--ugd-warn); color: #fed7d7; }
+.l24-boris-ug-dosudeb__tag--182 { border: 1px solid var(--ugd-teal); color: #b2f5ea; }
+.l24-boris-ug-dosudeb__caption {
+  margin: 12px 0 0;
+  font-size: 0.74rem;
+  line-height: 1.45;
+  color: var(--ugd-muted);
+}
+@media (max-width: 900px) {
+  .l24-boris-ug-dosudeb__split { grid-template-columns: 1fr; }
+}
+
+
+.dosudebnaya-zashchita-po-ugolovnomu-delu-page .ym-section--reveal { animation: ym-a16-fade-in 0.7s ease both; }
+@keyframes ym-a16-fade-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .dosudebnaya-zashchita-po-ugolovnomu-delu-page .ym-section--reveal { animation: none; } }
+
+</style>
+<main id="primary" class="site-main dosudebnaya-zashchita-po-ugolovnomu-delu-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+
+<meta itemprop="headline" content="Досудебная защита по уголовному делу: что говорить следователю и чего избегать">
+<meta itemprop="description" content="Что говорить следователю на допросе и чего избегать на досудебной стадии: права подозреваемого, дознание и следствие, защита по ст. 159 и 177 УК. Когда нужен адвокат — консультация Legis24.">
+<meta name="description" content="Что говорить следователю на допросе и чего избегать на досудебной стадии: права подозреваемого, дознание и следствие, защита по ст. 159 и 177 УК.">
+<meta itemprop="inLanguage" content="ru-RU">
+<span itemprop="author" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Legis24"></span>
+<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Legis24"></span>
+
+<section id="l24-hero-dosudeb-zashchita" class="hero-ug-dosudeb" aria-label="Досудебная защита по уголовному делу: права подозреваемого и допрос">
+  <div class="hero-ug-dosudeb__inner">
+    <div class="hero-ug-dosudeb__content">
+      <div class="hero-ug-dosudeb__badge">
+        <span class="hero-ug-dosudeb__badge-dot" aria-hidden="true"></span>
+        УПК · досудебная стадия · ст. 46–47 · 159 / 177 · 2026
+      </div>
+      <p class="hero-ug-dosudeb__h1" role="doc-subtitle">
+        <span class="hero-ug-dosudeb__h1-accent">Досудебная защита по уголовному делу</span>
+      </p>
+      <p class="hero-ug-dosudeb__sub">
+        Что говорить следователю на допросе, какие права у подозреваемого до суда и когда подключать адвоката — в том числе по ст. 159 и 177 УК
+      </p>
+      <ul class="hero-ug-dosudeb__rights">
+        <li class="hero-ug-dosudeb__right">
+          <span class="hero-ug-dosudeb__right-tag">144</span>
+          <span><strong>Проверка 3 / 10 / 30 суток</strong> — объяснения ≠ допрос; оценить риск статуса подозреваемого</span>
+        </li>
+        <li class="hero-ug-dosudeb__right">
+          <span class="hero-ug-dosudeb__right-tag hero-ug-dosudeb__right-tag--warn">24 ч</span>
+          <span><strong>После задержания</strong> — свидание с защитником до допроса (ст. 92); не подписывать протокол без адвоката</span>
+        </li>
+        <li class="hero-ug-dosudeb__right">
+          <span class="hero-ug-dosudeb__right-tag hero-ug-dosudeb__right-tag--law">46</span>
+          <span><strong>Отказ от показаний</strong> — п. 2 ч. 4 ст. 46 / п. 3 ч. 4 ст. 47 УПК; замечания к протоколу до подписи</span>
+        </li>
+      </ul>
+      <a class="hero-ug-dosudeb__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по досудебной защите</a>
+    </div>
+    <div class="hero-ug-dosudeb__visual" aria-hidden="true">
+      <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:440px" role="img" aria-label="Весы прав подозреваемого: давление следствия и защита до суда, коридор досудебной стадии">
+        <defs>
+          <linearGradient id="hero-dosudeb-corridor" x1="50%" y1="100%" x2="50%" y2="0%">
+            <stop offset="0%" stop-color="#d4d4d8"/>
+            <stop offset="55%" stop-color="#e4e4e7"/>
+            <stop offset="100%" stop-color="#fafafa"/>
+          </linearGradient>
+          <linearGradient id="hero-dosudeb-wall" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#a1a1aa"/>
+            <stop offset="50%" stop-color="#d4d4d8"/>
+            <stop offset="100%" stop-color="#a1a1aa"/>
+          </linearGradient>
+          <linearGradient id="hero-dosudeb-shield-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#e0e7ff"/>
+            <stop offset="100%" stop-color="#1e3a5f"/>
+          </linearGradient>
+          <linearGradient id="hero-dosudeb-scale" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#78716c"/>
+            <stop offset="100%" stop-color="#27272a"/>
+          </linearGradient>
+          <filter id="hero-dosudeb-shadow" x="-12%" y="-12%" width="124%" height="124%">
+            <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#18181b" flood-opacity="0.14"/>
+          </filter>
+        </defs>
+        <!-- коридор к залу суда (перспектива) -->
+        <g class="hero-ug-dosudeb__corridor-light">
+          <path d="M0,120 L220,72 L440,120 L440,400 L0,400 Z" fill="url(#hero-dosudeb-corridor)"/>
+          <path d="M60,140 L220,100 L380,140 L340,400 L100,400 Z" fill="#f4f4f5" opacity="0.9"/>
+          <rect x="188" y="48" width="64" height="88" rx="4" fill="#fafafa" stroke="#a1a1aa" stroke-width="2"/>
+          <path d="M196,56 L220,72 L244,56" fill="none" stroke="#71717a" stroke-width="1.5"/>
+          <text x="220" y="118" text-anchor="middle" fill="#52525b" font-size="8" font-weight="700" letter-spacing="0.08em">ДОСУДЕБНЫЙ КОРИДОР</text>
+          <line x1="0" y1="120" x2="440" y2="120" stroke="#d4d4d8" stroke-width="1"/>
+        </g>
+        <!-- кабинет допроса слева -->
+        <g filter="url(#hero-dosudeb-shadow)" transform="translate(20, 148)">
+          <rect width="118" height="108" rx="10" fill="#fff" stroke="#d4d4d8" stroke-width="1.2"/>
+          <rect x="10" y="12" width="98" height="14" rx="4" fill="#fef2f2" stroke="#fecaca"/>
+          <text x="59" y="22" text-anchor="middle" fill="#991b1b" font-size="8" font-weight="800">ДОПРОС</text>
+          <rect x="14" y="34" width="90" height="6" rx="3" fill="#e4e4e7"/>
+          <rect x="14" y="46" width="72" height="6" rx="3" fill="#e4e4e7"/>
+          <rect x="14" y="58" width="80" height="6" rx="3" fill="#e4e4e7"/>
+          <circle cx="32" cy="82" r="10" fill="#f4f4f5" stroke="#a1a1aa"/>
+          <text x="32" y="86" text-anchor="middle" fill="#52525b" font-size="7" font-weight="700">?</text>
+          <rect x="52" y="74" width="48" height="22" rx="5" fill="#fff7ed" stroke="#fdba74"/>
+          <text x="76" y="88" text-anchor="middle" fill="#9a3412" font-size="7" font-weight="700">давление</text>
+        </g>
+        <!-- весы прав (центр) -->
+        <g filter="url(#hero-dosudeb-shadow)">
+          <rect x="196" y="148" width="48" height="92" rx="6" fill="url(#hero-dosudeb-scale)"/>
+          <circle cx="220" cy="148" r="10" fill="#27272a"/>
+          <g class="hero-ug-dosudeb__balance-arm">
+            <line x1="220" y1="158" x2="148" y2="198" stroke="#3f3f46" stroke-width="3" stroke-linecap="round"/>
+            <line x1="220" y1="158" x2="292" y2="198" stroke="#3f3f46" stroke-width="3" stroke-linecap="round"/>
+            <!-- левая чаша: вопросы следователя -->
+            <g transform="translate(108, 188)">
+              <line x1="40" y1="0" x2="40" y2="14" stroke="#71717a" stroke-width="2"/>
+              <ellipse cx="40" cy="34" rx="44" ry="10" fill="#e7e5e4" stroke="#a8a29e"/>
+              <path d="M8,34 Q40,18 72,34 L68,52 Q40,62 12,52 Z" fill="#fafaf9" stroke="#d6d3d1"/>
+              <text x="40" y="44" text-anchor="middle" fill="#57534e" font-size="7" font-weight="700">показания</text>
+            </g>
+            <!-- правая чаша: отказ ст. 46 -->
+            <g transform="translate(252, 188)">
+              <line x1="40" y1="0" x2="40" y2="14" stroke="#71717a" stroke-width="2"/>
+              <ellipse cx="40" cy="34" rx="44" ry="10" fill="#dbeafe" stroke="#93c5fd"/>
+              <path d="M8,34 Q40,18 72,34 L68,52 Q40,62 12,52 Z" fill="#eff6ff" stroke="#bfdbfe"/>
+              <text x="40" y="44" text-anchor="middle" fill="#1e3a5f" font-size="7" font-weight="800">ст. 46 · отказ</text>
+            </g>
+          </g>
+          <text x="220" y="252" text-anchor="middle" fill="#3f3f46" font-size="8" font-weight="700" letter-spacing="0.06em">БАЛАНС ПРАВ</text>
+        </g>
+        <!-- щит + адвокат справа -->
+        <g class="hero-ug-dosudeb__shield-glow" filter="url(#hero-dosudeb-shadow)" transform="translate(302, 142)">
+          <path d="M58,8 L88,22 L88,58 C88,82 72,96 58,104 C44,96 28,82 28,58 L28,22 Z" fill="url(#hero-dosudeb-shield-fill)" stroke="#1e3a5f" stroke-width="1.8"/>
+          <path d="M46,52 L54,62 L72,40" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="18" y="112" width="80" height="52" rx="8" fill="#fff" stroke="#d4d4d8"/>
+          <text x="58" y="130" text-anchor="middle" fill="#1e3a5f" font-size="8" font-weight="800">ЗАЩИТНИК</text>
+          <text x="58" y="146" text-anchor="middle" fill="#52525b" font-size="7" font-weight="600">до допроса · ст. 92</text>
+          <rect x="26" y="152" width="64" height="6" rx="3" fill="#e0e7ff"/>
+        </g>
+        <!-- ст. 159 / 177 -->
+        <g transform="translate(36, 292)">
+          <rect width="88" height="56" rx="8" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
+          <text x="44" y="22" text-anchor="middle" fill="#78350f" font-size="9" font-weight="800">ст. 159</text>
+          <text x="44" y="38" text-anchor="middle" fill="#71717a" font-size="7" font-weight="600">мошенничество</text>
+          <text x="44" y="50" text-anchor="middle" fill="#a1a1aa" font-size="6" font-weight="600">бизнес-риск</text>
+        </g>
+        <g transform="translate(136, 292)">
+          <rect width="88" height="56" rx="8" fill="#fff" stroke="#d4d4d8" stroke-width="1"/>
+          <text x="44" y="22" text-anchor="middle" fill="#78350f" font-size="9" font-weight="800">ст. 177</text>
+          <text x="44" y="38" text-anchor="middle" fill="#71717a" font-size="7" font-weight="600">злостное уклонение</text>
+          <text x="44" y="50" text-anchor="middle" fill="#a1a1aa" font-size="6" font-weight="600">долги · ФССП</text>
+        </g>
+        <!-- протокол внизу -->
+        <g filter="url(#hero-dosudeb-shadow)" transform="translate(248, 278)">
+          <rect width="172" height="78" rx="10" fill="#fff" stroke="#d4d4d8" stroke-width="1.2"/>
+          <text x="86" y="20" text-anchor="middle" fill="#27272a" font-size="9" font-weight="800">ПРОТОКОЛ ДОПРОСА</text>
+          <line x1="18" y1="30" x2="154" y2="30" stroke="#e4e4e7" stroke-width="4" stroke-linecap="round"/>
+          <line x1="18" y1="42" x2="130" y2="42" stroke="#e4e4e7" stroke-width="4" stroke-linecap="round"/>
+          <rect x="18" y="52" width="136" height="16" rx="5" fill="#f4f4f5" stroke="#a1a1aa"/>
+          <text x="86" y="64" text-anchor="middle" fill="#52525b" font-size="7" font-weight="700">замечания до подписи</text>
+        </g>
+        <!-- стрелка: коридор → суд -->
+        <g fill="none" stroke="#71717a" stroke-width="1.4" stroke-dasharray="5 4" opacity="0.7">
+          <path d="M220,136 L220,148"/>
+          <path d="M220,240 L220,268"/>
+        </g>
+        <g transform="translate(168, 362)">
+          <rect width="104" height="26" rx="13" fill="#18181b"/>
+          <text x="52" y="17" text-anchor="middle" fill="#fafafa" font-size="8" font-weight="700" letter-spacing="0.05em">до суда · УПК</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+<section class="ym-lead ym-section ym-section--reveal" aria-label="Введение">
+  <div class="ym-lead__grid">
+    <div class="ym-lead__text">
+      <p>Досудебная стадия уголовного процесса — это не «предварительный разговор», а период, когда следствие собирает доказательства, а ваши слова и действия могут войти в материалы дела на годы вперёд.</p>
+      <p>Защита по уголовному делу начинается задолго до суда: с <a href="https://advokat-vsem.online/zashchita-po-ugolovnomu-delu-stadiya-proverki/">проверки сообщения о преступлении</a>, первого вызова в отдел, задержания и допроса. Ниже — стадии досудебного производства, права подозреваемого, тактика на допросе и риски по <a href="https://advokat-vsem.online/statya-159-177-uk-pri-dolgah-granica/">ст. 159 и 177 УК</a>. См. также <a href="https://advokat-vsem.online/ugolovnye-riski-pri-dolgah-chto-vazhno-znat/">уголовные риски при долгах</a> и <a href="https://advokat-vsem.online/stadii-ugolovnogo-processa-posle-obvinitelnogo-zaklyucheniya/">стадии уголовного процесса</a>.</p>
+      <div class="ym-lead__brief"><strong>Кратко:</strong> матрица «стадия × статус», чек-листы подготовки и дисциплина речи. Процессуальные ошибки следствия и сильная доказательная позиция работают в суде.</div>
+    </div>
+    <aside class="ym-lead__decor" aria-label="Ключевые нормы УПК">
+      <ul class="ym-lead__chips">
+        <li class="ym-lead__chip ym-lead__chip--navy">ст. 46–47 УПК</li>
+        <li class="ym-lead__chip ym-lead__chip--accent">ст. 144–145</li>
+        <li class="ym-lead__chip ym-lead__chip--warn">24 ч · ст. 92</li>
+        <li class="ym-lead__chip">ст. 159 / 177</li>
+        <li class="ym-lead__chip">допрос</li>
+        <li class="ym-lead__chip">обыск ст. 182</li>
+      </ul>
+      <svg class="ym-lead__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Досудебная стадия: проверка, задержание, следствие до суда">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#475569" font-size="10" font-weight="700">ДОСУДЕБНАЯ СТАДИЯ</text>
+        <rect x="24" y="48" width="72" height="48" rx="8" fill="#eff6ff" stroke="#1e40af"/>
+        <text x="60" y="70" text-anchor="middle" fill="#1e40af" font-size="8" font-weight="800">144</text>
+        <text x="60" y="84" text-anchor="middle" fill="#64748b" font-size="7">проверка</text>
+        <line x1="100" y1="72" x2="124" y2="72" stroke="#94a3b8" stroke-width="2"/>
+        <rect x="128" y="48" width="72" height="48" rx="8" fill="#fff7ed" stroke="#c2410c"/>
+        <text x="164" y="70" text-anchor="middle" fill="#9a3412" font-size="8" font-weight="800">92</text>
+        <text x="164" y="84" text-anchor="middle" fill="#64748b" font-size="7">24 ч</text>
+        <line x1="204" y1="72" x2="228" y2="72" stroke="#94a3b8" stroke-width="2"/>
+        <rect x="232" y="48" width="72" height="48" rx="8" fill="#f0fdf4" stroke="#0f2744"/>
+        <text x="268" y="70" text-anchor="middle" fill="#0f2744" font-size="8" font-weight="800">182</text>
+        <text x="268" y="84" text-anchor="middle" fill="#64748b" font-size="7">следствие</text>
+        <rect x="24" y="112" width="272" height="64" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+        <text x="160" y="134" text-anchor="middle" fill="#334155" font-size="8" font-weight="600">права · протокол · отказ ст. 46/47</text>
+        <text x="160" y="152" text-anchor="middle" fill="#64748b" font-size="7">ст. 159 бизнес · ст. 177 долги</text>
+        <text x="160" y="166" text-anchor="middle" fill="#94a3b8" font-size="7">защитник до первого протокола</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+<nav class="ym-toc ym-section" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#ym-dosudeb-start">Досудебная стадия</a></li>
+    <li><a href="#ym-matrix-dosudeb">Матрица стадия × статус</a></li>
+    <li><a href="#ym-dosudeb-prava">Права подозреваемого</a></li>
+    <li><a href="#ym-dosudeb-dopros">Допрос</a></li>
+    <li><a href="#ym-dosudeb-avoid">Чего избегать</a></li>
+    <li><a href="#ym-dosudeb-actions">Следственные действия</a></li>
+    <li><a href="#ym-dosudeb-159">ст. 159 УК</a></li>
+    <li><a href="#ym-dosudeb-177">ст. 177 УК</a></li>
+    <li><a href="#ym-dosudeb-advokat">Адвокат</a></li>
+    <li><a href="#ym-dosudeb-faq">FAQ</a></li>
+  </ul>
+</nav>
+<section class="ym-section ym-section--reveal">
+<div class="l24-longread-wrap">
+<h2 id="ym-dosudeb-start">Что такое досудебная защита и когда она начинается</h2>
+<p><strong>Досудебная защита</strong> — это совокупность процессуальных прав и тактики поведения до передачи дела в суд: на стадии проверки, предварительного расследования (дознание или следствие) и при рассмотрении меры пресечения. Цель — не «договориться со следователем», а законно ограничить сбор недопустимых доказательств, зафиксировать свою позицию и подготовить линию защиты.</p>
+<p>Досудебное производство по уголовному делу включает несколько этапов. Понимание, на каком вы находитесь, определяет, обязаны ли вы отвечать, нужен ли адвокат и какие следственные действия допустимы.</p>
+<h3>Доследственная проверка: сроки и ваши действия до возбуждения дела</h3>
+<p>Проверка сообщения о преступлении (часто её называют доследственной проверкой) регулируется ст. 144–145 УПК РФ. Следователь или дознаватель в течение <strong>3 суток</strong> с момента поступления заявления обязан принять одно из решений: возбудить уголовное дело, отказать в возбуждении, передать материалы по подследственности или приостановить проверку.</p>
+<p>Срок <strong>3 суток</strong> может быть продлён до <strong>10</strong> — постановлением руководителя следственного органа или начальника органа дознания. До <strong>30 суток</strong> — если нужны экспертизы, истребование документов, оперативно-розыскные мероприятия (ч. 1.1 ст. 144 УПК).</p>
+<p>На этой стадии вас могут вызвать для <strong>дачи объяснений</strong> (не путать с допросом по возбуждённому делу). Формально вы ещё не подозреваемый, но объяснения попадают в материалы проверки и влияют на решение о возбуждении.</p>
+<p><strong>Что делать до возбуждения дела:</strong></p>
+<ul>
+<li>Запросить копию заявления (в пределах закона) и понять предмет проверки.</li>
+<li>Собрать документы, подтверждающие вашу версию: договоры, платежи, переписку, акты.</li>
+<li>Оценить риск перевода в подозреваемого: при сильной доказательной позиции часть практиков рекомендует активно излагать факты для отказа в возбуждении; при риске переквалификации — сдержанность и консультация адвоката.</li>
+<li>Помнить: агрессивные методы вроде полноценного <strong>обыска жилища</strong> до возбуждения дела спорны; прокуратура неоднократно указывала на недопустимость подмены проверки следственными действиями по возбуждённому делу.</li>
+</ul>
+<p>Отказ в возбуждении (ст. 145 УПК) — законный исход при отсутствии события преступления или состава. Его можно обжаловать заявитель и потерпевший; для вас важно, чтобы материалы проверки не содержали «лишних» признаний.</p>
+<h3>Возбуждение уголовного дела: что меняется для подозреваемого</h3>
+<p>С момента <strong>возбуждения уголовного дела</strong> начинается предварительное расследование. Для вас критично, когда вы получаете статус <strong>подозреваемого</strong> (ст. 46 УПК): при задержании, при избрании меры пресечения до предъявления обвинения, при допросе в качестве подозреваемого.</p>
+<p>После возбуждения:</p>
+<ul>
+<li>Появляются полномочия на допрос, обыск, выемку, задержание по правилам гл. 12–13 УПК.</li>
+<li>Включается право на защитника (ст. 46, 47, 49 УПК; ст. 48 Конституции РФ).</li>
+<li>Ошибки в протоколах «цементируются» в материалах дела — исправить их на суде сложнее.</li>
+</ul>
+<p>Возбуждение уголовного дела следователем не означает обвинение: это старт расследования. Но тактика защиты подозреваемого меняется: приоритет — процессуальные гарантии, ходатайства, контроль следственных действий.</p>
+<h3>Дознание и следствие: чем отличаются формы расследования</h3>
+<p><strong>Дознание</strong> (гл. 20 УПК) — упрощённая форма: сроки короче, меньше следственных действий, дознаватель действует под надзором следователя. Типично для небольшой тяжести и ряда статей (в том числе часто обсуждают дознание по ст. 177 УК).</p>
+<p><strong>Следствие</strong> (гл. 21 УПК) — полное предварительное расследование следователем СК или внутренних органов. Экономические дела, в том числе по ст. 159 УК (мошенничество), чаще идут через следствие.</p>
+<p>Для вас различие важно сроками, набором действий и надзором прокуратуры. В обеих формах действуют права подозреваемого и обвиняемого; досудебная защита строится одинаково: адвокат, протоколы, обжалование по ст. 124–125 УПК.</p>
+
+<section id="l24-boris-ug-dosudeb-matrix" class="l24-boris-ug-dosudeb" aria-label="Досудебная защита: матрица стадия × статус">
+<div class="l24-boris-ug-dosudeb__shell">
+    <p class="l24-boris-ug-dosudeb__eyebrow">УПК РФ · ст. 46–47 · 144–145 · 182 · 2026</p>
+    <h3 class="l24-boris-ug-dosudeb__title" id="ym-matrix-dosudeb">Матрица «стадия × статус»: что сказать, когда молчать, когда только с адвокатом</h3>
+    <p class="l24-boris-ug-dosudeb__lead">Одна и та же фраза на <strong>проверке (ст. 144)</strong> и на <strong>допросе подозреваемого</strong> работает по-разному. Сетка ниже — тактика для <strong>свидетеля</strong>, <strong>подозреваемого</strong> и <strong>директора юрлица</strong>; слева — три стадии досудебного производства и ключевые сроки.</p>
+
+    <ul class="l24-boris-ug-dosudeb__legend" aria-label="Легенда тактики">
+      <li class="l24-boris-ug-dosudeb__legend-item"><span class="l24-boris-ug-dosudeb__legend-dot l24-boris-ug-dosudeb__legend-dot--say" aria-hidden="true"></span> Можно сказать — кратко, по вопросу</li>
+      <li class="l24-boris-ug-dosudeb__legend-item"><span class="l24-boris-ug-dosudeb__legend-dot l24-boris-ug-dosudeb__legend-dot--quiet" aria-hidden="true"></span> Молчание / осторожность</li>
+      <li class="l24-boris-ug-dosudeb__legend-item"><span class="l24-boris-ug-dosudeb__legend-dot l24-boris-ug-dosudeb__legend-dot--law" aria-hidden="true"></span> Только с адвокатом</li>
+    </ul>
+
+    <div class="l24-boris-ug-dosudeb__split">
+      <aside class="l24-boris-ug-dosudeb__rail" aria-label="Стадии досудебного производства">
+        <p class="l24-boris-ug-dosudeb__rail-title">Три стадии</p>
+        <svg class="l24-boris-ug-dosudeb__stages-svg" viewBox="0 0 200 268" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="ugd-stage-line" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#63b3ed"/>
+              <stop offset="50%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#4fd1c5"/>
+            </linearGradient>
+          </defs>
+          <line x1="36" y1="28" x2="36" y2="240" stroke="url(#ugd-stage-line)" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="36" cy="36" r="14" fill="#2b6cb0" stroke="#fff" stroke-width="2"/>
+          <text x="36" y="40" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">1</text>
+          <rect x="58" y="18" width="128" height="36" rx="7" fill="rgba(99,179,237,0.2)" stroke="#63b3ed"/>
+          <text x="122" y="34" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">Проверка ст. 144</text>
+          <text x="122" y="46" text-anchor="middle" fill="#a0aec0" font-size="7">3 / 10 / 30 суток</text>
+          <circle cx="36" cy="118" r="14" fill="#c53030" stroke="#fff" stroke-width="2"/>
+          <text x="36" y="122" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">2</text>
+          <rect x="58" y="100" width="128" height="36" rx="7" fill="rgba(252,129,129,0.15)" stroke="#fc8181"/>
+          <text x="122" y="116" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">Задержание + 24 ч</text>
+          <text x="122" y="128" text-anchor="middle" fill="#a0aec0" font-size="7">ст. 91–92 УПК</text>
+          <circle cx="36" cy="200" r="14" fill="#2f855a" stroke="#fff" stroke-width="2"/>
+          <text x="36" y="204" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">3</text>
+          <rect x="58" y="182" width="128" height="36" rx="7" fill="rgba(79,209,197,0.15)" stroke="#4fd1c5"/>
+          <text x="122" y="198" text-anchor="middle" fill="#b2f5ea" font-size="8" font-weight="700">Следствие</text>
+          <text x="122" y="210" text-anchor="middle" fill="#a0aec0" font-size="7">допрос · обыск ст. 182</text>
+          <path d="M 36 50 L 36 102" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="3 3"/>
+          <path d="M 36 132 L 36 184" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="3 3"/>
+        </svg>
+        <ul class="l24-boris-ug-dosudeb__deadlines">
+          <li class="l24-boris-ug-dosudeb__deadline"><strong>Проверка</strong>объяснения ≠ допрос; риск «обыска до возбуждения» — оспаривать</li>
+          <li class="l24-boris-ug-dosudeb__deadline"><strong>24 часа</strong>допрос задержанного; свидание с защитником <em>до</em> допроса (ч. 4–5 ст. 92)</li>
+          <li class="l24-boris-ug-dosudeb__deadline"><strong>Следствие</strong>отказ — п. 2 ч. 4 ст. 46 / п. 3 ч. 4 ст. 47, не только ст. 51 КРФ</li>
+        </ul>
+      </aside>
+
+      <div class="l24-boris-ug-dosudeb__matrix-wrap">
+        <div class="l24-boris-ug-dosudeb__matrix" role="table" aria-label="Матрица стадия × статус: тактика на досудебной стадии">
+          <div class="l24-boris-ug-dosudeb__corner" role="columnheader">Стадия ↓ / Статус →</div>
+          <div class="l24-boris-ug-dosudeb__colhead" role="columnheader">Свидетель</div>
+          <div class="l24-boris-ug-dosudeb__colhead" role="columnheader">Подозреваемый</div>
+          <div class="l24-boris-ug-dosudeb__colhead" role="columnheader">Директор юрлица</div>
+
+          <div class="l24-boris-ug-dosudeb__rowhead" role="rowheader">Проверка<span>ст. 144–145 УПК</span></div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--say">Сказать</span>
+            <strong>Явка по вызову.</strong> Отвечать на вопросы о деле; по себе и близким — <em>ст. 51 Конституции</em>. Риск перевода в подозреваемого — согласовать с адвокатом.
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--quiet">Осторожно</span>
+            Статуса ещё нет — это <strong>объяснения</strong>, не допрос. Сильная позиция → версия для отказа в возбуждении; риск 159/177 → сдержанность.
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--law">С адвокатом</span>
+            <strong>Единая линия</strong> компании; документы по запросу — через юриста; не смешивать личное и корпоративное в одном протоколе.
+          </div>
+
+          <div class="l24-boris-ug-dosudeb__rowhead l24-boris-ug-dosudeb__rowhead--det" role="rowheader">Задержание + 24 ч<span>ст. 91–92 УПК</span></div>
+          <div class="l24-boris-ug-dosudeb__cell l24-boris-ug-dosudeb__cell--na" role="cell">—</div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--law">Только с адвокатом</span>
+            Допрос не позднее <strong>24 ч</strong>; до него — свидание с защитником наедине. Фраза: «<em>Показания дам в присутствии защитника</em>» (ст. 92).
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--law">Только с адвокатом</span>
+            Уведомить корпоративного адвоката; <strong>не подписывать</strong> протоколы без юриста; уведомление родных — не позднее 12 ч (ч. 3 ст. 46).
+          </div>
+
+          <div class="l24-boris-ug-dosudeb__rowhead l24-boris-ug-dosudeb__rowhead--inv" role="rowheader">Следствие<span>допрос · обыск</span></div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--say">Сказать</span>
+            <strong>Кратко по факту.</strong> Ложные показания — <em>ст. 307 УК</em>; без «додумывания» и оправданий. Отказ только по ст. 51 (о себе/близких).
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--quiet">Молчание</span>
+            Право <strong>отказаться от показаний</strong> — п. 2 ч. 4 ст. 46 / п. 3 ч. 4 ст. 47 УПК. Не «беседа без протокола»; замечания к протоколу — обязательно.
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--law">С адвокатом</span>
+            <strong>Обыск в офисе</strong> — защитник вправе присутствовать (ч. 11 ст. 182); фиксировать отказ в допуске → <em>ст. 75 УПК</em>. Не трогать серверы без юриста.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l24-boris-ug-dosudeb__foot" aria-label="Связка стадий и норм">
+      <span class="l24-boris-ug-dosudeb__tag l24-boris-ug-dosudeb__tag--144">144: объяснения ≠ допрос</span>
+      <span class="l24-boris-ug-dosudeb__tag l24-boris-ug-dosudeb__tag--92">92: защитник до допроса</span>
+      <span class="l24-boris-ug-dosudeb__tag l24-boris-ug-dosudeb__tag--182">182: адвокат на обыске</span>
+      <span class="l24-boris-ug-dosudeb__tag">Допрос / опрос / беседа — разные форматы</span>
+    </div>
+    <p class="l24-boris-ug-dosudeb__caption">Схема к разделу о досудебной защите — не заменяет консультацию адвоката; тактику согласуйте по конкретному делу (в т.ч. ст. 159 и 177 УК).</p>
+  </div>
+</section>
+
+<h2 id="ym-dosudeb-prava">Права подозреваемого на досудебной стадии</h2>
+<p>Права подозреваемого — основа защиты по уголовному делу на досудебной стадии. Их нарушение ведёт к оспариванию доказательств (ст. 75 УПК) и отмене процессуальных решений.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Право на защиту и адвоката: с какого момента подключаться</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>Право на защиту</strong> (ст. 48 Конституции, ст. 49 УПК) возникает с момента, когда вы стали подозреваемым или обвиняемым, а также при задержании.</p>
+</div></div>
+<p>Подозреваемый (ст. 46 УПК) вправе:</p>
+<ul>
+<li>Знать, в чём подозревают.</li>
+<li>Давать объяснения и показания либо <strong>отказаться</strong> от дачи показаний.</li>
+<li>Пользоваться помощью защитника с момента фактического задержания или первого допроса.</li>
+<li>Представлять доказательства, заявлять ходатайства.</li>
+<li>Обжаловать действия и постановления.</li>
+</ul>
+<p>Обвиняемый (ст. 47 УПК) получает расширенный статус после предъявления обвинения; при первом допросе следователь обязан разъяснить <strong>все</strong> права. При допросе без адвоката — повторно разъяснить ключевые (п. 3–4, 7–8 ч. 4 ст. 47).</p>
+<p><strong>Когда подключать адвоката по уголовным делам:</strong> при любом сомнении в квалификации, при задержании, при обыске, при угрозе возбуждения по 159/177, при допросе директора по финансово-хозяйственной деятельности. На проверке (ст. 144) адвокат не обязателен, но консультация до первого визита в орган часто дешевле ошибки в объяснениях.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Что обязан разъяснить следователь и что зафиксировать в протоколе</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">При допросе подозреваемого или обвиняемого в протоколе должны быть отражены:</p>
+</div></div>
+<ul>
+<li>разъяснение права отказаться от дачи показаний;</li>
+<li>разъяснение права на защитника;</li>
+<li>факт участия или отказа от защитника (с подписью);</li>
+<li>время начала и окончания допроса, перерывы;</li>
+<li>вопросы и ответы <strong>дословно</strong> или с оговоркой о записи.</li>
+</ul>
+<p>Если права не разъяснили, показания не могут служить доказательством обвинения (ст. 49, 50, 51 Конституции РФ). Зафиксируйте в замечаниях к протоколу: «Права, предусмотренные ст. 46/47 УПК и ст. 51 Конституции, разъяснены не были» — и не подписывайте без ознакомления.</p>
+<p>При отказе от показаний корректно ссылаться на <strong>п. 2 ч. 4 ст. 46</strong> или <strong>п. 3 ч. 4 ст. 47 УПК</strong>, а не только на ст. 51 Конституции: иначе следствие иногда трактует отказ как «косвенное признание».</p>
+<aside class="ym-cta ym-cta--legis24" role="complementary">
+<p class="ym-cta__text">Вызов на допрос, задержание или обыск — на этой стадии фиксируются показания и статус. До первого протокола разумно согласовать с защитником линию: что подтверждаете документами, где уместен отказ от показаний, какие ходатайства заявить.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по досудебной защите</a></p>
+</aside>
+</aside>
+<h2 id="ym-dosudeb-dopros">Допрос следователем: что говорить и как вести себя</h2>
+<p>Допрос следователем подозреваемого — главный источник показаний на досудебной стадии. Вопросы следователя на допросе часто построены так, чтобы получить не факты, а оценки и эмоции. Поведение при допросе должно быть спокойным, коротким и согласованным с защитником.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Подготовка к допросу: документы, адвокат, повестка</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>Повестка</strong> (ст. 188 УПК) обязывает явиться в указанное время. Неявка без уважительной причины влечёт привод и штраф <strong>до 2500 рублей</strong> (ст. 113 УПК).</p>
+</div></div>
+<p><strong>Чек-лист подготовки:</strong></p>
+<ol>
+<li>Уточнить статус: свидетель, подозреваемый, обвиняемый.</li>
+<li>Согласовать с адвокатом позицию: что подтверждаете документами, где — «не помню» / «уточню по документам».</li>
+<li>Взять паспорт, ходатайства, копии договоров, переписки (если уместно).</li>
+<li>Не идти на «беседу без протокола» — требовать процессуальную форму.</li>
+<li>Предупредить близких о месте и времени (при задержании — уведомление родственных не позднее 12 ч, ч. 3 ст. 46).</li>
+</ol>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Как давать показания: короткие формулировки без «додумывания»</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">Показания на допросе — не исповедь и не лекция. Алгоритм, который рекомендуют процессуалисты:</p>
+</div></div>
+<ul>
+<li>Отвечать <strong>только на вопрос</strong>, без «на всякий случай».</li>
+<li>Использовать «да», «нет», даты, суммы, если уверены.</li>
+<li>«Не помню», «не знаю», «нужно сверить с документами» — законные ответы.</li>
+<li>Не договаривать за следователя: избегать «наверное», «кажется», «скорее всего».</li>
+<li>Не давать <strong>оправданий</strong> («я не хотел обмануть», «мне казалось честным») — они часто воспринимаются как признание умысла.</li>
+</ul>
+<p>Если защитник просит воздержаться от ответов — молчание по согласованной линии законно для подозреваемого и обвиняемого.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Отказ от показаний и молчание: когда это уместно по закону</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>Отказ от показаний</strong> на допросе — процессуальное право подозреваемого и обвиняемого, а не «вина». Свидетель отказаться от ответов по существу не может (кроме вопросов, затрагивающих его и близких по ст. 51 Конституции).</p>
+</div></div>
+<p>Отказаться от показаний на допросе уместно, когда:</p>
+<ul>
+<li>нет согласованной позиции с адвокатом;</li>
+<li>вопросы выходят за рамки известных вам фактов;</li>
+<li>есть риск противоречий с ранее данными объяснениями на проверке;</li>
+<li>вас пытаются допросить без защитника после задержания.</li>
+</ul>
+<p>Молчание не освобождает от процессуальной явки по повестке и не отменяет обязанность свидетеля отвечать на не запрещённые вопросы.</p>
+<h2 id="ym-dosudeb-avoid">Чего избегать на допросе и при следственных действиях</h2>
+<p>Знание того, <strong>чего избегать</strong>, не менее важно, чем знание прав. Ошибки на досудебной стадии редко «исправляются объяснением позже».</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Фразы и жесты, которые усиливают подозрение</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>15 формулировок, которых лучше избегать</strong> (если нет иной линии защиты с адвокатом):</p>
+</div></div>
+<ol>
+<li>«Я виноват, но…»</li>
+<li>«Честно говоря, мы договорились не платить»</li>
+<li>«Все так делают в нашей отрасли»</li>
+<li>«Деньги уже потратили, вернуть не можем»</li>
+<li>«Подписал, не читая»</li>
+<li>«Следователь сказал, что так будет легче»</li>
+<li>«Признаю, чтобы отпустили»</li>
+<li>«Это была моя идея» (без уточнения роли)</li>
+<li>«Контрагент сам виноват»</li>
+<li>«Уничтожили переписку, потому что…»</li>
+<li>«Скажу, как было, только без адвоката»</li>
+<li>«Да, обманули клиента»</li>
+<li>«Знал, что договор не исполним»</li>
+<li>«Перевёл на карту жены, чтобы не заблокировали»</li>
+<li>«Лучше заплатить сейчас, чем сесть»</li>
+</ol>
+<p><strong>5 безопасных ориентиров</strong> (при согласовании с защитником):</p>
+<ol>
+<li>«Отвечу на вопрос после консультации с защитником».</li>
+<li>«Подтверждаю факт подписания договора от [дата]; содержание обязательств — по тексту договора».</li>
+<li>«Исполнение обязательств подтверждается актами и платёжными документами, представлю ходатайством».</li>
+<li>«В соответствии с п. 2 ч. 4 ст. 46 УПК от дачи показаний отказываюсь».</li>
+<li>«Замечание к протоколу прошу занести: [текст]».</li>
+</ol>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Подпись протокола: что проверить до подписания</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">Перед подписью протокола допроса или следственного действия:</p>
+</div></div>
+<ul>
+<li>Прочитать <strong>весь</strong> текст, включая приложения.</li>
+<li>Сверить время, даты, фамилии, формулировки ответов.</li>
+<li>Внести <strong>замечания</strong> на отдельном листе, если что-то не соответствует сказанному.</li>
+<li>Не подписывать протокол с пустыми местами «на дописку».</li>
+<li>Убедиться, что зафиксированы ваши ходатайства (допрос свидетелей, экспертиза, иные документы).</li>
+</ul>
+<p>Подпись без замечаний означает согласие с содержанием — оспорить потом сложнее.</p>
+<h2 id="ym-dosudeb-actions">Следственные действия до суда: обыск, выемка, экспертиза</h2>
+<p>Следственные действия — обыск, выемка, осмотр, экспертиза — часто дают следствию больше, чем допрос. Защита подозреваемого здесь — в процессуальном контроле.</p>
+<h3>Ваши права при обыске и выемке</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>Обыск</strong> (ст. 182 УПК) проводится при наличии достаточных данных, что в помещении есть предметы и документы, имеющие значение для дела. До обыска должно быть предложено <strong>добровольно выдать</strong> их (ч. 4 ст. 182).</p>
+</div></div>
+<p>Ваши права:</p>
+<ul>
+<li>присутствовать при обыске (подозреваемый, обвиняемый, понятые);</li>
+<li><strong>защитник вправе присутствовать</strong> (ч. 11 ст. 182); следователь не обязан ждать его часами, но <strong>не вправе не допустить</strong> явившегося до окончания — иначе риск признания доказательств недопустимыми (ст. 75 УПК);</li>
+<li>заявлять ходатайства, делать замечания в протокол;</li>
+<li>получить копии постановления и протокола;</li>
+<li>фиксировать изъятие (фото, описание) с участием адвоката.</li>
+</ul>
+<p><strong>Выемка</strong> документов у организаций — отдельная процедура; для бизнеса критично разграничить личное и корпоративное, не подписывать акты без юриста.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Как не уничтожить линию защиты документами и перепиской</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">Речь не о «сокрытии улик», а о <strong>законном</strong> сохранении доказательств в вашу пользу:</p>
+</div></div>
+<ul>
+<li>Не удаляйте и не «чистите» переписку и серверы <strong>самовольно</strong> — это отдельные риски (подделка, воспрепятствование).</li>
+<li>Сохраняйте резервные копии договоров, платежей, актов, переписки о поставке и претензиях <strong>до</strong> визита следователя.</li>
+<li>При изъятии техники — ходатайствуйте о копировании данных для защиты.</li>
+<li>В протоколе указывайте, если отказали в допуске адвоката или нарушили ч. 4, 8, 11, 13 ст. 182 — это основа для ст. 75 УПК в суде.</li>
+</ul>
+<p><strong>Чек-лист «24 часа» после задержания или обыска в офисе:</strong></p>
+<ol>
+<li>Уведомить корпоративного адвоката и единого представителя компании.</li>
+<li>Запросить копии постановлений и протоколов.</li>
+<li>Зафиксировать перечень изъятого.</li>
+<li>Не менять IT-инфраструктуру без письменного согласования с юристом.</li>
+<li>Подготовить ходатайства (допрос, экспертиза, проверка законности).</li>
+<li>Оценить необходимость жалобы по ст. 125 УПК.</li>
+</ol>
+<h2 id="ym-dosudeb-159">Уголовные риски бизнеса: ст. 159 УК (мошенничество)</h2>
+<p>Ст. 159 УК РФ (мошенничество) — одна из самых частых точек пересечения <strong>гражданского спора</strong> и <strong>уголовного дела</strong> в бизнесе. Уголовная ответственность за мошенничество наступает при наличии состава: обман или злоупотребление доверием, <strong>хищение</strong> чужого имущества, <strong>корыстный умысел</strong>.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Граница гражданского спора и уголовного дела</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">Следствие нередко возбуждает дело по заявлению контрагента; задача защиты — показать отсутствие умысла и реальность хозяйственной операции.</p>
+</div></div>
+<h3>Типичные сценарии возбуждения дела по ст. 159</h3>
+<ul>
+<li>Невозврат займа или инвестиций: заявитель называет «обман», защита — гражданско-правовой характер обязательств.</li>
+<li>Срыв поставки: спор о форс-мажоре vs «заведомо невозможное исполнение».</li>
+<li>Услуги и предоплата: претензии к качеству vs отсутствие намерения оказывать услуги.</li>
+<li>Директор ООО: персональная ответственность при доказанном личном умысле и роли в решениях.</li>
+</ul>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Досудебная тактика защиты по экономическим спорам</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">Контрагент подал заявление → проверка по ст. 159: отделите <strong>предпринимательский риск</strong> (просрочка, убытки) от <strong>умысла</strong> (план не платить с начала). Документы решают на досудебной стадии.</p>
+</div></div>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+<p class="ym-cta__text">Заявление контрагента по ст. 159 или угроза возбуждения по ст. 177 — на доследственной проверке важно отделить гражданский спор от умысла и не зафиксировать противоречия в объяснениях. Разбор документов и процессуальной позиции до подписания бумаг снижает риск переквалификации.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовным рискам</a></p>
+</aside>
+</aside>
+<h2 id="ym-dosudeb-177">Ст. 177 УК: злостное уклонение от уплаты долгов</h2>
+<p>Ст. 177 УК РФ — <strong>злостное уклонение</strong> от погашения задолженности по заработной плате, выплате алиментов и иным установленным законом платежам. В связке со ст. 177 часто ищут запросы про злостное уклонение от уплаты долгов перед физлицами или бюджетом — важно не путать с обычным гражданским взысканием.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Когда долг остаётся гражданским, а когда — уголовным</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">Уголовная ответственность по ст. 177 возможна при <strong>умысле</strong> злостно не исполнять решение суда или иное обязательство, если это предусмотрено законом, и при отсутствии уважительных причин. Частичное погашение, банкротство, спор о размере долга, отсутствие вступившего в силу решения — аргументы <strong>против</strong> уголовного преследования.</p>
+</div></div>
+<p>Возбуждение по ст. 177 УК на практике часто идёт через дознание; при добровольном погашении после предупреждения дело нередко не возбуждают.</p>
+<h3>Поведение при проверке ФССП и до возбуждения дела</h3>
+<p>До возбуждения по ст. 177 важно не подписывать объяснения без юриста и фиксировать попытки погашения долга документами.</p>
+<h2 id="ym-dosudeb-advokat">Роль адвоката на досудебной стадии</h2>
+<p>Защита адвокатом подозреваемого на досудебной стадии — не роскошь, а инструмент соблюдения УПК и Конституции. Судебная практика 2025 года (обзоры ВС РФ) подчёркивает: грубые нарушения права на защиту при обыске и формальный «назначенец» вместо выбранного защитника влияют на допустимость доказательств и возмещение расходов.</p>
+<h3>Что делает защитник на допросе и при следственных действиях</h3>
+<ul>
+<li>Согласует линию показаний или отказа.</li>
+<li>Контролирует протокол, вносит замечания.</li>
+<li>Подаёт ходатайства (экспертиза, свидетели, исключение доказательств).</li>
+<li>Обжалует незаконные действия (ст. 124–125 УПК).</li>
+<li>Присутствует при обыске, выемке, очных ставках.</li>
+<li>Отделяет <strong>допрос</strong> от <strong>опроса</strong> (оперативно-розыскной) и «беседы без протокола».</li>
+</ul>
+<h3>Государственный vs частный адвокат</h3>
+<p><strong>Государственный защитник</strong> назначается, если вы не отказались от него и не наняли своего (ст. 50 УПК). Отказ от «назначенца» возможен, но при формальном нарушении процедуры отказа ВС РФ (обзор № 3/2025) допускает <strong>возмещение расходов</strong> на частного адвоката из федерального бюджета.</p>
+<p><strong>Частный адвокат</strong> — выбор доверия, специализации (159, 177, экономика), единой линии для компании. Для директора и бенефициара разумна согласованная стратегия одного защитника или команды.</p>
+<p>На первом допросе после задержания защитник обязателен по смыслу ст. 92 УПК: свидание наедине <strong>до</strong> допроса. Идти «просто поговорить» без адвоката — необоснованный риск.</p>
+<p><strong>Итог:</strong> досудебная защита по уголовному делу — это матрица «стадия × статус», чек-листы подготовки и дисциплина речи. Ни объяснения на проверке, ни молчание на допросе сами по себе не гарантируют прекращение дела; зато процессуальные ошибки следствия и сильная доказательная позиция работают в суде.</p>
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+<p class="ym-cta__text">Если вас вызывают по ст. 159 или 177, проводят обыск или задержали сотрудника — защиту на досудебной стадии лучше подключить до первого протокола, чем исправлять последствия после возбуждения дела и предъявления обвинения.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Связаться с адвокатом по уголовному делу</a></p>
+</aside>
+</aside>
+<section id="ym-dosudeb-faq" class="l24-faq-a13 ym-section" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+<h2>FAQ: короткие ответы</h2>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Можно ли не явиться по повестке?</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">Нет, без уважительной причины. Грозит привод и штраф до 2500 руб. (ст. 113 УПК). При болезни или командировке — уведомить следователя, подтвердить документами, ходатайствовать о переносе.</p>
+</div></div>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Обязан ли отвечать на все вопросы?</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>Свидетель</strong> — на вопросы о обстоятельствах дела, кроме запрещённых (о себе и близких по ст. 51 Конституции). <strong>Подозреваемый и обвиняемый</strong> — <strong>не обязаны</strong> давать показания (ст. 46, 47 УПК). На «беседу» без статуса и протокола — не обязаны участвовать; лучше требовать процессуальную форму.</p>
+</div></div>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Нужен ли адвокат на первом допросе?</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">При статусе подозреваемого после задержания — <strong>да, по сути обязателен</strong>: допрос не позднее 24 часов, до него — свидание с защитником (ст. 92). На проверке (ст. 144) формально не обязателен, но при риске 159/177 консультация до визита оправдана.</p>
+</div></div>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Что делать, если угроза возбуждением по ст. 159 или 177?</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">1. Не подписывать «признательные» объяснения без юриста. 2. Собрать документы по сделке или долгу. 3. Оценить гражданский vs уголовный характер спора. 4. Подключить адвоката по уголовным делам для участия в проверке и переговоров о процессуальной позиции. 5. При возбуждении — ходатайства, жалобы на незаконные действия, линия на прекращение дела при отсутствии состава.</p>
+</div></div>
+</section>
+</div>
+</section>
+</main>
+<!-- /wp:html -->

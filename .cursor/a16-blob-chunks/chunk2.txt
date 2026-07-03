@@ -1,0 +1,211 @@
+дзором следователя. Типично для небольшой тяжести и ряда статей (в том числе часто обсуждают дознание по ст. 177 УК).</p>
+<p><strong>Следствие</strong> (гл. 21 УПК) — полное предварительное расследование следователем СК или внутренних органов. Экономические дела, в том числе по ст. 159 УК (мошенничество), чаще идут через следствие.</p>
+<p>Для вас различие важно сроками, набором действий и надзором прокуратуры. В обеих формах действуют права подозреваемого и обвиняемого; досудебная защита строится одинаково: адвокат, протоколы, обжалование по ст. 124–125 УПК.</p>
+
+<section id="l24-boris-ug-dosudeb-matrix" class="l24-boris-ug-dosudeb" aria-label="Досудебная защита: матрица стадия × статус">
+<div class="l24-boris-ug-dosudeb__shell">
+    <p class="l24-boris-ug-dosudeb__eyebrow">УПК РФ · ст. 46–47 · 144–145 · 182 · 2026</p>
+    <h3 class="l24-boris-ug-dosudeb__title" id="ym-matrix-dosudeb">Матрица «стадия × статус»: что сказать, когда молчать, когда только с адвокатом</h3>
+    <p class="l24-boris-ug-dosudeb__lead">Одна и та же фраза на <strong>проверке (ст. 144)</strong> и на <strong>допросе подозреваемого</strong> работает по-разному. Сетка ниже — тактика для <strong>свидетеля</strong>, <strong>подозреваемого</strong> и <strong>директора юрлица</strong>; слева — три стадии досудебного производства и ключевые сроки.</p>
+
+    <ul class="l24-boris-ug-dosudeb__legend" aria-label="Легенда тактики">
+      <li class="l24-boris-ug-dosudeb__legend-item"><span class="l24-boris-ug-dosudeb__legend-dot l24-boris-ug-dosudeb__legend-dot--say" aria-hidden="true"></span> Можно сказать — кратко, по вопросу</li>
+      <li class="l24-boris-ug-dosudeb__legend-item"><span class="l24-boris-ug-dosudeb__legend-dot l24-boris-ug-dosudeb__legend-dot--quiet" aria-hidden="true"></span> Молчание / осторожность</li>
+      <li class="l24-boris-ug-dosudeb__legend-item"><span class="l24-boris-ug-dosudeb__legend-dot l24-boris-ug-dosudeb__legend-dot--law" aria-hidden="true"></span> Только с адвокатом</li>
+    </ul>
+
+    <div class="l24-boris-ug-dosudeb__split">
+      <aside class="l24-boris-ug-dosudeb__rail" aria-label="Стадии досудебного производства">
+        <p class="l24-boris-ug-dosudeb__rail-title">Три стадии</p>
+        <svg class="l24-boris-ug-dosudeb__stages-svg" viewBox="0 0 200 268" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="ugd-stage-line" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#63b3ed"/>
+              <stop offset="50%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#4fd1c5"/>
+            </linearGradient>
+          </defs>
+          <line x1="36" y1="28" x2="36" y2="240" stroke="url(#ugd-stage-line)" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="36" cy="36" r="14" fill="#2b6cb0" stroke="#fff" stroke-width="2"/>
+          <text x="36" y="40" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">1</text>
+          <rect x="58" y="18" width="128" height="36" rx="7" fill="rgba(99,179,237,0.2)" stroke="#63b3ed"/>
+          <text x="122" y="34" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">Проверка ст. 144</text>
+          <text x="122" y="46" text-anchor="middle" fill="#a0aec0" font-size="7">3 / 10 / 30 суток</text>
+          <circle cx="36" cy="118" r="14" fill="#c53030" stroke="#fff" stroke-width="2"/>
+          <text x="36" y="122" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">2</text>
+          <rect x="58" y="100" width="128" height="36" rx="7" fill="rgba(252,129,129,0.15)" stroke="#fc8181"/>
+          <text x="122" y="116" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">Задержание + 24 ч</text>
+          <text x="122" y="128" text-anchor="middle" fill="#a0aec0" font-size="7">ст. 91–92 УПК</text>
+          <circle cx="36" cy="200" r="14" fill="#2f855a" stroke="#fff" stroke-width="2"/>
+          <text x="36" y="204" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">3</text>
+          <rect x="58" y="182" width="128" height="36" rx="7" fill="rgba(79,209,197,0.15)" stroke="#4fd1c5"/>
+          <text x="122" y="198" text-anchor="middle" fill="#b2f5ea" font-size="8" font-weight="700">Следствие</text>
+          <text x="122" y="210" text-anchor="middle" fill="#a0aec0" font-size="7">допрос · обыск ст. 182</text>
+          <path d="M 36 50 L 36 102" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="3 3"/>
+          <path d="M 36 132 L 36 184" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" stroke-dasharray="3 3"/>
+        </svg>
+        <ul class="l24-boris-ug-dosudeb__deadlines">
+          <li class="l24-boris-ug-dosudeb__deadline"><strong>Проверка</strong>объяснения ≠ допрос; риск «обыска до возбуждения» — оспаривать</li>
+          <li class="l24-boris-ug-dosudeb__deadline"><strong>24 часа</strong>допрос задержанного; свидание с защитником <em>до</em> допроса (ч. 4–5 ст. 92)</li>
+          <li class="l24-boris-ug-dosudeb__deadline"><strong>Следствие</strong>отказ — п. 2 ч. 4 ст. 46 / п. 3 ч. 4 ст. 47, не только ст. 51 КРФ</li>
+        </ul>
+      </aside>
+
+      <div class="l24-boris-ug-dosudeb__matrix-wrap">
+        <div class="l24-boris-ug-dosudeb__matrix" role="table" aria-label="Матрица стадия × статус: тактика на досудебной стадии">
+          <div class="l24-boris-ug-dosudeb__corner" role="columnheader">Стадия ↓ / Статус →</div>
+          <div class="l24-boris-ug-dosudeb__colhead" role="columnheader">Свидетель</div>
+          <div class="l24-boris-ug-dosudeb__colhead" role="columnheader">Подозреваемый</div>
+          <div class="l24-boris-ug-dosudeb__colhead" role="columnheader">Директор юрлица</div>
+
+          <div class="l24-boris-ug-dosudeb__rowhead" role="rowheader">Проверка<span>ст. 144–145 УПК</span></div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--say">Сказать</span>
+            <strong>Явка по вызову.</strong> Отвечать на вопросы о деле; по себе и близким — <em>ст. 51 Конституции</em>. Риск перевода в подозреваемого — согласовать с адвокатом.
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--quiet">Осторожно</span>
+            Статуса ещё нет — это <strong>объяснения</strong>, не допрос. Сильная позиция → версия для отказа в возбуждении; риск 159/177 → сдержанность.
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--law">С адвокатом</span>
+            <strong>Единая линия</strong> компании; документы по запросу — через юриста; не смешивать личное и корпоративное в одном протоколе.
+          </div>
+
+          <div class="l24-boris-ug-dosudeb__rowhead l24-boris-ug-dosudeb__rowhead--det" role="rowheader">Задержание + 24 ч<span>ст. 91–92 УПК</span></div>
+          <div class="l24-boris-ug-dosudeb__cell l24-boris-ug-dosudeb__cell--na" role="cell">—</div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--law">Только с адвокатом</span>
+            Допрос не позднее <strong>24 ч</strong>; до него — свидание с защитником наедине. Фраза: «<em>Показания дам в присутствии защитника</em>» (ст. 92).
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--law">Только с адвокатом</span>
+            Уведомить корпоративного адвоката; <strong>не подписывать</strong> протоколы без юриста; уведомление родных — не позднее 12 ч (ч. 3 ст. 46).
+          </div>
+
+          <div class="l24-boris-ug-dosudeb__rowhead l24-boris-ug-dosudeb__rowhead--inv" role="rowheader">Следствие<span>допрос · обыск</span></div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--say">Сказать</span>
+            <strong>Кратко по факту.</strong> Ложные показания — <em>ст. 307 УК</em>; без «додумывания» и оправданий. Отказ только по ст. 51 (о себе/близких).
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--quiet">Молчание</span>
+            Право <strong>отказаться от показаний</strong> — п. 2 ч. 4 ст. 46 / п. 3 ч. 4 ст. 47 УПК. Не «беседа без протокола»; замечания к протоколу — обязательно.
+          </div>
+          <div class="l24-boris-ug-dosudeb__cell" role="cell">
+            <span class="l24-boris-ug-dosudeb__tactic l24-boris-ug-dosudeb__tactic--law">С адвокатом</span>
+            <strong>Обыск в офисе</strong> — защитник вправе присутствовать (ч. 11 ст. 182); фиксировать отказ в допуске → <em>ст. 75 УПК</em>. Не трогать серверы без юриста.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l24-boris-ug-dosudeb__foot" aria-label="Связка стадий и норм">
+      <span class="l24-boris-ug-dosudeb__tag l24-boris-ug-dosudeb__tag--144">144: объяснения ≠ допрос</span>
+      <span class="l24-boris-ug-dosudeb__tag l24-boris-ug-dosudeb__tag--92">92: защитник до допроса</span>
+      <span class="l24-boris-ug-dosudeb__tag l24-boris-ug-dosudeb__tag--182">182: адвокат на обыске</span>
+      <span class="l24-boris-ug-dosudeb__tag">Допрос / опрос / беседа — разные форматы</span>
+    </div>
+    <p class="l24-boris-ug-dosudeb__caption">Схема к разделу о досудебной защите — не заменяет консультацию адвоката; тактику согласуйте по конкретному делу (в т.ч. ст. 159 и 177 УК).</p>
+  </div>
+</section>
+
+<h2 id="ym-dosudeb-prava">Права подозреваемого на досудебной стадии</h2>
+<p>Права подозреваемого — основа защиты по уголовному делу на досудебной стадии. Их нарушение ведёт к оспариванию доказательств (ст. 75 УПК) и отмене процессуальных решений.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Право на защиту и адвоката: с какого момента подключаться</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>Право на защиту</strong> (ст. 48 Конституции, ст. 49 УПК) возникает с момента, когда вы стали подозреваемым или обвиняемым, а также при задержании.</p>
+</div></div>
+<p>Подозреваемый (ст. 46 УПК) вправе:</p>
+<ul>
+<li>Знать, в чём подозревают.</li>
+<li>Давать объяснения и показания либо <strong>отказаться</strong> от дачи показаний.</li>
+<li>Пользоваться помощью защитника с момента фактического задержания или первого допроса.</li>
+<li>Представлять доказательства, заявлять ходатайства.</li>
+<li>Обжаловать действия и постановления.</li>
+</ul>
+<p>Обвиняемый (ст. 47 УПК) получает расширенный статус после предъявления обвинения; при первом допросе следователь обязан разъяснить <strong>все</strong> права. При допросе без адвоката — повторно разъяснить ключевые (п. 3–4, 7–8 ч. 4 ст. 47).</p>
+<p><strong>Когда подключать адвоката по уголовным делам:</strong> при любом сомнении в квалификации, при задержании, при обыске, при угрозе возбуждения по 159/177, при допросе директора по финансово-хозяйственной деятельности. На проверке (ст. 144) адвокат не обязателен, но консультация до первого визита в орган часто дешевле ошибки в объяснениях.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Что обязан разъяснить следователь и что зафиксировать в протоколе</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">При допросе подозреваемого или обвиняемого в протоколе должны быть отражены:</p>
+</div></div>
+<ul>
+<li>разъяснение права отказаться от дачи показаний;</li>
+<li>разъяснение права на защитника;</li>
+<li>факт участия или отказа от защитника (с подписью);</li>
+<li>время начала и окончания допроса, перерывы;</li>
+<li>вопросы и ответы <strong>дословно</strong> или с оговоркой о записи.</li>
+</ul>
+<p>Если права не разъяснили, показания не могут служить доказательством обвинения (ст. 49, 50, 51 Конституции РФ). Зафиксируйте в замечаниях к протоколу: «Права, предусмотренные ст. 46/47 УПК и ст. 51 Конституции, разъяснены не были» — и не подписывайте без ознакомления.</p>
+<p>При отказе от показаний корректно ссылаться на <strong>п. 2 ч. 4 ст. 46</strong> или <strong>п. 3 ч. 4 ст. 47 УПК</strong>, а не только на ст. 51 Конституции: иначе следствие иногда трактует отказ как «косвенное признание».</p>
+<aside class="ym-cta ym-cta--legis24" role="complementary">
+<p class="ym-cta__text">Вызов на допрос, задержание или обыск — на этой стадии фиксируются показания и статус. До первого протокола разумно согласовать с защитником линию: что подтверждаете документами, где уместен отказ от показаний, какие ходатайства заявить.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по досудебной защите</a></p>
+</aside>
+</aside>
+<h2 id="ym-dosudeb-dopros">Допрос следователем: что говорить и как вести себя</h2>
+<p>Допрос следователем подозреваемого — главный источник показаний на досудебной стадии. Вопросы следователя на допросе часто построены так, чтобы получить не факты, а оценки и эмоции. Поведение при допросе должно быть спокойным, коротким и согласованным с защитником.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Подготовка к допросу: документы, адвокат, повестка</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>Повестка</strong> (ст. 188 УПК) обязывает явиться в указанное время. Неявка без уважительной причины влечёт привод и штраф <strong>до 2500 рублей</strong> (ст. 113 УПК).</p>
+</div></div>
+<p><strong>Чек-лист подготовки:</strong></p>
+<ol>
+<li>Уточнить статус: свидетель, подозреваемый, обвиняемый.</li>
+<li>Согласовать с адвокатом позицию: что подтверждаете документами, где — «не помню» / «уточню по документам».</li>
+<li>Взять паспорт, ходатайства, копии договоров, переписки (если уместно).</li>
+<li>Не идти на «беседу без протокола» — требовать процессуальную форму.</li>
+<li>Предупредить близких о месте и времени (при задержании — уведомление родственных не позднее 12 ч, ч. 3 ст. 46).</li>
+</ol>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Как давать показания: короткие формулировки без «додумывания»</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text">Показания на допросе — не исповедь и не лекция. Алгоритм, который рекомендуют процессуалисты:</p>
+</div></div>
+<ul>
+<li>Отвечать <strong>только на вопрос</strong>, без «на всякий случай».</li>
+<li>Использовать «да», «нет», даты, суммы, если уверены.</li>
+<li>«Не помню», «не знаю», «нужно сверить с документами» — законные ответы.</li>
+<li>Не договаривать за следователя: избегать «наверное», «кажется», «скорее всего».</li>
+<li>Не давать <strong>оправданий</strong> («я не хотел обмануть», «мне казалось честным») — они часто воспринимаются как признание умысла.</li>
+</ul>
+<p>Если защитник просит воздержаться от ответов — молчание по согласованной линии законно для подозреваемого и обвиняемого.</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Отказ от показаний и молчание: когда это уместно по закону</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>Отказ от показаний</strong> на допросе — процессуальное право подозреваемого и обвиняемого, а не «вина». Свидетель отказаться от ответов по существу не может (кроме вопросов, затрагивающих его и близких по ст. 51 Конституции).</p>
+</div></div>
+<p>Отказаться от показаний на допросе уместно, когда:</p>
+<ul>
+<li>нет согласованной позиции с адвокатом;</li>
+<li>вопросы выходят за рамки известных вам фактов;</li>
+<li>есть риск противоречий с ранее данными объяснениями на проверке;</li>
+<li>вас пытаются допросить без защитника после задержания.</li>
+</ul>
+<p>Молчание не освобождает от процессуальной явки по повестке и не отменяет обязанность свидетеля отвечать на не запрещённые вопросы.</p>
+<h2 id="ym-dosudeb-avoid">Чего избегать на допросе и при следственных действиях</h2>
+<p>Знание того, <strong>чего избегать</strong>, не менее важно, чем знание прав. Ошибки на досудебной стадии редко «исправляются объяснением позже».</p>
+<div class="l24-faq-a13__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+<h3 class="l24-faq-a13__q" itemprop="name">Фразы и жесты, которые усиливают подозрение</h3>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+<p class="l24-faq-a13__a" itemprop="text"><strong>15 формулировок, которых лучше избегать</strong> (если нет иной линии защиты с адвокатом):</p>
+</div></div>
+<ol>
+<li>«Я виноват, но…»</li>
+<li>«Честно говоря, мы договорились не платить»</li>
+<li>«Все так делают в нашей отрасли»</li>
+<li>«Деньги уже потратили, вернуть не можем»</li>
+<li>«Подписал, не читая»</li>
+<li>«Следователь сказал, что так будет легче»</li>
+<li>«Признаю, чтобы отпустили»</li>
+<li>«Это была моя идея» (без уточнения роли)</li>
+<li>«Контрагент сам виноват»</li>
+<li>«Уничтожили переписку, потому что…»</li>
+<li>«Скажу, как было, только без адвоката»</li>
+<li>«Да, обманули клиента»</li>
+<li>«Знал, что договор не исполним»</li>
+<li>«Пере
