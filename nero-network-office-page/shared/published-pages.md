@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-07-03 | KIRILL-ARB | vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026 | 566 | https://advokat-vsem.online/vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026/ |
 | 2026-07-02 | KIRILL-UG | vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026 | 562 | https://advokat-vsem.online/vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026/ |
 | 2026-07-02 | KIRILL-IP | sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026 | 560 | https://advokat-vsem.online/sip-nido-tovarnyj-znak-razlichitelnaya-sposobnost-2026/ |
 | 2026-07-02 | KIRILL-ARB | vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 | 555 | https://advokat-vsem.online/vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026/ |

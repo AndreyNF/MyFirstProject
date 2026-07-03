@@ -1981,3 +1981,16 @@ Description: Президиум ВС 01.07.2026 подтвердил штраф 
 main#primary: да
 ВНИМАНИЕ: контент MCP-only (static SVG + inline CSS, без `<script>`/`<canvas>`) — при публикации сохранить обёртку `<!-- wp:html -->`; заливать через Kovcheg blob (`wordpress_create_post_from_blob` / чанки ≤20000).
 ПАЙПЛАЙН: Наташа собрала HTML → следующий шаг: Юра (публикация через Kovcheg)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ PUBLISHED
+Дата: 2026-07-03
+page_id: 566
+slug: vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026
+URL: https://advokat-vsem.online/vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026/
+blob_id: 9GPJWFouleTtzarVf3xgZwnY
+bytes_total: 107672
+sha256: 11a511aa5b39a576b122826d10485e3ab0d98cc51104781350af3057912253cd
+Чанки: 44 (00→43, 2k, finalize на 43)
+Проверка URL: HTTP 200
+ПАЙПЛАЙН: публикация завершена
