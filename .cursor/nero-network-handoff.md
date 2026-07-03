@@ -1104,3 +1104,2057 @@ H1_для_hero: ВС РФ прекратил дело о краже как ма�
 ПОДЗАГОЛОВОК_HERO: Кассация отменила приговор по ч. 1 ст. 158 УК — когда формальный состав не даёт осуждения
 ТИП_СТАТЬИ: UG — уголовное право
 CTA_ГЛАВНЫЙ: https://advokat-vsem.ru/
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+**Hero id / class:** `l24-hero-vs-maloznachitelnost-krazha-st-14`
+
+**Размер:** `min-height: 88vh` / `88dvh`; padding `112px 24px 72px`; grid `1.04fr 0.96fr`; mobile visual `max-height: 320px`
+
+## Паспорт мира
+
+| Параметр | Значение |
+|----------|----------|
+| **Мир** | «Зал весов малозначительности» — кассация ВС № 11-УД26-3-К6: кража в «Магните» 5 674,25 ₽, три инстанции признали вину, ВС прекратил дело по ч. 2 ст. 14 УК |
+| **Центральная метафора** | Весы правосудия: тяжёлая чаша «формальный состав ч. 1 ст. 158» vs лёгкая «общественная опасность» — перевес малозначительности; кассационная лестница инстанций с отменой приговора |
+| **Пространство** | UG-градиент (#fefefe → #f5f3ff → #f0fdf4); SVG — колоннада ВС, весы, чек кассы самообслуживания, три печати «виновна» перечёркнуты, бейдж реабилитации |
+| **Движение** | Полностью static — без `<canvas>`, `<script>` и CSS-анимаций |
+| **Палитра** | `#1e293b` navy; `#4f46e5` UG-indigo; `#059669` прекращение; `#b91c1c` формальное обвинение; `#0f172a` текст; `#475569` подзаголовок |
+| **Аудитория** | Обвиняемые по «мелкой» краже, защитники — кассация, малозначительность, возмещение ущерба, реабилитация |
+
+## Чеклист отличий от других hero
+
+- [x] **Не sro-sozidanie**: не ARB/ЭТП/ФАС — **UG: кража, ч. 2 ст. 14 УК, кассация**
+- [x] **Не prodazha-kvartiry**: не ст. 159/мошенничество — **ч. 1 ст. 158, малозначительность**
+- [x] **Не gumanizaciya-dtp**: не ДТП/ст. 76 — **хищение в гипермаркете, п. 25.4 Пленума № 29**
+- [x] Уникальная сцена: **весы состав vs опасность + лестница 3 инстанций → ВС + чек «Магнит» + возмещение + реабилитация**
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG
+- [x] Badge **UG · ВС 14.04.2026 · № 11-УД26-3-К6**; chips: 5 674,25 ₽, ч. 2 ст. 14 УК, ч. 1 ст. 158 УК, п. 25.4 Пленума № 29
+
+```html
+<section id="l24-hero-vs-maloznachitelnost-krazha-st-14" class="l24-hero-vs-maloznachitelnost-krazha-st-14" aria-label="ВС РФ прекратил дело о краже как малозначительное: кассация № 11-УД26-3-К6, ч. 2 ст. 14 УК и ч. 1 ст. 158 УК">
+  <style>
+    .l24-hero-vs-maloznachitelnost-krazha-st-14 {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(148deg, #fefefe 0%, #f5f3ff 44%, #f0fdf4 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 38% 34% at 94% 8%, rgba(79, 70, 229, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 32% 30% at 4% 92%, rgba(5, 150, 105, 0.06) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(30, 41, 59, 0.14);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4f46e5;
+      flex-shrink: 0;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.32rem, 2.85vw, 2.08rem);
+      line-height: 1.22;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__h1-accent {
+      color: #312e81;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__sub {
+      margin: 0 0 26px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 26px;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact--sum {
+      border-color: #c4b5fd;
+      color: #4c1d95;
+      background: #f5f3ff;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact--st14 {
+      border-color: #6ee7b7;
+      color: #047857;
+      background: #ecfdf5;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact--st158 {
+      border-color: #fca5a5;
+      color: #b91c1c;
+      background: #fef2f2;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact--plenum {
+      border-color: #93c5fd;
+      color: #1e3a5f;
+      background: #eff6ff;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__cta {
+      display: inline-block;
+      background: #312e81;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(49, 46, 129, 0.22);
+      line-height: 1.35;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__cta:hover {
+      background: #1e1b4b;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-maloznachitelnost-krazha-st-14 {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-maloznachitelnost-krazha-st-14__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .l24-hero-vs-maloznachitelnost-krazha-st-14__visual {
+        order: -1;
+        max-height: 320px;
+        overflow: hidden;
+      }
+    }
+  </style>
+
+  <div class="l24-hero-vs-maloznachitelnost-krazha-st-14__inner">
+    <div class="l24-hero-vs-maloznachitelnost-krazha-st-14__content">
+      <div class="l24-hero-vs-maloznachitelnost-krazha-st-14__badge">
+        <span class="l24-hero-vs-maloznachitelnost-krazha-st-14__badge-mark" aria-hidden="true"></span>
+        UG · ВС 14.04.2026 · № 11-УД26-3-К6
+      </div>
+      <h1 class="l24-hero-vs-maloznachitelnost-krazha-st-14__h1">
+        <span class="l24-hero-vs-maloznachitelnost-krazha-st-14__h1-accent">ВС РФ прекратил дело о краже как малозначительное: ч. 2 ст. 14 УК и защита в кассации</span>
+      </h1>
+      <p class="l24-hero-vs-maloznachitelnost-krazha-st-14__sub">
+        Кассация отменила приговор по ч. 1 ст. 158 УК — когда формальный состав не даёт осуждения
+      </p>
+      <ul class="l24-hero-vs-maloznachitelnost-krazha-st-14__facts">
+        <li class="l24-hero-vs-maloznachitelnost-krazha-st-14__fact l24-hero-vs-maloznachitelnost-krazha-st-14__fact--sum">5 674,25 ₽</li>
+        <li class="l24-hero-vs-maloznachitelnost-krazha-st-14__fact l24-hero-vs-maloznachitelnost-krazha-st-14__fact--st14">ч. 2 ст. 14 УК</li>
+        <li class="l24-hero-vs-maloznachitelnost-krazha-st-14__fact l24-hero-vs-maloznachitelnost-krazha-st-14__fact--st158">ч. 1 ст. 158 УК</li>
+        <li class="l24-hero-vs-maloznachitelnost-krazha-st-14__fact l24-hero-vs-maloznachitelnost-krazha-st-14__fact--plenum">п. 25.4 Пленума № 29</li>
+      </ul>
+      <a class="l24-hero-vs-maloznachitelnost-krazha-st-14__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовному делу о краже</a>
+    </div>
+
+    <div class="l24-hero-vs-maloznachitelnost-krazha-st-14__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Кассация ВС: весы правосудия — формальный состав ч. 1 ст. 158 УК перевешен малозначительностью по ч. 2 ст. 14 УК; три инстанции отменены, дело прекращено, реабилитация">
+        <defs>
+          <linearGradient id="hvmz-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fafafa"/>
+            <stop offset="50%" stop-color="#f5f3ff"/>
+            <stop offset="100%" stop-color="#f0fdf4"/>
+          </linearGradient>
+          <linearGradient id="hvmz-vs" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#6366f1"/>
+            <stop offset="100%" stop-color="#312e81"/>
+          </linearGradient>
+          <linearGradient id="hvmz-green" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#34d399"/>
+            <stop offset="100%" stop-color="#059669"/>
+          </linearGradient>
+          <linearGradient id="hvmz-red" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f87171"/>
+            <stop offset="100%" stop-color="#b91c1c"/>
+          </linearGradient>
+          <pattern id="hvmz-col" width="24" height="24" patternUnits="userSpaceOnUse">
+            <rect width="24" height="24" fill="#f8fafc"/>
+            <line x1="12" y1="0" x2="12" y2="24" stroke="#e0e7ff" stroke-width="0.5"/>
+          </pattern>
+          <filter id="hvmz-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#312e81" flood-opacity="0.12"/>
+          </filter>
+        </defs>
+
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hvmz-bg)" stroke="#c4b5fd" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hvmz-col)" opacity="0.3"/>
+
+        <!-- VS cassation pediment -->
+        <g filter="url(#hvmz-sh)" transform="translate(158,8)">
+          <rect x="0" y="38" width="204" height="48" rx="4" fill="url(#hvmz-vs)"/>
+          <polygon points="102,2 204,38 0,38" fill="#4338ca"/>
+          <circle cx="102" cy="22" r="10" fill="#1e1b4b" opacity="0.35"/>
+          <path d="M97 22 L100 25 L107 18" fill="none" stroke="#a5b4fc" stroke-width="1.5"/>
+          <text x="102" y="54" text-anchor="middle" fill="#e0e7ff" font-size="6.5" font-weight="800" letter-spacing="0.04em">ВЕРХОВНЫЙ СУД РФ</text>
+          <text x="102" y="66" text-anchor="middle" fill="#a5b4fc" font-size="5.5" font-weight="600">кассация · 14.04.2026</text>
+          <text x="102" y="78" text-anchor="middle" fill="#c7d2fe" font-size="5">№ 11-УД26-3-К6 · прекращено</text>
+        </g>
+
+        <!-- Cassation ladder: 3 instances crossed, VS on top -->
+        <g filter="url(#hvmz-sh)" transform="translate(18,62)">
+          <text x="54" y="8" text-anchor="middle" fill="#64748b" font-size="5" font-weight="700">ИНСТАНЦИИ</text>
+          <!-- Step 1: мировой -->
+          <rect x="4" y="14" width="100" height="28" rx="5" fill="#fff" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="54" y="26" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="700">мировой судья</text>
+          <text x="54" y="36" text-anchor="middle" fill="#94a3b8" font-size="4.5">виновна · ст. 92 УК</text>
+          <line x1="12" y1="42" x2="96" y2="20" stroke="#dc2626" stroke-width="1.5"/>
+          <!-- Step 2: апелляция -->
+          <rect x="4" y="48" width="100" height="28" rx="5" fill="#fff" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="54" y="60" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="700">апелляция</text>
+          <text x="54" y="70" text-anchor="middle" fill="#94a3b8" font-size="4.5">без изменений</text>
+          <line x1="12" y1="76" x2="96" y2="54" stroke="#dc2626" stroke-width="1.5"/>
+          <!-- Step 3: 6-й КСОЮ -->
+          <rect x="4" y="82" width="100" height="28" rx="5" fill="#fff" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="54" y="94" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="700">6-й КСОЮ</text>
+          <text x="54" y="104" text-anchor="middle" fill="#94a3b8" font-size="4.5">без изменений</text>
+          <line x1="12" y1="110" x2="96" y2="88" stroke="#dc2626" stroke-width="1.5"/>
+          <!-- VS arrow down -->
+          <path d="M54 118 L54 132" stroke="#4f46e5" stroke-width="2"/>
+          <polygon points="54,138 48,128 60,128" fill="#4f46e5"/>
+          <text x="54" y="150" text-anchor="middle" fill="#059669" font-size="5" font-weight="800">ВС → отмена</text>
+        </g>
+
+        <!-- Central scales: formal composition vs public danger -->
+        <g filter="url(#hvmz-sh)" transform="translate(148,88)">
+          <line x1="112" y1="0" x2="112" y2="56" stroke="#312e81" stroke-width="2.5"/>
+          <rect x="88" y="54" width="48" height="8" rx="3" fill="#312e81"/>
+          <line x1="32" y1="16" x2="192" y2="16" stroke="#312e81" stroke-width="2.2" transform="rotate(-8 112 16)"/>
+          <!-- Left pan: heavy formal composition (lower) -->
+          <line x1="32" y1="16" x2="32" y2="44" stroke="#b91c1c" stroke-width="1.2" transform="rotate(-8 32 16)"/>
+          <path d="M8 44 L32 34 L56 44 L56 58 L8 58 Z" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.4"/>
+          <text x="32" y="50" text-anchor="middle" fill="#b91c1c" font-size="4.5" font-weight="800">ст. 158</text>
+          <text x="32" y="56" text-anchor="middle" fill="#dc2626" font-size="3.8">состав ✓</text>
+          <!-- Right pan: light insignificance (higher) -->
+          <line x1="192" y1="16" x2="192" y2="28" stroke="#059669" stroke-width="1.2" transform="rotate(-8 192 16)"/>
+          <path d="M168 28 L192 22 L216 28 L216 40 L168 40 Z" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+          <text x="192" y="34" text-anchor="middle" fill="#047857" font-size="4.5" font-weight="800">ст. 14</text>
+          <text x="192" y="40" text-anchor="middle" fill="#059669" font-size="3.8">малознач.</text>
+          <!-- Feather on right pan -->
+          <path d="M188 20 Q200 14 208 22 Q196 24 188 20" fill="#6ee7b7" opacity="0.8"/>
+          <text x="112" y="76" text-anchor="middle" fill="#312e81" font-size="5.2" font-weight="700">общественная опасность перевесила</text>
+        </g>
+
+        <!-- Hypermarket receipt / self-checkout -->
+        <g filter="url(#hvmz-sh)" transform="translate(388,62)">
+          <rect width="112" height="88" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.2"/>
+          <rect x="0" y="0" width="112" height="18" rx="8" fill="#64748b"/>
+          <text x="56" y="12" text-anchor="middle" fill="#fff" font-size="5.5" font-weight="800">«МАГНИТ»</text>
+          <text x="56" y="28" text-anchor="middle" fill="#64748b" font-size="4.5">касса самообслуживания</text>
+          <rect x="10" y="34" width="92" height="6" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="44" width="72" height="5" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="52" width="80" height="5" rx="1" fill="#e2e8f0"/>
+          <line x1="10" y1="62" x2="102" y2="62" stroke="#cbd5e1" stroke-width="0.8" stroke-dasharray="3 2"/>
+          <text x="56" y="72" text-anchor="middle" fill="#4c1d95" font-size="7" font-weight="900">5 674,25 ₽</text>
+          <text x="56" y="82" text-anchor="middle" fill="#94a3b8" font-size="4">16 лет · Бугульма</text>
+        </g>
+
+        <!-- Reimbursement arrow -->
+        <g filter="url(#hvmz-sh)" transform="translate(388,158)">
+          <rect width="112" height="36" rx="6" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1"/>
+          <path d="M20 18 L40 18 L36 14 M40 18 L36 22" fill="none" stroke="#059669" stroke-width="1.2"/>
+          <circle cx="52" cy="18" r="8" fill="#fff" stroke="#059669" stroke-width="1"/>
+          <text x="52" y="21" text-anchor="middle" fill="#059669" font-size="6" font-weight="800">₽</text>
+          <text x="78" y="16" text-anchor="middle" fill="#047857" font-size="4.5" font-weight="700">возмещение</text>
+          <text x="78" y="26" text-anchor="middle" fill="#64748b" font-size="4">родственниками</text>
+        </g>
+
+        <!-- Art 14 UK badge -->
+        <g filter="url(#hvmz-sh)" transform="translate(18,178)">
+          <rect width="108" height="54" rx="8" fill="url(#hvmz-green)" stroke="#047857" stroke-width="1"/>
+          <text x="54" y="16" text-anchor="middle" fill="#d1fae5" font-size="5.5" font-weight="700">Ч. 2 СТ. 14 УК</text>
+          <text x="54" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="900">малозначи-</text>
+          <text x="54" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="900">тельность</text>
+        </g>
+
+        <!-- Rehabilitation stamp -->
+        <g filter="url(#hvmz-sh)" transform="translate(388,202)">
+          <circle cx="56" cy="36" r="34" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="4 3"/>
+          <circle cx="56" cy="36" r="28" fill="#ecfdf5" stroke="#34d399" stroke-width="1.2"/>
+          <path d="M44 36 L52 44 L70 26" fill="none" stroke="#059669" stroke-width="2.5"/>
+          <text x="56" y="58" text-anchor="middle" fill="#047857" font-size="5" font-weight="800">реабилитация</text>
+          <text x="56" y="68" text-anchor="middle" fill="#64748b" font-size="4.5">ст. 133 УПК</text>
+        </g>
+
+        <!-- Cassation document roll -->
+        <g filter="url(#hvmz-sh)" transform="translate(148,178)">
+          <rect width="224" height="72" rx="8" fill="#fff" stroke="#4f46e5" stroke-width="1.2"/>
+          <rect x="0" y="0" width="224" height="16" rx="8" fill="#eef2ff"/>
+          <text x="112" y="11" text-anchor="middle" fill="#4338ca" font-size="5.5" font-weight="800">КАССАЦИОННОЕ ОПРЕДЕЛЕНИЕ</text>
+          <text x="14" y="30" fill="#334155" font-size="4.8">формальный состав ≠ преступление</text>
+          <text x="14" y="42" fill="#64748b" font-size="4.5">п. 2 ч. 1 ст. 24 УПК · отсутствие состава</text>
+          <text x="14" y="54" fill="#64748b" font-size="4.5">п. 25.4 Пленума ВС № 29 · кража</text>
+          <rect x="14" y="58" width="196" height="12" rx="3" fill="#f0fdf4"/>
+          <text x="112" y="67" text-anchor="middle" fill="#059669" font-size="4.8" font-weight="700">не ст. 92 УК — прекращение дела</text>
+        </g>
+
+        <!-- Justice columns -->
+        <g opacity="0.45">
+          <rect x="30" y="268" width="10" height="72" rx="2" fill="#e0e7ff"/>
+          <rect x="480" y="268" width="10" height="72" rx="2" fill="#e0e7ff"/>
+        </g>
+
+        <!-- Bottom info cards -->
+        <g filter="url(#hvmz-sh)" transform="translate(18,268)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#b91c1c" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#b91c1c" font-size="6" font-weight="800">ФОРМАЛЬНЫЙ СОСТАВ</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">ч. 1 ст. 158 УК · кража</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">сумма &gt; 2 500 ₽</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">3 суда: вина признана</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#fef2f2"/>
+          <text x="77" y="63" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="600">≠ осуждение</text>
+        </g>
+        <g filter="url(#hvmz-sh)" transform="translate(183,268)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#4f46e5" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#4338ca" font-size="6" font-weight="800">КАССАЦИЯ ВС</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">жалоба адвоката</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">отмена всех актов</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">новая оценка опасности</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#eef2ff"/>
+          <text x="77" y="63" text-anchor="middle" fill="#4f46e5" font-size="5" font-weight="600">защита в кассации</text>
+        </g>
+        <g filter="url(#hvmz-sh)" transform="translate(348,268)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#059669" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#047857" font-size="6" font-weight="800">МАЛОЗНАЧИТЕЛЬНОСТЬ</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">ч. 2 ст. 14 УК</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">ущерб возмещён</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">нет последствий</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#ecfdf5"/>
+          <text x="77" y="63" text-anchor="middle" fill="#059669" font-size="5" font-weight="600">дело прекращено</text>
+        </g>
+
+        <!-- Gavel subtle -->
+        <g filter="url(#hvmz-sh)" transform="translate(238,348)">
+          <rect x="0" y="0" width="44" height="10" rx="3" fill="#312e81"/>
+          <rect x="16" y="8" width="12" height="22" rx="2" fill="#4338ca"/>
+          <ellipse cx="22" cy="34" rx="20" ry="5" fill="#e0e7ff" opacity="0.6"/>
+        </g>
+
+        <text x="260" y="432" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-weight="600">UG · кража · малозначительность · кассация ВС · дайджест № 7/2026</text>
+      </svg>
+    </div>
+  </div>
+</section>
+```
+
+## Передача Наташе
+
+SLUG: vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026
+H1_для_hero: ВС РФ прекратил дело о краже как малозначительное: ч. 2 ст. 14 УК и защита в кассации
+ПОДЗАГОЛОВОК_HERO: Кассация отменила приговор по ч. 1 ст. 158 УК — когда формальный состав не даёт осуждения
+ТИП_СТАТЬИ: UG — уголовное право
+СЛЕДУЮЩИЙ_ШАГ: Наташа (сборка + публикация)
+ВНИМАНИЕ: hero — static SVG + inline CSS, без `<canvas>`, `<script>`.
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+ЯКОРЬ: l24-boris-vs-maloznachitelnost-k6-path
+
+## Паспорт блока
+
+| Параметр | Значение |
+|----------|----------|
+| **Статья** | ВС РФ прекратил дело о краже в гипермаркете как малозначительное — кассация № 11-УД26-3-К6 (ч. 2 ст. 14 УК, ч. 1 ст. 158 УК) |
+| **SLUG** | `vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026` |
+| **Якорь** | `l24-boris-vs-maloznachitelnost-k6-path` |
+| **id / class секции** | `id="l24-boris-vs-maloznachitelnost-k6-path"` · `class="l24-boris-vs-maloznachitelnost-k6"` |
+| **Тема** | Сплит: путь дела по инстанциям (мировой → апелляция → 6-й КС → ВС) + сетка критериев малозначительности по п. 25.4 Пленума № 29 на фактах дела |
+| **Размещение** | После H2 «Признаки и критерии малозначительности: п. 25.4 Пленума ВС № 29» — перед H2 «Формальный состав кражи (ч. 1 ст. 158 УК) vs реальная общественная опасность» |
+| **Режим** | Контраст к светлому hero Алины (гипермаркет / формальный состав); тёмная редакционная схема в теле — MCP-only, inline CSS + static SVG |
+| **Палитра** | Shell `#0c1424`–`#1a2744`; нижние инстанции: coral `#f87171` / `#fca5a5`; ВС: gold `#ecc94b`; прекращение: emerald `#34d399`; норма: indigo `#6366f1`; ч. 2 ст. 14: `#818cf8` |
+
+## Чеклист отличий от hero Алины
+
+- [x] Не полноэкранный первый экран — блок в теле лонгрида после 2–3 H2
+- [x] Другой `id`: `l24-boris-vs-maloznachitelnost-k6-path` (не hero-id Алины)
+- [x] Горизонтальная схема инстанций + сетка критериев п. 25.4 — не дублирует сцену hero
+- [x] Без `<canvas>` и `<script>` — только inline CSS + static SVG + grid
+- [x] CTA в блоке **не вставлять**
+
+```html
+<section id="l24-boris-vs-maloznachitelnost-k6-path" class="l24-boris-vs-maloznachitelnost-k6" aria-label="Дело № 11-УД26-3-К6: путь по инстанциям и критерии малозначительности по ч. 2 ст. 14 УК и п. 25.4 Пленума ВС № 29">
+<style>
+.l24-boris-vs-maloznachitelnost-k6 {
+  --bk-navy: #0c1424;
+  --bk-navy-soft: #1a2744;
+  --bk-muted: #94a3b8;
+  --bk-txt: #e2e8f0;
+  --bk-lower: #f87171;
+  --bk-lower-soft: #fca5a5;
+  --bk-lower-bg: rgba(248, 113, 113, 0.12);
+  --bk-vs: #ecc94b;
+  --bk-vs-bg: rgba(236, 201, 75, 0.14);
+  --bk-ok: #34d399;
+  --bk-ok-soft: #6ee7b7;
+  --bk-ok-bg: rgba(52, 211, 153, 0.12);
+  --bk-law: #818cf8;
+  --bk-law-bg: rgba(99, 102, 241, 0.14);
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-vs-maloznachitelnost-k6__shell {
+  background: linear-gradient(155deg, var(--bk-navy) 0%, #111d33 48%, var(--bk-navy-soft) 100%);
+  border: 1px solid rgba(129, 140, 248, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 24px;
+  color: var(--bk-txt);
+  box-shadow: 0 18px 48px rgba(12, 20, 36, 0.38);
+}
+.l24-boris-vs-maloznachitelnost-k6__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bk-vs);
+}
+.l24-boris-vs-maloznachitelnost-k6__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-vs-maloznachitelnost-k6__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bk-muted);
+  max-width: 78ch;
+}
+.l24-boris-vs-maloznachitelnost-k6__lead strong { color: #fff; }
+.l24-boris-vs-maloznachitelnost-k6__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 22px;
+  margin-bottom: 22px;
+  align-items: start;
+}
+.l24-boris-vs-maloznachitelnost-k6__path-hd,
+.l24-boris-vs-maloznachitelnost-k6__crit-hd {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.l24-boris-vs-maloznachitelnost-k6__path-hd { color: var(--bk-lower-soft); }
+.l24-boris-vs-maloznachitelnost-k6__crit-hd { color: var(--bk-law); }
+.l24-boris-vs-maloznachitelnost-k6__scheme-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card {
+  padding: 12px 12px 10px;
+  border-radius: 10px;
+  font-size: 0.74rem;
+  line-height: 1.42;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card strong {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card--trap {
+  border-color: rgba(248, 113, 113, 0.42);
+  border-top: 3px solid var(--bk-lower);
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card--trap strong { color: var(--bk-lower-soft); }
+.l24-boris-vs-maloznachitelnost-k6__contrast-card--win {
+  border-color: rgba(52, 211, 153, 0.42);
+  border-top: 3px solid var(--bk-ok);
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card--win strong { color: var(--bk-ok-soft); }
+.l24-boris-vs-maloznachitelnost-k6__crit-panel {
+  border-radius: 12px;
+  padding: 16px 14px 14px;
+  background: var(--bk-law-bg);
+  border: 1px solid rgba(129, 140, 248, 0.35);
+  height: 100%;
+  box-sizing: border-box;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-ref {
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid var(--bk-law);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: #c7d2fe;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-item {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  margin: 0 0 9px;
+  padding: 9px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  font-size: 0.74rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-item:last-child { margin-bottom: 0; }
+.l24-boris-vs-maloznachitelnost-k6__crit-mark {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-item strong {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--bk-law);
+  margin-bottom: 3px;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-val {
+  color: var(--bk-ok-soft);
+  font-weight: 600;
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr) minmax(0, 1fr);
+  gap: 0;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix-h {
+  padding: 10px 12px;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix-h--lower { color: var(--bk-lower-soft); }
+.l24-boris-vs-maloznachitelnost-k6__matrix-h--vs { color: var(--bk-vs); }
+.l24-boris-vs-maloznachitelnost-k6__matrix-row { display: contents; }
+.l24-boris-vs-maloznachitelnost-k6__matrix-cell {
+  padding: 10px 12px;
+  font-size: 0.74rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst {
+  font-weight: 600;
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.05);
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower { color: #fecaca; }
+.l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs { color: #fde68a; font-weight: 600; }
+.l24-boris-vs-maloznachitelnost-k6__matrix-row:last-child .l24-boris-vs-maloznachitelnost-k6__matrix-cell { border-bottom: none; }
+.l24-boris-vs-maloznachitelnost-k6__verdict {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: var(--bk-ok-bg);
+  border: 1px solid rgba(52, 211, 153, 0.32);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--bk-muted);
+}
+.l24-boris-vs-maloznachitelnost-k6__verdict strong { color: var(--bk-ok-soft); }
+.l24-boris-vs-maloznachitelnost-k6__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-maloznachitelnost-k6__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--bk-txt);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.l24-boris-vs-maloznachitelnost-k6__tag--case { border-color: rgba(236, 201, 75, 0.5); color: var(--bk-vs); }
+.l24-boris-vs-maloznachitelnost-k6__tag--law { border-color: rgba(129, 140, 248, 0.45); color: #c7d2fe; }
+.l24-boris-vs-maloznachitelnost-k6__tag--ok { border-color: rgba(52, 211, 153, 0.45); color: var(--bk-ok-soft); }
+.l24-boris-vs-maloznachitelnost-k6__tag--lower { border-color: rgba(248, 113, 113, 0.45); color: var(--bk-lower-soft); }
+@media (max-width: 860px) {
+  .l24-boris-vs-maloznachitelnost-k6__split { grid-template-columns: 1fr; }
+  .l24-boris-vs-maloznachitelnost-k6__contrast { grid-template-columns: 1fr; }
+  .l24-boris-vs-maloznachitelnost-k6__matrix { grid-template-columns: 1fr; }
+  .l24-boris-vs-maloznachitelnost-k6__matrix-h:not(:first-child) { display: none; }
+  .l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower::before,
+  .l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs::before {
+    display: block; font-size: 0.6rem; font-weight: 800;
+    letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 4px; opacity: 0.75;
+  }
+  .l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower::before { content: "3 инстанции"; color: var(--bk-lower-soft); }
+  .l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs::before { content: "ВС РФ"; color: var(--bk-vs); }
+  .l24-boris-vs-maloznachitelnost-k6__shell { padding: 24px 18px 20px; }
+}
+</style>
+
+<div class="l24-boris-vs-maloznachitelnost-k6__shell">
+  <p class="l24-boris-vs-maloznachitelnost-k6__eyebrow">UG · кассация ВС 14.04.2026 · № 11-УД26-3-К6 · ч. 2 ст. 14 УК</p>
+  <h3 class="l24-boris-vs-maloznachitelnost-k6__title">Путь дела и критерии малозначительности: от «мягкого приговора» к прекращению</h3>
+  <p class="l24-boris-vs-maloznachitelnost-k6__lead">Три нижестоящие инстанции признали вину по <strong>ч. 1 ст. 158 УК</strong> и применили освобождение от наказания (<strong>ст. 92 УК</strong>) с ПМВВ. Верховный суд отменил все акты: формальный состав кражи на <strong>5 674,25 ₽</strong> не равен преступлению при совокупности критериев <strong>п. 25.4 Пленума № 29</strong>.</p>
+
+  <div class="l24-boris-vs-maloznachitelnost-k6__split">
+    <div class="l24-boris-vs-maloznachitelnost-k6__path-col">
+      <p class="l24-boris-vs-maloznachitelnost-k6__path-hd">Путь дела по инстанциям</p>
+
+      <svg class="l24-boris-vs-maloznachitelnost-k6__scheme-svg" viewBox="0 0 720 248" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bkMalT bkMalD">
+        <title id="bkMalT">Хронология дела № 11-УД26-3-К6: мировой суд → апелляция → 6-й кассационный суд → ВС РФ</title>
+        <desc id="bkMalD">Три нижестоящие инстанции оставили вину и мягкий исход; ВС 14.04.2026 отменил приговор и прекратил дело по ч. 2 ст. 14 УК с реабилитацией</desc>
+        <defs>
+          <marker id="bkMal-arr" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+            <polygon points="0 0, 8 3.5, 0 7" fill="#94a3b8"/>
+          </marker>
+          <marker id="bkMal-arr-gold" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+            <polygon points="0 0, 8 3.5, 0 7" fill="#ecc94b"/>
+          </marker>
+          <linearGradient id="bkMal-line" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f87171"/>
+            <stop offset="72%" stop-color="#f87171"/>
+            <stop offset="100%" stop-color="#ecc94b"/>
+          </linearGradient>
+        </defs>
+
+        <text x="360" y="20" text-anchor="middle" fill="#94a3b8" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif" letter-spacing="0.06em">КРАЖА В «МАГНИТЕ» · 5 674,25 ₽ · НЕСОВЕРШЕННОЛЕТНЯЯ 16 ЛЕТ</text>
+
+        <line x1="72" y1="108" x2="648" y2="108" stroke="url(#bkMal-line)" stroke-width="2.5" marker-end="url(#bkMal-arr-gold)"/>
+
+        <circle cx="96" cy="108" r="11" fill="#f87171" stroke="#fca5a5" stroke-width="1.5"/>
+        <text x="96" y="78" text-anchor="middle" fill="#fecaca" font-size="6.5" font-weight="800" font-family="system-ui,sans-serif">МИРОВОЙ</text>
+        <text x="96" y="90" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">29.04.2025</text>
+        <text x="96" y="132" text-anchor="middle" fill="#fca5a5" font-size="5.8" font-weight="700" font-family="system-ui,sans-serif">виновна</text>
+        <text x="96" y="144" text-anchor="middle" fill="#94a3b8" font-size="5.2" font-family="system-ui,sans-serif">ст. 92 + ПМВВ</text>
+
+        <circle cx="264" cy="108" r="10" fill="#f87171" stroke="#fca5a5" stroke-width="1.4"/>
+        <text x="264" y="78" text-anchor="middle" fill="#fecaca" font-size="6.2" font-weight="800" font-family="system-ui,sans-serif">АПЕЛЛЯЦИЯ</text>
+        <text x="264" y="90" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">11.06.2025</text>
+        <text x="264" y="132" text-anchor="middle" fill="#fca5a5" font-size="5.8" font-weight="700" font-family="system-ui,sans-serif">без изменений</text>
+        <text x="264" y="144" text-anchor="middle" fill="#94a3b8" font-size="5.2" font-family="system-ui,sans-serif">малознач. не обсуждали</text>
+
+        <circle cx="432" cy="108" r="10" fill="#f87171" stroke="#fca5a5" stroke-width="1.4"/>
+        <text x="432" y="74" text-anchor="middle" fill="#fecaca" font-size="6" font-weight="800" font-family="system-ui,sans-serif">6-й КСОЮ</text>
+        <text x="432" y="86" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">24.09.2025</text>
+        <text x="432" y="132" text-anchor="middle" fill="#fca5a5" font-size="5.8" font-weight="700" font-family="system-ui,sans-serif">без изменений</text>
+        <text x="432" y="144" text-anchor="middle" fill="#94a3b8" font-size="5.2" font-family="system-ui,sans-serif">п. 25.4 проигнорирован</text>
+
+        <circle cx="624" cy="108" r="13" fill="#4338ca" stroke="#ecc94b" stroke-width="2"/>
+        <text x="624" y="74" text-anchor="middle" fill="#fde68a" font-size="6.5" font-weight="800" font-family="system-ui,sans-serif">ВС РФ</text>
+        <text x="624" y="86" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">14.04.2026</text>
+        <text x="624" y="132" text-anchor="middle" fill="#6ee7b7" font-size="5.8" font-weight="800" font-family="system-ui,sans-serif">отмена всех актов</text>
+        <text x="624" y="144" text-anchor="middle" fill="#a7f3d0" font-size="5.2" font-family="system-ui,sans-serif">ч. 2 ст. 14 · реабилитация</text>
+
+        <path d="M96 121 Q360 168 624 121" fill="none" stroke="#34d399" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.55"/>
+
+        <rect x="24" y="178" width="672" height="58" rx="10" fill="rgba(129,140,248,0.1)" stroke="#818cf8" stroke-width="1.2"/>
+        <text x="360" y="196" text-anchor="middle" fill="#c7d2fe" font-size="6.8" font-weight="800" font-family="system-ui,sans-serif">ФОРМАЛЬНЫЙ СОСТАВ ≠ ПРЕСТУПЛЕНИЕ · ч. 2 ст. 14 УК · п. 2 ч. 1 ст. 24 УПК</text>
+        <text x="180" y="216" text-anchor="middle" fill="#fca5a5" font-size="5.5" font-family="system-ui,sans-serif">3 инстанции: вина признана</text>
+        <text x="360" y="216" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">общественная опасность не оценена</text>
+        <text x="540" y="216" text-anchor="middle" fill="#6ee7b7" font-size="5.5" font-weight="700" font-family="system-ui,sans-serif">ВС: состава нет → прекращение</text>
+        <text x="360" y="228" text-anchor="middle" fill="#fde68a" font-size="5.2" font-family="system-ui,sans-serif">возмещение родственниками · ущерб гипермаркету фактически отсутствует</text>
+      </svg>
+
+      <div class="l24-boris-vs-maloznachitelnost-k6__contrast" role="group" aria-label="Контраст мягкого приговора и прекращения дела">
+        <div class="l24-boris-vs-maloznachitelnost-k6__contrast-card l24-boris-vs-maloznachitelnost-k6__contrast-card--trap">
+          <strong>Ловушка «мягкого» исхода</strong>
+          ст. 92 УК + ПМВВ: вина формально установлена, малозначительность не обсуждалась — судимость и ограничения досуга остаются риском.
+        </div>
+        <div class="l24-boris-vs-maloznachitelnost-k6__contrast-card l24-boris-vs-maloznachitelnost-k6__contrast-card--win">
+          <strong>Исход ВС по ч. 2 ст. 14</strong>
+          Прекращение по п. 2 ч. 1 ст. 24 УПК: вины нет, право на реабилитацию (ст. 133 УПК) — целевой запрос кассационной жалобы.
+        </div>
+      </div>
+    </div>
+
+    <div class="l24-boris-vs-maloznachitelnost-k6__crit-col">
+      <p class="l24-boris-vs-maloznachitelnost-k6__crit-hd">Критерии п. 25.4 · совокупность в деле</p>
+      <div class="l24-boris-vs-maloznachitelnost-k6__crit-panel">
+        <p class="l24-boris-vs-maloznachitelnost-k6__crit-ref">П. 25.4 Пленума ВС № 29: при кражe учитывать <strong>совокупность</strong> — степень реализации умысла, размер похищенного, роль в соучастии, обстоятельства деяния и иные факторы + ч. 2 ст. 14 УК.</p>
+        <ul class="l24-boris-vs-maloznachitelnost-k6__crit-list">
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Степень реализации умысла</strong>Кража через кассу самообслуживания — умысел подтверждён, но <span class="l24-boris-vs-maloznachitelnost-k6__crit-val">общественная опасность недостаточна</span></div>
+          </li>
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Размер похищенного</strong><span class="l24-boris-vs-maloznachitelnost-k6__crit-val">5 674,25 ₽</span> — уголовная ч. 1 ст. 158 (~2,3× порога 2 500 ₽), но мало для крупного гипермаркета</div>
+          </li>
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Роль в соучастии</strong>Единоличное деяние, без организаторской роли — <span class="l24-boris-vs-maloznachitelnost-k6__crit-val">фактор не усиливает опасность</span></div>
+          </li>
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Обстоятельства деяния</strong>Полное <span class="l24-boris-vs-maloznachitelnost-k6__crit-val">возмещение родственниками</span> до суда; негативных последствий для «Магнита» нет</div>
+          </li>
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Личность · иные факторы</strong><span class="l24-boris-vs-maloznachitelnost-k6__crit-val">16 лет</span>, не судима, положительная характеристика — ВС учёл при оценке вреда обществу</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="l24-boris-vs-maloznachitelnost-k6__matrix" role="table" aria-label="Сравнение позиций нижестоящих судов и ВС РФ по делу о малозначительности">
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-h">Инстанция</div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-h l24-boris-vs-maloznachitelnost-k6__matrix-h--lower">3 инстанции до ВС</div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-h l24-boris-vs-maloznachitelnost-k6__matrix-h--vs">ВС РФ · 14.04.2026</div>
+
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-row" role="row">
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst" role="cell">Вопрос о составе</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower" role="cell">Признаки ч. 1 ст. 158 → вина установлена</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs" role="cell">Общественная опасность недостаточна → состава нет</div>
+    </div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-row" role="row">
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst" role="cell">Малозначительность</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower" role="cell">Не обсуждалась — нарушение п. 25.4</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs" role="cell">Ч. 2 ст. 14 УК применена — дело прекращено</div>
+    </div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-row" role="row">
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst" role="cell">Процессуальный итог</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower" role="cell">ст. 92 УК + ПМВВ (ограничение досуга 6 мес.)</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs" role="cell">п. 2 ч. 1 ст. 24 УПК + реабилитация ст. 133 УПК</div>
+    </div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-row" role="row">
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst" role="cell">Ущерб потерпевшему</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower" role="cell">Сумма зафиксирована, возмещение не учтено</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs" role="cell">Фактический ущерб отсутствует — ключевой фактор ВС</div>
+    </div>
+  </div>
+
+  <p class="l24-boris-vs-maloznachitelnost-k6__verdict"><strong>Для защиты в кассации:</strong> ссылаться на совокупность п. 25.4 (не только сумму), процессуальное нарушение — суды не мотивировали отказ от ч. 2 ст. 14 УК, требовать прекращение и реабилитацию, а не замену наказания. Прецедент № 11-УД26-3-К6 — дайджест ВС «Уголовный процесс» № 7, июль 2026.</p>
+
+  <div class="l24-boris-vs-maloznachitelnost-k6__foot" aria-label="Нормативная база блока">
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--case">ВС 14.04.2026 · № 11-УД26-3-К6</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--law">ч. 2 ст. 14 УК</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--law">п. 25.4 Пленума № 29</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--law">ч. 1 ст. 158 УК · 5 674,25 ₽</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--lower">ст. 92 УК ≠ прекращение</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--ok">ст. 133 УПК · реабилитация</span>
+  </div>
+</div>
+</section>
+```
+
+## Передача Наташе
+
+- **Якорь:** `l24-boris-vs-maloznachitelnost-k6-path`
+- **class секции:** `l24-boris-vs-maloznachitelnost-k6`
+- **После H2:** «Признаки и критерии малозначительности: п. 25.4 Пленума ВС № 29»
+- **Перед:** H2 «Формальный состав кражи (ч. 1 ст. 158 УК) vs реальная общественная опасность»
+- **MCP-only:** без `<canvas>` и `<script>` — только inline CSS + static SVG + grid
+- **script:** нет
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+SLUG: vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026
+ВНИМАНИЕ: MCP-only — без `<script>` и `<canvas>`; hero Алины и блок Бориса — static SVG + inline CSS. Обернуть в `<!-- wp:html -->` при публикации.
+
+```html
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section,
+.entry-title, .main_title, h1.entry-title { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page h2 {
+  margin-top: 2.5em; color: #1e1b4b; font-size: 1.45rem; font-weight: 800;
+}
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page h3 {
+  margin-top: 1.5em; color: #312e81; font-size: 1.15rem; font-weight: 700;
+}
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page th, .vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page th { background: #f5f3ff; color: #312e81; }
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page a { color: #4338ca; }
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page ol, .vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page ul { margin: 1em 0; padding-left: 1.4em; }
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page li { margin-bottom: 0.45em; }
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page blockquote {
+  margin: 1.5em 0; padding: 16px 22px; border-left: 4px solid #4f46e5;
+  background: #f5f3ff; color: #334155; font-style: italic; border-radius: 0 6px 6px 0;
+  font-size: 0.98rem; line-height: 1.6;
+}
+.vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page p { margin: 0 0 1.1em; }
+.l24-intro-ug {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-ug__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-ug__text {
+  border-left: 4px solid #4f46e5; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-ug__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-ug__text p:last-child { margin-bottom: 0; }
+.l24-intro-ug__brief {
+  background: #f0fdf4; border: 1px solid #6ee7b7; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55; color: #334155;
+}
+.l24-intro-ug__decor {
+  background: linear-gradient(160deg, #f5f3ff 0%, #fff 100%);
+  border: 1px solid #c4b5fd; border-radius: 12px; padding: 18px;
+}
+.l24-intro-ug__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-ug__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-ug__chip--accent { border-color: #4f46e5; color: #312e81; background: #f5f3ff; }
+.l24-intro-ug__chip--ok { border-color: #059669; color: #047857; background: #ecfdf5; }
+.l24-intro-ug__chip--warn { border-color: #b91c1c; color: #b91c1c; background: #fef2f2; }
+.l24-intro-ug__chip--law { border-color: #4338ca; color: #4338ca; background: #eef2ff; }
+.l24-intro-ug__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f5f3ff; color: #312e81; text-decoration: none;
+  font-size: 0.88rem; font-weight: 600; border: 1px solid #ddd6fe;
+}
+.ym-toc__list a:hover { background: #ede9fe; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #f5f3ff 100%);
+  border: 1px solid #c4b5fd; border-left: 4px solid #4f46e5;
+}
+.ym-cta--primary { border-left-color: #4f46e5; }
+.ym-cta--legis24.ym-cta--bottom {
+  border-left-color: #4338ca;
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border-color: #c4b5fd;
+}
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; font-size: 0.98rem; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #312e81; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.93rem;
+}
+.ym-cta__btn:hover { background: #1e1b4b; }
+.ym-cta--legis24.ym-cta--bottom .ym-cta__btn { background: #4338ca; }
+.ym-cta--legis24.ym-cta--bottom .ym-cta__btn:hover { background: #312e81; }
+.l24-faq {
+  max-width: 820px; margin: 0 auto 80px; padding: 28px 24px;
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-faq > h2 { margin-top: 0 !important; color: #1e1b4b; }
+.l24-faq__item {
+  margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0;
+}
+.l24-faq__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq__q { margin: 0 0 8px; font-size: 1.05rem; color: #1e1b4b; font-weight: 700; }
+.l24-faq__a { margin: 0; color: #334155; font-size: 0.97rem; line-height: 1.6; }
+.l24-jsonld-ug { display: none !important; }
+@media (max-width: 900px) {
+  .l24-intro-ug__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="ВС прекратил кражу как малозначительное: ч. 2 ст. 14 УК">
+<meta itemprop="description" content="Кассация ВС № 11-УД26-3-К6: дело о краже в гипермаркете прекращено по ч. 2 ст. 14 УК. Критерии малозначительности, защита в кассации и реабилитация.">
+<meta itemprop="inLanguage" content="ru-RU">
+<section id="l24-hero-vs-maloznachitelnost-krazha-st-14" class="l24-hero-vs-maloznachitelnost-krazha-st-14" aria-label="ВС РФ прекратил дело о краже как малозначительное: кассация № 11-УД26-3-К6, ч. 2 ст. 14 УК и ч. 1 ст. 158 УК">
+  <style>
+    .l24-hero-vs-maloznachitelnost-krazha-st-14 {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(148deg, #fefefe 0%, #f5f3ff 44%, #f0fdf4 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 38% 34% at 94% 8%, rgba(79, 70, 229, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 32% 30% at 4% 92%, rgba(5, 150, 105, 0.06) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.04fr 0.96fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(30, 41, 59, 0.14);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #4f46e5;
+      flex-shrink: 0;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.32rem, 2.85vw, 2.08rem);
+      line-height: 1.22;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__h1-accent {
+      color: #312e81;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__sub {
+      margin: 0 0 26px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 26px;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact {
+      font-size: 0.76rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact--sum {
+      border-color: #c4b5fd;
+      color: #4c1d95;
+      background: #f5f3ff;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact--st14 {
+      border-color: #6ee7b7;
+      color: #047857;
+      background: #ecfdf5;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact--st158 {
+      border-color: #fca5a5;
+      color: #b91c1c;
+      background: #fef2f2;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__fact--plenum {
+      border-color: #93c5fd;
+      color: #1e3a5f;
+      background: #eff6ff;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__cta {
+      display: inline-block;
+      background: #312e81;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(49, 46, 129, 0.22);
+      line-height: 1.35;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__cta:hover {
+      background: #1e1b4b;
+    }
+    .l24-hero-vs-maloznachitelnost-krazha-st-14__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-maloznachitelnost-krazha-st-14 {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-maloznachitelnost-krazha-st-14__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .l24-hero-vs-maloznachitelnost-krazha-st-14__visual {
+        order: -1;
+        max-height: 320px;
+        overflow: hidden;
+      }
+    }
+  </style>
+
+  <div class="l24-hero-vs-maloznachitelnost-krazha-st-14__inner">
+    <div class="l24-hero-vs-maloznachitelnost-krazha-st-14__content">
+      <div class="l24-hero-vs-maloznachitelnost-krazha-st-14__badge">
+        <span class="l24-hero-vs-maloznachitelnost-krazha-st-14__badge-mark" aria-hidden="true"></span>
+        UG · ВС 14.04.2026 · № 11-УД26-3-К6
+      </div>
+      <h1 class="l24-hero-vs-maloznachitelnost-krazha-st-14__h1">
+        <span class="l24-hero-vs-maloznachitelnost-krazha-st-14__h1-accent">ВС РФ прекратил дело о краже как малозначительное: ч. 2 ст. 14 УК и защита в кассации</span>
+      </h1>
+      <p class="l24-hero-vs-maloznachitelnost-krazha-st-14__sub">
+        Кассация отменила приговор по ч. 1 ст. 158 УК — когда формальный состав не даёт осуждения
+      </p>
+      <ul class="l24-hero-vs-maloznachitelnost-krazha-st-14__facts">
+        <li class="l24-hero-vs-maloznachitelnost-krazha-st-14__fact l24-hero-vs-maloznachitelnost-krazha-st-14__fact--sum">5 674,25 ₽</li>
+        <li class="l24-hero-vs-maloznachitelnost-krazha-st-14__fact l24-hero-vs-maloznachitelnost-krazha-st-14__fact--st14">ч. 2 ст. 14 УК</li>
+        <li class="l24-hero-vs-maloznachitelnost-krazha-st-14__fact l24-hero-vs-maloznachitelnost-krazha-st-14__fact--st158">ч. 1 ст. 158 УК</li>
+        <li class="l24-hero-vs-maloznachitelnost-krazha-st-14__fact l24-hero-vs-maloznachitelnost-krazha-st-14__fact--plenum">п. 25.4 Пленума № 29</li>
+      </ul>
+      <a class="l24-hero-vs-maloznachitelnost-krazha-st-14__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовному делу о краже</a>
+    </div>
+
+    <div class="l24-hero-vs-maloznachitelnost-krazha-st-14__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Кассация ВС: весы правосудия — формальный состав ч. 1 ст. 158 УК перевешен малозначительностью по ч. 2 ст. 14 УК; три инстанции отменены, дело прекращено, реабилитация">
+        <defs>
+          <linearGradient id="hvmz-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fafafa"/>
+            <stop offset="50%" stop-color="#f5f3ff"/>
+            <stop offset="100%" stop-color="#f0fdf4"/>
+          </linearGradient>
+          <linearGradient id="hvmz-vs" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#6366f1"/>
+            <stop offset="100%" stop-color="#312e81"/>
+          </linearGradient>
+          <linearGradient id="hvmz-green" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#34d399"/>
+            <stop offset="100%" stop-color="#059669"/>
+          </linearGradient>
+          <linearGradient id="hvmz-red" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f87171"/>
+            <stop offset="100%" stop-color="#b91c1c"/>
+          </linearGradient>
+          <pattern id="hvmz-col" width="24" height="24" patternUnits="userSpaceOnUse">
+            <rect width="24" height="24" fill="#f8fafc"/>
+            <line x1="12" y1="0" x2="12" y2="24" stroke="#e0e7ff" stroke-width="0.5"/>
+          </pattern>
+          <filter id="hvmz-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#312e81" flood-opacity="0.12"/>
+          </filter>
+        </defs>
+
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hvmz-bg)" stroke="#c4b5fd" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hvmz-col)" opacity="0.3"/>
+
+        <!-- VS cassation pediment -->
+        <g filter="url(#hvmz-sh)" transform="translate(158,8)">
+          <rect x="0" y="38" width="204" height="48" rx="4" fill="url(#hvmz-vs)"/>
+          <polygon points="102,2 204,38 0,38" fill="#4338ca"/>
+          <circle cx="102" cy="22" r="10" fill="#1e1b4b" opacity="0.35"/>
+          <path d="M97 22 L100 25 L107 18" fill="none" stroke="#a5b4fc" stroke-width="1.5"/>
+          <text x="102" y="54" text-anchor="middle" fill="#e0e7ff" font-size="6.5" font-weight="800" letter-spacing="0.04em">ВЕРХОВНЫЙ СУД РФ</text>
+          <text x="102" y="66" text-anchor="middle" fill="#a5b4fc" font-size="5.5" font-weight="600">кассация · 14.04.2026</text>
+          <text x="102" y="78" text-anchor="middle" fill="#c7d2fe" font-size="5">№ 11-УД26-3-К6 · прекращено</text>
+        </g>
+
+        <!-- Cassation ladder: 3 instances crossed, VS on top -->
+        <g filter="url(#hvmz-sh)" transform="translate(18,62)">
+          <text x="54" y="8" text-anchor="middle" fill="#64748b" font-size="5" font-weight="700">ИНСТАНЦИИ</text>
+          <!-- Step 1: мировой -->
+          <rect x="4" y="14" width="100" height="28" rx="5" fill="#fff" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="54" y="26" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="700">мировой судья</text>
+          <text x="54" y="36" text-anchor="middle" fill="#94a3b8" font-size="4.5">виновна · ст. 92 УК</text>
+          <line x1="12" y1="42" x2="96" y2="20" stroke="#dc2626" stroke-width="1.5"/>
+          <!-- Step 2: апелляция -->
+          <rect x="4" y="48" width="100" height="28" rx="5" fill="#fff" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="54" y="60" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="700">апелляция</text>
+          <text x="54" y="70" text-anchor="middle" fill="#94a3b8" font-size="4.5">без изменений</text>
+          <line x1="12" y1="76" x2="96" y2="54" stroke="#dc2626" stroke-width="1.5"/>
+          <!-- Step 3: 6-й КСОЮ -->
+          <rect x="4" y="82" width="100" height="28" rx="5" fill="#fff" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="54" y="94" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="700">6-й КСОЮ</text>
+          <text x="54" y="104" text-anchor="middle" fill="#94a3b8" font-size="4.5">без изменений</text>
+          <line x1="12" y1="110" x2="96" y2="88" stroke="#dc2626" stroke-width="1.5"/>
+          <!-- VS arrow down -->
+          <path d="M54 118 L54 132" stroke="#4f46e5" stroke-width="2"/>
+          <polygon points="54,138 48,128 60,128" fill="#4f46e5"/>
+          <text x="54" y="150" text-anchor="middle" fill="#059669" font-size="5" font-weight="800">ВС → отмена</text>
+        </g>
+
+        <!-- Central scales: formal composition vs public danger -->
+        <g filter="url(#hvmz-sh)" transform="translate(148,88)">
+          <line x1="112" y1="0" x2="112" y2="56" stroke="#312e81" stroke-width="2.5"/>
+          <rect x="88" y="54" width="48" height="8" rx="3" fill="#312e81"/>
+          <line x1="32" y1="16" x2="192" y2="16" stroke="#312e81" stroke-width="2.2" transform="rotate(-8 112 16)"/>
+          <!-- Left pan: heavy formal composition (lower) -->
+          <line x1="32" y1="16" x2="32" y2="44" stroke="#b91c1c" stroke-width="1.2" transform="rotate(-8 32 16)"/>
+          <path d="M8 44 L32 34 L56 44 L56 58 L8 58 Z" fill="#fef2f2" stroke="#b91c1c" stroke-width="1.4"/>
+          <text x="32" y="50" text-anchor="middle" fill="#b91c1c" font-size="4.5" font-weight="800">ст. 158</text>
+          <text x="32" y="56" text-anchor="middle" fill="#dc2626" font-size="3.8">состав ✓</text>
+          <!-- Right pan: light insignificance (higher) -->
+          <line x1="192" y1="16" x2="192" y2="28" stroke="#059669" stroke-width="1.2" transform="rotate(-8 192 16)"/>
+          <path d="M168 28 L192 22 L216 28 L216 40 L168 40 Z" fill="#ecfdf5" stroke="#059669" stroke-width="1.4"/>
+          <text x="192" y="34" text-anchor="middle" fill="#047857" font-size="4.5" font-weight="800">ст. 14</text>
+          <text x="192" y="40" text-anchor="middle" fill="#059669" font-size="3.8">малознач.</text>
+          <!-- Feather on right pan -->
+          <path d="M188 20 Q200 14 208 22 Q196 24 188 20" fill="#6ee7b7" opacity="0.8"/>
+          <text x="112" y="76" text-anchor="middle" fill="#312e81" font-size="5.2" font-weight="700">общественная опасность перевесила</text>
+        </g>
+
+        <!-- Hypermarket receipt / self-checkout -->
+        <g filter="url(#hvmz-sh)" transform="translate(388,62)">
+          <rect width="112" height="88" rx="8" fill="#fff" stroke="#94a3b8" stroke-width="1.2"/>
+          <rect x="0" y="0" width="112" height="18" rx="8" fill="#64748b"/>
+          <text x="56" y="12" text-anchor="middle" fill="#fff" font-size="5.5" font-weight="800">«МАГНИТ»</text>
+          <text x="56" y="28" text-anchor="middle" fill="#64748b" font-size="4.5">касса самообслуживания</text>
+          <rect x="10" y="34" width="92" height="6" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="44" width="72" height="5" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="52" width="80" height="5" rx="1" fill="#e2e8f0"/>
+          <line x1="10" y1="62" x2="102" y2="62" stroke="#cbd5e1" stroke-width="0.8" stroke-dasharray="3 2"/>
+          <text x="56" y="72" text-anchor="middle" fill="#4c1d95" font-size="7" font-weight="900">5 674,25 ₽</text>
+          <text x="56" y="82" text-anchor="middle" fill="#94a3b8" font-size="4">16 лет · Бугульма</text>
+        </g>
+
+        <!-- Reimbursement arrow -->
+        <g filter="url(#hvmz-sh)" transform="translate(388,158)">
+          <rect width="112" height="36" rx="6" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1"/>
+          <path d="M20 18 L40 18 L36 14 M40 18 L36 22" fill="none" stroke="#059669" stroke-width="1.2"/>
+          <circle cx="52" cy="18" r="8" fill="#fff" stroke="#059669" stroke-width="1"/>
+          <text x="52" y="21" text-anchor="middle" fill="#059669" font-size="6" font-weight="800">₽</text>
+          <text x="78" y="16" text-anchor="middle" fill="#047857" font-size="4.5" font-weight="700">возмещение</text>
+          <text x="78" y="26" text-anchor="middle" fill="#64748b" font-size="4">родственниками</text>
+        </g>
+
+        <!-- Art 14 UK badge -->
+        <g filter="url(#hvmz-sh)" transform="translate(18,178)">
+          <rect width="108" height="54" rx="8" fill="url(#hvmz-green)" stroke="#047857" stroke-width="1"/>
+          <text x="54" y="16" text-anchor="middle" fill="#d1fae5" font-size="5.5" font-weight="700">Ч. 2 СТ. 14 УК</text>
+          <text x="54" y="32" text-anchor="middle" fill="#fff" font-size="8" font-weight="900">малозначи-</text>
+          <text x="54" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="900">тельность</text>
+        </g>
+
+        <!-- Rehabilitation stamp -->
+        <g filter="url(#hvmz-sh)" transform="translate(388,202)">
+          <circle cx="56" cy="36" r="34" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="4 3"/>
+          <circle cx="56" cy="36" r="28" fill="#ecfdf5" stroke="#34d399" stroke-width="1.2"/>
+          <path d="M44 36 L52 44 L70 26" fill="none" stroke="#059669" stroke-width="2.5"/>
+          <text x="56" y="58" text-anchor="middle" fill="#047857" font-size="5" font-weight="800">реабилитация</text>
+          <text x="56" y="68" text-anchor="middle" fill="#64748b" font-size="4.5">ст. 133 УПК</text>
+        </g>
+
+        <!-- Cassation document roll -->
+        <g filter="url(#hvmz-sh)" transform="translate(148,178)">
+          <rect width="224" height="72" rx="8" fill="#fff" stroke="#4f46e5" stroke-width="1.2"/>
+          <rect x="0" y="0" width="224" height="16" rx="8" fill="#eef2ff"/>
+          <text x="112" y="11" text-anchor="middle" fill="#4338ca" font-size="5.5" font-weight="800">КАССАЦИОННОЕ ОПРЕДЕЛЕНИЕ</text>
+          <text x="14" y="30" fill="#334155" font-size="4.8">формальный состав ≠ преступление</text>
+          <text x="14" y="42" fill="#64748b" font-size="4.5">п. 2 ч. 1 ст. 24 УПК · отсутствие состава</text>
+          <text x="14" y="54" fill="#64748b" font-size="4.5">п. 25.4 Пленума ВС № 29 · кража</text>
+          <rect x="14" y="58" width="196" height="12" rx="3" fill="#f0fdf4"/>
+          <text x="112" y="67" text-anchor="middle" fill="#059669" font-size="4.8" font-weight="700">не ст. 92 УК — прекращение дела</text>
+        </g>
+
+        <!-- Justice columns -->
+        <g opacity="0.45">
+          <rect x="30" y="268" width="10" height="72" rx="2" fill="#e0e7ff"/>
+          <rect x="480" y="268" width="10" height="72" rx="2" fill="#e0e7ff"/>
+        </g>
+
+        <!-- Bottom info cards -->
+        <g filter="url(#hvmz-sh)" transform="translate(18,268)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#b91c1c" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#b91c1c" font-size="6" font-weight="800">ФОРМАЛЬНЫЙ СОСТАВ</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">ч. 1 ст. 158 УК · кража</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">сумма &gt; 2 500 ₽</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">3 суда: вина признана</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#fef2f2"/>
+          <text x="77" y="63" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="600">≠ осуждение</text>
+        </g>
+        <g filter="url(#hvmz-sh)" transform="translate(183,268)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#4f46e5" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#4338ca" font-size="6" font-weight="800">КАССАЦИЯ ВС</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">жалоба адвоката</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">отмена всех актов</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">новая оценка опасности</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#eef2ff"/>
+          <text x="77" y="63" text-anchor="middle" fill="#4f46e5" font-size="5" font-weight="600">защита в кассации</text>
+        </g>
+        <g filter="url(#hvmz-sh)" transform="translate(348,268)">
+          <rect width="154" height="66" rx="8" fill="#fff" stroke="#059669" stroke-width="1.2"/>
+          <text x="77" y="17" text-anchor="middle" fill="#047857" font-size="6" font-weight="800">МАЛОЗНАЧИТЕЛЬНОСТЬ</text>
+          <text x="77" y="29" text-anchor="middle" fill="#64748b" font-size="5">ч. 2 ст. 14 УК</text>
+          <text x="77" y="40" text-anchor="middle" fill="#334155" font-size="5">ущерб возмещён</text>
+          <text x="77" y="51" text-anchor="middle" fill="#334155" font-size="5">нет последствий</text>
+          <rect x="10" y="55" width="134" height="11" rx="3" fill="#ecfdf5"/>
+          <text x="77" y="63" text-anchor="middle" fill="#059669" font-size="5" font-weight="600">дело прекращено</text>
+        </g>
+
+        <!-- Gavel subtle -->
+        <g filter="url(#hvmz-sh)" transform="translate(238,348)">
+          <rect x="0" y="0" width="44" height="10" rx="3" fill="#312e81"/>
+          <rect x="16" y="8" width="12" height="22" rx="2" fill="#4338ca"/>
+          <ellipse cx="22" cy="34" rx="20" ry="5" fill="#e0e7ff" opacity="0.6"/>
+        </g>
+
+        <text x="260" y="432" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-weight="600">UG · кража · малозначительность · кассация ВС · дайджест № 7/2026</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-ug" aria-label="Введение">
+  <div class="l24-intro-ug__grid">
+    <div class="l24-intro-ug__text">
+      <p>В апреле 2026 года Верховный Суд РФ вынес кассационное определение <strong>№ 11-УД26-3-К6</strong> по делу о краже в гипермаркете «Магнит» на сумму <strong>5 674,25 ₽</strong>. Три нижестоящие инстанции признали вину по <strong>ч. 1 ст. 158 УК</strong> и применили «мягкий» исход — <strong>ст. 92 УК</strong> с ПМВВ. ВС отменил все акты и прекратил дело по <strong>ч. 2 ст. 14 УК</strong>.</p>
+      <p>Для практики защиты это сигнал: формальный состав кражи не равен осуждению. Суды обязаны оценивать общественную опасность по <strong>п. 25.4 Пленума ВС № 29</strong> — и при её отсутствии прекращать дело, а не подменять вопрос о составе смягчением наказания.</p>
+      <div class="l24-intro-ug__brief">
+        <strong>Кратко:</strong> кража через кассу самообслуживания, несовершеннолетняя 16 лет, полное возмещение родственниками до суда — ВС прекратил дело с правом на <strong>реабилитацию (ст. 133 УПК)</strong>. Прецедент вошёл в дайджест «Уголовный процесс» № 7, июль 2026.
+      </div>
+    </div>
+    <aside class="l24-intro-ug__decor" aria-label="Ключевые параметры дела">
+      <ul class="l24-intro-ug__chips">
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--accent">ВС 14.04.2026</li>
+        <li class="l24-intro-ug__chip">№ 11-УД26-3-К6</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--warn">5 674,25 ₽</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--ok">ч. 2 ст. 14 УК</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--warn">ч. 1 ст. 158 УК</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--law">п. 25.4 Пленума № 29</li>
+        <li class="l24-intro-ug__chip">«Магнит» · Бугульма</li>
+        <li class="l24-intro-ug__chip">16 лет</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--ok">реабилитация</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--warn">ст. 92 ≠ прекращение</li>
+      </ul>
+      <svg class="l24-intro-ug__route-svg" viewBox="0 0 390 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Маршрут дела № 11-УД26-3-К6: три инстанции признали вину, ВС прекратил по малозначительности">
+        <defs>
+          <marker id="introug-arr-red" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7Z" fill="#b91c1c"/>
+          </marker>
+          <marker id="introug-arr-grn" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7Z" fill="#059669"/>
+          </marker>
+        </defs>
+        <text x="195" y="16" text-anchor="middle" fill="#64748b" font-size="6" font-weight="700" font-family="system-ui,sans-serif">КРАЖА · 5 674,25 ₽ · КАССАЦИЯ ВС</text>
+        <rect x="8" y="34" width="58" height="40" rx="5" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+        <text x="37" y="50" text-anchor="middle" fill="#b91c1c" font-size="5.5" font-weight="700" font-family="system-ui,sans-serif">мировой</text>
+        <text x="37" y="62" text-anchor="middle" fill="#94a3b8" font-size="5" font-family="system-ui,sans-serif">виновна</text>
+        <line x1="68" y1="54" x2="78" y2="54" stroke="#b91c1c" stroke-width="1.2" marker-end="url(#introug-arr-red)"/>
+        <rect x="82" y="34" width="58" height="40" rx="5" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+        <text x="111" y="50" text-anchor="middle" fill="#b91c1c" font-size="5.5" font-weight="700" font-family="system-ui,sans-serif">апелл.</text>
+        <text x="111" y="62" text-anchor="middle" fill="#94a3b8" font-size="5" font-family="system-ui,sans-serif">без изм.</text>
+        <line x1="142" y1="54" x2="152" y2="54" stroke="#b91c1c" stroke-width="1.2" marker-end="url(#introug-arr-red)"/>
+        <rect x="156" y="34" width="58" height="40" rx="5" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+        <text x="185" y="48" text-anchor="middle" fill="#b91c1c" font-size="5" font-weight="700" font-family="system-ui,sans-serif">6-й КС</text>
+        <text x="185" y="62" text-anchor="middle" fill="#94a3b8" font-size="5" font-family="system-ui,sans-serif">без изм.</text>
+        <line x1="216" y1="54" x2="226" y2="54" stroke="#4f46e5" stroke-width="1.5" marker-end="url(#introug-arr-grn)"/>
+        <rect x="230" y="28" width="152" height="52" rx="6" fill="#312e81" stroke="#4f46e5" stroke-width="1.2"/>
+        <text x="306" y="46" text-anchor="middle" fill="#e0e7ff" font-size="6" font-weight="700" font-family="system-ui,sans-serif">ВС РФ · 14.04.2026</text>
+        <text x="306" y="58" text-anchor="middle" fill="#6ee7b7" font-size="5.5" font-weight="700" font-family="system-ui,sans-serif">отмена · ч. 2 ст. 14 УК</text>
+        <text x="306" y="70" text-anchor="middle" fill="#a7f3d0" font-size="5" font-family="system-ui,sans-serif">прекращение · реабилитация</text>
+        <path d="M37 78 Q195 108 306 82" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="4 3" opacity="0.6"/>
+        <text x="195" y="118" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">возмещение родственниками · ущерб «Магниту» отсутствует</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">Содержание</p>
+  <ul class="ym-toc__list">
+    <li><a href="#vs-mal-kassaciya">Кассация ВС</a></li>
+    <li><a href="#vs-mal-fabula">Фабула дела</a></li>
+    <li><a href="#vs-mal-st14">Ч. 2 ст. 14 УК</a></li>
+    <li><a href="#vs-mal-plenum-254">П. 25.4 Пленума</a></li>
+    <li><a href="#vs-mal-sostav">Состав vs опасность</a></li>
+    <li><a href="#vs-mal-prekrashchenie">Прекращение дела</a></li>
+    <li><a href="#vs-mal-kassaciya-zashchita">Защита в кассации</a></li>
+    <li><a href="#vs-mal-reabilitaciya">Реабилитация</a></li>
+    <li><a href="#vs-mal-159">Ст. 159 и долги</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div class="l24-longread-wrap" itemprop="articleBody">
+<h2 id="vs-mal-kassaciya">ВС РФ прекратил дело о краже в гипермаркете: кассация № 11-УД26-3-К6</h2>
+<p>Верховный Суд Российской Федерации в апреле 2026 года вынес кассационное определение, которое вошло в дайджест практики по уголовным делам (Уголовный процесс № 7, июль 2026). По делу № 11-УД26-3-К6 отменены приговор и все последующие акты; уголовное преследование прекращено. Основание — малозначительность деяния по ч. 2 ст. 14 УК РФ.</p>
+<p>Для практики защиты это не «новость о подростке в магазине», а чёткий сигнал: формальное наличие признаков кражи по ч. 1 ст. 158 УК не означает, что суд обязан признать деяние преступлением. Суды всех инстанций до ВС обязаны оценивать общественную опасность — и при её отсутствии прекращать дело, а не подменять вопрос о составе смягчением наказания.</p>
+<h3>Суть определения от 14.04.2026: отмена приговора и прекращение дела</h3>
+<p>Кассационное определение Судебной коллегии по уголовным делам ВС РФ от 14.04.2026 № 11-УД26-3-К6 отменило:</p>
+<ul>
+<li>приговор мирового судьи от 29.04.2025;</li>
+<li>апелляционное постановление Бугульминского городского суда Республики Татарстан от 11.06.2025;</li>
+<li>кассационное постановление 6-го кассационного суда общей юрисдикции от 24.09.2025.</li>
+</ul>
+<p>Итог ВС: уголовное дело прекращено по п. 2 ч. 1 ст. 24 УПК РФ (отсутствие в деянии состава преступления) в связи с малозначительностью по ч. 2 ст. 14 УК РФ. Подсудимой признано право на реабилитацию по ст. 133 УПК РФ.</p>
+<p>Ключевой вывод: три нижестоящие инстанции формально признали вину и применили «мягкий» исход — освобождение от наказания по ч. 1 ст. 92 УК и принудительные меры воспитательного воздействия (предупреждение, ограничение досуга на 6 месяцев). ВС указал, что этого недостаточно. Вопрос о наличии преступления как такового обязателен; его нельзя заменить смягчающими мерами.</p>
+<h3>Дайджест практики ВС РФ, Уголовный процесс № 7 (июль 2026)</h3>
+<p>Каноническая выжимка по делу опубликована в дайджесте практики ВС РФ (Уголовный процесс № 7, июль 2026). Материал фиксирует: при оценке кражи суды обязаны руководствоваться п. 25.4 Постановления Пленума ВС РФ № 29 от 27.12.2002 (в редакции Пленума № 22 от 29.06.2021) и ч. 2 ст. 14 УК. Игнорирование малозначительности при наличии соответствующих обстоятельств — процессуальное нарушение, влекущее отмену судебных актов в кассации.</p>
+<h3>Почему это важно для дел о «мелком» хищении</h3>
+<p>Практика показывает: обвинение по ч. 1 ст. 158 УК часто строится на формальных признаках — сумма превышает порог «небольшой тяжести» (2 500 ₽ по примечанию к ст. 158 УК), кассовые записи подтверждают хищение. Но даже при сумме 5 674,25 ₽ — более чем вдвое выше порога — ВС прекратил дело. Критерий не в «галочке» состава, а в совокупности: размер ущерба относительно потерпевшего, возмещение, последствия, личность виновного.</p>
+<p>Для лиц, которым грозит уголовное дело о краже или спорной квалификации хищения, определение № 11-УД26-3-К6 — рабочий прецедент для кассационной жалобы и ходатайства о прекращении дела.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Грозит уголовное дело о краже при сумме чуть выше 2 500 ₽? Определение ВС № 11-УД26-3-К6 показывает: формальный состав ч. 1 ст. 158 не равен осуждению. Важно заявить малозначительность и собрать доказательства возмещения ущерба <strong>до приговора</strong>, а не соглашаться на «мягкий» исход со ст. 92 УК.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию по уголовному делу о краже</a></p>
+</aside>
+<h2 id="vs-mal-fabula">Фабула дела: кража на 5 674 ₽, подросток 16 лет, возмещение родственниками</h2>
+<h3>Обвинение по ч. 1 ст. 158 УК и приговор нижестоящих судов</h3>
+<p>10 ноября 2024 года в гипермаркете «Магнит» в г. Бугульма Республики Татарстан несовершеннолетняя В. (в открытых обзорах — Вильданова К.Л.), 16 лет, умышленно, из корыстных побуждений совершила тайное хищение товаров. Способ: расчёт через кассу самообслуживания — часть товаров не была пробита. Сумма похищенного — 5 674,25 ₽. Потерпевший — АО, оператор сети «Магнит».</p>
+<p>Мировой судья 29.04.2025 признал В. виновной по ч. 1 ст. 158 УК (кража, небольшая тяжесть). Наказание — освобождение от наказания по ч. 1 ст. 92 УК с применением принудительных мер воспитательного воздействия: предупреждение и ограничение досуга (запрет находиться вне жилища с 22:00 до 06:00 без законного представителя) на 6 месяцев (пп. «а», «г» ч. 2 ст. 90 УК). Апелляция и 6-й кассационный суд оставили приговор без изменений.</p>
+<p>Защитник — адвокат Королёва З.И. (адвокатура Республики Татарстан). В кассации ВС она добилась не смягчения, а полного прекращения дела.</p>
+<h3>Возмещение ущерба до рассмотрения в ВС</h3>
+<p>До суда родственники подозреваемой полностью возместили стоимость похищенных товаров. Фактического материального ущерба у гипермаркета не осталось. Негативных последствий для организации не наступило. ВС учёл это при оценке общественной опасности: потенциальный ущерб 5 674,25 ₽ для крупного гипермаркета с большим товарооборотом при полном возмещении и отсутствии последствий не даёт оснований признать деяние преступлением.</p>
+<p>Возмещение ущерба по уголовному делу — не «бонус» к смягчению, а фактор, влияющий на оценку малозначительности. Добровольное возмещение до суда усиливает позицию защиты, особенно в сочетании с малым реальным вредом для потерпевшего.</p>
+<h3>Роль возраста и обстоятельств совершения деяния</h3>
+<p>На момент деяния В. было 16 лет. Личность: не судима, без административных взысканий, не состоит на учёте у психиатра и нарколога, положительная характеристика по месту учёбы. ВС отклонил доводы защиты об отсутствии умысла и неверном размере похищенного — факт кражи и сумма подтверждены доказательствами. Но совокупность обстоятельств (возраст, характеристики, возмещение, масштаб потерпевшего) не позволила согласиться с выводами о достаточной общественной опасности.</p>
+<p>Эксперт Николай Флеганов (адвокатура Карелии) назвал решение «хрестоматийным примером» ч. 2 ст. 14 УК: «клеймо» судимости за магазинную кражу нанесёт несовершеннолетней неизмеримо больший вред, чем ущерб гипермаркету.</p>
+<h2 id="vs-mal-st14">Ч. 2 ст. 14 УК РФ: что такое малозначительность преступления</h2>
+<h3>Деяние формально содержащее признаки преступления, но не являющееся таковым</h3>
+<p>Ч. 2 ст. 14 УК РФ устанавливает: хотя деяние и формально содержит признаки преступления, оно не является преступлением в силу малозначительности. Это не смягчающее обстоятельство и не основание для освобождения от наказания — это обстоятельство, исключающее преступность деяния.</p>
+<p>Деяние должно обладать достаточной степенью общественной опасности — причинять существенный вред или создавать реальную угрозу такого вреда личности, обществу или государству. Если такой степени нет, формальный состав не превращает поведение в преступление.</p>
+<p>ВС в № 11-УД26-3-К6 сослался на Определение Конституционного Суда РФ от 16.07.2013 № 1162-О: ч. 2 ст. 14 реализует принцип справедливости и позволяет отграничить преступное от непреступного.</p>
+<h3>Малозначительность как обстоятельство, исключающее преступность</h3>
+<p>Малозначительность относится к обстоятельствам, исключающим преступность деяния (гл. 8 УК РФ). Процессуально прекращение по этому основанию — п. 2 ч. 1 ст. 24 УПК (отсутствие в деянии состава преступления), а не п. 3 ч. 1 ст. 24 УПК (деятельность, содержащая признаки преступления, но не обладающая общественной опасностью в силу малой значимости — иная конструкция).</p>
+<p>Различие принципиально: при малозначительности по ч. 2 ст. 14 УК лицо не признаётся виновным; при освобождении от наказания по ст. 92 УК вина формально установлена, остаётся судимость (если не применены иные механизмы).</p>
+<h3>Отличие от иных оснований освобождения от ответственности</h3>
+<p>Не путать малозначительность с:</p>
+<ul>
+<li><strong>примирением сторон</strong> (ст. 76 УК) — требует согласия потерпевшего и иной процессуальной конструкции;</li>
+<li><strong>освобождением от наказания</strong> (ст. 92 УК) — вина признана, наказание не назначается;</li>
+<li><strong>ПМВВ</strong> для несовершеннолетних — мера воспитательного воздействия при признанной вине;</li>
+<li><strong>актом амнистии</strong> — внешнее основание, не связанное с оценкой конкретного деяния.</li>
+</ul>
+<p>В деле № 11-УД26-3-К6 нижестоящие суды пошли по пути ст. 92 УК и ПМВВ. ВС показал: при наличии оснований для малозначительности это ошибка — нужно прекращение дела, а не «мягкий приговор».</p>
+<h2 id="vs-mal-plenum-254">Признаки и критерии малозначительности: п. 25.4 Пленума ВС № 29</h2>
+<h3>Характер и степень общественной опасности</h3>
+<p>П. 25.4 Постановления Пленума ВС РФ № 29 от 27.12.2002 (введён Пленумом № 22 от 29.06.2021) обязывает суды при правовой оценке хищения учитывать ч. 2 ст. 14 УК. При решении вопроса о малозначительности кражи (в том числе с квалифицирующими признаками) необходимо учитывать совокупность:</p>
+<ul>
+<li>степень реализации преступных намерений;</li>
+<li>размер похищенного;</li>
+<li>роль подсудимого в соучастии;</li>
+<li>характер обстоятельств, способствовавших совершению деяния;</li>
+<li>иные обстоятельства.</li>
+</ul>
+<p>Степень общественной опасности преступления оценивается не абстрактно, а в привязке к конкретным фактам. ВС прямо указал: мировой судья вопрос о малозначительности не обсуждал и в приговоре не отразил — нарушение п. 25.4.</p>
+<h3>Личность виновного, размер ущерба, возмещение</h3>
+<p>В деле № 11-УД26-3-К6 совокупность критериев:</p>
+<table>
+<thead><tr>
+<th>Критерий</th>
+<th>Обстоятельства дела</th>
+</tr>
+</tr></thead><tbody><tr>
+<td>Размер похищенного</td>
+<td>5 674,25 ₽ (превышение порога ч. 1 ст. 158 ~2,3×, не кратное)</td>
+</tr>
+<tr>
+<td>Потерпевший</td>
+<td>Крупный гипермаркет, большой товарооборот</td>
+</tr>
+<tr>
+<td>Реальный ущерб</td>
+<td>Отсутствует — возмещение родственниками до суда</td>
+</tr>
+<tr>
+<td>Последствия</td>
+<td>Не наступили</td>
+</tr>
+<tr>
+<td>Личность</td>
+<td>16 лет, не судима, положительная характеристика</td>
+</tr>
+<tr>
+<td>Реализация умысла</td>
+<td>Кража через кассу самообслуживания — умысел подтверждён, но общественная опасность недостаточна</td>
+</tr>
+</tbody></table>
+<p>Адвокат Алексей Михальчик отмечает: ч. 2 ст. 14 «не содержит чётких критериев», поэтому суды первой инстанции часто не рискуют применять малозначительность. ВС анализирует личность и посткриминальное поведение — для защитников это ориентир.</p>
+<h3>Почему суды обязаны оценивать не только формальный состав</h3>
+<p>Формальный состав преступления — наличие всех признаков по описанию статьи УК. Но УК и практика ВС требуют содержательной оценки: деяние, формально подпадающее под признаки преступления, должно представлять достаточную степень общественной опасности.</p>
+<p>Три инстанции до ВС в № 11-УД26-3-К6 ограничились констатацией признаков ч. 1 ст. 158 УК и применением ст. 92 УК. ВС указал: общественная опасность обязательна к обсуждению при постановлении приговора и пересмотре. Игнорирование — основание для отмены в кассации.</p>
+
+<section id="l24-boris-vs-maloznachitelnost-k6-path" class="l24-boris-vs-maloznachitelnost-k6" aria-label="Дело № 11-УД26-3-К6: путь по инстанциям и критерии малозначительности по ч. 2 ст. 14 УК и п. 25.4 Пленума ВС № 29">
+<style>
+.l24-boris-vs-maloznachitelnost-k6 {
+  --bk-navy: #0c1424;
+  --bk-navy-soft: #1a2744;
+  --bk-muted: #94a3b8;
+  --bk-txt: #e2e8f0;
+  --bk-lower: #f87171;
+  --bk-lower-soft: #fca5a5;
+  --bk-lower-bg: rgba(248, 113, 113, 0.12);
+  --bk-vs: #ecc94b;
+  --bk-vs-bg: rgba(236, 201, 75, 0.14);
+  --bk-ok: #34d399;
+  --bk-ok-soft: #6ee7b7;
+  --bk-ok-bg: rgba(52, 211, 153, 0.12);
+  --bk-law: #818cf8;
+  --bk-law-bg: rgba(99, 102, 241, 0.14);
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-vs-maloznachitelnost-k6__shell {
+  background: linear-gradient(155deg, var(--bk-navy) 0%, #111d33 48%, var(--bk-navy-soft) 100%);
+  border: 1px solid rgba(129, 140, 248, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 24px;
+  color: var(--bk-txt);
+  box-shadow: 0 18px 48px rgba(12, 20, 36, 0.38);
+}
+.l24-boris-vs-maloznachitelnost-k6__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bk-vs);
+}
+.l24-boris-vs-maloznachitelnost-k6__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-vs-maloznachitelnost-k6__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bk-muted);
+  max-width: 78ch;
+}
+.l24-boris-vs-maloznachitelnost-k6__lead strong { color: #fff; }
+.l24-boris-vs-maloznachitelnost-k6__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 22px;
+  margin-bottom: 22px;
+  align-items: start;
+}
+.l24-boris-vs-maloznachitelnost-k6__path-hd,
+.l24-boris-vs-maloznachitelnost-k6__crit-hd {
+  margin: 0 0 12px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.l24-boris-vs-maloznachitelnost-k6__path-hd { color: var(--bk-lower-soft); }
+.l24-boris-vs-maloznachitelnost-k6__crit-hd { color: var(--bk-law); }
+.l24-boris-vs-maloznachitelnost-k6__scheme-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card {
+  padding: 12px 12px 10px;
+  border-radius: 10px;
+  font-size: 0.74rem;
+  line-height: 1.42;
+  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card strong {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card--trap {
+  border-color: rgba(248, 113, 113, 0.42);
+  border-top: 3px solid var(--bk-lower);
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card--trap strong { color: var(--bk-lower-soft); }
+.l24-boris-vs-maloznachitelnost-k6__contrast-card--win {
+  border-color: rgba(52, 211, 153, 0.42);
+  border-top: 3px solid var(--bk-ok);
+}
+.l24-boris-vs-maloznachitelnost-k6__contrast-card--win strong { color: var(--bk-ok-soft); }
+.l24-boris-vs-maloznachitelnost-k6__crit-panel {
+  border-radius: 12px;
+  padding: 16px 14px 14px;
+  background: var(--bk-law-bg);
+  border: 1px solid rgba(129, 140, 248, 0.35);
+  height: 100%;
+  box-sizing: border-box;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-ref {
+  margin: 0 0 12px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid var(--bk-law);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: #c7d2fe;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-item {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  margin: 0 0 9px;
+  padding: 9px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  font-size: 0.74rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-item:last-child { margin-bottom: 0; }
+.l24-boris-vs-maloznachitelnost-k6__crit-mark {
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-item strong {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--bk-law);
+  margin-bottom: 3px;
+}
+.l24-boris-vs-maloznachitelnost-k6__crit-val {
+  color: var(--bk-ok-soft);
+  font-weight: 600;
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr) minmax(0, 1fr);
+  gap: 0;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix-h {
+  padding: 10px 12px;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix-h--lower { color: var(--bk-lower-soft); }
+.l24-boris-vs-maloznachitelnost-k6__matrix-h--vs { color: var(--bk-vs); }
+.l24-boris-vs-maloznachitelnost-k6__matrix-row { display: contents; }
+.l24-boris-vs-maloznachitelnost-k6__matrix-cell {
+  padding: 10px 12px;
+  font-size: 0.74rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst {
+  font-weight: 600;
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.05);
+}
+.l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower { color: #fecaca; }
+.l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs { color: #fde68a; font-weight: 600; }
+.l24-boris-vs-maloznachitelnost-k6__matrix-row:last-child .l24-boris-vs-maloznachitelnost-k6__matrix-cell { border-bottom: none; }
+.l24-boris-vs-maloznachitelnost-k6__verdict {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: var(--bk-ok-bg);
+  border: 1px solid rgba(52, 211, 153, 0.32);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--bk-muted);
+}
+.l24-boris-vs-maloznachitelnost-k6__verdict strong { color: var(--bk-ok-soft); }
+.l24-boris-vs-maloznachitelnost-k6__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-vs-maloznachitelnost-k6__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--bk-txt);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.l24-boris-vs-maloznachitelnost-k6__tag--case { border-color: rgba(236, 201, 75, 0.5); color: var(--bk-vs); }
+.l24-boris-vs-maloznachitelnost-k6__tag--law { border-color: rgba(129, 140, 248, 0.45); color: #c7d2fe; }
+.l24-boris-vs-maloznachitelnost-k6__tag--ok { border-color: rgba(52, 211, 153, 0.45); color: var(--bk-ok-soft); }
+.l24-boris-vs-maloznachitelnost-k6__tag--lower { border-color: rgba(248, 113, 113, 0.45); color: var(--bk-lower-soft); }
+@media (max-width: 860px) {
+  .l24-boris-vs-maloznachitelnost-k6__split { grid-template-columns: 1fr; }
+  .l24-boris-vs-maloznachitelnost-k6__contrast { grid-template-columns: 1fr; }
+  .l24-boris-vs-maloznachitelnost-k6__matrix { grid-template-columns: 1fr; }
+  .l24-boris-vs-maloznachitelnost-k6__matrix-h:not(:first-child) { display: none; }
+  .l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower::before,
+  .l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs::before {
+    display: block; font-size: 0.6rem; font-weight: 800;
+    letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 4px; opacity: 0.75;
+  }
+  .l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower::before { content: "3 инстанции"; color: var(--bk-lower-soft); }
+  .l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs::before { content: "ВС РФ"; color: var(--bk-vs); }
+  .l24-boris-vs-maloznachitelnost-k6__shell { padding: 24px 18px 20px; }
+}
+</style>
+
+<div class="l24-boris-vs-maloznachitelnost-k6__shell">
+  <p class="l24-boris-vs-maloznachitelnost-k6__eyebrow">UG · кассация ВС 14.04.2026 · № 11-УД26-3-К6 · ч. 2 ст. 14 УК</p>
+  <h3 class="l24-boris-vs-maloznachitelnost-k6__title">Путь дела и критерии малозначительности: от «мягкого приговора» к прекращению</h3>
+  <p class="l24-boris-vs-maloznachitelnost-k6__lead">Три нижестоящие инстанции признали вину по <strong>ч. 1 ст. 158 УК</strong> и применили освобождение от наказания (<strong>ст. 92 УК</strong>) с ПМВВ. Верховный суд отменил все акты: формальный состав кражи на <strong>5 674,25 ₽</strong> не равен преступлению при совокупности критериев <strong>п. 25.4 Пленума № 29</strong>.</p>
+
+  <div class="l24-boris-vs-maloznachitelnost-k6__split">
+    <div class="l24-boris-vs-maloznachitelnost-k6__path-col">
+      <p class="l24-boris-vs-maloznachitelnost-k6__path-hd">Путь дела по инстанциям</p>
+
+      <svg class="l24-boris-vs-maloznachitelnost-k6__scheme-svg" viewBox="0 0 720 248" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bkMalT bkMalD">
+        <title id="bkMalT">Хронология дела № 11-УД26-3-К6: мировой суд → апелляция → 6-й кассационный суд → ВС РФ</title>
+        <desc id="bkMalD">Три нижестоящие инстанции оставили вину и мягкий исход; ВС 14.04.2026 отменил приговор и прекратил дело по ч. 2 ст. 14 УК с реабилитацией</desc>
+        <defs>
+          <marker id="bkMal-arr" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+            <polygon points="0 0, 8 3.5, 0 7" fill="#94a3b8"/>
+          </marker>
+          <marker id="bkMal-arr-gold" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+            <polygon points="0 0, 8 3.5, 0 7" fill="#ecc94b"/>
+          </marker>
+          <linearGradient id="bkMal-line" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f87171"/>
+            <stop offset="72%" stop-color="#f87171"/>
+            <stop offset="100%" stop-color="#ecc94b"/>
+          </linearGradient>
+        </defs>
+
+        <text x="360" y="20" text-anchor="middle" fill="#94a3b8" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif" letter-spacing="0.06em">КРАЖА В «МАГНИТЕ» · 5 674,25 ₽ · НЕСОВЕРШЕННОЛЕТНЯЯ 16 ЛЕТ</text>
+
+        <line x1="72" y1="108" x2="648" y2="108" stroke="url(#bkMal-line)" stroke-width="2.5" marker-end="url(#bkMal-arr-gold)"/>
+
+        <circle cx="96" cy="108" r="11" fill="#f87171" stroke="#fca5a5" stroke-width="1.5"/>
+        <text x="96" y="78" text-anchor="middle" fill="#fecaca" font-size="6.5" font-weight="800" font-family="system-ui,sans-serif">МИРОВОЙ</text>
+        <text x="96" y="90" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">29.04.2025</text>
+        <text x="96" y="132" text-anchor="middle" fill="#fca5a5" font-size="5.8" font-weight="700" font-family="system-ui,sans-serif">виновна</text>
+        <text x="96" y="144" text-anchor="middle" fill="#94a3b8" font-size="5.2" font-family="system-ui,sans-serif">ст. 92 + ПМВВ</text>
+
+        <circle cx="264" cy="108" r="10" fill="#f87171" stroke="#fca5a5" stroke-width="1.4"/>
+        <text x="264" y="78" text-anchor="middle" fill="#fecaca" font-size="6.2" font-weight="800" font-family="system-ui,sans-serif">АПЕЛЛЯЦИЯ</text>
+        <text x="264" y="90" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">11.06.2025</text>
+        <text x="264" y="132" text-anchor="middle" fill="#fca5a5" font-size="5.8" font-weight="700" font-family="system-ui,sans-serif">без изменений</text>
+        <text x="264" y="144" text-anchor="middle" fill="#94a3b8" font-size="5.2" font-family="system-ui,sans-serif">малознач. не обсуждали</text>
+
+        <circle cx="432" cy="108" r="10" fill="#f87171" stroke="#fca5a5" stroke-width="1.4"/>
+        <text x="432" y="74" text-anchor="middle" fill="#fecaca" font-size="6" font-weight="800" font-family="system-ui,sans-serif">6-й КСОЮ</text>
+        <text x="432" y="86" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">24.09.2025</text>
+        <text x="432" y="132" text-anchor="middle" fill="#fca5a5" font-size="5.8" font-weight="700" font-family="system-ui,sans-serif">без изменений</text>
+        <text x="432" y="144" text-anchor="middle" fill="#94a3b8" font-size="5.2" font-family="system-ui,sans-serif">п. 25.4 проигнорирован</text>
+
+        <circle cx="624" cy="108" r="13" fill="#4338ca" stroke="#ecc94b" stroke-width="2"/>
+        <text x="624" y="74" text-anchor="middle" fill="#fde68a" font-size="6.5" font-weight="800" font-family="system-ui,sans-serif">ВС РФ</text>
+        <text x="624" y="86" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">14.04.2026</text>
+        <text x="624" y="132" text-anchor="middle" fill="#6ee7b7" font-size="5.8" font-weight="800" font-family="system-ui,sans-serif">отмена всех актов</text>
+        <text x="624" y="144" text-anchor="middle" fill="#a7f3d0" font-size="5.2" font-family="system-ui,sans-serif">ч. 2 ст. 14 · реабилитация</text>
+
+        <path d="M96 121 Q360 168 624 121" fill="none" stroke="#34d399" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.55"/>
+
+        <rect x="24" y="178" width="672" height="58" rx="10" fill="rgba(129,140,248,0.1)" stroke="#818cf8" stroke-width="1.2"/>
+        <text x="360" y="196" text-anchor="middle" fill="#c7d2fe" font-size="6.8" font-weight="800" font-family="system-ui,sans-serif">ФОРМАЛЬНЫЙ СОСТАВ ≠ ПРЕСТУПЛЕНИЕ · ч. 2 ст. 14 УК · п. 2 ч. 1 ст. 24 УПК</text>
+        <text x="180" y="216" text-anchor="middle" fill="#fca5a5" font-size="5.5" font-family="system-ui,sans-serif">3 инстанции: вина признана</text>
+        <text x="360" y="216" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">общественная опасность не оценена</text>
+        <text x="540" y="216" text-anchor="middle" fill="#6ee7b7" font-size="5.5" font-weight="700" font-family="system-ui,sans-serif">ВС: состава нет → прекращение</text>
+        <text x="360" y="228" text-anchor="middle" fill="#fde68a" font-size="5.2" font-family="system-ui,sans-serif">возмещение родственниками · ущерб гипермаркету фактически отсутствует</text>
+      </svg>
+
+      <div class="l24-boris-vs-maloznachitelnost-k6__contrast" role="group" aria-label="Контраст мягкого приговора и прекращения дела">
+        <div class="l24-boris-vs-maloznachitelnost-k6__contrast-card l24-boris-vs-maloznachitelnost-k6__contrast-card--trap">
+          <strong>Ловушка «мягкого» исхода</strong>
+          ст. 92 УК + ПМВВ: вина формально установлена, малозначительность не обсуждалась — судимость и ограничения досуга остаются риском.
+        </div>
+        <div class="l24-boris-vs-maloznachitelnost-k6__contrast-card l24-boris-vs-maloznachitelnost-k6__contrast-card--win">
+          <strong>Исход ВС по ч. 2 ст. 14</strong>
+          Прекращение по п. 2 ч. 1 ст. 24 УПК: вины нет, право на реабилитацию (ст. 133 УПК) — целевой запрос кассационной жалобы.
+        </div>
+      </div>
+    </div>
+
+    <div class="l24-boris-vs-maloznachitelnost-k6__crit-col">
+      <p class="l24-boris-vs-maloznachitelnost-k6__crit-hd">Критерии п. 25.4 · совокупность в деле</p>
+      <div class="l24-boris-vs-maloznachitelnost-k6__crit-panel">
+        <p class="l24-boris-vs-maloznachitelnost-k6__crit-ref">П. 25.4 Пленума ВС № 29: при кражe учитывать <strong>совокупность</strong> — степень реализации умысла, размер похищенного, роль в соучастии, обстоятельства деяния и иные факторы + ч. 2 ст. 14 УК.</p>
+        <ul class="l24-boris-vs-maloznachitelnost-k6__crit-list">
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Степень реализации умысла</strong>Кража через кассу самообслуживания — умысел подтверждён, но <span class="l24-boris-vs-maloznachitelnost-k6__crit-val">общественная опасность недостаточна</span></div>
+          </li>
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Размер похищенного</strong><span class="l24-boris-vs-maloznachitelnost-k6__crit-val">5 674,25 ₽</span> — уголовная ч. 1 ст. 158 (~2,3× порога 2 500 ₽), но мало для крупного гипермаркета</div>
+          </li>
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Роль в соучастии</strong>Единоличное деяние, без организаторской роли — <span class="l24-boris-vs-maloznachitelnost-k6__crit-val">фактор не усиливает опасность</span></div>
+          </li>
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Обстоятельства деяния</strong>Полное <span class="l24-boris-vs-maloznachitelnost-k6__crit-val">возмещение родственниками</span> до суда; негативных последствий для «Магнита» нет</div>
+          </li>
+          <li class="l24-boris-vs-maloznachitelnost-k6__crit-item">
+            <svg class="l24-boris-vs-maloznachitelnost-k6__crit-mark" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="9" fill="rgba(129,140,248,0.2)" stroke="#818cf8" stroke-width="1.2"/><path d="M6 10.5l2.5 2.5 5.5-6" fill="none" stroke="#c7d2fe" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>Личность · иные факторы</strong><span class="l24-boris-vs-maloznachitelnost-k6__crit-val">16 лет</span>, не судима, положительная характеристика — ВС учёл при оценке вреда обществу</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="l24-boris-vs-maloznachitelnost-k6__matrix" role="table" aria-label="Сравнение позиций нижестоящих судов и ВС РФ по делу о малозначительности">
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-h">Инстанция</div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-h l24-boris-vs-maloznachitelnost-k6__matrix-h--lower">3 инстанции до ВС</div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-h l24-boris-vs-maloznachitelnost-k6__matrix-h--vs">ВС РФ · 14.04.2026</div>
+
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-row" role="row">
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst" role="cell">Вопрос о составе</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower" role="cell">Признаки ч. 1 ст. 158 → вина установлена</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs" role="cell">Общественная опасность недостаточна → состава нет</div>
+    </div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-row" role="row">
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst" role="cell">Малозначительность</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower" role="cell">Не обсуждалась — нарушение п. 25.4</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs" role="cell">Ч. 2 ст. 14 УК применена — дело прекращено</div>
+    </div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-row" role="row">
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst" role="cell">Процессуальный итог</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower" role="cell">ст. 92 УК + ПМВВ (ограничение досуга 6 мес.)</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs" role="cell">п. 2 ч. 1 ст. 24 УПК + реабилитация ст. 133 УПК</div>
+    </div>
+    <div class="l24-boris-vs-maloznachitelnost-k6__matrix-row" role="row">
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--inst" role="cell">Ущерб потерпевшему</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--lower" role="cell">Сумма зафиксирована, возмещение не учтено</div>
+      <div class="l24-boris-vs-maloznachitelnost-k6__matrix-cell l24-boris-vs-maloznachitelnost-k6__matrix-cell--vs" role="cell">Фактический ущерб отсутствует — ключевой фактор ВС</div>
+    </div>
+  </div>
+
+  <p class="l24-boris-vs-maloznachitelnost-k6__verdict"><strong>Для защиты в кассации:</strong> ссылаться на совокупность п. 25.4 (не только сумму), процессуальное нарушение — суды не мотивировали отказ от ч. 2 ст. 14 УК, требовать прекращение и реабилитацию, а не замену наказания. Прецедент № 11-УД26-3-К6 — дайджест ВС «Уголовный процесс» № 7, июль 2026.</p>
+
+  <div class="l24-boris-vs-maloznachitelnost-k6__foot" aria-label="Нормативная база блока">
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--case">ВС 14.04.2026 · № 11-УД26-3-К6</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--law">ч. 2 ст. 14 УК</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--law">п. 25.4 Пленума № 29</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--law">ч. 1 ст. 158 УК · 5 674,25 ₽</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--lower">ст. 92 УК ≠ прекращение</span>
+    <span class="l24-boris-vs-maloznachitelnost-k6__tag l24-boris-vs-maloznachitelnost-k6__tag--ok">ст. 133 УПК · реабилитация</span>
+  </div>
+</div>
+</section>
+
+<h2 id="vs-mal-sostav">Формальный состав кражи (ч. 1 ст. 158 УК) vs реальная общественная опасность</h2>
+<h3>Когда квалификация по ст. 158 не ведёт к осуждению</h3>
+<p>Ч. 1 ст. 158 УК — кража, то есть тайное хищение чужого имущества. Примечание к ст. 158: небольшая тяжесть — ущерб свыше 2 500 ₽, но не более 100 000 ₽ (с учётом редакции). Сумма 5 674,25 ₽ формально подпадает под ч. 1 ст. 158.</p>
+<p>Но квалификация по ст. 158 не ведёт автоматически к осуждению. Если совокупность обстоятельств показывает недостаточную общественную опасность — дело прекращают по ч. 2 ст. 14 УК. ВС в № 11-УД26-3-К6 не оспаривал факт хищения, но признал деяние непреступным.</p>
+<h3>Граница с мелким хищением (КоАП)</h3>
+<p>Мелкое хищение — административное правонарушение (ст. 7.27 КоАП РФ): тайное хищение при сумме до 2 500 ₽. Выше порога — уголовная ч. 1 ст. 158 УК. Но уголовная квалификация не исключает последующего прекращения по малозначительности.</p>
+<p>Граница уголовной ответственности и административного правонарушения — по сумме. Граница преступления и непреступного деяния при формальном составе — по общественной опасности (ч. 2 ст. 14 УК). Дело о «Магните» — пример второй границы: сумма уголовная, но преступления нет.</p>
+<h3>Практика ВС 2026: тренд на оценку последствий, а не «галочек» в составе</h3>
+<p>Контекст 2025–2026: серия определений ВС о содержательной оценке общественной опасности. Эксперт Алексей Гавришев (AVG Legal) указывает: малозначительность призвана отделить реально опасные деяния от формальных нарушений без существенного вреда; ВС корректирует обвинительный уклон.</p>
+<p>Алёна Гришкова (Pen & Paper) подчёркивает: ч. 2 ст. 14 — действующий инструмент, не резерв; нужна мотивировка отказа от малозначительности. Игорь Пастухов («ЮСТ»): квалифицирующие признаки не препятствуют малозначительности; способ совершения не имеет правового значения, если деяние не общественно опасно.</p>
+<p>Связанный контекст — <a href="/vs-gumanizaciya-dtp-uslovnoe-nakazanie-smagchayushchie-2026/">гуманизация уголовной политики ВС</a> и практика <a href="/vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026/">кассации при смягчении наказания</a>.</p>
+<h2 id="vs-mal-prekrashchenie">Прекращение уголовного дела по малозначительности: основания и порядок</h2>
+<h3>На каких стадиях возможно прекращение (суд, кассация)</h3>
+<p>Прекращение уголовного дела по малозначительности возможно на любой стадии, когда суд или следователь оценивает обстоятельства:</p>
+<ul>
+<li><strong>досудебная стадия</strong> — при наличии оснований следователь или прокурор может прекратить дело (п. 2 ч. 1 ст. 24 УПК); на практике редко без настойчивой защиты;</li>
+<li><strong>суд первой инстанции</strong> — ходатайство защиты, мотивированное решение суда;</li>
+<li><strong>апелляция и кассация</strong> — пересмотр с прекращением, как в № 11-УД26-3-К6.</li>
+</ul>
+<p>В деле о гипермаркете прекращение произошло в кассации ВС — после трёх инстанций, признавших вину. Это показывает: даже «закрытое» дело с приговором можно пересмотреть при правильной кассационной жалобе.</p>
+<h3>Ходатайство защиты о прекращении</h3>
+<p>Защита вправе заявить ходатайство о прекращении уголовного дела по основанию малозначительности. Ходатайство должно содержать:</p>
+<ul>
+<li>ссылку на ч. 2 ст. 14 УК и п. 2 ч. 1 ст. 24 УПК;</li>
+<li>для кражи — п. 25.4 Пленума № 29;</li>
+<li>совокупность фактов: размер ущерба относительно потерпевшего, возмещение (дата, документы), отсутствие последствий, личность, степень реализации умысла;</li>
+<li>указание, что суд не мотивировал отказ от малозначительности (если применимо);</li>
+<li>требование реабилитации (ст. 133 УПК), а не только смягчения наказания.</li>
+</ul>
+<p>Адвокат Королёва в интервью «Адвокатской газете» отметила: «вопреки требованиям уголовного закона вопрос о малозначительности содеянного не рассматривался судами».</p>
+<h3>Постановление о прекращении и его последствия</h3>
+<p>Постановление о прекращении уголовного дела по п. 2 ч. 1 ст. 24 УПК означает: состав преступления отсутствует. Лицо не признаётся виновным. Судимость не возникает. При реабилитирующих основаниях (п. 2 ч. 1 ст. 24 УПК — малозначительность) — право на реабилитацию по ст. 133 УПК.</p>
+<p>Отличие от приговора с освобождением от наказания: при последнем вина установлена, возможны ограничения (ПМВВ, судимость при иных исходах). Прекращение по малозначительности — чистый исход для обвиняемого.</p>
+<h2 id="vs-mal-kassaciya-zashchita">Защита в кассации: как добиться пересмотра приговора по ст. 158</h2>
+<h3>Аргументы защиты: малозначительность + возмещение + личность</h3>
+<p>Кассационная жалоба по уголовному делу о краже при доводе о малозначительности должна строиться на:</p>
+<ol>
+<li><strong>Нормативная база:</strong> ч. 2 ст. 14 УК, п. 2 ч. 1 ст. 24 УПК, п. 25.4 Пленума № 29, Определение КС № 1162-О.</li>
+<li><strong>Факты:</strong> размер ущерба и его соотношение с масштабом потерпевшего; полное возмещение; отсутствие последствий; несовершеннолетие, характеристики, отсутствие судимости.</li>
+<li><strong>Процессуальное нарушение:</strong> суды не обсудили малозначительность, не мотивировали отказ.</li>
+<li><strong>Прецедент:</strong> кассационное определение ВС № 11-УД26-3-К6, дайджест № 7/2026.</li>
+<li><strong>Требование:</strong> отмена приговора, прекращение дела, реабилитация — не замена на штраф или условное освобождение.</li>
+</ol>
+<p>Чеклист для кассационной жалобы совпадает с рекомендациями по делу № 11-УД26-3-К6.</p>
+<h3>Сроки и порядок подачи кассационной жалобы</h3>
+<p>Срок подачи кассационной жалобы по уголовному делу — в порядке, установленном гл. 47.1 УПК РФ. После вступления приговора в законную силу защитник подаёт жалобу в кассационный суд общей юрисдикции; при необходимости — далее в ВС РФ.</p>
+<p>Сроки кассационной жалобы по уголовным делам пропускать нельзя: при пропуске нужно ходатайство о восстановлении с уважительными причинами. Подача кассационной жалобы требует точного соблюдения процессуальных требований к содержанию и приложениям.</p>
+<h3>Полномочия кассационного суда при новой оценке общественной опасности</h3>
+<p>Кассационный суд вправе проверить применение закона, в том числе оценку общественной опасности. ВС в № 11-УД26-3-К6 не ограничился процессуальными нарушениями — дал собственную оценку: действия не обладают признаками общественной опасности, дающими основание признать их преступлением.</p>
+<p>Полномочия кассации при новой оценке: отмена приговора, прекращение дела, направление на новое рассмотрение (если нужны дополнительные проверки — в данном деле не потребовалось). Для защиты целевой исход — прекращение с реабилитацией, а не remand.</p>
+<p>Ранняя стратегия снижает риск дойти до кассации ВС: <a href="/zashchita-po-ugolovnomu-delu-stadiya-proverki/">защита на стадии доследственной проверки</a> и <a href="/dosudebnaya-zashchita-po-ugolovnomu-delu/">досудебная защита</a> позволяют заявить малозначительность до суда.</p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Приговор вступил в силу, а суды не обсуждали ч. 2 ст. 14 УК? Кассационная жалоба со ссылкой на п. 25.4 Пленума № 29 и дело № 11-УД26-3-К6 — путь к прекращению дела и реабилитации. Сроки подачи жалобы пропускать нельзя.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с подготовкой кассационной жалобы</a></p>
+</aside>
+<p><a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Защита по уголовному делу о краже на стадии кассации</a> — подготовка жалобы с доводом о малозначительности, ссылками на п. 25.4 Пленума № 29 и определение ВС № 11-УД26-3-К6.</p>
+<h2 id="vs-mal-reabilitaciya">Реабилитация и возмещение издержек после прекращения дела</h2>
+<h3>Реабилитирующие основания прекращения</h3>
+<p>П. 2 ч. 1 ст. 24 УПК (отсутствие состава в связи с малозначительностью по ч. 2 ст. 14 УК) — реабилитирующее основание прекращения уголовного дела. Лицо вправе на реабилитацию: восстановление в правах, компенсацию вреда, возмещение процессуальных издержек.</p>
+<p>В № 11-УД26-3-К6 ВС прямо признал право на реабилитацию по ст. 133 УПК.</p>
+<h3>Заявление о реабилитации: сроки и суммы</h3>
+<p>Заявление о реабилитации подаётся в суд, прекративший дело, в порядке ст. 133–134 УПК. Сроки и порядок определяются УПК; при пропуске — возможность восстановления при уважительных причинах.</p>
+<p>Реабилитация включает: прекращение мер пресечения, снятие обвинений, восстановление трудовых, пенсионных и иных прав, компенсацию морального вреда и имущественного ущерба от уголовного преследования.</p>
+<h3>Взыскание расходов на адвоката и иные издержки</h3>
+<p>Возмещение процессуальных издержек по уголовному делу — ст. 131–132 УПК. При прекращении по реабилитирующему основанию обвиняемый вправе требовать возмещения расходов на защитника, экспертизы, переводчика и иные издержки, понесённые в связи с уголовным преследованием.</p>
+<p>Документы: договор с адвокатом, платёжные документы, подтверждение связи расходов с делом. Заявление — в рамках реабилитации или отдельно по правилам УПК.</p>
+<h2 id="vs-mal-159">Переносимость позиции ВС: долги, ст. 159 УК и гражданско-правовые споры</h2>
+<h3>Когда спор о деньгах не должен становиться уголовным делом</h3>
+<p>Ч. 2 ст. 14 УК универсальна: применима к любому составу, если деяние формально подпадает под УК, но не представляет общественной опасности. Для мошенничества и споров о долгах — параллельная линия защиты.</p>
+<p>П. 5 Пленума ВС № 48 от 30.11.2017: невозврат долга или неисполнение договора само по себе не образует ст. 159 УК; нужен умысел на хищение до получения имущества. Первичная линия при долгах — отсутствие состава: гражданско-правовой спор. Подробнее — <a href="/statya-159-177-uk-pri-dolgah-granica/">граница ст. 159 и 177 УК при долгах</a> и <a href="/ugolovnye-riski-pri-dolgah-chto-vazhno-znat/">уголовные риски при долгах</a>.</p>
+<h3>Связь логики малозначительности с оспариванием квалификации по ст. 159</h3>
+<p>Резервная линия — малозначительность по ч. 2 ст. 14 УК. Для мошенничества — п. 33 Пленума № 48 (аналог п. 25.4 для хищений). Прецеденты ВС:</p>
+<table>
+<thead><tr>
+<th>Дело</th>
+<th>Сумма</th>
+<th>Суть</th>
+</tr>
+</tr></thead><tbody><tr>
+<td>39-УД23-2-К1 (21.03.2023)</td>
+<td>7 800 ₽</td>
+<td>Поддельные документы о командировочных; ущерб возмещён; суды не обсудили малозначительность</td>
+</tr>
+<tr>
+<td>83-УД23-10-К1 (28.09.2023)</td>
+<td>5 300 ₽</td>
+<td>Мошенничество; ущерб возмещён; нет существенного вреда</td>
+</tr>
+</tbody></table>
+<p>Формулировка ВС идентична логике дела о краже: деяние должно представлять достаточную степень общественной опасности; незначительный размер ущерба, отсутствие доказательств существенного вреда, иные обстоятельства — нет оснований признать преступлением.</p>
+<p>Ограничение: малозначительность не заменяет доказательство отсутствия умысла при крупных суммах и системном обмане. При долгах ключ — момент возникновения умысла, а не только размер. См. также <a href="/vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026/">защиту при мошенничестве</a> — отличие угла (умысел, доказательства), не дублирование малозначительности.</p>
+<h3>Что учесть до возбуждения дела и на кассации</h3>
+<p>Двухуровневая защита при спорах о деньгах:</p>
+<ol>
+<li><strong>Гражданский спор</strong> — п. 5 Пленума № 48: переписка о возврате, частичные выплаты, объективные причины неисполнения.</li>
+<li><strong>Малозначительность</strong> — ч. 2 ст. 14 УК, п. 33 Пленума № 48: малый ущерб, возмещение, отсутствие вреда.</li>
+</ol>
+<p>До возбуждения — <a href="/dosudebnaya-zashchita-po-ugolovnomu-delu/">досудебная защита</a>; при квалификации хищения в цифровой среде — контекст <a href="/plenum-vs-19-cifrovoj-rubl-krazha-moshennichestvo-2026/">Пленума ВС № 19</a>.</p>
+<h2 id="vs-mal-konsultaciya">Консультация по уголовному делу о краже и кассационной жалобе</h2>
+<p>Определение ВС № 11-УД26-3-К6 подтверждает: формальный состав кражи не равен осуждению. Малозначительность по ч. 2 ст. 14 УК — рабочий инструмент в кассации и на досудебных стадиях. Совокупность фактов (ущерб, возмещение, личность, масштаб потерпевшего) важнее «галочки» в составе ч. 1 ст. 158 УК.</p>
+<p>Если вас обвиняют в краже или «мелком» хищении, приговор уже вступил в силу, а суды не обсуждали малозначительность — есть основания для кассационной жалобы с требованием прекращения дела и реабилитации. При спорах о долгах и квалификации по ст. 159 логика ВС переносима при правильной двухуровневой защите.</p>
+<blockquote>
+<p><strong>Тезис для цитирования:</strong> ВС РФ 14.04.2026, № 11-УД26-3-К6 — кража на 5 674,25 ₽ в гипермаркете прекращена по ч. 2 ст. 14 УК: формальный состав ч. 1 ст. 158 не равен преступлению при недостаточной общественной опасности, полном возмещении ущерба и благополучной личности несовершеннолетней.</p>
+</blockquote>
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации по уголовной защите: малозначительность по ч. 2 ст. 14 УК, кассация по делу о краже, перенос логики ВС на споры по ст. 159 при долгах. От доследственной проверки до жалобы в Верховный суд.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию</a></p>
+</aside>
+</div>
+
+<section id="faq" class="l24-faq" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы о малозначительности кражи">
+  <h2>Частые вопросы о малозначительности кражи и защите в кассации</h2>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">При какой сумме кражу могут прекратить как малозначительную?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Закон не устанавливает фиксированной суммы. В № 11-УД26-3-К6 — 5 674,25 ₽ (уголовная ч. 1 ст. 158). В делах по ст. 159 — 5 300 ₽ и 7 800 ₽. Критерий — совокупность: размер относительно потерпевшего, возмещение, последствия, личность. Сумма выше порога ч. 1 ст. 158 не блокирует малозначительность.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Помогает ли возмещение ущерба до суда?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Да. Полное возмещение до суда — сильный фактор. В деле о «Магните» родственники возместили ущерб до рассмотрения в ВС; фактического материального ущерба не осталось. Возмещение не гарантирует прекращение, но при прочих обстоятельствах существенно повышает шансы.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Можно ли заявить малозначительность на стадии проверки?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Да. На стадии доследственной проверки и предварительного следствия защита вправе ходатайствовать о прекращении дела. На практике следователи и прокуратура реже применяют малозначительность без давления защиты. Ранняя подача ходатайства с п. 25.4 и фактами — часть стратегии защиты на стадии проверки.</p>
+    </div>
+  </div>
+  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq__q" itemprop="name">Нужен ли адвокат для кассационной жалобы?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq__a" itemprop="text">Закон не запрещает подачу жалобы самостоятельно, но кассация по малозначительности требует точной правовой аргументации, ссылок на пленумы и прецеденты ВС, процессуальной безупречности. Практика № 11-УД26-3-К6 — результат работы адвоката Королёвой. Ошибки в жалобе или пропуск сроков закрывают путь к пересмотру.</p>
+    </div>
+  </div>
+  <aside class="ym-cta ym-cta--primary" role="complementary" style="margin-top:24px;margin-bottom:0">
+    <p class="ym-cta__text">Грозит уголовное дело о краже или приговор уже вступил в силу без обсуждения малозначительности? Разберём позицию по делу № 11-УД26-3-К6 и подготовим стратегию — от ходатайства до кассации в ВС.</p>
+    <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по уголовному делу о краже</a></p>
+  </aside>
+</section>
+
+<div class="l24-jsonld-ug" hidden aria-hidden="true">
+<pre aria-hidden="true">{"@context": "https://schema.org","@type": "Article","headline": "ВС прекратил кражу как малозначительное: ч. 2 ст. 14 УК","description": "Кассация ВС № 11-УД26-3-К6: дело о краже в гипермаркете прекращено по ч. 2 ст. 14 УК. Критерии малозначительности, защита в кассации и реабилитация.","inLanguage": "ru-RU","author": {"@type": "Organization","name": "Legis24"},"publisher": {"@type": "Organization","name": "Legis24"}}</pre>
+<pre aria-hidden="true">{"@context": "https://schema.org","@type": "FAQPage","mainEntity": [{"@type": "Question","name": "При какой сумме кражу могут прекратить как малозначительную?","acceptedAnswer": {"@type": "Answer","text": "Закон не устанавливает фиксированной суммы. В № 11-УД26-3-К6 — 5 674,25 ₽ (уголовная ч. 1 ст. 158). В делах по ст. 159 — 5 300 ₽ и 7 800 ₽. Критерий — совокупность: размер относительно потерпевшего, возмещение, последствия, личность. Сумма выше порога ч. 1 ст. 158 не блокирует малозначительность."}},{"@type": "Question","name": "Помогает ли возмещение ущерба до суда?","acceptedAnswer": {"@type": "Answer","text": "Да. Полное возмещение до суда — сильный фактор. В деле о «Магните» родственники возместили ущерб до рассмотрения в ВС; фактического материального ущерба не осталось. Возмещение не гарантирует прекращение, но при прочих обстоятельствах существенно повышает шансы."}},{"@type": "Question","name": "Можно ли заявить малозначительность на стадии проверки?","acceptedAnswer": {"@type": "Answer","text": "Да. На стадии доследственной проверки и предварительного следствия защита вправе ходатайствовать о прекращении дела. На практике следователи и прокуратура реже применяют малозначительность без давления защиты. Ранняя подача ходатайства с п. 25.4 и фактами — часть стратегии защиты на стадии проверки."}},{"@type": "Question","name": "Нужен ли адвокат для кассационной жалобы?","acceptedAnswer": {"@type": "Answer","text": "Закон не запрещает подачу жалобы самостоятельно, но кассация по малозначительности требует точной правовой аргументации, ссылок на пленумы и прецеденты ВС, процессуальной безупречности. Практика № 11-УД26-3-К6 — результат работы адвоката Королёвой. Ошибки в жалобе или пропуск сроков закрывают путь к пересмотру."}}]}</pre>
+</div>
+</main>
+<!-- /wp:html -->
+
+```
+
+## Передача Юре
+SLUG: vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026
+Title: ВС прекратил кражу как малозначительное: ч. 2 ст. 14 УК
+Description: Кассация ВС № 11-УД26-3-К6: дело о краже в гипермаркете прекращено по ч. 2 ст. 14 УК. Критерии малозначительности, защита в кассации и реабилитация.
+Контент без `<script>` и `<canvas>` — static SVG/CSS only. Публикация: `commands/nero-publish-mcp.md` (blob flow).
+Файл: `.cursor/natasha-page-vs-maloznachitelnost.html`
+Размер: 110527 байт
+main#primary: да (класс `vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026-page`)
+Hero: `#l24-hero-vs-maloznachitelnost-krazha-st-14`
+Блок Бориса: `#l24-boris-vs-maloznachitelnost-k6-path` (после H2 п. 25.4)
+CTA: только https://advokat-vsem.ru/
