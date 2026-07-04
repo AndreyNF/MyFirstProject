@@ -866,3 +866,755 @@ SLUG: vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo
 H1_для_hero: Обзор ВС № 5/2026: ФНС как залоговый кредитор при налоговом аресте в банкротстве
 ПОДЗАГОЛОВОК_HERO: Налоговый арест по ст. 73 НК РФ даёт ФНС приоритет в реестре — как оспорить залог и защитить активы должника в арбитраже
 ПАЙПЛАЙН: Артур ✅ → Алина (hero) || Борис (блок) → Наташа (вёрстка) → Юра (публикация)
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+<section id="l24-hero-vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo" class="l24-hero-fns-zalog" aria-label="Обзор ВС № 5/2026: ФНС как залоговый кредитор при налоговом аресте в банкротстве">
+  <style>
+    .l24-hero-fns-zalog {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(156deg, #fefefe 0%, #f5f7fb 45%, #eef2f8 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-fns-zalog::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 46% 38% at 92% 10%, rgba(30, 58, 138, 0.07) 0%, transparent 58%),
+        radial-gradient(ellipse 40% 36% at 4% 88%, rgba(163, 24, 48, 0.05) 0%, transparent 54%);
+      pointer-events: none;
+    }
+    .l24-hero-fns-zalog__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.02fr 0.98fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .l24-hero-fns-zalog__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #334155;
+    }
+    .l24-hero-fns-zalog__badge-mark {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e3a8a;
+      flex-shrink: 0;
+    }
+    .l24-hero-fns-zalog__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.48rem, 3.4vw, 2.28rem);
+      line-height: 1.22;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .l24-hero-fns-zalog__h1-accent {
+      color: #1e3a8a;
+    }
+    .l24-hero-fns-zalog__sub {
+      margin: 0 0 24px;
+      max-width: 42em;
+      font-size: clamp(0.98rem, 1.5vw, 1.1rem);
+      line-height: 1.58;
+      color: #475569;
+    }
+    .l24-hero-fns-zalog__facts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 0 0 26px;
+      padding: 0;
+      list-style: none;
+    }
+    .l24-hero-fns-zalog__fact {
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 8px;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+    .l24-hero-fns-zalog__fact--accent {
+      border-color: #bfdbfe;
+      color: #1e3a8a;
+      background: #eff6ff;
+    }
+    .l24-hero-fns-zalog__fact--warn {
+      border-color: #fecaca;
+      color: #a31830;
+      background: #fef2f2;
+    }
+    .l24-hero-fns-zalog__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+      line-height: 1.35;
+    }
+    .l24-hero-fns-zalog__cta:hover {
+      background: #8b1528;
+    }
+    .l24-hero-fns-zalog__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .l24-hero-fns-zalog__flow-a {
+        animation: hero-fns-zalog-flow 4.4s ease-in-out infinite;
+      }
+      .l24-hero-fns-zalog__flow-b {
+        animation: hero-fns-zalog-flow 4.4s ease-in-out infinite 0.6s;
+      }
+      .l24-hero-fns-zalog__lock-glow {
+        animation: hero-fns-zalog-glow 3.6s ease-in-out infinite;
+      }
+      .l24-hero-fns-zalog__reestr-row {
+        animation: hero-fns-zalog-pulse 3.2s ease-in-out infinite;
+      }
+      .l24-hero-fns-zalog__seal {
+        animation: hero-fns-zalog-float 4.8s ease-in-out infinite;
+      }
+    }
+    @keyframes hero-fns-zalog-flow {
+      0%, 100% { stroke-dashoffset: 0; opacity: 0.75; }
+      50% { stroke-dashoffset: 12; opacity: 1; }
+    }
+    @keyframes hero-fns-zalog-glow {
+      0%, 100% { stroke-opacity: 0.7; }
+      50% { stroke-opacity: 1; }
+    }
+    @keyframes hero-fns-zalog-pulse {
+      0%, 100% { opacity: 0.82; }
+      50% { opacity: 1; }
+    }
+    @keyframes hero-fns-zalog-float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .l24-hero-fns-zalog__flow-a,
+      .l24-hero-fns-zalog__flow-b,
+      .l24-hero-fns-zalog__lock-glow,
+      .l24-hero-fns-zalog__reestr-row,
+      .l24-hero-fns-zalog__seal {
+        animation: none !important;
+      }
+    }
+    @media (max-width: 900px) {
+      .l24-hero-fns-zalog {
+        min-height: auto;
+        padding: 96px 20px 56px;
+      }
+      .l24-hero-fns-zalog__inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .l24-hero-fns-zalog__visual {
+        order: -1;
+        max-height: 330px;
+      }
+    }
+  </style>
+  <div class="l24-hero-fns-zalog__inner">
+    <div class="l24-hero-fns-zalog__content">
+      <div class="l24-hero-fns-zalog__badge">
+        <span class="l24-hero-fns-zalog__badge-mark" aria-hidden="true"></span>
+        ARB · обзор ВС № 5/2026 · п. 1 · апрель 2026
+      </div>
+      <h1 class="l24-hero-fns-zalog__h1">
+        <span class="l24-hero-fns-zalog__h1-accent">Обзор ВС № 5/2026: ФНС как залоговый кредитор при налоговом аресте в банкротстве</span>
+      </h1>
+      <p class="l24-hero-fns-zalog__sub">
+        Налоговый арест по ст. 73 НК РФ даёт ФНС приоритет в реестре — как оспорить залог и защитить активы должника в арбитраже
+      </p>
+      <ul class="l24-hero-fns-zalog__facts">
+        <li class="l24-hero-fns-zalog__fact l24-hero-fns-zalog__fact--accent">п. 1 обзора № 5/2026</li>
+        <li class="l24-hero-fns-zalog__fact l24-hero-fns-zalog__fact--warn">109 млн ₽ · А72-19547/2022</li>
+        <li class="l24-hero-fns-zalog__fact">п. 2.1 ст. 73 НК РФ</li>
+        <li class="l24-hero-fns-zalog__fact">п. 4 ст. 61.4</li>
+        <li class="l24-hero-fns-zalog__fact l24-hero-fns-zalog__fact--warn">70% выручки · ст. 138</li>
+      </ul>
+      <a class="l24-hero-fns-zalog__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по арбитражному спору с ФНС</a>
+    </div>
+    <div class="l24-hero-fns-zalog__visual" aria-hidden="true">
+      <svg viewBox="0 0 480 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Схема: налоговый арест превращается в залог в силу закона и даёт ФНС приоритет в реестре требований кредиторов">
+        <defs>
+          <linearGradient id="hero-fns-zalog-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e8edf4"/>
+          </linearGradient>
+          <linearGradient id="hero-fns-zalog-chamber" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hero-fns-zalog-arrest" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fef2f2"/>
+            <stop offset="100%" stop-color="#fee2e2"/>
+          </linearGradient>
+          <linearGradient id="hero-fns-zalog-pledge" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fffbeb"/>
+            <stop offset="100%" stop-color="#fde68a"/>
+          </linearGradient>
+          <linearGradient id="hero-fns-zalog-reestr" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#eff6ff"/>
+            <stop offset="100%" stop-color="#dbeafe"/>
+          </linearGradient>
+          <linearGradient id="hero-fns-zalog-flow" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#64748b"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
+          </linearGradient>
+          <linearGradient id="hero-fns-zalog-fns" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#a31830"/>
+            <stop offset="100%" stop-color="#dc2626"/>
+          </linearGradient>
+          <filter id="hero-fns-zalog-shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.11"/>
+          </filter>
+          <marker id="hero-fns-zalog-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#475569"/>
+          </marker>
+          <marker id="hero-fns-zalog-arrow-blue" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#1e3a8a"/>
+          </marker>
+        </defs>
+
+        <rect x="8" y="10" width="464" height="380" rx="18" fill="url(#hero-fns-zalog-bg)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <text x="240" y="36" text-anchor="middle" fill="#64748b" font-size="8" font-weight="700" letter-spacing="0.12em">АРЕСТ → ЗАЛОГ → РЕЕСТР</text>
+
+        <!-- Стадия 1: АРЕСТ -->
+        <g transform="translate(24, 52)" filter="url(#hero-fns-zalog-shadow)">
+          <rect x="0" y="0" width="118" height="196" rx="12" fill="url(#hero-fns-zalog-chamber)" stroke="#fecaca" stroke-width="1.6"/>
+          <rect x="0" y="0" width="118" height="28" rx="12" fill="url(#hero-fns-zalog-arrest)"/>
+          <rect x="0" y="16" width="118" height="12" fill="url(#hero-fns-zalog-arrest)"/>
+          <text x="59" y="19" text-anchor="middle" fill="#a31830" font-size="9" font-weight="800">01 · АРЕСТ</text>
+          <g transform="translate(18, 44)">
+            <rect x="0" y="28" width="52" height="34" rx="3" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+            <rect x="8" y="18" width="18" height="14" rx="2" fill="#cbd5e1"/>
+            <rect x="30" y="22" width="8" height="10" fill="#94a3b8"/>
+            <rect x="62" y="48" width="28" height="16" rx="3" fill="#dbeafe" stroke="#64748b" stroke-width="1"/>
+            <circle cx="68" cy="66" r="4" fill="#475569"/>
+            <circle cx="84" cy="66" r="4" fill="#475569"/>
+            <line x1="14" y1="34" x2="74" y2="58" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+            <line x1="74" y1="34" x2="14" y2="58" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+          </g>
+          <g class="l24-hero-fns-zalog__seal" transform="translate(78, 108)">
+            <circle cx="16" cy="16" r="16" fill="#fff" stroke="#a31830" stroke-width="1.5"/>
+            <text x="16" y="14" text-anchor="middle" fill="#a31830" font-size="6" font-weight="800">ФНС</text>
+            <text x="16" y="22" text-anchor="middle" fill="#a31830" font-size="5" font-weight="700">ст. 77</text>
+          </g>
+          <text x="59" y="156" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600">4 НО + 153 ед.</text>
+          <text x="59" y="168" text-anchor="middle" fill="#64748b" font-size="7">движимого имущества</text>
+          <rect x="14" y="178" width="90" height="14" rx="4" fill="#fef2f2" stroke="#fecaca"/>
+          <text x="59" y="188" text-anchor="middle" fill="#a31830" font-size="6.5" font-weight="700">обеспеч. меры ст. 101</text>
+        </g>
+
+        <!-- Стрелка 1 -->
+        <path class="l24-hero-fns-zalog__flow-a" d="M150 150 H168" fill="none" stroke="url(#hero-fns-zalog-flow)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#hero-fns-zalog-arrow)"/>
+        <text x="159" y="142" text-anchor="middle" fill="#475569" font-size="6" font-weight="700">→</text>
+
+        <!-- Стадия 2: ЗАЛОГ -->
+        <g transform="translate(176, 52)" filter="url(#hero-fns-zalog-shadow)">
+          <rect x="0" y="0" width="118" height="196" rx="12" fill="url(#hero-fns-zalog-chamber)" stroke="#fcd34d" stroke-width="1.6"/>
+          <rect x="0" y="0" width="118" height="28" rx="12" fill="url(#hero-fns-zalog-pledge)"/>
+          <rect x="0" y="16" width="118" height="12" fill="url(#hero-fns-zalog-pledge)"/>
+          <text x="59" y="19" text-anchor="middle" fill="#92400e" font-size="9" font-weight="800">02 · ЗАЛОГ</text>
+          <ellipse class="l24-hero-fns-zalog__lock-glow" cx="59" cy="108" rx="46" ry="40" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="5 4"/>
+          <g transform="translate(22, 58)">
+            <rect x="0" y="24" width="44" height="28" rx="3" fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+            <rect x="6" y="14" width="16" height="12" rx="2" fill="#cbd5e1"/>
+            <rect x="50" y="40" width="24" height="14" rx="3" fill="#dbeafe" stroke="#64748b" stroke-width="1"/>
+          </g>
+          <g transform="translate(47, 92)">
+            <rect x="0" y="10" width="24" height="18" rx="3" fill="#fbbf24" stroke="#b45309" stroke-width="1.2"/>
+            <path d="M6 10 V6 a6 6 0 0 1 12 0 v4" fill="none" stroke="#b45309" stroke-width="2"/>
+            <circle cx="12" cy="19" r="2.5" fill="#fff"/>
+          </g>
+          <rect x="12" y="148" width="94" height="16" rx="5" fill="#fffbeb" stroke="#fcd34d"/>
+          <text x="59" y="159" text-anchor="middle" fill="#92400e" font-size="6.5" font-weight="800">п. 2.1 ст. 73 НК РФ</text>
+          <text x="59" y="178" text-anchor="middle" fill="#64748b" font-size="6.5" font-weight="600">залог в силу закона</text>
+          <text x="59" y="190" text-anchor="middle" fill="#64748b" font-size="6">ЕГРН · нотариус</text>
+        </g>
+
+        <!-- Стрелка 2 -->
+        <path class="l24-hero-fns-zalog__flow-b" d="M302 150 H320" fill="none" stroke="url(#hero-fns-zalog-flow)" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#hero-fns-zalog-arrow-blue)"/>
+        <circle cx="311" cy="150" r="7" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1"/>
+        <text x="311" y="152.5" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">§</text>
+
+        <!-- Стадия 3: РЕЕСТР -->
+        <g transform="translate(328, 52)" filter="url(#hero-fns-zalog-shadow)">
+          <rect x="0" y="0" width="128" height="196" rx="12" fill="url(#hero-fns-zalog-chamber)" stroke="#93c5fd" stroke-width="1.6"/>
+          <rect x="0" y="0" width="128" height="28" rx="12" fill="url(#hero-fns-zalog-reestr)"/>
+          <rect x="0" y="16" width="128" height="12" fill="url(#hero-fns-zalog-reestr)"/>
+          <text x="64" y="19" text-anchor="middle" fill="#1e3a8a" font-size="9" font-weight="800">03 · РЕЕСТР</text>
+          <rect x="12" y="40" width="104" height="118" rx="6" fill="#fff" stroke="#cbd5e1"/>
+          <text x="64" y="54" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">Реестр требований</text>
+          <line x1="18" y1="60" x2="110" y2="60" stroke="#e2e8f0"/>
+          <g class="l24-hero-fns-zalog__reestr-row">
+            <rect x="16" y="66" width="96" height="22" rx="4" fill="#fef2f2" stroke="#a31830" stroke-width="1.2"/>
+            <polygon points="22,72 26,76 22,80" fill="#a31830"/>
+            <text x="32" y="75" fill="#a31830" font-size="6.5" font-weight="800">ФНС</text>
+            <text x="32" y="84" fill="#64748b" font-size="5.5">залоговый кредитор</text>
+            <text x="104" y="80" text-anchor="end" fill="#a31830" font-size="6" font-weight="700">109 млн</text>
+          </g>
+          <rect x="16" y="94" width="96" height="14" rx="3" fill="#f8fafc" stroke="#e2e8f0"/>
+          <text x="22" y="104" fill="#94a3b8" font-size="5.5">банк · 2-я очередь</text>
+          <rect x="16" y="112" width="96" height="14" rx="3" fill="#f8fafc" stroke="#e2e8f0"/>
+          <text x="22" y="122" fill="#94a3b8" font-size="5.5">поставщики · 3-я</text>
+          <rect x="16" y="130" width="96" height="14" rx="3" fill="#f8fafc" stroke="#e2e8f0"/>
+          <text x="22" y="140" fill="#94a3b8" font-size="5.5">прочие кредиторы</text>
+          <rect x="20" y="168" width="88" height="16" rx="5" fill="#1e3a8a"/>
+          <text x="64" y="179" text-anchor="middle" fill="#fff" font-size="6.5" font-weight="700">70% выручки · ст. 138</text>
+        </g>
+
+        <!-- Хронология -->
+        <g transform="translate(40, 268)">
+          <line x1="0" y1="0" x2="400" y2="0" stroke="#cbd5e1" stroke-width="1.5"/>
+          <circle cx="0" cy="0" r="5" fill="#a31830"/>
+          <circle cx="200" cy="0" r="5" fill="#d97706"/>
+          <circle cx="400" cy="0" r="5" fill="#1e3a8a"/>
+          <text x="0" y="18" text-anchor="middle" fill="#64748b" font-size="6.5" font-weight="600">сен 2022</text>
+          <text x="0" y="28" text-anchor="middle" fill="#94a3b8" font-size="6">арест</text>
+          <text x="200" y="18" text-anchor="middle" fill="#64748b" font-size="6.5" font-weight="600">янв 2023</text>
+          <text x="200" y="28" text-anchor="middle" fill="#94a3b8" font-size="6">банкротство</text>
+          <text x="400" y="18" text-anchor="middle" fill="#64748b" font-size="6.5" font-weight="600">апр 2026</text>
+          <text x="400" y="28" text-anchor="middle" fill="#94a3b8" font-size="6">обзор ВС № 5</text>
+        </g>
+
+        <!-- Иммунитет п. 4 ст. 61.4 -->
+        <g transform="translate(88, 318)">
+          <rect x="0" y="0" width="304" height="34" rx="8" fill="#fff" stroke="#e2e8f0"/>
+          <rect x="0" y="0" width="6" height="34" rx="3" fill="#1e3a8a"/>
+          <text x="18" y="14" fill="#334155" font-size="7" font-weight="700">п. 4 ст. 61.4 Закона о банкротстве</text>
+          <text x="18" y="26" fill="#64748b" font-size="6.5">залог из ареста не оспаривается как недействительная сделка</text>
+        </g>
+
+        <!-- Постановление -->
+        <g transform="translate(148, 362)">
+          <rect x="0" y="0" width="184" height="22" rx="6" fill="#0f2744"/>
+          <text x="92" y="14" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">постановление № 7А/2026 · 29.04.2026</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+## Передача Наташе
+SLUG: vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo
+ВНИМАНИЕ: MCP-only Legis24 — без `<canvas>` и `<script>`; hero — static SVG + inline CSS. При публикации обернуть в `<!-- wp:html -->`.
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+### Параметры
+- **SLUG:** `vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo`
+- **Якорь для Наташи:** `l24-boris-fns-zalogovyy-kreditor-role-matrix`
+- **Размещение:** после H2-4 «Налоговый арест и залог в силу закона: ст. 73, 77 и 101 НК РФ» (перед H2-5)
+- **Режим:** Legis24 MCP-only — static SVG + inline CSS, без `<canvas>` и `<script>`
+- **Композиция:** сплит-сетка — слева SVG «арест → залог → банкротство», справа матрица ролей (директор / КУ / кредиторы vs ФНС); контраст к hero Алины (масштаб процедуры, не дубль сцены)
+
+```html
+<section id="l24-boris-fns-zalogovyy-kreditor-role-matrix" class="l24-boris-fns-zalogovyy-kreditor" aria-label="Матрица ролей при налоговом аресте и залоге ФНС в банкротстве — обзор ВС № 5/2026, дело А72-19547/2022">
+<style>
+.l24-boris-fns-zalogovyy-kreditor {
+  --fz-navy: #0f2744;
+  --fz-navy-soft: #1a365d;
+  --fz-gold: #ecc94b;
+  --fz-amber: #f6ad55;
+  --fz-mint: #5eead4;
+  --fz-blue: #63b3ed;
+  --fz-rose: #fc8181;
+  --fz-violet: #b794f4;
+  --fz-muted: #a0aec0;
+  --fz-ink: #e2e8f0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-fns-zalogovyy-kreditor__shell {
+  background: linear-gradient(148deg, var(--fz-navy) 0%, #152a45 52%, var(--fz-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 26px;
+  color: var(--fz-ink);
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.28);
+}
+.l24-boris-fns-zalogovyy-kreditor__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fz-gold);
+}
+.l24-boris-fns-zalogovyy-kreditor__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-fns-zalogovyy-kreditor__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--fz-muted);
+  max-width: 72ch;
+}
+.l24-boris-fns-zalogovyy-kreditor__lead strong { color: #fff; }
+.l24-boris-fns-zalogovyy-kreditor__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.l24-boris-fns-zalogovyy-kreditor__panel {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 18px 16px 16px;
+}
+.l24-boris-fns-zalogovyy-kreditor__panel-title {
+  margin: 0 0 12px;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fz-gold);
+}
+.l24-boris-fns-zalogovyy-kreditor__chain-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 14px;
+}
+.l24-boris-fns-zalogovyy-kreditor__chain-note {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: rgba(236, 201, 75, 0.1);
+  border: 1px solid rgba(236, 201, 75, 0.28);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--fz-muted);
+}
+.l24-boris-fns-zalogovyy-kreditor__chain-note strong { color: var(--fz-gold); }
+.l24-boris-fns-zalogovyy-kreditor__matrix {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr) minmax(0, 0.95fr) minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 14px;
+}
+.l24-boris-fns-zalogovyy-kreditor__matrix-h {
+  padding: 9px 10px;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.08);
+  color: #e2e8f0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+.l24-boris-fns-zalogovyy-kreditor__matrix-h--sit { text-align: left; }
+.l24-boris-fns-zalogovyy-kreditor__matrix-h--dir { color: #bee3f8; }
+.l24-boris-fns-zalogovyy-kreditor__matrix-h--ku { color: #b2f5ea; }
+.l24-boris-fns-zalogovyy-kreditor__matrix-h--cred { color: #fed7d7; }
+.l24-boris-fns-zalogovyy-kreditor__matrix-h--fns { color: #fbd38d; background: rgba(246, 173, 85, 0.12); }
+.l24-boris-fns-zalogovyy-kreditor__matrix-row { display: contents; }
+.l24-boris-fns-zalogovyy-kreditor__matrix-cell {
+  padding: 9px 10px;
+  font-size: 0.72rem;
+  line-height: 1.38;
+  color: #cbd5e1;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+}
+.l24-boris-fns-zalogovyy-kreditor__matrix-cell--sit {
+  font-weight: 600;
+  color: #e2e8f0;
+  background: rgba(255, 255, 255, 0.05);
+}
+.l24-boris-fns-zalogovyy-kreditor__matrix-cell--dir { color: #bee3f8; }
+.l24-boris-fns-zalogovyy-kreditor__matrix-cell--ku { color: #b2f5ea; }
+.l24-boris-fns-zalogovyy-kreditor__matrix-cell--cred { color: #fed7d7; }
+.l24-boris-fns-zalogovyy-kreditor__matrix-cell--fns {
+  color: #fbd38d;
+  background: rgba(246, 173, 85, 0.06);
+  font-weight: 600;
+}
+.l24-boris-fns-zalogovyy-kreditor__matrix-row:last-child .l24-boris-fns-zalogovyy-kreditor__matrix-cell { border-bottom: none; }
+.l24-boris-fns-zalogovyy-kreditor__badge {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.l24-boris-fns-zalogovyy-kreditor__badge--low { background: rgba(252, 129, 129, 0.22); color: #fed7d7; }
+.l24-boris-fns-zalogovyy-kreditor__badge--mid { background: rgba(236, 201, 75, 0.18); color: #faf089; }
+.l24-boris-fns-zalogovyy-kreditor__badge--high { background: rgba(104, 211, 145, 0.18); color: #c6f6d5; }
+.l24-boris-fns-zalogovyy-kreditor__badge--win { background: rgba(246, 173, 85, 0.22); color: #fbd38d; }
+.l24-boris-fns-zalogovyy-kreditor__verdict {
+  margin: 0 0 12px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: rgba(99, 179, 237, 0.1);
+  border: 1px solid rgba(99, 179, 237, 0.28);
+  font-size: 0.8rem;
+  line-height: 1.48;
+  color: var(--fz-muted);
+}
+.l24-boris-fns-zalogovyy-kreditor__verdict strong { color: #bee3f8; }
+.l24-boris-fns-zalogovyy-kreditor__caption {
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: #718096;
+}
+.l24-boris-fns-zalogovyy-kreditor__caption strong { color: #a0aec0; font-weight: 600; }
+.l24-boris-fns-zalogovyy-kreditor__roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-fns-zalogovyy-kreditor__role {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: var(--fz-ink);
+}
+.l24-boris-fns-zalogovyy-kreditor__role--dir { border-color: rgba(99, 179, 237, 0.45); color: #bee3f8; }
+.l24-boris-fns-zalogovyy-kreditor__role--ku { border-color: rgba(94, 234, 212, 0.45); color: #b2f5ea; }
+.l24-boris-fns-zalogovyy-kreditor__role--cred { border-color: rgba(252, 129, 129, 0.45); color: #fed7d7; }
+.l24-boris-fns-zalogovyy-kreditor__role--fns { border-color: rgba(246, 173, 85, 0.55); color: #fbd38d; }
+@media (max-width: 900px) {
+  .l24-boris-fns-zalogovyy-kreditor__split { grid-template-columns: 1fr; }
+  .l24-boris-fns-zalogovyy-kreditor__matrix { grid-template-columns: 1fr; }
+  .l24-boris-fns-zalogovyy-kreditor__matrix-h:not(:first-child) { display: none; }
+  .l24-boris-fns-zalogovyy-kreditor__matrix-cell--dir::before,
+  .l24-boris-fns-zalogovyy-kreditor__matrix-cell--ku::before,
+  .l24-boris-fns-zalogovyy-kreditor__matrix-cell--cred::before,
+  .l24-boris-fns-zalogovyy-kreditor__matrix-cell--fns::before {
+    display: block;
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    opacity: 0.85;
+  }
+  .l24-boris-fns-zalogovyy-kreditor__matrix-cell--dir::before { content: "Директор"; color: #bee3f8; }
+  .l24-boris-fns-zalogovyy-kreditor__matrix-cell--ku::before { content: "КУ"; color: #b2f5ea; }
+  .l24-boris-fns-zalogovyy-kreditor__matrix-cell--cred::before { content: "Кредиторы"; color: #fed7d7; }
+  .l24-boris-fns-zalogovyy-kreditor__matrix-cell--fns::before { content: "ФНС"; color: #fbd38d; }
+}
+</style>
+
+  <div class="l24-boris-fns-zalogovyy-kreditor__shell">
+    <p class="l24-boris-fns-zalogovyy-kreditor__eyebrow">п. 1 обзора № 5/2026 · п. 2.1 ст. 73 · п. 4 ст. 61.4 · дело № А72-19547/2022</p>
+    <h3 class="l24-boris-fns-zalogovyy-kreditor__title">Налоговый арест → залог в силу закона: матрица ролей против ФНС</h3>
+    <p class="l24-boris-fns-zalogovyy-kreditor__lead">После ареста по <strong>ст. 77 / 101 НК РФ</strong> ФНС получает статус <strong>залогового кредитора</strong> и до <strong>70% выручки</strong> с арестованного имущества (ст. 138). Директор, конкурсный управляющий и незалоговые кредиторы действуют в разных плоскостях — оспаривание по ст. 61.2/61.3 после обзора ВС не работает.</p>
+
+    <div class="l24-boris-fns-zalogovyy-kreditor__split">
+      <div class="l24-boris-fns-zalogovyy-kreditor__panel">
+        <p class="l24-boris-fns-zalogovyy-kreditor__panel-title">Цепочка: арест → залог → банкротство (кейс 109 млн ₽)</p>
+        <svg class="l24-boris-fns-zalogovyy-kreditor__chain-svg" viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fz-boris-chain-title fz-boris-chain-desc">
+          <title id="fz-boris-chain-title">Схема налогового ареста, залога в силу закона и банкротства — роли участников</title>
+          <desc id="fz-boris-chain-desc">Выездная проверка, арест 4 объектов недвижимости и 153 единиц движимого имущества, залог по п. 2.1 ст. 73 НК РФ, банкротство 09.01.2023; ФНС в центре как залоговый кредитор, вокруг — директор, конкурсный управляющий и кредиторы</desc>
+          <defs>
+            <linearGradient id="fz-boris-flow" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#63b3ed"/>
+              <stop offset="50%" stop-color="#ecc94b"/>
+              <stop offset="100%" stop-color="#f6ad55"/>
+            </linearGradient>
+            <marker id="fz-boris-arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+              <path d="M0,0 L8,4 L0,8 Z" fill="#ecc94b"/>
+            </marker>
+          </defs>
+
+          <!-- Timeline chain top -->
+          <text x="260" y="18" text-anchor="middle" fill="#ecc94b" font-size="8" font-weight="700" letter-spacing="0.05em">АРЕСТ ДО БАНКРОТСТВА · ИНЗЕНСКИЙ ЗАВОД</text>
+          <rect x="24" y="28" width="130" height="44" rx="8" fill="rgba(99,179,237,0.15)" stroke="#63b3ed" stroke-width="1.4"/>
+          <text x="89" y="46" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">Проверка</text>
+          <text x="89" y="60" text-anchor="middle" fill="#a0aec0" font-size="7">ст. 77 / 101 НК</text>
+          <path d="M154 50 H186" stroke="url(#fz-boris-flow)" stroke-width="2" marker-end="url(#fz-boris-arr)"/>
+          <rect x="186" y="28" width="148" height="44" rx="8" fill="rgba(236,201,75,0.15)" stroke="#ecc94b" stroke-width="1.4"/>
+          <text x="260" y="46" text-anchor="middle" fill="#faf089" font-size="8" font-weight="700">Арест + ЕГРН</text>
+          <text x="260" y="60" text-anchor="middle" fill="#a0aec0" font-size="7">4 НО + 153 движимых</text>
+          <path d="M334 50 H366" stroke="url(#fz-boris-flow)" stroke-width="2" marker-end="url(#fz-boris-arr)"/>
+          <rect x="366" y="28" width="130" height="44" rx="8" fill="rgba(246,173,85,0.18)" stroke="#f6ad55" stroke-width="1.4"/>
+          <text x="431" y="46" text-anchor="middle" fill="#fbd38d" font-size="8" font-weight="700">п. 2.1 ст. 73</text>
+          <text x="431" y="60" text-anchor="middle" fill="#a0aec0" font-size="7">залог в силу закона</text>
+          <path d="M431 72 V92" stroke="#f6ad55" stroke-width="2" marker-end="url(#fz-boris-arr)"/>
+          <rect x="366" y="92" width="130" height="40" rx="8" fill="rgba(252,129,129,0.12)" stroke="#fc8181" stroke-width="1.2"/>
+          <text x="431" y="110" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">Банкротство</text>
+          <text x="431" y="124" text-anchor="middle" fill="#a0aec0" font-size="7">09.01.2023</text>
+
+          <!-- Central FNS -->
+          <circle cx="260" cy="210" r="52" fill="rgba(246,173,85,0.2)" stroke="#f6ad55" stroke-width="2"/>
+          <text x="260" y="198" text-anchor="middle" fill="#fbd38d" font-size="10" font-weight="800">ФНС</text>
+          <text x="260" y="212" text-anchor="middle" fill="#fff" font-size="7.5" font-weight="700">залоговый кредитор</text>
+          <text x="260" y="224" text-anchor="middle" fill="#ecc94b" font-size="7">109 млн ₽</text>
+          <text x="260" y="236" text-anchor="middle" fill="#a0aec0" font-size="6.5">70% выручки · ст. 138</text>
+          <text x="260" y="248" text-anchor="middle" fill="#a0aec0" font-size="6.5">п. 4 ст. 61.4 — иммунитет</text>
+
+          <!-- Role nodes -->
+          <rect x="28" y="168" width="108" height="56" rx="8" fill="rgba(99,179,237,0.12)" stroke="#63b3ed" stroke-width="1.3"/>
+          <text x="82" y="186" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">Директор</text>
+          <text x="82" y="200" text-anchor="middle" fill="#a0aec0" font-size="6.5">до ареста: отсрочка,</text>
+          <text x="82" y="212" text-anchor="middle" fill="#a0aec0" font-size="6.5">мировое, погашение</text>
+          <path d="M136 196 C170 196 200 205 208 210" stroke="#63b3ed" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/>
+
+          <rect x="28" y="248" width="108" height="56" rx="8" fill="rgba(94,234,212,0.1)" stroke="#5eead4" stroke-width="1.3"/>
+          <text x="82" y="266" text-anchor="middle" fill="#b2f5ea" font-size="8" font-weight="700">КУ</text>
+          <text x="82" y="280" text-anchor="middle" fill="#a0aec0" font-size="6.5">не ст. 61.2/61.3 —</text>
+          <text x="82" y="292" text-anchor="middle" fill="#a0aec0" font-size="6.5">арест ≠ сделка</text>
+          <path d="M136 276 C175 250 210 230 220 220" stroke="#5eead4" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/>
+
+          <rect x="384" y="168" width="108" height="56" rx="8" fill="rgba(252,129,129,0.12)" stroke="#fc8181" stroke-width="1.3"/>
+          <text x="438" y="186" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">Кредиторы</text>
+          <text x="438" y="200" text-anchor="middle" fill="#a0aec0" font-size="6.5">план, голосование</text>
+          <text x="438" y="212" text-anchor="middle" fill="#a0aec0" font-size="6.5">ст. 181 · остаток массы</text>
+          <path d="M384 196 C350 196 320 205 312 210" stroke="#fc8181" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/>
+
+          <rect x="384" y="248" width="108" height="56" rx="8" fill="rgba(183,148,244,0.1)" stroke="#b794f4" stroke-width="1.3"/>
+          <text x="438" y="266" text-anchor="middle" fill="#d6bcfa" font-size="8" font-weight="700">Контрагенты</text>
+          <text x="438" y="280" text-anchor="middle" fill="#a0aec0" font-size="6.5">п. 4 ст. 72 НК</text>
+          <text x="438" y="292" text-anchor="middle" fill="#a0aec0" font-size="6.5">публичный арест</text>
+
+          <!-- Bottom bar -->
+          <rect x="24" y="316" width="472" height="18" rx="5" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <text x="260" y="328" text-anchor="middle" fill="#ecc94b" font-size="7" font-weight="600">ВС № 5/2026 · СКЭС оставила залог ФНС · управляющий проиграл по ст. 61.3</text>
+        </svg>
+        <p class="l24-boris-fns-zalogovyy-kreditor__chain-note"><strong>Критично:</strong> арест и регистрация залога (14–20.09.2022) до возбуждения банкротства (09.01.2023). Без этой связки залоговый статус ФНС в споре не возникает.</p>
+      </div>
+
+      <div class="l24-boris-fns-zalogovyy-kreditor__panel">
+        <p class="l24-boris-fns-zalogovyy-kreditor__panel-title">Матрица защиты: кто что может после обзора ВС</p>
+        <div class="l24-boris-fns-zalogovyy-kreditor__matrix" role="table" aria-label="Матрица ролей: директор, конкурсный управляющий, кредиторы против ФНС">
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-h l24-boris-fns-zalogovyy-kreditor__matrix-h--sit" role="columnheader">Линия защиты</div>
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-h l24-boris-fns-zalogovyy-kreditor__matrix-h--dir" role="columnheader">Директор</div>
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-h l24-boris-fns-zalogovyy-kreditor__matrix-h--ku" role="columnheader">КУ</div>
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-h l24-boris-fns-zalogovyy-kreditor__matrix-h--cred" role="columnheader">Кредиторы</div>
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-h l24-boris-fns-zalogovyy-kreditor__matrix-h--fns" role="columnheader">ФНС</div>
+
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-row" role="row">
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--sit" role="rowheader">Оспаривание залога по ст. 61.2 / 61.3</div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--dir" role="cell">— <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--low">не его процесс</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--ku" role="cell">Пробовали в А72-19547 — проигрыш <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--low">мин.</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--cred" role="cell">Через управляющего — тот же барьер <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--low">мин.</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--fns" role="cell">п. 4 ст. 61.4 — иммунитет <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--win">защита</span></div>
+          </div>
+
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-row" role="row">
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--sit" role="rowheader">Оспаривание законности ареста</div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--dir" role="cell">Налоговый спор: акт, сумма <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--mid">факты</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--ku" role="cell">Параллельно банкротству <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--mid">умер.</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--cred" role="cell">Инициатива через КУ <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--mid">умер.</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--fns" role="cell">Публичные меры — доказывать нарушения процедуры</div>
+          </div>
+
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-row" role="row">
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--sit" role="rowheader">Границы предмета залога</div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--dir" role="cell">Сверка ЕГРН / реестра <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--mid">умер.</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--ku" role="cell">Исключить лишнее из залога <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--mid">умер.</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--cred" role="cell">Сохранить необременённые активы <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--high">цель</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--fns" role="cell">4+153 ед. — широкий охват в кейсе обзора</div>
+          </div>
+
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-row" role="row">
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--sit" role="rowheader">Работа до ареста</div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--dir" role="cell">Отсрочка ст. 64, погашение, реструктуризация <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--high">лучший</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--ku" role="cell">—</div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--cred" role="cell">Мониторинг ЕГРН / сайта ФНС <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--high">проф.</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--fns" role="cell">п. 4 ст. 72 — публичное раскрытие ареста</div>
+          </div>
+
+          <div class="l24-boris-fns-zalogovyy-kreditor__matrix-row" role="row">
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--sit" role="rowheader">План / мировое соглашение</div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--dir" role="cell">Цена — признание приоритета залога <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--mid">риск</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--ku" role="cell">Переговоры, ст. 181 <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--mid">перегов.</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--cred" role="cell">Голос залогового кредитора <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--mid">блок</span></div>
+            <div class="l24-boris-fns-zalogovyy-kreditor__matrix-cell l24-boris-fns-zalogovyy-kreditor__matrix-cell--fns" role="cell">70% выручки — рычаг на собрании <span class="l24-boris-fns-zalogovyy-kreditor__badge l24-boris-fns-zalogovyy-kreditor__badge--win">приор.</span></div>
+          </div>
+        </div>
+
+        <p class="l24-boris-fns-zalogovyy-kreditor__verdict"><strong>Вывод для арбитража:</strong> после п. 1 обзора № 5/2026 тратить бюджет процедуры на оспаривание залога как «сделки» бессмысленно. Рабочие линии — налоговый спор об аресте, сужение предмета залога и превентивные меры до регистрации обременения.</p>
+        <p class="l24-boris-fns-zalogovyy-kreditor__caption"><strong>Редакционная подпись.</strong> Матрица по фабуле дела № А72-19547/2022 и п. 1 обзора ВС № 5/2026 (постановление № 7А/2026 от 29.04.2026). Не заменяет правовой анализ по вашим актам проверки и выпискам ЕГРН.</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-fns-zalogovyy-kreditor__roles" aria-label="Четыре роли в споре с ФНС">
+      <span class="l24-boris-fns-zalogovyy-kreditor__role l24-boris-fns-zalogovyy-kreditor__role--dir">Директор: превенция до ареста</span>
+      <span class="l24-boris-fns-zalogovyy-kreditor__role l24-boris-fns-zalogovyy-kreditor__role--ku">КУ: не ст. 61.3 — арест и границы залога</span>
+      <span class="l24-boris-fns-zalogovyy-kreditor__role l24-boris-fns-zalogovyy-kreditor__role--cred">Кредиторы: план, голосование, остаток массы</span>
+      <span class="l24-boris-fns-zalogovyy-kreditor__role l24-boris-fns-zalogovyy-kreditor__role--fns">ФНС: залоговый кредитор · 70% · п. 4 ст. 61.4</span>
+    </div>
+  </div>
+</section>
+```
+
+**Паспорт блока**
+| Поле | Значение |
+|------|----------|
+| Якорь | `#l24-boris-fns-zalogovyy-kreditor-role-matrix` |
+| Класс-обёртка | `.l24-boris-fns-zalogovyy-kreditor` |
+| Размещение | после H2-4, перед H2-5 |
+| Техника | static SVG + inline CSS, без canvas/script |
+| Тема | матрица ролей: директор / КУ / кредиторы vs ФНС при налоговом аресте |
+
+**Чеклист отличий от hero Алины**
+- Не hero, не полноэкранный — врезка в теле лонгрида после H2-4
+- Свой `id` якоря (`l24-boris-fns-zalogovyy-kreditor-role-matrix`), не пересекается с hero
+- Без `<canvas>` и `<script>` (MCP-only)
+- Контраст к hero: не сцена «первого экрана», а редакционная схема + таблица ролей для практиков ARB
+- Палитра ARB navy/gold согласована с материалами обзора ВС, но композиция — сплит-сетка, не дубль hero
+
+## Передача Наташе
+- Вставить блок **после** закрывающего `</h3>` последнего H3 в секции H2-4 («Публичное раскрытие ареста…») и **перед** `<h2>Почему конкурсный управляющий не оспорит залог ФНС…</h2>`
+- Добавить в TOC ссылку: `Матрица ролей` → `#l24-boris-fns-zalogovyy-kreditor-role-matrix`
+- Не удалять и не оборачивать `<style>` внутри секции — CSS inline в блоке Бориса
+
+SLUG: vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo
