@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-07-04 | KIRILL-ARB | vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo | 576 | https://advokat-vsem.online/vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo/ |
 | 2026-07-03 | KIRILL-UG | vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026 | 572 | https://advokat-vsem.online/vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026/ |
 | 2026-07-03 | KIRILL-IP | sip-fanta-rospatent-obshcheizvestnyy-tovarnyy-znak-2026 | 569 | https://advokat-vsem.online/sip-fanta-rospatent-obshcheizvestnyy-tovarnyy-znak-2026/ |
 | 2026-07-03 | KIRILL-ARB | vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026 | 566 | https://advokat-vsem.online/vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026/ |

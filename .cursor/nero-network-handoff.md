@@ -1663,3 +1663,26 @@ SLUG: vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo
 7. Проверить после публикации: hero, TOC-якоря, матрица Бориса, FAQ schema.
 
 ПАЙПЛАЙН: Наташа ✅ → Юра (публикация MCP)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+**Дата:** 2026-07-04  
+**page_id:** 576  
+**blob_id:** salDWCT31IG6FI5Kt6p3OaJ  
+**bytes_total:** 103824 (UTF-8; 81551 chars)  
+**sha256:** 6be10b25d14e466c70be7b9b414b94929885eab7eb41ed8321f7678b9ee7148e  
+**URL:** https://advokat-vsem.online/vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo/  
+**slug:** vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo  
+**status:** publish  
+
+### Алгоритм (выполнено)
+1. blob append chunks 00–04 (reset на 00, finalize на 04) — строго последовательно  
+2. `wordpress_update_page_from_blob` — page_id=576  
+3. `wordpress_update_page` — status=publish + excerpt  
+4. Live verify: HTTP 200, hero `l24-hero-fns-zalog` на странице  
+
+### Ledgers
+- `nero-network-office-page/shared/published-pages.md` — KIRILL-ARB, page_id 576  
+- `nero-network-office-page/shared/content-plan-legis24.md` — B12 ✅  
+- `shared/kirill-news-ledger.md` — published + URL  
+
+ПАЙПЛАЙН: Наташа ✅ → Юра ✅

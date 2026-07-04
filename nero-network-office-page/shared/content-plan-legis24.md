@@ -43,6 +43,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 23 | B9 / KIRILL-ARB | ARB | Обзор ВС 2026: оспаривание сделок с жильём в банкротстве — дарение, цена, мнимость | vs-osparivanie-sdelok-zhiloe-bankrotstvo-2026 | ✅ page_id 555 |
 | 24 | B10 / KIRILL-UG | UG | Обзор ВС РФ 01.07.2026: продажа квартиры под влиянием мошенников — ст. 159 УК, ст. 178–179 ГК, защита на проверке и в суде (Кирилл, июль 2026) | vs-prodazha-kvartiry-moshenniki-st-159-zashchita-2026 | ✅ page_id 562 |
 | 25 | B11 / KIRILL-UG | UG | ВС РФ прекратил дело о краже как малозначительное: ч. 2 ст. 14 УК и защита в кассации — дайджест № 7/2026, № 11-УД26-3-К6 (Кирилл, июль 2026) | vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026 | ✅ page_id 572 |
+| 26 | B12 / KIRILL-ARB | ARB | Обзор ВС № 5/2026: ФНС как залоговый кредитор при налоговом аресте в банкротстве — 109 млн ₽, п. 4 ст. 61.4 (Кирилл, июль 2026) | vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo | ✅ page_id 576 |
 
 > Канонический URL A3 на проде: `srok-vozrazhenij-30-vs-15-mify` (без «dnej» в slug).  
 > Типы и углы: `article-types-legis24.md`.
