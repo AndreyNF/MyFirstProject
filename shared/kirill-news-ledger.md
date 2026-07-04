@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-07-04 | selected | ARB | Обзор ВС № 5/2026 (п. 1): ФНС как залоговый кредитор при налоговом аресте — 109 млн ₽, 4 НО + 153 ед. движимого, п. 4 ст. 61.4 (29.04.2026 № 7А/2026) | vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo | https://rapsinews.ru/judicial_news/20260430/311818108.html |
 | 2026-07-03 | published | UG | Дайджест ВС №7 (июль 2026): кража признана малозначительной — прекращение дела по ч. 2 ст. 14 УК, кассация № 11-УД26-3-К6 (ч. 1 ст. 158) | vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026 | https://advokat-vsem.online/vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026/ |
 | 2026-07-03 | published | IP | Coca-Cola vs Роспатент: иск в СИП об отказе признать Fanta и Sprite общеизвестными товарными знаками — заседание 20.07.2026 | sip-fanta-rospatent-obshcheizvestnyy-tovarnyy-znak-2026 | https://advokat-vsem.online/sip-fanta-rospatent-obshcheizvestnyy-tovarnyy-znak-2026/ |
 | 2026-07-03 | published | ARB | Президиум ВС 01.07.2026: штраф 3,5 млн СРО «Созидание» за запрет неаккредитованных ЭТП/организаторов торгов — антимонопольный спор с ФАС (дело № А40-232008/2023) | vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026 | https://advokat-vsem.online/vs-sro-sozidanie-fas-35-mln-akreditaciya-ploshchadok-2026/ |
