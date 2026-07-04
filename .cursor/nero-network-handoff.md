@@ -1618,3 +1618,48 @@ SLUG: vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo
 - Не удалять и не оборачивать `<style>` внутри секции — CSS inline в блоке Бориса
 
 SLUG: vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+### Параметры
+- **SLUG:** `vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo`
+- **Файл:** `/workspace/.cursor/page-content-natasha-fns-zalogovyy.html`
+- **Класс страницы:** `vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo-vs-page`
+- **CTA:** https://advokat-vsem.ru/
+- **Режим:** MCP-only — без `<script>`, без `<canvas>`, только SVG/CSS
+
+### Сборка
+| Блок | Источник | Размещение |
+|------|----------|------------|
+| Hero SVG | Алина | `#l24-hero-vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo` |
+| Intro grid | Наташа | chips + SVG «арест → залог → реестр» |
+| ym-toc | Наташа | 9 якорей incl. `#l24-boris-fns-zalogovyy-kreditor-role-matrix` |
+| Лонгрид | Артур (CTA встроены) | 7 H2 с id, 3 mid-article CTA |
+| Блок Бориса | Борис | после H2-4, перед CTA и H2-5 |
+| FAQ | Наташа | 6 вопросов + schema.org FAQPage |
+| Нижний CTA | Артур | `ym-cta--legis24 ym-cta--bottom` после FAQ |
+
+### Мета (для Юры)
+- **Title:** ФНС как залоговый кредитор при банкротстве ООО: обзор ВС № 5/2026
+- **Description:** Обзор ВС РФ № 5/2026: налоговый арест по ст. 73 НК РФ даёт ФНС статус залогового кредитора. Приоритет в реестре, п. 4 ст. 61.4, стратегия защиты директора и управляющего в арбитраже.
+- **H1 (в hero):** Обзор ВС № 5/2026: ФНС как залоговый кредитор при налоговом аресте в банкротстве
+
+### Чеклист
+- [x] breadcrumbs hide + padding reset
+- [x] Все `<script>` удалены (не было)
+- [x] Без `<canvas>`
+- [x] Блок Бориса по якорю `#l24-boris-fns-zalogovyy-kreditor-role-matrix`
+- [x] 4 CTA → advokat-vsem.ru
+- [x] Обёртка `<!-- wp:html -->`
+
+## Передача Юре
+1. Публиковать HTML из `/workspace/.cursor/page-content-natasha-fns-zalogovyy.html` целиком (blob/MCP).
+2. **Slug:** `vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo`
+3. **Title / Description / Keywords** — из блока Артура (см. выше).
+4. Featured image — по пайплайну Фанты (не в HTML).
+5. Категория: ARB / банкротство / ФНС.
+6. Перекрёстные ссылки уже в intro: `fns-strahovye-vznosy-vtoraya-ochered-bankrotstvo-vs`, `vs-obzor-5-2026-subsidiarnaya-otvetstvennost-kreditora`, `vs-obzor-3-2026-nalogovye-spory-ens-fns`.
+7. Проверить после публикации: hero, TOC-якоря, матрица Бориса, FAQ schema.
+
+ПАЙПЛАЙН: Наташа ✅ → Юра (публикация MCP)
