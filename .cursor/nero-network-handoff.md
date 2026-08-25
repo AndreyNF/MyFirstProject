@@ -1010,3 +1010,517 @@ SLUG: vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026
 H1_для_hero: ВС запретил кассации предрешать обвинительный приговор: защита при отмене оправдания
 ПОДЗАГОЛОВОК_HERO: Дайджест ВС РФ 22.08.2026 — кассация не подменяет суды первой инстанции, смягчающие учитываются по факту, ne bis in idem
 
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+<section id="l24-hero-vs-kassaciya-zapret" class="l24-hero-vs-kassaciya-zapret" aria-label="ВС запретил кассации предрешать обвинительный приговор — защита при отмене оправдания">
+  <style>
+    .l24-hero-vs-kassaciya-zapret {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(150deg, #fefefe 0%, #fff7f7 38%, #f0f0f8 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-kassaciya-zapret::before {
+      content: "";
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 42% 38% at 88% 10%, rgba(163,24,48,0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 36% 32% at 6% 88%, rgba(26,54,93,0.05) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-kassaciya-zapret__inner {
+      position: relative; z-index: 1;
+      max-width: 1200px; margin: 0 auto; width: 100%;
+      display: grid; grid-template-columns: 1.05fr 0.95fr;
+      gap: 44px; align-items: center;
+    }
+    .l24-hero-vs-kassaciya-zapret__badge {
+      display: inline-flex; align-items: center; gap: 10px;
+      margin: 0 0 18px; padding: 8px 14px; border-radius: 999px;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(163,24,48,0.18);
+      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em;
+      text-transform: uppercase; color: #334155;
+    }
+    .l24-hero-vs-kassaciya-zapret__badge-mark {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #a31830; flex-shrink: 0;
+    }
+    .l24-hero-vs-kassaciya-zapret__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.35rem, 2.9vw, 2.1rem);
+      line-height: 1.22; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-kassaciya-zapret__h1-accent { color: #a31830; }
+    .l24-hero-vs-kassaciya-zapret__sub {
+      margin: 0 0 26px; max-width: 42em;
+      font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+      line-height: 1.58; color: #475569;
+    }
+    .l24-hero-vs-kassaciya-zapret__facts {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      margin: 0 0 26px; padding: 0; list-style: none;
+    }
+    .l24-hero-vs-kassaciya-zapret__fact {
+      font-size: 0.76rem; font-weight: 700;
+      padding: 7px 12px; border-radius: 8px;
+      background: #fff; border: 1px solid #e2e8f0; color: #334155;
+    }
+    .l24-hero-vs-kassaciya-zapret__fact--red  { border-color: #fecaca; color: #a31830; background: #fff7f7; }
+    .l24-hero-vs-kassaciya-zapret__fact--navy { border-color: #93c5fd; color: #1a365d; background: #eff6ff; }
+    .l24-hero-vs-kassaciya-zapret__fact--blue { border-color: #c4b5fd; color: #4338ca; background: #f5f3ff; }
+    .l24-hero-vs-kassaciya-zapret__fact--ok   { border-color: #a7f3d0; color: #047857; background: #ecfdf5; }
+    .l24-hero-vs-kassaciya-zapret__cta {
+      display: inline-block; background: #a31830; color: #fff !important;
+      padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 0.95rem;
+      text-decoration: none; box-shadow: 0 4px 14px rgba(163,24,48,0.25);
+    }
+    .l24-hero-vs-kassaciya-zapret__cta:hover { background: #8b1528; }
+    .l24-hero-vs-kassaciya-zapret__visual {
+      display: flex; justify-content: center; align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-kassaciya-zapret__inner { grid-template-columns: 1fr; }
+      .l24-hero-vs-kassaciya-zapret {
+        min-height: auto; padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-kassaciya-zapret__visual { order: -1; max-height: 320px; overflow: hidden; }
+    }
+  </style>
+  <div class="l24-hero-vs-kassaciya-zapret__inner">
+    <div class="l24-hero-vs-kassaciya-zapret__content">
+      <div class="l24-hero-vs-kassaciya-zapret__badge">
+        <span class="l24-hero-vs-kassaciya-zapret__badge-mark" aria-hidden="true"></span>
+        UG · дайджест ВС РФ · 22.08.2026 · № 53-УД26-9-К8
+      </div>
+      <h1 class="l24-hero-vs-kassaciya-zapret__h1">
+        <span class="l24-hero-vs-kassaciya-zapret__h1-accent">ВС запретил кассации предрешать обвинительный приговор:</span> защита при отмене оправдания
+      </h1>
+      <p class="l24-hero-vs-kassaciya-zapret__sub">
+        Дайджест ВС РФ 22.08.2026 — кассация не подменяет суды первой инстанции, смягчающие учитываются по факту, ne bis in idem
+      </p>
+      <ul class="l24-hero-vs-kassaciya-zapret__facts">
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--ok">оправдательный приговор</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--red">обвинительный прогноз</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact">№ 53-УД26-9-К8</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--navy">ч. 1 ст. 286 УК</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--blue">ст. 73 УК</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--blue">ne bis in idem</li>
+      </ul>
+      <a class="l24-hero-vs-kassaciya-zapret__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите в кассации</a>
+    </div>
+    <div class="l24-hero-vs-kassaciya-zapret__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Схема инстанций: оправдание, запрет обвинительного прогноза кассации, позиция ВС РФ 22.08.2026">
+        <defs>
+          <linearGradient id="hkz-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fafafa"/>
+            <stop offset="100%" stop-color="#fff7f7"/>
+          </linearGradient>
+          <linearGradient id="hkz-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+          </linearGradient>
+          <linearGradient id="hkz-crimson" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#a31830"/>
+            <stop offset="100%" stop-color="#8b1528"/>
+          </linearGradient>
+          <pattern id="hkz-dots" width="14" height="14" patternUnits="userSpaceOnUse">
+            <circle cx="7" cy="7" r="1" fill="#fecaca" opacity="0.45"/>
+          </pattern>
+          <filter id="hkz-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+          <marker id="hkz-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#94a3b8"/>
+          </marker>
+          <marker id="hkz-arrow-red" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#a31830"/>
+          </marker>
+        </defs>
+
+        <!-- Background card -->
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hkz-bg)" stroke="#fecaca" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hkz-dots)" opacity="0.45"/>
+
+        <!-- VS header badge -->
+        <g filter="url(#hkz-sh)" transform="translate(148,18)">
+          <rect x="0" y="28" width="224" height="48" rx="5" fill="url(#hkz-navy)"/>
+          <polygon points="112,4 218,28 6,28" fill="#1a3a6e"/>
+          <text x="112" y="50" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="800" letter-spacing="0.04em">ВС РФ · ДАЙДЖЕСТ 22.08.2026</text>
+          <text x="112" y="64" text-anchor="middle" fill="#93c5fd" font-size="5.5">запрет «обвинительных прогнозов» кассации</text>
+        </g>
+
+        <!-- Vertical court ladder -->
+        <!-- Level 1: first instance -->
+        <g filter="url(#hkz-sh)" transform="translate(44,108)">
+          <rect x="0" y="0" width="132" height="72" rx="8" fill="#fff" stroke="#a7f3d0" stroke-width="1.5"/>
+          <rect x="0" y="0" width="132" height="18" rx="8" fill="#ecfdf5"/>
+          <rect x="0" y="10" width="132" height="8" fill="#ecfdf5"/>
+          <text x="66" y="13" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">СУД 1 ИНСТАНЦИИ</text>
+          <rect x="14" y="28" width="104" height="32" rx="5" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+          <path d="M28,48 L36,56 L52,40" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="66" y="44" text-anchor="middle" fill="#065f46" font-size="6.5" font-weight="800">ОПРАВДАНИЕ</text>
+          <text x="66" y="54" text-anchor="middle" fill="#64748b" font-size="4.8">февраль 2025 · Красноярск</text>
+        </g>
+
+        <!-- Level 2: appeal (aligned) -->
+        <g filter="url(#hkz-sh)" transform="translate(44,196)">
+          <rect x="0" y="0" width="132" height="56" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="132" height="16" rx="8" fill="#f8fafc"/>
+          <rect x="0" y="8" width="132" height="8" fill="#f8fafc"/>
+          <text x="66" y="12" text-anchor="middle" fill="#475569" font-size="5.5" font-weight="700">АПЕЛЛЯЦИЯ</text>
+          <text x="66" y="34" text-anchor="middle" fill="#334155" font-size="5.8" font-weight="600">согласилась с оправданием</text>
+          <text x="66" y="44" text-anchor="middle" fill="#94a3b8" font-size="4.6">без изменений</text>
+        </g>
+
+        <!-- Level 3: cassation (problem) -->
+        <g filter="url(#hkz-sh)" transform="translate(44,270)">
+          <rect x="0" y="0" width="132" height="72" rx="8" fill="#fff7f7" stroke="#fecaca" stroke-width="1.5"/>
+          <rect x="0" y="0" width="132" height="18" rx="8" fill="#fef2f2"/>
+          <rect x="0" y="10" width="132" height="8" fill="#fef2f2"/>
+          <text x="66" y="13" text-anchor="middle" fill="#a31830" font-size="5.5" font-weight="800">8-й КСОЮ · КАССАЦИЯ</text>
+          <text x="66" y="34" text-anchor="middle" fill="#991b1b" font-size="5.8" font-weight="700">отмена оправдания</text>
+          <text x="66" y="44" text-anchor="middle" fill="#64748b" font-size="4.6">№ 7У-208/2026</text>
+          <line x1="18" y1="52" x2="114" y2="52" stroke="#fecaca" stroke-width="1"/>
+          <text x="66" y="62" text-anchor="middle" fill="#a31830" font-size="4.8" font-weight="700">«незаконное освобождение»</text>
+        </g>
+
+        <!-- Legal flow arrows (left column) -->
+        <line x1="110" y1="180" x2="110" y2="196" stroke="#94a3b8" stroke-width="2" marker-end="url(#hkz-arrow)"/>
+        <line x1="110" y1="252" x2="110" y2="270" stroke="#94a3b8" stroke-width="2" marker-end="url(#hkz-arrow)"/>
+
+        <!-- Illegal forecast arrow (cassation → guilty) -->
+        <path d="M176,306 C240,306 260,220 320,168" fill="none" stroke="#a31830" stroke-width="2.2" stroke-dasharray="7,4" marker-end="url(#hkz-arrow-red)"/>
+        <text x="248" y="248" fill="#a31830" font-size="5.5" font-weight="800" transform="rotate(-32 248 248)">ОБВИНИТЕЛЬНЫЙ ПРОГНОЗ</text>
+
+        <!-- VS shield blocking forecast -->
+        <g filter="url(#hkz-sh)" transform="translate(318,118)">
+          <circle cx="52" cy="52" r="46" fill="#eff6ff" stroke="#1a365d" stroke-width="2"/>
+          <circle cx="52" cy="52" r="38" fill="none" stroke="#93c5fd" stroke-width="1.2" stroke-dasharray="4,3"/>
+          <path d="M52,18 L72,28 L72,52 C72,66 62,76 52,82 C42,76 32,66 32,52 L32,28 Z" fill="url(#hkz-navy)"/>
+          <path d="M44,52 L50,58 L62,44" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="52" y="96" text-anchor="middle" fill="#1a365d" font-size="5.8" font-weight="800">ВС: НЕ ПРЕДРЕШАТЬ</text>
+          <text x="52" y="106" text-anchor="middle" fill="#64748b" font-size="4.6">№ 53-УД26-9-К8</text>
+        </g>
+
+        <!-- Red prohibition bar across forecast -->
+        <line x1="292" y1="188" x2="368" y2="132" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+        <line x1="292" y1="132" x2="368" y2="188" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+
+        <!-- Right panel: digest blocks -->
+        <g filter="url(#hkz-sh)" transform="translate(196,356)">
+          <rect x="0" y="0" width="300" height="58" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+          <rect x="0" y="0" width="300" height="16" rx="8" fill="#f8fafc"/>
+          <rect x="0" y="8" width="300" height="8" fill="#f8fafc"/>
+          <text x="150" y="12" text-anchor="middle" fill="#475569" font-size="5" font-weight="700">БЛОКИ ДАЙДЖЕСТА · ЗАЩИТА UG</text>
+          <rect x="10" y="22" width="88" height="28" rx="5" fill="#fff7f7" stroke="#fecaca" stroke-width="1"/>
+          <text x="54" y="34" text-anchor="middle" fill="#a31830" font-size="4.6" font-weight="700">прогнозы</text>
+          <text x="54" y="44" text-anchor="middle" fill="#64748b" font-size="4">дело 53</text>
+          <rect x="106" y="22" width="88" height="28" rx="5" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1"/>
+          <text x="150" y="34" text-anchor="middle" fill="#4338ca" font-size="4.6" font-weight="700">ст. 73</text>
+          <text x="150" y="44" text-anchor="middle" fill="#64748b" font-size="4">дело 56</text>
+          <rect x="202" y="22" width="88" height="28" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+          <text x="246" y="34" text-anchor="middle" fill="#1a365d" font-size="4.6" font-weight="700">ne bis in idem</text>
+          <text x="246" y="44" text-anchor="middle" fill="#64748b" font-size="4">дело 75</text>
+        </g>
+
+        <!-- Boundary line: cassation ≠ first instance -->
+        <g transform="translate(196,88)">
+          <rect x="0" y="0" width="148" height="22" rx="6" fill="url(#hkz-crimson)"/>
+          <text x="74" y="14" text-anchor="middle" fill="#fff" font-size="5.5" font-weight="800">КАССАЦИЯ ≠ СУД ПО ФАКТАМ</text>
+        </g>
+
+        <!-- Document stack: acquittal restored path -->
+        <g transform="translate(196,118)">
+          <rect x="0" y="8" width="56" height="68" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1" opacity="0.7"/>
+          <rect x="6" y="4" width="56" height="68" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1" opacity="0.85"/>
+          <rect x="12" y="0" width="56" height="68" rx="4" fill="#fff" stroke="#86efac" stroke-width="1.2"/>
+          <line x1="20" y1="14" x2="58" y2="14" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="20" y1="22" x2="54" y2="22" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="20" y1="30" x2="50" y2="30" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="40" y="48" text-anchor="middle" fill="#047857" font-size="5" font-weight="800">ст. 401.16</text>
+          <text x="40" y="58" text-anchor="middle" fill="#64748b" font-size="4.2">УПК РФ</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+## Передача Наташе
+SLUG: vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026
+ВНИМАНИЕ: MCP-only hero — static SVG + inline CSS, без `<canvas>` и `<script>`. Не удалять SVG-сцену инстанций.
+
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026  
+**Якорь:** `#l24-boris-kassaciya-prognoz-matrix`  
+**Режим:** контраст к hero Алины — светлый hero с SVG «цепочкой инстанций» → тёмный редакционный блок-матрица чек-листа в теле статьи  
+**Техника:** static SVG + inline CSS · без `<canvas>` · без `<script>`
+
+## Место вставки для Наташи
+
+Вставить **после закрывающего абзаца H3 §3.1** («Дело № 53 — иллюстрация второго сценария: кассация вышла за рамки проверки законности.») и **перед** `<h3 id="l24-h3-3-2">Апелляция и кассация: различие для стратегии защиты</h3>` внутри секции `<h2 id="l24-h2-3">`.
+
+Точный маркер в лонгриде Жени: строка с текстом «Дело № 53 — иллюстрация второго сценария» → **сюда блок Бориса** → далее H3 §3.2 и таблица апелляция/кассация.
+
+## Чеклист отличий от hero Алины
+
+| | Hero Алины | Блок Бориса |
+|---|---|---|
+| Позиция | первый экран | тело статьи, после H2 §3 / H3 §3.1 |
+| Фон | светлый (#fefefe) | тёмный navy gradient |
+| Смысл | цепочка инстанций дела № 53 | **4 признака** обвинительного прогноза (чек-лист Артёма) |
+| id | `l24-hero-vs-kassaciya-zapret` | `l24-boris-kassaciya-prognoz-matrix` |
+| canvas/script | нет (MCP-only SVG) | нет |
+
+```html
+<section id="l24-boris-kassaciya-prognoz-matrix" class="l24-boris-kass-prog" aria-label="4 признака обвинительного прогноза кассации — чек-лист для жалобы в ВС РФ">
+<style>
+.l24-boris-kass-prog {
+  --bk-navy: #0f2744;
+  --bk-navy-soft: #1a365d;
+  --bk-gold: #ecc94b;
+  --bk-gold-soft: #fde68a;
+  --bk-red: #f87171;
+  --bk-red-soft: #fecaca;
+  --bk-red-bg: rgba(248, 113, 113, 0.12);
+  --bk-blue: #818cf8;
+  --bk-ok: #34d399;
+  --bk-muted: #a0aec0;
+  --bk-txt: #e2e8f0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-kass-prog__shell {
+  background: linear-gradient(152deg, var(--bk-navy) 0%, #122a42 48%, var(--bk-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 24px;
+  color: var(--bk-txt);
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.32);
+}
+.l24-boris-kass-prog__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bk-gold);
+}
+.l24-boris-kass-prog__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-kass-prog__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bk-muted);
+  max-width: 72ch;
+}
+.l24-boris-kass-prog__lead strong { color: #fff; }
+.l24-boris-kass-prog__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 22px;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+.l24-boris-kass-prog__matrix-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-kass-prog__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.l24-boris-kass-prog__card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 14px 12px;
+  border-top: 3px solid var(--bk-red);
+}
+.l24-boris-kass-prog__card:nth-child(2) { border-top-color: #fb923c; }
+.l24-boris-kass-prog__card:nth-child(3) { border-top-color: var(--bk-gold); }
+.l24-boris-kass-prog__card:nth-child(4) { border-top-color: var(--bk-blue); }
+.l24-boris-kass-prog__card-n {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--bk-gold);
+  margin-bottom: 6px;
+}
+.l24-boris-kass-prog__card-t {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+  font-weight: 600;
+}
+.l24-boris-kass-prog__card-t em {
+  font-style: normal;
+  color: var(--bk-red-soft);
+}
+.l24-boris-kass-prog__verdict {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: rgba(236, 201, 75, 0.1);
+  border: 1px solid rgba(236, 201, 75, 0.32);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--bk-muted);
+}
+.l24-boris-kass-prog__verdict strong { color: var(--bk-gold-soft); }
+.l24-boris-kass-prog__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-kass-prog__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--bk-txt);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.l24-boris-kass-prog__tag--case { border-color: rgba(236, 201, 75, 0.5); color: var(--bk-gold); }
+.l24-boris-kass-prog__tag--law { border-color: rgba(129, 140, 248, 0.45); color: #c7d2fe; }
+.l24-boris-kass-prog__tag--warn { border-color: rgba(248, 113, 113, 0.45); color: var(--bk-red-soft); }
+@media (max-width: 860px) {
+  .l24-boris-kass-prog__split { grid-template-columns: 1fr; }
+  .l24-boris-kass-prog__shell { padding: 24px 18px 20px; }
+}
+@media (max-width: 480px) {
+  .l24-boris-kass-prog__cards { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="l24-boris-kass-prog__shell">
+  <p class="l24-boris-kass-prog__eyebrow">UG · чек-лист защиты · дело № 53-УД26-9-К8 · дайджест ВС 22.08.2026</p>
+  <h3 class="l24-boris-kass-prog__title">4 признака обвинительного прогноза кассации</h3>
+  <p class="l24-boris-kass-prog__lead">Если постановление кассации содержит <strong>хотя бы один</strong> из признаков ниже, защита вправе ссылаться на позицию ВС: кассация проверяет <strong>законность</strong>, но не подменяет суд первой инстанции и не «назначает» виновность. В деле № 53 <strong>8-й КСОЮ</strong> нарушил <strong>все четыре</strong> — ВС направил дело на новое кассационное рассмотрение в ином составе.</p>
+
+  <div class="l24-boris-kass-prog__split">
+    <svg class="l24-boris-kass-prog__matrix-svg" viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bkProgT bkProgD">
+      <title id="bkProgT">Матрица 4 признаков обвинительного прогноза кассации по делу № 53-УД26-9-К8</title>
+      <desc id="bkProgD">Центр — запрет кассации предрешать виновность; четыре квадранта: новые факты, оценка достоверности, незаконное освобождение, статья и мера наказания</desc>
+      <defs>
+        <marker id="bkProg-arr" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+          <polygon points="0 0, 7 3, 0 6" fill="#f87171"/>
+        </marker>
+        <filter id="bkProg-glow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
+        </filter>
+      </defs>
+
+      <!-- Фоновая сетка 2×2 -->
+      <rect x="24" y="24" width="472" height="312" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+      <line x1="260" y1="24" x2="260" y2="336" stroke="rgba(236,201,75,0.22)" stroke-width="1.5" stroke-dasharray="5,4"/>
+      <line x1="24" y1="180" x2="496" y2="180" stroke="rgba(236,201,75,0.22)" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+      <!-- Центральный хаб -->
+      <circle cx="260" cy="180" r="52" fill="#1a365d" stroke="#ecc94b" stroke-width="2.2" filter="url(#bkProg-glow)"/>
+      <text x="260" y="168" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="800" font-family="system-ui,sans-serif" letter-spacing="0.04em">ЗАПРЕТ ВС</text>
+      <text x="260" y="182" text-anchor="middle" fill="#fff" font-size="6.2" font-weight="700" font-family="system-ui,sans-serif">кассация ≠</text>
+      <text x="260" y="194" text-anchor="middle" fill="#fff" font-size="6.2" font-weight="700" font-family="system-ui,sans-serif">суд по фактам</text>
+      <text x="260" y="208" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">№ 53 · 05.08.2026</text>
+
+      <!-- Стрелки нарушений к центру -->
+      <path d="M118 118 L210 158" fill="none" stroke="#f87171" stroke-width="1.4" marker-end="url(#bkProg-arr)" opacity="0.85"/>
+      <path d="M402 118 L310 158" fill="none" stroke="#fb923c" stroke-width="1.4" marker-end="url(#bkProg-arr)" opacity="0.85"/>
+      <path d="M118 242 L210 202" fill="none" stroke="#ecc94b" stroke-width="1.4" marker-end="url(#bkProg-arr)" opacity="0.85"/>
+      <path d="M402 242 L310 202" fill="none" stroke="#818cf8" stroke-width="1.4" marker-end="url(#bkProg-arr)" opacity="0.85"/>
+
+      <!-- Квадрант 1 — верхний левый -->
+      <rect x="36" y="36" width="210" height="132" rx="10" fill="rgba(248,113,113,0.1)" stroke="#f87171" stroke-width="1.2"/>
+      <text x="48" y="58" fill="#fecaca" font-size="8" font-weight="800" font-family="system-ui,sans-serif">1 · НОВЫЕ ФАКТЫ</text>
+      <text x="48" y="78" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">Установила обстоятельства,</text>
+      <text x="48" y="92" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">не найденные судами</text>
+      <text x="48" y="106" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">1–2 инстанций</text>
+      <text x="48" y="128" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">8-й КСОЮ · № 7У-208/2026</text>
+      <text x="48" y="148" fill="#fca5a5" font-size="6" font-weight="700" font-family="system-ui,sans-serif">✕ нарушение</text>
+
+      <!-- Квадрант 2 — верхний правый -->
+      <rect x="274" y="36" width="210" height="132" rx="10" fill="rgba(251,146,60,0.08)" stroke="#fb923c" stroke-width="1.2"/>
+      <text x="286" y="58" fill="#fed7aa" font-size="8" font-weight="800" font-family="system-ui,sans-serif">2 · ДОСТОВЕРНОСТЬ</text>
+      <text x="286" y="78" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">Оценила достоверность</text>
+      <text x="286" y="92" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">доказательств вместо</text>
+      <text x="286" y="106" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">проверки законности</text>
+      <text x="286" y="128" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">заново оценила док-ва</text>
+      <text x="286" y="148" fill="#fdba74" font-size="6" font-weight="700" font-family="system-ui,sans-serif">✕ нарушение</text>
+
+      <!-- Квадрант 3 — нижний левый -->
+      <rect x="36" y="192" width="210" height="132" rx="10" fill="rgba(236,201,75,0.08)" stroke="#ecc94b" stroke-width="1.2"/>
+      <text x="48" y="214" fill="#fde68a" font-size="8" font-weight="800" font-family="system-ui,sans-serif">3 · ОБВИНИТ. ИСХОД</text>
+      <text x="48" y="234" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">«Незаконное и</text>
+      <text x="48" y="248" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">необоснованное</text>
+      <text x="48" y="262" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">освобождение»</text>
+      <text x="48" y="284" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">предрешила виновность</text>
+      <text x="48" y="304" fill="#fde68a" font-size="6" font-weight="700" font-family="system-ui,sans-serif">✕ нарушение</text>
+
+      <!-- Квадрант 4 — нижний правый -->
+      <rect x="274" y="192" width="210" height="132" rx="10" fill="rgba(129,140,248,0.1)" stroke="#818cf8" stroke-width="1.2"/>
+      <text x="286" y="214" fill="#c7d2fe" font-size="8" font-weight="800" font-family="system-ui,sans-serif">4 · СТАТЬЯ / МЕРА</text>
+      <text x="286" y="234" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">Определила статью УК</text>
+      <text x="286" y="248" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">или меру наказания</text>
+      <text x="286" y="262" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">для нового рассмотрения</text>
+      <text x="286" y="284" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">ч. 7 ст. 401.16 УПК</text>
+      <text x="286" y="304" fill="#a5b4fc" font-size="6" font-weight="700" font-family="system-ui,sans-serif">✕ нарушение</text>
+
+      <!-- Нижняя легенда: граница полномочий -->
+      <rect x="24" y="344" width="472" height="0" fill="none"/>
+      <text x="260" y="352" text-anchor="middle" fill="#64748b" font-size="6" font-weight="700" font-family="system-ui,sans-serif" letter-spacing="0.05em">КАССАЦИЯ → ПРОВЕРКА ЗАКОННОСТИ · НЕ ПОДМЕНА СУДА 1 ИНСТАНЦИИ</text>
+    </svg>
+
+    <div class="l24-boris-kass-prog__cards" role="list" aria-label="Чек-лист признаков для кассационной жалобы">
+      <div class="l24-boris-kass-prog__card" role="listitem">
+        <span class="l24-boris-kass-prog__card-n">Признак 1</span>
+        <p class="l24-boris-kass-prog__card-t">Кассация <em>установила факты</em>, не найденные судом первой или апелляционной инстанции</p>
+      </div>
+      <div class="l24-boris-kass-prog__card" role="listitem">
+        <span class="l24-boris-kass-prog__card-n">Признак 2</span>
+        <p class="l24-boris-kass-prog__card-t">Оценила <em>достоверность</em> доказательств вместо проверки законности их получения и оценки в приговоре</p>
+      </div>
+      <div class="l24-boris-kass-prog__card" role="listitem">
+        <span class="l24-boris-kass-prog__card-n">Признак 3</span>
+        <p class="l24-boris-kass-prog__card-t">Использовала формулировки «незаконное освобождение» — <em>предрешила обвинительный</em> исход нового рассмотрения</p>
+      </div>
+      <div class="l24-boris-kass-prog__card" role="listitem">
+        <span class="l24-boris-kass-prog__card-n">Признак 4</span>
+        <p class="l24-boris-kass-prog__card-t">Определила <em>статью УК</em> или <em>меру наказания</em> для суда при повторном рассмотрении</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="l24-boris-kass-prog__verdict"><strong>Дело № 53-УД26-9-К8:</strong> оправдательный приговор (февраль 2025, Красноярск) → отмена 8-м КСОЮ с нарушением всех четырёх признаков → ВС 05.08.2026 отменил постановление кассации и направил дело на <strong>новое кассационное рассмотрение в ином составе</strong>. Нормативный якорь жалобы — <strong>ч. 7 ст. 401.16 УПК РФ</strong>.</p>
+
+  <div class="l24-boris-kass-prog__foot">
+    <span class="l24-boris-kass-prog__tag l24-boris-kass-prog__tag--case">№ 53-УД26-9-К8</span>
+    <span class="l24-boris-kass-prog__tag l24-boris-kass-prog__tag--law">ч. 7 ст. 401.16 УПК</span>
+    <span class="l24-boris-kass-prog__tag l24-boris-kass-prog__tag--warn">8-й КСОЮ · № 7У-208/2026</span>
+    <span class="l24-boris-kass-prog__tag">ч. 1 ст. 286 УК</span>
+    <span class="l24-boris-kass-prog__tag">дайджест 22.08.2026</span>
+  </div>
+</div>
+</section>
+```
