@@ -1524,3 +1524,36 @@ SLUG: vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026
 </div>
 </section>
 ```
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026  
+**Файл:** `/workspace/.cursor/page-content-natasha-kassaciya-prognoz.html`
+
+### Мета
+Title: ВС запретил кассации предрешать виновность: защита при отмене оправдания 2026  
+Description: Дайджест ВС РФ 22.08.2026: кассация не вправе «предрешать» обвинительный приговор при отмене оправдания. Дела № 53-УД26-9-К8, смягчающие по факту, ne bis in idem — защита в кассации.  
+Keywords: кассационная жалоба по уголовному делу, кассация уголовное дело защита, отмена оправдательного приговора кассация, кассационный суд уголовное дело, защита по уголовному делу кассация, смягчающие обстоятельства приговор, условное осуждение ст 73 ук, ne bis in idem уголовное дело, обвинительный приговор кассация, адвокат по уголовным делам, дайджест вс рф уголовное дело 2026, кассационное определение вс рф, повторное осуждение за те же деяния, гражданский иск госпошлина уголовное дело, превышение должностных полномочий приговор  
+H1: ВС запретил кассации предрешать обвинительный приговор: защита при отмене оправдания
+
+### Состав страницы
+1. Hero Алины (SVG, `#l24-hero-vs-kassaciya-zapret`) — первым в `<main id="primary">`
+2. Intro grid + chips + route SVG + TOC (9 якорей, incl. `#l24-boris-kassaciya-prognoz-matrix`)
+3. Лонгрид Жени/Артура с 4 CTA (`https://advokat-vsem.ru/`)
+4. Блок Бориса `#l24-boris-kassaciya-prognoz-matrix` после H3 §3.1
+5. FAQ 6 вопросов + schema.org FAQPage (JSON-LD)
+6. Нижний CTA `ym-cta--legis24 ym-cta--bottom`
+
+### Технические требования
+- `<!-- wp:html -->` обёртка
+- `main#primary`, breadcrumbs hide, padding reset
+- Без `<script>` и `<canvas>` (MCP-only SVG)
+
+## Передача Юре
+SLUG: vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026  
+Файл контента: `.cursor/page-content-natasha-kassaciya-prognoz.html`  
+Вставить содержимое файла в WordPress как блок **Custom HTML** (`<!-- wp:html -->`).  
+Контент **без** `<script>` и `<canvas>` — публикация напрямую.  
+CTA href: `https://advokat-vsem.ru/`  
+Schema: Article + FAQPage (в `<div class="l24-jsonld-ug">`).
