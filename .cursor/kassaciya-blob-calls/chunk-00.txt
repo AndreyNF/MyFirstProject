@@ -1,0 +1,340 @@
+<!-- wp:html -->
+<style>
+
+/* ===== RESET / BREADCRUMBS / PADDING ===== */
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section,
+.entry-title, .main_title, h1.entry-title { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+
+/* ===== PAGE SCOPE ===== */
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem; font-weight: 800;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page h3 {
+  margin-top: 1.5em; color: #312e81; font-size: 1.15rem; font-weight: 700;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page th,
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page th { background: #fef2f2; color: #a31830; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page a { color: #a31830; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page ol,
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page ul { margin: 1em 0; padding-left: 1.4em; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page li { margin-bottom: 0.45em; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page blockquote {
+  margin: 1.5em 0; padding: 16px 22px; border-left: 4px solid #a31830;
+  background: #fff7f7; color: #334155; font-style: italic; border-radius: 0 6px 6px 0;
+  font-size: 0.98rem; line-height: 1.6;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page p { margin: 0 0 1.1em; }
+
+/* ===== INTRO GRID ===== */
+.l24-intro-ug {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-ug__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-ug__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px;
+}
+.l24-intro-ug__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-ug__text p:last-child { margin-bottom: 0; }
+.l24-intro-ug__brief {
+  background: #fff7f7; border: 1px solid #fecaca; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55; color: #334155;
+}
+.l24-intro-ug__decor {
+  background: linear-gradient(160deg, #fff7f7 0%, #fff 100%);
+  border: 1px solid #fecaca; border-radius: 12px; padding: 18px;
+}
+.l24-intro-ug__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-ug__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-ug__chip--accent { border-color: #a31830; color: #a31830; background: #fff7f7; }
+.l24-intro-ug__chip--ok    { border-color: #059669; color: #047857; background: #ecfdf5; }
+.l24-intro-ug__chip--warn  { border-color: #dc2626; color: #991b1b; background: #fef2f2; }
+.l24-intro-ug__chip--blue  { border-color: #4338ca; color: #4338ca; background: #f5f3ff; }
+.l24-intro-ug__route-svg { display: block; width: 100%; height: auto; }
+
+/* ===== TOC ===== */
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #fff7f7; color: #a31830; text-decoration: none;
+  font-size: 0.88rem; font-weight: 600; border: 1px solid #fecaca;
+}
+.ym-toc__list a:hover { background: #fef2f2; }
+
+/* ===== CTA ===== */
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #fff7f7 100%);
+  border: 1px solid #fecaca; border-left: 4px solid #a31830;
+}
+.ym-cta--primary { border-left-color: #a31830; }
+.ym-cta--legis24.ym-cta--bottom {
+  border-left-color: #4338ca;
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border-color: #c4b5fd;
+}
+.ym-cta p { margin: 0 0 14px; line-height: 1.55; color: #334155; font-size: 0.98rem; }
+.ym-cta h3 { margin: 0 0 12px; color: #1a365d; font-size: 1.1rem; font-weight: 800; }
+.ym-cta a[href] {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700;
+  text-decoration: none; font-size: 0.93rem;
+}
+.ym-cta a[href]:hover { background: #8b1528; }
+.ym-cta--legis24.ym-cta--bottom a[href] { background: #4338ca; }
+.ym-cta--legis24.ym-cta--bottom a[href]:hover { background: #312e81; }
+
+/* ===== FAQ ===== */
+.l24-faq {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq > h2 { margin-top: 0 !important; color: #1a365d; }
+.l24-faq__item {
+  margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0;
+}
+.l24-faq__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; font-weight: 700; }
+.l24-faq__a { margin: 0; color: #334155; font-size: 0.97rem; line-height: 1.6; }
+
+/* ===== JSON-LD hidden ===== */
+.l24-jsonld-ug { display: none !important; }
+
+/* ===== SOURCES ===== */
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .l24-sources {
+  margin-top: 2em; font-size: 0.88rem; color: #64748b;
+  border-top: 1px solid #e2e8f0; padding-top: 1.2em;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .l24-sources li { margin-bottom: 0.3em; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .l24-sources a { color: #64748b; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .l24-intro-ug__grid { grid-template-columns: 1fr; }
+  .l24-hero-vs-kassaciya-zapret__inner { grid-template-columns: 1fr !important; }
+  .l24-hero-vs-kassaciya-zapret {
+    min-height: auto !important; padding: 96px 20px 56px !important;
+  }
+  .l24-hero-vs-kassaciya-zapret__visual { order: -1; max-height: 320px; overflow: hidden; }
+}
+
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; font-size: 0.98rem; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn { display: inline-block; background: #a31830; color: #fff !important; padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.93rem; }
+.ym-cta__btn:hover { background: #8b1528; }
+.ym-cta--legis24 { border-left-color: #4338ca; background: linear-gradient(135deg, #f5f3ff 0%, #fff7f7 100%); border-color: #c4b5fd; }
+.ym-cta--legis24 .ym-cta__btn { background: #4338ca; }
+.ym-cta--legis24 .ym-cta__btn:hover { background: #312e81; }
+
+</style>
+
+<main id="primary" class="site-main vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="ВС запретил кассации предрешать обвинительный приговор: защита при отмене оправдания">
+<meta itemprop="description" content="Дайджест ВС РФ 22.08.2026: кассация не вправе «предрешать» обвинительный приговор при отмене оправдания. Дела № 53-УД26-9-К8, смягчающие по факту, ne bis in idem — защита в кассации.">
+<meta itemprop="inLanguage" content="ru-RU">
+
+<section id="l24-hero-vs-kassaciya-zapret" class="l24-hero-vs-kassaciya-zapret" aria-label="ВС запретил кассации предрешать обвинительный приговор — защита при отмене оправдания">
+  <style>
+    .l24-hero-vs-kassaciya-zapret {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(150deg, #fefefe 0%, #fff7f7 38%, #f0f0f8 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-kassaciya-zapret::before {
+      content: "";
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 42% 38% at 88% 10%, rgba(163,24,48,0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 36% 32% at 6% 88%, rgba(26,54,93,0.05) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-kassaciya-zapret__inner {
+      position: relative; z-index: 1;
+      max-width: 1200px; margin: 0 auto; width: 100%;
+      display: grid; grid-template-columns: 1.05fr 0.95fr;
+      gap: 44px; align-items: center;
+    }
+    .l24-hero-vs-kassaciya-zapret__badge {
+      display: inline-flex; align-items: center; gap: 10px;
+      margin: 0 0 18px; padding: 8px 14px; border-radius: 999px;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(163,24,48,0.18);
+      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em;
+      text-transform: uppercase; color: #334155;
+    }
+    .l24-hero-vs-kassaciya-zapret__badge-mark {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #a31830; flex-shrink: 0;
+    }
+    .l24-hero-vs-kassaciya-zapret__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.35rem, 2.9vw, 2.1rem);
+      line-height: 1.22; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-kassaciya-zapret__h1-accent { color: #a31830; }
+    .l24-hero-vs-kassaciya-zapret__sub {
+      margin: 0 0 26px; max-width: 42em;
+      font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+      line-height: 1.58; color: #475569;
+    }
+    .l24-hero-vs-kassaciya-zapret__facts {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      margin: 0 0 26px; padding: 0; list-style: none;
+    }
+    .l24-hero-vs-kassaciya-zapret__fact {
+      font-size: 0.76rem; font-weight: 700;
+      padding: 7px 12px; border-radius: 8px;
+      background: #fff; border: 1px solid #e2e8f0; color: #334155;
+    }
+    .l24-hero-vs-kassaciya-zapret__fact--red  { border-color: #fecaca; color: #a31830; background: #fff7f7; }
+    .l24-hero-vs-kassaciya-zapret__fact--navy { border-color: #93c5fd; color: #1a365d; background: #eff6ff; }
+    .l24-hero-vs-kassaciya-zapret__fact--blue { border-color: #c4b5fd; color: #4338ca; background: #f5f3ff; }
+    .l24-hero-vs-kassaciya-zapret__fact--ok   { border-color: #a7f3d0; color: #047857; background: #ecfdf5; }
+    .l24-hero-vs-kassaciya-zapret__cta {
+      display: inline-block; background: #a31830; color: #fff !important;
+      padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 0.95rem;
+      text-decoration: none; box-shadow: 0 4px 14px rgba(163,24,48,0.25);
+    }
+    .l24-hero-vs-kassaciya-zapret__cta:hover { background: #8b1528; }
+    .l24-hero-vs-kassaciya-zapret__visual {
+      display: flex; justify-content: center; align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-kassaciya-zapret__inner { grid-template-columns: 1fr; }
+      .l24-hero-vs-kassaciya-zapret {
+        min-height: auto; padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-kassaciya-zapret__visual { order: -1; max-height: 320px; overflow: hidden; }
+    }
+  </style>
+  <div class="l24-hero-vs-kassaciya-zapret__inner">
+    <div class="l24-hero-vs-kassaciya-zapret__content">
+      <div class="l24-hero-vs-kassaciya-zapret__badge">
+        <span class="l24-hero-vs-kassaciya-zapret__badge-mark" aria-hidden="true"></span>
+        UG · дайджест ВС РФ · 22.08.2026 · № 53-УД26-9-К8
+      </div>
+      <h1 class="l24-hero-vs-kassaciya-zapret__h1">
+        <span class="l24-hero-vs-kassaciya-zapret__h1-accent">ВС запретил кассации предрешать обвинительный приговор:</span> защита при отмене оправдания
+      </h1>
+      <p class="l24-hero-vs-kassaciya-zapret__sub">
+        Дайджест ВС РФ 22.08.2026 — кассация не подменяет суды первой инстанции, смягчающие учитываются по факту, ne bis in idem
+      </p>
+      <ul class="l24-hero-vs-kassaciya-zapret__facts">
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--ok">оправдательный приговор</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--red">обвинительный прогноз</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact">№ 53-УД26-9-К8</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--navy">ч. 1 ст. 286 УК</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--blue">ст. 73 УК</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--blue">ne bis in idem</li>
+      </ul>
+      <a class="l24-hero-vs-kassaciya-zapret__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите в кассации</a>
+    </div>
+    <div class="l24-hero-vs-kassaciya-zapret__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Схема инстанций: оправдание, запрет обвинительного прогноза кассации, позиция ВС РФ 22.08.2026">
+        <defs>
+          <linearGradient id="hkz-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fafafa"/>
+            <stop offset="100%" stop-color="#fff7f7"/>
+          </linearGradient>
+          <linearGradient id="hkz-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+          </linearGradient>
+          <linearGradient id="hkz-crimson" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#a31830"/>
+            <stop offset="100%" stop-color="#8b1528"/>
+          </linearGradient>
+          <pattern id="hkz-dots" width="14" height="14" patternUnits="userSpaceOnUse">
+            <circle cx="7" cy="7" r="1" fill="#fecaca" opacity="0.45"/>
+          </pattern>
+          <filter id="hkz-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+          <marker id="hkz-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#94a3b8"/>
+          </marker>
+          <marker id="hkz-arrow-red" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#a31830"/>
+          </marker>
+        </defs>
+
+        <!-- Background card -->
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hkz-bg)" stroke="#fecaca" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hkz-dots)" opacity="0.45"/>
+
+        <!-- VS header badge -->
+        <g filter="url(#hkz-sh)" transform="translate(148,18)">
+          <rect x="0" y="28" width="224" height="48" rx="5" fill="url(#hkz-navy)"/>
+          <polygon points="112,4 218,28 6,28" fill="#1a3a6e"/>
+          <text x="112" y="50" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="800" letter-spacing="0.04em">ВС РФ · ДАЙДЖЕСТ 22.08.2026</text>
+          <text x="112" y="64" text-anchor="middle" fill="#93c5fd" font-size="5.5">запрет «обвинительных прогнозов» кассации</text>
+        </g>
+
+        <!-- Vertical court ladder -->
+        <!-- Level 1: first instance -->
+        <g filter="url(#hkz-sh)" transform="translate(44,108)">
+          <rect x="0" y="0" width="132" height="72" rx="8" fill="#fff" stroke="#a7f3d0" stroke-width="1.5"/>
+          <rect x="0" y="0" width="132" height="18" rx="8" fill="#ecfdf5"/>
+          <rect x="0" y="10" width="132" height="8" fill="#ecfdf5"/>
+          <text x="66" y="13" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">СУД 1 ИНСТАНЦИИ</text>
+          <rect x="14" y="28" width="104" height="32" rx="5" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+          <path d="M28,48 L36,56 L52,40" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="66" y="44" text-anchor="middle" fill="#065f46" font-size="6.5" font-weight="800">ОПРАВДАНИЕ</text>
+          <text x="66" y="54" text-anchor="middle" fill="#64748b" font-size="4.8">февраль 2025 · Красноярск</text>
+        </g>
+
+        <!-- Level 2: appeal (aligned) -->
+        <g filter="url(#hkz-sh)" transform="translate(44,196)">
+          <rect x="0" y="0" width="132" height="56" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="132" height="16" rx="8" fill="#f8fafc"/>
+          <rect x="0" y="8" width="132" height="8" fill="#f8fafc"/>
+          <text x="66" y="12" text-anchor="middle" fill="#475569" font-size="5.5" font-weight="700">АПЕЛЛЯЦИЯ</text>
+          <text x="66" y="34" text-anchor="middle" fill="#334155" font-size="5.8" font-weight="600">согласилась с оправданием</text>
+          <text x="66" y="44" text-anchor="middle" fill="#94a3b8" font-size="4.6">без изменений</text>
+     
