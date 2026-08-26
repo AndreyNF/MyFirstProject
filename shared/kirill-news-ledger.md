@@ -2,6 +2,7 @@
 
 | Дата | Статус | Тип | Тема | SLUG | URL источника |
 |------|--------|-----|------|------|---------------|
+| 2026-08-26 | selected | ARB | ВС РФ 18.08.2026: кредитор в банкротстве должен доказать пользование имуществом и добросовестность при взыскании 56,8 млн ₽ неосновательного обогащения (дело № А65-968/2025, определение № 306-ЭС26-695) | vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026 | https://base.garant.ru/414784939/ |
 | 2026-08-25 | published | UG | ВС запретил кассации предрешать обвинительный приговор — дайджест РАПСИ 22.08.2026 (№ 53-УД26-9-К8, смягчающие № 56-УД26-21-К9, ne bis in idem) | vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026 | https://advokat-vsem.online/vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026/ |
 | 2026-07-04 | published | ARB | Обзор ВС № 5/2026 (п. 1): ФНС как залоговый кредитор при налоговом аресте — 109 млн ₽, 4 НО + 153 ед. движимого, п. 4 ст. 61.4 (29.04.2026 № 7А/2026) | vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo | https://advokat-vsem.online/vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo/ |
 | 2026-07-03 | published | UG | Дайджест ВС №7 (июль 2026): кража признана малозначительной — прекращение дела по ч. 2 ст. 14 УК, кассация № 11-УД26-3-К6 (ч. 1 ст. 158) | vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026 | https://advokat-vsem.online/vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026/ |
