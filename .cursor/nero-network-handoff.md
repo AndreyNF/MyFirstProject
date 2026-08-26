@@ -3015,3 +3015,12 @@ Description: Роспатент аннулировал ТЗ «Маугли» у 
 main#primary: да (`class="site-main rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page"`)
 breadcrumbs: скрыты CSS
 CTA: только https://advokat-vsem.ru/
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: опубликовано
+URL: https://advokat-vsem.online/rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026/
+page_id: 584
+blob_id: r7Nij7OvdB7V5sVfUZIukjGb
+Дата: 2026-08-26
+Код: KIRILL-IP
+Проверка live: HTTP 200, main#primary — OK

@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-08-26 | KIRILL-IP | rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026 | 584 | https://advokat-vsem.online/rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026/ |
 | 2026-08-26 | KIRILL-ARB | vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026 | 581 | https://advokat-vsem.online/vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026/ |
 | 2026-08-25 | KIRILL-UG | vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026 | 578 | https://advokat-vsem.online/vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026/ |
 | 2026-07-04 | KIRILL-ARB | vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo | 576 | https://advokat-vsem.online/vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo/ |

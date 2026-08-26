@@ -45,6 +45,7 @@ Precheck: `python3 scripts/nero-precheck-queue.py --mark-done --write-handoff` (
 | 25 | B11 / KIRILL-UG | UG | ВС РФ прекратил дело о краже как малозначительное: ч. 2 ст. 14 УК и защита в кассации — дайджест № 7/2026, № 11-УД26-3-К6 (Кирилл, июль 2026) | vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026 | ✅ page_id 572 |
 | 26 | B12 / KIRILL-ARB | ARB | Обзор ВС № 5/2026: ФНС как залоговый кредитор при налоговом аресте в банкротстве — 109 млн ₽, п. 4 ст. 61.4 (Кирилл, июль 2026) | vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo | ✅ page_id 576 |
 | 27 | B13 / KIRILL-ARB | ARB | ВС РФ 18.08.2026: кредитор в банкротстве должен доказать добросовестность при взыскании 56,8 млн ₽ неосновательного обогащения (дело № А65-968/2025) | vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026 | ✅ page_id 581 |
+| 28 | B14 / KIRILL-IP | IP | Роспатент 24.08.2026: по возражению «Союзмультфильма» аннулирована охрана ТЗ «Маугли» у ОАО «Рот Фронт» (конфеты драже, 30 класс) | rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026 | ✅ page_id 584 |
 
 > Канонический URL A3 на проде: `srok-vozrazhenij-30-vs-15-mify` (без «dnej» в slug).  
 > Типы и углы: `article-types-legis24.md`.
