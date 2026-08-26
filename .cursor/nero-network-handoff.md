@@ -898,3 +898,629 @@ H1_для_hero: ВС РФ: кредитор в банкротстве долже
 КОЛ-ВО_CTA: 2
 ТИП_CTA: ARB — консультация по арбитражному спору / стратегии в суде
 PRIMARY_CTA_URL: https://advokat-vsem.ru/
+=== АЛИНА (HERO) ===
+Статус: ✅ ГОТОВО
+
+<section id="l24-hero-vs-kreditor-dobrosovestnost" class="l24-hero-vs-kreditor-dobrosovestnost" aria-label="ВС РФ: добросовестность кредитора при взыскании неосновательного обогащения в банкротстве">
+  <style>
+    .l24-hero-vs-kreditor-dobrosovestnost {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(152deg, #fefefe 0%, #f0f7ff 42%, #f8fafc 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost::before {
+      content: "";
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 40% 36% at 90% 8%, rgba(26,54,93,0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 34% 30% at 4% 92%, rgba(37,99,235,0.05) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__inner {
+      position: relative; z-index: 1;
+      max-width: 1200px; margin: 0 auto; width: 100%;
+      display: grid; grid-template-columns: 1.05fr 0.95fr;
+      gap: 44px; align-items: center;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__badge {
+      display: inline-flex; align-items: center; gap: 10px;
+      margin: 0 0 18px; padding: 8px 14px; border-radius: 999px;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(26,54,93,0.16);
+      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em;
+      text-transform: uppercase; color: #334155;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__badge-mark {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #1a365d; flex-shrink: 0;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.32rem, 2.85vw, 2.05rem);
+      line-height: 1.22; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__h1-accent { color: #1a365d; }
+    .l24-hero-vs-kreditor-dobrosovestnost__sub {
+      margin: 0 0 26px; max-width: 42em;
+      font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+      line-height: 1.58; color: #475569;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__facts {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      margin: 0 0 26px; padding: 0; list-style: none;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__fact {
+      font-size: 0.76rem; font-weight: 700;
+      padding: 7px 12px; border-radius: 8px;
+      background: #fff; border: 1px solid #e2e8f0; color: #334155;
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__fact--navy { border-color: #93c5fd; color: #1a365d; background: #eff6ff; }
+    .l24-hero-vs-kreditor-dobrosovestnost__fact--sum  { border-color: #fcd34d; color: #92400e; background: #fffbeb; }
+    .l24-hero-vs-kreditor-dobrosovestnost__fact--law  { border-color: #c4b5fd; color: #4338ca; background: #f5f3ff; }
+    .l24-hero-vs-kreditor-dobrosovestnost__fact--geo  { border-color: #a7f3d0; color: #047857; background: #ecfdf5; }
+    .l24-hero-vs-kreditor-dobrosovestnost__cta {
+      display: inline-block; background: #1a365d; color: #fff !important;
+      padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 0.95rem;
+      text-decoration: none; box-shadow: 0 4px 14px rgba(26,54,93,0.22);
+    }
+    .l24-hero-vs-kreditor-dobrosovestnost__cta:hover { background: #0f2744; }
+    .l24-hero-vs-kreditor-dobrosovestnost__visual {
+      display: flex; justify-content: center; align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-kreditor-dobrosovestnost__inner { grid-template-columns: 1fr; }
+      .l24-hero-vs-kreditor-dobrosovestnost {
+        min-height: auto; padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-kreditor-dobrosovestnost__visual { order: -1; max-height: 320px; overflow: hidden; }
+    }
+  </style>
+  <div class="l24-hero-vs-kreditor-dobrosovestnost__inner">
+    <div class="l24-hero-vs-kreditor-dobrosovestnost__content">
+      <div class="l24-hero-vs-kreditor-dobrosovestnost__badge">
+        <span class="l24-hero-vs-kreditor-dobrosovestnost__badge-mark" aria-hidden="true"></span>
+        ARB · арбитраж · 18.08.2026 · № 306-ЭС26-695
+      </div>
+      <h1 class="l24-hero-vs-kreditor-dobrosovestnost__h1">
+        <span class="l24-hero-vs-kreditor-dobrosovestnost__h1-accent">ВС РФ: кредитор в банкротстве должен доказать добросовестность</span> при взыскании неосновательного обогащения
+      </h1>
+      <p class="l24-hero-vs-kreditor-dobrosovestnost__sub">
+        Дело № А65-968/2025 — 56,8 млн ₽ за пользование недвижимостью, повышенный стандарт доказывания и злоупотребление правом кредитора
+      </p>
+      <ul class="l24-hero-vs-kreditor-dobrosovestnost__facts">
+        <li class="l24-hero-vs-kreditor-dobrosovestnost__fact l24-hero-vs-kreditor-dobrosovestnost__fact--navy">№ 306-ЭС26-695</li>
+        <li class="l24-hero-vs-kreditor-dobrosovestnost__fact l24-hero-vs-kreditor-dobrosovestnost__fact--sum">56 829 324,48 ₽</li>
+        <li class="l24-hero-vs-kreditor-dobrosovestnost__fact">13 объектов</li>
+        <li class="l24-hero-vs-kreditor-dobrosovestnost__fact l24-hero-vs-kreditor-dobrosovestnost__fact--geo">Казань</li>
+        <li class="l24-hero-vs-kreditor-dobrosovestnost__fact">18.08.2026</li>
+        <li class="l24-hero-vs-kreditor-dobrosovestnost__fact l24-hero-vs-kreditor-dobrosovestnost__fact--law">ст. 10 ГК</li>
+        <li class="l24-hero-vs-kreditor-dobrosovestnost__fact l24-hero-vs-kreditor-dobrosovestnost__fact--law">ст. 1102 ГК</li>
+      </ul>
+      <a class="l24-hero-vs-kreditor-dobrosovestnost__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по арбитражному спору</a>
+    </div>
+    <div class="l24-hero-vs-kreditor-dobrosovestnost__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Арбитражный зал, цепочка дел и весы доказывания — дело А65-968/2025">
+        <defs>
+          <linearGradient id="arb-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fafcff"/>
+            <stop offset="100%" stop-color="#f0f7ff"/>
+          </linearGradient>
+          <linearGradient id="arb-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="arb-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#d97706"/>
+            <stop offset="100%" stop-color="#b45309"/>
+          </linearGradient>
+          <pattern id="arb-dots" width="14" height="14" patternUnits="userSpaceOnUse">
+            <circle cx="7" cy="7" r="1" fill="#93c5fd" opacity="0.35"/>
+          </pattern>
+          <filter id="arb-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+          <marker id="arb-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
+          </marker>
+          <marker id="arb-arrow-blue" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#2563eb"/>
+          </marker>
+        </defs>
+
+        <!-- Background card -->
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#arb-bg)" stroke="#bfdbfe" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#arb-dots)" opacity="0.5"/>
+
+        <!-- Arbitration hall: semicircular bench -->
+        <g filter="url(#arb-sh)" transform="translate(130,16)">
+          <path d="M0,56 Q130,0 260,56 L260,72 L0,72 Z" fill="url(#arb-navy)"/>
+          <rect x="0" y="56" width="260" height="16" fill="url(#arb-navy)"/>
+          <text x="130" y="38" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="800" letter-spacing="0.04em">АРБИТРАЖНЫЙ ЗАЛ · СКЭС ВС РФ</text>
+          <text x="130" y="50" text-anchor="middle" fill="#93c5fd" font-size="5.2">повышенный стандарт доказывания</text>
+          <!-- Judge seats -->
+          <circle cx="50" cy="64" r="4" fill="#3b82f6" opacity="0.6"/>
+          <circle cx="130" cy="64" r="5" fill="#60a5fa"/>
+          <circle cx="210" cy="64" r="4" fill="#3b82f6" opacity="0.6"/>
+        </g>
+
+        <!-- Scales of proof (center-right) -->
+        <g filter="url(#arb-sh)" transform="translate(318,88)">
+          <line x1="72" y1="12" x2="72" y2="52" stroke="#64748b" stroke-width="2.5"/>
+          <line x1="28" y1="22" x2="116" y2="22" stroke="#64748b" stroke-width="2"/>
+          <line x1="28" y1="22" x2="28" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="116" y1="22" x2="116" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <!-- Left pan: creditor burden -->
+          <ellipse cx="28" cy="44" rx="26" ry="6" fill="none" stroke="#d97706" stroke-width="1.8"/>
+          <path d="M14,44 Q28,52 42,44" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.2"/>
+          <text x="28" y="42" text-anchor="middle" fill="#92400e" font-size="4.2" font-weight="700">бремя</text>
+          <text x="28" y="50" text-anchor="middle" fill="#92400e" font-size="3.8">истца</text>
+          <!-- Right pan: proof -->
+          <ellipse cx="116" cy="44" rx="26" ry="6" fill="none" stroke="#1a365d" stroke-width="1.8"/>
+          <path d="M102,44 Q116,36 130,44" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.2"/>
+          <text x="116" y="42" text-anchor="middle" fill="#1a365d" font-size="4.2" font-weight="700">факт</text>
+          <text x="116" y="50" text-anchor="middle" fill="#1a365d" font-size="3.8">пользования</text>
+          <!-- Base -->
+          <polygon points="64,52 80,52 76,62 68,62" fill="#94a3b8"/>
+          <text x="72" y="74" text-anchor="middle" fill="#1a365d" font-size="5.5" font-weight="800">ВЕСЫ ДОКАЗЫВАНИЯ</text>
+          <text x="72" y="84" text-anchor="middle" fill="#64748b" font-size="4.4">ст. 65 АПК · ст. 1102 ГК</text>
+        </g>
+
+        <!-- Case chain: 4 linked cases -->
+        <g filter="url(#arb-sh)">
+          <!-- Case 1 -->
+          <g transform="translate(28,108)">
+            <rect x="0" y="0" width="108" height="52" rx="7" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+            <rect x="0" y="0" width="108" height="14" rx="7" fill="#f8fafc"/>
+            <rect x="0" y="7" width="108" height="7" fill="#f8fafc"/>
+            <text x="54" y="11" text-anchor="middle" fill="#64748b" font-size="4.8" font-weight="700">А65-30187/2021</text>
+            <text x="54" y="28" text-anchor="middle" fill="#334155" font-size="5.5" font-weight="700">6,7 млн ₽</text>
+            <text x="54" y="38" text-anchor="middle" fill="#94a3b8" font-size="4.2">НО · 2020–2021</text>
+            <text x="54" y="46" text-anchor="middle" fill="#94a3b8" font-size="3.8">договор незаключён</text>
+          </g>
+          <!-- Arrow 1→2 -->
+          <line x1="136" y1="134" x2="148" y2="134" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#arb-arrow)"/>
+          <!-- Case 2 -->
+          <g transform="translate(150,108)">
+            <rect x="0" y="0" width="108" height="52" rx="7" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+            <rect x="0" y="0" width="108" height="14" rx="7" fill="#f8fafc"/>
+            <rect x="0" y="7" width="108" height="7" fill="#f8fafc"/>
+            <text x="54" y="11" text-anchor="middle" fill="#64748b" font-size="4.8" font-weight="700">А65-3718/2023</text>
+            <text x="54" y="28" text-anchor="middle" fill="#334155" font-size="5.5" font-weight="700">30,9 млн ₽</text>
+            <text x="54" y="38" text-anchor="middle" fill="#94a3b8" font-size="4.2">НО · 2021–2022</text>
+            <text x="54" y="46" text-anchor="middle" fill="#94a3b8" font-size="3.8">преюдиция ≠ доказательство</text>
+          </g>
+          <!-- Arrow 2→3 (down) -->
+          <path d="M204,160 C204,178 82,178 82,196" fill="none" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#arb-arrow)"/>
+          <!-- Case 3: bankruptcy -->
+          <g transform="translate(28,196)">
+            <rect x="0" y="0" width="108" height="52" rx="7" fill="#fff7ed" stroke="#fdba74" stroke-width="1.3"/>
+            <rect x="0" y="0" width="108" height="14" rx="7" fill="#ffedd5"/>
+            <rect x="0" y="7" width="108" height="7" fill="#ffedd5"/>
+            <text x="54" y="11" text-anchor="middle" fill="#c2410c" font-size="4.8" font-weight="700">А40-30995/2023</text>
+            <text x="54" y="28" text-anchor="middle" fill="#9a3412" font-size="5.5" font-weight="700">банкротство</text>
+            <text x="54" y="38" text-anchor="middle" fill="#64748b" font-size="4.2">«Возрождение»</text>
+            <text x="54" y="46" text-anchor="middle" fill="#94a3b8" font-size="3.8">20.02.2023</text>
+          </g>
+          <!-- Arrow 3→4 -->
+          <line x1="136" y1="222" x2="148" y2="222" stroke="#2563eb" stroke-width="2" marker-end="url(#arb-arrow-blue)"/>
+          <!-- Case 4: current (highlighted) -->
+          <g transform="translate(150,196)">
+            <rect x="0" y="0" width="108" height="52" rx="7" fill="#eff6ff" stroke="#2563eb" stroke-width="1.8"/>
+            <rect x="0" y="0" width="108" height="14" rx="7" fill="#dbeafe"/>
+            <rect x="0" y="7" width="108" height="7" fill="#dbeafe"/>
+            <text x="54" y="11" text-anchor="middle" fill="#1d4ed8" font-size="4.8" font-weight="800">А65-968/2025</text>
+            <text x="54" y="28" text-anchor="middle" fill="#1a365d" font-size="5.8" font-weight="800">56,8 млн ₽</text>
+            <text x="54" y="38" text-anchor="middle" fill="#64748b" font-size="4.2">текущие платежи</text>
+            <text x="54" y="46" text-anchor="middle" fill="#dc2626" font-size="3.8" font-weight="700">ВС отменил · 18.08.2026</text>
+          </g>
+        </g>
+
+        <!-- Chain label -->
+        <g transform="translate(28,88)">
+          <rect x="0" y="0" width="88" height="16" rx="5" fill="url(#arb-navy)"/>
+          <text x="44" y="11" text-anchor="middle" fill="#fff" font-size="5.2" font-weight="800">ЦЕПОЧКА ДЕЛ</text>
+        </g>
+
+        <!-- Total sum bar -->
+        <g filter="url(#arb-sh)" transform="translate(28,262)">
+          <rect x="0" y="0" width="230" height="36" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="12" y="14" fill="#64748b" font-size="4.8" font-weight="600">совокупно ~94,4 млн ₽</text>
+          <rect x="12" y="20" width="206" height="8" rx="4" fill="#f1f5f9"/>
+          <rect x="12" y="20" width="15" height="8" rx="4" fill="#94a3b8"/>
+          <rect x="27" y="20" width="68" height="8" fill="#64748b"/>
+          <rect x="95" y="20" width="123" height="8" rx="0 4 4 0" fill="#2563eb"/>
+          <text x="218" y="14" text-anchor="end" fill="#1a365d" font-size="4.6" font-weight="700">13 объектов</text>
+        </g>
+
+        <!-- Good faith block -->
+        <g filter="url(#arb-sh)" transform="translate(28,310)">
+          <rect x="0" y="0" width="230" height="48" rx="7" fill="#fff" stroke="#c4b5fd" stroke-width="1.2"/>
+          <rect x="0" y="0" width="230" height="14" rx="7" fill="#f5f3ff"/>
+          <rect x="0" y="7" width="230" height="7" fill="#f5f3ff"/>
+          <text x="115" y="11" text-anchor="middle" fill="#4338ca" font-size="5" font-weight="700">ДОБРОСОВЕСТНОСТЬ КРЕДИТОРА</text>
+          <text x="12" y="28" fill="#334155" font-size="4.6">ст. 10 ГК · злоупотребление правом</text>
+          <text x="12" y="38" fill="#64748b" font-size="4.2">кредитор обязан действовать осмотрительно</text>
+          <text x="12" y="46" fill="#64748b" font-size="4">преюдиция прошлых дел не заменяет доказательства</text>
+        </g>
+
+        <!-- VS outcome badge -->
+        <g filter="url(#arb-sh)" transform="translate(272,262)">
+          <rect x="0" y="0" width="218" height="96" rx="8" fill="#fff" stroke="#86efac" stroke-width="1.5"/>
+          <rect x="0" y="0" width="218" height="18" rx="8" fill="#ecfdf5"/>
+          <rect x="0" y="10" width="218" height="8" fill="#ecfdf5"/>
+          <text x="109" y="13" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">ПОЗИЦИЯ ВС РФ 18.08.2026</text>
+          <path d="M96,38 L104,46 L122,30" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="109" y="42" text-anchor="middle" fill="#065f46" font-size="5.8" font-weight="700">отмена взыскания</text>
+          <text x="109" y="54" text-anchor="middle" fill="#334155" font-size="4.8">новое рассмотрение в АС РТ</text>
+          <line x1="16" y1="62" x2="202" y2="62" stroke="#d1fae5" stroke-width="1"/>
+          <text x="109" y="74" text-anchor="middle" fill="#64748b" font-size="4.4">Казань · ул. Каучуковая, 7А</text>
+          <text x="109" y="86" text-anchor="middle" fill="#1a365d" font-size="4.6" font-weight="600">№ 306-ЭС26-695</text>
+        </g>
+
+        <!-- Connecting line: hall → scales -->
+        <line x1="260" y1="88" x2="318" y2="110" stroke="#93c5fd" stroke-width="1.2" stroke-dasharray="4,3" opacity="0.7"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+## Передача Наташе
+SLUG: vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026
+MCP-only: static SVG, без canvas/script
+=== БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026  
+**Якорь:** `#l24-boris-kreditor-timeline-matrix`  
+**Режим:** контраст к hero Алины — светлый hero → тёмный slate/teal блок-матрица таймлайна в теле статьи  
+**Техника:** static SVG + inline CSS · без `<canvas>` · без `<script>`
+
+## Место вставки для Наташи
+
+Вставить **после закрывающего абзаца H2 §3** «Спор с кредитором в арбитраже: когда кредитор предъявляет иск параллельно банкротству» (после H3 §3.2 «Риски для кредитора при агрессивном взыскании в период банкротства») и **перед** `<h2>` §4 «Неосновательное обогащение за пользование недвижимостью».
+
+Якорь для Наташи: после H2 §3, id `l24-boris-kreditor-timeline-matrix`
+
+## Чеклист отличий от hero Алины
+
+| | Hero Алины | Блок Бориса |
+|---|---|---|
+| Позиция | первый экран | тело статьи, после H2 §3 |
+| Фон | светлый (#fefefe) | тёмный slate/teal gradient |
+| Смысл | факты дела № А65-968/2025 | **таймлайн 4 дел** — цепочка ~94,4 млн ₽ |
+| id | `l24-hero-vs-kreditor-dobrosovestnost` | `l24-boris-kreditor-timeline-matrix` |
+| canvas/script | нет (MCP-only SVG) | нет |
+
+```html
+<section id="l24-boris-kreditor-timeline-matrix" class="l24-boris-kred-tl" aria-label="Таймлайн 4 связанных дел: цепочка требований Электрона к Возрождению — около 94,4 млн ₽">
+<style>
+.l24-boris-kred-tl {
+  --bk-slate: #0f172a;
+  --bk-slate-mid: #1e293b;
+  --bk-slate-soft: #334155;
+  --bk-teal: #14b8a6;
+  --bk-teal-soft: #5eead4;
+  --bk-teal-glow: rgba(20, 184, 166, 0.18);
+  --bk-amber: #fbbf24;
+  --bk-amber-soft: #fde68a;
+  --bk-muted: #94a3b8;
+  --bk-txt: #e2e8f0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-kred-tl__shell {
+  background: linear-gradient(155deg, var(--bk-slate) 0%, #152238 42%, #0d3d38 100%);
+  border: 1px solid rgba(20, 184, 166, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 24px;
+  color: var(--bk-txt);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.38);
+}
+.l24-boris-kred-tl__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bk-teal-soft);
+}
+.l24-boris-kred-tl__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-kred-tl__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bk-muted);
+  max-width: 72ch;
+}
+.l24-boris-kred-tl__lead strong { color: #fff; }
+.l24-boris-kred-tl__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 22px;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+.l24-boris-kred-tl__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-kred-tl__cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.l24-boris-kred-tl__card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 12px 14px;
+  border-left: 3px solid var(--bk-teal);
+}
+.l24-boris-kred-tl__card:nth-child(2) { border-left-color: #38bdf8; }
+.l24-boris-kred-tl__card:nth-child(3) { border-left-color: var(--bk-amber); }
+.l24-boris-kred-tl__card:nth-child(4) { border-left-color: #a78bfa; }
+.l24-boris-kred-tl__card-case {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--bk-teal-soft);
+  margin-bottom: 4px;
+}
+.l24-boris-kred-tl__card-sum {
+  margin: 0 0 4px;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+}
+.l24-boris-kred-tl__card-sum--muted {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--bk-amber-soft);
+}
+.l24-boris-kred-tl__card-meta {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+}
+.l24-boris-kred-tl__total {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: rgba(20, 184, 166, 0.1);
+  border: 1px solid rgba(20, 184, 166, 0.32);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--bk-muted);
+}
+.l24-boris-kred-tl__total strong { color: var(--bk-teal-soft); }
+.l24-boris-kred-tl__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-kred-tl__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--bk-txt);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.l24-boris-kred-tl__tag--teal { border-color: rgba(20, 184, 166, 0.5); color: var(--bk-teal-soft); }
+.l24-boris-kred-tl__tag--case { border-color: rgba(251, 191, 36, 0.45); color: var(--bk-amber-soft); }
+.l24-boris-kred-tl__tag--law { border-color: rgba(56, 189, 248, 0.45); color: #bae6fd; }
+@media (max-width: 860px) {
+  .l24-boris-kred-tl__split { grid-template-columns: 1fr; }
+  .l24-boris-kred-tl__shell { padding: 24px 18px 20px; }
+}
+</style>
+
+<div class="l24-boris-kred-tl__shell">
+  <p class="l24-boris-kred-tl__eyebrow">ARB · цепочка дел · ООО «Электрон» → ООО «Возрождение» · определение ВС 18.08.2026</p>
+  <h3 class="l24-boris-kred-tl__title">4 дела — одна сага на ~94,4 млн ₽</h3>
+  <p class="l24-boris-kred-tl__lead">Параллельный иск о неосновательном обогащении в деле № <strong>А65-968/2025</strong> — финальный этап цепочки из четырёх связанных производств. ВС отменил взыскание <strong>56,8 млн ₽</strong> и указал: преюдиция прошлых периодов не заменяет доказательства пользования в новом.</p>
+
+  <div class="l24-boris-kred-tl__split">
+    <svg class="l24-boris-kred-tl__timeline-svg" viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bkTlT bkTlD">
+      <title id="bkTlT">Таймлайн 4 дел: А65-30187 → А65-3718 → А40-30995 → А65-968</title>
+      <desc id="bkTlD">Горизонтальная ось 2020–2026: четыре точки — взыскания НО 6,7 и 30,9 млн, банкротство Возрождения, иск 56,8 млн и отмена ВС</desc>
+      <defs>
+        <marker id="bkTl-arr" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
+          <polygon points="0 0, 8 3.5, 0 7" fill="#14b8a6"/>
+        </marker>
+        <filter id="bkTl-glow" x="-30%" y="-30%" width="160%" height="160%">
+          <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+        </filter>
+        <linearGradient id="bkTl-line" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#14b8a6"/>
+          <stop offset="50%" stop-color="#38bdf8"/>
+          <stop offset="100%" stop-color="#a78bfa"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Фон -->
+      <rect x="16" y="16" width="608" height="268" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+
+      <!-- Ось времени -->
+      <line x1="56" y1="148" x2="584" y2="148" stroke="url(#bkTl-line)" stroke-width="3" stroke-linecap="round"/>
+      <line x1="56" y1="148" x2="584" y2="148" stroke="rgba(20,184,166,0.25)" stroke-width="8" stroke-linecap="round"/>
+
+      <!-- Годовые метки -->
+      <text x="80" y="178" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600" font-family="system-ui,sans-serif">2020</text>
+      <text x="200" y="178" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600" font-family="system-ui,sans-serif">2021</text>
+      <text x="320" y="178" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600" font-family="system-ui,sans-serif">2022</text>
+      <text x="440" y="178" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600" font-family="system-ui,sans-serif">2023</text>
+      <text x="540" y="178" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600" font-family="system-ui,sans-serif">2024</text>
+      <text x="600" y="178" text-anchor="middle" fill="#64748b" font-size="7" font-weight="600" font-family="system-ui,sans-serif">2026</text>
+
+      <!-- Точка 1: А65-30187 -->
+      <circle cx="108" cy="148" r="14" fill="#0f172a" stroke="#14b8a6" stroke-width="2.5" filter="url(#bkTl-glow)"/>
+      <circle cx="108" cy="148" r="5" fill="#14b8a6"/>
+      <rect x="36" y="36" width="144" height="88" rx="8" fill="rgba(20,184,166,0.12)" stroke="#14b8a6" stroke-width="1.2"/>
+      <text x="48" y="54" fill="#5eead4" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">① А65-30187/2021</text>
+      <text x="48" y="70" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">6,7 млн ₽</text>
+      <text x="48" y="84" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">09.2020 — 09.2021</text>
+      <text x="48" y="98" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">НО · договор незаключён</text>
+      <text x="48" y="112" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">апелл. 22.02.2023</text>
+      <line x1="108" y1="124" x2="108" y2="134" stroke="#14b8a6" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+      <!-- Точка 2: А65-3718 -->
+      <circle cx="248" cy="148" r="14" fill="#0f172a" stroke="#38bdf8" stroke-width="2.5" filter="url(#bkTl-glow)"/>
+      <circle cx="248" cy="148" r="5" fill="#38bdf8"/>
+      <rect x="176" y="196" width="144" height="76" rx="8" fill="rgba(56,189,248,0.1)" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="188" y="214" fill="#7dd3fc" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">② А65-3718/2023</text>
+      <text x="188" y="230" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">30,9 млн ₽</text>
+      <text x="188" y="244" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">10.2021 — 11.2022</text>
+      <text x="188" y="258" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">решение 20.11.2023</text>
+      <line x1="248" y1="162" x2="248" y2="192" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+      <!-- Точка 3: А40-30995 банкротство -->
+      <circle cx="388" cy="148" r="14" fill="#0f172a" stroke="#fbbf24" stroke-width="2.5" filter="url(#bkTl-glow)"/>
+      <circle cx="388" cy="148" r="5" fill="#fbbf24"/>
+      <rect x="316" y="36" width="144" height="88" rx="8" fill="rgba(251,191,36,0.1)" stroke="#fbbf24" stroke-width="1.2"/>
+      <text x="328" y="54" fill="#fde68a" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">③ А40-30995/2023</text>
+      <text x="328" y="70" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">Банкротство</text>
+      <text x="328" y="84" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">возб. 20.02.2023</text>
+      <text x="328" y="98" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">банкрот 05.12.2023</text>
+      <text x="328" y="112" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">ООО «Возрождение»</text>
+      <line x1="388" y1="124" x2="388" y2="134" stroke="#fbbf24" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+      <!-- Точка 4: А65-968 -->
+      <circle cx="548" cy="148" r="16" fill="#1e293b" stroke="#a78bfa" stroke-width="3" filter="url(#bkTl-glow)"/>
+      <circle cx="548" cy="148" r="6" fill="#a78bfa"/>
+      <rect x="476" y="196" width="152" height="88" rx="8" fill="rgba(167,139,250,0.12)" stroke="#a78bfa" stroke-width="1.4"/>
+      <text x="488" y="214" fill="#c4b5fd" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">④ А65-968/2025</text>
+      <text x="488" y="230" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">56,8 млн ₽</text>
+      <text x="488" y="244" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">20.02.2023 — 17.07.2024</text>
+      <text x="488" y="258" fill="#fca5a5" font-size="6" font-weight="700" font-family="system-ui,sans-serif">ВС 18.08.2026 — отмена</text>
+      <text x="488" y="272" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">текущие платежи · НО</text>
+      <line x1="548" y1="162" x2="548" y2="192" stroke="#a78bfa" stroke-width="1.2" stroke-dasharray="3,2"/>
+
+      <!-- Стрелки связи -->
+      <path d="M122 148 L234 148" fill="none" stroke="#14b8a6" stroke-width="1.2" marker-end="url(#bkTl-arr)" opacity="0.7"/>
+      <path d="M262 148 L374 148" fill="none" stroke="#38bdf8" stroke-width="1.2" marker-end="url(#bkTl-arr)" opacity="0.7"/>
+      <path d="M402 148 L532 148" fill="none" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#bkTl-arr)" opacity="0.7"/>
+
+      <!-- Итоговая сумма -->
+      <rect x="200" y="268" width="240" height="0" fill="none"/>
+      <text x="320" y="290" text-anchor="middle" fill="#5eead4" font-size="8" font-weight="800" font-family="system-ui,sans-serif" letter-spacing="0.04em">СОВОКУПНО: 6,7 + 30,9 + 56,8 ≈ 94,4 МЛН ₽</text>
+    </svg>
+
+    <div class="l24-boris-kred-tl__cards" role="list" aria-label="Карточки 4 дел цепочки">
+      <div class="l24-boris-kred-tl__card" role="listitem">
+        <span class="l24-boris-kred-tl__card-case">① А65-30187/2021</span>
+        <p class="l24-boris-kred-tl__card-sum">6 730 540,96 ₽</p>
+        <p class="l24-boris-kred-tl__card-meta">НО за 09.2020–09.2021 · договор аренды признан незаключённым (ст. 432 ГК) · апелляция 22.02.2023</p>
+      </div>
+      <div class="l24-boris-kred-tl__card" role="listitem">
+        <span class="l24-boris-kred-tl__card-case">② А65-3718/2023</span>
+        <p class="l24-boris-kred-tl__card-sum">30 882 637,39 ₽</p>
+        <p class="l24-boris-kred-tl__card-meta">НО за 10.2021–11.2022 · решение АС РТ 20.11.2023 · акт возврата 11.11.2021 не оценён</p>
+      </div>
+      <div class="l24-boris-kred-tl__card" role="listitem">
+        <span class="l24-boris-kred-tl__card-case">③ А40-30995/2023</span>
+        <p class="l24-boris-kred-tl__card-sum l24-boris-kred-tl__card-sum--muted">Банкротство «Возрождение»</p>
+        <p class="l24-boris-kred-tl__card-meta">Возбуждение 20.02.2023 · признание банкротом 05.12.2023 · граница текущих vs реестровых платежей</p>
+      </div>
+      <div class="l24-boris-kred-tl__card" role="listitem">
+        <span class="l24-boris-kred-tl__card-case">④ А65-968/2025</span>
+        <p class="l24-boris-kred-tl__card-sum">56 829 324,48 ₽</p>
+        <p class="l24-boris-kred-tl__card-meta">Текущие платежи · период 20.02.2023–17.07.2024 · ВС 18.08.2026 отменил акты → новое рассмотрение</p>
+      </div>
+    </div>
+  </div>
+
+  <p class="l24-boris-kred-tl__total"><strong>Ключевой вывод ВС:</strong> преюдиция дел № А65-30187/2021 и А65-3718/2023 не заменяет доказательства фактического пользования в спорный период. На кредитора «Электрон», знающего о банкротстве, возложен <strong>повышенный стандарт доказывания</strong> и оценка добросовестности (ст. 10 ГК).</p>
+
+  <div class="l24-boris-kred-tl__foot">
+    <span class="l24-boris-kred-tl__tag l24-boris-kred-tl__tag--case">№ 306-ЭС26-695</span>
+    <span class="l24-boris-kred-tl__tag l24-boris-kred-tl__tag--teal">~94,4 млн ₽</span>
+    <span class="l24-boris-kred-tl__tag l24-boris-kred-tl__tag--law">ст. 1102 ГК · ст. 10 ГК</span>
+    <span class="l24-boris-kred-tl__tag">13 объектов · Казань</span>
+    <span class="l24-boris-kred-tl__tag">текущие платежи</span>
+  </div>
+</div>
+</section>
+```
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026
+**Файл:** `/workspace/.cursor/page-content-natasha-kreditor-dobrosovestnost.html`
+**Размер:** 90 551 байт
+**main#primary:** да (`<main id="primary" class="site-main vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026-page">`)
+**MCP-only:** без `<script>` и `<canvas>`; CTA href только `https://advokat-vsem.ru/`
+**Палитра:** ARB navy (#1a365d, #1e40af) + accent red (#a31830)
+
+## Структура страницы
+1. `<!-- wp:html -->` + `<style>` (breadcrumbs hide, padding reset, page scope)
+2. Hero Алины (`#l24-hero-vs-kreditor-dobrosovestnost`)
+3. Intro grid `.l24-intro-vs` — 2 абзаца лида + декор (chips + SVG цепочки 4 дел)
+4. `.ym-toc` — 9 пунктов по H2 + Boris + FAQ
+5. `.l24-longread-wrap` — H2 §1–§7, H3, таблицы (хронология, инстанции, реестр vs иск), blockquote ВС
+6. Блок Бориса `#l24-boris-kreditor-timeline-matrix` — после H2 §3
+7. CTA Артура: после H2 §4 (ym-cta--primary), после H3 §7.2 (ym-cta--legis24)
+8. FAQ `#faq` — 6 вопросов
+9. Нижний CTA `ym-cta--legis24 ym-cta--bottom`
+10. Источники `.l24-sources`
+11. JSON-LD Article + FAQPage в `.l24-jsonld-arb`
+
+## Мета (из Коли/Жени)
+- **Title:** ВС РФ: добросовестность кредитора при взыскании неосновательного обогащения 2026
+- **Description:** Определение ВС 18.08.2026 по делу № А65-968/2025: отменено взыскание 56,8 млн ₽ с банкрота. Кредитор должен доказать пользование недвижимостью и добросовестность — защита в арбитражном споре.
+- **H1:** ВС РФ: кредитор в банкротстве должен доказать добросовестность при взыскании неосновательного обогащения
+- **datePublished (JSON-LD):** 2026-08-26
+
+**ПАЙПЛАЙН:** Наташа ✅ → WordPress (Маша)
+
+=== НАТАША (HTML СТРАНИЦЫ) ===
+Статус: ✅ ГОТОВО
+
+**SLUG:** vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026
+**Файл:** `/workspace/.cursor/page-content-natasha-kreditor-dobrosovestnost.html`
+**Размер:** ~90 551 байт
+**main#primary:** да (`<main id="primary" class="site-main vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026-page">`)
+**MCP-only:** без `<script>` и `<canvas>`; CTA href только `https://advokat-vsem.ru/`
+**Палитра:** ARB navy (#1a365d, #1e40af) + accent red (#a31830)
+
+## Структура страницы
+1. `<!-- wp:html -->` + `<style>` (breadcrumbs hide, padding reset, page scope)
+2. Hero Алины (`#l24-hero-vs-kreditor-dobrosovestnost`)
+3. Intro grid `.l24-intro-vs` — 2 абзаца лида + декор (chips + SVG цепочки 4 дел)
+4. `.ym-toc` — 9 пунктов по H2 + Boris + FAQ
+5. `.l24-longread-wrap` — H2 §1–§7, H3, таблицы (хронология, инстанции, реестр vs иск), blockquote ВС
+6. Блок Бориса `#l24-boris-kreditor-timeline-matrix` — после H2 §3
+7. CTA Артура: после H2 §4 (ym-cta--primary), после H3 §7.2 (ym-cta--legis24)
+8. FAQ `#faq` — 6 вопросов
+9. Нижний CTA `ym-cta--legis24 ym-cta--bottom`
+10. Источники `.l24-sources`
+11. JSON-LD Article + FAQPage в `.l24-jsonld-arb`
+
+## Мета (из Коли/Жени)
+- **Title:** ВС РФ: добросовестность кредитора при взыскании неосновательного обогащения 2026
+- **Description:** Определение ВС 18.08.2026 по делу № А65-968/2025: отменено взыскание 56,8 млн ₽ с банкрота. Кредитор должен доказать пользование недвижимостью и добросовестность — защита в арбитражном споре.
+- **H1:** ВС РФ: кредитор в банкротстве должен доказать добросовестность при взыскании неосновательного обогащения
+- **datePublished (JSON-LD):** 2026-08-26
+
+**ПАЙПЛАЙН:** Наташа ✅ → WordPress (Маша)
