@@ -851,7 +851,7 @@ H1_КАНДИДАТ: Роспатент аннулировал товарный 
 
 **ПАЙПЛАЙН:** Женя ✅ → Алина (hero) || Артур (CTA)
 
-=== АРТУР (CTA И РЕКЛАМА) — vs-obysk-bez-upakovki ===
+=== АРТУР (CTA И РЕКЛАМА) ===
 Статус: ✅ ГОТОВО
 
 ### Мета
@@ -2215,94 +2215,99 @@ SLUG: rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026
 
 === НАТАША (HTML СТРАНИЦЫ) ===
 Статус: ✅ ГОТОВО
-SLUG: rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026
-Размер HTML: 82444 символов
-main#primary: да
-script: нет
-canvas: нет
-FAQ: microdata FAQPage на секции #faq + hidden JSON-LD для Rank Math
-ВНИМАНИЕ: MCP-only — без `<script>` и `<canvas>`; hero Алины и блок Бориса — static SVG + inline CSS. При публикации обернуть в <!-- wp:html -->
 
+### Передача Юре
+**SLUG:** vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026
+**Title:** ВС: обыск без упаковки изъятого — экспертиза и защита 2026
+**Description:** ВС по делу № 32-УД26-10-К1: упаковка изъятого при обыске не обязательна (ч. 10 ст. 182 УПК). Когда КТЭ на неупакованных ноутбуках допустима и как снизить наказание в кассации.
+**Размер HTML:** 89953 символов
+
+```html
 <!-- wp:html -->
 <style>
 
-.breadcrumbs, .breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
-.entry-header, .page-title-section { display: none !important; }
+/* ===== RESET / BREADCRUMBS / PADDING ===== */
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section,
+.entry-title, .main_title, h1.entry-title { display: none !important; }
 #primary, .site-main, .site-content, #content, .content-area {
   padding-top: 0 !important; margin-top: 0 !important;
 }
 #sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page .entry-content {
+
+/* ===== PAGE SCOPE ===== */
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page .entry-content {
   max-width: none !important; width: 100% !important; padding: 0 !important;
 }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page .l24-longread-wrap {
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page .l24-longread-wrap {
   max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
   font-size: 1.05rem; line-height: 1.65; color: #1a202c;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page .ym-section h2 {
-  margin-top: 0; color: #166534; font-size: 1.45rem; font-weight: 800;
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem; font-weight: 800;
 }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page .ym-section + .ym-section h2,
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page #boris-maugli-tz-flow + .ym-section h2 {
-  margin-top: 2.5em;
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page h3 {
+  margin-top: 1.5em; color: #312e81; font-size: 1.15rem; font-weight: 700;
 }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page h3 { margin-top: 1.5em; color: #15803d; font-size: 1.15rem; font-weight: 700; }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page a { color: #166534; }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page p { margin: 0 0 1.1em; }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page ol, .rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page ul { margin: 1em 0; padding-left: 1.4em; }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page li { margin-bottom: 0.45em; }
-.rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page blockquote {
-  margin: 1.25em 0; padding: 14px 18px; border-left: 4px solid #86efac;
-  background: #f0fdf4; color: #334155; border-radius: 0 8px 8px 0;
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
 }
-.l24-tbl-wrap { overflow-x: auto; margin: 1.25em 0; }
-.l24-tbl { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
-.l24-tbl th { background: #ecfdf5; color: #166534; font-weight: 700; padding: 10px 12px; border: 1px solid #bbf7d0; text-align: left; }
-.l24-tbl td { padding: 9px 12px; border: 1px solid #e2e8f0; vertical-align: top; }
-.l24-tbl tr:nth-child(even) td { background: #f8fafc; }
-.l24-checklist { list-style: none; padding-left: 0 !important; }
-.l24-checklist li {
-  position: relative; padding-left: 1.6em; margin-bottom: 0.55em;
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page th, .vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
 }
-.l24-checklist li::before {
-  content: "☐"; position: absolute; left: 0; color: #166534; font-weight: 700;
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page th { background: #fef2f2; color: #a31830; }
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page a { color: #a31830; }
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page ol, .vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page ul { margin: 1em 0; padding-left: 1.4em; }
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page li { margin-bottom: 0.45em; }
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page blockquote {
+  margin: 1.5em 0; padding: 16px 22px; border-left: 4px solid #a31830;
+  background: #fff7f7; color: #334155; font-style: italic; border-radius: 0 6px 6px 0;
+  font-size: 0.98rem; line-height: 1.6;
 }
-.l24-brief {
-  background: #f0fdf4; border-left: 4px solid #166534;
-  padding: 16px 18px; border-radius: 0 8px 8px 0; margin-bottom: 1.5em;
-}
-.l24-intro-ip {
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page p { margin: 0 0 1.1em; }
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page .l24-checklist { list-style: none; padding-left: 0; }
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page .l24-checklist li { padding-left: 1.6em; position: relative; }
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page .l24-checklist li::before { content: "☐"; position: absolute; left: 0; color: #a31830; }
+
+/* ===== INTRO GRID ===== */
+.l24-intro-ug {
   max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.l24-intro-ip__grid {
+.l24-intro-ug__grid {
   display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
   gap: 28px; align-items: start;
 }
-.l24-intro-ip__text {
-  border-left: 4px solid #166534; padding: 4px 0 4px 22px; text-align: left;
+.l24-intro-ug__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px;
 }
-.l24-intro-ip__text p {
-  margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155;
+.l24-intro-ug__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-ug__text p:last-child { margin-bottom: 0; }
+.l24-intro-ug__brief {
+  background: #fff7f7; border: 1px solid #fecaca; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55; color: #334155;
 }
-.l24-intro-ip__decor {
-  background: linear-gradient(160deg, #ecfdf5 0%, #fff 100%);
-  border: 1px solid #bbf7d0; border-radius: 12px; padding: 18px;
+.l24-intro-ug__decor {
+  background: linear-gradient(160deg, #fff7f7 0%, #fff 100%);
+  border: 1px solid #fecaca; border-radius: 12px; padding: 18px;
 }
-.l24-intro-ip__chips {
+.l24-intro-ug__chips {
   display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
 }
-.l24-intro-ip__chip {
-  font-size: 0.72rem; font-weight: 700; padding: 6px 10px; border-radius: 999px;
-  background: #fff; border: 1px solid #cbd5e1; color: #475569;
+.l24-intro-ug__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
 }
-.l24-intro-ip__chip--ip { border-color: #166534; color: #166534; background: #f0fdf4; }
-.l24-intro-ip__chip--law { border-color: #7c3aed; color: #5b21b6; background: #faf5ff; }
-.l24-intro-ip__chip--brand { border-color: #fda4af; color: #be123c; background: #fff1f2; }
-.l24-intro-ip__chip--candy { border-color: #fcd34d; color: #92400e; background: #fffbeb; }
-.l24-intro-ip__chip--ok { border-color: #22c55e; color: #15803d; background: #ecfdf5; }
-.l24-intro-ip__route-svg { display: block; width: 100%; height: auto; }
+.l24-intro-ug__chip--accent { border-color: #a31830; color: #a31830; background: #fff7f7; }
+.l24-intro-ug__chip--ok    { border-color: #059669; color: #047857; background: #ecfdf5; }
+.l24-intro-ug__chip--warn  { border-color: #dc2626; color: #991b1b; background: #fef2f2; }
+.l24-intro-ug__chip--blue  { border-color: #4338ca; color: #4338ca; background: #f5f3ff; }
+.l24-intro-ug__chip--navy  { border-color: #1e40af; color: #1e40af; background: #eff6ff; }
+.l24-intro-ug__route-svg { display: block; width: 100%; height: auto; }
+
+/* ===== TOC ===== */
 .ym-toc {
   max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
   text-align: center; font-family: system-ui, sans-serif;
@@ -2317,49 +2322,85 @@ FAQ: microdata FAQPage на секции #faq + hidden JSON-LD для Rank Math
 }
 .ym-toc__list a {
   display: inline-block; padding: 8px 12px; border-radius: 8px;
-  background: #f0fdf4; color: #166534; text-decoration: none;
-  font-size: 0.88rem; font-weight: 600; border: 1px solid #bbf7d0;
+  background: #fff7f7; color: #a31830; text-decoration: none;
+  font-size: 0.88rem; font-weight: 600; border: 1px solid #fecaca;
 }
-.ym-toc__list a:hover { background: #dcfce7; }
+.ym-toc__list a:hover { background: #fef2f2; }
+
+/* ===== CTA ===== */
 .ym-cta {
   margin: 28px 0; padding: 22px 24px; border-radius: 10px;
-  background: linear-gradient(135deg, #f0fdf4 0%, #fffbeb 100%);
-  border: 1px solid #bbf7d0; border-left: 4px solid #166534;
+  background: linear-gradient(135deg, #f8fafc 0%, #fff7f7 100%);
+  border: 1px solid #fecaca; border-left: 4px solid #a31830;
 }
+.ym-cta--primary { border-left-color: #a31830; }
 .ym-cta--legis24.ym-cta--bottom {
-  border-left-color: #15803d;
-  background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 100%);
-  border-color: #86efac;
+  border-left-color: #4338ca;
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border-color: #c4b5fd;
 }
+.ym-cta p { margin: 0 0 14px; line-height: 1.55; color: #334155; font-size: 0.98rem; }
+.ym-cta h3 { margin: 0 0 12px; color: #1a365d; font-size: 1.1rem; font-weight: 800; }
+.ym-cta a[href] {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700;
+  text-decoration: none; font-size: 0.93rem;
+}
+.ym-cta a[href]:hover { background: #8b1528; }
+.ym-cta--legis24.ym-cta--bottom a[href] { background: #4338ca; }
+.ym-cta--legis24.ym-cta--bottom a[href]:hover { background: #312e81; }
 .ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; font-size: 0.98rem; }
 .ym-cta__actions { margin: 0; }
-.ym-cta__btn {
-  display: inline-block; background: #166534; color: #fff !important;
-  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.93rem;
-}
-.ym-cta__btn:hover { background: #14532d; }
+.ym-cta__btn { display: inline-block; background: #a31830; color: #fff !important; padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.93rem; }
+.ym-cta__btn:hover { background: #8b1528; }
+.ym-cta--legis24 { border-left-color: #4338ca; background: linear-gradient(135deg, #f5f3ff 0%, #fff7f7 100%); border-color: #c4b5fd; }
+.ym-cta--legis24 .ym-cta__btn { background: #4338ca; }
+.ym-cta--legis24 .ym-cta__btn:hover { background: #312e81; }
+
+/* ===== FAQ ===== */
 .l24-faq {
-  margin-top: 2.5em; padding: 28px 24px; background: #f0fdf4;
-  border: 1px solid #bbf7d0; border-radius: 12px;
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
 }
-.l24-faq > h2 { margin-top: 0 !important; }
-.l24-faq__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #bbf7d0; }
+.l24-faq > h2 { margin-top: 0 !important; color: #1a365d; }
+.l24-faq__item {
+  margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0;
+}
 .l24-faq__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
-.l24-faq__q { margin: 0 0 8px; font-size: 1.05rem; color: #166534; font-weight: 700; }
+.l24-faq__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; font-weight: 700; }
 .l24-faq__a { margin: 0; color: #334155; font-size: 0.97rem; line-height: 1.6; }
-.l24-jsonld-maugli { display: none !important; }
-#boris-maugli-tz-flow { max-width: 820px; margin: 2.5em auto; padding: 0 24px; }
-@media (max-width: 900px) { .l24-intro-ip__grid { grid-template-columns: 1fr; } }
+
+/* ===== JSON-LD hidden ===== */
+.l24-jsonld-ug { display: none !important; }
+
+/* ===== SOURCES ===== */
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page .l24-sources {
+  margin-top: 2em; font-size: 0.88rem; color: #64748b;
+  border-top: 1px solid #e2e8f0; padding-top: 1.2em;
+}
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page .l24-sources li { margin-bottom: 0.3em; }
+.vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page .l24-sources a { color: #64748b; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .l24-intro-ug__grid { grid-template-columns: 1fr; }
+  .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__inner { grid-template-columns: 1fr !important; }
+  .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026 {
+    min-height: auto !important; padding: 96px 20px 56px !important;
+  }
+  .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__visual { order: -1; max-height: 320px; overflow: hidden; }
+}
 
 </style>
-<main id="primary" class="site-main rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
-<meta itemprop="headline" content="Роспатент аннулировал товарный знак «Маугли» у «Рот Фронта»: возражение «Союзмультфильма» и защита бренда">
-<meta itemprop="description" content="Роспатент аннулировал ТЗ «Маугли» у «Рот Фронта» по возражению «Союзмультфильма». Как оспорить регистрацию знака с персонажем мультфильма и ответить на иск по ИС.">
+
+<main id="primary" class="site-main vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="ВС разрешил не упаковывать изъятие при обыске: экспертиза, доказательства и защита по делу № 32-УД26-10-К1">
+<meta itemprop="description" content="ВС по делу № 32-УД26-10-К1: упаковка изъятого при обыске не обязательна (ч. 10 ст. 182 УПК). Когда КТЭ на неупакованных ноутбуках допустима и как снизить наказание в кассации.">
 <meta itemprop="inLanguage" content="ru-RU">
 
-<section id="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026" class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026" aria-label="Роспатент аннулировал товарный знак «Маугли» у «Рот Фронта»: возражение «Союзмультфильма» и защита бренда">
+<section id="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026" class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026" aria-label="ВС разрешил не упаковывать изъятие при обыске: экспертиза, доказательства и защита по делу № 32-УД26-10-К1">
   <style>
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026 {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026 {
       position: relative;
       min-height: 88vh;
       min-height: 88dvh;
@@ -2367,300 +2408,335 @@ FAQ: microdata FAQPage на секции #faq + hidden JSON-LD для Rank Math
       display: flex;
       align-items: center;
       padding: 112px 24px 72px;
-      background: linear-gradient(158deg, #fffef9 0%, #ecfdf5 38%, #f0fdf4 62%, #fafafa 100%);
+      background: linear-gradient(158deg, #fafafa 0%, #fff7f7 38%, #f8fafc 62%, #fafafa 100%);
       color: #0f172a;
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       overflow: hidden;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026::before {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026::before {
       content: "";
       position: absolute; inset: 0;
       background:
-        radial-gradient(ellipse 38% 34% at 92% 6%, rgba(22,101,52,0.08) 0%, transparent 58%),
-        radial-gradient(ellipse 32% 28% at 6% 88%, rgba(251,191,36,0.09) 0%, transparent 55%);
+        radial-gradient(ellipse 42% 38% at 90% 8%, rgba(163,24,48,0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 36% 32% at 6% 90%, rgba(30,58,95,0.05) 0%, transparent 52%);
       pointer-events: none;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__inner {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__inner {
       position: relative; z-index: 1;
       max-width: 1200px; margin: 0 auto; width: 100%;
       display: grid; grid-template-columns: 1.05fr 0.95fr;
       gap: 44px; align-items: center;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__badge {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__badge {
       display: inline-flex; align-items: center; gap: 10px;
       margin: 0 0 18px; padding: 8px 14px; border-radius: 999px;
-      background: rgba(255,255,255,0.96); border: 1px solid rgba(22,101,52,0.18);
+      background: rgba(255,255,255,0.96); border: 1px solid rgba(163,24,48,0.18);
       font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em;
       text-transform: uppercase; color: #334155;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__badge-mark {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__badge-mark {
       width: 8px; height: 8px; border-radius: 50%;
-      background: #166534; flex-shrink: 0;
+      background: #a31830; flex-shrink: 0;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__h1 {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__h1 {
       margin: 0 0 18px;
       font-size: clamp(1.28rem, 2.8vw, 2.02rem);
       line-height: 1.22; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__h1-accent { color: #166534; }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__sub {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__h1-accent { color: #a31830; }
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__sub {
       margin: 0 0 26px; max-width: 42em;
       font-size: clamp(0.98rem, 1.45vw, 1.08rem);
       line-height: 1.58; color: #475569;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__facts {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__facts {
       display: flex; flex-wrap: wrap; gap: 10px;
       margin: 0 0 26px; padding: 0; list-style: none;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact {
       font-size: 0.76rem; font-weight: 700;
       padding: 7px 12px; border-radius: 8px;
       background: #fff; border: 1px solid #e2e8f0; color: #334155;
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--green { border-color: #86efac; color: #166534; background: #f0fdf4; }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--candy { border-color: #fcd34d; color: #92400e; background: #fffbeb; }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--law  { border-color: #c4b5fd; color: #4338ca; background: #f5f3ff; }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--brand { border-color: #fda4af; color: #be123c; background: #fff1f2; }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__cta {
-      display: inline-block; background: #166534; color: #fff !important;
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--red  { border-color: #fecaca; color: #a31830; background: #fff7f7; }
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--blue { border-color: #c4b5fd; color: #4338ca; background: #f5f3ff; }
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--navy { border-color: #bfdbfe; color: #1e40af; background: #eff6ff; }
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--ok   { border-color: #a7f3d0; color: #047857; background: #ecfdf5; }
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__cta {
+      display: inline-block; background: #a31830; color: #fff !important;
       padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 0.95rem;
-      text-decoration: none; box-shadow: 0 4px 14px rgba(22,101,52,0.24);
+      text-decoration: none; box-shadow: 0 4px 14px rgba(163,24,48,0.25);
     }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__cta:hover { background: #14532d; }
-    .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__visual {
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__cta:hover { background: #8b1528; }
+    .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__visual {
       display: flex; justify-content: center; align-items: center;
     }
     @media (max-width: 900px) {
-      .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__inner { grid-template-columns: 1fr; }
-      .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026 {
+      .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__inner { grid-template-columns: 1fr; }
+      .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026 {
         min-height: auto; padding: 96px 20px 56px;
       }
-      .l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__visual { order: -1; max-height: 320px; overflow: hidden; }
+      .l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__visual { order: -1; max-height: 320px; overflow: hidden; }
     }
   </style>
-  <div class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__inner">
-    <div class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__content">
-      <div class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__badge">
-        <span class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__badge-mark" aria-hidden="true"></span>
-        IP · Роспатент · 24.08.2026 · класс 30 · возражение ППС
+  <div class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__inner">
+    <div class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__content">
+      <div class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__badge">
+        <span class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__badge-mark" aria-hidden="true"></span>
+        UG · ВС РФ · 24.08.2026 · дело № 32-УД26-10-К1
       </div>
-      <h1 class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__h1">
-        <span class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__h1-accent">Роспатент аннулировал товарный знак «Маугли» у «Рот Фронта»:</span> возражение «Союзмультфильма» и защита бренда
+      <h1 class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__h1">
+        <span class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__h1-accent">ВС разрешил не упаковывать изъятие при обыске:</span> экспертиза, доказательства и защита по делу № 32-УД26-10-К1
       </h1>
-      <p class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__sub">
-        Как оспорить регистрацию знака с персонажем мультфильма и ответить на претензию по ИС
+      <p class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__sub">
+        Когда «неупакованные» ноутбуки не лишают экспертизу допустимости — и как снизить наказание в кассации
       </p>
-      <ul class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__facts">
-        <li class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--candy">№ 162034 · МАУГЛИ ДРАЖЕ</li>
-        <li class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact">приоритет 30.01.1996</li>
-        <li class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--law">п. 9 ст. 1483 ГК</li>
-        <li class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--law">ст. 1512 ГК</li>
-        <li class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--brand">«Рот Фронт» vs «Союзмультфильм»</li>
-        <li class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__fact--green">аннулирование 24.08.2026</li>
+      <ul class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__facts">
+        <li class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--red">ч. 10 ст. 182 УПК</li>
+        <li class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--blue">ст. 75 УПК</li>
+        <li class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--navy">ст. 88 УПК</li>
+        <li class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact">неупакованные ноутбуки</li>
+        <li class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--navy">КТЭ 2013</li>
+        <li class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__fact--ok">10,5 → 10 лет 3 мес.</li>
       </ul>
-      <a class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда</a>
+      <a class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите в уголовном деле</a>
     </div>
-    <div class="l24-hero-rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026__visual" aria-hidden="true">
-      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Джунгли, конфеты и знак ™: аннулирование ТЗ «Маугли» — Роспатент, «Рот Фронт», «Союзмультфильм», свидетельство № 162034">
+    <div class="l24-hero-vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Обыск без упаковки изъятого: ВС по делу № 32-УД26-10-К1 — неупакованные ноутбуки, КТЭ допустима, ч. 10 ст. 182 УПК, снижение наказания в кассации">
         <defs>
-          <linearGradient id="mg-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#fffef7"/>
-            <stop offset="45%" stop-color="#ecfdf5"/>
-            <stop offset="100%" stop-color="#fefce8"/>
+          <linearGradient id="hob-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fafafa"/>
+            <stop offset="50%" stop-color="#fff7f7"/>
+            <stop offset="100%" stop-color="#f8fafc"/>
           </linearGradient>
-          <linearGradient id="mg-jungle" x1="0%" y1="100%" x2="0%" y2="0%">
-            <stop offset="0%" stop-color="#14532d"/>
-            <stop offset="100%" stop-color="#22c55e"/>
+          <linearGradient id="hob-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#0f172a"/>
           </linearGradient>
-          <linearGradient id="mg-candy" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#fde68a"/>
-            <stop offset="100%" stop-color="#fbbf24"/>
+          <linearGradient id="hob-laptop" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#e2e8f0"/>
+            <stop offset="100%" stop-color="#94a3b8"/>
           </linearGradient>
-          <linearGradient id="mg-wrap" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stop-color="#86efac"/>
-            <stop offset="100%" stop-color="#16a34a"/>
-          </linearGradient>
-          <pattern id="mg-vine" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(12)">
-            <path d="M0,12 Q6,6 12,12 T24,12" fill="none" stroke="#a7f3d0" stroke-width="1.2" opacity="0.5"/>
+          <pattern id="hob-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <path d="M20,0 L0,0 0,20" fill="none" stroke="#fecaca" stroke-width="0.6" opacity="0.35"/>
           </pattern>
-          <filter id="mg-sh" x="-8%" y="-8%" width="116%" height="116%">
+          <filter id="hob-sh" x="-8%" y="-8%" width="116%" height="116%">
             <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.1"/>
           </filter>
-          <marker id="mg-arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
-            <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
+          <marker id="hob-arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#a31830"/>
+          </marker>
+          <marker id="hob-arr-grn" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#059669"/>
           </marker>
         </defs>
 
-        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#mg-bg)" stroke="#bbf7d0" stroke-width="1.2"/>
-        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#mg-vine)" opacity="0.35"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hob-bg)" stroke="#fecaca" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hob-grid)" opacity="0.45"/>
 
-        <!-- Jungle canopy -->
-        <g opacity="0.85">
-          <path d="M10,80 Q80,20 150,70 Q220,10 290,65 Q360,15 430,72 Q480,40 510,55 L510,12 L10,12 Z" fill="#166534" opacity="0.12"/>
-          <ellipse cx="48" cy="58" rx="36" ry="22" fill="#22c55e" opacity="0.25"/>
-          <ellipse cx="468" cy="52" rx="40" ry="24" fill="#16a34a" opacity="0.22"/>
-          <ellipse cx="260" cy="42" rx="52" ry="28" fill="#15803d" opacity="0.18"/>
+        <!-- VS court badge -->
+        <g filter="url(#hob-sh)" transform="translate(148,16)">
+          <rect x="0" y="28" width="224" height="48" rx="5" fill="url(#hob-navy)"/>
+          <polygon points="112,4 218,28 6,28" fill="#1a3a6e"/>
+          <text x="112" y="48" text-anchor="middle" fill="#e2e8f0" font-size="6" font-weight="800" letter-spacing="0.05em">ВС РФ · дело № 32-УД26-10-К1</text>
+          <text x="112" y="62" text-anchor="middle" fill="#93c5fd" font-size="5.5">СК по уголовным делам · 24.08.2026</text>
         </g>
 
-        <!-- Palm trunks -->
-        <g opacity="0.7">
-          <rect x="34" y="96" width="10" height="120" rx="3" fill="#854d0e" opacity="0.35"/>
-          <path d="M39,96 Q20,72 8,58 Q28,68 39,82" fill="#22c55e" opacity="0.5"/>
-          <path d="M39,96 Q58,74 72,60 Q52,70 39,84" fill="#16a34a" opacity="0.45"/>
-          <rect x="486" y="100" width="10" height="116" rx="3" fill="#854d0e" opacity="0.35"/>
-          <path d="M491,100 Q472,76 458,62 Q478,72 491,86" fill="#22c55e" opacity="0.5"/>
-          <path d="M491,100 Q510,78 504,64 Q494,76 491,88" fill="#16a34a" opacity="0.45"/>
+        <!-- Search protocol -->
+        <g filter="url(#hob-sh)" transform="translate(24,88)">
+          <rect x="0" y="0" width="118" height="96" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="118" height="18" rx="8" fill="#f1f5f9"/>
+          <rect x="0" y="10" width="118" height="8" fill="#f1f5f9"/>
+          <text x="59" y="13" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="700">ПРОТОКОЛ ОБЫСКА</text>
+          <line x1="14" y1="28" x2="104" y2="28" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="14" y1="40" x2="90" y2="40" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="14" y1="52" x2="98" y2="52" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <rect x="14" y="62" width="90" height="22" rx="4" fill="#fff7f7" stroke="#fecaca"/>
+          <text x="59" y="72" text-anchor="middle" fill="#a31830" font-size="4.8" font-weight="700">изъято: 2 ноутбука</text>
+          <text x="59" y="80" text-anchor="middle" fill="#a31830" font-size="4.5">+ телефон · без упаковки</text>
         </g>
 
-        <!-- Rospatent header seal -->
-        <g filter="url(#mg-sh)" transform="translate(168,22)">
-          <rect x="0" y="0" width="184" height="34" rx="8" fill="url(#mg-jungle)"/>
-          <text x="92" y="14" text-anchor="middle" fill="#ecfdf5" font-size="5.8" font-weight="800" letter-spacing="0.06em">РОСПАТЕНТ · ППС</text>
-          <text x="92" y="26" text-anchor="middle" fill="#a7f3d0" font-size="5">возражение удовлетворено · 24.08.2026</text>
+        <!-- Unpackaged laptops -->
+        <g filter="url(#hob-sh)" transform="translate(168,96)">
+          <rect x="0" y="18" width="88" height="58" rx="4" fill="url(#hob-laptop)" stroke="#64748b" stroke-width="1.2"/>
+          <rect x="6" y="24" width="76" height="44" rx="2" fill="#1e293b"/>
+          <rect x="10" y="28" width="68" height="36" rx="1" fill="#334155"/>
+          <text x="44" y="50" text-anchor="middle" fill="#94a3b8" font-size="5" font-weight="600">КТЭ</text>
+          <rect x="0" y="74" width="88" height="6" rx="2" fill="#cbd5e1"/>
+          <rect x="100" y="22" width="80" height="52" rx="4" fill="url(#hob-laptop)" stroke="#64748b" stroke-width="1.2"/>
+          <rect x="106" y="28" width="68" height="40" rx="2" fill="#1e293b"/>
+          <rect x="0" y="0" width="180" height="14" rx="4" fill="#fff7f7" stroke="#fecaca"/>
+          <text x="90" y="10" text-anchor="middle" fill="#a31830" font-size="5" font-weight="800">НЕУПАКОВАННЫЕ НОУТБУКИ</text>
         </g>
 
-        <!-- Candy wrapper centerpiece -->
-        <g filter="url(#mg-sh)" transform="translate(178,118)">
-          <rect x="0" y="0" width="144" height="88" rx="10" fill="url(#mg-wrap)" stroke="#15803d" stroke-width="1.5"/>
-          <rect x="8" y="8" width="128" height="72" rx="6" fill="#fff" opacity="0.92"/>
-          <!-- Abstract jungle silhouette (not character art) -->
-          <circle cx="72" cy="38" r="14" fill="#bbf7d0"/>
-          <path d="M72,48 L72,58 M64,52 L80,52 M68,58 L66,66 M76,58 L78,66" stroke="#166534" stroke-width="2" stroke-linecap="round"/>
-          <text x="72" y="78" text-anchor="middle" fill="#166534" font-size="9" font-weight="900" letter-spacing="0.08em">МАУГЛИ</text>
-          <text x="72" y="88" text-anchor="middle" fill="#92400e" font-size="5.2" font-weight="700">ДРАЖЕ · класс 30</text>
-          <!-- Candy dots on wrapper -->
-          <circle cx="24" cy="24" r="5" fill="#f472b6" opacity="0.7"/>
-          <circle cx="108" cy="28" r="4" fill="#fbbf24" opacity="0.8"/>
-          <circle cx="100" cy="58" r="3.5" fill="#a78bfa" opacity="0.65"/>
+        <!-- Packaging bag with X (optional) -->
+        <g transform="translate(378,100)" opacity="0.75">
+          <path d="M20,8 L36,8 L42,72 L14,72 Z" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.2"/>
+          <path d="M16,8 Q28,0 40,8" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <line x1="12" y1="16" x2="44" y2="64" stroke="#a31830" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="44" y1="16" x2="12" y2="64" stroke="#a31830" stroke-width="2.5" stroke-linecap="round"/>
+          <text x="28" y="84" text-anchor="middle" fill="#64748b" font-size="4.5" font-weight="600">упаковка</text>
+          <text x="28" y="92" text-anchor="middle" fill="#a31830" font-size="4.2" font-weight="700">не обязательна</text>
         </g>
 
-        <!-- Giant ™ with void stamp -->
-        <g filter="url(#mg-sh)" transform="translate(318,108)">
-          <circle cx="52" cy="52" r="48" fill="#fff" stroke="#e2e8f0" stroke-width="1.5"/>
-          <text x="52" y="68" text-anchor="middle" fill="#0f172a" font-size="42" font-weight="900" opacity="0.85">™</text>
-          <rect x="14" y="34" width="76" height="16" rx="3" fill="#dc2626" opacity="0.92" transform="rotate(-12 52 42)"/>
-          <text x="52" y="46" text-anchor="middle" fill="#fff" font-size="5.5" font-weight="800" transform="rotate(-12 52 42)">АННУЛИРОВАН</text>
-          <text x="52" y="98" text-anchor="middle" fill="#64748b" font-size="4.6">недействительность</text>
+        <!-- Arrow: search → expertise -->
+        <path d="M148,136 C200,136 220,148 248,168" fill="none" stroke="#a31830" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#hob-arr)"/>
+
+        <!-- KTE expert report -->
+        <g filter="url(#hob-sh)" transform="translate(252,156)">
+          <rect x="0" y="0" width="132" height="88" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1.2"/>
+          <rect x="0" y="0" width="132" height="16" rx="8" fill="#f5f3ff"/>
+          <rect x="0" y="8" width="132" height="8" fill="#f5f3ff"/>
+          <text x="66" y="12" text-anchor="middle" fill="#4338ca" font-size="5.5" font-weight="800">КТЭ · 2013</text>
+          <line x1="14" y1="26" x2="118" y2="26" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="14" y1="38" x2="100" y2="38" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <line x1="14" y1="50" x2="108" y2="50" stroke="#e2e8f0" stroke-width="3" stroke-linecap="round"/>
+          <rect x="14" y="58" width="104" height="22" rx="4" fill="#ecfdf5" stroke="#6ee7b7"/>
+          <text x="66" y="68" text-anchor="middle" fill="#047857" font-size="4.8" font-weight="700">ДОПУСТИМА</text>
+          <text x="66" y="76" text-anchor="middle" fill="#065f46" font-size="4.2">ст. 88 УПК · достоверность</text>
         </g>
 
-        <!-- Scattered draje candies -->
-        <g opacity="0.9">
-          <circle cx="142" cy="210" r="9" fill="url(#mg-candy)" stroke="#d97706" stroke-width="1"/>
-          <circle cx="168" cy="228" r="7" fill="#f472b6" stroke="#db2777" stroke-width="0.8"/>
-          <circle cx="352" cy="218" r="8" fill="#c4b5fd" stroke="#7c3aed" stroke-width="0.8"/>
-          <circle cx="378" cy="236" r="6" fill="#fde68a" stroke="#ca8a04" stroke-width="0.8"/>
-          <circle cx="124" cy="248" r="5" fill="#86efac" stroke="#16a34a" stroke-width="0.8"/>
-          <circle cx="396" cy="252" r="7" fill="#fca5a5" stroke="#e11d48" stroke-width="0.8"/>
+        <!-- Two expert reports 2013/2023 -->
+        <g filter="url(#hob-sh)" transform="translate(400,168)">
+          <rect x="0" y="0" width="96" height="72" rx="7" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+          <text x="48" y="14" text-anchor="middle" fill="#64748b" font-size="5" font-weight="700">ХИМЭКСПЕРТИЗЫ</text>
+          <rect x="8" y="20" width="36" height="22" rx="3" fill="#eff6ff" stroke="#93c5fd"/>
+          <text x="26" y="34" text-anchor="middle" fill="#1e40af" font-size="5.5" font-weight="700">2013</text>
+          <rect x="52" y="20" width="36" height="22" rx="3" fill="#eff6ff" stroke="#93c5fd"/>
+          <text x="70" y="34" text-anchor="middle" fill="#1e40af" font-size="5.5" font-weight="700">2023</text>
+          <text x="48" y="54" text-anchor="middle" fill="#64748b" font-size="4.2">разные вопросы</text>
+          <text x="48" y="64" text-anchor="middle" fill="#a31830" font-size="4" font-weight="600">3-я не нужна</text>
         </g>
 
-        <!-- Certificate № 162034 -->
-        <g filter="url(#mg-sh)" transform="translate(28,268)">
-          <rect x="0" y="0" width="148" height="72" rx="7" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
-          <rect x="0" y="0" width="148" height="16" rx="7" fill="#f8fafc"/>
-          <rect x="0" y="8" width="148" height="8" fill="#f8fafc"/>
-          <text x="74" y="12" text-anchor="middle" fill="#64748b" font-size="5" font-weight="700">СВИДЕТЕЛЬСТВО ТЗ</text>
-          <text x="74" y="32" text-anchor="middle" fill="#0f172a" font-size="8" font-weight="800">№ 162034</text>
-          <text x="74" y="44" text-anchor="middle" fill="#475569" font-size="4.6">приоритет 30.01.1996</text>
-          <text x="74" y="56" text-anchor="middle" fill="#475569" font-size="4.4">рег. 06.03.1998 · конфеты</text>
-          <line x1="20" y1="62" x2="128" y2="62" stroke="#fecaca" stroke-width="2"/>
-          <text x="74" y="70" text-anchor="middle" fill="#dc2626" font-size="4.8" font-weight="700">охрана недействительна</text>
-        </g>
-
-        <!-- Soyuzmultfilm vs Rot Front -->
-        <g filter="url(#mg-sh)" transform="translate(188,268)">
-          <rect x="0" y="0" width="124" height="72" rx="7" fill="#fff1f2" stroke="#fda4af" stroke-width="1.2"/>
-          <text x="62" y="14" text-anchor="middle" fill="#be123c" font-size="5" font-weight="800">ВОЗРАЖЕНИЕ</text>
-          <text x="62" y="28" text-anchor="middle" fill="#334155" font-size="4.8" font-weight="700">«Союзмультфильм»</text>
-          <line x1="16" y1="34" x2="108" y2="34" stroke="#fecdd3" stroke-width="1"/>
-          <text x="62" y="46" text-anchor="middle" fill="#64748b" font-size="4.2">персонаж без согласия</text>
-          <text x="62" y="56" text-anchor="middle" fill="#64748b" font-size="4">возражение 30.12.2025</text>
-          <text x="62" y="66" text-anchor="middle" fill="#166534" font-size="4.4" font-weight="600">коллегия 15.05.2026</text>
-        </g>
-
-        <g filter="url(#mg-sh)" transform="translate(344,268)">
-          <rect x="0" y="0" width="148" height="72" rx="7" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.2"/>
-          <text x="74" y="14" text-anchor="middle" fill="#92400e" font-size="5" font-weight="800">ПРАВООБЛАДАТЕЛЬ</text>
-          <text x="74" y="28" text-anchor="middle" fill="#334155" font-size="4.8" font-weight="700">ОАО «Рот Фронт»</text>
-          <line x1="20" y1="34" x2="128" y2="34" stroke="#fde68a" stroke-width="1"/>
-          <text x="74" y="46" text-anchor="middle" fill="#64748b" font-size="4.2">комбинированный ТЗ</text>
-          <text x="74" y="56" text-anchor="middle" fill="#64748b" font-size="4">Киплинг / Disney — отклонены</text>
-          <text x="74" y="66" text-anchor="middle" fill="#dc2626" font-size="4.4" font-weight="600">нет документов согласия</text>
+        <!-- Evidence chain -->
+        <g filter="url(#hob-sh)" transform="translate(24,208)">
+          <rect x="0" y="0" width="472" height="36" rx="7" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="236" y="12" text-anchor="middle" fill="#334155" font-size="5" font-weight="800">ЦЕПОЧКА ДОКАЗЫВАНИЯ</text>
+          <circle cx="52" cy="26" r="6" fill="#fff7f7" stroke="#a31830"/>
+          <text x="52" y="28" text-anchor="middle" fill="#a31830" font-size="4" font-weight="700">1</text>
+          <text x="52" y="34" text-anchor="middle" fill="#64748b" font-size="3.8">обыск</text>
+          <line x1="62" y1="26" x2="108" y2="26" stroke="#cbd5e1" stroke-width="1.5"/>
+          <circle cx="130" cy="26" r="6" fill="#fff7f7" stroke="#a31830"/>
+          <text x="130" y="28" text-anchor="middle" fill="#a31830" font-size="4" font-weight="700">2</text>
+          <line x1="140" y1="26" x2="186" y2="26" stroke="#cbd5e1" stroke-width="1.5"/>
+          <circle cx="208" cy="26" r="6" fill="#f5f3ff" stroke="#4338ca"/>
+          <text x="208" y="28" text-anchor="middle" fill="#4338ca" font-size="4" font-weight="700">3</text>
+          <line x1="218" y1="26" x2="264" y2="26" stroke="#cbd5e1" stroke-width="1.5"/>
+          <circle cx="286" cy="26" r="6" fill="#ecfdf5" stroke="#059669"/>
+          <text x="286" y="28" text-anchor="middle" fill="#059669" font-size="4" font-weight="700">4</text>
+          <line x1="296" y1="26" x2="342" y2="26" stroke="#cbd5e1" stroke-width="1.5"/>
+          <circle cx="364" cy="26" r="6" fill="#ecfdf5" stroke="#059669"/>
+          <text x="364" y="28" text-anchor="middle" fill="#059669" font-size="4" font-weight="700">✓</text>
+          <text x="420" y="26" text-anchor="middle" fill="#64748b" font-size="4">разрыв не доказан</text>
         </g>
 
         <!-- Legal norms ribbon -->
-        <g filter="url(#mg-sh)" transform="translate(28,358)">
-          <rect x="0" y="0" width="464" height="36" rx="7" fill="#fff" stroke="#c4b5fd" stroke-width="1"/>
-          <rect x="0" y="0" width="464" height="12" rx="7" fill="#f5f3ff"/>
-          <rect x="0" y="6" width="464" height="6" fill="#f5f3ff"/>
-          <text x="232" y="10" text-anchor="middle" fill="#4338ca" font-size="5" font-weight="800">ДВОЙНАЯ ОХРАНА: ТЗ + АВТОРСКОЕ ПРАВО НА ПЕРСОНАЖ</text>
-          <text x="116" y="26" text-anchor="middle" fill="#334155" font-size="4.6">ст. 1483 п. 9 — тождественность</text>
-          <text x="348" y="26" text-anchor="middle" fill="#334155" font-size="4.6">ст. 1512 — недействительность с приоритета</text>
-          <line x1="232" y1="16" x2="232" y2="32" stroke="#ddd6fe" stroke-width="1"/>
+        <g filter="url(#hob-sh)" transform="translate(24,258)">
+          <rect x="0" y="0" width="148" height="66" rx="8" fill="#fff" stroke="#a31830" stroke-width="1.2"/>
+          <text x="74" y="16" text-anchor="middle" fill="#a31830" font-size="6" font-weight="800">ч. 10 ст. 182 УПК</text>
+          <text x="74" y="28" text-anchor="middle" fill="#64748b" font-size="4.5">упаковка «при необходимости»</text>
+          <text x="74" y="40" text-anchor="middle" fill="#334155" font-size="4.3">ноутбуки — необязательно</text>
+          <rect x="10" y="48" width="128" height="12" rx="3" fill="#fff7f7"/>
+          <text x="74" y="57" text-anchor="middle" fill="#a31830" font-size="4.5" font-weight="600">ВС: нарушение формальное</text>
+        </g>
+        <g filter="url(#hob-sh)" transform="translate(186,258)">
+          <rect x="0" y="0" width="148" height="66" rx="8" fill="#fff" stroke="#4338ca" stroke-width="1.2"/>
+          <text x="74" y="16" text-anchor="middle" fill="#4338ca" font-size="6" font-weight="800">ст. 75 УПК</text>
+          <text x="74" y="28" text-anchor="middle" fill="#64748b" font-size="4.5">недопустимость</text>
+          <text x="74" y="40" text-anchor="middle" fill="#334155" font-size="4.3">влияние не доказано</text>
+          <rect x="10" y="48" width="128" height="12" rx="3" fill="#f5f3ff"/>
+          <text x="74" y="57" text-anchor="middle" fill="#4338ca" font-size="4.5" font-weight="600">ч. 2 п. 3 · КТЭ сохранена</text>
+        </g>
+        <g filter="url(#hob-sh)" transform="translate(348,258)">
+          <rect x="0" y="0" width="148" height="66" rx="8" fill="#fff" stroke="#1e40af" stroke-width="1.2"/>
+          <text x="74" y="16" text-anchor="middle" fill="#1e40af" font-size="6" font-weight="800">ст. 88 УПК</text>
+          <text x="74" y="28" text-anchor="middle" fill="#64748b" font-size="4.5">оценка доказательств</text>
+          <text x="74" y="40" text-anchor="middle" fill="#334155" font-size="4.3">допустимость · достоверность</text>
+          <rect x="10" y="48" width="128" height="12" rx="3" fill="#eff6ff"/>
+          <text x="74" y="57" text-anchor="middle" fill="#1e40af" font-size="4.5" font-weight="600">презумпция допустимости</text>
         </g>
 
-        <!-- Film reel → candy flow arrows -->
-        <path d="M152,200 C120,200 100,180 88,156" fill="none" stroke="#fda4af" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#mg-arr)"/>
-        <path d="M368,200 C400,200 420,180 432,156" fill="none" stroke="#fcd34d" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#mg-arr)"/>
-
-        <!-- Abstract film reel (studio) -->
-        <g transform="translate(52,148)" opacity="0.85">
-          <circle cx="28" cy="28" r="24" fill="#fff" stroke="#fda4af" stroke-width="1.2"/>
-          <circle cx="28" cy="28" r="8" fill="#fff1f2"/>
-          <circle cx="28" cy="12" r="4" fill="#fecdd3"/>
-          <circle cx="44" cy="28" r="4" fill="#fecdd3"/>
-          <circle cx="28" cy="44" r="4" fill="#fecdd3"/>
-          <circle cx="12" cy="28" r="4" fill="#fecdd3"/>
-          <text x="28" y="58" text-anchor="middle" fill="#be123c" font-size="4.2" font-weight="700">студия</text>
+        <!-- Sentence reduction -->
+        <g filter="url(#hob-sh)" transform="translate(108,340)">
+          <rect x="0" y="0" width="140" height="52" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="70" y="16" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="800">ДО КАССАЦИИ</text>
+          <text x="70" y="32" text-anchor="middle" fill="#334155" font-size="8" font-weight="800">10 лет 6 мес.</text>
+          <text x="70" y="44" text-anchor="middle" fill="#64748b" font-size="4.5">ИК строгого режима</text>
+        </g>
+        <line x1="256" y1="366" x2="268" y2="366" stroke="#059669" stroke-width="2" marker-end="url(#hob-arr-grn)"/>
+        <text x="262" y="358" text-anchor="middle" fill="#a31830" font-size="5" font-weight="700">−3 мес.</text>
+        <text x="262" y="382" text-anchor="middle" fill="#64748b" font-size="4.2">ст. 9 УК</text>
+        <g filter="url(#hob-sh)" transform="translate(276,340)">
+          <rect x="0" y="0" width="140" height="52" rx="8" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.2"/>
+          <text x="70" y="16" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">ПОСЛЕ ВС</text>
+          <text x="70" y="32" text-anchor="middle" fill="#334155" font-size="8" font-weight="800">10 лет 3 мес.</text>
+          <text x="70" y="44" text-anchor="middle" fill="#64748b" font-size="4.5">покушение · 20.06.2013</text>
         </g>
 
-        <!-- Abstract confectionery -->
-        <g transform="translate(448,148)" opacity="0.85">
-          <rect x="0" y="8" width="48" height="40" rx="6" fill="#fff" stroke="#fcd34d" stroke-width="1.2"/>
-          <rect x="6" y="14" width="36" height="8" rx="2" fill="#fde68a"/>
-          <rect x="6" y="26" width="36" height="8" rx="2" fill="#bbf7d0"/>
-          <text x="24" y="58" text-anchor="middle" fill="#92400e" font-size="4.2" font-weight="700">конфеты</text>
+        <!-- Two-contour strategy label -->
+        <g transform="translate(24,400)">
+          <rect x="0" y="0" width="472" height="22" rx="5" fill="#0f172a" opacity="0.92"/>
+          <text x="236" y="14" text-anchor="middle" fill="#e2e8f0" font-size="5.5" font-weight="600">контур A: процесс (обыск, КТЭ) · контур B: квалификация (проверочная закупка → покушение)</text>
         </g>
+
+        <text x="260" y="432" text-anchor="middle" fill="#94a3b8" font-size="6.5" font-weight="600">ВС 24.08.2026 · ч. 10 ст. 182 · ст. 75/88 УПК · обыск без упаковки · КТЭ допустима</text>
       </svg>
     </div>
   </div>
 </section>
 
 
-<section class="l24-intro-ip" aria-label="Введение">
-  <div class="l24-intro-ip__grid">
-    <div class="l24-intro-ip__text">
-      <p>24 августа 2026 года Роспатент <strong>аннулировал</strong> правовую охрану комбинированного <strong>товарного знака «МАУГЛИ ДРАЖЕ»</strong> (свидетельство <strong>№ 162034</strong>), зарегистрированного на конфеты и драже <strong>ОАО «Рот Фронт»</strong>. Инициатор <strong>возражения</strong> — <strong>ООО «Союзмультфильм»</strong>: студия указала на <strong>тождественность</strong> словесного элемента «Маугли» с названием мультипликационного цикла и персонажем без <strong>согласия</strong> правообладателя произведения. Решение вступило в силу на стадии <strong>Палаты по патентным спорам</strong> (ППС) и стало одним из самых обсуждаемых кейсов августа 2026 года на стыке <strong>товарного знака</strong>, <strong>авторских прав на персонаж</strong> и практики <strong>оспаривания регистрации</strong>.</p>
-      <p>Для производителей кондитерки, дистрибьюторов сладостей и малого бизнеса, который использует на этикетке <strong>персонаж мультфильма</strong>, спор «Рот Фронта» и «Союзмультфильма» — не только новость. Это сценарий с двумя сторонами: как <strong>оспорить</strong> чужой знак с именем героя и что делать, если ваш <strong>товарный знак</strong> уже оспорили или пришла <strong>претензия</strong> с требованием <strong>компенсации</strong> за <strong>нарушение товарного знака</strong> или авторских прав.</p>
-      <p>Ниже — суть решения, фабула дела, процедура <strong>возражения в Роспатенте</strong>, нормы <strong>ст. 1483 и 1512 ГК РФ</strong>, пересечение ТЗ и АП, параллель с иском о <strong>Волке</strong> на этикетке дыни, практические шаги <strong>защиты бренда</strong> и <strong>ответа на иск по интеллектуальной собственности</strong>, а также сроки <strong>обжалования в СИП</strong>.</p>
+<section class="l24-intro-ug">
+  <div class="l24-intro-ug__grid">
+    <div class="l24-intro-ug__text">
+      <p>24 августа 2026 года СК по уголовным делам ВС РФ вынесла определение по делу № <strong>32-УД26-10-К1</strong>: изъятые при обыске <strong>два ноутбука и телефон</strong> передали на КТЭ <strong>без упаковки</strong>. Защита настаивала на недопустимости экспертизы — ВС отклонил довод, сославшись на <strong>ч. 10 ст. 182 УПК</strong>.</p>
+      <p>Для практики UG это кейс о границе между формальным нарушением и существенным: когда «не упаковали» <strong>не лишает</strong> КТЭ допустимости (ст. 75, 88 УПК) — и когда параллельная линия по <strong>ст. 9 УК</strong> и Пленуму № 14 даёт <strong>снижение наказания</strong> в кассации: 10 лет 6 мес. → 10 лет 3 мес.</p>
+      <div class="l24-intro-ug__brief">Материал разбирает ч. 10 ст. 182 УПК, цепочку идентификации цифровых носителей, двухконтурную защиту (процесс + квалификация), чек-лист адвоката на обыске и перспективы оспаривания КТЭ после позиции ВС 2026 года.</div>
     </div>
-    <aside class="l24-intro-ip__decor" aria-label="Ключевые факты дела «Маугли»">
-      <ul class="l24-intro-ip__chips">
-        <li class="l24-intro-ip__chip l24-intro-ip__chip--ip">IP · Роспатент</li>
-        <li class="l24-intro-ip__chip l24-intro-ip__chip--law">п. 9 ст. 1483</li>
-        <li class="l24-intro-ip__chip">№ 162034</li>
-        <li class="l24-intro-ip__chip">класс 30</li>
-        <li class="l24-intro-ip__chip l24-intro-ip__chip--brand">Союзмультфильм</li>
-        <li class="l24-intro-ip__chip l24-intro-ip__chip--candy">Рот Фронт</li>
-        <li class="l24-intro-ip__chip l24-intro-ip__chip--ok">24.08.2026</li>
+    <div class="l24-intro-ug__decor">
+      <ul class="l24-intro-ug__chips">
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--accent">ч. 10 ст. 182 УПК</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--warn">неупакованные ноутбуки</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--accent">дело № 32-УД26-10-К1</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--blue">ст. 75 УПК</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--navy">ст. 88 УПК · КТЭ</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--ok">10,5 → 10 лет 3 мес.</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--blue">ст. 9 УК</li>
+        <li class="l24-intro-ug__chip">Пленум № 14</li>
+        <li class="l24-intro-ug__chip">проверочная закупка</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--navy">ст. 164.1 УПК</li>
+        <li class="l24-intro-ug__chip">24.08.2026</li>
       </ul>
-      <svg class="l24-intro-ip__route-svg" viewBox="0 0 360 88" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Маршрут: возражение Союзмультфильма → ППС → аннулирование ТЗ «МАУГЛИ ДРАЖЕ»">
-        <rect x="4" y="20" width="100" height="48" rx="8" fill="#ecfdf5" stroke="#166534" stroke-width="1.2"/>
-        <text x="54" y="42" text-anchor="middle" fill="#166534" font-size="6" font-weight="800">ВОЗРАЖЕНИЕ</text>
-        <text x="54" y="56" text-anchor="middle" fill="#64748b" font-size="5.5">30.12.2025</text>
-        <line x1="106" y1="44" x2="130" y2="44" stroke="#166534" stroke-width="1.5"/>
-        <polygon points="130,44 124,41 124,47" fill="#166534"/>
-        <rect x="134" y="20" width="92" height="48" rx="8" fill="#fffbeb" stroke="#ca8a04" stroke-width="1.2"/>
-        <text x="180" y="42" text-anchor="middle" fill="#92400e" font-size="6" font-weight="800">ППС</text>
-        <text x="180" y="56" text-anchor="middle" fill="#64748b" font-size="5.5">15.05.2026</text>
-        <line x1="228" y1="44" x2="252" y2="44" stroke="#166534" stroke-width="1.5"/>
-        <polygon points="252,44 246,41 246,47" fill="#166534"/>
-        <rect x="256" y="14" width="100" height="60" rx="8" fill="#166534" stroke="#14532d" stroke-width="1.2"/>
-        <text x="306" y="36" text-anchor="middle" fill="#ecfdf5" font-size="6" font-weight="800">АННУЛИРОВАНО</text>
-        <text x="306" y="50" text-anchor="middle" fill="#bbf7d0" font-size="5.5">№ 162034</text>
-        <text x="306" y="62" text-anchor="middle" fill="#bbf7d0" font-size="5.5">24.08.2026</text>
-        <text x="180" y="12" text-anchor="middle" fill="#64748b" font-size="5.5" font-weight="600">ТЗ + авторское право на персонаж</text>
+      <svg class="l24-intro-ug__route-svg" viewBox="0 0 390 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Маршрут дела № 32-УД26-10-К1: обыск без упаковки → КТЭ допустима → снижение срока в кассации">
+        <defs>
+          <marker id="introo-arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7Z" fill="#a31830"/></marker>
+          <marker id="introo-grn" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7Z" fill="#059669"/></marker>
+          <marker id="introo-blu" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7Z" fill="#4338ca"/></marker>
+        </defs>
+        <rect x="4" y="38" width="72" height="48" rx="6" fill="#fff7f7" stroke="#fca5a5" stroke-width="1.2"/>
+        <text x="40" y="57" text-anchor="middle" fill="#a31830" font-size="6" font-weight="700">ОБЫСК</text>
+        <text x="40" y="68" text-anchor="middle" fill="#991b1b" font-size="5.5">2 ноутбука</text>
+        <text x="40" y="78" text-anchor="middle" fill="#991b1b" font-size="5.5">без упаковки</text>
+        <line x1="78" y1="62" x2="88" y2="62" stroke="#a31830" stroke-width="1.5" marker-end="url(#introo-arr)"/>
+        <rect x="92" y="38" width="68" height="48" rx="6" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.2"/>
+        <text x="126" y="55" text-anchor="middle" fill="#4338ca" font-size="5.5" font-weight="700">КТЭ 2013</text>
+        <text x="126" y="66" text-anchor="middle" fill="#4338ca" font-size="5.5">допустима</text>
+        <text x="126" y="77" text-anchor="middle" fill="#64748b" font-size="5">ст. 88 УПК</text>
+        <line x1="162" y1="62" x2="172" y2="62" stroke="#4338ca" stroke-width="1.5" marker-end="url(#introo-blu)"/>
+        <rect x="176" y="38" width="72" height="48" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+        <text x="212" y="55" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="700">довод защиты</text>
+        <text x="212" y="66" text-anchor="middle" fill="#b91c1c" font-size="5.5">отклонён</text>
+        <text x="212" y="77" text-anchor="middle" fill="#64748b" font-size="5">ч. 10 ст. 182</text>
+        <line x1="250" y1="62" x2="260" y2="62" stroke="#059669" stroke-width="1.5" marker-end="url(#introo-grn)"/>
+        <rect x="264" y="24" width="118" height="76" rx="7" fill="#0f172a" stroke="#059669" stroke-width="1.2"/>
+        <text x="323" y="46" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="700">ВС РФ</text>
+        <text x="323" y="58" text-anchor="middle" fill="#6ee7b7" font-size="5.5">покушение · ст. 9 УК</text>
+        <text x="323" y="70" text-anchor="middle" fill="#6ee7b7" font-size="5.5">10,5 → 10 лет 3 мес.</text>
+        <text x="323" y="83" text-anchor="middle" fill="#fcd34d" font-size="5">24.08.2026</text>
+        <text x="195" y="20" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">№ 32-УД26-10-К1 · обыск без упаковки · двухконтурная защита</text>
+        <text x="195" y="116" text-anchor="middle" fill="#94a3b8" font-size="5.5">ч. 10 ст. 182 · ст. 75/88 УПК · Пленум № 14 · кассация</text>
       </svg>
-    </aside>
+    </div>
   </div>
 </section>
 
@@ -2669,259 +2745,415 @@ FAQ: microdata FAQPage на секции #faq + hidden JSON-LD для Rank Math
 <nav class="ym-toc" aria-label="Содержание статьи">
   <p class="ym-toc__title">Содержание</p>
   <ul class="ym-toc__list">
-    <li><a href="#s1-sut">Суть решения</a></li>
-    <li><a href="#boris-maugli-tz-flow">Маршрут ППС → СИП</a></li>
-    <li><a href="#s2-fabula">Фабула дела</a></li>
-    <li><a href="#s3-vozrazhenie">Возражение в Роспатенте</a></li>
-    <li><a href="#s4-1483">ст. 1483 и 1512</a></li>
-    <li><a href="#s5-personazh">Персонаж и ТЗ</a></li>
-    <li><a href="#s6-kompensaciya">Компенсация</a></li>
-    <li><a href="#s7-zashchita">Защита бренда</a></li>
-    <li><a href="#s8-sip">СИП и регистрация</a></li>
+    <li><a href="#l24-h2-1">Дело № 32-УД26-10-К1</a></li>
+    <li><a href="#l24-h2-2">Обыск без упаковки</a></li>
+    <li><a href="#l24-h2-3">ч. 10 ст. 182 УПК</a></li>
+    <li><a href="#l24-h2-4">Оспаривание обыска</a></li>
+    <li><a href="#l24-h2-5">ст. 75 УПК</a></li>
+    <li><a href="#l24-h2-6">КТЭ и ст. 88 УПК</a></li>
+    <li><a href="#l24-h2-7">Тактика защиты</a></li>
+    <li><a href="#boris-obysk-upakovka-flow">Два контура защиты</a></li>
+    <li><a href="#l24-h2-8">Кассация и снижение</a></li>
     <li><a href="#faq">FAQ</a></li>
   </ul>
 </nav>
 
 
-<div class="l24-longread-wrap" itemprop="articleBody">
+<div class="l24-longread-wrap">
 
-<p class="l24-brief"><strong>Кратко:</strong> 24 августа 2026 года Роспатент <strong>аннулировал</strong> комбинированный ТЗ <strong>«МАУГЛИ ДРАЖЕ»</strong> (свидетельство <strong>№ 162034</strong>, приоритет <strong>30.01.1996</strong>, класс <strong>30</strong>) по возражению <strong>«Союзмультфильма»</strong> — <strong>п. 9 ст. 1483 ГК РФ</strong>, персонаж без согласия. Ниже — фабула, процедура возражения, пересечение ТЗ и АП, параллель с иском за Волка на дыне и практические шаги защиты бренда.</p>
+<p>24 августа 2026 года Судебная коллегия по уголовным делам Верховного Суда РФ вынесла определение по делу № <strong>32-УД26-10-К1</strong>, которое сразу попало в фокус практикующих адвокатов. Речь идёт не о «разрешении» следователям игнорировать процедуру, а о более тонком вопросе: <strong>когда отсутствие упаковки изъятого при обыске не делает компьютерно-техническую экспертизу (КТЭ) недопустимым доказательством</strong> — и при каких условиях защита всё же может добиться снижения наказания в кассации.</p>
 
-<section class="ym-section" id="s1-sut" aria-labelledby="s1-sut-h">
-<h2 id="s1-sut-h">Роспатент аннулировал товарный знак «Маугли»: суть решения и оспаривание регистрации</h2>
-<p><strong>Аннулирование товарного знака</strong> в данном деле — не прекращение охраны за неиспользование и не исключение отдельного слова из охраны. Роспатент <strong>признал предоставление правовой охраны недействительным</strong> с даты <strong>приоритета</strong> — это классическое <strong>оспаривание товарного знака</strong> по <strong>абсолютному основанию</strong> <strong>п. 9 ст. 1483 ГК РФ</strong>.</p>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Параметр</th><th>Факт</th></tr></thead><tbody><tr><td>Дата публикации новости</td><td><strong>24.08.2026</strong> (РАПСИ, 16:11 МСК)</td></tr><tr><td>Истец возражения</td><td>ООО <strong>«Союзмультфильм»</strong></td></tr><tr><td>Правообладатель</td><td>ОАО <strong>«Рот Фронт»</strong> (ОГРН 1027700042985)</td></tr><tr><td>Оспариваемый знак</td><td>Комбинированное обозначение <strong>«МАУГЛИ ДРАЖЕ»</strong></td></tr><tr><td>Свидетельство</td><td><strong>№ 162034</strong></td></tr><tr><td>Приоритет</td><td><strong>30.01.1996</strong></td></tr><tr><td>Регистрация</td><td><strong>06.03.1998</strong></td></tr><tr><td>Класс МКТУ</td><td><strong>30</strong> — конфеты, драже</td></tr><tr><td>Исход</td><td>Охрана признана <strong>недействительной</strong></td></tr><tr><td>Правовое основание</td><td><strong>пп. 1 п. 9 ст. 1483 ГК РФ</strong> — без согласия правообладателя известного произведения / персонажа</td></tr></tbody></table></div>
-<p>Коллегия ППС рассмотрела возражение <strong>15.05.2026</strong> (председательствующая <strong>Батищева Е.В.</strong>). Документ поступил в ведомство <strong>30.12.2025</strong> (тип <strong>ВОЗ_18ТЗ</strong> — возражение против предоставления правовой охраны зарегистрированному ТЗ). РАПСИ сообщает: отменена регистрация <strong>«одного из знаков»</strong> «Рот Фронта» — в фокусе именно <strong>№ 162034</strong>.</p>
-<p><strong>Оспаривание товарного знака</strong> по п. 9 ст. 1483 возможно <strong>весь срок действия охраны</strong> (пп. 1 п. 2 ст. 1512 ГК РФ). Знак с приоритетом 1996 года можно оспорить в 2026-м — это принципиально для «долгоживущих» брендов на конфетах и снеках.</p>
-<h3>Что именно аннулировали: свидетельство, класс 30, приоритет 30.01.1996</h3>
-<p>Товарный знак <strong>№ 162034</strong> — <strong>комбинированное</strong> обозначение: изображение бегущего мальчика, цветов, пальмы, обезьяны и словесная часть <strong>«МАУГЛИ»</strong> оригинальным шрифтом с окантовкой (цветовое сочетание: тёмно-зелёный, светло-зелёный, сиреневый, коричневые оттенки, белый, жёлтый). Охрана действовала для товаров <strong>30 класса МКТУ</strong> — в том числе <strong>конфеты</strong> и <strong>драже</strong>.</p>
-<p>У «Рот Фронта» был и другой знак с «Маугли»:</p>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Свидетельство</th><th>Тип</th><th>Приоритет</th><th>Статус на август 2026</th></tr></thead><tbody><tr><td><strong>128304</strong></td><td>Словесный «МАУГЛИ»</td><td>30.09.1993</td><td>Срок истёк <strong>30.09.2023</strong></td></tr><tr><td><strong>162034</strong></td><td>Комбинированный «МАУГЛИ ДРАЖЕ»</td><td>30.01.1996</td><td><strong>Аннулирован</strong> по возражению</td></tr></tbody></table></div>
-<p>Словесный знак к моменту возражения уже не действовал; <strong>аннулирование</strong> затронуло комбинированный ТЗ на линейку драже.</p>
-<h3>Почему новость важна для производителей еды и кондитерки</h3>
-<p>Три причины, почему FMCG и кондитерка должны отслеживать кейс:</p>
+<p>Для читателя, который ищет ответы на запросы вроде «недопустимость доказательств уголовное дело», «обыск без упаковки изъятого» или «снижение наказания кассация», это определение — не абстрактная новость, а рабочий кейс с конкретной фабулой, двумя противоречащими экспертными заключениями и итогом: <strong>10,5 лет → 10 лет 3 месяца</strong> лишения свободы в исправительной колонии строгого режима.</p>
+
+<h2 id="l24-h2-1">ВС по делу № 32-УД26-10-К1: снижение наказания и позиция по упаковке изъятого</h2>
+
+<p>Дело касалось незаконного оборота наркотиков: одно приготовление и три эпизода сбыта. До кассации осуждённому назначили <strong>10 лет 6 месяцев</strong> ИК строгого режима. Верховный Суд снизил срок на <strong>3 месяца</strong> — до <strong>10 лет 3 месяцев</strong>.</p>
+
+<p>Защита выдвигала несколько линий атаки, но именно сочетание процессуальных доводов (обыск, упаковка, КТЭ) и уголовно-правовых (квалификация проверочной закупки) дало материал для разбора обеих стратегий — успешной и провальной.</p>
+
+<table><thead><tr><th>Параметр</th><th>До кассации</th><th>После определения ВС</th></tr></thead><tbody><tr><td>Наказание</td><td>10 лет 6 мес. ИК строгого режима</td><td>10 лет 3 мес. ИК строгого режима</td></tr><tr><td>Эпизоды</td><td>1 приготовление + 3 сбыта</td><td>Переквалификация одного сбыта (20.06.2013)</td></tr><tr><td>Довод об упаковке</td><td>Неупакованные ноутбуки → недопустимость КТЭ</td><td>Отклонён</td></tr><tr><td>Довод о проверочной закупке</td><td>Оконченный сбыт</td><td>Покушение (ст. 9 УК + Пленум № 14)</td></tr></tbody></table>
+
+<h3 id="l24-h3-1-1">Что изъяли при обыске и почему спорили об упаковке</h3>
+
+<p>При обыске в жилище у осуждённого изъяли <strong>два ноутбука и телефон</strong>. Устройства передали на компьютерно-техническую экспертизу <strong>без упаковки и опечатывания</strong> на месте обыска. Защита настаивала: без надлежащей упаковки невозможно исключить доступ третьих лиц к данным на носителях, а значит, заключение эксперта от 2013 года <strong>недопустимо</strong> как доказательство.</p>
+
+<p>Следователь, проводивший обыск, посчитал упаковку <strong>необязательной</strong> — и именно эту оценку Верховный Суд поддержал, сославшись на ч. 10 ст. 182 УПК РФ.</p>
+
+<blockquote>«В силу положений ч. 10 ст. 182 УПК РФ упаковка изъятых в ходе обыска предметов не является обязательной и производится лишь при необходимости, которой в данном случае должностное лицо, проводившее указанное процессуальное действие, не усмотрело».</blockquote>
+
+<p>Важно: ВС <strong>не утвердил</strong>, что упаковка цифровых носителей никогда не нужна. Он отказал в недопустимости <strong>конкретной</strong> КТЭ, потому что защита не доказала факт изменения данных — лишь предположила такую возможность.</p>
+
+<h3 id="l24-h3-1-2">Два экспертных заключения: как это повлияло на срок</h3>
+
+<p>В деле фигурировали <strong>два химических экспертных заключения</strong> — 2013 и 2023 годов. Между исследованиями — <strong>10 лет</strong>, и защита настаивала на назначении третьей экспертизы.</p>
+
+<p><strong>Экспертиза 2013 года:</strong> эксперт <strong>не смогла</strong> установить, составляли ли изъятые части наркотического вещества единое целое с единым источником происхождения. На тот момент <strong>не существовало методических рекомендаций</strong> для такого вида исследования (кроме конопли и мака).</p>
+
+<p><strong>Экспертиза 2023 года:</strong> другой эксперт, опираясь на появившуюся методологию, пришёл к выводу: части <strong>не могли</strong> составлять единое целое и иметь единый источник.</p>
+
+<p>Верховный Суд указал: выводы <strong>не исключают друг друга</strong> — это разные исследовательские задачи при разной методической базе. Третья экспертиза <strong>не требуется</strong>. Довод о «противоречии» с разницей в 10 лет <strong>не сработал</strong>.</p>
+
+<p>Зато сработал другой довод — о <strong>проверочной закупке</strong> 20 июня 2013 года. Суд первой инстанции квалифицировал передачу марихуаны покупателю как <strong>оконченный сбыт</strong>. ВС переквалифицировал эпизод на <strong>покушение</strong> на незаконный сбыт группой лиц по предварительному сговору в значительном размере — со ссылкой на <strong>ст. 9 УК РФ</strong> и п. 13 Пленума ВС № 14 от 15.06.2006 в редакции от 23.12.2010 (до изменений 30.06.2015). Именно это дало <strong>минус 3 месяца</strong> к сроку.</p>
+
+<h2 id="l24-h2-2">Обыск без упаковки изъятого: что изменилось после позиции ВС</h2>
+
+<p>Новость «ВС разрешил не упаковывать изъятое при обыске» в заголовках звучит радикально. На деле Верховный Суд <strong>уточнил границу</strong> между формальным нарушением и существенным: <strong>само по себе</strong> отсутствие упаковки <strong>не лишает</strong> экспертизу допустимости, если нет доказательств подмены или искажения объекта исследования.</p>
+
+<p>Это не отменяет практику, в которой грубые нарушения процедуры изъятия приводят к исключению доказательств по ст. 75 УПК. Разница — в <strong>доказывании</strong>: после определения № 32-УД26-10-K1 формулы «не упаковали — значит, недопустимо» <strong>недостаточно</strong>.</p>
+
+<h3 id="l24-h3-2-1">Когда следователь обязан упаковывать, а когда — «при необходимости»</h3>
+
+<p>Ч. 10 ст. 182 УПК прямо говорит: изъятые предметы <strong>в случае необходимости</strong> упаковываются и опечатываются <strong>на месте обыска</strong>, что удостоверяется подписями присутствующих лиц.</p>
+
+<p>«Необходимость» — не пустая формулировка, а <strong>оценочная категория</strong>, которую следователь фиксирует в протоколе. Для цифровых носителей типичные основания «необходимости»:</p>
+
+<ul>
+
+<li>риск физического повреждения устройства при транспортировке;</li>
+
+<li>необходимость сохранить целостность данных (исключить несанкционированный доступ);</li>
+
+<li>изъятие веществ, требующих герметичной упаковки (наркотики, биоматериалы);</li>
+
+<li>несколько однотипных предметов, требующих индивидуальной маркировки.</li>
+
+</ul>
+
+<p>В деле № 32-УД26-10-K1 следователь посчитал упаковку ноутбуков <strong>необязательной</strong>. ВС согласился с этой оценкой — и отказал в недопустимости КТЭ.</p>
+
+<h3 id="l24-h3-2-2">Почему неупакованные ноутбуки не лишили экспертизу силы</h3>
+
+<p>Ключевой стандарт, который зафиксировал Верховный Суд: <strong>предположение</strong> о возможном внесении изменений в данные ноутбука <strong>материалами дела не подтверждается</strong>. Защита должна показать не абстрактную угрозу, а <strong>конкретные</strong> обстоятельства: кто и когда имел доступ, какие следы вмешательства зафиксированы, где разрыв в цепочке хранения.</p>
+
+<p>Для сравнения — в иных делах суды исключали доказательства, когда в протоколе <strong>отсутствовало описание упаковки и опечатывания</strong> при изъятии предмета с индивидуальными признаками, и тождественность вещдока оказалась невозможной. В наркоделе № 32-УД26-10-K1 ВС пошёл по другому пути: нарушение формальное, <strong>влияние на достоверность не доказано</strong>.</p>
+
+<h2 id="l24-h2-3">Ч. 10 ст. 182 УПК: упаковка изъятого «при необходимости» — разбор нормы</h2>
+
+<p>Норма ч. 10 ст. 182 УПК РФ — центральный правовой якорь определения ВС от 24.08.2026. Она работает в связке с требованиями к протоколу обыска (ч. 12–13 ст. 182, ст. 166, 167 УПК): описание места обнаружения, индивидуальные признаки, способ изъятия.</p>
+
+<table><thead><tr><th>Элемент процедуры</th><th>Норма</th><th>Последствие нарушения</th></tr></thead><tbody><tr><td>Упаковка «при необходимости»</td><td>ч. 10 ст. 182 УПК</td><td>Не автоматическая недопустимость (позиция ВС 2026)</td></tr><tr><td>Описание места и способа изъятия</td><td>ч. 12–13 ст. 182 УПК</td><td>Риск признания недопустимым при разрыве идентификации</td></tr><tr><td>Предъявление изъятого понятым</td><td>ч. 10 ст. 182 УПК</td><td>Формальный дефект → оценка существенности по ст. 75</td></tr><tr><td>Протокол обыска</td><td>ст. 166, 167 УПК</td><td>Основа для оспаривания всей цепочки доказательств</td></tr></tbody></table>
+
+<h3 id="l24-h3-3-1">Что требует закон от следователя при изъятии цифровых носителей</h3>
+
+<p>Для ноутбуков, телефонов, флеш-накопителей действует <strong>двойной контур</strong> норм:</p>
+
 <ol>
-<li><strong>Персонаж на упаковке</strong> — не «декор», а зона юридического риска. «Союзмультфильм» системно оспаривает ТЗ с именами героев (параллельно с <strong>№ 162034</strong> в расписании ППС — знаки <strong>248303, 445032, 755927</strong> и др. с «МАУГЛИ»). Это элемент стратегии «зачистки» рынка перед лицензионной программой — аналог кампании по <strong>«Умке»</strong> (56 выявленных знаков, досудебные лицензии).</li>
+
+<li><strong>Ч. 10 ст. 182 УПК</strong> — общие правила изъятия и упаковки при обыске.</li>
+
+<li><strong>Ст. 164.1 УПК</strong> — специальные ограничения на изъятие электронных носителей информации (ЭНИ): постановление о назначении экспертизы, судебное решение, неотложные обстоятельства.</li>
+
 </ol>
+
+<p>На практике защитнику важно проверить <strong>оба</strong> основания: даже если упаковка формально «необязательна», изъятие ЭНИ без надлежащего процессуального решения может стать самостоятельным основанием для оспаривания.</p>
+
+<h3 id="l24-h3-3-2">Типичные ошибки при оформлении изъятия (и когда они критичны)</h3>
+
+<p><strong>Некритичные</strong> (по логике дела № 32-УД26-10-K1):</p>
+
+<ul>
+
+<li>отсутствие упаковки при наличии индивидуального описания устройства в протоколе;</li>
+
+<li>оценка следователем, что упаковка «не необходима».</li>
+
+</ul>
+
+<p><strong>Критичные</strong> (по сопоставимой практике):</p>
+
+<ul>
+
+<li>нет описания упаковки и способа опечатывания при изъятии предмета с уникальными признаками;</li>
+
+<li>«опечатывание» заготовленными листочками с оттиском печати вместо индивидуальной бирки;</li>
+
+<li>отсутствие подписи следователя на бирке;</li>
+
+<li>переупаковка между обыском и экспертизой без фиксации в материалах дела;</li>
+
+<li>расхождение фото упаковки в протоколе и в экспертном заключении.</li>
+
+</ul>
+
+<blockquote>По мнению исследователя А.Ю. Шапошникова (журнал «Уголовный процесс», июль 2026), «оклеивание заранее заготовленными листочками с оттиском печати не является опечатыванием» — и суды в отдельных делах соглашались с этим (например, дело № 1-987/2022 Сызранского городского суда).</blockquote>
+
+<h2 id="l24-h2-4">Оспаривание обыска: процессуальные нарушения и перспективы ходатайства</h2>
+
+<p>Оспаривание обыска — один из первых инструментов защиты, когда изъятие оформлено с нарушениями. Но после определения ВС по делу № 32-УД26-10-K1 важно <strong>пересмотреть тактику</strong>: голое заявление «обыск незаконен, потому что не упаковали» без доказательства влияния на достоверность, скорее всего, не сработает.</p>
+
+<p>Ходатайство об оспаривании результатов обыска подаётся <strong>на следствии</strong> (ст. 125 УПК) и <strong>в суде</strong> (ст. 234–235 УПК). Сроки зависят от стадии: на следствии — в разумный срок после ознакомления с материалами; в суде — до начала судебного следствия (с возможностью заявить при обнаружении новых обстоятельств).</p>
+
+<h3 id="l24-h3-4-1">Какие нарушения обыска суды признают существенными</h3>
+
+<p>Суды и Верховный Суд в разных категориях дел выделяют нарушения, которые <strong>реально</strong> ведут к исключению доказательств:</p>
+
+<ul>
+
+<li>обыск без постановления или с нарушением компетенции;</li>
+
+<li>отсутствие понятых при изъятии (когда их участие обязательно);</li>
+
+<li><strong>полное</strong> отсутствие описания изъятого в протоколе;</li>
+
+<li>невозможность идентифицировать вещдок при передаче на экспертизу;</li>
+
+<li>изъятие ЭНИ с нарушением ст. 164.1 УПК.</li>
+
+</ul>
+
+<p>В деле о налоговом преступлении (практика АБ «Гаевский») изъятие <strong>без упаковки и опечатывания</strong> с участием понятых привело к исключению протокола обыска и <strong>всех производных документов</strong> — с оправдательным итогом. Но там нарушение было <strong>комплексным</strong> и лишало обвинение доказательственной базы.</p>
+
+<h3 id="l24-h3-4-2">Когда формальный дефект не ведёт к исключению доказательств</h3>
+
+<p>Именно этот сценарий реализовался в деле № 32-УД26-10-K1:</p>
+
 <ol>
-<li><strong>Два уровня претензий.</strong> <strong>Недействительность товарного знака</strong> (ст. 1512) и <strong>компенсация за нарушение</strong> авторских прав (ст. 1301) — разные инструменты. Потеря ТЗ не означает свободу использовать образ без согласия студии.</li>
+
+<li>Нарушение (отсутствие упаковки) <strong>зафиксировано</strong>.</li>
+
+<li>Защита <strong>не доказала</strong>, что оно повлияло на достоверность КТЭ.</li>
+
+<li>Суд применил <strong>презумпцию допустимости</strong> и оценил заключение по ст. 88 УПК.</li>
+
 </ol>
-<ol>
-<li><strong>Старый приоритет не защищает.</strong> Аргумент «мы зарегистрировали в 1996 году» не спас «Рот Фронт», если нет документов о <strong>согласии</strong> правообладателя произведения.</li>
-</ol>
+
+<p>Вывод для практики: оспаривание обыска должно строиться не на перечислении формальных дефектов, а на <strong>таблице</strong>: нарушение → влияние на идентификацию объекта → влияние на достоверность выводов эксперта → нарушение прав обвиняемого.</p>
+
 <aside class="ym-cta ym-cta--primary" role="complementary">
-  <p class="ym-cta__text">Персонаж на упаковке конфет или снеков — зона юридического риска: возражение в Роспатенте, аннулирование ТЗ и отдельная претензия по авторскому праву. Оцените позицию до того, как придёт письмо от правообладателя.</p>
-  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда</a></p>
+  <p class="ym-cta__text">После позиции ВС 2026 года оспаривание обыска требует не формальных жалоб, а доказанной связи нарушения с достоверностью экспертизы. Разберём ваши материалы дела и перспективы исключения доказательств.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию по уголовному делу</a></p>
 </aside>
-</section>
 
-<section class="ym-section" id="s2-fabula" aria-labelledby="s2-fabula-h">
-<h2 id="s2-fabula-h">Дело «Маугли» и «Рот Фронт»: фабула, доводы сторон и позиция Роспатента</h2>
-<p>Хронология спора типична для <strong>товарного знака персонаж мультфильма</strong>: давно зарегистрированный бренд → активизация правообладателя АП → <strong>возражение против товарного знака</strong> → <strong>аннулирование</strong>.</p>
-<p>«Рот Фронт» — один из старейших производителей кондитерских изделий в России; линейка с «Маугли» известна покупателям десятилетиями. «Союзмультфильм» — правообладатель мультипликационного цикла <strong>«Маугли»</strong> (фильмы <strong>1967–1973</strong>, режиссёр <strong>Роман Давыдов</strong>; полнометражная версия — <strong>1973</strong>). Студия заявила: использование названия и образа <strong>без согласия</strong> нарушает её исключительные права и вводит потребителя в заблуждение о происхождении товара.</p>
-<h3>Доводы «Союзмультфильма»: персонаж, известность, риск смешения</h3>
-<p>Позиция студии (по РАПСИ):</p>
-<ul>
-<li>Словесный элемент «Маугли» — <strong>сильный</strong> элемент оспариваемого ТЗ.</li>
-<li>«Маугли» <strong>тождествен</strong> названию мультипликационного цикла и персонажу произведений.</li>
-<li>Ни ООО «Союзмультфильм», ни ФГУП «ТПО «Киностудия «Союзмультфильм»», ни правопреемники <strong>не давали разрешения</strong> «Рот Фронту» на использование имени персонажа.</li>
-<li>Студия признана <strong>заинтересованным лицом</strong> (п. 2 ст. 1513 ГК РФ) — она вправе подавать <strong>возражение в Роспатенте</strong> по абсолютным основаниям.</li>
-</ul>
-<p>Роспатент согласился: для российского потребителя «Маугли» на конфетах ассоциируется с известным мультфильмом, а не только с литературным первоисточником.</p>
-<h3>Почему ссылки на Киплинга и Disney не сработали</h3>
-<p>«Рот Фронт» защищался двумя линиями:</p>
-<ol>
-<li><strong>Редьярд Киплинг</strong> — графика создана на основе образа «Маугли» из «Книги джунглей» и «Второй книги джунглей» (издания <strong>до 1967 г.</strong>).</li>
-<li><strong>Walt Disney</strong> — в знаке якобы использован кадр из мультфильма «Книга джунглей» (1967).</li>
-</ol>
-<p>Роспатент отклонил оба довода. Ключевые цитаты из материалов ведомства (РАПСИ):</p>
-<blockquote><p>«Словесный элемент „Маугли" оспариваемого товарного знака тождествен словесному элементу „Маугли", входящему в названия произведений цикла „Маугли", и персонажу произведений Киплинга.»</p></blockquote>
-<blockquote><p>«Российским потребителем… словесный элемент „Маугли" может ассоциироваться как с известными произведениями цикла „Маугли", так и с произведениями Киплинга, авторские права на которые возникли у „Союзмультфильма" и писателя ранее даты приоритета (30 января 1996 года) оспариваемого товарного знака.»</p></blockquote>
-<blockquote><p>«Материалы дела не содержат документов, подтверждающих наличие у ОАО „Рот Фронт" согласия обладателей авторских прав… на регистрацию знака.»</p></blockquote>
-<p><strong>Юридический смысл:</strong></p>
-<ul>
-<li>Ссылка на <strong>Киплинга</strong> не освобождает от <strong>согласия</strong>: права на персонажа/название у «Союзмультфильма» (на фильмы) и у наследников Киплинга (на литературу) возникли <strong>раньше приоритета ТЗ</strong>.</li>
-<li>Ссылка на <strong>Disney</strong> не даёт «Рот Фронту» прав: у Disney Enterprises есть свой ТЗ <strong>«МАУГЛИ MOWGLI» № 586329</strong> (приоритет 25.04.2012); чужой кадр ≠ согласие «Союзмультфильма».</li>
-<li>Отсутствие документов о согласии — <strong>ключевой пробел</strong> (аналог <strong>СИП-62/2023</strong> «Лекарство для Карлсона»).</li>
-</ul>
-<p>Прецедент <strong>А40-133098/2015</strong> (АСТ vs «Самовар»): ВС РФ (Обзор 23.09.2015) указал — права на мультфильмы и <strong>персонажей</strong>, созданные <strong>до 03.08.1993</strong>, принадлежат <strong>киностудии</strong>; у физлиц-создателей и наследников <strong>нет</strong> исключительных прав. Кассация СИП (05.2019) подтвердила исключительное право «Союзмультфильма» на изображения персонажей «Маугли». Это усиливает позицию студии против аргумента «мы опирались на художников / книгу».</p>
-</section>
+<h2 id="l24-h2-5">Недопустимость доказательств по ст. 75 УПК: когда нарушение процедуры «не спасает»</h2>
 
-<section id="boris-maugli-tz-flow" class="l24-boris-maugli-flow" aria-label="Аннулирование ТЗ «Маугли»: маршрут возражения в Роспатенте, решение ППС и обжалование в СИП">
+<p>Ст. 75 УПК — фундамент аргументации о <strong>недопустимости доказательств уголовное дело</strong>. Ч. 1 устанавливает общее правило: доказательства, полученные с нарушением УПК, недопустимы и не могут быть положены в основу обвинения. Ч. 2 п. 3 допускает использование <strong>иных</strong> доказательств, полученных с нарушением, если суд установит, что нарушение <strong>не влияет</strong> на их достоверность и не нарушает права участников.</p>
+
+<p>Пленум ВС № 1 (актуальная редакция) требует: при применении п. 3 ч. 2 ст. 75 суд <strong>выясняет конкретное нарушение</strong> и его влияние — а не автоматически исключает или сохраняет доказательство.</p>
+
+<h3 id="l24-h3-5-1">Ст. 75 УПК: перечень оснований и «существенность» нарушения</h3>
+
+<table><thead><tr><th>Основание</th><th>Норма</th><th>Практический эффект</th></tr></thead><tbody><tr><td>Получение с нарушением УПК</td><td>ч. 1 ст. 75</td><td>Исключение, нельзя основывать обвинение</td></tr><tr><td>Иные доказательства с нарушением</td><td>ч. 2 п. 3 ст. 75</td><td>Оценка влияния на достоверность</td></tr><tr><td>Подтверждение на допросе</td><td>ч. 2 п. 1 ст. 75</td><td>Отдельные основания недопустимости</td></tr><tr><td>Незаконное получение</td><td>ч. 2 п. 2 ст. 75</td><td>Абсолютная недопустимость</td></tr></tbody></table>
+
+<p>В деле № 32-УД26-10-K1 ВС фактически применил логику <strong>ч. 2 п. 3</strong>: нарушение при изъятии <strong>есть</strong>, но его <strong>существенность для достоверности КТЭ не доказана</strong>. Доказательство <strong>сохранено</strong>.</p>
+
+<h3 id="l24-h3-5-2">Связь с позицией ВС в деле о Google Earth — общий принцип оценки доказательств</h3>
+
+<p>Параллель с другим свежим определением Верховного Суда — <a href="/vs-google-earth-dokazatelstva-moshennichestvo-zashchita-2026/">дело о спутниковых снимках Google Earth и мошенничестве</a>. Там речь шла о другом предмете доказывания (ст. 159 УК, цифровые карты), но <strong>принцип тот же</strong>: суд оценивает не формальную безупречность получения доказательства, а <strong>совокупность</strong> обстоятельств — относимость, допустимость, достоверность, достаточность (ст. 88 УПК).</p>
+
+<p>Для защитника это означает: даже если удастся показать процессуальный дефект при обыске, нужно <strong>дополнительно</strong> доказать, что дефект <strong>породил сомнения в подлинности</strong> объекта экспертизы. Без этого позиция ВС 2026 года работает <strong>против</strong> обвиняемого.</p>
+
+<h2 id="l24-h2-6">Компьютерно-техническая экспертиза в уголовном деле: ст. 88 УПК и противоречащие заключения</h2>
+
+<p>Компьютерно-техническая экспертиза уголовное дело — один из ключевых инструментов обвинения в делах с цифровыми носителями. Назначается по ст. 195 УПК (постановление следователя, ознакомление защитника — ст. 198), проводится по правилам гл. 27 УПК.</p>
+
+<p>Ст. 88 УПК задаёт <strong>правила оценки</strong>: каждое доказательство проверяется на относимость, допустимость, достоверность; все в совокупности — на достаточность. Признание недопустимости — прерогатива суда (ст. 234, 235 УПК).</p>
+
+<h3 id="l24-h3-6-1">Допустимость КТЭ при спорном изъятии цифровых носителей</h3>
+
+<p>В деле № 32-УД26-10-K1 КТЭ 2013 года исследовала данные с <strong>неупакованных</strong> ноутбуков и телефона. ВС признал экспертизу <strong>допустимой</strong>, потому что:</p>
+
+<ul>
+
+<li>ч. 10 ст. 182 УПК не делает упаковку обязательной;</li>
+
+<li>защита не представила доказательств <strong>фактического</strong> изменения данных;</li>
+
+<li>заключение эксперта соответствует требованиям ст. 204 УПК (формальная сторона).</li>
+
+</ul>
+
+<p>Для защиты на других делах рабочая схема — <strong>цепочка идентификации</strong>:</p>
+
+<pre class="l24-code-chain" style="margin:1.25em 0;padding:14px 18px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;font-size:0.9rem;line-height:1.5;overflow-x:auto;">протокол обыска → описание устройства → упаковка/фото → постановление о экспертизе → заключение</pre>
+
+<p>Разрыв в любом звене + сомнения в подлинности — основание для ходатайства по ст. 75 и 88 УПК. Голое «не упаковали» — нет.</p>
+
+<h3 id="l24-h3-6-2">Как оспорить экспертное заключение: повторная, дополнительная, комплексная экспертиза</h3>
+
+<p><strong>Ст. 207 УПК</strong> — повторная экспертиза назначается при сомнениях в обоснованности заключения или <strong>противоречиях в выводах экспертов по тем же вопросам</strong>. Поручается <strong>другому</strong> эксперту.</p>
+
+<p>В деле № 32-УД26-10-K1 ВС <strong>отказал</strong> в повторной экспертизе: заключения 2013 и 2023 годов <strong>не содержат взаимоисключающих выводов</strong> — они отвечают на разные вопросы при разной методической базе.</p>
+
+<table><thead><tr><th>Ситуация</th><th>Перспектива повторной экспертизы (ст. 207)</th></tr></thead><tbody><tr><td>Эксперт А: «вещество единое», эксперт Б: «вещество не единое» — <strong>один вопрос</strong></td><td>Высокая</td></tr><tr><td>Эксперт 2013: «методики нет, ответить нельзя»; эксперт 2023: «по новой методике — не единое»</td><td>Низкая (как в № 32-УД26-10-K1)</td></tr><tr><td>Сомнения в квалификации эксперта, нарушение ст. 199 УПК</td><td>Средняя — через иные основания</td></tr><tr><td>Расхождение фото упаковки в протоколе и заключении</td><td>Средняя — через недопустимость</td></tr></tbody></table>
+
+<p>Позиция ВС в гражданском процессе (по данным Право.ru): при <strong>реально противоречащих</strong> экспертизах суд <strong>не вправе выбирать</strong> одно заключение — назначается новое исследование. В уголовном процессе аналогичная логика работает через ст. 207, но <strong>только при взаимоисключающих выводах</strong>.</p>
+
+<h2 id="l24-h2-7">Защита по уголовному делу: тактика при спорных доказательствах обыска</h2>
+
+<p>Защита по уголовному делу на стадии суда и кассации при спорных результатах обыска требует <strong>двухконтурной</strong> стратегии — термин из практики Legis24 UG:</p>
+
+<p><strong>Контур A</strong> — процессуальный: упаковка, идентификация вещдока, допустимость КТЭ, цепочка хранения.</p>
+
+<p><strong>Контур B</strong> — уголовно-правовой: квалификация деяния, размер, покушение vs оконченное преступление, ретроспективность (ст. 9 УК).</p>
+
+<p>В деле № 32-УД26-10-K1 контур A <strong>частично провалился</strong> (КТЭ сохранена), контур B <strong>сработал</strong> (проверочная закупка → покушение → −3 месяца).</p>
+
+<p>Общие принципы защиты на стадии проверки — в материале <a href="/zashchita-po-ugolovnomu-delu-stadiya-proverki/">«Защита по уголовному делу на стадии проверки»</a>.</p>
+
+<section id="boris-obysk-upakovka-flow" class="l24-boris-obysk-flow" aria-label="Двухконтурная защита по делу № 32-УД26-10-K1: процессуальный контур упаковки и КТЭ против уголовно-правового контура квалификации">
 <style>
-.l24-boris-maugli-flow {
-  --mg-jungle: #0c2418;
-  --mg-jungle-mid: #143528;
-  --mg-jungle-soft: #1e4d38;
-  --mg-leaf: #34d399;
-  --mg-leaf-soft: #6ee7b7;
-  --mg-gold: #fbbf24;
-  --mg-gold-soft: #fde68a;
-  --mg-sip: #a78bfa;
-  --mg-sip-soft: #c4b5fd;
-  --mg-muted: #94a3b8;
-  --mg-txt: #e2e8f0;
+.l24-boris-obysk-flow {
+  --ob-slate: #0f172a;
+  --ob-slate-mid: #1e293b;
+  --ob-slate-soft: #334155;
+  --ob-proc: #38bdf8;
+  --ob-proc-soft: #7dd3fc;
+  --ob-qual: #34d399;
+  --ob-qual-soft: #6ee7b7;
+  --ob-warn: #fbbf24;
+  --ob-warn-soft: #fde68a;
+  --ob-fail: #f87171;
+  --ob-muted: #94a3b8;
+  --ob-txt: #e2e8f0;
   margin: 48px 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.l24-boris-maugli-flow__shell {
-  background: linear-gradient(152deg, var(--mg-jungle) 0%, var(--mg-jungle-mid) 46%, #0f2a4a 100%);
-  border: 1px solid rgba(52, 211, 153, 0.28);
+.l24-boris-obysk-flow__shell {
+  background: linear-gradient(152deg, var(--ob-slate) 0%, var(--ob-slate-mid) 48%, #172554 100%);
+  border: 1px solid rgba(56, 189, 248, 0.24);
   border-radius: 14px;
   padding: 32px 28px 24px;
-  color: var(--mg-txt);
-  box-shadow: 0 18px 48px rgba(12, 36, 24, 0.42);
+  color: var(--ob-txt);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.48);
 }
-.l24-boris-maugli-flow__eyebrow {
+.l24-boris-obysk-flow__eyebrow {
   margin: 0 0 8px;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--mg-leaf-soft);
+  color: var(--ob-proc-soft);
 }
-.l24-boris-maugli-flow__title {
+.l24-boris-obysk-flow__title {
   margin: 0 0 10px;
   font-size: clamp(1.15rem, 2.4vw, 1.42rem);
   line-height: 1.25;
   color: #fff;
   font-weight: 700;
 }
-.l24-boris-maugli-flow__lead {
+.l24-boris-obysk-flow__lead {
   margin: 0 0 24px;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: var(--mg-muted);
+  color: var(--ob-muted);
   max-width: 72ch;
 }
-.l24-boris-maugli-flow__lead strong { color: #fff; }
-.l24-boris-maugli-flow__split {
+.l24-boris-obysk-flow__lead strong { color: #fff; }
+.l24-boris-obysk-flow__split {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
-  gap: 22px;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
   align-items: stretch;
   margin-bottom: 20px;
 }
-.l24-boris-maugli-flow__panel {
-  background: rgba(255, 255, 255, 0.05);
+.l24-boris-obysk-flow__panel {
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  padding: 20px 18px;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
 }
-.l24-boris-maugli-flow__panel-title {
-  margin: 0 0 14px;
-  font-size: 0.8rem;
+.l24-boris-obysk-flow__panel--a { border-top: 3px solid var(--ob-proc); }
+.l24-boris-obysk-flow__panel--b { border-top: 3px solid var(--ob-qual); }
+.l24-boris-obysk-flow__panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.l24-boris-obysk-flow__panel-title {
+  margin: 0;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--mg-gold-soft);
 }
-.l24-boris-maugli-flow__route-svg {
+.l24-boris-obysk-flow__panel--a .l24-boris-obysk-flow__panel-title { color: var(--ob-proc-soft); }
+.l24-boris-obysk-flow__panel--b .l24-boris-obysk-flow__panel-title { color: var(--ob-qual-soft); }
+.l24-boris-obysk-flow__badge {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.l24-boris-obysk-flow__badge--fail {
+  background: rgba(248, 113, 113, 0.14);
+  border: 1px solid rgba(248, 113, 113, 0.45);
+  color: #fca5a5;
+}
+.l24-boris-obysk-flow__badge--win {
+  background: rgba(52, 211, 153, 0.14);
+  border: 1px solid rgba(52, 211, 153, 0.45);
+  color: var(--ob-qual-soft);
+}
+.l24-boris-obysk-flow__route-svg {
   display: block;
   width: 100%;
   height: auto;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
+  flex: 1;
 }
-.l24-boris-maugli-flow__stages {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+.l24-boris-obysk-flow__steps {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.l24-boris-maugli-flow__stage {
-  padding: 11px 10px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.28);
-  border-top: 3px solid var(--mg-leaf);
-  font-size: 0.72rem;
+.l24-boris-obysk-flow__step {
+  padding: 9px 10px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.26);
+  font-size: 0.7rem;
   line-height: 1.38;
-  color: var(--mg-muted);
+  color: var(--ob-muted);
 }
-.l24-boris-maugli-flow__stage:nth-child(2) { border-top-color: var(--mg-gold); }
-.l24-boris-maugli-flow__stage:nth-child(3) { border-top-color: var(--mg-sip); }
-.l24-boris-maugli-flow__stage strong {
+.l24-boris-obysk-flow__panel--a .l24-boris-obysk-flow__step { border-left: 2px solid var(--ob-proc); }
+.l24-boris-obysk-flow__panel--b .l24-boris-obysk-flow__step { border-left: 2px solid var(--ob-qual); }
+.l24-boris-obysk-flow__step strong {
   display: block;
   color: #fff;
-  font-size: 0.78rem;
-  margin-bottom: 4px;
+  font-size: 0.74rem;
+  margin-bottom: 3px;
 }
-.l24-boris-maugli-flow__caption {
-  margin: 10px 0 0;
-  font-size: 0.68rem;
+.l24-boris-obysk-flow__step--weak { opacity: 0.72; }
+.l24-boris-obysk-flow__caption {
+  margin: 8px 0 0;
+  font-size: 0.66rem;
   line-height: 1.4;
   color: rgba(148, 163, 184, 0.88);
   text-align: center;
 }
-.l24-boris-maugli-flow__grounds {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin: 0 0 12px;
+.l24-boris-obysk-flow__merge {
+  margin: 0 0 16px;
+  padding: 16px 18px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px dashed rgba(251, 191, 36, 0.35);
 }
-.l24-boris-maugli-flow__ground {
-  display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
-  gap: 6px 10px;
-  align-items: start;
-  padding: 10px 11px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.24);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  font-size: 0.74rem;
-  line-height: 1.38;
-}
-.l24-boris-maugli-flow__ground--pps { border-left: 3px solid var(--mg-leaf); }
-.l24-boris-maugli-flow__ground--law { border-left: 3px solid var(--mg-gold); }
-.l24-boris-maugli-flow__ground--sip { border-left: 3px solid var(--mg-sip); }
-.l24-boris-maugli-flow__ground-label {
-  font-weight: 700;
-  color: #fff;
-  font-size: 0.76rem;
-}
-.l24-boris-maugli-flow__ground-text {
-  color: var(--mg-muted);
-}
-.l24-boris-maugli-flow__ground-text em {
-  font-style: normal;
-  color: #fff;
-  font-weight: 600;
-}
-.l24-boris-maugli-flow__vs {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
+.l24-boris-obysk-flow__merge-title {
   margin: 0 0 10px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ob-warn-soft);
+  text-align: center;
 }
-.l24-boris-maugli-flow__vs-card {
-  padding: 10px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  font-size: 0.72rem;
-  line-height: 1.4;
-}
-.l24-boris-maugli-flow__vs-card--win { border-color: rgba(52, 211, 153, 0.45); }
-.l24-boris-maugli-flow__vs-card--risk { border-color: rgba(251, 191, 36, 0.45); }
-.l24-boris-maugli-flow__vs-card strong {
+.l24-boris-obysk-flow__merge-svg {
   display: block;
-  color: #fff;
-  font-size: 0.76rem;
-  margin-bottom: 4px;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 0 auto;
 }
-.l24-boris-maugli-flow__note {
-  margin: 0;
-  font-size: 0.76rem;
-  line-height: 1.45;
-  color: var(--mg-muted);
-}
-.l24-boris-maugli-flow__note em {
-  font-style: normal;
-  color: var(--mg-sip-soft);
-  font-weight: 600;
-}
-.l24-boris-maugli-flow__total {
+.l24-boris-obysk-flow__total {
   margin: 0 0 16px;
   padding: 14px 16px;
   border-radius: 10px;
@@ -2929,370 +3161,362 @@ FAQ: microdata FAQPage на секции #faq + hidden JSON-LD для Rank Math
   border: 1px solid rgba(52, 211, 153, 0.32);
   font-size: 0.84rem;
   line-height: 1.5;
-  color: var(--mg-muted);
+  color: var(--ob-muted);
 }
-.l24-boris-maugli-flow__total strong { color: var(--mg-leaf-soft); }
-.l24-boris-maugli-flow__foot {
+.l24-boris-obysk-flow__total strong { color: var(--ob-qual-soft); }
+.l24-boris-obysk-flow__foot {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   padding-top: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-.l24-boris-maugli-flow__tag {
+.l24-boris-obysk-flow__tag {
   font-size: 0.72rem;
   font-weight: 600;
   padding: 6px 10px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.05);
-  color: var(--mg-txt);
+  color: var(--ob-txt);
   border: 1px solid rgba(255, 255, 255, 0.13);
 }
-.l24-boris-maugli-flow__tag--case { border-color: rgba(251, 191, 36, 0.45); color: var(--mg-gold-soft); }
-.l24-boris-maugli-flow__tag--law { border-color: rgba(52, 211, 153, 0.45); color: var(--mg-leaf-soft); }
-.l24-boris-maugli-flow__tag--sip { border-color: rgba(167, 139, 250, 0.45); color: var(--mg-sip-soft); }
+.l24-boris-obysk-flow__tag--case { border-color: rgba(251, 191, 36, 0.45); color: var(--ob-warn-soft); }
+.l24-boris-obysk-flow__tag--proc { border-color: rgba(56, 189, 248, 0.45); color: var(--ob-proc-soft); }
+.l24-boris-obysk-flow__tag--qual { border-color: rgba(52, 211, 153, 0.45); color: var(--ob-qual-soft); }
 @media (max-width: 860px) {
-  .l24-boris-maugli-flow__split { grid-template-columns: 1fr; }
-  .l24-boris-maugli-flow__stages { grid-template-columns: 1fr; }
-  .l24-boris-maugli-flow__ground { grid-template-columns: 1fr; gap: 4px; }
-  .l24-boris-maugli-flow__vs { grid-template-columns: 1fr; }
-  .l24-boris-maugli-flow__shell { padding: 24px 18px 20px; }
+  .l24-boris-obysk-flow__split { grid-template-columns: 1fr; }
+  .l24-boris-obysk-flow__shell { padding: 24px 18px 20px; }
 }
 </style>
 
-<div class="l24-boris-maugli-flow__shell">
-  <p class="l24-boris-maugli-flow__eyebrow">ППС · ТЗ № 162034 · Союзмультфильм vs Рот Фронт · решение 24.08.2026</p>
-  <h3 class="l24-boris-maugli-flow__title">Возражение → решение → СИП: как аннулировали «МАУГЛИ ДРАЖЕ»</h3>
-  <p class="l24-boris-maugli-flow__lead">В деле «Маугли» спор о <strong>недействительности охраны</strong> прошёл административный рубеж: <strong>возражение</strong> «Союзмультфильма» → коллегия <strong>ППС</strong> → решение об <strong>аннулировании</strong> ТЗ <strong>№ 162034</strong>. Для «Рот Фронта» следующий этап — <strong>обжалование в СИП</strong> в срок <strong>3 месяца</strong> (ч. 4 ст. 198 АПК), но прецедент <strong>СИП-62/2023</strong> (Карлсон) ухудшает позицию правообладателя без согласия.</p>
+<div class="l24-boris-obysk-flow__shell">
+  <p class="l24-boris-obysk-flow__eyebrow">ВС РФ · дело № 32-УД26-10-K1 · 24.08.2026 · двухконтурная защита</p>
+  <h3 class="l24-boris-obysk-flow__title">Два контура защиты: упаковка/КТЭ и квалификация по ст. 9 УК</h3>
+  <p class="l24-boris-obysk-flow__lead">В кассации по делу № 32-УД26-10-K1 защита атаковала <strong>процессуально</strong> (неупакованные ноутбуки → недопустимость КТЭ) и <strong>уголовно-правово</strong> (проверочная закупка → покушение). ВС отклонил контур A, но <strong>снизил срок на 3 месяца</strong> по контуру B — с <strong>10 лет 6 мес.</strong> до <strong>10 лет 3 мес.</strong></p>
 
-  <div class="l24-boris-maugli-flow__split">
-    <div class="l24-boris-maugli-flow__panel">
-      <p class="l24-boris-maugli-flow__panel-title">Сквозной маршрут (дело «Маугли»)</p>
-      <svg class="l24-boris-maugli-flow__route-svg" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mgFlowT mgFlowD">
-        <title id="mgFlowT">Маршрут аннулирования ТЗ «МАУГЛИ ДРАЖЕ»: возражение, решение ППС, СИП</title>
-        <desc id="mgFlowD">Три этапа: возражение Союзмультфильма 30.12.2025, решение ППС 24.08.2026 об аннулировании № 162034, опциональное обжалование Рот Фронта в СИП за 3 месяца</desc>
+  <div class="l24-boris-obysk-flow__split">
+    <!-- КОНТУР A -->
+    <div class="l24-boris-obysk-flow__panel l24-boris-obysk-flow__panel--a">
+      <div class="l24-boris-obysk-flow__panel-head">
+        <p class="l24-boris-obysk-flow__panel-title">Контур A — процессуальный</p>
+        <span class="l24-boris-obysk-flow__badge l24-boris-obysk-flow__badge--fail">частично провалился</span>
+      </div>
+      <svg class="l24-boris-obysk-flow__route-svg" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="obFlowAT obFlowAD">
+        <title id="obFlowAT">Контур A: цепочка упаковки и КТЭ при обыске</title>
+        <desc id="obFlowAD">Обыск → протокол → упаковка/фото → КТЭ → ст. 75 УПК. В деле № 32-УД26-10-K1 КТЭ сохранена: голый довод «не упаковали» отклонён</desc>
         <defs>
-          <linearGradient id="mgFlowLine" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#34d399"/>
-            <stop offset="50%" stop-color="#fbbf24"/>
-            <stop offset="100%" stop-color="#a78bfa"/>
+          <linearGradient id="obProcLine" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#38bdf8"/>
+            <stop offset="100%" stop-color="#7dd3fc"/>
           </linearGradient>
-          <marker id="mgFlowArr" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
-            <polygon points="0 0, 8 3.5, 0 7" fill="#fbbf24"/>
+          <marker id="obProcArr" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+            <polygon points="0 0, 7 3, 0 6" fill="#7dd3fc"/>
           </marker>
-          <filter id="mgFlowGlow" x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+          <filter id="obProcGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
           </filter>
         </defs>
 
-        <rect x="12" y="12" width="576" height="196" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+        <rect x="8" y="8" width="504" height="184" rx="10" fill="rgba(56,189,248,0.04)" stroke="rgba(56,189,248,0.18)" stroke-width="1.2"/>
 
-        <line x1="88" y1="108" x2="512" y2="108" stroke="url(#mgFlowLine)" stroke-width="4" stroke-linecap="round"/>
-        <line x1="88" y1="108" x2="512" y2="108" stroke="rgba(52,211,153,0.2)" stroke-width="10" stroke-linecap="round"/>
+        <!-- Цепочка звеньев -->
+        <line x1="52" y1="88" x2="468" y2="88" stroke="rgba(56,189,248,0.15)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="52" y1="88" x2="468" y2="88" stroke="url(#obProcLine)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6,4" opacity="0.7"/>
 
-        <!-- Этап 1: Возражение -->
-        <circle cx="108" cy="108" r="28" fill="#143528" stroke="#34d399" stroke-width="3" filter="url(#mgFlowGlow)"/>
-        <circle cx="108" cy="108" r="10" fill="#34d399"/>
-        <text x="108" y="52" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="800" font-family="system-ui,sans-serif">① ВОЗРАЖЕНИЕ</text>
-        <rect x="36" y="60" width="144" height="72" rx="8" fill="rgba(52,211,153,0.12)" stroke="#34d399" stroke-width="1.2"/>
-        <text x="48" y="76" fill="#6ee7b7" font-size="7" font-weight="800" font-family="system-ui,sans-serif">Союзмультфильм</text>
-        <text x="48" y="90" fill="#fff" font-size="8.5" font-weight="800" font-family="system-ui,sans-serif">30.12.2025</text>
-        <text x="48" y="104" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">ВОЗ_18ТЗ · ППС</text>
-        <text x="48" y="118" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">п. 9 ст. 1483 · без согласия</text>
-        <line x1="108" y1="136" x2="108" y2="148" stroke="#34d399" stroke-width="1.2" stroke-dasharray="3,2"/>
+        <!-- 1 Обыск -->
+        <circle cx="52" cy="88" r="22" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5" filter="url(#obProcGlow)"/>
+        <text x="52" y="92" text-anchor="middle" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">1</text>
+        <text x="52" y="58" text-anchor="middle" fill="#7dd3fc" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ОБЫСК</text>
+        <text x="52" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">2 ноутбука</text>
+        <text x="52" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">+ телефон</text>
 
-        <!-- Этап 2: Решение -->
-        <circle cx="300" cy="108" r="32" fill="#1e293b" stroke="#fbbf24" stroke-width="3.5" filter="url(#mgFlowGlow)"/>
-        <circle cx="300" cy="108" r="11" fill="#fbbf24"/>
-        <text x="300" y="44" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="800" font-family="system-ui,sans-serif">② РЕШЕНИЕ ППС</text>
-        <rect x="216" y="148" width="168" height="52" rx="8" fill="rgba(251,191,36,0.12)" stroke="#fbbf24" stroke-width="1.4"/>
-        <text x="228" y="166" fill="#fde68a" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">Аннулирование № 162034</text>
-        <text x="228" y="180" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">24.08.2026 · РАПСИ</text>
-        <text x="228" y="194" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">коллегия 15.05.2026 · Батищева</text>
-        <line x1="300" y1="140" x2="300" y2="144" stroke="#fbbf24" stroke-width="1.2" stroke-dasharray="3,2"/>
+        <!-- 2 Протокол -->
+        <circle cx="156" cy="88" r="22" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5" filter="url(#obProcGlow)"/>
+        <text x="156" y="92" text-anchor="middle" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">2</text>
+        <text x="156" y="58" text-anchor="middle" fill="#7dd3fc" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ПРОТОКОЛ</text>
+        <text x="156" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">ст. 166–167</text>
+        <text x="156" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">УПК</text>
 
-        <!-- Этап 3: СИП -->
-        <circle cx="492" cy="108" r="28" fill="#143528" stroke="#a78bfa" stroke-width="3" filter="url(#mgFlowGlow)"/>
-        <circle cx="492" cy="108" r="10" fill="#a78bfa"/>
-        <text x="492" y="52" text-anchor="middle" fill="#c4b5fd" font-size="8" font-weight="800" font-family="system-ui,sans-serif">③ СИП (опция)</text>
-        <rect x="420" y="60" width="144" height="72" rx="8" fill="rgba(167,139,250,0.12)" stroke="#a78bfa" stroke-width="1.2"/>
-        <text x="432" y="76" fill="#c4b5fd" font-size="7" font-weight="800" font-family="system-ui,sans-serif">Рот Фронт</text>
-        <text x="432" y="90" fill="#fff" font-size="8.5" font-weight="800" font-family="system-ui,sans-serif">3 месяца</text>
-        <text x="432" y="104" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">ч. 4 ст. 198 АПК</text>
-        <text x="432" y="118" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">ст. 1248 — досудебный этап</text>
-        <line x1="492" y1="136" x2="492" y2="148" stroke="#a78bfa" stroke-width="1.2" stroke-dasharray="3,2"/>
+        <!-- 3 Упаковка (перечёркнуто) -->
+        <circle cx="260" cy="88" r="24" fill="#1e293b" stroke="#f87171" stroke-width="2.5" stroke-dasharray="4,3" filter="url(#obProcGlow)"/>
+        <text x="260" y="92" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="800" font-family="system-ui,sans-serif">✕</text>
+        <text x="260" y="58" text-anchor="middle" fill="#fca5a5" font-size="7" font-weight="700" font-family="system-ui,sans-serif">УПАКОВКА</text>
+        <text x="260" y="128" text-anchor="middle" fill="#f87171" font-size="6" font-family="system-ui,sans-serif">не произведена</text>
+        <text x="260" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">ч. 10 ст. 182</text>
 
-        <path d="M136 108 L264 108" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#mgFlowArr)" opacity="0.8"/>
-        <path d="M332 108 L464 108" fill="none" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#mgFlowArr)" opacity="0.8"/>
+        <!-- 4 КТЭ -->
+        <circle cx="364" cy="88" r="22" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5" filter="url(#obProcGlow)"/>
+        <text x="364" y="92" text-anchor="middle" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">4</text>
+        <text x="364" y="58" text-anchor="middle" fill="#7dd3fc" font-size="7" font-weight="700" font-family="system-ui,sans-serif">КТЭ</text>
+        <text x="364" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">заключение</text>
+        <text x="364" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">2013 г.</text>
 
-        <rect x="200" y="168" width="200" height="0" fill="none"/>
-        <text x="300" y="28" text-anchor="middle" fill="#fde68a" font-size="7.5" font-weight="700" font-family="system-ui,sans-serif">«МАУГЛИ ДРАЖЕ» · класс 30 · приоритет 30.01.1996</text>
+        <!-- 5 ст. 75 -->
+        <circle cx="468" cy="88" r="22" fill="#1e293b" stroke="#fbbf24" stroke-width="2.5" filter="url(#obProcGlow)"/>
+        <text x="468" y="92" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="800" font-family="system-ui,sans-serif">75</text>
+        <text x="468" y="58" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ст. 75</text>
+        <text x="468" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">ч. 2 п. 3</text>
+        <text x="468" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">УПК</text>
+
+        <path d="M74 88 L130 88" fill="none" stroke="#38bdf8" stroke-width="1.2" marker-end="url(#obProcArr)" opacity="0.8"/>
+        <path d="M178 88 L234 88" fill="none" stroke="#38bdf8" stroke-width="1.2" marker-end="url(#obProcArr)" opacity="0.8"/>
+        <path d="M286 88 L340 88" fill="none" stroke="#f87171" stroke-width="1.2" marker-end="url(#obProcArr)" opacity="0.6"/>
+        <path d="M386 88 L444 88" fill="none" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#obProcArr)" opacity="0.8"/>
+
+        <!-- Итог контура A -->
+        <rect x="120" y="158" width="280" height="28" rx="6" fill="rgba(248,113,113,0.12)" stroke="rgba(248,113,113,0.4)" stroke-width="1.2"/>
+        <text x="260" y="176" text-anchor="middle" fill="#fca5a5" font-size="7.5" font-weight="700" font-family="system-ui,sans-serif">КТЭ сохранена · недопустимость не доказана</text>
       </svg>
 
-      <ol class="l24-boris-maugli-flow__stages" aria-label="Три этапа маршрута">
-        <li class="l24-boris-maugli-flow__stage">
-          <strong>Возражение в Роспатент</strong>
-          Заинтересованное лицо (Союзмультфильм) · весь срок охраны для п. 9 ст. 1483 · пакет: известность персонажа, отсутствие согласия.
+      <ul class="l24-boris-obysk-flow__steps" aria-label="Шаги контура A">
+        <li class="l24-boris-obysk-flow__step l24-boris-obysk-flow__step--weak">
+          <strong>Слабый довод (отклонён)</strong>
+          «Не упаковали → КТЭ недопустима» — ВС: ч. 10 ст. 182 не делает упаковку обязательной.
         </li>
-        <li class="l24-boris-maugli-flow__stage">
-          <strong>Решение ППС</strong>
-          Признание охраны недействительной · тождественность «Маугли» с циклом мультфильма · доводы Киплинга/Disney отклонены.
+        <li class="l24-boris-obysk-flow__step">
+          <strong>Сильный довод (для иных дел)</strong>
+          Разрыв цепочки: протокол ↔ бирка ↔ фото ↔ заключение; переупаковка; ст. 164.1 для ЭНИ.
         </li>
-        <li class="l24-boris-maugli-flow__stage">
-          <strong>Обжалование в СИП</strong>
-          Для проигравшего правообладателя · госпошлина 6 000 ₽ · кассация: президиум СИП → ВС РФ.
-        </li>
-      </ol>
-      <p class="l24-boris-maugli-flow__caption">Схема по РАПСИ 24.08.2026 и расписанию ППС ФИПС (май 2026)</p>
+      </ul>
+      <p class="l24-boris-obysk-flow__caption">Цепочка идентификации: протокол → упаковка/фото → постановление → заключение</p>
     </div>
 
-    <div class="l24-boris-maugli-flow__panel">
-      <p class="l24-boris-maugli-flow__panel-title">Что важно на каждом рубеже</p>
-      <div class="l24-boris-maugli-flow__vs">
-        <div class="l24-boris-maugli-flow__vs-card l24-boris-maugli-flow__vs-card--win">
-          <strong>Союзмультфильм (победа ППС)</strong>
-          Охрана ТЗ прекращена — «Рот Фронт» не может запрещать «Маугли» как знак. Риск по АП на образ сохраняется отдельно.
-        </div>
-        <div class="l24-boris-maugli-flow__vs-card l24-boris-maugli-flow__vs-card--risk">
-          <strong>Рот Фронт (путь в СИП)</strong>
-          Нужны документы согласия — без них прецедент СИП-62/2023 (Карлсон): суд подтвердил Роспатент по п. 9 ст. 1483.
-        </div>
+    <!-- КОНТУР B -->
+    <div class="l24-boris-obysk-flow__panel l24-boris-obysk-flow__panel--b">
+      <div class="l24-boris-obysk-flow__panel-head">
+        <p class="l24-boris-obysk-flow__panel-title">Контур B — уголовно-правовой</p>
+        <span class="l24-boris-obysk-flow__badge l24-boris-obysk-flow__badge--win">сработал · −3 мес.</span>
       </div>
-      <div class="l24-boris-maugli-flow__grounds">
-        <div class="l24-boris-maugli-flow__ground l24-boris-maugli-flow__ground--pps">
-          <span class="l24-boris-maugli-flow__ground-label">ППС · доказательства</span>
-          <span class="l24-boris-maugli-flow__ground-text">Известность цикла «Маугли» (1967–1973), <em>тождественность</em> словесного элемента, отсутствие согласия киностудии и наследников Киплинга.</span>
-        </div>
-        <div class="l24-boris-maugli-flow__ground l24-boris-maugli-flow__ground--law">
-          <span class="l24-boris-maugli-flow__ground-label">ст. 1483 · 1512 ГК</span>
-          <span class="l24-boris-maugli-flow__ground-text"><em>пп. 1 п. 9 ст. 1483</em> — персонаж без согласия; абсолютное основание по п. 2 ст. 1512 (весь срок охраны).</span>
-        </div>
-        <div class="l24-boris-maugli-flow__ground l24-boris-maugli-flow__ground--sip">
-          <span class="l24-boris-maugli-flow__ground-label">СИП · сроки</span>
-          <span class="l24-boris-maugli-flow__ground-text"><em>3 месяца</em> на иск (ч. 4 ст. 198 АПК) · досудебный порядок по ст. 1248 обязателен · ВС 12.08.2025 отказал в кассации по Карлсону.</span>
-        </div>
-      </div>
-      <p class="l24-boris-maugli-flow__note"><em>≠ иск о нарушении:</em> возражение спорит о регистрации; претензия по авторскому праву на этикетку — отдельная линия (пример: Волк на дыне, 11.08.2026).</p>
+      <svg class="l24-boris-obysk-flow__route-svg" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="obFlowBT obFlowBD">
+        <title id="obFlowBT">Контур B: квалификация проверочной закупки по ст. 9 УК и Пленуму № 14</title>
+        <desc id="obFlowBD">Проверочная закупка 20.06.2013 → ст. 9 УК → п. 13 Пленума № 14 (ред. 2010) → покушение → снижение срока на 3 месяца</desc>
+        <defs>
+          <linearGradient id="obQualLine" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#34d399"/>
+            <stop offset="100%" stop-color="#6ee7b7"/>
+          </linearGradient>
+          <marker id="obQualArr" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+            <polygon points="0 0, 7 3, 0 6" fill="#6ee7b7"/>
+          </marker>
+          <filter id="obQualGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
+          </filter>
+        </defs>
+
+        <rect x="8" y="8" width="504" height="184" rx="10" fill="rgba(52,211,153,0.04)" stroke="rgba(52,211,153,0.18)" stroke-width="1.2"/>
+
+        <line x1="52" y1="88" x2="468" y2="88" stroke="rgba(52,211,153,0.15)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="52" y1="88" x2="468" y2="88" stroke="url(#obQualLine)" stroke-width="2.5" stroke-linecap="round"/>
+
+        <!-- 1 Проверочная закупка -->
+        <circle cx="52" cy="88" r="22" fill="#1e293b" stroke="#34d399" stroke-width="2.5" filter="url(#obQualGlow)"/>
+        <text x="52" y="92" text-anchor="middle" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">1</text>
+        <text x="52" y="54" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">ПРОВЕРОЧНАЯ</text>
+        <text x="52" y="64" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">ЗАКУПКА</text>
+        <text x="52" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">20.06.2013</text>
+        <text x="52" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">марихуана</text>
+
+        <!-- 2 ст. 9 УК -->
+        <circle cx="182" cy="88" r="22" fill="#1e293b" stroke="#34d399" stroke-width="2.5" filter="url(#obQualGlow)"/>
+        <text x="182" y="92" text-anchor="middle" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">9</text>
+        <text x="182" y="58" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ст. 9 УК</text>
+        <text x="182" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">закон на</text>
+        <text x="182" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">момент деяния</text>
+
+        <!-- 3 Пленум 14 -->
+        <circle cx="312" cy="88" r="24" fill="#1e293b" stroke="#34d399" stroke-width="3" filter="url(#obQualGlow)"/>
+        <text x="312" y="92" text-anchor="middle" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">14</text>
+        <text x="312" y="54" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">ПЛЕНУМ</text>
+        <text x="312" y="64" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">ВС № 14</text>
+        <text x="312" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">п. 13 · ред.</text>
+        <text x="312" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">23.12.2010</text>
+
+        <!-- 4 Покушение -->
+        <circle cx="442" cy="88" r="22" fill="#14532d" stroke="#6ee7b7" stroke-width="2.5" filter="url(#obQualGlow)"/>
+        <text x="442" y="86" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="800" font-family="system-ui,sans-serif">ч.3</text>
+        <text x="442" y="96" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="800" font-family="system-ui,sans-serif">ст.30</text>
+        <text x="442" y="58" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ПОКУШЕНИЕ</text>
+        <text x="442" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">вместо</text>
+        <text x="442" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">оконч. сбыта</text>
+
+        <path d="M74 88 L158 88" fill="none" stroke="#34d399" stroke-width="1.2" marker-end="url(#obQualArr)" opacity="0.9"/>
+        <path d="M204 88 L286 88" fill="none" stroke="#34d399" stroke-width="1.2" marker-end="url(#obQualArr)" opacity="0.9"/>
+        <path d="M336 88 L418 88" fill="none" stroke="#34d399" stroke-width="1.2" marker-end="url(#obQualArr)" opacity="0.9"/>
+
+        <!-- Итог контура B -->
+        <rect x="120" y="158" width="280" height="28" rx="6" fill="rgba(52,211,153,0.14)" stroke="rgba(52,211,153,0.45)" stroke-width="1.2"/>
+        <text x="260" y="176" text-anchor="middle" fill="#6ee7b7" font-size="7.5" font-weight="700" font-family="system-ui,sans-serif">10 лет 6 мес. → 10 лет 3 мес. (−3 мес.)</text>
+      </svg>
+
+      <ul class="l24-boris-obysk-flow__steps" aria-label="Шаги контура B">
+        <li class="l24-boris-obysk-flow__step">
+          <strong>Переквалификация эпизода</strong>
+          Суд I инстанции: оконченный сбыт → ВС: покушение (ч. 3 ст. 30 + ст. 228.1) по закону, действовавшему до 30.06.2015.
+        </li>
+        <li class="l24-boris-obysk-flow__step">
+          <strong>Ретроспективность</strong>
+          ст. 9 УК + п. 13 Пленума № 14 (ред. 23.12.2010): изъятие из оборота при проверочной закупке = покушение.
+        </li>
+      </ul>
+      <p class="l24-boris-obysk-flow__caption">Пленум № 14 от 15.06.2006 · п. 13 в ред. 23.12.2010 · до изменений 30.06.2015</p>
     </div>
   </div>
 
-  <p class="l24-boris-maugli-flow__total"><strong>Ключ для производителя:</strong> административный маршрут (возражение → ППС) может аннулировать ТЗ быстрее суда. После решения Роспатента проигравшая сторона идёт в <strong>СИП</strong>, но без согласия на персонаж шансы ограничены — как в деле «Маугли» и аналоге «Карлсон».</p>
+  <!-- Сводка: оба контура → итог кассации -->
+  <div class="l24-boris-obysk-flow__merge">
+    <p class="l24-boris-obysk-flow__merge-title">Итог кассации · дело № 32-УД26-10-K1</p>
+    <svg class="l24-boris-obysk-flow__merge-svg" viewBox="0 0 520 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Сводка: контур A провалился, контур B дал снижение наказания">
+      <defs>
+        <marker id="obMergeArr" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+          <polygon points="0 0, 6 2.5, 0 5" fill="#fde68a"/>
+        </marker>
+      </defs>
+      <rect x="16" y="20" width="140" height="32" rx="6" fill="rgba(56,189,248,0.1)" stroke="rgba(56,189,248,0.35)" stroke-width="1.2"/>
+      <text x="86" y="34" text-anchor="middle" fill="#7dd3fc" font-size="7" font-weight="700" font-family="system-ui,sans-serif">КОНТУР A</text>
+      <text x="86" y="46" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-family="system-ui,sans-serif">КТЭ сохранена</text>
 
-  <div class="l24-boris-maugli-flow__foot">
-    <span class="l24-boris-maugli-flow__tag l24-boris-maugli-flow__tag--case">ТЗ № 162034</span>
-    <span class="l24-boris-maugli-flow__tag l24-boris-maugli-flow__tag--law">п. 9 ст. 1483</span>
-    <span class="l24-boris-maugli-flow__tag l24-boris-maugli-flow__tag--sip">СИП-62/2023</span>
-    <span class="l24-boris-maugli-flow__tag">класс 30</span>
-    <span class="l24-boris-maugli-flow__tag">24.08.2026</span>
+      <rect x="184" y="20" width="140" height="32" rx="6" fill="rgba(52,211,153,0.12)" stroke="rgba(52,211,153,0.4)" stroke-width="1.2"/>
+      <text x="254" y="34" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="700" font-family="system-ui,sans-serif">КОНТУР B</text>
+      <text x="254" y="46" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-family="system-ui,sans-serif">покушение · −3 мес.</text>
+
+      <line x1="156" y1="36" x2="178" y2="36" stroke="#475569" stroke-width="1" stroke-dasharray="3,2"/>
+      <text x="167" y="30" text-anchor="middle" fill="#64748b" font-size="5.5" font-family="system-ui,sans-serif">+</text>
+
+      <path d="M324 36 L368 36" fill="none" stroke="#fde68a" stroke-width="1.5" marker-end="url(#obMergeArr)"/>
+
+      <rect x="372" y="14" width="132" height="44" rx="8" fill="rgba(251,191,36,0.12)" stroke="#fbbf24" stroke-width="1.4"/>
+      <text x="438" y="32" text-anchor="middle" fill="#fde68a" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">10 лет 6 мес.</text>
+      <text x="438" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">→ 10 лет 3 мес.</text>
+      <text x="438" y="54" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">ИК строгого режима</text>
+    </svg>
+  </div>
+
+  <p class="l24-boris-obysk-flow__total"><strong>Урок для защитника:</strong> не ставить всё на один довод. После определения ВС 24.08.2026 формула «не упаковали — недопустимо» <strong>сама по себе не работает</strong> — нужна цепочка идентификации и доказательство влияния на достоверность (ст. 75, 88 УПК). Параллельно проверяйте <strong>квалификацию каждого эпизода</strong> — ст. 9 УК и редакция Пленума № 14 на дату деяния могут дать снижение даже при сохранении КТЭ.</p>
+
+  <div class="l24-boris-obysk-flow__foot">
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--case">№ 32-УД26-10-K1</span>
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--proc">ч. 10 ст. 182 УПК</span>
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--proc">ст. 75 · 88 УПК</span>
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--qual">ст. 9 УК</span>
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--qual">Пленум № 14</span>
+    <span class="l24-boris-obysk-flow__tag">24.08.2026</span>
   </div>
 </div>
 </section>
 
-<section class="ym-section" id="s3-vozrazhenie" aria-labelledby="s3-vozrazhenie-h">
-<h2 id="s3-vozrazhenie-h">Возражение против товарного знака в Роспатенте: сроки, основания и порядок</h2>
-<p><strong>Возражение против товарного знака</strong> — административный спор в <strong>Палате по патентным спорам</strong> Роспатента. Это <strong>обязательный</strong> этап перед <strong>обжалованием решения Роспатента в СИП</strong> по большинству споров о регистрации (ст. 1248 ГК РФ).</p>
-<h3>Когда подавать возражение и что проверить до подачи</h3>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Вопрос</th><th>Правило</th></tr></thead><tbody><tr><td>Кто вправе подать</td><td><strong>Заинтересованное лицо</strong> (п. 2 ст. 1513 ГК РФ) — конкурент, правообладатель АП на произведение</td></tr><tr><td>Срок</td><td>По пп. 1 п. 2 ст. 1512 — по нарушению п. 1–5, 8, <strong>9</strong> ст. 1483 — <strong>в течение всего срока</strong> правовой охраны</td></tr><tr><td>Основание в деле «Маугли»</td><td><strong>пп. 1 п. 9 ст. 1483</strong> — тождественность с названием/персонажем известного произведения <strong>без согласия</strong></td></tr><tr><td>Что проверить</td><td>Реестр ТЗ (fips.ru), свидетельство, классы МКТУ, дата приоритета, наличие согласия у правообладателя</td></tr></tbody></table></div>
-<p>Типичные ошибки заявителя возражения:</p>
-<ul>
-<li>подача <strong>после</strong> истечения срока (для иных оснований — 5 лет с даты регистрации);</li>
-<li>слабый пакет на <strong>известность</strong> произведения в РФ (ст. 1492 ГК РФ);</li>
-<li>отсутствие доказательств <strong>заинтересованности</strong>;</li>
-<li>фокус только на графике, игнорирование <strong>сильного словесного элемента</strong> «Маугли».</li>
-</ul>
-<h3>Какие доказательства убедили Роспатент в деле «Маугли»</h3>
-<p>В споре «Союзмультфильма» сработала связка:</p>
-<ol>
-<li><strong>Тождественность</strong> словесного элемента с названием цикла и персонажем.</li>
-<li><strong>Известность</strong> мультфильма для российского потребителя (фильмы 1967–1973).</li>
-<li><strong>Отсутствие согласия</strong> — ни у студии, ни у наследников Киплинга в материалах дела.</li>
-<li><strong>Заинтересованность</strong> «Союзмультфильма» как правообладателя АП.</li>
-</ol>
-<p>Для аналогичного <strong>возражения в Роспатенте товарный знак</strong> с элементом персонажа пакет обычно включает: выписки из реестра, копии произведений, данные о тиражах и трансляциях, сравнительный анализ обозначений, документы о правах на произведение.</p>
-</section>
 
-<section class="ym-section" id="s4-1483" aria-labelledby="s4-1483-h">
-<h2 id="s4-1483-h">Ст. 1483 и 1512 ГК РФ: основания недействительности охраны товарного знака</h2>
-<p><strong>Недействительность товарного знака</strong> — институт <strong>ст. 1512 ГК РФ</strong>. Он отличается от отказа в регистрации и от <strong>прекращения</strong> охраны за неиспользование.</p>
-<h3>Какие пункты ст. 1483 применимы к знакам с именем персонажа</h3>
-<p><strong>Ст. 1483 ГК РФ, п. 9, пп. 1</strong> запрещает регистрацию без согласия правообладателя обозначений, <strong>тождественных</strong>:</p>
-<ul>
-<li>названию <strong>известного</strong> в РФ произведения (ст. 1492 ГК РФ);</li>
-<li><strong>персонажу</strong> или цитате из произведения;</li>
-<li>произведению искусства или фрагменту;</li>
-</ul>
-<p>если права возникли <strong>раньше приоритета</strong> регистрируемого ТЗ.</p>
-<p>В деле «Маугли» Роспатент применил именно эту норму — не описательность (как в споре <strong>«Живые витамины»</strong> по <strong>п. 1, 3 ст. 1483</strong>) и не злоупотребление правом.</p>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Кейс</th><th>Основание</th><th>Механизм</th></tr></thead><tbody><tr><td><strong>Маугли / Рот Фронт</strong></td><td><strong>п. 9 ст. 1483</strong></td><td>Персонаж/название без согласия</td></tr><tr><td><strong>Карлсон / СИП-62/2023</strong></td><td><strong>п. 9 ст. 1483</strong></td><td>СИП подтвердил Роспатент; ВС отказал в кассации (12.08.2025)</td></tr><tr><td><strong>Живые витамины / СИП-1097/2025</strong></td><td><strong>п. 1, 3 ст. 1483</strong></td><td>Описательность — другой угол</td></tr></tbody></table></div>
-<h3>Чем отличается недействительность (ст. 1512) от прекращения охраны</h3>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Институт</th><th>Норма</th><th>Суть</th><th>Срок оспаривания</th></tr></thead><tbody><tr><td><strong>Недействительность</strong></td><td>ст. 1512</td><td>Охрана <strong>никогда</strong> была предоставлена законно; эффект с <strong>даты приоритета</strong></td><td>По п. 9 — <strong>весь срок охраны</strong></td></tr><tr><td><strong>Прекращение</strong> за неиспользование</td><td>ст. 1486, 1514</td><td>Знак не использовался</td><td>5 лет неиспользования + лимиты по ст. 1512</td></tr><tr><td><strong>Исключение элемента</strong></td><td>ст. 1483, 1512</td><td>Элемент неохраняемый, знак частично действует</td><td>Зависит от основания</td></tr></tbody></table></div>
-<p>После <strong>аннулирования</strong> «Рот Фронт» <strong>не может</strong> запрещать конкурентам слово «Маугли» как <strong>товарный знак</strong>. Но <strong>отдельный риск по авторскому праву</strong> сохраняется: «Союзмультфильм» может требовать прекращения использования <strong>образа/имени</strong> на упаковке (ст. 1270, 1301 ГК РФ) — даже без действующего ТЗ.</p>
-</section>
 
-<section class="ym-section" id="s5-personazh" aria-labelledby="s5-personazh-h">
-<h2 id="s5-personazh-h">Товарный знак и персонаж мультфильма: пересечение авторских прав и бренда</h2>
-<p><strong>Персонаж мультфильма товарный знак</strong> — две параллельные системы охраны. Регистрация ТЗ <strong>не заменяет</strong> <strong>согласие на использование персонажа</strong> и не «перебивает» <strong>авторские права на персонаж</strong>.</p>
-<h3>Можно ли зарегистрировать ТЗ на имя героя мультфильма</h3>
-<p>Формально заявка может пройти экспертизу — особенно если знак зарегистрирован давно. Но при <strong>оспаривании товарного знака</strong> по <strong>п. 9 ст. 1483</strong> правообладатель произведения вправе требовать <strong>недействительности</strong>, если:</p>
-<ul>
-<li>произведение <strong>известно</strong> в России;</li>
-<li>обозначение <strong>тождественно</strong> названию или персонажу;</li>
-<li>права на произведение возникли <strong>раньше приоритета</strong> ТЗ;</li>
-<li><strong>согласия</strong> не было.</li>
-</ul>
-<p>СИП в деле <strong>№ СИП-62/2023</strong> (ТЗ «Лекарство для Карлсона» № 523434) указал: «Сложно представить масштаб использования обозначения, чтобы потребители перестали видеть в слове „Карлсон" известного персонажа». Аналогия для «Маугли» на конфетах прямая.</p>
-<h3>Когда достаточно товарного знака, а когда нужно согласие на персонаж</h3>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Ситуация</th><th>ТЗ</th><th>Согласие на персонаж (АП)</th></tr></thead><tbody><tr><td>Фантазийное имя, не связанное с известным произведением</td><td>Обычно достаточно</td><td>Не требуется</td></tr><tr><td>Имя/образ <strong>известного</strong> мультфильма</td><td>Риск <strong>недействительности</strong> (п. 9)</td><td><strong>Обязательно</strong> для использования образа</td></tr><tr><td>Собственный персонаж, нарисованный с нуля</td><td>Регистрация возможна</td><td>Согласие не нужно, если нет копирования</td></tr><tr><td>Литературный первоисточник (Киплинг)</td><td>Не спасает без согласия правообладателей</td><td>Нужно согласие студии / наследников</td></tr></tbody></table></div>
-<p>Эксперт <strong>З. Назаренко</strong> (Megalicense, «Ъ», 2022, про «Умку») описывает логику студии: «зачистка» ТЗ — путь к <strong>лицензионной программе</strong>. Для бизнеса выбор часто не «суд или нет», а <strong>лицензия vs спор</strong>.</p>
-</section>
+<h3 id="l24-h3-7-1">Что фиксировать защитнику во время и сразу после обыска</h3>
 
-<section class="ym-section" id="s6-kompensaciya" aria-labelledby="s6-kompensaciya-h">
-<h2 id="s6-kompensaciya-h">Нарушение товарного знака и компенсация: параллель с иском «Союзмультфильма» за Волка</h2>
-<p>Даже после <strong>аннулирования товарного знака</strong> «Маугли» производитель конфет рискует <strong>нарушением</strong> не ТЗ, а <strong>авторских прав</strong> — если на этикетке остаётся узнаваемый <strong>персонаж мультфильма</strong>.</p>
-<p>Параллельный кейс — <a href="https://rapsinews.ru/judicial_news/20260811/312099335.html" target="_blank" rel="noopener noreferrer">РАПСИ, 11.08.2026</a>:</p>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Параметр</th><th>Факт</th></tr></thead><tbody><tr><td>Суд</td><td>Суды <strong>Забайкальского края</strong></td></tr><tr><td>Истец</td><td>ООО <strong>«Союзмультфильм»</strong></td></tr><tr><td>Ответчик</td><td>ИП <strong>Джураев</strong> (Чита)</td></tr><tr><td>Нарушение</td><td>Продажа <strong>дыни</strong> с этикеткой с <strong>Волком и Зайцем</strong> из «Ну, погоди!»</td></tr><tr><td>Доказательства</td><td>Кассовый чек, товар, <strong>видеозапись</strong></td></tr><tr><td>Компенсация</td><td><strong>50 000 ₽</strong> за Волка + <strong>50 000 ₽</strong> за Зайца + расходы</td></tr><tr><td>Итого</td><td><strong>> 109 000 ₽</strong></td></tr></tbody></table></div>
-<p>Тот же правообладатель, та же логика: персонаж на <strong>пищевой</strong> этикетке без лицензии → <strong>компенсация</strong>, даже если сумма скромнее <strong>нарушение товарного знака компенсация</strong> в делах СИП с миллионными исками.</p>
-<h3>Претензия правообладателя: сроки и первые шаги</h3>
-<p>Типовая последовательность:</p>
-<ol>
-<li><strong>Досудебная претензия</strong> — требование прекратить использование, удалить образ, предложить компенсацию.</li>
-<li>Срок ответа — обычно <strong>30 дней</strong> (или срок из претензии).</li>
-<li>Фиксация позиции: есть ли <strong>согласие</strong>, <strong>лицензия</strong>, давность использования, добросовестность.</li>
-<li>Сбор доказательств: образ на упаковке, объём продаж, сравнение с оригинальным персонажем.</li>
-</ol>
-<p>Подробный разбор первых шагов — в материале <a href="/otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/">ответ на претензию по интеллектуальной собственности</a>.</p>
-<p>Не игнорируйте претензию: молчание ухудшает позицию в суде и не останавливает <strong>иск по интеллектуальной собственности</strong>.</p>
-<h3>Сколько могут взыскать: компенсация vs убытки</h3>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Инструмент</th><th>Норма</th><th>Размер</th></tr></thead><tbody><tr><td><strong>Компенсация</strong> (АП)</td><td>ст. 1301 ГК РФ</td><td><strong>10 000 – 5 000 000 ₽</strong> или двукратная стоимость контрафакта</td></tr><tr><td><strong>Компенсация</strong> (ТЗ)</td><td>ст. 1515 ГК РФ</td><td><strong>10 000 – 5 000 000 ₽</strong> или двукратная стоимость товара</td></tr><tr><td><strong>Убытки</strong></td><td>ст. 15 ГК РФ</td><td>Доказанные потери + упущенная выгода</td></tr></tbody></table></div>
-<p>После <strong>аннулирования</strong> ТЗ «Маугли» претензии по <strong>ст. 1515</strong> за использование слова «Маугли» как ТЗ слабее. Но <strong>ст. 1301</strong> за образ персонажа — актуальна. Пример Волка на дыне (<strong>100+ тыс. ₽</strong>) показывает «цену этикетки» для малого бизнеса.</p>
-<p>Детали доказательств и расчётов — в гайде <a href="/narushenie-tovarnogo-znaka-dokazatelstva-kompensaciya/">нарушение товарного знака: доказательства и компенсация</a>.</p>
-<aside class="ym-cta ym-cta--primary" role="complementary">
-  <p class="ym-cta__text">Получили претензию за использование персонажа на этикетке? После аннулирования ТЗ риск по ст. 1301 ГК РФ сохраняется — пример с Волком на дыне показал: компенсация может превысить 100 000 ₽ даже для малого бизнеса.</p>
-  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с ответом на претензию по ИС</a></p>
-</aside>
-</section>
+<p><strong>Чек-лист адвоката на обыске:</strong></p>
 
-<section class="ym-section" id="s7-zashchita" aria-labelledby="s7-zashchita-h">
-<h2 id="s7-zashchita-h">Защита бренда и ответ на иск по интеллектуальной собственности</h2>
-<p><strong>Защита товарного знака</strong> после проигрыша в ППС — многоступенчатая стратегия. <strong>Ответ на иск по интеллектуальной собственности</strong> требует разделения линий: ТЗ, АП, смешение, добросовестность.</p>
-<h3>Стратегия после аннулирования ТЗ: перерегистрация, ребрендинг, переговоры</h3>
-<p>Варианты для позиции «Рот Фронта» и аналогов:</p>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Стратегия</th><th>Плюсы</th><th>Риски</th></tr></thead><tbody><tr><td><strong>Обжалование в СИП</strong></td><td>Шанс отменить решение ППС</td><td>Негативный прецедент <strong>СИП-62/2023</strong> (Карлсон)</td></tr><tr><td><strong>Лицензия «Союзмультфильма»</strong></td><td>Легализация использования</td><td>Стоимость, условия «зачистки»</td></tr><tr><td><strong>Ребрендинг</strong></td><td>Снижение риска АП</td><td>Потеря узнаваемости, затраты</td></tr><tr><td><strong>Перерегистрация</strong> без персонажа</td><td>Новый ТЗ на иную графику</td><td>Не решает спор об образе на упаковке</td></tr><tr><td><strong>Переговоры о компенсации</strong></td><td>Быстрое закрытие</td><td>Сумма, публичность</td></tr></tbody></table></div>
-<p>Эксперт <strong>С. Бутенко</strong> («Ъ», 2022, про «Умку») отмечает: защититься в споре с «Союзмультфильмом» «чрезвычайно сложно»; возможны опросы потребителей и лингвистическая экспертиза — но это дорого и результат не гарантирован.</p>
-<h3>Как ответить на претензию и иск по ИС: структура и сроки</h3>
-<p>Структура <strong>ответа на иск по интеллектуальной собственности</strong>:</p>
-<ol>
-<li><strong>Процессуальные возражения</strong> — сроки, подсудность, недостаточность доказательств.</li>
-<li><strong>По существу</strong> — отсутствие тождества/сходства, отсутствие использования охраняемого элемента.</li>
-<li><strong>Альтернативные основания</strong> — добросовестное приобретение, давность, злоупотребление правом.</li>
-<li><strong>Доказательства</strong> — экспертизы, соцопросы, документы о согласии, сравнительный анализ.</li>
-<li><strong>Заявление о компенсации</strong> — снижение по ст. 1515 / 1301 при отсутствии убытков.</li>
-</ol>
-<p>Сроки:</p>
-<ul>
-<li>ответ на иск в арбитраже — <strong>30 дней</strong> (ст. 131 АПК РФ);</li>
-<li><strong>иск / заявление в СИП</strong> на обжалование решения Роспатента — <strong>3 месяца</strong> с даты, когда сторона узнала о нарушении права (ч. 4 ст. 198 АПК РФ);</li>
-<li><strong>досудебный порядок</strong> в СИП <strong>обязателен</strong> — без решения ППС суд вернёт заявление (ст. 1248 ГК РФ).</li>
-</ul>
-<p>Пошаговый план — в материале <a href="/isk-o-zashchite-is-protiv-vas-plan-otveta/">иск о защите ИС против вас: план ответа</a>.</p>
-<p>Если спор уже перешёл в суд, полезна <a href="/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/">защита товарного знака при иске по интеллектуальной собственности</a>.</p>
-</section>
-
-<section class="ym-section" id="s8-sip" aria-labelledby="s8-sip-h">
-<h2 id="s8-sip-h">Обжалование решения Роспатента в СИП и как избежать спора при регистрации</h2>
-<p>Решение ППС <strong>вступает в силу</strong> со дня принятия (ст. 1248 ГК РФ) и <strong>может быть оспорено в суде</strong> (п. 4 ст. 1513 ГК РФ).</p>
-<h3>Сроки и основания обжалования в суде по интеллектуальным правам</h3>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Этап</th><th>Срок / правило</th></tr></thead><tbody><tr><td>Решение Роспатента (ППС)</td><td>Вступает в силу со дня принятия</td></tr><tr><td>Иск / заявление в <strong>СИП</strong></td><td><strong>3 месяца</strong> (ч. 4 ст. 198 АПК РФ)</td></tr><tr><td>Досудебный порядок</td><td><strong>Обязателен</strong> — решение ППС</td></tr><tr><td>Госпошлина</td><td>6 000 ₽ (юрлицо) / 3 000 ₽ (физлицо) — ст. 333.21 НК РФ</td></tr><tr><td>Кассация</td><td>Президиум СИП → при необходимости ВС РФ</td></tr></tbody></table></div>
-<p><strong>Прогноз для «Рот Фронта»:</strong> СИП в <strong>СИП-62/2023</strong> подтвердил Роспатент по <strong>п. 9 ст. 1483</strong> (Карлсон); ВС (12.08.2025) отказал в передаче кассации. Обжалование возможно, но прецеденты негативны для правообладателя ТЗ без согласия.</p>
-<h3>Чек-лист перед регистрацией ТЗ с элементами мультфильма</h3>
-<p>Перед <strong>регистрацией товарного знака 2026</strong>:</p>
 <ul class="l24-checklist">
-<li>Проверить реестр на <a href="https://new.fips.ru/" target="_blank" rel="noopener noreferrer">fips.ru</a> — имя, персонаж, сходные знаки.</li>
-<li>Оценить связь с <strong>известным произведением</strong> (мультфильм, книга, игры).</li>
-<li>Получить <strong>согласие</strong> правообладателя АП (не «мы взяли из книги»).</li>
-<li>Не полагаться на <strong>Disney</strong> или другой чужой ТЗ как на своё право.</li>
-<li>Учесть: «старый» ТЗ (30 лет) <strong>не защищает</strong> от <strong>п. 9 ст. 1483</strong>.</li>
-<li>Рассмотреть <strong>лицензию</strong> до запуска продукции.</li>
-<li>Изучить этапы регистрации и отказа — <a href="/registraciya-tovarnogo-znaka-etapy-otkaz/">регистрация товарного знака: этапы и отказ</a>.</li>
+
+<li>Проверить наличие постановления, его законность и пределы (жилище, иное помещение).</li>
+
+<li>Убедиться в участии понятых (не менее двух) или зафиксировать их отсутствие.</li>
+
+<li>Требовать <strong>дословного описания</strong> каждого изъятого устройства: марка, модель, серийный номер, IMEI, состояние, место обнаружения.</li>
+
+<li>Настаивать на <strong>упаковке и опечатывании</strong> цифровых носителей; внести в протокол <strong>замечание</strong>, если следователь отказывается.</li>
+
+<li>Сделать <strong>фото и видео</strong> процесса упаковки (если допускается) или зафиксировать отказ в протоколе.</li>
+
+<li>Проверить основание изъятия ЭНИ: постановление о экспертизе, судебное решение (ст. 164.1 УПК).</li>
+
+<li>Получить <strong>копию протокола</strong> на месте или зафиксировать отказ.</li>
+
+<li>Сразу после обыска — письменное ходатайство о признании результатов недопустимыми.</li>
+
 </ul>
-</section>
 
-<section id="faq" class="ym-section l24-faq" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
-  <h2 id="faq-h">FAQ: возражение, аннулирование и лицензия «Союзмультфильма»</h2>
-  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 class="l24-faq__q" itemprop="name">Чем возражение в Роспатенте отличается от иска о нарушении товарного знака?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p class="l24-faq__a" itemprop="text"><strong>Возражение</strong> (ст. 1512–1513) — спор о <strong>законности регистрации</strong> в ППС; результат — <strong>недействительность</strong> или отказ в удовлетворении. <strong>Иск о нарушении</strong> (ст. 1515, 1301) — спор об <strong>использовании</strong> обозначения/персонажа; результат — прекращение нарушения, <strong>компенсация</strong>, удаление с упаковки. Это <strong>разные</strong> процессы с разной доказательственной базой.</p>
-    </div>
-  </div>
-  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 class="l24-faq__q" itemprop="name">Можно ли использовать имя «Маугли» после аннулирования ТЗ «Рот Фронта»?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p class="l24-faq__a" itemprop="text"><strong>Аннулирование</strong> снимает монополию «Рот Фронта» на ТЗ. Но <strong>«Союзмультфильм»</strong> вправе требовать прекращения использования <strong>образа и имени персонажа</strong> по <strong>авторскому праву</strong> (ст. 1270, 1301). Свободное использование без <strong>лицензии</strong> — рискованно.</p>
-    </div>
-  </div>
-  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 class="l24-faq__q" itemprop="name">Нужна ли лицензия «Союзмультфильма» для конфет с персонажем?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p class="l24-faq__a" itemprop="text">Если на упаковке <strong>узнаваемый персонаж</strong> или <strong>тождественное</strong> название известного мультфильма — <strong>да</strong>, без <strong>согласия на использование персонажа</strong> риск претензии и <strong>иска по интеллектуальной собственности</strong> высокий. Студия выстраивает лицензионную модель (кампании по «Умке», «Ёжику», «Маугли»).</p>
-    </div>
-  </div>
-  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 class="l24-faq__q" itemprop="name">Можно ли оспорить ТЗ через 30 лет после регистрации?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p class="l24-faq__a" itemprop="text">По <strong>п. 9 ст. 1483</strong> — <strong>да</strong>, в течение <strong>всего срока</strong> охраны (пп. 1 п. 2 ст. 1512). Дело «Маугли» (приоритет 1996, возражение 2025) — прямое подтверждение.</p>
-    </div>
-  </div>
-  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 class="l24-faq__q" itemprop="name">Что делать, если пришла претензия от «Союзмультфильма»?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p class="l24-faq__a" itemprop="text">Не игнорировать. Оценить: есть ли <strong>согласие</strong>, <strong>лицензия</strong>, возможность <strong>ребрендинга</strong>, переговоры о компенсации vs <strong>обжалование в СИП</strong>. Сроки претензии и суда критичны.</p>
-    </div>
-  </div>
-  <div class="l24-faq__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 class="l24-faq__q" itemprop="name">Отличается ли спор «Маугли» от «Живых витаминов»?</h3>
-    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p class="l24-faq__a" itemprop="text">Да. <strong>«Живые витамины»</strong> — <strong>описательность</strong> (п. 1, 3 ст. 1483), СИП отказал правообладателю (СИП-1097/2025). <strong>«Маугли»</strong> — <strong>персонаж без согласия</strong> (п. 9 ст. 1483), пересечение <strong>АП и ТЗ</strong>. Механизмы и доказательства разные.</p>
-    </div>
-  </div>
-</section>
-
-<section class="ym-section" id="istochniki" aria-labelledby="istochniki-h">
-<h2 id="istochniki-h">Источники и выводы</h2>
-<p><strong>Источники:</strong> <a href="https://rapsinews.ru/judicial_news/20260824/312128286.html" target="_blank" rel="noopener noreferrer">РАПСИ, 24.08.2026</a>; <a href="https://rapsinews.ru/judicial_news/20260811/312099335.html" target="_blank" rel="noopener noreferrer">РАПСИ, 11.08.2026 — Волк/дыня</a>; расписание ППС ФИПС (май 2026); ГАРАНТ (СИП-62/2023, СИП-1097/2025); Обзор ВС РФ (А40-133098/2015); реестр ТЗ на brand-search.ru (№ 162034, 128304, 586329).</p>
-<p><strong>Триада кейсов для сравнения:</strong></p>
-<div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Кейс</th><th>Стадия</th><th>Урок</th></tr></thead><tbody><tr><td><strong>Маугли / Рот Фронт</strong></td><td>Роспатент 24.08.2026</td><td>п. 9 ст. 1483, нет согласия</td></tr><tr><td><strong>Карлсон / СИП-62/2023</strong></td><td>СИП + ВС 2025</td><td>Суд подтверждает Роспатент</td></tr><tr><td><strong>Волк / дыня, 11.08.2026</strong></td><td>Суд общей юрисдикции</td><td>Компенсация за этикетку</td></tr></tbody></table></div>
-<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
-  <p class="ym-cta__text">Дело «Маугли» — напоминание: товарный знак с персонажем мультфильма без согласия правообладателя можно оспорить в любой момент срока охраны. Нужна стратегия оспаривания, защиты в СИП или ответа на иск — разберём вашу ситуацию.</p>
-  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом по ИС</a></p>
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Адвокат на обыске фиксирует нарушения в момент их совершения — описание устройств, упаковку, основание изъятия ЭНИ. Это нельзя воспроизвести задним числом.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Заказать участие адвоката на обыске</a></p>
 </aside>
-<p>Для производителя еды и кондитерки урок августа 2026 однозначен: <strong>товарный знак</strong> с <strong>персонажем мультфильма</strong> без документального <strong>согласия</strong> — не актив, а обязательство в суде. <strong>Оспаривание товарного знака</strong> и <strong>защита бренда</strong> начинаются не в день претензии, а в день выбора имени на упаковке.</p>
+
+<h3 id="l24-h3-7-2">Ходатайство об исключении доказательств: структура и сроки</h3>
+
+<p>Ходатайство об исключении доказательств уголовное дело — не абстрактная жалоба, а <strong>процессуальный документ</strong> с чёткой структурой:</p>
+
+<ol>
+
+<li><strong>Какое доказательство</strong> исключается (протокол обыска, КТЭ, заключение эксперта).</li>
+
+<li><strong>Какое нарушение</strong> допущено (со ссылкой на норму: ч. 10, 12, 13 ст. 182, ст. 164.1, ст. 166 УПК).</li>
+
+<li><strong>Как нарушение повлияло</strong> на достоверность (разрыв цепочки, невозможность идентификации, доступ к данным).</li>
+
+<li><strong>Какие права нарушены</strong> (ст. 46 Конституции, ст. 25 УПК — неприкосновенность жилища).</li>
+
+<li><strong>Просительная часть</strong> — признать недопустимым, исключить из доказательственной базы.</li>
+
+</ol>
+
+<p><strong>Сроки:</strong></p>
+
+<ul>
+
+<li>На следствии — при ознакомлении с материалами (ст. 217 УПК) или при обнаружении нарушения.</li>
+
+<li>В суде первой инстанции — до окончания судебного следствия (ст. 234 УПК).</li>
+
+<li>В кассации — при наличии оснований, предусмотренных ст. 401.15 УПК (существенные нарушения, влияющие на приговор).</li>
+
+</ul>
+
+<h2 id="l24-h2-8">Кассация и снижение наказания: уроки дела № 32-УД26-10-К1 для защиты</h2>
+
+<p>Снижение наказания кассация — реальный, хотя и скромный результат дела № 32-УД26-10-K1: <strong>минус 3 месяца</strong> при сохранении основной доказательственной базы. Для защитника это урок: <strong>не ставить всё на один довод</strong>.</p>
+
+<p>Кассационная тактика в уголовных делах — тема, близкая к материалу о <a href="/vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026/">запрете обвинительных прогнозов в кассации</a>, но механизм здесь иной: не риторика прокурора, а <strong>процессуальные нарушения</strong> и <strong>квалификация</strong>.</p>
+
+<p>Смягчение наказания в кассации возможно и через иные институты — <a href="/vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026/">малозначительность по ст. 14 УК</a>, <a href="/vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026/">условный срок по ст. 73 УК</a>. В наркоделе № 32-УД26-10-K1 сработала <strong>ретроспективная квалификация</strong> по ст. 9 УК.</p>
+
+<p>Ранняя стадия защиты — <a href="/dosudebnaya-zashchita-po-ugolovnomu-delu/">досудебная защита по уголовному делу</a> — позволяет заложить процессуальные доводы ещё до суда.</p>
+
+<h3 id="l24-h3-8-1">Почему ВС снизил срок, не исключив экспертизу целиком</h3>
+
+<p>Верховный Суд <strong>частично</strong> удовлетворил доводы защиты:</p>
+
+<table><thead><tr><th>Довод защиты</th><th>Результат ВС</th></tr></thead><tbody><tr><td>Недопустимость КТЭ из-за неупакованных ноутбуков</td><td><strong>Отклонён</strong></td></tr><tr><td>Противоречие экспертиз 2013/2023 → третья экспертиза</td><td><strong>Отклонён</strong></td></tr><tr><td>Ошибочная квалификация сбыта при проверочной закупке 20.06.2013</td><td><strong>Удовлетворён</strong> → покушение</td></tr><tr><td>Итог по наказанию</td><td><strong>10,5 → 10 лет 3 мес.</strong></td></tr></tbody></table>
+
+<p>Переквалификация эпизода сбыта 20 июня 2013 года с <strong>оконченного</strong> на <strong>покушение</strong> стала возможной благодаря <strong>ст. 9 УК РФ</strong>: на момент деяния действовали разъяснения Пленума ВС № 14 (п. 13 в редакции от 23.12.2010), согласно которым при проверочной закупке наркотик <strong>изымается из оборота</strong> — значит, сбыт квалифицируется как <strong>покушение</strong> (ч. 3 ст. 30 + соответствующая часть ст. 228.1 УК).</p>
+
+<p>С 30 июня 2015 года п. 13.1 Пленума № 14 изменил подход: сбыт при проверочной закупке — <strong>оконченный</strong>, изъятие не влияет на квалификацию. Но для эпизода 2013 года применяется <strong>закон, действовавший на момент совершения</strong>.</p>
+
+
+
+
+<ul class="l24-sources">
+  <li>РАПСИ, 24.08.2026: <a href="https://rapsinews.ru/judicial_analyst/20260824/312126159.html" target="_blank" rel="noopener noreferrer">rapsinews.ru</a></li>
+  <li>ст. 75, 88, 164.1, 182, 195, 207 УПК РФ; Пленум ВС № 14 (п. 13, 13.1); Пленум ВС № 1; Шапошников А.Ю., «Уголовный процесс» № 7, 2026</li>
+</ul>
+<p><em>Материал носит информационно-аналитический характер и не является юридической консультацией. Для оценки конкретной ситуации обратитесь к специалисту по уголовному праву.</em></p>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+<p class="ym-cta__text">Дело № 32-УД26-10-К1 показало: даже при сохранении КТЭ кассация может снизить срок за счёт правильной квалификации. Оценим перспективы защиты на вашей стадии — следствие, суд или кассация.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Получить консультацию по защите</a></p>
+</aside>
+
+
+
+<section id="faq" class="l24-faq" aria-label="Часто задаваемые вопросы">
+<h2>Частые вопросы (FAQ)</h2>
+<div class="l24-faq__item"><h3 class="l24-faq__q">Обязательна ли упаковка ноутбуков при обыске?</h3><p class="l24-faq__a">По ч. 10 ст. 182 УПК — не всегда. Упаковка производится при необходимости. Следователь оценивает необходимость и фиксирует в протоколе. После определения ВС от 24.08.2026 отсутствие упаковки само по себе не делает КТЭ недопустимой. Но защитник вправе и должен настаивать на упаковке — это создаёт процессуальный след для будущего оспаривания.</p></div><div class="l24-faq__item"><h3 class="l24-faq__q">Можно ли исключить КТЭ из-за неупакованного изъятия?</h3><p class="l24-faq__a">Можно, но недостаточно ссылаться только на отсутствие упаковки. Нужно доказать: (а) разрыв цепочки идентификации; (б) факт или высокую вероятность изменения данных; (в) нарушение ст. 164.1 при изъятии ЭНИ; (г) несоответствие описания в протоколе и в заключении эксперта. Без этого перспектива низкая — как в деле № 32-УД26-10-K1.</p></div><div class="l24-faq__item"><h3 class="l24-faq__q">Когда нужен адвокат на обыске?</h3><p class="l24-faq__a">Адвокат по уголовным делам на обыске нужен всегда, когда есть риск изъятия цифровых носителей, документов, веществ. Особенно критично при делах о уголовных рисках, связанных с финансовым давлением, и при делах о наркотиках, экономических преступлениях, мошенничестве. Участие защитника фиксирует нарушения в момент их совершения — это нельзя воспроизвести задним числом.</p></div><div class="l24-faq__item"><h3 class="l24-faq__q">Что делать, если два экспертных заключения расходятся?</h3><p class="l24-faq__a">Проверить: отвечают ли эксперты на один и тот же вопрос? Если да — ходатайство о повторной экспертизе по ст. 207 УПК. Если нет (как в № 32-УД26-10-K1, где в 2013 году методики не было) — искать иные основания: квалификация, размер, процессуальные нарушения при изъятии.</p></div>
 </section>
+
 
 </div>
 
-<pre class="l24-jsonld-maugli" aria-hidden="true" hidden>{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Роспатент аннулировал товарный знак «Маугли» у «Рот Фронта»: возражение «Союзмультфильма» и защита бренда", "description": "Роспатент аннулировал ТЗ «Маугли» у «Рот Фронта» по возражению «Союзмультфильма». Как оспорить регистрацию знака с персонажем мультфильма и ответить на иск по ИС.", "datePublished": "2026-08-26", "dateModified": "2026-08-26", "author": {"@type": "Organization", "name": "Legis24"}, "publisher": {"@type": "Organization", "name": "Legis24"}, "inLanguage": "ru-RU"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Чем возражение в Роспатенте отличается от иска о нарушении товарного знака?", "acceptedAnswer": {"@type": "Answer", "text": "Возражение (ст. 1512–1513) — спор о законности регистрации в ППС; результат — недействительность или отказ в удовлетворении. Иск о нарушении (ст. 1515, 1301) — спор об использовании обозначения/персонажа; результат — прекращение нарушения, компенсация, удаление с упаковки. Это разные процессы с разной доказательственной базой."}}, {"@type": "Question", "name": "Можно ли использовать имя «Маугли» после аннулирования ТЗ «Рот Фронта»?", "acceptedAnswer": {"@type": "Answer", "text": "Аннулирование снимает монополию «Рот Фронта» на ТЗ. Но «Союзмультфильм» вправе требовать прекращения использования образа и имени персонажа по авторскому праву (ст. 1270, 1301). Свободное использование без лицензии — рискованно."}}, {"@type": "Question", "name": "Нужна ли лицензия «Союзмультфильма» для конфет с персонажем?", "acceptedAnswer": {"@type": "Answer", "text": "Если на упаковке узнаваемый персонаж или тождественное название известного мультфильма — да, без согласия на использование персонажа риск претензии и иска по интеллектуальной собственности высокий. Студия выстраивает лицензионную модель (кампании по «Умке», «Ёжику», «Маугли»)."}}, {"@type": "Question", "name": "Можно ли оспорить ТЗ через 30 лет после регистрации?", "acceptedAnswer": {"@type": "Answer", "text": "По п. 9 ст. 1483 — да, в течение всего срока охраны (пп. 1 п. 2 ст. 1512). Дело «Маугли» (приоритет 1996, возражение 2025) — прямое подтверждение."}}, {"@type": "Question", "name": "Что делать, если пришла претензия от «Союзмультфильма»?", "acceptedAnswer": {"@type": "Answer", "text": "Не игнорировать. Оценить: есть ли согласие, лицензия, возможность ребрендинга, переговоры о компенсации vs обжалование в СИП. Сроки претензии и суда критичны."}}, {"@type": "Question", "name": "Отличается ли спор «Маугли» от «Живых витаминов»?", "acceptedAnswer": {"@type": "Answer", "text": "Да. «Живые витамины» — описательность (п. 1, 3 ст. 1483), СИП отказал правообладателю (СИП-1097/2025). «Маугли» — персонаж без согласия (п. 9 ст. 1483), пересечение АП и ТЗ. Механизмы и доказательства разные."}}]}]}</pre>
+
+<div class="l24-jsonld-ug" hidden aria-hidden="true">
+<pre aria-hidden="true">{"@context": "https://schema.org", "@type": "Article", "headline": "ВС разрешил не упаковывать изъятие при обыске: экспертиза, доказательства и защита по делу № 32-УД26-10-К1", "description": "ВС по делу № 32-УД26-10-К1: упаковка изъятого при обыске не обязательна (ч. 10 ст. 182 УПК). Когда КТЭ на неупакованных ноутбуках допустима и как снизить наказание в кассации.", "inLanguage": "ru-RU", "datePublished": "2026-08-26", "author": {"@type": "Organization", "name": "Legis24"}, "publisher": {"@type": "Organization", "name": "Legis24"}}</pre>
+<pre aria-hidden="true">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Обязательна ли упаковка ноутбуков при обыске?", "acceptedAnswer": {"@type": "Answer", "text": "По ч. 10 ст. 182 УПК — не всегда. Упаковка производится при необходимости. Следователь оценивает необходимость и фиксирует в протоколе. После определения ВС от 24.08.2026 отсутствие упаковки само по себе не делает КТЭ недопустимой. Но защитник вправе и должен настаивать на упаковке — это создаёт процессуальный след для будущего оспаривания."}}, {"@type": "Question", "name": "Можно ли исключить КТЭ из-за неупакованного изъятия?", "acceptedAnswer": {"@type": "Answer", "text": "Можно, но недостаточно ссылаться только на отсутствие упаковки. Нужно доказать: (а) разрыв цепочки идентификации; (б) факт или высокую вероятность изменения данных; (в) нарушение ст. 164.1 при изъятии ЭНИ; (г) несоответствие описания в протоколе и в заключении эксперта. Без этого перспектива низкая — как в деле № 32-УД26-10-K1."}}, {"@type": "Question", "name": "Когда нужен адвокат на обыске?", "acceptedAnswer": {"@type": "Answer", "text": "Адвокат по уголовным делам на обыске нужен всегда, когда есть риск изъятия цифровых носителей, документов, веществ. Особенно критично при делах о уголовных рисках, связанных с финансовым давлением, и при делах о наркотиках, экономических преступлениях, мошенничестве. Участие защитника фиксирует нарушения в момент их совершения — это нельзя воспроизвести задним числом."}}, {"@type": "Question", "name": "Что делать, если два экспертных заключения расходятся?", "acceptedAnswer": {"@type": "Answer", "text": "Проверить: отвечают ли эксперты на один и тот же вопрос? Если да — ходатайство о повторной экспертизе по ст. 207 УПК. Если нет (как в № 32-УД26-10-K1, где в 2013 году методики не было) — искать иные основания: квалификация, размер, процессуальные нарушения при изъятии."}}]}</pre>
+</div>
+
+
 </main>
 <!-- /wp:html -->
 
-
-## Передача Юре
-SLUG: rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026
-Title: Аннулирование товарного знака «Маугли»: возражение «Союзмультфильма» 2026
-Description: Роспатент аннулировал ТЗ «Маугли» у «Рот Фронта» по возражению «Союзмультфильма». Как оспорить регистрацию знака с персонажем мультфильма и ответить на иск по ИС.
-Контент MCP-only: hero static SVG, блок Бориса `#boris-maugli-tz-flow`, FAQ microdata. Обязательно обернуть в <!-- wp:html --> при публикации. Юра удаляет `<script>` перед blob — в HTML их нет.
-Размер HTML: 82444 символов
-main#primary: да (`class="site-main rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026-page"`)
-breadcrumbs: скрыты CSS
-CTA: только https://advokat-vsem.ru/
-
-=== ЮРА (ПУБЛИКАЦИЯ) ===
-Статус: опубликовано (republish fix links)
-URL: https://advokat-vsem.online/rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026/
-page_id: 584
-blob_id: N7YfmzMszsp5UH3MrhNZW11t
-sha256: 88675f0ab8c3379c3051c6792e97147b0c762af2ecea63d09095babfe5e27140
-Дата: 2026-08-26
-Код: KIRILL-IP
-Исправление: sobstavennosti → sobstvennosti (2 внутренние ссылки)
-Проверка live: HTTP 200, main#primary — OK; /otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/ — 200; /zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/ — 200
+```
