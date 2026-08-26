@@ -773,7 +773,7 @@ H1: Роспатент аннулировал товарный знак «Мау
 3. Фиксация позиции: есть ли **согласие**, **лицензия**, давность использования, добросовестность.
 4. Сбор доказательств: образ на упаковке, объём продаж, сравнение с оригинальным персонажем.
 
-Подробный разбор первых шагов — в материале [ответ на претензию по интеллектуальной собственности](/otvet-na-pretensiyu-po-intellektualnoj-sobstavennosti/).
+Подробный разбор первых шагов — в материале [ответ на претензию по интеллектуальной собственности](/otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/).
 
 Не игнорируйте претензию: молчание ухудшает позицию в суде и не останавливает **иск по интеллектуальной собственности**.
 
@@ -825,7 +825,7 @@ H1: Роспатент аннулировал товарный знак «Мау
 
 Пошаговый план — в материале [иск о защите ИС против вас: план ответа](/isk-o-zashchite-is-protiv-vas-plan-otveta/).
 
-Если спор уже перешёл в суд, полезна [защита товарного знака при иске по интеллектуальной собственности](/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstavennosti/).
+Если спор уже перешёл в суд, полезна [защита товарного знака при иске по интеллектуальной собственности](/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/).
 
 При оценке стратегии после аннулирования ТЗ «Маугли» разумно [получить консультацию по защите бренда](https://advokat-vsem.ru/) до подачи иска в СИП или ответа на претензию «Союзмультфильма».
 
@@ -1141,7 +1141,7 @@ H1: Роспатент аннулировал товарный знак «Мау
 3. Фиксация позиции: есть ли **согласие**, **лицензия**, давность использования, добросовестность.
 4. Сбор доказательств: образ на упаковке, объём продаж, сравнение с оригинальным персонажем.
 
-Подробный разбор первых шагов — в материале [ответ на претензию по интеллектуальной собственности](/otvet-na-pretensiyu-po-intellektualnoj-sobstavennosti/).
+Подробный разбор первых шагов — в материале [ответ на претензию по интеллектуальной собственности](/otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/).
 
 Не игнорируйте претензию: молчание ухудшает позицию в суде и не останавливает **иск по интеллектуальной собственности**.
 
@@ -1198,7 +1198,7 @@ H1: Роспатент аннулировал товарный знак «Мау
 
 Пошаговый план — в материале [иск о защите ИС против вас: план ответа](/isk-o-zashchite-is-protiv-vas-plan-otveta/).
 
-Если спор уже перешёл в суд, полезна [защита товарного знака при иске по интеллектуальной собственности](/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstavennosti/).
+Если спор уже перешёл в суд, полезна [защита товарного знака при иске по интеллектуальной собственности](/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/).
 
 
 ## Обжалование решения Роспатента в СИП и как избежать спора при регистрации
@@ -2890,7 +2890,7 @@ FAQ: microdata FAQPage на секции #faq + hidden JSON-LD для Rank Math
 <li>Фиксация позиции: есть ли <strong>согласие</strong>, <strong>лицензия</strong>, давность использования, добросовестность.</li>
 <li>Сбор доказательств: образ на упаковке, объём продаж, сравнение с оригинальным персонажем.</li>
 </ol>
-<p>Подробный разбор первых шагов — в материале <a href="/otvet-na-pretensiyu-po-intellektualnoj-sobstavennosti/">ответ на претензию по интеллектуальной собственности</a>.</p>
+<p>Подробный разбор первых шагов — в материале <a href="/otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/">ответ на претензию по интеллектуальной собственности</a>.</p>
 <p>Не игнорируйте претензию: молчание ухудшает позицию в суде и не останавливает <strong>иск по интеллектуальной собственности</strong>.</p>
 <h3>Сколько могут взыскать: компенсация vs убытки</h3>
 <div class="l24-tbl-wrap"><table class="l24-tbl"><thead><tr><th>Инструмент</th><th>Норма</th><th>Размер</th></tr></thead><tbody><tr><td><strong>Компенсация</strong> (АП)</td><td>ст. 1301 ГК РФ</td><td><strong>10 000 – 5 000 000 ₽</strong> или двукратная стоимость контрафакта</td></tr><tr><td><strong>Компенсация</strong> (ТЗ)</td><td>ст. 1515 ГК РФ</td><td><strong>10 000 – 5 000 000 ₽</strong> или двукратная стоимость товара</td></tr><tr><td><strong>Убытки</strong></td><td>ст. 15 ГК РФ</td><td>Доказанные потери + упущенная выгода</td></tr></tbody></table></div>
@@ -2925,7 +2925,7 @@ FAQ: microdata FAQPage на секции #faq + hidden JSON-LD для Rank Math
 <li><strong>досудебный порядок</strong> в СИП <strong>обязателен</strong> — без решения ППС суд вернёт заявление (ст. 1248 ГК РФ).</li>
 </ul>
 <p>Пошаговый план — в материале <a href="/isk-o-zashchite-is-protiv-vas-plan-otveta/">иск о защите ИС против вас: план ответа</a>.</p>
-<p>Если спор уже перешёл в суд, полезна <a href="/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstavennosti/">защита товарного знака при иске по интеллектуальной собственности</a>.</p>
+<p>Если спор уже перешёл в суд, полезна <a href="/zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/">защита товарного знака при иске по интеллектуальной собственности</a>.</p>
 </section>
 
 <section class="ym-section" id="s8-sip" aria-labelledby="s8-sip-h">
@@ -3017,10 +3017,12 @@ breadcrumbs: скрыты CSS
 CTA: только https://advokat-vsem.ru/
 
 === ЮРА (ПУБЛИКАЦИЯ) ===
-Статус: опубликовано
+Статус: опубликовано (republish fix links)
 URL: https://advokat-vsem.online/rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026/
 page_id: 584
-blob_id: r7Nij7OvdB7V5sVfUZIukjGb
+blob_id: N7YfmzMszsp5UH3MrhNZW11t
+sha256: 88675f0ab8c3379c3051c6792e97147b0c762af2ecea63d09095babfe5e27140
 Дата: 2026-08-26
 Код: KIRILL-IP
-Проверка live: HTTP 200, main#primary — OK
+Исправление: sobstavennosti → sobstvennosti (2 внутренние ссылки)
+Проверка live: HTTP 200, main#primary — OK; /otvet-na-pretensiyu-po-intellektualnoj-sobstvennosti/ — 200; /zashchita-tovarnogo-znaka-isk-po-intellektualnoj-sobstvennosti/ — 200
