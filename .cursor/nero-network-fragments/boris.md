@@ -1,203 +1,192 @@
 === БОРИС (БЛОК СТАТЬИ, НЕ HERO) ===
 Статус: ✅ ГОТОВО
 
-**SLUG:** rospatent-maugli-rot-front-annulirovanie-tovarnyj-znak-2026  
-**Якорь:** `#boris-maugli-tz-flow`  
-**Режим:** контраст к hero Алины — светлый hero с фактами дела → тёмный jungle/slate блок маршрута в теле статьи  
+**SLUG:** vs-obysk-bez-upakovki-ekspertiza-dokazatelstva-zashchita-2026  
+**Якорь:** `#boris-obysk-upakovka-flow`  
+**Режим:** контраст к hero Алины — светлый hero с фактами дела → тёмный slate/navy блок двухконтурной стратегии в теле статьи  
 **Техника:** static SVG + inline CSS · без `<canvas>` · без `<script>`
 
 ## Место вставки для Наташи
 
-Вставить **после закрывающего абзаца H2 §2** «Дело „Маугли“ и „Рот Фронт“: фабула, доводы сторон и позиция Роспатента» (после H3 §2.2 «Почему ссылки на Киплинга и Disney не сработали») и **перед** `<h2>` §3 «Возражение против товарного знака в Роспатенте».
+Вставить **после вводного абзаца H2 §7** «Защита по уголовному делу: тактика при спорных доказательствах обыска» (после абзаца про **двухконтурную** стратегию — контур A и контур B) и **перед** H3 §7.1 «Что фиксировать защитнику во время и сразу после обыска».
 
-Якорь для Наташи: после H2 §2, id `boris-maugli-tz-flow`
+Якорь для Наташи: после H2 §7 (ввод), id `boris-obysk-upakovka-flow`
 
 ## Чеклист отличий от hero Алины
 
 | | Hero Алины | Блок Бориса |
 |---|---|---|
-| Позиция | первый экран | тело статьи, после H2 §2 |
-| Фон | светлый (#fefefe / #f0f7ff) | тёмный jungle gradient |
-| Смысл | факты: ТЗ № 162034, стороны, ст. 1483 | **маршрут** возражение → решение → СИП |
-| id | `l24-hero-rospatent-maugli` (Алина) | `boris-maugli-tz-flow` |
+| Позиция | первый экран | тело статьи, после H2 §7 (ввод) |
+| Фон | светлый (#fefefe / #f0f7ff) | тёмный slate/navy gradient |
+| Смысл | факты: № 32-УД26-10-K1, ч. 10 ст. 182, КТЭ | **два контура** защиты: упаковка/КТЭ vs ст. 9 УК + Пленум 14 |
+| id | `l24-hero-vs-obysk-upakovka` (Алина) | `boris-obysk-upakovka-flow` |
 | canvas/script | нет (MCP-only SVG) | нет |
 
 ```html
-<section id="boris-maugli-tz-flow" class="l24-boris-maugli-flow" aria-label="Аннулирование ТЗ «Маугли»: маршрут возражения в Роспатенте, решение ППС и обжалование в СИП">
+<section id="boris-obysk-upakovka-flow" class="l24-boris-obysk-flow" aria-label="Двухконтурная защита по делу № 32-УД26-10-K1: процессуальный контур упаковки и КТЭ против уголовно-правового контура квалификации">
 <style>
-.l24-boris-maugli-flow {
-  --mg-jungle: #0c2418;
-  --mg-jungle-mid: #143528;
-  --mg-jungle-soft: #1e4d38;
-  --mg-leaf: #34d399;
-  --mg-leaf-soft: #6ee7b7;
-  --mg-gold: #fbbf24;
-  --mg-gold-soft: #fde68a;
-  --mg-sip: #a78bfa;
-  --mg-sip-soft: #c4b5fd;
-  --mg-muted: #94a3b8;
-  --mg-txt: #e2e8f0;
+.l24-boris-obysk-flow {
+  --ob-slate: #0f172a;
+  --ob-slate-mid: #1e293b;
+  --ob-slate-soft: #334155;
+  --ob-proc: #38bdf8;
+  --ob-proc-soft: #7dd3fc;
+  --ob-qual: #34d399;
+  --ob-qual-soft: #6ee7b7;
+  --ob-warn: #fbbf24;
+  --ob-warn-soft: #fde68a;
+  --ob-fail: #f87171;
+  --ob-muted: #94a3b8;
+  --ob-txt: #e2e8f0;
   margin: 48px 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
-.l24-boris-maugli-flow__shell {
-  background: linear-gradient(152deg, var(--mg-jungle) 0%, var(--mg-jungle-mid) 46%, #0f2a4a 100%);
-  border: 1px solid rgba(52, 211, 153, 0.28);
+.l24-boris-obysk-flow__shell {
+  background: linear-gradient(152deg, var(--ob-slate) 0%, var(--ob-slate-mid) 48%, #172554 100%);
+  border: 1px solid rgba(56, 189, 248, 0.24);
   border-radius: 14px;
   padding: 32px 28px 24px;
-  color: var(--mg-txt);
-  box-shadow: 0 18px 48px rgba(12, 36, 24, 0.42);
+  color: var(--ob-txt);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.48);
 }
-.l24-boris-maugli-flow__eyebrow {
+.l24-boris-obysk-flow__eyebrow {
   margin: 0 0 8px;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--mg-leaf-soft);
+  color: var(--ob-proc-soft);
 }
-.l24-boris-maugli-flow__title {
+.l24-boris-obysk-flow__title {
   margin: 0 0 10px;
   font-size: clamp(1.15rem, 2.4vw, 1.42rem);
   line-height: 1.25;
   color: #fff;
   font-weight: 700;
 }
-.l24-boris-maugli-flow__lead {
+.l24-boris-obysk-flow__lead {
   margin: 0 0 24px;
   font-size: 0.95rem;
   line-height: 1.55;
-  color: var(--mg-muted);
+  color: var(--ob-muted);
   max-width: 72ch;
 }
-.l24-boris-maugli-flow__lead strong { color: #fff; }
-.l24-boris-maugli-flow__split {
+.l24-boris-obysk-flow__lead strong { color: #fff; }
+.l24-boris-obysk-flow__split {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
-  gap: 22px;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
   align-items: stretch;
   margin-bottom: 20px;
 }
-.l24-boris-maugli-flow__panel {
-  background: rgba(255, 255, 255, 0.05);
+.l24-boris-obysk-flow__panel {
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  padding: 20px 18px;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
 }
-.l24-boris-maugli-flow__panel-title {
-  margin: 0 0 14px;
-  font-size: 0.8rem;
+.l24-boris-obysk-flow__panel--a { border-top: 3px solid var(--ob-proc); }
+.l24-boris-obysk-flow__panel--b { border-top: 3px solid var(--ob-qual); }
+.l24-boris-obysk-flow__panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.l24-boris-obysk-flow__panel-title {
+  margin: 0;
+  font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: var(--mg-gold-soft);
 }
-.l24-boris-maugli-flow__route-svg {
+.l24-boris-obysk-flow__panel--a .l24-boris-obysk-flow__panel-title { color: var(--ob-proc-soft); }
+.l24-boris-obysk-flow__panel--b .l24-boris-obysk-flow__panel-title { color: var(--ob-qual-soft); }
+.l24-boris-obysk-flow__badge {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.l24-boris-obysk-flow__badge--fail {
+  background: rgba(248, 113, 113, 0.14);
+  border: 1px solid rgba(248, 113, 113, 0.45);
+  color: #fca5a5;
+}
+.l24-boris-obysk-flow__badge--win {
+  background: rgba(52, 211, 153, 0.14);
+  border: 1px solid rgba(52, 211, 153, 0.45);
+  color: var(--ob-qual-soft);
+}
+.l24-boris-obysk-flow__route-svg {
   display: block;
   width: 100%;
   height: auto;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
+  flex: 1;
 }
-.l24-boris-maugli-flow__stages {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+.l24-boris-obysk-flow__steps {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.l24-boris-maugli-flow__stage {
-  padding: 11px 10px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.28);
-  border-top: 3px solid var(--mg-leaf);
-  font-size: 0.72rem;
+.l24-boris-obysk-flow__step {
+  padding: 9px 10px;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.26);
+  font-size: 0.7rem;
   line-height: 1.38;
-  color: var(--mg-muted);
+  color: var(--ob-muted);
 }
-.l24-boris-maugli-flow__stage:nth-child(2) { border-top-color: var(--mg-gold); }
-.l24-boris-maugli-flow__stage:nth-child(3) { border-top-color: var(--mg-sip); }
-.l24-boris-maugli-flow__stage strong {
+.l24-boris-obysk-flow__panel--a .l24-boris-obysk-flow__step { border-left: 2px solid var(--ob-proc); }
+.l24-boris-obysk-flow__panel--b .l24-boris-obysk-flow__step { border-left: 2px solid var(--ob-qual); }
+.l24-boris-obysk-flow__step strong {
   display: block;
   color: #fff;
-  font-size: 0.78rem;
-  margin-bottom: 4px;
+  font-size: 0.74rem;
+  margin-bottom: 3px;
 }
-.l24-boris-maugli-flow__caption {
-  margin: 10px 0 0;
-  font-size: 0.68rem;
+.l24-boris-obysk-flow__step--weak { opacity: 0.72; }
+.l24-boris-obysk-flow__caption {
+  margin: 8px 0 0;
+  font-size: 0.66rem;
   line-height: 1.4;
   color: rgba(148, 163, 184, 0.88);
   text-align: center;
 }
-.l24-boris-maugli-flow__grounds {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin: 0 0 12px;
+.l24-boris-obysk-flow__merge {
+  margin: 0 0 16px;
+  padding: 16px 18px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px dashed rgba(251, 191, 36, 0.35);
 }
-.l24-boris-maugli-flow__ground {
-  display: grid;
-  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
-  gap: 6px 10px;
-  align-items: start;
-  padding: 10px 11px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.24);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  font-size: 0.74rem;
-  line-height: 1.38;
-}
-.l24-boris-maugli-flow__ground--pps { border-left: 3px solid var(--mg-leaf); }
-.l24-boris-maugli-flow__ground--law { border-left: 3px solid var(--mg-gold); }
-.l24-boris-maugli-flow__ground--sip { border-left: 3px solid var(--mg-sip); }
-.l24-boris-maugli-flow__ground-label {
-  font-weight: 700;
-  color: #fff;
-  font-size: 0.76rem;
-}
-.l24-boris-maugli-flow__ground-text {
-  color: var(--mg-muted);
-}
-.l24-boris-maugli-flow__ground-text em {
-  font-style: normal;
-  color: #fff;
-  font-weight: 600;
-}
-.l24-boris-maugli-flow__vs {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
+.l24-boris-obysk-flow__merge-title {
   margin: 0 0 10px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ob-warn-soft);
+  text-align: center;
 }
-.l24-boris-maugli-flow__vs-card {
-  padding: 10px;
-  border-radius: 8px;
-  background: rgba(0, 0, 0, 0.28);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  font-size: 0.72rem;
-  line-height: 1.4;
-}
-.l24-boris-maugli-flow__vs-card--win { border-color: rgba(52, 211, 153, 0.45); }
-.l24-boris-maugli-flow__vs-card--risk { border-color: rgba(251, 191, 36, 0.45); }
-.l24-boris-maugli-flow__vs-card strong {
+.l24-boris-obysk-flow__merge-svg {
   display: block;
-  color: #fff;
-  font-size: 0.76rem;
-  margin-bottom: 4px;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 0 auto;
 }
-.l24-boris-maugli-flow__note {
-  margin: 0;
-  font-size: 0.76rem;
-  line-height: 1.45;
-  color: var(--mg-muted);
-}
-.l24-boris-maugli-flow__note em {
-  font-style: normal;
-  color: var(--mg-sip-soft);
-  font-weight: 600;
-}
-.l24-boris-maugli-flow__total {
+.l24-boris-obysk-flow__total {
   margin: 0 0 16px;
   padding: 14px 16px;
   border-radius: 10px;
@@ -205,161 +194,245 @@
   border: 1px solid rgba(52, 211, 153, 0.32);
   font-size: 0.84rem;
   line-height: 1.5;
-  color: var(--mg-muted);
+  color: var(--ob-muted);
 }
-.l24-boris-maugli-flow__total strong { color: var(--mg-leaf-soft); }
-.l24-boris-maugli-flow__foot {
+.l24-boris-obysk-flow__total strong { color: var(--ob-qual-soft); }
+.l24-boris-obysk-flow__foot {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   padding-top: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-.l24-boris-maugli-flow__tag {
+.l24-boris-obysk-flow__tag {
   font-size: 0.72rem;
   font-weight: 600;
   padding: 6px 10px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.05);
-  color: var(--mg-txt);
+  color: var(--ob-txt);
   border: 1px solid rgba(255, 255, 255, 0.13);
 }
-.l24-boris-maugli-flow__tag--case { border-color: rgba(251, 191, 36, 0.45); color: var(--mg-gold-soft); }
-.l24-boris-maugli-flow__tag--law { border-color: rgba(52, 211, 153, 0.45); color: var(--mg-leaf-soft); }
-.l24-boris-maugli-flow__tag--sip { border-color: rgba(167, 139, 250, 0.45); color: var(--mg-sip-soft); }
+.l24-boris-obysk-flow__tag--case { border-color: rgba(251, 191, 36, 0.45); color: var(--ob-warn-soft); }
+.l24-boris-obysk-flow__tag--proc { border-color: rgba(56, 189, 248, 0.45); color: var(--ob-proc-soft); }
+.l24-boris-obysk-flow__tag--qual { border-color: rgba(52, 211, 153, 0.45); color: var(--ob-qual-soft); }
 @media (max-width: 860px) {
-  .l24-boris-maugli-flow__split { grid-template-columns: 1fr; }
-  .l24-boris-maugli-flow__stages { grid-template-columns: 1fr; }
-  .l24-boris-maugli-flow__ground { grid-template-columns: 1fr; gap: 4px; }
-  .l24-boris-maugli-flow__vs { grid-template-columns: 1fr; }
-  .l24-boris-maugli-flow__shell { padding: 24px 18px 20px; }
+  .l24-boris-obysk-flow__split { grid-template-columns: 1fr; }
+  .l24-boris-obysk-flow__shell { padding: 24px 18px 20px; }
 }
 </style>
 
-<div class="l24-boris-maugli-flow__shell">
-  <p class="l24-boris-maugli-flow__eyebrow">ППС · ТЗ № 162034 · Союзмультфильм vs Рот Фронт · решение 24.08.2026</p>
-  <h3 class="l24-boris-maugli-flow__title">Возражение → решение → СИП: как аннулировали «МАУГЛИ ДРАЖЕ»</h3>
-  <p class="l24-boris-maugli-flow__lead">В деле «Маугли» спор о <strong>недействительности охраны</strong> прошёл административный рубеж: <strong>возражение</strong> «Союзмультфильма» → коллегия <strong>ППС</strong> → решение об <strong>аннулировании</strong> ТЗ <strong>№ 162034</strong>. Для «Рот Фронта» следующий этап — <strong>обжалование в СИП</strong> в срок <strong>3 месяца</strong> (ч. 4 ст. 198 АПК), но прецедент <strong>СИП-62/2023</strong> (Карлсон) ухудшает позицию правообладателя без согласия.</p>
+<div class="l24-boris-obysk-flow__shell">
+  <p class="l24-boris-obysk-flow__eyebrow">ВС РФ · дело № 32-УД26-10-K1 · 24.08.2026 · двухконтурная защита</p>
+  <h3 class="l24-boris-obysk-flow__title">Два контура защиты: упаковка/КТЭ и квалификация по ст. 9 УК</h3>
+  <p class="l24-boris-obysk-flow__lead">В кассации по делу № 32-УД26-10-K1 защита атаковала <strong>процессуально</strong> (неупакованные ноутбуки → недопустимость КТЭ) и <strong>уголовно-правово</strong> (проверочная закупка → покушение). ВС отклонил контур A, но <strong>снизил срок на 3 месяца</strong> по контуру B — с <strong>10 лет 6 мес.</strong> до <strong>10 лет 3 мес.</strong></p>
 
-  <div class="l24-boris-maugli-flow__split">
-    <div class="l24-boris-maugli-flow__panel">
-      <p class="l24-boris-maugli-flow__panel-title">Сквозной маршрут (дело «Маугли»)</p>
-      <svg class="l24-boris-maugli-flow__route-svg" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mgFlowT mgFlowD">
-        <title id="mgFlowT">Маршрут аннулирования ТЗ «МАУГЛИ ДРАЖЕ»: возражение, решение ППС, СИП</title>
-        <desc id="mgFlowD">Три этапа: возражение Союзмультфильма 30.12.2025, решение ППС 24.08.2026 об аннулировании № 162034, опциональное обжалование Рот Фронта в СИП за 3 месяца</desc>
+  <div class="l24-boris-obysk-flow__split">
+    <!-- КОНТУР A -->
+    <div class="l24-boris-obysk-flow__panel l24-boris-obysk-flow__panel--a">
+      <div class="l24-boris-obysk-flow__panel-head">
+        <p class="l24-boris-obysk-flow__panel-title">Контур A — процессуальный</p>
+        <span class="l24-boris-obysk-flow__badge l24-boris-obysk-flow__badge--fail">частично провалился</span>
+      </div>
+      <svg class="l24-boris-obysk-flow__route-svg" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="obFlowAT obFlowAD">
+        <title id="obFlowAT">Контур A: цепочка упаковки и КТЭ при обыске</title>
+        <desc id="obFlowAD">Обыск → протокол → упаковка/фото → КТЭ → ст. 75 УПК. В деле № 32-УД26-10-K1 КТЭ сохранена: голый довод «не упаковали» отклонён</desc>
         <defs>
-          <linearGradient id="mgFlowLine" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#34d399"/>
-            <stop offset="50%" stop-color="#fbbf24"/>
-            <stop offset="100%" stop-color="#a78bfa"/>
+          <linearGradient id="obProcLine" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#38bdf8"/>
+            <stop offset="100%" stop-color="#7dd3fc"/>
           </linearGradient>
-          <marker id="mgFlowArr" markerWidth="8" markerHeight="7" refX="7" refY="3.5" orient="auto">
-            <polygon points="0 0, 8 3.5, 0 7" fill="#fbbf24"/>
+          <marker id="obProcArr" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+            <polygon points="0 0, 7 3, 0 6" fill="#7dd3fc"/>
           </marker>
-          <filter id="mgFlowGlow" x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.35"/>
+          <filter id="obProcGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
           </filter>
         </defs>
 
-        <rect x="12" y="12" width="576" height="196" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+        <rect x="8" y="8" width="504" height="184" rx="10" fill="rgba(56,189,248,0.04)" stroke="rgba(56,189,248,0.18)" stroke-width="1.2"/>
 
-        <line x1="88" y1="108" x2="512" y2="108" stroke="url(#mgFlowLine)" stroke-width="4" stroke-linecap="round"/>
-        <line x1="88" y1="108" x2="512" y2="108" stroke="rgba(52,211,153,0.2)" stroke-width="10" stroke-linecap="round"/>
+        <!-- Цепочка звеньев -->
+        <line x1="52" y1="88" x2="468" y2="88" stroke="rgba(56,189,248,0.15)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="52" y1="88" x2="468" y2="88" stroke="url(#obProcLine)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6,4" opacity="0.7"/>
 
-        <!-- Этап 1: Возражение -->
-        <circle cx="108" cy="108" r="28" fill="#143528" stroke="#34d399" stroke-width="3" filter="url(#mgFlowGlow)"/>
-        <circle cx="108" cy="108" r="10" fill="#34d399"/>
-        <text x="108" y="52" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="800" font-family="system-ui,sans-serif">① ВОЗРАЖЕНИЕ</text>
-        <rect x="36" y="60" width="144" height="72" rx="8" fill="rgba(52,211,153,0.12)" stroke="#34d399" stroke-width="1.2"/>
-        <text x="48" y="76" fill="#6ee7b7" font-size="7" font-weight="800" font-family="system-ui,sans-serif">Союзмультфильм</text>
-        <text x="48" y="90" fill="#fff" font-size="8.5" font-weight="800" font-family="system-ui,sans-serif">30.12.2025</text>
-        <text x="48" y="104" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">ВОЗ_18ТЗ · ППС</text>
-        <text x="48" y="118" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">п. 9 ст. 1483 · без согласия</text>
-        <line x1="108" y1="136" x2="108" y2="148" stroke="#34d399" stroke-width="1.2" stroke-dasharray="3,2"/>
+        <!-- 1 Обыск -->
+        <circle cx="52" cy="88" r="22" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5" filter="url(#obProcGlow)"/>
+        <text x="52" y="92" text-anchor="middle" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">1</text>
+        <text x="52" y="58" text-anchor="middle" fill="#7dd3fc" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ОБЫСК</text>
+        <text x="52" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">2 ноутбука</text>
+        <text x="52" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">+ телефон</text>
 
-        <!-- Этап 2: Решение -->
-        <circle cx="300" cy="108" r="32" fill="#1e293b" stroke="#fbbf24" stroke-width="3.5" filter="url(#mgFlowGlow)"/>
-        <circle cx="300" cy="108" r="11" fill="#fbbf24"/>
-        <text x="300" y="44" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="800" font-family="system-ui,sans-serif">② РЕШЕНИЕ ППС</text>
-        <rect x="216" y="148" width="168" height="52" rx="8" fill="rgba(251,191,36,0.12)" stroke="#fbbf24" stroke-width="1.4"/>
-        <text x="228" y="166" fill="#fde68a" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">Аннулирование № 162034</text>
-        <text x="228" y="180" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">24.08.2026 · РАПСИ</text>
-        <text x="228" y="194" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">коллегия 15.05.2026 · Батищева</text>
-        <line x1="300" y1="140" x2="300" y2="144" stroke="#fbbf24" stroke-width="1.2" stroke-dasharray="3,2"/>
+        <!-- 2 Протокол -->
+        <circle cx="156" cy="88" r="22" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5" filter="url(#obProcGlow)"/>
+        <text x="156" y="92" text-anchor="middle" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">2</text>
+        <text x="156" y="58" text-anchor="middle" fill="#7dd3fc" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ПРОТОКОЛ</text>
+        <text x="156" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">ст. 166–167</text>
+        <text x="156" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">УПК</text>
 
-        <!-- Этап 3: СИП -->
-        <circle cx="492" cy="108" r="28" fill="#143528" stroke="#a78bfa" stroke-width="3" filter="url(#mgFlowGlow)"/>
-        <circle cx="492" cy="108" r="10" fill="#a78bfa"/>
-        <text x="492" y="52" text-anchor="middle" fill="#c4b5fd" font-size="8" font-weight="800" font-family="system-ui,sans-serif">③ СИП (опция)</text>
-        <rect x="420" y="60" width="144" height="72" rx="8" fill="rgba(167,139,250,0.12)" stroke="#a78bfa" stroke-width="1.2"/>
-        <text x="432" y="76" fill="#c4b5fd" font-size="7" font-weight="800" font-family="system-ui,sans-serif">Рот Фронт</text>
-        <text x="432" y="90" fill="#fff" font-size="8.5" font-weight="800" font-family="system-ui,sans-serif">3 месяца</text>
-        <text x="432" y="104" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">ч. 4 ст. 198 АПК</text>
-        <text x="432" y="118" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">ст. 1248 — досудебный этап</text>
-        <line x1="492" y1="136" x2="492" y2="148" stroke="#a78bfa" stroke-width="1.2" stroke-dasharray="3,2"/>
+        <!-- 3 Упаковка (перечёркнуто) -->
+        <circle cx="260" cy="88" r="24" fill="#1e293b" stroke="#f87171" stroke-width="2.5" stroke-dasharray="4,3" filter="url(#obProcGlow)"/>
+        <text x="260" y="92" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="800" font-family="system-ui,sans-serif">✕</text>
+        <text x="260" y="58" text-anchor="middle" fill="#fca5a5" font-size="7" font-weight="700" font-family="system-ui,sans-serif">УПАКОВКА</text>
+        <text x="260" y="128" text-anchor="middle" fill="#f87171" font-size="6" font-family="system-ui,sans-serif">не произведена</text>
+        <text x="260" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">ч. 10 ст. 182</text>
 
-        <path d="M136 108 L264 108" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#mgFlowArr)" opacity="0.8"/>
-        <path d="M332 108 L464 108" fill="none" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#mgFlowArr)" opacity="0.8"/>
+        <!-- 4 КТЭ -->
+        <circle cx="364" cy="88" r="22" fill="#1e293b" stroke="#38bdf8" stroke-width="2.5" filter="url(#obProcGlow)"/>
+        <text x="364" y="92" text-anchor="middle" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">4</text>
+        <text x="364" y="58" text-anchor="middle" fill="#7dd3fc" font-size="7" font-weight="700" font-family="system-ui,sans-serif">КТЭ</text>
+        <text x="364" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">заключение</text>
+        <text x="364" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">2013 г.</text>
 
-        <rect x="200" y="168" width="200" height="0" fill="none"/>
-        <text x="300" y="28" text-anchor="middle" fill="#fde68a" font-size="7.5" font-weight="700" font-family="system-ui,sans-serif">«МАУГЛИ ДРАЖЕ» · класс 30 · приоритет 30.01.1996</text>
+        <!-- 5 ст. 75 -->
+        <circle cx="468" cy="88" r="22" fill="#1e293b" stroke="#fbbf24" stroke-width="2.5" filter="url(#obProcGlow)"/>
+        <text x="468" y="92" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="800" font-family="system-ui,sans-serif">75</text>
+        <text x="468" y="58" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ст. 75</text>
+        <text x="468" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">ч. 2 п. 3</text>
+        <text x="468" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">УПК</text>
+
+        <path d="M74 88 L130 88" fill="none" stroke="#38bdf8" stroke-width="1.2" marker-end="url(#obProcArr)" opacity="0.8"/>
+        <path d="M178 88 L234 88" fill="none" stroke="#38bdf8" stroke-width="1.2" marker-end="url(#obProcArr)" opacity="0.8"/>
+        <path d="M286 88 L340 88" fill="none" stroke="#f87171" stroke-width="1.2" marker-end="url(#obProcArr)" opacity="0.6"/>
+        <path d="M386 88 L444 88" fill="none" stroke="#fbbf24" stroke-width="1.2" marker-end="url(#obProcArr)" opacity="0.8"/>
+
+        <!-- Итог контура A -->
+        <rect x="120" y="158" width="280" height="28" rx="6" fill="rgba(248,113,113,0.12)" stroke="rgba(248,113,113,0.4)" stroke-width="1.2"/>
+        <text x="260" y="176" text-anchor="middle" fill="#fca5a5" font-size="7.5" font-weight="700" font-family="system-ui,sans-serif">КТЭ сохранена · недопустимость не доказана</text>
       </svg>
 
-      <ol class="l24-boris-maugli-flow__stages" aria-label="Три этапа маршрута">
-        <li class="l24-boris-maugli-flow__stage">
-          <strong>Возражение в Роспатент</strong>
-          Заинтересованное лицо (Союзмультфильм) · весь срок охраны для п. 9 ст. 1483 · пакет: известность персонажа, отсутствие согласия.
+      <ul class="l24-boris-obysk-flow__steps" aria-label="Шаги контура A">
+        <li class="l24-boris-obysk-flow__step l24-boris-obysk-flow__step--weak">
+          <strong>Слабый довод (отклонён)</strong>
+          «Не упаковали → КТЭ недопустима» — ВС: ч. 10 ст. 182 не делает упаковку обязательной.
         </li>
-        <li class="l24-boris-maugli-flow__stage">
-          <strong>Решение ППС</strong>
-          Признание охраны недействительной · тождественность «Маугли» с циклом мультфильма · доводы Киплинга/Disney отклонены.
+        <li class="l24-boris-obysk-flow__step">
+          <strong>Сильный довод (для иных дел)</strong>
+          Разрыв цепочки: протокол ↔ бирка ↔ фото ↔ заключение; переупаковка; ст. 164.1 для ЭНИ.
         </li>
-        <li class="l24-boris-maugli-flow__stage">
-          <strong>Обжалование в СИП</strong>
-          Для проигравшего правообладателя · госпошлина 6 000 ₽ · кассация: президиум СИП → ВС РФ.
-        </li>
-      </ol>
-      <p class="l24-boris-maugli-flow__caption">Схема по РАПСИ 24.08.2026 и расписанию ППС ФИПС (май 2026)</p>
+      </ul>
+      <p class="l24-boris-obysk-flow__caption">Цепочка идентификации: протокол → упаковка/фото → постановление → заключение</p>
     </div>
 
-    <div class="l24-boris-maugli-flow__panel">
-      <p class="l24-boris-maugli-flow__panel-title">Что важно на каждом рубеже</p>
-      <div class="l24-boris-maugli-flow__vs">
-        <div class="l24-boris-maugli-flow__vs-card l24-boris-maugli-flow__vs-card--win">
-          <strong>Союзмультфильм (победа ППС)</strong>
-          Охрана ТЗ прекращена — «Рот Фронт» не может запрещать «Маугли» как знак. Риск по АП на образ сохраняется отдельно.
-        </div>
-        <div class="l24-boris-maugli-flow__vs-card l24-boris-maugli-flow__vs-card--risk">
-          <strong>Рот Фронт (путь в СИП)</strong>
-          Нужны документы согласия — без них прецедент СИП-62/2023 (Карлсон): суд подтвердил Роспатент по п. 9 ст. 1483.
-        </div>
+    <!-- КОНТУР B -->
+    <div class="l24-boris-obysk-flow__panel l24-boris-obysk-flow__panel--b">
+      <div class="l24-boris-obysk-flow__panel-head">
+        <p class="l24-boris-obysk-flow__panel-title">Контур B — уголовно-правовой</p>
+        <span class="l24-boris-obysk-flow__badge l24-boris-obysk-flow__badge--win">сработал · −3 мес.</span>
       </div>
-      <div class="l24-boris-maugli-flow__grounds">
-        <div class="l24-boris-maugli-flow__ground l24-boris-maugli-flow__ground--pps">
-          <span class="l24-boris-maugli-flow__ground-label">ППС · доказательства</span>
-          <span class="l24-boris-maugli-flow__ground-text">Известность цикла «Маугли» (1967–1973), <em>тождественность</em> словесного элемента, отсутствие согласия киностудии и наследников Киплинга.</span>
-        </div>
-        <div class="l24-boris-maugli-flow__ground l24-boris-maugli-flow__ground--law">
-          <span class="l24-boris-maugli-flow__ground-label">ст. 1483 · 1512 ГК</span>
-          <span class="l24-boris-maugli-flow__ground-text"><em>пп. 1 п. 9 ст. 1483</em> — персонаж без согласия; абсолютное основание по п. 2 ст. 1512 (весь срок охраны).</span>
-        </div>
-        <div class="l24-boris-maugli-flow__ground l24-boris-maugli-flow__ground--sip">
-          <span class="l24-boris-maugli-flow__ground-label">СИП · сроки</span>
-          <span class="l24-boris-maugli-flow__ground-text"><em>3 месяца</em> на иск (ч. 4 ст. 198 АПК) · досудебный порядок по ст. 1248 обязателен · ВС 12.08.2025 отказал в кассации по Карлсону.</span>
-        </div>
-      </div>
-      <p class="l24-boris-maugli-flow__note"><em>≠ иск о нарушении:</em> возражение спорит о регистрации; претензия по авторскому праву на этикетку — отдельная линия (пример: Волк на дыне, 11.08.2026).</p>
+      <svg class="l24-boris-obysk-flow__route-svg" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="obFlowBT obFlowBD">
+        <title id="obFlowBT">Контур B: квалификация проверочной закупки по ст. 9 УК и Пленуму № 14</title>
+        <desc id="obFlowBD">Проверочная закупка 20.06.2013 → ст. 9 УК → п. 13 Пленума № 14 (ред. 2010) → покушение → снижение срока на 3 месяца</desc>
+        <defs>
+          <linearGradient id="obQualLine" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#34d399"/>
+            <stop offset="100%" stop-color="#6ee7b7"/>
+          </linearGradient>
+          <marker id="obQualArr" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+            <polygon points="0 0, 7 3, 0 6" fill="#6ee7b7"/>
+          </marker>
+          <filter id="obQualGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
+          </filter>
+        </defs>
+
+        <rect x="8" y="8" width="504" height="184" rx="10" fill="rgba(52,211,153,0.04)" stroke="rgba(52,211,153,0.18)" stroke-width="1.2"/>
+
+        <line x1="52" y1="88" x2="468" y2="88" stroke="rgba(52,211,153,0.15)" stroke-width="8" stroke-linecap="round"/>
+        <line x1="52" y1="88" x2="468" y2="88" stroke="url(#obQualLine)" stroke-width="2.5" stroke-linecap="round"/>
+
+        <!-- 1 Проверочная закупка -->
+        <circle cx="52" cy="88" r="22" fill="#1e293b" stroke="#34d399" stroke-width="2.5" filter="url(#obQualGlow)"/>
+        <text x="52" y="92" text-anchor="middle" fill="#fff" font-size="9" font-weight="800" font-family="system-ui,sans-serif">1</text>
+        <text x="52" y="54" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">ПРОВЕРОЧНАЯ</text>
+        <text x="52" y="64" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">ЗАКУПКА</text>
+        <text x="52" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">20.06.2013</text>
+        <text x="52" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">марихуана</text>
+
+        <!-- 2 ст. 9 УК -->
+        <circle cx="182" cy="88" r="22" fill="#1e293b" stroke="#34d399" stroke-width="2.5" filter="url(#obQualGlow)"/>
+        <text x="182" y="92" text-anchor="middle" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">9</text>
+        <text x="182" y="58" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ст. 9 УК</text>
+        <text x="182" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">закон на</text>
+        <text x="182" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">момент деяния</text>
+
+        <!-- 3 Пленум 14 -->
+        <circle cx="312" cy="88" r="24" fill="#1e293b" stroke="#34d399" stroke-width="3" filter="url(#obQualGlow)"/>
+        <text x="312" y="92" text-anchor="middle" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">14</text>
+        <text x="312" y="54" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">ПЛЕНУМ</text>
+        <text x="312" y="64" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="700" font-family="system-ui,sans-serif">ВС № 14</text>
+        <text x="312" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">п. 13 · ред.</text>
+        <text x="312" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">23.12.2010</text>
+
+        <!-- 4 Покушение -->
+        <circle cx="442" cy="88" r="22" fill="#14532d" stroke="#6ee7b7" stroke-width="2.5" filter="url(#obQualGlow)"/>
+        <text x="442" y="86" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="800" font-family="system-ui,sans-serif">ч.3</text>
+        <text x="442" y="96" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="800" font-family="system-ui,sans-serif">ст.30</text>
+        <text x="442" y="58" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="700" font-family="system-ui,sans-serif">ПОКУШЕНИЕ</text>
+        <text x="442" y="128" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">вместо</text>
+        <text x="442" y="138" text-anchor="middle" fill="#94a3b8" font-size="6" font-family="system-ui,sans-serif">оконч. сбыта</text>
+
+        <path d="M74 88 L158 88" fill="none" stroke="#34d399" stroke-width="1.2" marker-end="url(#obQualArr)" opacity="0.9"/>
+        <path d="M204 88 L286 88" fill="none" stroke="#34d399" stroke-width="1.2" marker-end="url(#obQualArr)" opacity="0.9"/>
+        <path d="M336 88 L418 88" fill="none" stroke="#34d399" stroke-width="1.2" marker-end="url(#obQualArr)" opacity="0.9"/>
+
+        <!-- Итог контура B -->
+        <rect x="120" y="158" width="280" height="28" rx="6" fill="rgba(52,211,153,0.14)" stroke="rgba(52,211,153,0.45)" stroke-width="1.2"/>
+        <text x="260" y="176" text-anchor="middle" fill="#6ee7b7" font-size="7.5" font-weight="700" font-family="system-ui,sans-serif">10 лет 6 мес. → 10 лет 3 мес. (−3 мес.)</text>
+      </svg>
+
+      <ul class="l24-boris-obysk-flow__steps" aria-label="Шаги контура B">
+        <li class="l24-boris-obysk-flow__step">
+          <strong>Переквалификация эпизода</strong>
+          Суд I инстанции: оконченный сбыт → ВС: покушение (ч. 3 ст. 30 + ст. 228.1) по закону, действовавшему до 30.06.2015.
+        </li>
+        <li class="l24-boris-obysk-flow__step">
+          <strong>Ретроспективность</strong>
+          ст. 9 УК + п. 13 Пленума № 14 (ред. 23.12.2010): изъятие из оборота при проверочной закупке = покушение.
+        </li>
+      </ul>
+      <p class="l24-boris-obysk-flow__caption">Пленум № 14 от 15.06.2006 · п. 13 в ред. 23.12.2010 · до изменений 30.06.2015</p>
     </div>
   </div>
 
-  <p class="l24-boris-maugli-flow__total"><strong>Ключ для производителя:</strong> административный маршрут (возражение → ППС) может аннулировать ТЗ быстрее суда. После решения Роспатента проигравшая сторона идёт в <strong>СИП</strong>, но без согласия на персонаж шансы ограничены — как в деле «Маугли» и аналоге «Карлсон».</p>
+  <!-- Сводка: оба контура → итог кассации -->
+  <div class="l24-boris-obysk-flow__merge">
+    <p class="l24-boris-obysk-flow__merge-title">Итог кассации · дело № 32-УД26-10-K1</p>
+    <svg class="l24-boris-obysk-flow__merge-svg" viewBox="0 0 520 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Сводка: контур A провалился, контур B дал снижение наказания">
+      <defs>
+        <marker id="obMergeArr" markerWidth="6" markerHeight="5" refX="5" refY="2.5" orient="auto">
+          <polygon points="0 0, 6 2.5, 0 5" fill="#fde68a"/>
+        </marker>
+      </defs>
+      <rect x="16" y="20" width="140" height="32" rx="6" fill="rgba(56,189,248,0.1)" stroke="rgba(56,189,248,0.35)" stroke-width="1.2"/>
+      <text x="86" y="34" text-anchor="middle" fill="#7dd3fc" font-size="7" font-weight="700" font-family="system-ui,sans-serif">КОНТУР A</text>
+      <text x="86" y="46" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-family="system-ui,sans-serif">КТЭ сохранена</text>
 
-  <div class="l24-boris-maugli-flow__foot">
-    <span class="l24-boris-maugli-flow__tag l24-boris-maugli-flow__tag--case">ТЗ № 162034</span>
-    <span class="l24-boris-maugli-flow__tag l24-boris-maugli-flow__tag--law">п. 9 ст. 1483</span>
-    <span class="l24-boris-maugli-flow__tag l24-boris-maugli-flow__tag--sip">СИП-62/2023</span>
-    <span class="l24-boris-maugli-flow__tag">класс 30</span>
-    <span class="l24-boris-maugli-flow__tag">24.08.2026</span>
+      <rect x="184" y="20" width="140" height="32" rx="6" fill="rgba(52,211,153,0.12)" stroke="rgba(52,211,153,0.4)" stroke-width="1.2"/>
+      <text x="254" y="34" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="700" font-family="system-ui,sans-serif">КОНТУР B</text>
+      <text x="254" y="46" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-family="system-ui,sans-serif">покушение · −3 мес.</text>
+
+      <line x1="156" y1="36" x2="178" y2="36" stroke="#475569" stroke-width="1" stroke-dasharray="3,2"/>
+      <text x="167" y="30" text-anchor="middle" fill="#64748b" font-size="5.5" font-family="system-ui,sans-serif">+</text>
+
+      <path d="M324 36 L368 36" fill="none" stroke="#fde68a" stroke-width="1.5" marker-end="url(#obMergeArr)"/>
+
+      <rect x="372" y="14" width="132" height="44" rx="8" fill="rgba(251,191,36,0.12)" stroke="#fbbf24" stroke-width="1.4"/>
+      <text x="438" y="32" text-anchor="middle" fill="#fde68a" font-size="7.5" font-weight="800" font-family="system-ui,sans-serif">10 лет 6 мес.</text>
+      <text x="438" y="44" text-anchor="middle" fill="#fff" font-size="8" font-weight="800" font-family="system-ui,sans-serif">→ 10 лет 3 мес.</text>
+      <text x="438" y="54" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">ИК строгого режима</text>
+    </svg>
+  </div>
+
+  <p class="l24-boris-obysk-flow__total"><strong>Урок для защитника:</strong> не ставить всё на один довод. После определения ВС 24.08.2026 формула «не упаковали — недопустимо» <strong>сама по себе не работает</strong> — нужна цепочка идентификации и доказательство влияния на достоверность (ст. 75, 88 УПК). Параллельно проверяйте <strong>квалификацию каждого эпизода</strong> — ст. 9 УК и редакция Пленума № 14 на дату деяния могут дать снижение даже при сохранении КТЭ.</p>
+
+  <div class="l24-boris-obysk-flow__foot">
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--case">№ 32-УД26-10-K1</span>
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--proc">ч. 10 ст. 182 УПК</span>
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--proc">ст. 75 · 88 УПК</span>
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--qual">ст. 9 УК</span>
+    <span class="l24-boris-obysk-flow__tag l24-boris-obysk-flow__tag--qual">Пленум № 14</span>
+    <span class="l24-boris-obysk-flow__tag">24.08.2026</span>
   </div>
 </div>
 </section>
