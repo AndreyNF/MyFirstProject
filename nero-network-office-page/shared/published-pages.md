@@ -2,6 +2,7 @@
 
 | Дата | Код | SLUG | page_id | URL |
 |------|-----|------|---------|-----|
+| 2026-08-26 | KIRILL-ARB | vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026 | 581 | https://advokat-vsem.online/vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026/ |
 | 2026-08-25 | KIRILL-UG | vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026 | 578 | https://advokat-vsem.online/vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026/ |
 | 2026-07-04 | KIRILL-ARB | vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo | 576 | https://advokat-vsem.online/vs-obzor-5-2026-fns-zalogovyy-kreditor-bankrotstvo/ |
 | 2026-07-03 | KIRILL-UG | vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026 | 572 | https://advokat-vsem.online/vs-maloznachitelnost-krazha-st-14-zashchita-kassaciya-2026/ |

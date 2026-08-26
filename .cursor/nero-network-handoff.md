@@ -1492,7 +1492,31 @@ MCP-only: static SVG, без canvas/script
 - **H1:** ВС РФ: кредитор в банкротстве должен доказать добросовестность при взыскании неосновательного обогащения
 - **datePublished (JSON-LD):** 2026-08-26
 
-**ПАЙПЛАЙН:** Наташа ✅ → WordPress (Маша)
+**ПАЙПЛАЙН:** Наташа ✅ → Юра ✅ (опубликовано)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ГОТОВО
+
+**page_id:** 581
+**URL:** https://advokat-vsem.online/vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026/
+**SLUG:** vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026
+**blob_id:** o2XqUkiHFeowWlaJunFL2cL
+**sha256:** 532351d2d5214647b962b9ed2baa942ab14524b9e65f71d9341c2e6e7233f18f
+**bytes_total:** 90551 (4×18k chunks: 18677 → 40816 → 62486 → 90551)
+**Статус WP:** publish
+**excerpt / Yoast `_yoast_wpseo_metadesc`:** Определение ВС 18.08.2026 по делу № А65-968/2025: отменено взыскание 56,8 млн ₽ с банкрота. Кредитор должен доказать пользование недвижимостью и добросовестность — защита в арбитражном споре.
+
+## Live check (curl)
+- `main#primary`: OK
+- `#l24-hero-vs-kreditor-dobrosovestnost`: OK
+- `#l24-boris-kreditor-timeline-matrix`: OK
+
+## Журналы
+- `nero-network-office-page/shared/published-pages.md` — добавлена строка 2026-08-26
+- `nero-network-office-page/shared/content-plan-legis24.md` — строка 27 KIRILL-ARB ✅
+- `shared/kirill-news-ledger.md` — статус `published`
+
+**ПАЙПЛАЙН:** Кирилл → Коля → Артём → Женя → Алина → Борис → Артур → Наташа → **Юра ✅**
 
 === НАТАША (HTML СТРАНИЦЫ) ===
 Статус: ✅ ГОТОВО
@@ -1523,4 +1547,28 @@ MCP-only: static SVG, без canvas/script
 - **H1:** ВС РФ: кредитор в банкротстве должен доказать добросовестность при взыскании неосновательного обогащения
 - **datePublished (JSON-LD):** 2026-08-26
 
-**ПАЙПЛАЙН:** Наташа ✅ → WordPress (Маша)
+**ПАЙПЛАЙН:** Наташа ✅ → Юра ✅ (опубликовано)
+
+=== ЮРА (ПУБЛИКАЦИЯ) ===
+Статус: ✅ ГОТОВО
+
+**page_id:** 581
+**URL:** https://advokat-vsem.online/vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026/
+**SLUG:** vs-kreditor-dobrosovestnost-neosnovatelnoe-obogaschenie-bankrotstvo-2026
+**blob_id:** o2XqUkiHFeowWlaJunFL2cL
+**sha256:** 532351d2d5214647b962b9ed2baa942ab14524b9e65f71d9341c2e6e7233f18f
+**bytes_total:** 90551 (4×18k chunks: 18677 → 40816 → 62486 → 90551)
+**Статус WP:** publish
+**excerpt / Yoast `_yoast_wpseo_metadesc`:** Определение ВС 18.08.2026 по делу № А65-968/2025: отменено взыскание 56,8 млн ₽ с банкрота. Кредитор должен доказать пользование недвижимостью и добросовестность — защита в арбитражном споре.
+
+## Live check (curl)
+- `main#primary`: OK
+- `#l24-hero-vs-kreditor-dobrosovestnost`: OK
+- `#l24-boris-kreditor-timeline-matrix`: OK
+
+## Журналы
+- `nero-network-office-page/shared/published-pages.md` — добавлена строка 2026-08-26
+- `nero-network-office-page/shared/content-plan-legis24.md` — строка 27 KIRILL-ARB ✅
+- `shared/kirill-news-ledger.md` — статус `published`
+
+**ПАЙПЛАЙН:** Кирилл → Коля → Артём → Женя → Алина → Борис → Артур → Наташа → **Юра ✅**
