@@ -1,6 +1,11 @@
 {
-  "step": 7,
-  "blob_id": "9E2XonE1JxiC3JzOjubiEWBR",
-  "total": 18,
-  "bytes_total": 37066
+  "step": 4,
+  "blob_id": "yvmHJJzgWxpkpoL3crUxrkt",
+  "bytes": 20717,
+  "sha256": null,
+  "abandoned_blobs": [
+    "9E2XonE1JxiC3JzOjubiEWBR",
+    "pcGN1BbNyfx1Xftmxaj2HNY"
+  ],
+  "note": "Fresh upload after sha256 mismatch on 9E2XonE1JxiC3JzOjubiEWBR. Steps 0-3 done. Continue 4-17 via obysk-step-N-ready.json + CallDynamicTool."
 }
