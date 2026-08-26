@@ -1,0 +1,1186 @@
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page th, .arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page th { background: #edf2f7; }
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page a { color: #1e40af; }
+.arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page code {
+  font-size: 0.9em; background: #f1f5f9; padding: 2px 6px; border-radius: 4px;
+}
+.l24-intro-a11 {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-a11__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-a11__text {
+  border-left: 4px solid #1e3a8a; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-a11__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-a11__text p:last-child { margin-bottom: 0; }
+.l24-intro-a11__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-a11__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-a11__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-a11__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-a11__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-a11__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-a11__chip--navy { border-color: #0f2744; color: #0f2744; }
+.l24-intro-a11__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta--legis24 { border-left-color: #1e3a8a; background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%); }
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-a11 {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-a11 > h2 { margin-top: 0 !important; }
+.l24-faq-a11__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-a11__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-a11__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-a11__a { margin: 0; color: #334155; }
+.l24-jsonld-a11 { display: none !important; }
+.ym-section { display: block; }
+@media (prefers-reduced-motion: no-preference) {
+  .arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page .l24-longread-wrap > * {
+    animation: l24-a11-fade 0.5s ease both;
+  }
+}
+@keyframes l24-a11-fade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page .l24-longread-wrap > * { animation: none !important; }
+}
+@media (max-width: 900px) {
+  .l24-intro-a11__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main arbitrazhnyj-upravlyayushchij-osparivanie-sdelok-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="Арбитражный управляющий и оспаривание сделок: сроки и последствия для должника">
+<meta itemprop="description" content="Когда арбитражный управляющий оспаривает сделки должника в банкротстве: сроки по ст. 61.1–61.5, подозрительные и с предпочтением сделки, заявление в арбитражный суд и последствия для должника. Консультация по защите.">
+<meta itemprop="inLanguage" content="ru-RU">
+
+<section id="l24-hero-arb-au-deals" class="hero-arb-au-deals" aria-label="Арбитражный управляющий и оспаривание сделок">
+  <style>
+    .hero-arb-au-deals {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(168deg, #fcfcfd 0%, #f4f6f9 42%, #e9eef4 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-arb-au-deals::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 50% 45% at 92% 12%, rgba(30, 58, 138, 0.06) 0%, transparent 55%),
+        radial-gradient(ellipse 42% 38% at 6% 88%, rgba(163, 24, 48, 0.04) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-arb-au-deals__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .hero-arb-au-deals__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-arb-au-deals__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e3a8a;
+      flex-shrink: 0;
+    }
+    .hero-arb-au-deals__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-arb-au-deals__h1-accent {
+      color: #1e3a8a;
+    }
+    .hero-arb-au-deals__sub {
+      margin: 0 0 26px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.55vw, 1.1rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-arb-au-deals__lanes {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+    }
+    .hero-arb-au-deals__lane {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 13px;
+      font-size: 0.93rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-arb-au-deals__lane-tag {
+      flex-shrink: 0;
+      min-width: 108px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .hero-arb-au-deals__lane--sus .hero-arb-au-deals__lane-tag {
+      background: #a31830;
+    }
+    .hero-arb-au-deals__lane--pref .hero-arb-au-deals__lane-tag {
+      background: #1e3a8a;
+    }
+    .hero-arb-au-deals__lane--au .hero-arb-au-deals__lane-tag {
+      background: #475569;
+    }
+    .hero-arb-au-deals__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 26px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.94rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+    }
+    .hero-arb-au-deals__cta:hover {
+      background: #8b1528;
+    }
+    .hero-arb-au-deals__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-arb-au-deals__inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+      .hero-arb-au-deals__visual {
+        order: -1;
+        max-height: 320px;
+      }
+      .hero-arb-au-deals__lane-tag {
+        min-width: 92px;
+        font-size: 0.66rem;
+      }
+    }
+  </style>
+  <div class="hero-arb-au-deals__inner">
+    <div class="hero-arb-au-deals__content">
+      <div class="hero-arb-au-deals__badge">
+        <span class="hero-arb-au-deals__badge-dot" aria-hidden="true"></span>
+        Legis24 ARB · A11 · 127-ФЗ · ст. 61.1–61.14 · 2026
+      </div>
+      <h1 class="hero-arb-au-deals__h1">
+        <span class="hero-arb-au-deals__h1-accent">Арбитражный управляющий</span> и оспаривание сделок
+      </h1>
+      <p class="hero-arb-au-deals__sub">
+        Сроки по закону о банкротстве, виды оспариваемых сделок и последствия для должника в арбитражном суде
+      </p>
+      <ul class="hero-arb-au-deals__lanes">
+        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--sus">
+          <span class="hero-arb-au-deals__lane-tag">ст. 61.2</span>
+          <span><strong>Подозрительная сделка</strong> — период 1 год или 3 года до банкротства; презумпции цели вреда кредиторам</span>
+        </li>
+        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--pref">
+          <span class="hero-arb-au-deals__lane-tag">ст. 61.3</span>
+          <span><strong>С предпочтением</strong> — 6 месяцев / 1 год; неравный приоритет одному кредитору перед массой</span>
+        </li>
+        <li class="hero-arb-au-deals__lane hero-arb-au-deals__lane--au">
+          <span class="hero-arb-au-deals__lane-tag">1 год</span>
+          <span><strong>Заявление управляющего</strong> — обособленный спор в деле о банкротстве; реституция в конкурсную массу</span>
+        </li>
+      </ul>
+      <a class="hero-arb-au-deals__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите при оспаривании сделки</a>
+    </div>
+    <div class="hero-arb-au-deals__visual" aria-hidden="true">
+      <svg viewBox="0 0 480 410" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Схема: арбитражный управляющий, сроки оспаривания сделок и возврат в конкурсную массу">
+        <defs>
+          <linearGradient id="hero-a11-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e2e8f0"/>
+          </linearGradient>
+          <linearGradient id="hero-a11-court" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-a11-mass" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ecfdf5"/>
+            <stop offset="100%" stop-color="#d1fae5"/>
+          </linearGradient>
+          <filter id="hero-a11-shadow" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.12"/>
+          </filter>
+          <marker id="hero-a11-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
+          </marker>
+          <marker id="hero-a11-arrow-red" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#a31830"/>
+          </marker>
+        </defs>
+        <rect x="8" y="10" width="464" height="390" rx="16" fill="url(#hero-a11-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <!-- арбитражный суд -->
+        <g transform="translate(140, 18)">
+          <rect x="0" y="24" width="200" height="58" rx="4" fill="url(#hero-a11-court)"/>
+          <polygon points="100,0 200,24 0,24" fill="#1e40af"/>
+          <text x="100" y="52" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="700" letter-spacing="0.08em">АРБИТРАЖ · обособлённый спор</text>
+        </g>
+        <!-- линия сроков -->
+        <text x="28" y="108" fill="#64748b" font-size="8" font-weight="700" letter-spacing="0.06em">ЛИНИЯ СРОКОВ ДО ПРИНЯТИЯ ЗАЯВЛЕНИЯ О БАНКРОТСТВЕ</text>
+        <line x1="28" y1="118" x2="452" y2="118" stroke="#94a3b8" stroke-width="2"/>
+        <circle cx="88" cy="118" r="5" fill="#a31830" stroke="#fff" stroke-width="2"/>
+        <text x="88" y="134" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">6 мес.</text>
+        <text x="88" y="144" text-anchor="middle" fill="#64748b" font-size="6">ст. 61.3</text>
+        <circle cx="200" cy="118" r="5" fill="#1e3a8a" stroke="#fff" stroke-width="2"/>
+        <text x="200" y="134" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="700">1 год</text>
+        <text x="200" y="144" text-anchor="middle" fill="#64748b" font-size="6">61.2 п.1 · 61.3</text>
+        <circle cx="360" cy="118" r="5" fill="#475569" stroke="#fff" stroke-width="2"/>
+        <text x="360" y="134" text-anchor="middle" fill="#475569" font-size="7" font-weight="700">3 года</text>
+        <text x="360" y="144" text-anchor="middle" fill="#64748b" font-size="6">ст. 61.2 п.2</text>
+        <!-- управляющий + заявление -->
+        <g filter="url(#hero-a11-shadow)" transform="translate(28, 158)">
+          <rect width="156" height="108" rx="10" fill="#fff" stroke="#1e3a8a" stroke-width="1.5"/>
+          <circle cx="42" cy="36" r="18" fill="#e2e8f0" stroke="#94a3b8"/>
+          <text x="42" y="40" text-anchor="middle" fill="#1e3a8a" font-size="14" font-weight="700">АУ</text>
+          <text x="88" y="28" fill="#1e3a8a" font-size="9" font-weight="800">УПРАВЛЯЮЩИЙ</text>
+          <text x="88" y="42" fill="#64748b" font-size="7">ст. 20.3 · 61.1 ЗоБ</text>
+          <rect x="16" y="58" width="124" height="38" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+          <text x="78" y="74" text-anchor="middle" fill="#a31830" font-size="8" font-weight="700">ЗАЯВЛЕНИЕ</text>
+          <text x="78" y="86" text-anchor="middle" fill="#991b1b" font-size="7">об оспаривании сделки</text>
+        </g>
+        <!-- три сделки на весах -->
+        <g transform="translate(200, 152)">
+          <path d="M140 8 L140 52" stroke="#64748b" stroke-width="2"/>
+          <path d="M60 52 L220 52" stroke="#64748b" stroke-width="2.5"/>
+          <path d="M60 52 L40 72" stroke="#64748b" stroke-width="2"/>
+          <path d="M220 52 L240 72" stroke="#64748b" stroke-width="2"/>
+          <circle cx="140" cy="8" r="6" fill="#f59e0b" stroke="#fff" stroke-width="1.5"/>
+          <!-- сделка 1 -->
+          <g transform="translate(8, 76)">
+            <rect width="72" height="54" rx="8" fill="#fef2f2" stroke="#a31830" stroke-width="1.2" stroke-dasharray="4 3"/>
+            <text x="36" y="20" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">61.2</text>
+            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">подозрительная</text>
+            <line x1="12" y1="42" x2="60" y2="42" stroke="#fecaca"/>
+            <text x="36" y="50" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">✕</text>
+          </g>
+          <!-- сделка 2 -->
+          <g transform="translate(104, 76)">
+            <rect width="72" height="54" rx="8" fill="#eff6ff" stroke="#1e3a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+            <text x="36" y="20" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="700">61.3</text>
+            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">предпочтение</text>
+            <line x1="12" y1="42" x2="60" y2="42" stroke="#bfdbfe"/>
+            <text x="36" y="50" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="800">✕</text>
+          </g>
+          <!-- сделка 3 -->
+          <g transform="translate(200, 76)">
+            <rect width="72" height="54" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
+            <text x="36" y="20" text-anchor="middle" fill="#475569" font-size="7" font-weight="700">61.4</text>
+            <text x="36" y="34" text-anchor="middle" fill="#64748b" font-size="6">на ущерб</text>
+            <line x1="12" y1="42" x2="60" y2="42" stroke="#e2e8f0"/>
+            <text x="36" y="50" text-anchor="middle" fill="#64748b" font-size="8" font-weight="800">✕</text>
+          </g>
+        </g>
+        <!-- стрелка к суду -->
+        <path d="M106 266 L106 292 L240 292 L240 82" stroke="#1e3a8a" stroke-width="2" fill="none" marker-end="url(#hero-a11-arrow)"/>
+        <!-- последствие: реституция -->
+        <g filter="url(#hero-a11-shadow)" transform="translate(28, 278)">
+          <rect width="424" height="72" rx="10" fill="url(#hero-a11-mass)" stroke="#059669" stroke-width="1.2"/>
+          <text x="212" y="22" text-anchor="middle" fill="#047857" font-size="9" font-weight="800" letter-spacing="0.06em">КОНКУРСНАЯ МАССА · РЕСТИТУЦИЯ</text>
+          <path d="M72 44 L160 44" stroke="#059669" stroke-width="2" marker-end="url(#hero-a11-arrow)"/>
+          <rect x="168" y="32" width="88" height="24" rx="5" fill="#fff" stroke="#6ee7b7"/>
+          <text x="212" y="48" text-anchor="middle" fill="#047857" font-size="7" font-weight="700">возврат имущества</text>
+          <path d="M264 44 L352 44" stroke="#a31830" stroke-width="2" marker-end="url(#hero-a11-arrow-red)"/>
+          <text x="380" y="48" text-anchor="middle" fill="#a31830" font-size="7" font-weight="700">риск субсидиарки</text>
+        </g>
+        <text x="240" y="368" text-anchor="middle" fill="#64748b" font-size="7">сроки · виды сделок · заявление АУ · последствия для должника</text>
+        <text x="240" y="382" text-anchor="middle" fill="#94a3b8" font-size="6">метафора: весы сделок на линии времени → суд → масса</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+
+<section class="l24-intro-a11 ym-section" aria-label="Введение">
+  <div class="l24-intro-a11__grid">
+    <div class="l24-intro-a11__text">
+      <p><strong>Оспаривание сделок при банкротстве</strong> — один из самых болезненных этапов для руководителя ООО и ИП: арбитражный управляющий должника вправе «откатить» сделки за годы до принятия заявления о банкротстве. В арбитражном суде это <strong>обособлённый спор</strong> внутри дела о несостоятельности, а не отдельный иск «с нуля».</p>
+      <p>Ниже — кто инициирует оспаривание, роль арбитражного и финансового управляющего, чем отличается look-back от годичного срока на заявление, практика ВС 2024–2026 и защита в арбитраже.</p>
+      <div class="l24-intro-a11__brief">
+        <strong>Кратко:</strong> look-back по ст. 61.2–61.3 — от <strong>1 мес.</strong> до <strong>3 лет</strong> до принятия заявления о банкротстве; на иск АУ по 61.2/61.3 — как правило <strong>1 год</strong> с момента, когда управляющий должен был узнать об основании; отзыв и независимая оценка — первая линия защиты.
+      </div>
+    </div>
+    <aside class="l24-intro-a11__decor" aria-label="Оспаривание сделок: нормы и сроки">
+      <ul class="l24-intro-a11__chips">
+        <li class="l24-intro-a11__chip l24-intro-a11__chip--navy">ст. 61.1–61.14</li>
+        <li class="l24-intro-a11__chip l24-intro-a11__chip--accent">ст. 61.2 / 61.3</li>
+        <li class="l24-intro-a11__chip">ст. 61.9</li>
+        <li class="l24-intro-a11__chip l24-intro-a11__chip--warn">1 год · иск АУ</li>
+        <li class="l24-intro-a11__chip">Пленум № 63</li>
+        <li class="l24-intro-a11__chip">обзор ВС 5/2026</li>
+      </ul>
+      <svg class="l24-intro-a11__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Look-back и годичный срок на заявление арбитражного управляющего об оспаривании сделки">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">ДВА «ЧАСА» СРОКОВ</text>
+        <rect x="24" y="48" width="120" height="52" rx="8" fill="#eff6ff" stroke="#1e3a8a"/>
+        <text x="84" y="72" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="700">LOOK-BACK</text>
+        <text x="84" y="86" text-anchor="middle" fill="#64748b" font-size="7">1 мес. – 3 года</text>
+        <rect x="176" y="48" width="120" height="52" rx="8" fill="#fef2f2" stroke="#a31830"/>
+        <text x="236" y="72" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">1 ГОД</text>
+        <text x="236" y="86" text-anchor="middle" fill="#991b1b" font-size="7">иск АУ · 61.2/61.3</text>
+        <rect x="24" y="118" width="272" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+        <text x="160" y="142" text-anchor="middle" fill="#334155" font-size="9" font-weight="600">обособлённый спор · «Мой арбитр» · реституция</text>
+        <text x="160" y="160" text-anchor="middle" fill="#64748b" font-size="8">отзыв: T₀ + дата знания АУ + квалификация 61.2/61.3</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+
+
+<nav class="ym-toc ym-section" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#a11-kto">Кто оспаривает</a></li>
+    <li><a href="#a11-au">Роль управляющего</a></li>
+    <li><a href="#a11-vidy">Виды сделок · 61.2–61.4</a></li>
+    <li><a href="#a11-sroki">Сроки и давность</a></li>
+    <li><a href="#l24-boris-ospar-sroki-a11">Два «часа» · сроки</a></li>
+    <li><a href="#a11-process">Заявление и отзыв</a></li>
+    <li><a href="#a11-posledstviya">Последствия</a></li>
+    <li><a href="#a11-konsultaciya">Консультация</a></li>
+    <li><a href="#a11-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+
+<section class="ym-section">
+<div class="l24-longread-wrap">
+
+<h2 id="a11-kto">Оспаривание сделок при банкротстве: кто и зачем</h2>
+
+<p>Конкурсное оспаривание — специальный институт Закона о банкротстве (ст. 61.1–61.14 ФЗ № 127-ФЗ). Его цель — вернуть в конкурсную массу имущество и деньги, выведенные из-под взыскания кредиторов, и восстановить равные условия для всех участников процедуры. Оспаривание сделок в деле о банкротстве не сводится к «наказанию должника»: суд оценивает, нарушала ли конкретная сделка интересы кредиторов и подпадает ли она под основания недействительности.</p>
+
+<p>Оспаривание сделок должника при банкротстве дополняет, но не заменяет общегражданские основания (ст. 10, 168, 170 ГК РФ). В последние годы суды жёстко пресекают попытки «переквалифицировать» сделку с банкротных оснований на гражданские ради более длинного срока — об этом прямо сказано в актуальной судебной практике.</p>
+
+<h3>Кредитор, управляющий и должник — кто может инициировать оспаривание</h3>
+
+<p>По ст. 61.9 Закона о банкротстве заявление об оспаривании сделки вправе подать:</p>
+
+<ul>
+
+<li><strong>внешний, конкурсный или финансовый управляющий</strong> — от имени должника (это основной сценарий темы A11);</li>
+
+<li><strong>кредиторы</strong>, обладающие более чем 10% голосов в реестре требований;</li>
+
+<li><strong>уполномоченные органы</strong>, в том числе ФНС.</li>
+
+</ul>
+
+<p>Оспаривание сделки кредитором в банкротстве возможно и без управляющего, если собрание кредиторов обязало его подать заявление, а управляющий уклоняется. При неисполнении решения собрания уполномоченный представитель кредиторов вправе обратиться в суд самостоятельно.</p>
+
+<p>Сам <strong>должник</strong> в процедуре банкротства ограничен в распоряжении имуществом; инициировать конкурсное оспаривание «в свою пользу» он, как правило, не может. Зато должник (руководитель, учредитель, ИП) <strong>обязан участвовать в защите</strong> при оспаривании сделок против него: без активной позиции в обособлённом споре суды чаще применяют презумпции закона — особенно по ст. 61.2 п. 2 (сделки с целью причинить вред кредиторам).</p>
+
+<h3>Оспаривание в процедуре банкротства и в рамках единого дела</h3>
+
+<p>Оспаривание сделок в процедуре банкротства ведётся <strong>в том же арбитражном суде</strong>, который рассматривает дело о несостоятельности. Это обособлённый спор: применяются правила искового производства по АПК РФ (ст. 61.8 п. 3, п. 19 Постановления Пленума ВАС РФ от 23.12.2010 № 63), но дело не выделяется в отдельное производство с иной подсудностью.</p>
+
+<p>Оспаривание сделок в рамках банкротства юридического лица и гражданина различается деталями процедуры (например, роль финансового управляющего при банкротстве физлица), но логика конкурсного оспаривания едина: сначала принимается заявление о банкротстве, затем управляющий анализирует сделки в «ретроспективных» окнах, установленных законом.</p>
+
+<h2 id="a11-au">Роль арбитражного и финансового управляющего</h2>
+
+<p>Тема «арбитражный управляющий и оспаривание сделок» для бизнеса означает: в деле появился профессиональный участник, у которого есть доступ к бухгалтерии, банковским выпискам и договорам, а также процессуальный инструмент — заявление в арбитражный суд.</p>
+
+<p>Оспаривание сделок арбитражного управляющего — не формальная отписка в отчёте. Управляющий оценивает, есть ли основания по ст. 61.2, 61.3, 61.4, перспективы взыскания и пополнения массы. При этом оспаривание по ст. 61.1 — <strong>право</strong>, а не абсолютная обязанность оспаривать каждую сомнительную операцию: Верховный суд указывал, что управляющий не обязан подавать заявление, если <strong>нет разумных судебных перспектив</strong> (в том числе когда факты не выходят за рамки диспозиции ст. 61.2).</p>
+
+<p>Одновременно управляющий обязан действовать <strong>добросовестно и разумно</strong> (ст. 20.3 Закона о банкротстве). При явных основаниях и пропуске годичного срока давности кредиторы вправе требовать <strong>убытков</strong> с управляющего — это важный контраргумент для должника и контрагента: можно заявлять о необоснованности иска и о процессуальных нарушениях со стороны АУ.</p>
+
+<h3>Полномочия управляющего по ст. 61.1 и 20.3 ЗоБ</h3>
+
+<p>Ст. 61.1 закрепляет право оспаривать сделки должника по основаниям, предусмотренным Законом о банкротстве и гражданским законодательством. Ст. 20 и 20.3 определяют общие обязанности управляющего: вести дело о банкротстве, формировать массу, действовать в интересах кредиторов.</p>
+
+<p>На практике вознаграждение управляющего часто связано с результатом взыскания и пополнения массы. Для должника это означает повышенный риск оспаривания «выгодных» сделок последних 1–3 лет — продажи долей, недвижимости, договоров с аффилированными, займов, уступок.</p>
+
+<p>При банкротстве гражданина оспаривание сделок финансовым управляющим устроено аналогично: финансовый управляющий подаёт заявление от имени гражданина-должника, а спор рассматривается в деле о банкротстве физического лица.</p>
+
+<h3>Заявление арбитражного управляющего об оспаривании сделки — срок подачи</h3>
+
+<p>Заявление арбитражного управляющего об оспаривании сделки должно соответствовать требованиям к исковому заявлению по АПК РФ (ст. 125): стороны, цена иска (если подлежит оценке), обстоятельства, доказательства, перечень прилагаемых документов.</p>
+
+<p><strong>Срок оспаривания сделок арбитражным управляющим</strong> по специальным основаниям ст. 61.2 и 61.3 — <strong>один год</strong> с момента, когда управляющий узнал или должен был узнать об основаниях для оспаривания (п. 2 ст. 181 ГК РФ, п. 32 Постановления Пленума ВАС № 63). Считается, что течение начинается с момента, когда об этом узнал <strong>первоначально утверждённый</strong> управляющий.</p>
+
+<p>Сторона вправе заявить о <strong>пропуске исковой давности</strong> (ст. 199 ГК РФ). Для должника пропуск срока управляющим — один из ключевых доводов в отзыве.</p>
+
+<p>Отдельно в практике обсуждается ограничение «не позднее трёх лет» с открытия конкурсного производства или введения внешнего управления (для граждан — в том числе ст. 213.32); конкретику всегда нужно сверять с редакцией 127-ФЗ на дату процедуры и позицией суда в деле.</p>
+
+<h2 id="a11-vidy">Какие сделки оспаривают: виды по закону о банкротстве</h2>
+
+<p>Недействительные сделки в банкротстве — не синоним «любой сделки, которая не понравилась кредиторам». Закон делит основания на подозрительные, с предпочтением, на ущерб кредиторам, а также предусматривает исключения (ст. 61.4).</p>
+
+<h3>Подозрительные сделки (ст. 61.2) — признаки и срок</h3>
+
+<p><strong>Ст. 61.2</strong> — ядро практики оспаривания подозрительных сделок в банкротстве:</p>
+
+<ul>
+
+<li><strong>П. 1</strong> — неравноценное встречное предоставление (сделка на невыгодных условиях). Период подозрительности: <strong>1 год</strong> до принятия судом заявления о банкротстве.</li>
+
+<li><strong>П. 2</strong> — сделки с <strong>целью причинить вред</strong> кредиторам (вывод активов). Период: <strong>3 года</strong> до принятия заявления. Действуют презумпции цели вреда и осведомлённости контрагента; контрагент несёт основное бремя опровержения.</li>
+
+</ul>
+
+<p>На практике неравноценность часто оценивают через отклонение от рыночной цены <strong>на 20–30% и более</strong>; нужен <strong>независимый отчёт оценщика</strong> по федеральным стандартам оценки.</p>
+
+<p>Оспаривание сделок по ст. 61.2 требует чёткой квалификации: суды не позволяют использовать п. 1 или п. 2 для обхода правил по сделкам с предпочтением (см. практику ВС ниже).</p>
+
+<h3>Сделки с предпочтением (ст. 61.3)</h3>
+
+<p>Сделки с предпочтением в банкротстве — это оказание <strong>преимущества одному кредитору</strong> перед другими (погашение, обеспечение, зачёт на невыгодных условиях):</p>
+
+<ul>
+
+<li><strong>1 месяц</strong> до принятия заявления о банкротстве — общее правило;</li>
+
+<li><strong>6 месяцев</strong> — если контрагент знал или должен был знать о признаках неплатёжеспособности или недостаточности имущества.</li>
+
+</ul>
+
+<p>Оспаривание сделки с предпочтением и оспаривание «подозрительной» сделки — разные основания с разной глубиной look-back и разными правилами доказывания. После обзора ВС за 2025 год путать их стало опаснее.</p>
+
+<h3>Сделки на ущерб кредиторам (ст. 61.4) и мнимые сделки</h3>
+
+<p>Ст. 61.4 указывает сделки, которые <strong>не оспариваются</strong> по неравноценности, например: на организованных торгах, в рамках обычной хозяйственной деятельности при добросовестности контрагента, ряд иных случаев.</p>
+
+<p>Мнимая сделка в банкротстве оспаривается по общим основаниям (ст. 170 ГК РФ) и в связке с банкротными нормами, если сделка создавала видимость операций без реального перераспределения имущества.</p>
+
+<h3>Оспаривание по ст. 61.2 — практика арбитражных судов</h3>
+
+<p>Судебная практика оспаривания сделок при банкротстве в 2024–2026 годах задаёт «рамки игры»:</p>
+
+<table><thead><tr><th>Источник</th><th>Смысл для должника и контрагента</th></tr></thead><tbody><tr><td>Обзор ВС «О несостоятельности (банкротстве)» за <strong>2024 год</strong> (утв. 25.04.2025)</td><td>В разделе об оспаривании: требования <strong>контролирующих должника лиц (КДЛ)</strong> о конкурсном оспаривании <strong>как правило не удовлетворяются</strong>, если КДЛ недобросовестно пересматривает собственную стратегию (п. 8 обзора)</td></tr><tr><td>Тематический обзор ВС <strong>№ 5/2026</strong> за 2025 год (утв. 29.04.2026)</td><td><strong>П. 10:</strong> нельзя применять <strong>ст. 61.2</strong> для обхода ограниченного срока и ретроспективы по <strong>ст. 61.3</strong> (сделки с предпочтением). Квалификация основания критична</td></tr><tr><td>Пленум ВАС № 63 (п. 19, 30–32)</td><td>Форма заявления = иск по АПК; годичный срок; момент начала течения — знание первоначально утверждённого управляющего</td></tr><tr><td>Пленум ВАС № 32 (п. 10)</td><td>По злоупотреблению правом при банкротстве — <strong>3 года</strong> с момента, когда лицо узнало об основаниях, но не ранее введения первой процедуры банкротства</td></tr><tr><td>Определение ВС от 01.10.2025 № 304-ЭС19-19694</td><td>Переходные споры (сделки до реформы 2013 г.), десятилетний пресекательный предел по общим нормам ГК</td></tr></tbody></table>
+
+<p>Как отмечали эксперты в апреле 2026 года, разграничение ст. 61.2 и 61.3 после обзора ВС № 5/2026 укрепляет единообразие: нельзя «переодеть» предпочтение одному кредитору в подозрительную сделку ради трёхлетнего окна.</p>
+
+<h2 id="a11-sroki">Сроки оспаривания и исковая давность</h2>
+
+<p>Главная ошибка предпринимателей — смешивать <strong>период подозрительности (look-back)</strong> и <strong>срок исковой давности на подачу заявления</strong>. Это разные «часы».</p>
+
+<h3>Сроки для разных видов сделок (1 год / 3 года / иные)</h3>
+
+<p><strong>Дорожная карта сроков</strong> — ориентир для директора ООО и ИП (конкретика зависит от даты принятия заявления о банкротстве и фактов дела):</p>
+
+<table><thead><tr><th>Основание</th><th>Что проверяют</th><th>Look-back (до принятия заявления о банкротстве)</th><th>Кто доказывает</th><th>Срок давности на заявление АУ</th><th>Типичная защита</th></tr></thead><tbody><tr><td><strong>Ст. 61.2 п. 1</strong> — неравноценность</td><td>Цена, встречное предоставление</td><td><strong>1 год</strong></td><td>Управляющий — основания; должник/контрагент — рыночность, 61.4</td><td><strong>1 год</strong> с момента, когда АУ узнал/должен был узнать</td><td>Независимая оценка, обычная хоздеятельность, торги</td></tr><tr><td><strong>Ст. 61.2 п. 2</strong> — вред кредиторам</td><td>Вывод активов, аффилированность</td><td><strong>3 года</strong></td><td>Презумпции цели и осведомлённости; контрагент опровергает</td><td><strong>1 год</strong> (знание АУ)</td><td>Доказательства реальной оплаты, экономической цели, отсутствия вреда</td></tr><tr><td><strong>Ст. 61.3</strong> — предпочтение</td><td>Погашение «избранному» кредитору</td><td><strong>1 мес.</strong> / <strong>6 мес.</strong> (если контрагент знал о неплатёжеспособности)</td><td>Управляющий — факт предпочтения</td><td><strong>1 год</strong> (знание АУ)</td><td>Погашение в общем порядке, отсутствие предпочтения, сроки 61.3</td></tr><tr><td><strong>Ст. 10, 168, 170 ГК</strong> — общие основания</td><td>Злоупотребление, мнимость, ничтожность</td><td>Иные правила</td><td>По основаниям</td><td>Часто <strong>3 года</strong> с момента, когда оспаривающее лицо узнало, но <strong>не ранее</strong> первой процедуры банкротства (п. 10 Пленума № 32)</td><td>Не подменять 61.2/61.3; отдельная правовая позиция</td></tr><tr><td><strong>Ст. 196, 200 ГК</strong> — общий предел</td><td>Любые требования</td><td>—</td><td>—</td><td><strong>10 лет</strong> от сделки (объективный предел в спорах с общими нормами)</td><td>Пресекательный срок, переходные дела до 01.09.2013</td></tr></tbody></table>
+
+<p><strong>Итог:</strong> срок оспаривания сделки при банкротстве в бытовом смысле «три года» часто означает <strong>окно look-back по п. 2 ст. 61.2</strong>, а не безграничную возможность подать заявление. Срок оспаривания сделок при банкротстве для управляющего по 61.2 и 61.3 — как правило <strong>год</strong> на иск с момента, когда он должен был узнать об основаниях.</p>
+
+<p>Срок давности по оспариванию сделки и исковая давность банкротство оспаривание сделок — термины из одного кластера: для должника в отзыве важно заявить о пропуске срока по ст. 199 ГК РФ.</p>
+
+<section id="l24-boris-ospar-sroki-a11" class="l24-boris-ospar-a11" aria-label="Оспаривание сделок: look-back и исковая давность — два часа">
+<style>
+.l24-boris-ospar-a11 {
+  --ospar-navy: #0c1f33;
+  --ospar-navy-soft: #152a45;
+  --ospar-gold: #d4a853;
+  --ospar-blue: #63b3ed;
+  --ospar-mint: #5eead4;
+  --ospar-accent: #fc8181;
+  --ospar-warn: #f6ad55;
+  --ospar-muted: #a0aec0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-ospar-a11__shell {
+  background: linear-gradient(148deg, var(--ospar-navy) 0%, #122640 50%, var(--ospar-navy-soft) 100%);
+  border: 1px solid rgba(212, 168, 83, 0.28);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(12, 31, 51, 0.35);
+  color: #e2e8f0;
+}
+.l24-boris-ospar-a11__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ospar-gold);
+}
+.l24-boris-ospar-a11__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-ospar-a11__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ospar-muted);
+  max-width: 72ch;
+}
+.l24-boris-ospar-a11__lead strong { color: #fff; }
+.l24-boris-ospar-a11__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-ospar-a11__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-ospar-a11__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ospar-gold);
+}
+.l24-boris-ospar-a11__clocks-svg,
+.l24-boris-ospar-a11__matrix-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-ospar-a11__clocks-svg { max-height: 200px; margin-bottom: 14px; }
+.l24-boris-ospar-a11__matrix-svg { max-height: 72px; margin-bottom: 12px; }
+.l24-boris-ospar-a11__lookback {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-ospar-a11__lb {
+  margin: 0;
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-top: 3px solid var(--ospar-blue);
+  font-size: 0.74rem;
+  line-height: 1.35;
+  text-align: center;
+}
+.l24-boris-ospar-a11__lb:nth-child(2) { border-top-color: var(--ospar-warn); }
+.l24-boris-ospar-a11__lb:nth-child(3) { border-top-color: var(--ospar-mint); }
+.l24-boris-ospar-a11__lb:nth-child(4) { border-top-color: var(--ospar-accent); }
+.l24-boris-ospar-a11__lb strong {
+  display: block;
+  color: #fff;
+  font-size: 0.95rem;
+  margin-bottom: 2px;
+}
+.l24-boris-ospar-a11__lb span {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--ospar-muted);
+}
+.l24-boris-ospar-a11__t0 {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(212, 168, 83, 0.12);
+  border: 1px dashed rgba(212, 168, 83, 0.45);
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: #faf089;
+}
+.l24-boris-ospar-a11__t0 em {
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
+.l24-boris-ospar-a11__matrix {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 12px;
+}
+.l24-boris-ospar-a11__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(72px, 0.55fr) minmax(72px, 0.55fr) minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+  padding: 10px 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.22);
+  border-left: 3px solid var(--ospar-blue);
+  font-size: 0.74rem;
+  line-height: 1.4;
+}
+.l24-boris-ospar-a11__row--62 { border-left-color: var(--ospar-accent); }
+.l24-boris-ospar-a11__row--613 { border-left-color: var(--ospar-warn); }
+.l24-boris-ospar-a11__row--gk { border-left-color: var(--ospar-mint); }
+.l24-boris-ospar-a11__row--10 { border-left-color: var(--ospar-muted); }
+.l24-boris-ospar-a11__row-base {
+  font-weight: 600;
+  color: #fff;
+}
+.l24-boris-ospar-a11__row-base small {
+  display: block;
+  font-weight: 400;
+  color: var(--ospar-muted);
+  font-size: 0.68rem;
+  margin-top: 2px;
+}
+.l24-boris-ospar-a11__row-lb,
+.l24-boris-ospar-a11__row-du {
+  font-weight: 800;
+  color: #fff;
+  font-size: 0.82rem;
+}
+.l24-boris-ospar-a11__row-def {
+  color: #cbd5e0;
+  font-size: 0.7rem;
+}
+.l24-boris-ospar-a11__row-def em {
+  font-style: normal;
+  color: var(--ospar-mint);
+  font-weight: 600;
+}
+.l24-boris-ospar-a11__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(72px, 0.55fr) minmax(72px, 0.55fr) minmax(0, 1fr);
+  gap: 8px;
+  padding: 0 10px 6px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ospar-muted);
+  font-weight: 700;
+}
+.l24-boris-ospar-a11__au-year {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+  padding: 14px 14px;
+  border-radius: 10px;
+  background: rgba(252, 129, 129, 0.12);
+  border: 1px solid rgba(252, 129, 129, 0.35);
+}
+.l24-boris-ospar-a11__au-year-value {
+  flex-shrink: 0;
+  font-size: 1.65rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+}
+.l24-boris-ospar-a11__au-year-text {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ospar-muted);
+}
+.l24-boris-ospar-a11__au-year-text strong { color: #fff; }
+.l24-boris-ospar-a11__note {
+  margin: 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: var(--ospar-muted);
+}
+.l24-boris-ospar-a11__note em {
+  font-style: normal;
+  color: var(--ospar-mint);
+  font-weight: 600;
+}
+.l24-boris-ospar-a11__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-ospar-a11__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+}
+.l24-boris-ospar-a11__tag--lb { border: 1px solid var(--ospar-blue); color: #bee3f8; }
+.l24-boris-ospar-a11__tag--du { border: 1px solid var(--ospar-accent); color: #fed7d7; }
+.l24-boris-ospar-a11__tag--vs { border: 1px solid var(--ospar-gold); color: #faf089; }
+.l24-boris-ospar-a11__tag--def { border: 1px solid var(--ospar-mint); color: #b2f5ea; }
+.l24-boris-ospar-a11__caption {
+  margin: 12px 0 0;
+  font-size: 0.7rem;
+  color: var(--ospar-muted);
+  line-height: 1.4;
+}
+@media (max-width: 900px) {
+  .l24-boris-ospar-a11__split { grid-template-columns: 1fr; }
+  .l24-boris-ospar-a11__lookback { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+  .l24-boris-ospar-a11__row,
+  .l24-boris-ospar-a11__head {
+    grid-template-columns: 1fr;
+  }
+  .l24-boris-ospar-a11__head { display: none; }
+  .l24-boris-ospar-a11__row-lb::before { content: "Look-back: "; color: var(--ospar-muted); font-weight: 400; }
+  .l24-boris-ospar-a11__row-du::before { content: "Давность АУ: "; color: var(--ospar-muted); font-weight: 400; }
+}
+</style>
+
+  <div class="l24-boris-ospar-a11__shell">
+    <p class="l24-boris-ospar-a11__eyebrow">127-ФЗ · ст. 61.2–61.3 · 61.9 · Пленум ВАС № 63 · обзор ВС 5/2026</p>
+    <h3 class="l24-boris-ospar-a11__title">Два «часа»: look-back в прошлое и год на иск управляющего</h3>
+    <p class="l24-boris-ospar-a11__lead">Слева — <strong>период подозрительности</strong>: насколько далеко закон смотрит на сделки <em>до</em> принятия заявления о банкротстве (объективно, без «увидел ли АУ»). Справа — <strong>исковая давность на заявление АУ</strong>: обычно <strong>1 год</strong> с момента, когда управляющий узнал или должен был узнать об основании (ст. 61.9, п. 32 Пленума № 63). Путать «три года» look-back по п. 2 ст. 61.2 с безграничным сроком на иск — типичная ошибка должника.</p>
+
+    <div class="l24-boris-ospar-a11__split">
+      <div class="l24-boris-ospar-a11__panel">
+        <p class="l24-boris-ospar-a11__panel-title">Час 1 · look-back (до T₀)</p>
+        <svg class="l24-boris-ospar-a11__clocks-svg" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <defs>
+            <linearGradient id="a11-boris-lb-line" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#63b3ed"/>
+              <stop offset="35%" stop-color="#f6ad55"/>
+              <stop offset="65%" stop-color="#5eead4"/>
+              <stop offset="100%" stop-color="#fc8181"/>
+            </linearGradient>
+          </defs>
+          <rect x="8" y="8" width="504" height="184" rx="12" fill="rgba(0,0,0,0.28)" stroke="rgba(212,168,83,0.35)" stroke-width="1"/>
+          <text x="28" y="32" fill="#d4a853" font-size="9" font-weight="700">← ПРОШЛОЕ · СДЕЛКА · T₀ →</text>
+          <line x1="48" y1="118" x2="472" y2="118" stroke="url(#a11-boris-lb-line)" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="472" cy="118" r="20" fill="#d4a853" stroke="#fff" stroke-width="2"/>
+          <text x="472" y="114" text-anchor="middle" fill="#1a202c" font-size="8" font-weight="800">T₀</text>
+          <text x="472" y="126" text-anchor="middle" fill="#1a202c" font-size="6.5">заявл.</text>
+          <rect x="400" y="88" width="52" height="22" rx="5" fill="rgba(246,173,85,0.25)" stroke="#f6ad55"/>
+          <text x="426" y="103" text-anchor="middle" fill="#faf089" font-size="7" font-weight="700">1 мес.</text>
+          <rect x="318" y="88" width="72" height="22" rx="5" fill="rgba(246,173,85,0.2)" stroke="#f6ad55"/>
+          <text x="354" y="103" text-anchor="middle" fill="#faf089" font-size="7" font-weight="700">6 мес.</text>
+          <rect x="210" y="88" width="96" height="22" rx="5" fill="rgba(94,234,212,0.2)" stroke="#5eead4"/>
+          <text x="258" y="103" text-anchor="middle" fill="#b2f5ea" font-size="7" font-weight="700">1 год · 61.2 п.1</text>
+          <rect x="48" y="88" width="150" height="22" rx="5" fill="rgba(252,129,129,0.2)" stroke="#fc8181"/>
+          <text x="123" y="103" text-anchor="middle" fill="#fed7d7" font-size="7" font-weight="700">3 года · 61.2 п.2</text>
+          <path d="M48 118 L48 148" stroke="#63b3ed" stroke-width="1.5" stroke-dasharray="3 2"/>
+          <text x="48" y="162" fill="#a0aec0" font-size="7">дальше — вне look-back</text>
+          <rect x="28" y="44" width="200" height="36" rx="6" fill="rgba(99,179,237,0.12)" stroke="#63b3ed"/>
+          <text x="128" y="58" text-anchor="middle" fill="#bee3f8" font-size="8" font-weight="700">ОБЪЕКТИВНО</text>
+          <text x="128" y="72" text-anchor="middle" fill="#e2e8f0" font-size="7">не зависит от отчётности АУ</text>
+          <rect x="292" y="44" width="200" height="36" rx="6" fill="rgba(252,129,129,0.1)" stroke="#fc8181"/>
+          <text x="392" y="58" text-anchor="middle" fill="#fed7d7" font-size="8" font-weight="700">СУБЪЕКТИВНО · ЧАС 2</text>
+          <text x="392" y="72" text-anchor="middle" fill="#e2e8f0" font-size="7">1 год на иск → панель справа</text>
+        </svg>
+        <ul class="l24-boris-ospar-a11__lookback">
+          <li class="l24-boris-ospar-a11__lb">
+            <strong>1 мес.</strong>
+            <span>ст. 61.3</span>
+          </li>
+          <li class="l24-boris-ospar-a11__lb">
+            <strong>6 мес.</strong>
+            <span>61.3 · знал о неплатёж.</span>
+          </li>
+          <li class="l24-boris-ospar-a11__lb">
+            <strong>1 год</strong>
+            <span>61.2 п. 1</span>
+          </li>
+          <li class="l24-boris-ospar-a11__lb">
+            <strong>3 года</strong>
+            <span>61.2 п. 2</span>
+          </li>
+        </ul>
+        <p class="l24-boris-ospar-a11__t0"><em>T₀</em> — дата принятия судом заявления о банкротстве. Сделка за пределами look-back по выбранному основанию — частый довод в отзыве (вместе с неверной квалификацией 61.2 / 61.3, п. 10 обзора ВС 5/2026).</p>
+      </div>
+
+      <div class="l24-boris-ospar-a11__panel">
+        <p class="l24-boris-ospar-a11__panel-title">Час 2 · исковая давность заявления АУ</p>
+        <svg class="l24-boris-ospar-a11__matrix-svg" viewBox="0 0 520 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <rect x="10" y="10" width="500" height="52" rx="10" fill="rgba(0,0,0,0.25)" stroke="rgba(252,129,129,0.35)"/>
+          <text x="28" y="30" fill="#fed7d7" font-size="9" font-weight="700">СТ. 61.2 / 61.3 → как правило 1 ГОД</text>
+          <text x="28" y="48" fill="#a0aec0" font-size="8">с момента, когда АУ узнал / должен был узнать · ст. 199 ГК — заявить о пропуске</text>
+          <circle cx="468" cy="36" r="18" fill="rgba(252,129,129,0.35)" stroke="#fc8181" stroke-width="1.5"/>
+          <text x="468" y="40" text-anchor="middle" fill="#fff" font-size="11" font-weight="800">1г</text>
+        </svg>
+        <div class="l24-boris-ospar-a11__au-year">
+          <span class="l24-boris-ospar-a11__au-year-value" aria-hidden="true">1 год</span>
+          <p class="l24-boris-ospar-a11__au-year-text"><strong>На иск управляющего</strong> по ст. 61.2 и 61.3 (п. 2 ст. 181 ГК, п. 32 Пленума № 63). Течёт с утверждения АУ и фактов, когда ему стало известно об основании — доказывайте в отзыве дату документов и запросов.</p>
+        </div>
+        <div class="l24-boris-ospar-a11__head" aria-hidden="true">
+          <span>Основание</span>
+          <span>Look-back</span>
+          <span>Иск АУ</span>
+          <span>Защита в отзыве</span>
+        </div>
+        <div class="l24-boris-ospar-a11__matrix" role="table" aria-label="Сроки look-back и давность по основаниям">
+          <div class="l24-boris-ospar-a11__row" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 61.2 п. 1<small>неравноценность</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">1 год</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">1 год</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>оценка</em>, 61.4, обычная деятельность</span>
+          </div>
+          <div class="l24-boris-ospar-a11__row l24-boris-ospar-a11__row--62" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 61.2 п. 2<small>вред кредиторам</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">3 года</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">1 год</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>оплата</em>, цель, нет вреда</span>
+          </div>
+          <div class="l24-boris-ospar-a11__row l24-boris-ospar-a11__row--613" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 61.3<small>предпочтение</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">1 / 6 мес.</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">1 год</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>нет предпочтения</em>, общий порядок</span>
+          </div>
+          <div class="l24-boris-ospar-a11__row l24-boris-ospar-a11__row--gk" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 10, 168, 170 ГК<small>общие основания</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">иные</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">≈ 3 года</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>не подменять</em> 61.2/61.3</span>
+          </div>
+          <div class="l24-boris-ospar-a11__row l24-boris-ospar-a11__row--10" role="row">
+            <span class="l24-boris-ospar-a11__row-base" role="cell">ст. 196, 200 ГК<small>общий предел</small></span>
+            <span class="l24-boris-ospar-a11__row-lb" role="cell">—</span>
+            <span class="l24-boris-ospar-a11__row-du" role="cell">10 лет</span>
+            <span class="l24-boris-ospar-a11__row-def" role="cell"><em>пресекательный</em> срок</span>
+          </div>
+        </div>
+        <p class="l24-boris-ospar-a11__note"><em>«Прошёл год — сделка в безопасности»</em> — миф: look-back до 3 лет + общие основания ГК. При пропуске года АУ — ходатайство по ст. 199 ГК; при явных основаниях кредиторы вправе требовать убытков с управляющего (ст. 20.3 ЗоБ).</p>
+      </div>
+    </div>
+
+    <div class="l24-boris-ospar-a11__foot" aria-label="Связка двух часов">
+      <span class="l24-boris-ospar-a11__tag l24-boris-ospar-a11__tag--lb">Look-back · объективен</span>
+      <span class="l24-boris-ospar-a11__tag l24-boris-ospar-a11__tag--du">Давность АУ · 1 год (61.2/61.3)</span>
+      <span class="l24-boris-ospar-a11__tag l24-boris-ospar-a11__tag--vs">«3 года» ≠ срок на иск</span>
+      <span class="l24-boris-ospar-a11__tag l24-boris-ospar-a11__tag--def">Отзыв: T₀ + дата знания АУ</span>
+    </div>
+    <p class="l24-boris-ospar-a11__caption">Визуальная «дорожная карта» к таблице в тексте — для директора ООО/ИП и контрагента; конкретика по датам — в материалах дела.</p>
+  </div>
+</section>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Путают look-back (1–3 года до заявления о банкротстве) и годичный срок на иск управляющего — из-за этого пропускают довод о пропуске исковой давности в отзыве. Сверьте оба «часа» по дате принятия заявления и моменту, когда АУ должен был узнать об основании.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по срокам оспаривания сделки</a></p>
+</aside>
+
+<h3>Срок оспаривания сделок арбитражным управляющим</h3>
+
+<p>Период подозрительности <strong>объективен</strong>: он не зависит от того, «увидел» ли управляющий сделку в отчётности. Риск для должника — <strong>пропуск годичного срока</strong> с момента, когда управляющий <strong>должен был узнать</strong> (получил документы, запросил выписки, имел доступ к договору).</p>
+
+<p>Давность оспаривания сделок в банкротстве и срок давности по оспариванию сделки — предмет активной процессуальной защиты: ходатайство о пропуске срока, доказательства даты утверждения управляющего и момента, когда ему стало известно об основании.</p>
+
+<h3>Оспаривание при банкротстве физического лица и недвижимости</h3>
+
+<p>Оспаривание сделок при банкротстве физического лица следует тем же правилам 61.1–61.9, с учётом главы о гражданине (в том числе ст. 213.32). Финансовый управляющий анализирует сделки за look-back периоды; споры о недвижимости, автомобиле, долях в ООО — типичны.</p>
+
+<p>По <strong>единственному жилью</strong> действуют ограничения исполнительского и банкротного иммунитета (ст. 446 ГПК РФ); оспаривание таких сделок возможно не во всех конфигурациях — нужна проверка актуальной практики ВС по конкретным основаниям.</p>
+
+<h2 id="a11-process">Процесс в арбитражном суде: заявление и защита должника</h2>
+
+<p>Заявление об оспаривании сделки банкротство подаётся через <strong>«Мой арбитр»</strong> в суд, ведущий дело. Это обособлённый спор: стороны — управляющий (истец) и контрагент/должник (ответчик), третьи лица — кредиторы.</p>
+
+<p>Процессуальные сроки исков и отзывов в банкротстве пересекаются с общими правилами АПК; полезно заранее прочитать материал об <a href="https://advokat-vsem.online/isk-v-arbitrazhe-pri-bankrotstve-kogda-podavat/" target="_blank" rel="noopener noreferrer">иске в арбитраже при банкротстве и сроках подачи</a> (A8) — там разобраны исковые сроки с позиции кредитора и должника в деле о несостоятельности. Если параллельно идёт конфликт с реестром, смотрите <a href="https://advokat-vsem.online/arbitrazhnyj-spor-s-kreditorom-sroki-strategiya/" target="_blank" rel="noopener noreferrer">арбитражный спор с кредитором: сроки и стратегия</a> (A5).</p>
+
+<h3>Содержание заявления и доказательства (оценка сделки, ущерб)</h3>
+
+<p>В заявлении об оспаривании сделки управляющий указывает основание (61.2, 61.3 и т.д.), период, в который попадает сделка, ущерб кредиторам, просит признать сделку недействительной и применить последствия.</p>
+
+<p>Типовой пакет <strong>защиты должника и контрагента</strong>:</p>
+
+<ul>
+
+<li>договор, первичка, акты, платёжные документы;</li>
+
+<li><strong>независимая оценка</strong> актива на дату сделки;</li>
+
+<li>подтверждение обычной хозяйственной деятельности (ст. 61.4);</li>
+
+<li>экспертиза рыночности условий;</li>
+
+<li>доказательства, что контрагент не мог знать о неплатёжеспособности (для 61.3);</li>
+
+<li>опровержение презумпций ст. 61.2 п. 2 (отсутствие цели вреда, реальное встречное предоставление).</li>
+
+</ul>
+
+<p>Госпошлина исчисляется по правилам оспаривания в деле о банкротстве; при неправильном расчёте возможны возврат и замедление рассмотрения.</p>
+
+<h3>Отзыв должника на заявление об оспаривании — позиция и риски</h3>
+
+<p>Отзыв на заявление об оспаривании сделки — главный инструмент должника. В нём указывают:</p>
+
+<ul>
+
+<li>неверную <strong>квалификацию</strong> (61.3 вместо 61.2 или наоборот — с учётом п. 10 обзора ВС 2026);</li>
+
+<li>выход сделки за пределы look-back;</li>
+
+<li><strong>пропуск исковой давности</strong> управляющим;</li>
+
+<li>отсутствие неравноценности и вреда;</li>
+
+<li>применение исключений ст. 61.4.</li>
+
+</ul>
+
+<p><strong>Риски:</strong> формальный отзыв без доказательств, отсутствие участия руководителя/учредителя в заседании, согласие «не оспаривать» без правовой оценки. Суд может признать сделку недействительной и возложить обязанность вернуть имущество на контрагента и должника в связке с реституцией.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">В обособлённом споре формальный отзыв без оценки, независимой экспертизы и квалификации по ст. 61.2 или 61.3 (с учётом п. 10 обзора ВС 2026) — частая причина признания сделки недействительной. Подключайте представителя до истечения процессуальных сроков по АПК.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с отзывом на заявление об оспаривании</a></p>
+</aside>
+
+<h2 id="a11-posledstviya">Последствия для должника, если сделку признали недействительной</h2>
+
+<p>Последствия оспаривания сделок должника и последствия признания сделки недействительной в банкротстве выходят за рамки «отмены договора».</p>
+
+<h3>Реституция, субсидиарные риски и влияние на конкурсную массу</h3>
+
+<p>По ст. 61.6 и 61.7 применяются последствия недействительности: <strong>реституция</strong> — возврат имущества в конкурсную массу, взаимное возвращение полученного. Для должника это означает потерю выведенного актива и рост давления на остаток имущества.</p>
+
+<p>Для <strong>контрагента</strong> двусторонняя реституция: вернул имущество — вправе заявить требование в реестр, но оно, как правило, <strong>субординированное</strong> (третья очередь) и часто <strong>не погашается</strong> при недостаточности массы.</p>
+
+<p><strong>Субсидиарная ответственность</strong> (ст. 61.10–61.12) — отдельный трек: оспаривание сделки ≠ автоматическое привлечение КДЛ, но на практике цепочка часто выглядит так: оспорили → не вернули в массу → ищут виновного руководителя. Путать оспаривание сделки и субсидиарку — типичная ошибка.</p>
+
+<p>Обзор ВС за 2024 (п. 8) напоминает: КДЛ не должны недобросовестно использовать конкурсное оспаривание для пересмотра собственной хозяйственной стратегии — это аргумент и для защиты независимых кредиторов, и в спорах, где истец по сути действует как контролирующее лицо.</p>
+
+<h3>Стратегия должника до и после оспаривания</h3>
+
+<p><strong>До банкротства</strong> (если риск процедуры уже виден):</p>
+
+<ul>
+
+<li>аудит сделок за 1–3 года: аффилированность, оценки, полнота оплаты и проводок;</li>
+
+<li>документирование рыночности и деловой цели;</li>
+
+<li>осторожность с «погашением любимого» кредитора (61.3).</li>
+
+</ul>
+
+<p><strong>После получения заявления управляющего:</strong></p>
+
+<ul>
+
+<li>срочный отзыв, подключение представителя по арбитражу и банкротству;</li>
+
+<li>ходатайства о пропуске срока, назначении экспертизы;</li>
+
+<li>оценка риска субсидиарки параллельно с оспариванием.</li>
+
+</ul>
+
+<p><strong>Если вы контрагент (покупатель, заёмщик, цессионарий):</strong></p>
+
+<ul>
+
+<li>due diligence продавца/должника: признаки неплатёжеспособности, реестр заявлений о банкротстве;</li>
+
+<li>независимая оценка, безопасные расчёты (эскроу, аккредитив);</li>
+
+<li>понимание, что при проигрыше требование в реестре может оказаться субординированным и непогашенным.</li>
+
+</ul>
+
+<p><strong>Чеклист типичных ошибок:</strong></p>
+
+<ol>
+
+<li>Считать, что «прошло больше года — сделка в безопасности» (look-back до 3 лет + общие основания ГК).</li>
+
+<li>Сделки с родственниками без рыночной оценки.</li>
+
+<li>Только договор без оплаты, передачи и бухгалтерского отражения.</li>
+
+<li>Игнорировать обособлённый спор.</li>
+
+<li>Путать оспаривание сделки и субсидиарную ответственность.</li>
+
+<li>Не различать 61.3 и 61.2 после обзора ВС 2026.</li>
+
+</ol>
+
+<h2 id="a11-konsultaciya">Когда нужна консультация по арбитражному спору в банкротстве</h2>
+
+<p>Обращаться за помощью имеет смысл, если:</p>
+
+<ul>
+
+<li>в «Мой арбитр» поступило <strong>заявление арбитражного управляющего об оспаривании</strong> вашей сделки;</li>
+
+<li>кредиторы требуют от управляющего оспорить сделку, а вы — контрагент или руководитель;</li>
+
+<li>нужно оценить <strong>сроки</strong> (look-back и давность) до подписания договора с компанией «на грани» банкротства;</li>
+
+<li>параллельно угрожает <strong>субсидиарная ответственность</strong>.</li>
+
+</ul>
+
+<p>Арбитражный спор в банкротстве — это не «оформление банкротства», а защита в обособлённом споре: отзыв, доказательства, опровержение презумпций, представительство в суде.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Получили заявление арбитражного управляющего об оспаривании сделки или видите риск субсидиарной ответственности? Разберём основания, доказательства рыночности и линию защиты в деле о банкротстве до первого заседания.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите при оспаривании сделки</a></p>
+</aside>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+  <p class="ym-cta__text"><strong>Legis24</strong> — материалы и консультации по арбитражным спорам в банкротстве: оспаривание сделок арбитражным управляющим, сроки по ст. 61.2–61.3, отзыв в обособлённом споре и последствия для должника.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить ситуацию с юристом</a></p>
+</aside>
+
+<section id="a11-faq" class="l24-faq-a11 ym-section" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2>Частые вопросы (FAQ)</h2>
+  <div class="l24-faq-a11__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a11__q" itemprop="name">Обязан ли арбитражный управляющий оспаривать каждую сомнительную сделку?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a11__a" itemprop="text">Нет: оспаривание по ст. 61.1 — право, а не абсолютная обязанность. ВС указывал, что при отсутствии разумных судебных перспектив заявление подавать не обязаны; при явных основаниях и пропуске срока кредиторы вправе требовать убытков с управляющего (ст. 20.3 ЗоБ).</p>
+    </div>
+  </div>
+  <div class="l24-faq-a11__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a11__q" itemprop="name">Чем look-back отличается от годичного срока на иск управляющего?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a11__a" itemprop="text">Look-back — насколько далеко закон смотрит на сделки до принятия заявления о банкротстве (1 мес., 6 мес., 1 год, 3 года по основанию). Годичный срок — срок исковой давности на подачу заявления АУ по ст. 61.2 и 61.3 с момента, когда он узнал или должен был узнать об основаниях.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a11__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a11__q" itemprop="name">Чем подозрительная сделка (ст. 61.2) отличается от сделки с предпочтением (ст. 61.3)?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a11__a" itemprop="text">61.2 — неравноценность или вред кредиторам (look-back 1 или 3 года); 61.3 — преимущество одному кредитору (1 месяц или 6 месяцев). После обзора ВС № 5/2026 (п. 10) нельзя «переодеть» предпочтение в подозрительную сделку ради иных сроков.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a11__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a11__q" itemprop="name">Может ли должник сам инициировать оспаривание сделки в свою пользу?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a11__a" itemprop="text">В процедуре банкротства должник ограничен в распоряжении имуществом и, как правило, не инициирует конкурсное оспаривание «в свою пользу». Зато руководитель, учредитель или ИП обязаны активно участвовать в защите при оспаривании сделок против них.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a11__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a11__q" itemprop="name">Куда подаётся заявление об оспаривании сделки?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a11__a" itemprop="text">В тот же арбитражный суд, что ведёт дело о банкротстве, через «Мой арбитр» — как обособлённый спор внутри банкротного производства, с требованиями к исковому заявлению по АПК РФ.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a11__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a11__q" itemprop="name">Можно ли заявить о пропуске исковой давности управляющим?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a11__a" itemprop="text">Да: по ст. 199 ГК РФ сторона вправе заявить о пропуске годичного срока (п. 32 Пленума ВАС № 63) — это один из ключевых доводов в отзыве должника или контрагента.</p>
+    </div>
+  </div>
+  <div class="l24-faq-a11__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-a11__q" itemprop="name">Что такое реституция при признании сделки недействительной?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-a11__a" itemprop="text">По ст. 61.6 и 61.7 — возврат имущества в конкурсную массу и взаимное возвращение полученного. Для контрагента требование в реестре после возврата, как правило, субординированное и часто не погашается.</p>
+    </div>
+  </div>
+</section>
+
+<p><em>Материал носит информационный характер и не заменяет юридическую консультацию. Сроки оспаривания и периоды подозрительности определяются по дате принятия заявления о банкротстве, виду процедуры и фактическим обстоятельствам конкретного дела.</em></p>
+
+</div>
+</section>
+
+<pre class="l24-jsonld-a11" aria-hidden="true" hidden>{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Арбитражный управляющий и оспаривание сделок: сроки и последствия для должника", "description": "Когда арбитражный управляющий оспаривает сделки должника в банкротстве: сроки по ст. 61.1–61.5, подозрительные и с предпочтением сделки, заявление в арбитражный суд и последствия для должника. Консультация по защите.", "author": {"@type": "Organization", "name": "Legis24"}, "publisher": {"@type": "Organization", "name": "Legis24"}, "inLanguage": "ru-RU"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Обязан ли арбитражный управляющий оспаривать каждую сомнительную сделку?", "acceptedAnswer": {"@type": "Answer", "text": "Нет: оспаривание по ст. 61.1 — право, а не абсолютная обязанность. ВС указывал, что при отсутствии разумных судебных перспектив заявление подавать не обязаны; при явных основаниях и пропуске срока кредиторы вправе требовать убытков с управляющего (ст. 20.3 ЗоБ)."}}, {"@type": "Question", "name": "Чем look-back отличается от годичного срока на иск управляющего?", "acceptedAnswer": {"@type": "Answer", "text": "Look-back — насколько далеко закон смотрит на сделки до принятия заявления о банкротстве (1 мес., 6 мес., 1 год, 3 года по основанию). Годичный срок — срок исковой давности на подачу заявления АУ по ст. 61.2 и 61.3 с момента, когда он узнал или должен был узнать об основаниях."}}, {"@type": "Question", "name": "Чем подозрительная сделка (ст. 61.2) отличается от сделки с предпочтением (ст. 61.3)?", "acceptedAnswer": {"@type": "Answer", "text": "61.2 — неравноценность или вред кредиторам (look-back 1 или 3 года); 61.3 — преимущество одному кредитору (1 месяц или 6 месяцев). После обзора ВС № 5/2026 (п. 10) нельзя «переодеть» предпочтение в подозрительную сделку ради иных сроков."}}, {"@type": "Question", "name": "Может ли должник сам инициировать оспаривание сделки в свою пользу?", "acceptedAnswer": {"@type": "Answer", "text": "В процедуре банкротства должник ограничен в распоряжении имуществом и, как правило, не инициирует конкурсное оспаривание «в свою пользу». Зато руководитель, учредитель или ИП обязаны активно участвовать в защите при оспаривании сделок против них."}}, {"@type": "Question", "name": "Куда подаётся заявление об оспаривании сделки?", "acceptedAnswer": {"@type": "Answer", "text": "В тот же арбитражный суд, что ведёт дело о банкротстве, через «Мой арбитр» — как обособлённый спор внутри банкротного производства, с требованиями к исковому заявлению по АПК РФ."}}, {"@type": "Question", "name": "Можно ли заявить о пропуске исковой давности управляющим?", "acceptedAnswer": {"@type": "Answer", "text": "Да: по ст. 199 ГК РФ сторона вправе заявить о пропуске годичного срока (п. 32 Пленума ВАС № 63) — это один из ключевых доводов в отзыве должника или контрагента."}}, {"@type": "Question", "name": "Что такое реституция при признании сделки недействительной?", "acceptedAnswer": {"@type": "Answer", "text": "По ст. 61.6 и 61.7 — возврат имущества в конкурсную массу и взаимное возвращение полученного. Для контрагента требование в реестре после возврата, как правило, субординированное и часто не погашается."}}]}]}</pre>
+
+</main>
+<!-- /wp:html -->

@@ -1,0 +1,159 @@
+   .hero-ip-tz-nar {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(165deg, #f8fafc 0%, #eef2f7 42%, #f5f0eb 100%);
+      color: #1a2332;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-ip-tz-nar::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 70% 50% at 85% 20%, rgba(30, 64, 175, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 40% at 10% 80%, rgba(163, 24, 48, 0.05) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-ip-tz-nar__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .hero-ip-tz-nar__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.85);
+      border: 1px solid rgba(26, 35, 50, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-ip-tz-nar__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #1e40af;
+      flex-shrink: 0;
+    }
+    .hero-ip-tz-nar__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.65rem, 3.8vw, 2.45rem);
+      line-height: 1.18;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-ip-tz-nar__h1-accent {
+      color: #1e40af;
+    }
+    .hero-ip-tz-nar__sub {
+      margin: 0 0 28px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.6vw, 1.12rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-ip-tz-nar__steps {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 32px;
+    }
+    .hero-ip-tz-nar__step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-ip-tz-nar__step-num {
+      flex-shrink: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: #1e40af;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-ip-tz-nar__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.22);
+    }
+    .hero-ip-tz-nar__cta:hover {
+      background: #8b1528;
+    }
+    .hero-ip-tz-nar__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (max-width: 900px) {
+      .hero-ip-tz-nar__inner {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      .hero-ip-tz-nar__visual {
+        order: -1;
+        max-height: 280px;
+      }
+    }
+  </style>
+  <div class="hero-ip-tz-nar__inner">
+    <div class="hero-ip-tz-nar__content">
+      <div class="hero-ip-tz-nar__badge">
+        <span class="hero-ip-tz-nar__badge-dot" aria-hidden="true"></span>
+        ИС · товарный знак · ГК РФ ч. 4 · 2026
+      </div>
+      <h1 class="hero-ip-tz-nar__h1">
+        <span class="hero-ip-tz-nar__h1-accent">Товарный знак:</span> как защитить бренд и что делать, если подали иск
+      </h1>
+      <p class="hero-ip-tz-nar__sub">
+        Нарушение прав, претензия и иск по товарному знаку: судебная защита, компенсация и ответ на требования правообладателя
+      </p>
+      <ol class="hero-ip-tz-nar__steps">
+        <li class="hero-ip-tz-nar__step">
+          <span class="hero-ip-tz-nar__step-num">1</span>
+          <span><strong>Реестр и бренд</strong> — регистрация в Роспатенте, проверка коллизий, класс 35 МКТУ</span>
+        </li>
+        <li class="hero-ip-tz-nar__step">
+          <span class="hero-ip-tz-nar__step-num">2</span>
+          <span><strong>Претензия 30 дней</strong> — досудебный ответ до иска, маркетплейс и расчёт компенсации</span>
+        </li>
+        <li class="hero-ip-tz-nar__step">
+          <span class="hero-ip-tz-nar__step-num">3</span>
+          <span><strong>Иск и защита</strong> — отзыв по ст. 131 АПК, ст. 1486 и снижение по ст. 1252.1</span>
+        </li>
+      </ol>
+      <a class="hero-ip-tz-nar__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите бренда и ответу на иск</a>
+    </div>
+    <div class="hero-ip-tz-nar__visual" aria-hidden="true">
+      <svg viewBox="0 0 420 380" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px" role="img" aria-labe

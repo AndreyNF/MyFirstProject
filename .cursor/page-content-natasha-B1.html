@@ -1,0 +1,1241 @@
+<!-- wp:html -->
+<style>
+
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+.arbitrazhnyj-processualnyj-srok-podacha-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.arbitrazhnyj-processualnyj-srok-podacha-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+}
+.arbitrazhnyj-processualnyj-srok-podacha-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem;
+}
+.arbitrazhnyj-processualnyj-srok-podacha-page h3 {
+  margin-top: 1.5em; color: #2c5282; font-size: 1.15rem;
+}
+.arbitrazhnyj-processualnyj-srok-podacha-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.arbitrazhnyj-processualnyj-srok-podacha-page th, .arbitrazhnyj-processualnyj-srok-podacha-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.arbitrazhnyj-processualnyj-srok-podacha-page th { background: #edf2f7; }
+.arbitrazhnyj-processualnyj-srok-podacha-page a { color: #1e40af; }
+.arbitrazhnyj-processualnyj-srok-podacha-page code {
+  font-size: 0.9em; background: #f1f5f9; padding: 2px 6px; border-radius: 4px;
+}
+.l24-intro-b1 {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-b1__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-b1__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px; text-align: left;
+}
+.l24-intro-b1__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-b1__text p:last-child { margin-bottom: 0; }
+.l24-intro-b1__brief {
+  background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55;
+}
+.l24-intro-b1__decor {
+  background: linear-gradient(160deg, #f1f5f9 0%, #fff 100%);
+  border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px;
+}
+.l24-intro-b1__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-b1__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-b1__chip--accent { border-color: #1e40af; color: #1e40af; }
+.l24-intro-b1__chip--warn { border-color: #a31830; color: #a31830; }
+.l24-intro-b1__chip--navy { border-color: #0f2744; color: #0f2744; }
+.l24-intro-b1__route-svg { display: block; width: 100%; height: auto; }
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #f1f5f9; color: #1e40af; text-decoration: none; font-size: 0.88rem; font-weight: 600;
+}
+.ym-toc__list a:hover { background: #e2e8f0; }
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #edf2f7 100%);
+  border: 1px solid #cbd5e1; border-left: 4px solid #a31830;
+}
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none;
+}
+.ym-cta__btn:hover { background: #8b1528; }
+.l24-faq-b1 {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq-b1 > h2 { margin-top: 0 !important; }
+.l24-faq-b1__item { margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0; }
+.l24-faq-b1__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq-b1__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; }
+.l24-faq-b1__a { margin: 0; color: #334155; }
+.ym-section { display: block; }
+@media (prefers-reduced-motion: no-preference) {
+  .arbitrazhnyj-processualnyj-srok-podacha-page .l24-longread-wrap > * {
+    animation: l24-b1-fade 0.5s ease both;
+  }
+}
+@keyframes l24-b1-fade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arbitrazhnyj-processualnyj-srok-podacha-page .l24-longread-wrap > * { animation: none !important; }
+}
+@media (max-width: 900px) {
+  .l24-intro-b1__grid { grid-template-columns: 1fr; }
+}
+
+</style>
+<main id="primary" class="site-main arbitrazhnyj-processualnyj-srok-podacha-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="Арбитражный процессуальный срок: как не пропустить подачу и возражения">
+<meta itemprop="description" content="Процессуальные сроки по АПК РФ: когда подавать иск и отзыв, сроки апелляции и возражений, исчисление и продление срока, последствия пропуска и восстановление по ст. 117. Чек-лист для бизнеса — Legis24.">
+<meta itemprop="inLanguage" content="ru-RU">
+
+<section id="l24-hero-arb-srok" class="hero-arb-srok" aria-label="Арбитражный процессуальный срок">
+  <style>
+    .hero-arb-srok {
+      position: relative;
+      min-height: 100vh;
+      min-height: 100dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+      background: linear-gradient(168deg, #fcfcfd 0%, #f6f8fb 42%, #eef2f7 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .hero-arb-srok::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 50% 44% at 92% 12%, rgba(163, 24, 48, 0.06) 0%, transparent 55%),
+        radial-gradient(ellipse 46% 42% at 6% 88%, rgba(30, 58, 138, 0.06) 0%, transparent 50%);
+      pointer-events: none;
+    }
+    .hero-arb-srok__inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 44px;
+      align-items: center;
+    }
+    .hero-arb-srok__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid rgba(15, 23, 42, 0.1);
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: #334155;
+    }
+    .hero-arb-srok__badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #a31830;
+      flex-shrink: 0;
+    }
+    .hero-arb-srok__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+      line-height: 1.2;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+    .hero-arb-srok__h1-accent {
+      color: #a31830;
+    }
+    .hero-arb-srok__sub {
+      margin: 0 0 26px;
+      max-width: 38em;
+      font-size: clamp(1rem, 1.55vw, 1.1rem);
+      line-height: 1.55;
+      color: #475569;
+    }
+    .hero-arb-srok__deadlines {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+    }
+    .hero-arb-srok__deadline {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      margin-bottom: 13px;
+      font-size: 0.93rem;
+      line-height: 1.45;
+      color: #334155;
+    }
+    .hero-arb-srok__deadline-tag {
+      flex-shrink: 0;
+      min-width: 108px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.04em;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .hero-arb-srok__deadline--pret .hero-arb-srok__deadline-tag {
+      background: #475569;
+    }
+    .hero-arb-srok__deadline--otz .hero-arb-srok__deadline-tag {
+      background: #a31830;
+    }
+    .hero-arb-srok__deadline--app .hero-arb-srok__deadline-tag {
+      background: #1e3a8a;
+    }
+    .hero-arb-srok__cta {
+      display: inline-block;
+      background: #a31830;
+      color: #fff !important;
+      padding: 14px 26px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.94rem;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(163, 24, 48, 0.2);
+    }
+    .hero-arb-srok__cta:hover {
+      background: #8b1528;
+    }
+    .hero-arb-srok__visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .hero-b1-clock-hand {
+        animation: hero-b1-clock-tick 4s ease-in-out infinite;
+        transform-origin: 240px 118px;
+      }
+      .hero-b1-deadline-pulse {
+        animation: hero-b1-deadline-pulse 2.2s ease-in-out infinite;
+      }
+      .hero-b1-flow-doc {
+        animation: hero-b1-doc-flow 3.4s linear infinite;
+      }
+      .hero-b1-cal-day-active {
+        animation: hero-b1-cal-flash 2.8s ease-in-out infinite;
+      }
+    }
+    @keyframes hero-b1-clock-tick {
+      0%, 100% { transform: rotate(0deg); }
+      25% { transform: rotate(8deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-4deg); }
+    }
+    @keyframes hero-b1-deadline-pulse {
+      0%, 100% { opacity: 1; r: 6; }
+      50% { opacity: 0.65; r: 8; }
+    }
+    @keyframes hero-b1-doc-flow {
+      0% { offset-distance: 0%; opacity: 0; }
+      8% { opacity: 1; }
+      92% { opacity: 1; }
+      100% { offset-distance: 100%; opacity: 0; }
+    }
+    @keyframes hero-b1-cal-flash {
+      0%, 100% { fill: #fef2f2; stroke: #fca5a5; }
+      50% { fill: #fee2e2; stroke: #a31830; }
+    }
+    @media (max-width: 900px) {
+      .hero-arb-srok__inner {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+      .hero-arb-srok__visual {
+        order: -1;
+        max-height: 320px;
+      }
+      .hero-arb-srok__deadline-tag {
+        min-width: 92px;
+        font-size: 0.66rem;
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-b1-clock-hand,
+      .hero-b1-deadline-pulse,
+      .hero-b1-flow-doc,
+      .hero-b1-cal-day-active {
+        animation: none !important;
+      }
+    }
+  </style>
+  <div class="hero-arb-srok__inner">
+    <div class="hero-arb-srok__content">
+      <div class="hero-arb-srok__badge">
+        <span class="hero-arb-srok__badge-dot" aria-hidden="true"></span>
+        Legis24 ARB · B1 · АПК · ст. 113–117 · 2026
+      </div>
+      <h1 class="hero-arb-srok__h1">
+        <span class="hero-arb-srok__h1-accent">Арбитражный процессуальный срок:</span> как не пропустить подачу и возражения
+      </h1>
+      <p class="hero-arb-srok__sub">
+        Процессуальные сроки по АПК: иск, отзыв, апелляция и восстановление по ст. 117 — без пропусков для бизнеса
+      </p>
+      <ul class="hero-arb-srok__deadlines">
+        <li class="hero-arb-srok__deadline hero-arb-srok__deadline--pret">
+          <span class="hero-arb-srok__deadline-tag">30 к.д.</span>
+          <span><strong>Претензия</strong> — досудебный ответ по ст. 4 АПК; не путать с отзывом на иск в суде</span>
+        </li>
+        <li class="hero-arb-srok__deadline hero-arb-srok__deadline--otz">
+          <span class="hero-arb-srok__deadline-tag">15 / 30</span>
+          <span><strong>Отзыв</strong> — ≥15 дней в УП (ст. 228) или срок из определения суда (ст. 131)</span>
+        </li>
+        <li class="hero-arb-srok__deadline hero-arb-srok__deadline--app">
+          <span class="hero-arb-srok__deadline-tag">1 + 6 мес.</span>
+          <span><strong>Апелляция</strong> — месяц со дня принятия решения; восстановление до 6 месяцев (ст. 117, 259)</span>
+        </li>
+      </ul>
+      <a class="hero-arb-srok__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по соблюдению процессуальных сроков в арбитраже</a>
+    </div>
+    <div class="hero-arb-srok__visual" aria-hidden="true">
+      <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px" role="img" aria-label="Календарь арбитражных сроков: часы до 24:00, стрелки этапов и процессуальные документы">
+        <defs>
+          <linearGradient id="hero-b1-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#f8fafc"/>
+            <stop offset="100%" stop-color="#e2e8f0"/>
+          </linearGradient>
+          <linearGradient id="hero-b1-court" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="100%" stop-color="#0f2744"/>
+          </linearGradient>
+          <linearGradient id="hero-b1-cal" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="100%" stop-color="#f1f5f9"/>
+          </linearGradient>
+          <linearGradient id="hero-b1-arrow-line" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#94a3b8"/>
+            <stop offset="50%" stop-color="#a31830"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
+          </linearGradient>
+          <filter id="hero-b1-shadow" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.12"/>
+          </filter>
+          <marker id="hero-b1-arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
+          </marker>
+          <marker id="hero-b1-arrow-red" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#a31830"/>
+          </marker>
+          <marker id="hero-b1-arrow-navy" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+            <path d="M0,0 L7,3.5 L0,7 Z" fill="#1e3a8a"/>
+          </marker>
+          <path id="hero-b1-timeline" d="M48 318 Q120 280 240 268 T432 318" fill="none"/>
+        </defs>
+        <rect x="8" y="10" width="464" height="400" rx="16" fill="url(#hero-b1-sky)" stroke="#cbd5e1" stroke-width="1.2"/>
+        <!-- арбитражный суд -->
+        <g transform="translate(150, 14)">
+          <rect x="0" y="20" width="180" height="48" rx="4" fill="url(#hero-b1-court)"/>
+          <polygon points="90,0 180,20 0,20" fill="#1e40af"/>
+          <text x="90" y="42" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="700" letter-spacing="0.08em">АРБИТРАЖ · АПК</text>
+          <text x="90" y="56" text-anchor="middle" fill="#93c5fd" font-size="7">процессуальные сроки · ст. 113–117</text>
+        </g>
+        <!-- часы: до 24:00 последнего дня -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(368, 28)">
+          <circle cx="0" cy="0" r="34" fill="#fff" stroke="#1e3a8a" stroke-width="1.5"/>
+          <circle cx="0" cy="0" r="28" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="0" y1="0" x2="0" y2="-18" stroke="#64748b" stroke-width="2"/>
+          <g class="hero-b1-clock-hand">
+            <line x1="0" y1="0" x2="14" y2="6" stroke="#a31830" stroke-width="2.5" stroke-linecap="round"/>
+          </g>
+          <circle cx="0" cy="0" r="3" fill="#a31830"/>
+          <text x="0" y="-42" text-anchor="middle" fill="#334155" font-size="7" font-weight="700">до 24:00</text>
+          <text x="0" y="-32" text-anchor="middle" fill="#64748b" font-size="6">Пленум № 99</text>
+        </g>
+        <!-- календарь — центр -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(118, 72)">
+          <rect x="0" y="0" width="244" height="196" rx="10" fill="url(#hero-b1-cal)" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="244" height="36" rx="10" fill="#a31830"/>
+          <rect x="0" y="18" width="244" height="18" fill="#a31830"/>
+          <text x="122" y="24" text-anchor="middle" fill="#fff" font-size="10" font-weight="800" letter-spacing="0.06em">КАЛЕНДАРЬ АРБИТРАЖНЫХ СРОКОВ</text>
+          <!-- сетка дней -->
+          <g fill="#f8fafc" stroke="#e2e8f0" stroke-width="0.6">
+            <rect x="12" y="48" width="30" height="24" rx="3"/>
+            <rect x="46" y="48" width="30" height="24" rx="3"/>
+            <rect x="80" y="48" width="30" height="24" rx="3"/>
+            <rect x="114" y="48" width="30" height="24" rx="3"/>
+            <rect x="148" y="48" width="30" height="24" rx="3"/>
+            <rect x="182" y="48" width="30" height="24" rx="3"/>
+            <rect x="12" y="76" width="30" height="24" rx="3"/>
+            <rect x="46" y="76" width="30" height="24" rx="3"/>
+            <rect x="80" y="76" width="30" height="24" rx="3"/>
+            <rect x="114" y="76" width="30" height="24" rx="3"/>
+            <rect x="148" y="76" width="30" height="24" rx="3"/>
+            <rect x="182" y="76" width="30" height="24" rx="3"/>
+            <rect x="12" y="104" width="30" height="24" rx="3"/>
+            <rect x="46" y="104" width="30" height="24" rx="3"/>
+            <rect x="80" y="104" width="30" height="24" rx="3"/>
+            <rect x="114" y="104" width="30" height="24" rx="3"/>
+            <rect x="148" y="104" width="30" height="24" rx="3"/>
+            <rect x="182" y="104" width="30" height="24" rx="3"/>
+            <rect x="12" y="132" width="30" height="24" rx="3"/>
+            <rect x="46" y="132" width="30" height="24" rx="3"/>
+            <rect x="80" y="132" width="30" height="24" rx="3"/>
+            <rect x="114" y="132" width="30" height="24" rx="3"/>
+            <rect x="148" y="132" width="30" height="24" rx="3"/>
+            <rect x="182" y="132" width="30" height="24" rx="3"/>
+          </g>
+          <!-- активный день — дедлайн -->
+          <rect class="hero-b1-cal-day-active" x="148" y="104" width="30" height="24" rx="3" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+          <text x="163" y="120" text-anchor="middle" fill="#a31830" font-size="9" font-weight="800">!</text>
+          <text x="12" y="168" fill="#64748b" font-size="6">30 к.д. · претензия</text>
+          <text x="92" y="168" fill="#a31830" font-size="6" font-weight="700">15/30 · отзыв</text>
+          <text x="168" y="168" fill="#1e3a8a" font-size="6" font-weight="700">1 мес. · апелляция</text>
+          <circle class="hero-b1-deadline-pulse" cx="163" cy="116" r="6" fill="none" stroke="#a31830" stroke-width="1.5"/>
+        </g>
+        <!-- документы слева: претензия -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(24, 148)">
+          <rect x="0" y="0" width="72" height="88" rx="6" fill="#fff" stroke="#475569" stroke-width="1"/>
+          <rect x="10" y="12" width="52" height="6" rx="2" fill="#cbd5e1"/>
+          <rect x="10" y="24" width="44" height="4" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="32" width="48" height="4" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="40" width="40" height="4" rx="1" fill="#e2e8f0"/>
+          <rect x="10" y="56" width="36" height="14" rx="3" fill="#f1f5f9" stroke="#94a3b8"/>
+          <text x="28" y="66" text-anchor="middle" fill="#475569" font-size="5" font-weight="700">ст. 4</text>
+          <text x="36" y="82" text-anchor="middle" fill="#334155" font-size="6" font-weight="700">ПРЕТЕНЗИЯ</text>
+        </g>
+        <!-- документ: иск -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(24, 248)">
+          <rect x="0" y="0" width="72" height="72" rx="6" fill="#fff" stroke="#a31830" stroke-width="1.2"/>
+          <rect x="10" y="10" width="52" height="6" rx="2" fill="#fecaca"/>
+          <rect x="10" y="22" width="44" height="4" rx="1" fill="#fee2e2"/>
+          <rect x="10" y="30" width="48" height="4" rx="1" fill="#fee2e2"/>
+          <text x="36" y="52" text-anchor="middle" fill="#a31830" font-size="6" font-weight="800">ИСК</text>
+          <text x="36" y="64" text-anchor="middle" fill="#64748b" font-size="5">ст. 125–127</text>
+        </g>
+        <!-- документ: отзыв -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(384, 148)">
+          <rect x="0" y="0" width="72" height="88" rx="6" fill="#fff" stroke="#a31830" stroke-width="1.2"/>
+          <rect x="10" y="12" width="52" height="6" rx="2" fill="#fecaca"/>
+          <rect x="10" y="24" width="44" height="4" rx="1" fill="#fee2e2"/>
+          <rect x="10" y="32" width="48" height="4" rx="1" fill="#fee2e2"/>
+          <rect x="10" y="48" width="52" height="18" rx="3" fill="#fef2f2" stroke="#fca5a5"/>
+          <text x="36" y="60" text-anchor="middle" fill="#a31830" font-size="5" font-weight="800">ОТЗЫВ</text>
+          <text x="36" y="82" text-anchor="middle" fill="#64748b" font-size="5">ст. 131 · 228</text>
+        </g>
+        <!-- документ: апелляция -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(384, 248)">
+          <rect x="0" y="0" width="72" height="72" rx="6" fill="#fff" stroke="#1e3a8a" stroke-width="1.2"/>
+          <rect x="10" y="10" width="52" height="6" rx="2" fill="#bfdbfe"/>
+          <rect x="10" y="22" width="44" height="4" rx="1" fill="#dbeafe"/>
+          <text x="36" y="44" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="800">АПЕЛЛ.</text>
+          <text x="36" y="56" text-anchor="middle" fill="#64748b" font-size="5">ст. 259</text>
+          <text x="36" y="66" text-anchor="middle" fill="#a31830" font-size="5">+ ст. 117</text>
+        </g>
+        <!-- стрелки сроков между этапами -->
+        <path d="M96 192 L118 168" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#hero-b1-arrow)"/>
+        <path d="M96 284 L118 248" stroke="#a31830" stroke-width="1.5" fill="none" marker-end="url(#hero-b1-arrow-red)"/>
+        <path d="M362 192 L342 168" stroke="#a31830" stroke-width="1.5" fill="none" marker-end="url(#hero-b1-arrow-red)"/>
+        <path d="M362 284 L342 248" stroke="#1e3a8a" stroke-width="1.5" fill="none" marker-end="url(#hero-b1-arrow-navy)"/>
+        <path d="M240 268 L240 248" stroke="#64748b" stroke-width="1.2" fill="none" stroke-dasharray="3 3"/>
+        <!-- лента таймлайна -->
+        <path d="M48 318 Q120 280 240 268 T432 318" stroke="url(#hero-b1-arrow-line)" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <circle class="hero-b1-flow-doc" r="5" fill="#a31830" stroke="#fff" stroke-width="1.5" style="offset-path: path('M48 318 Q120 280 240 268 T432 318'); offset-rotate: 0deg;"/>
+        <text x="72" y="336" text-anchor="middle" fill="#475569" font-size="6" font-weight="700">претензия</text>
+        <text x="168" y="328" text-anchor="middle" fill="#a31830" font-size="6" font-weight="700">иск · отзыв</text>
+        <text x="300" y="336" text-anchor="middle" fill="#1e3a8a" font-size="6" font-weight="700">решение</text>
+        <text x="408" y="328" text-anchor="middle" fill="#334155" font-size="6" font-weight="700">апелляция</text>
+        <!-- зона пропуска -->
+        <g transform="translate(188, 288)">
+          <rect x="0" y="0" width="104" height="28" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1" stroke-dasharray="4 3"/>
+          <text x="52" y="12" text-anchor="middle" fill="#a31830" font-size="6" font-weight="800">ПРОПУСК</text>
+          <text x="52" y="22" text-anchor="middle" fill="#991b1b" font-size="5">ст. 115 · 117</text>
+        </g>
+        <!-- нижняя панель -->
+        <g filter="url(#hero-b1-shadow)" transform="translate(28, 348)">
+          <rect width="424" height="52" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="1"/>
+          <rect x="0" y="0" width="106" height="52" rx="10" fill="#f1f5f9" stroke="none"/>
+          <text x="53" y="22" text-anchor="middle" fill="#475569" font-size="7" font-weight="800">30 к.д.</text>
+          <text x="53" y="36" text-anchor="middle" fill="#64748b" font-size="6">претензия · ст. 4</text>
+          <line x1="106" y1="10" x2="106" y2="42" stroke="#e2e8f0"/>
+          <text x="159" y="22" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800">15 / 30</text>
+          <text x="159" y="36" text-anchor="middle" fill="#64748b" font-size="6">отзыв · УП / обычное</text>
+          <line x1="212" y1="10" x2="212" y2="42" stroke="#e2e8f0"/>
+          <text x="265" y="22" text-anchor="middle" fill="#1e3a8a" font-size="7" font-weight="800">1 мес.</text>
+          <text x="265" y="36" text-anchor="middle" fill="#64748b" font-size="6">апелляция · ст. 259</text>
+          <line x1="318" y1="10" x2="318" y2="42" stroke="#e2e8f0"/>
+          <rect x="318" y="0" width="106" height="52" rx="10" fill="#fef2f2" stroke="none"/>
+          <text x="371" y="22" text-anchor="middle" fill="#a31830" font-size="7" font-weight="800">6 мес.</text>
+          <text x="371" y="36" text-anchor="middle" fill="#64748b" font-size="6">предел · ст. 117</text>
+        </g>
+        <text x="240" y="412" text-anchor="middle" fill="#64748b" font-size="7">претензия → иск → отзыв → решение → апелляция · единый календарь по делу</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-b1 ym-section" aria-label="Введение">
+  <div class="l24-intro-b1__grid">
+    <div class="l24-intro-b1__text">
+      <p>В арбитраже действуют две «линейки» времени: <strong>исковая давность</strong> (когда можно требовать по сути спора) и <strong>процессуальные сроки</strong> (когда подать отзыв, жалобу, доказательства). Для бизнеса критичен единый <strong>календарь арбитражных сроков</strong> — от претензии до кассации.</p>
+      <p>Ниже — виды сроков по гл. 10 АПК, типовые ошибки (30 дней на претензию vs 15 на отзыв в УП), матрица обжалования, восстановление по ст. 117 и чек-листы для юротдела. Практика 2024–2026.</p>
+      <div class="l24-intro-b1__brief">
+        <strong>Кратко:</strong> 30 <strong>календарных</strong> дней на ответ по претензии (ст. 4) ≠ 15–30 на <strong>отзыв</strong> в суде; апелляция — <strong>1 месяц</strong> со дня принятия решения (ст. 259); предел восстановления обжалования — <strong>6 месяцев</strong> (ст. 117). Пропуск без ходатайства → утрата права (ст. 115).
+      </div>
+    </div>
+    <aside class="l24-intro-b1__decor" aria-label="Процессуальные сроки: нормы АПК">
+      <ul class="l24-intro-b1__chips">
+        <li class="l24-intro-b1__chip l24-intro-b1__chip--navy">АПК 113–117</li>
+        <li class="l24-intro-b1__chip l24-intro-b1__chip--warn">30 к.д. претензия</li>
+        <li class="l24-intro-b1__chip l24-intro-b1__chip--accent">15 / 30 отзыв</li>
+        <li class="l24-intro-b1__chip">ст. 259 апелляция</li>
+        <li class="l24-intro-b1__chip">ст. 276 кассация</li>
+        <li class="l24-intro-b1__chip">Пленум № 99</li>
+      </ul>
+      <svg class="l24-intro-b1__route-svg" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Цепочка сроков: претензия, иск, отзыв, решение, апелляция">
+        <rect x="8" y="8" width="304" height="184" rx="10" fill="#fff" stroke="#cbd5e1"/>
+        <text x="24" y="32" fill="#64748b" font-size="10" font-weight="700">СРОКИ · АПК · КАЛЕНДАРЬ</text>
+        <rect x="24" y="48" width="88" height="52" rx="8" fill="#f1f5f9" stroke="#475569"/>
+        <text x="68" y="72" text-anchor="middle" fill="#475569" font-size="8" font-weight="700">30 к.д.</text>
+        <text x="68" y="86" text-anchor="middle" fill="#64748b" font-size="7">претензия · ст. 4</text>
+        <rect x="116" y="48" width="88" height="52" rx="8" fill="#fef2f2" stroke="#a31830"/>
+        <text x="160" y="72" text-anchor="middle" fill="#a31830" font-size="8" font-weight="800">15/30</text>
+        <text x="160" y="86" text-anchor="middle" fill="#64748b" font-size="7">отзыв · 131/228</text>
+        <rect x="208" y="48" width="88" height="52" rx="8" fill="#eff6ff" stroke="#1e3a8a"/>
+        <text x="252" y="72" text-anchor="middle" fill="#1e3a8a" font-size="8" font-weight="800">1 + 6 мес.</text>
+        <text x="252" y="86" text-anchor="middle" fill="#64748b" font-size="7">апелляция · 117</text>
+        <path d="M68 100 L68 118 L252 118 L252 100" stroke="#94a3b8" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+        <rect x="24" y="118" width="272" height="58" rx="8" fill="#f8fafc" stroke="#e2e8f0"/>
+        <text x="160" y="142" text-anchor="middle" fill="#334155" font-size="9" font-weight="600">претензия → иск → отзыв → решение → обжалование</text>
+        <text x="160" y="160" text-anchor="middle" fill="#64748b" font-size="8">подача до 24:00 · «Мой арбитр» · Пленум ВАС № 99</text>
+      </svg>
+    </aside>
+  </div>
+</section>
+
+<nav class="ym-toc ym-section" aria-label="Содержание статьи">
+  <p class="ym-toc__title">По статье</p>
+  <ul class="ym-toc__list">
+    <li><a href="#b1-apk">Что регулирует АПК</a></li>
+    <li><a href="#b1-podacha">Подача иска и отзыв</a></li>
+    <li><a href="#b1-obzhalovanie">Обжалование и возражения</a></li>
+    <li><a href="#b1-ischislenie">Исчисление и продление</a></li>
+    <li><a href="#ym-matrix-srok-arb">Матрица сроков</a></li>
+    <li><a href="#b1-propusk">Пропуск срока</a></li>
+    <li><a href="#b1-vosstanovlenie">Восстановление ст. 117</a></li>
+    <li><a href="#b1-hodataystvo">Ходатайство</a></li>
+    <li><a href="#b1-checklist">Чек-лист</a></li>
+    <li><a href="#b1-faq">FAQ</a></li>
+  </ul>
+</nav>
+
+
+<section class="ym-section">
+<div class="l24-longread-wrap">
+
+<h2 id="b1-apk">Процессуальные сроки в арбитраже: что регулирует АПК РФ</h2>
+
+<p><strong>Процессуальные сроки в арбитражном процессе</strong> — это установленные АПК РФ или судом периоды, в которые участник вправе совершить процессуальное действие: подать иск, отзыв, жалобу, ходатайство. Нарушение срока по общему правилу означает <strong>утрату права</strong> на это действие (ст. 115 АПК), если суд не восстановит срок по ст. 117.</p>
+
+<p>Понятие и виды сроков закреплены в гл. 10 АПК (ст. 113–118). Виды для практики бизнеса:</p>
+
+<table><thead><tr><th>Вид</th><th>Пример</th><th>Кто задаёт</th></tr></thead><tbody>
+<tr><td>Установленные законом</td><td>1 месяц на апелляцию (ст. 259), ≥15 дней на отзыв в УП (ст. 228)</td><td>Кодекс</td></tr>
+<tr><td>Назначенные судом</td><td>Срок на отзыв в определении о принятии иска (ст. 131)</td><td>Суд в определении</td></tr>
+<tr><td>Досудебные</td><td>30 к.д. на ответ на претензию (ч. 5 ст. 4)</td><td>Закон / договор</td></tr>
+</tbody></table>
+
+<p><strong>Важно:</strong> ст. 112 АПК регулирует <strong>судебные расходы</strong>, а не исчисление сроков действий — её не смешивают со ст. 113–117.</p>
+
+<h3>Понятие и виды процессуальных сроков в арбитражном процессе</h3>
+
+<p>Сроки делятся на <strong>календарные</strong> (например, 30 дней на претензию) и в <strong>днях</strong> по АПК (апелляция, отзыв в определении). В сроках, исчисляемых <strong>в днях</strong>, нерабочие дни <strong>не входят</strong>; если последний день приходится на нерабочий — срок переносится на следующий рабочий (ст. 113–114 АПК). Течение начинается <strong>со дня, следующего</strong> за датой события, с которой связан срок (вручение иска, принятие решения).</p>
+
+<h3>Кто исчисляет сроки: суд, участники, календарные и рабочие дни</h3>
+
+<p>Суд <strong>назначает</strong> сроки сторонам в определениях (подготовка, отзыв, доказательства). Стороны <strong>сами исчисляют</strong> сроки на обжалование и подачу документов. Юридический отдел должен вести <strong>единый календарь</strong>: дата вручения претензии → дата подачи иска → дата определения о принятии → срок отзыва → дата <strong>принятия</strong> решения (апелляция) → дата <strong>вступления в силу</strong> (кассация).</p>
+
+<p>По <strong>п. 4 Пленума ВАС РФ от 25.12.2013 № 99</strong> документ, поданный через «Мой арбитр» или почтой <strong>до 24:00</strong> последнего дня срока, считается поданным вовремя.</p>
+
+<h2 id="b1-podacha">Сроки подачи иска, отзыва и процессуальных документов в первой инстанции</h2>
+
+<h3>Срок на исковое заявление и уточнение требований</h3>
+
+<p><strong>Отдельного процессуального срока на подачу иска</strong> в АПК нет (ст. 125–126): иск подают, пока не истекла <strong>исковая давность</strong> по спорному требованию (общее правило — 3 года по ст. 196 ГК, применяется <strong>по заявлению</strong> ответчика, ст. 199 ГК). Для юрлиц и ИП восстановление давности <strong>практически недоступно</strong> (разъяснения Пленума ВС № 43).</p>
+
+<p>До суда по многим <strong>гражданско-правовым денежным спорам</strong> обязателен <strong>досудебный порядок</strong> (ч. 5 ст. 4 АПК): претензия и <strong>30 календарных дней</strong> на ответ, если договор или закон не устанавливают иной срок. Несоблюдение → иск могут <strong>оставить без рассмотрения</strong>.</p>
+
+<p>Суд принимает иск в течение <strong>5 дней</strong> с поступления (ст. 127); в определении указывают сроки подготовки и действий сторон. Выписка из ЕГРЮЛ/ЕГРИП — не ранее <strong>30 дней</strong> до обращения (п. 9 ч. 1 ст. 126).</p>
+
+<table><thead><tr><th>Этап</th><th>Срок</th><th>Норма</th></tr></thead><tbody>
+<tr><td>Ответ на претензию</td><td>30 к.д. (или иной)</td><td>ч. 5 ст. 4 АПК</td></tr>
+<tr><td>Принятие иска судом</td><td>5 дней</td><td>ст. 127 АПК</td></tr>
+<tr><td>Подача иска</td><td>Нет общего проц. срока; давность 3 года</td><td>ст. 125–126, 196 ГК</td></tr>
+</tbody></table>
+
+<h3>Отзыв на иск: срок ответа ответчика и риск пропуска</h3>
+
+<p>В арбитраже возражения ответчика оформляются как <strong>отзыв на иск</strong> (ст. 131 АПК), а не «возражения» в терминах ГПК. Ответчик обязан направить отзыв, чтобы истец успел ознакомиться <strong>до заседания</strong>; конкретный срок суд часто указывает в <strong>определении о принятии иска</strong> — на практике это <strong>15–30 дней</strong>.</p>
+
+<p>При пропуске срока суд <strong>вправе</strong> рассмотреть дело <strong>без отзыва</strong> (ч. 4 ст. 131) — это мягче, чем в упрощённом производстве.</p>
+
+<p><strong>Типовая ошибка:</strong> путать <strong>30 дней на претензию</strong> (досудебка) и <strong>15 дней на отзыв в УП</strong> (ст. 228).</p>
+
+<table><thead><tr><th>Что путают</th><th>Реальность</th></tr></thead><tbody>
+<tr><td>30 дней</td><td>Ответ на <strong>претензию</strong>, не отзыв</td></tr>
+<tr><td>15 дней</td><td><strong>Минимум</strong> на отзыв и доказательства в <strong>упрощённом</strong> производстве</td></tr>
+<tr><td>30 дней (УП)</td><td>Срок на <strong>дополнительные</strong> документы в УП, не на первый отзыв</td></tr>
+</tbody></table>
+
+<h3>Другие документы: ходатайства, доказательства, объяснения</h3>
+
+<p>Сроки на ходатайства и доказательства суд назначает в определениях о подготовке. В <strong>упрощённом производстве</strong> (ст. 228): отзыв и доказательства — <strong>не менее 15 дней</strong> с определения о принятии; дополнительные документы — <strong>не менее 30 дней</strong>. Опоздание в УП → документы <strong>возвращают без рассмотрения</strong> (ч. 4 ст. 228), кроме случаев, не зависящих от лица.</p>
+
+<p>Если сроки поджимают, заранее запросите <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">консультацию по арбитражному спору</a> и сверьте режим производства по делу.</p>
+
+<h2 id="b1-obzhalovanie">Сроки обжалования и возражений: апелляция, кассация, ответ на жалобу</h2>
+
+<h3>Срок обжалования решения арбитражного суда первой инстанции</h3>
+
+<p><strong>Апелляционная жалоба</strong> подаётся в течение <strong>1 месяца</strong> со дня <strong>принятия</strong> решения судом первой инстанции (ст. 259 АПК). Восстановление этого срока возможно не позднее <strong>6 месяцев</strong> с даты принятия решения (ч. 2 ст. 259); по истечении 6 месяцев восстановление <strong>невозможно</strong> — это «красная линия» календаря.</p>
+
+<h3>Возражение на апелляционную жалобу и отзыв в вышестоящей инстанции</h3>
+
+<p>Лицо, не подавшее апелляцию, вправе представить <strong>отзыв</strong> на жалобу и <strong>возражения</strong> по существу. Сроки задаёт суд апелляционной инстанции; пропуск без восстановления лишает возможности учесть позицию в апелляции.</p>
+
+<h3>Кассация и надзор: отличия сроков (кратко)</h3>
+
+<table><thead><tr><th>Инстанция</th><th>Срок подачи</th><th>Начало течения</th><th>Предел восстановления</th></tr></thead><tbody>
+<tr><td>Апелляция</td><td>1 месяц</td><td>Принятие решения 1 инст.</td><td>6 месяцев (ч. 2 ст. 259)</td></tr>
+<tr><td>Кассация (округ)</td><td>2 месяца</td><td>Вступление акта в силу</td><td>6 месяцев (ч. 2 ст. 276)</td></tr>
+<tr><td>Кассация (ВС РФ)</td><td>2 месяца</td><td>Вступление в силу последнего акта</td><td>6 месяцев (ч. 2 ст. 291.2)</td></tr>
+</tbody></table>
+
+<p>В <strong>банкротстве</strong> на отдельные определения — <strong>10 дней</strong> на апелляцию (ч. 3 ст. 223 АПК).</p>
+
+<p>Практика 2024–2026: ВС РФ массово <strong>отказывает</strong> в восстановлении при пропуске двухмесячного срока кассации без уважительных причин (в т.ч. определение от 20.02.2024 № 301-ЭС23-26196); ссылка на неистечение 6 месяцев <strong>сама по себе</strong> не спасает.</p>
+
+<h2 id="b1-ischislenie">Исчисление, продление и приостановление процессуального срока</h2>
+
+<h3>С с какого дня течёт срок и что его прерывает</h3>
+
+<p>По <strong>ст. 113–114 АПК</strong> срок исчисляется с <strong>следующего дня</strong> после календарной даты события (вручение копии иска, вынесение определения). Процессуальное действие можно совершить <strong>до 24:00</strong> последнего дня срока.</p>
+
+<p><strong>Пленум ВАС № 99</strong> (п. 3–4, 32–37): при исчислении учитывают нерабочие дни; при восстановлении проверяют, было ли лицо <strong>надлежащим образом извещено</strong> (ст. 121–123 АПК).</p>
+
+<h3>Продление по ходатайству и приостановление производства</h3>
+
+<p>Суд <strong>продлевает</strong> назначенные им сроки по ходатайству (ст. 118 АПК), если есть основания. <strong>Приостановление производства</strong> по делу влечёт приостановление процессуальных сроков (ст. 116 АПК) — это отдельный инструмент, не путать с восстановлением пропущенного срока.</p>
+
+<h3>Нужен ли «калькулятор» сроков и как сверять вручную</h3>
+
+<p>Онлайн-калькуляторы процессуальных сроков АПК полезны как ориентир, но для спора нужна <strong>ручная сверка</strong>: тип производства (обычное / УП), текст <strong>определения</strong>, карточка дела в <strong>КАД «Арбитр»</strong>, учёт нерабочих дней и подачи до 24:00 в «Мой арбитр». Ошибка в одной дате (принятие решения vs вступление в силу) стоит права на кассацию.</p>
+
+
+<section id="l24-boris-arb-srok-matrix" class="l24-boris-arb-b1" aria-label="Матрица и таймлайн арбитражных процессуальных сроков по АПК">
+<style>
+.l24-boris-arb-b1 {
+  --b1-navy: #1e3a8a;
+  --b1-navy-soft: #1e40af;
+  --b1-accent: #a31830;
+  --b1-accent-soft: #c53030;
+  --b1-ink: #e2e8f0;
+  --b1-muted: #94a3b8;
+  --b1-warn: #fbbf24;
+  margin: 48px 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-arb-b1__shell {
+  background: linear-gradient(152deg, #0f172a 0%, #1e293b 48%, #172554 100%);
+  border: 1px solid rgba(30, 58, 138, 0.45);
+  border-radius: 14px;
+  padding: 32px 28px 28px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 20px 52px rgba(15, 23, 42, 0.38);
+  color: var(--b1-ink);
+}
+.l24-boris-arb-b1__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #93c5fd;
+}
+.l24-boris-arb-b1__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-arb-b1__lead {
+  margin: 0 0 20px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--b1-muted);
+  max-width: 72ch;
+}
+.l24-boris-arb-b1__lead strong { color: #fff; }
+.l24-boris-arb-b1__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin: 0 0 22px;
+  padding: 0;
+  list-style: none;
+  font-size: 0.78rem;
+  color: var(--b1-muted);
+}
+.l24-boris-arb-b1__legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+.l24-boris-arb-b1__legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.l24-boris-arb-b1__legend-dot--flow { background: var(--b1-navy-soft); box-shadow: 0 0 0 2px #93c5fd; }
+.l24-boris-arb-b1__legend-dot--branch { background: #6366f1; box-shadow: 0 0 0 2px #c7d2fe; }
+.l24-boris-arb-b1__legend-dot--restore {
+  width: 18px;
+  height: 0;
+  border-radius: 0;
+  border-top: 2px dashed var(--b1-warn);
+  background: transparent;
+  box-shadow: none;
+}
+.l24-boris-arb-b1__timeline-wrap {
+  margin-bottom: 22px;
+  padding: 18px 16px 14px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-arb-b1__timeline-label {
+  margin: 0 0 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #93c5fd;
+}
+.l24-boris-arb-b1__timeline-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 132px;
+}
+.l24-boris-arb-b1__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: 24px;
+  align-items: stretch;
+}
+.l24-boris-arb-b1__panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px 18px;
+}
+.l24-boris-arb-b1__panel-title {
+  margin: 0 0 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #93c5fd;
+}
+.l24-boris-arb-b1__confusion {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+.l24-boris-arb-b1__conf-item {
+  margin: 0;
+  padding: 10px 11px;
+  border-radius: 8px;
+  background: rgba(251, 191, 36, 0.08);
+  border-left: 3px solid var(--b1-warn);
+  font-size: 0.72rem;
+  line-height: 1.42;
+}
+.l24-boris-arb-b1__conf-item strong {
+  display: block;
+  color: #fde68a;
+  font-size: 0.76rem;
+  margin-bottom: 3px;
+}
+.l24-boris-arb-b1__matrix {
+  display: grid;
+  grid-template-columns: minmax(88px, 0.9fr) minmax(0, 0.75fr) minmax(0, 1fr) minmax(0, 0.85fr);
+  gap: 5px;
+  font-size: 0.7rem;
+  line-height: 1.36;
+}
+.l24-boris-arb-b1__mhead {
+  padding: 7px 8px;
+  font-size: 0.64rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--b1-muted);
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+.l24-boris-arb-b1__mrow {
+  display: contents;
+}
+.l24-boris-arb-b1__mcell {
+  padding: 9px 8px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.18);
+  align-self: stretch;
+}
+.l24-boris-arb-b1__mcell--stage {
+  font-weight: 700;
+  color: #fff;
+  border-left: 3px solid var(--b1-navy-soft);
+}
+.l24-boris-arb-b1__mrow:nth-child(3) .l24-boris-arb-b1__mcell--stage { border-left-color: #3b82f6; }
+.l24-boris-arb-b1__mrow:nth-child(4) .l24-boris-arb-b1__mcell--stage { border-left-color: #6366f1; }
+.l24-boris-arb-b1__mrow:nth-child(5) .l24-boris-arb-b1__mcell--stage { border-left-color: #818cf8; }
+.l24-boris-arb-b1__mrow:nth-child(6) .l24-boris-arb-b1__mcell--stage { border-left-color: var(--b1-accent-soft); }
+.l24-boris-arb-b1__mrow:nth-child(7) .l24-boris-arb-b1__mcell--stage { border-left-color: var(--b1-accent); }
+.l24-boris-arb-b1__mcell--term strong {
+  display: block;
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+.l24-boris-arb-b1__mcell--term span {
+  font-size: 0.64rem;
+  color: #93c5fd;
+}
+.l24-boris-arb-b1__mcell--restore {
+  color: #fde68a;
+  font-size: 0.66rem;
+}
+.l24-boris-arb-b1__restore-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 56px;
+  margin-top: 12px;
+}
+.l24-boris-arb-b1__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.l24-boris-arb-b1__tag {
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--b1-muted);
+}
+.l24-boris-arb-b1__tag--4 { border: 1px solid var(--b1-navy-soft); color: #bfdbfe; }
+.l24-boris-arb-b1__tag--131 { border: 1px solid #3b82f6; color: #bfdbfe; }
+.l24-boris-arb-b1__tag--228 { border: 1px solid #6366f1; color: #c7d2fe; }
+.l24-boris-arb-b1__tag--259 { border: 1px solid var(--b1-accent-soft); color: #fecaca; }
+.l24-boris-arb-b1__tag--117 { border: 1px solid var(--b1-warn); color: #fde68a; }
+.l24-boris-arb-b1__caption {
+  margin: 14px 0 0;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--b1-muted);
+}
+@media (max-width: 820px) {
+  .l24-boris-arb-b1__split { grid-template-columns: 1fr; }
+  .l24-boris-arb-b1__matrix {
+    grid-template-columns: 1fr 1fr;
+  }
+  .l24-boris-arb-b1__mhead:nth-child(3),
+  .l24-boris-arb-b1__mhead:nth-child(4) { display: none; }
+  .l24-boris-arb-b1__mrow .l24-boris-arb-b1__mcell:nth-child(3)::before {
+    content: "Начало: ";
+    color: var(--b1-muted);
+    font-weight: 600;
+  }
+  .l24-boris-arb-b1__mrow .l24-boris-arb-b1__mcell:nth-child(4)::before {
+    content: "Восстановление: ";
+    color: var(--b1-muted);
+    font-weight: 600;
+  }
+}
+</style>
+
+  <div class="l24-boris-arb-b1__shell">
+    <p class="l24-boris-arb-b1__eyebrow">АПК РФ · ст. 4 · 131 · 228 · 259 · 276 · 117 · Пленум ВАС № 99</p>
+    <h3 class="l24-boris-arb-b1__title" id="ym-matrix-srok-arb">Матрица сроков: от претензии до кассации и предел +6 месяцев</h3>
+    <p class="l24-boris-arb-b1__lead">Горизонтальный <strong>таймлайн</strong> — типовая цепочка для бизнеса: досудебная претензия → отзыв в суде → апелляция → кассация. Справа — <strong>матрица</strong> с началом течения и лимитом восстановления; пунктир — «окно» до <strong>6 месяцев</strong> по ст. 117, 259, 276 АПК.</p>
+
+    <ul class="l24-boris-arb-b1__legend" aria-label="Легенда схемы">
+      <li class="l24-boris-arb-b1__legend-item"><span class="l24-boris-arb-b1__legend-dot l24-boris-arb-b1__legend-dot--flow" aria-hidden="true"></span> Основной процессуальный срок</li>
+      <li class="l24-boris-arb-b1__legend-item"><span class="l24-boris-arb-b1__legend-dot l24-boris-arb-b1__legend-dot--branch" aria-hidden="true"></span> Ветка УП: 15 / 30 дней (ст. 228)</li>
+      <li class="l24-boris-arb-b1__legend-item"><span class="l24-boris-arb-b1__legend-dot l24-boris-arb-b1__legend-dot--restore" aria-hidden="true"></span> Предел восстановления (≤ 6 мес.)</li>
+    </ul>
+
+    <div class="l24-boris-arb-b1__timeline-wrap">
+      <p class="l24-boris-arb-b1__timeline-label">Таймлайн этапов</p>
+      <svg class="l24-boris-arb-b1__timeline-svg" viewBox="0 0 720 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="b1-tl-title b1-tl-desc">
+        <title id="b1-tl-title">Цепочка арбитражных процессуальных сроков</title>
+        <desc id="b1-tl-desc">Претензия 30 календарных дней, отзыв 15 или 30 дней, апелляция 1 месяц, кассация 2 месяца, линия восстановления до 6 месяцев</desc>
+        <defs>
+          <linearGradient id="b1-flow" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#1e3a8a"/>
+            <stop offset="35%" stop-color="#3b82f6"/>
+            <stop offset="65%" stop-color="#6366f1"/>
+            <stop offset="100%" stop-color="#a31830"/>
+          </linearGradient>
+        </defs>
+        <!-- базовая ось -->
+        <line x1="48" y1="52" x2="672" y2="52" stroke="url(#b1-flow)" stroke-width="4" stroke-linecap="round"/>
+        <!-- линия +6 мес восстановления -->
+        <line x1="380" y1="98" x2="672" y2="98" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6 5" opacity="0.9"/>
+        <text x="382" y="118" fill="#fde68a" font-size="7.5" font-weight="600">+6 мес. — предел восстановления (ст. 117, 259, 276)</text>
+        <!-- узел 1: претензия -->
+        <circle cx="56" cy="52" r="14" fill="#1e3a8a" stroke="#fff" stroke-width="2"/>
+        <text x="56" y="56" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">1</text>
+        <rect x="12" y="8" width="88" height="34" rx="6" fill="rgba(30,58,138,0.45)" stroke="#3b82f6"/>
+        <text x="56" y="22" text-anchor="middle" fill="#bfdbfe" font-size="7" font-weight="700">Претензия</text>
+        <text x="56" y="34" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">30 к.д.</text>
+        <text x="56" y="78" text-anchor="middle" fill="#94a3b8" font-size="6.5">ч. 5 ст. 4</text>
+        <!-- узел 2: отзыв 15/30 -->
+        <circle cx="208" cy="52" r="14" fill="#3b82f6" stroke="#fff" stroke-width="2"/>
+        <text x="208" y="56" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">2</text>
+        <rect x="148" y="8" width="120" height="34" rx="6" fill="rgba(59,130,246,0.28)" stroke="#6366f1"/>
+        <text x="208" y="22" text-anchor="middle" fill="#c7d2fe" font-size="7" font-weight="700">Отзыв</text>
+        <text x="208" y="34" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">15 / 30</text>
+        <text x="208" y="78" text-anchor="middle" fill="#94a3b8" font-size="6.5">131 · 228</text>
+        <!-- ветка УП -->
+        <path d="M 208 66 L 208 82 L 168 82" fill="none" stroke="#818cf8" stroke-width="1.5"/>
+        <text x="132" y="86" text-anchor="end" fill="#a5b4fc" font-size="6">УП ≥15</text>
+        <path d="M 208 66 L 248 82" fill="none" stroke="#818cf8" stroke-width="1.5"/>
+        <text x="252" y="86" fill="#a5b4fc" font-size="6">доп. ≥30</text>
+        <!-- узел 3: апелляция -->
+        <circle cx="380" cy="52" r="14" fill="#6366f1" stroke="#fff" stroke-width="2"/>
+        <text x="380" y="56" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">3</text>
+        <rect x="318" y="8" width="124" height="34" rx="6" fill="rgba(99,102,241,0.3)" stroke="#818cf8"/>
+        <text x="380" y="22" text-anchor="middle" fill="#e0e7ff" font-size="7" font-weight="700">Апелляция</text>
+        <text x="380" y="34" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">1 мес.</text>
+        <text x="380" y="78" text-anchor="middle" fill="#94a3b8" font-size="6.5">ст. 259</text>
+        <!-- маркер начала +6 от апелляции -->
+        <circle cx="380" cy="98" r="4" fill="#fbbf24"/>
+        <!-- узел 4: кассация -->
+        <circle cx="552" cy="52" r="14" fill="#a31830" stroke="#fff" stroke-width="2"/>
+        <text x="552" y="56" text-anchor="middle" fill="#fff" font-size="7" font-weight="700">4</text>
+        <rect x="490" y="8" width="124" height="34" rx="6" fill="rgba(163,24,48,0.35)" stroke="#fca5a5"/>
+        <text x="552" y="22" text-anchor="middle" fill="#fecaca" font-size="7" font-weight="700">Кассация</text>
+        <text x="552" y="34" text-anchor="middle" fill="#fff" font-size="9" font-weight="800">2 мес.</text>
+        <text x="552" y="78" text-anchor="middle" fill="#94a3b8" font-size="6.5">ст. 276</text>
+        <circle cx="552" cy="98" r="4" fill="#fbbf24"/>
+        <!-- финиш: безвозврат -->
+        <circle cx="672" cy="98" r="5" fill="none" stroke="#fca5a5" stroke-width="2"/>
+        <text x="684" y="101" fill="#fca5a5" font-size="7" font-weight="700">далее — нет</text>
+        <!-- стрелка к суду -->
+        <polygon points="120,52 132,46 132,58" fill="#3b82f6"/>
+        <text x="124" y="44" text-anchor="middle" fill="#64748b" font-size="6">иск</text>
+      </svg>
+    </div>
+
+    <div class="l24-boris-arb-b1__split">
+      <div class="l24-boris-arb-b1__panel">
+        <p class="l24-boris-arb-b1__panel-title">Типовая ошибка: 30 vs 15</p>
+        <ul class="l24-boris-arb-b1__confusion" aria-label="Различие 30 и 15 дней">
+          <li class="l24-boris-arb-b1__conf-item">
+            <strong>30 календарных дней</strong>
+            Ответ на <em>претензию</em> до суда (досудебный порядок), не срок отзыва в арбитраже. ч. 5 ст. 4 АПК.
+          </li>
+          <li class="l24-boris-arb-b1__conf-item">
+            <strong>15 дней (минимум)</strong>
+            Отзыв и доказательства в <em>упрощённом</em> производстве — с определения о принятии. ч. 2 ст. 228 АПК.
+          </li>
+          <li class="l24-boris-arb-b1__conf-item">
+            <strong>30 дней (минимум)</strong>
+            Второй этап УП — дополнительные документы; опоздание → возврат без рассмотрения. ч. 3–4 ст. 228 АПК.
+          </li>
+        </ul>
+        <svg class="l24-boris-arb-b1__restore-svg" viewBox="0 0 360 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <rect x="0" y="14" width="360" height="20" rx="8" fill="rgba(251,191,36,0.12)" stroke="#fbbf24" stroke-dasharray="4 3"/>
+          <text x="12" y="28" fill="#fde68a" font-size="8" font-weight="700">Окно восстановления: уважительные причины + ходатайство одновременно с действием</text>
+          <text x="12" y="40" fill="#94a3b8" font-size="7">ст. 117 АПК · рассмотрение ходатайства — 5 дней</text>
+        </svg>
+      </div>
+
+      <div class="l24-boris-arb-b1__panel">
+        <p class="l24-boris-arb-b1__panel-title">Матрица: срок · начало · восстановление</p>
+        <div class="l24-boris-arb-b1__matrix" role="table" aria-label="Матрица арбитражных процессуальных сроков">
+          <div class="l24-boris-arb-b1__mhead" role="columnheader">Этап</div>
+          <div class="l24-boris-arb-b1__mhead" role="columnheader">Срок</div>
+          <div class="l24-boris-arb-b1__mhead" role="columnheader">Начало течения</div>
+          <div class="l24-boris-arb-b1__mhead" role="columnheader">Предел восстановления</div>
+
+          <div class="l24-boris-arb-b1__mrow" role="row">
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--stage" role="rowheader">Претензия</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--term" role="cell"><strong>30</strong><span>календ. дней</span></div>
+            <div class="l24-boris-arb-b1__mcell" role="cell">Вручение / получение претензии; иное в договоре</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--restore" role="cell">—</div>
+          </div>
+          <div class="l24-boris-arb-b1__mrow" role="row">
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--stage" role="rowheader">Отзыв (обычное)</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--term" role="cell"><strong>15–30</strong><span>в определении</span></div>
+            <div class="l24-boris-arb-b1__mcell" role="cell">Определение о принятии иска (ст. 127, 131)</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--restore" role="cell">Продление судом (ст. 118); пропуск → риск без отзыва</div>
+          </div>
+          <div class="l24-boris-arb-b1__mrow" role="row">
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--stage" role="rowheader">Отзыв (УП)</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--term" role="cell"><strong>≥15</strong><span>и ≥30 доп.</span></div>
+            <div class="l24-boris-arb-b1__mcell" role="cell">Определение о принятии (ст. 228)</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--restore" role="cell">Жёстко: опоздание → возврат (ч. 4)</div>
+          </div>
+          <div class="l24-boris-arb-b1__mrow" role="row">
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--stage" role="rowheader">Апелляция</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--term" role="cell"><strong>1 мес.</strong><span>рабочие дни</span></div>
+            <div class="l24-boris-arb-b1__mcell" role="cell">Со дня принятия решения 1 инстанции (ст. 259)</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--restore" role="cell">≤ 6 мес. с принятия решения (ч. 2 ст. 259)</div>
+          </div>
+          <div class="l24-boris-arb-b1__mrow" role="row">
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--stage" role="rowheader">Кассация</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--term" role="cell"><strong>2 мес.</strong><span>округ / ВС</span></div>
+            <div class="l24-boris-arb-b1__mcell" role="cell">Вступление акта в законную силу (ст. 276, 291.2)</div>
+            <div class="l24-boris-arb-b1__mcell l24-boris-arb-b1__mcell--restore" role="cell">≤ 6 мес. (ч. 2 ст. 276, 291.2)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l24-boris-arb-b1__foot" aria-label="Нормы АПК">
+      <span class="l24-boris-arb-b1__tag l24-boris-arb-b1__tag--4">ст. 4: претензия 30 к.д.</span>
+      <span class="l24-boris-arb-b1__tag l24-boris-arb-b1__tag--131">131: отзыв — срок в определении</span>
+      <span class="l24-boris-arb-b1__tag l24-boris-arb-b1__tag--228">228: УП 15 / 30</span>
+      <span class="l24-boris-arb-b1__tag l24-boris-arb-b1__tag--259">259 · 276: 1 мес. · 2 мес.</span>
+      <span class="l24-boris-arb-b1__tag l24-boris-arb-b1__tag--117">117: восстановление + действие</span>
+      <span class="l24-boris-arb-b1__tag">«Мой арбитр» до 24:00 МСК</span>
+    </div>
+    <p class="l24-boris-arb-b1__caption">Схема к разделам о подаче, отзыве и обжаловании — не заменяет сверку сроков по определению суда и КАД по конкретному делу.</p>
+  </div>
+</section>
+
+<h2 id="b1-propusk">Пропуск процессуального срока: последствия для истца и ответчика</h2>
+
+<h3>Отказ в принятии иска, оставление без движения, прекращение</h3>
+
+<p>Пропуск <strong>процессуального</strong> срока на действие (не путать с давностью) ведёт к тому, что документ <strong>не рассматривают</strong> и <strong>возвращают</strong> (ст. 115), если нет ходатайства о восстановлении или продлении. Иск без досудебной претензии могут <strong>оставить без рассмотрения</strong>; при неустранённых недостатках — <strong>возврат</strong> (ст. 129).</p>
+
+<h3>Пропуск срока на отзыв и обжалование: что теряет сторона</h3>
+
+<table><thead><tr><th>Действие</th><th>Последствие пропуска</th></tr></thead><tbody>
+<tr><td>Отзыв (обычное производство)</td><td>Рассмотрение <strong>без отзыва</strong> (ст. 131)</td></tr>
+<tr><td>Отзыв / документы в УП</td><td><strong>Возврат</strong> без рассмотрения (ст. 228)</td></tr>
+<tr><td>Апелляция / кассация</td><td>Жалоба не принимается; после 6 мес. — без восстановления</td></tr>
+</tbody></table>
+
+<h3>Процессуальный срок и исковая давность — в чём разница</h3>
+
+<table><thead><tr><th></th><th>Процессуальный срок</th><th>Исковая давность</th></tr></thead><tbody>
+<tr><td>Суть</td><td>Когда подать документ в суд</td><td>Когда можно требовать по праву</td></tr>
+<tr><td>Пример</td><td>1 месяц на апелляцию</td><td>3 года на взыскание долга</td></tr>
+<tr><td>Пропуск</td><td>Восстановление по ст. 117 (в пределах)</td><td>Для ЮЛ/ИП почти не восстанавливается</td></tr>
+<tr><td>Запрос в поиске</td><td>«пропуск срока арбитраж» часто смешивают</td><td>Отдельная тема</td></tr>
+</tbody></table>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Пропуск отзыва в УП, апелляции или кассации без ходатайства по ст. 117 — не «исправить потом»: в упрощённом производстве документы возвращают, после шести месяцев восстановление обжалования недоступно. Пока срок не истёк, важно связать жалобу или отзыв с обоснованием причин.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация при пропуске процессуального срока</a></p>
+</aside>
+
+<h2 id="b1-vosstanovlenie">Восстановление процессуального срока по статье 117 АПК РФ</h2>
+
+<h3>Когда суд обязан восстановить срок, а когда откажет</h3>
+
+<p>По <strong>ст. 117 АПК</strong> срок восстанавливают при <strong>уважительных причинах</strong> пропуска и если не истёк <strong>предельный срок</strong> восстановления (для апелляции и кассации — <strong>6 месяцев</strong>, ст. 259, 276, 291.2). Ходатайство подают <strong>одновременно</strong> с пропущенным действием (жалобой, отзывом). Рассмотрение — <strong>5 дней</strong>, без извещения, если иное не установлено кодексом.</p>
+
+<p><strong>Уважительные причины</strong> (Пленум ВАС № 99, п. 32–37; Пленум ВС № 12, п. 15): отсутствие сведений об акте по <strong>независящим</strong> обстоятельствам, <strong>ненадлежащее извещение</strong> (тренд 2024 — при отсутствии отметок почты, неверном адресе).</p>
+
+<p><strong>Неуважительные:</strong> согласование с головной организацией, <strong>отпуск или командировка</strong> юриста, отсутствие штатного юриста, смена директора, уклонение от корреспонденции при недобросовестности.</p>
+
+<h3>Восстановление срока обжалования и подачи отзыва</h3>
+
+<p>Для <strong>отзыва</strong> в обычном производстве суды чаще идут на восстановление при доказанных причинах; в <strong>УП</strong> жёстче из‑за возврата по ст. 228. Для <strong>обжалования</strong> суды 2024–2026 преимущественно <strong>отказывают</strong>, если пропущен основной месячный/двухмесячный срок без веских оснований.</p>
+
+<h3>Судебная практика: уважительные причины (обобщённо)</h3>
+
+<ul>
+<li><strong>В пользу заявителя:</strong> ненадлежащее извещение, ЧС при отсутствии доступа к акту (Пленум ВС № 12).</li>
+<li><strong>Против заявителя:</strong> только КАД/«картотека» при возможности узнать самостоятельно (АС Волго-Вятского округа, 05.04.2024, дело № А28-7535/2019); массовые отказы ВС по кассации 2026 при пропуске ст. 291.2.</li>
+</ul>
+
+<p>Восстановление <strong>не гарантировано</strong> — ставка на календарь и подачу в срок.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Восстановление по ст. 117 не гарантировано: суды 2024–2026 массово отказывают при пропуске месяца апелляции или двух месяцев кассации, если нет доказанного ненадлежащего извещения. Ходатайство подают вместе с пропущенным действием — до истечения предельных шести месяцев.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с ходатайством о восстановлении срока</a></p>
+</aside>
+
+<h2 id="b1-hodataystvo">Ходатайство о восстановлении срока: содержание и срок подачи</h2>
+
+<h3>Что указать в ходатайстве и какие доказательства приложить</h3>
+
+<p>В ходатайстве укажите: какое действие пропущено; <strong>уважительные причины</strong> (болезнь, сбой, неполучение копии определения); доказательства — трек почты, скрин «Мой арбитр», справки, переписка. Приложите <strong>сам документ</strong> (апелляцию, отзыв), который подаёте вместе с ходатайством.</p>
+
+<h3>Срок на подачу ходатайства после устранения препятствий</h3>
+
+<p>Ходатайство подают, когда стало возможно совершить действие, но <strong>не позднее предельного срока</strong> восстановления (6 месяцев для обжалования). Отдельного «льготного» месяца на одно только ходатайство нет — важна связка <strong>ходатайство + жалоба/отзыв</strong>.</p>
+
+<p>При сложном пропуске целесообразна <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">помощь с ходатайством о восстановлении срока</a> до истечения предельного срока.</p>
+
+<h2 id="b1-checklist">Чек-лист: как не пропустить подачу иска, отзыв и возражения</h2>
+
+<h3>До подачи иска: претензия, подсудность, госпошлина</h3>
+
+<ul>
+<li>Проверить <strong>обязательность претензии</strong> (ч. 5 ст. 4 АПК) и срок ответа (<strong>30 к.д.</strong> или договорной).</li>
+<li>Зафиксировать дату вручения претензии и дату, с которой можно подавать иск.</li>
+<li>Подсудность, госпошлина, выписка ЕГРЮЛ <strong>не старше 30 дней</strong> (ст. 126).</li>
+<li>Исковая давность не истекла; для ответчика — аргументы по ст. 199 ГК.</li>
+</ul>
+
+<h3>После получения иска: отзыв, встречный иск, обеспечение</h3>
+
+<ul>
+<li>Узнать режим: <strong>обычное</strong> или <strong>упрощённое</strong> производство → <strong>15/30</strong> (ст. 228) или срок из <strong>определения</strong> (ст. 131).</li>
+<li>Внести в календарь срок отзыва из определения + напоминание за 3 рабочих дня.</li>
+<li>Направить <strong>копию отзыва истцу</strong>; подать в суд до <strong>24:00</strong> последнего дня («Мой арбитр» / почта, Пленум № 99).</li>
+<li>Оценить встречный иск, обеспечительные меры.</li>
+</ul>
+
+<h3>После решения: апелляция, возражения, контроль календаря</h3>
+
+<ul>
+<li>Зафиксировать дату <strong>принятия</strong> решения → <strong>+1 месяц</strong> апелляция (ст. 259).</li>
+<li>При проигрыше — дата <strong>вступления в силу</strong> → <strong>+2 месяца</strong> кассация (ст. 276).</li>
+<li>Отметить <strong>+6 месяцев</strong> как предел восстановления.</li>
+<li>При апелляции оппонента — срок на <strong>возражение на апелляционную жалобу</strong> по определению суда.</li>
+</ul>
+
+<p><strong>Календарь арбитражных сроков для бизнеса (сводка):</strong></p>
+
+<table><thead><tr><th>Событие</th><th>Дней</th><th>Примечание</th></tr></thead><tbody>
+<tr><td>Ответ на претензию</td><td>30 к.д.</td><td>Досудебка, ст. 4</td></tr>
+<tr><td>Отзыв в УП (1 этап)</td><td>≥15</td><td>ст. 228</td></tr>
+<tr><td>Доп. документы в УП</td><td>≥30</td><td>ст. 228</td></tr>
+<tr><td>Отзыв (обычное)</td><td>По определению</td><td>часто 15–30</td></tr>
+<tr><td>Апелляция</td><td>30 дн. (1 мес.)</td><td>со дня принятия решения</td></tr>
+<tr><td>Кассация</td><td>60 дн. (2 мес.)</td><td>со вступления в силу</td></tr>
+<tr><td>Предел восстановления обжалования</td><td>6 мес.</td><td>ст. 117, 259, 276</td></tr>
+</tbody></table>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p class="ym-cta__text">Календарь по делу — претензия, определение об отзыве, принятие решения и кассация — легко собрать с ошибкой в одной дате. Сверьте режим (обычное или УП), текст определения и подачу до 24:00 в «Мой арбитр», пока не сгорели месяц на апелляцию или лимит восстановления.</p>
+  <p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Разбор сроков и календаря по вашему делу</a></p>
+</aside>
+
+<section id="b1-faq" class="l24-faq-b1 ym-section" itemscope itemtype="https://schema.org/FAQPage" aria-label="Частые вопросы">
+  <h2>Частые вопросы (FAQ)</h2>
+  <div class="l24-faq-b1__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b1__q" itemprop="name">Сколько дней на отзыв на иск в арбитражном суде?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b1__a" itemprop="text">В <strong>упрощённом</strong> производстве — <strong>не менее 15 дней</strong> с определения о принятии (ст. 228). В <strong>обычном</strong> — срок указывает суд в определении (ст. 131), часто <strong>15–30 дней</strong>. Это не срок ответа на <strong>претензию</strong> (30 к.д., ст. 4).</p>
+    </div>
+  </div>
+  <div class="l24-faq-b1__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b1__q" itemprop="name">Какой срок обжалования решения арбитражного суда первой инстанции?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b1__a" itemprop="text"><strong>Один месяц</strong> со дня <strong>принятия</strong> решения судом (ст. 259 АПК).</p>
+    </div>
+  </div>
+  <div class="l24-faq-b1__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b1__q" itemprop="name">Можно ли восстановить пропущенный процессуальный срок по АПК?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b1__a" itemprop="text">Да, по <strong>ст. 117</strong> при уважительных причинах и если не истёк <strong>предельный</strong> срок (для апелляции и кассации — <strong>6 месяцев</strong>). Ходатайство подаётся <strong>вместе</strong> с жалобой или иным действием.</p>
+    </div>
+  </div>
+  <div class="l24-faq-b1__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b1__q" itemprop="name">Чем процессуальный срок отличается от исковой давности в арбитраже?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b1__a" itemprop="text"><strong>Давность</strong> (ст. 196 ГК) ограничивает право требовать по существу; <strong>процессуальный срок</strong> — когда подать документ в суд. Пропуск давности для бизнеса почти не исправляется; процессуальный срок иногда восстанавливают по ст. 117.</p>
+    </div>
+  </div>
+  <div class="l24-faq-b1__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b1__q" itemprop="name">Как исчисляются процессуальные сроки в днях по АПК?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b1__a" itemprop="text">С <strong>следующего дня</strong> после события; нерабочие в сроках «в днях» не считаются; последний день на нерабочий переносится (ст. 113–114). Подать можно до <strong>24:00</strong> последнего дня (ст. 114, Пленум № 99).</p>
+    </div>
+  </div>
+  <div class="l24-faq-b1__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b1__q" itemprop="name">Нужно ли отдельное ходатайство на продление срока?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b1__a" itemprop="text">Да, <strong>ходатайство о продлении</strong> назначенного судом срока (ст. 118) до его истечения. Это не то же самое, что <strong>восстановление</strong> уже пропущенного срока (ст. 117).</p>
+    </div>
+  </div>
+  <div class="l24-faq-b1__item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 class="l24-faq-b1__q" itemprop="name">Что будет, если пропустить срок на возражение по апелляционной жалобе?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p class="l24-faq-b1__a" itemprop="text">Отзыв / возражения могут <strong>не быть приняты</strong> к рассмотрению; суд вправе рассмотреть апелляцию без учёта позиции опоздавшего лица, если срок не восстановят по ст. 117.</p>
+    </div>
+  </div>
+</section>
+
+<p>Процессуальные сроки в арбитраже — зона, где одна перепутанная цифра (<strong>30</strong> претензии vs <strong>15</strong> отзыва в УП) обходится дороже проигрыша по существу спора. Ведите <strong>календарь по делу</strong>, сверяйте определения и КАД, не откладывайте подачу на последний день без запаса на техсбой «Мой арбитр». Если срок уже поджимает — <a href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">консультация по арбитражному спору и соблюдению процессуальных сроков</a> поможет успеть с отзывом, жалобой или пакетом по ст. 117.</p>
+
+<p><em>Материал носит информационный характер и не заменяет юридическую консультацию. Сроки исчисляются по фактическим обстоятельствам конкретного дела, тексту определений суда и нормам АПК РФ.</em></p>
+
+</div>
+</section>
+
+</main>
+<!-- /wp:html -->

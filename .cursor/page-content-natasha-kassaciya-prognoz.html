@@ -1,0 +1,977 @@
+<!-- wp:html -->
+<style>
+
+/* ===== RESET / BREADCRUMBS / PADDING ===== */
+.breadcrumbs, .breadcrumb, .woocommerce-breadcrumb, .rank-math-breadcrumb, .yoast-breadcrumb,
+.entry-header, .page-title-section,
+.entry-title, .main_title, h1.entry-title { display: none !important; }
+#primary, .site-main, .site-content, #content, .content-area {
+  padding-top: 0 !important; margin-top: 0 !important;
+}
+#sidebar, .sidebar, #secondary, .et_pb_column_1_4 { display: none !important; }
+
+/* ===== PAGE SCOPE ===== */
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .entry-content {
+  max-width: none !important; width: 100% !important; padding: 0 !important;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .l24-longread-wrap {
+  max-width: 820px; margin: 0 auto; padding: 48px 24px 80px;
+  font-size: 1.05rem; line-height: 1.65; color: #1a202c;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page h2 {
+  margin-top: 2.5em; color: #1a365d; font-size: 1.45rem; font-weight: 800;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page h3 {
+  margin-top: 1.5em; color: #312e81; font-size: 1.15rem; font-weight: 700;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page table {
+  width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 0.95rem;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page th,
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page td {
+  border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page th { background: #fef2f2; color: #a31830; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page a { color: #a31830; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page ol,
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page ul { margin: 1em 0; padding-left: 1.4em; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page li { margin-bottom: 0.45em; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page blockquote {
+  margin: 1.5em 0; padding: 16px 22px; border-left: 4px solid #a31830;
+  background: #fff7f7; color: #334155; font-style: italic; border-radius: 0 6px 6px 0;
+  font-size: 0.98rem; line-height: 1.6;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page p { margin: 0 0 1.1em; }
+
+/* ===== INTRO GRID ===== */
+.l24-intro-ug {
+  max-width: 1200px; margin: 0 auto; padding: 40px 24px 8px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-intro-ug__grid {
+  display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  gap: 28px; align-items: start;
+}
+.l24-intro-ug__text {
+  border-left: 4px solid #a31830; padding: 4px 0 4px 22px;
+}
+.l24-intro-ug__text p { margin: 0 0 14px; font-size: 1.02rem; line-height: 1.6; color: #334155; }
+.l24-intro-ug__text p:last-child { margin-bottom: 0; }
+.l24-intro-ug__brief {
+  background: #fff7f7; border: 1px solid #fecaca; border-radius: 10px;
+  padding: 16px 18px; margin-top: 16px; font-size: 0.95rem; line-height: 1.55; color: #334155;
+}
+.l24-intro-ug__decor {
+  background: linear-gradient(160deg, #fff7f7 0%, #fff 100%);
+  border: 1px solid #fecaca; border-radius: 12px; padding: 18px;
+}
+.l24-intro-ug__chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; padding: 0; list-style: none;
+}
+.l24-intro-ug__chip {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.03em;
+  padding: 6px 10px; border-radius: 999px; background: #fff;
+  border: 1px solid #cbd5e1; color: #475569;
+}
+.l24-intro-ug__chip--accent { border-color: #a31830; color: #a31830; background: #fff7f7; }
+.l24-intro-ug__chip--ok    { border-color: #059669; color: #047857; background: #ecfdf5; }
+.l24-intro-ug__chip--warn  { border-color: #dc2626; color: #991b1b; background: #fef2f2; }
+.l24-intro-ug__chip--blue  { border-color: #4338ca; color: #4338ca; background: #f5f3ff; }
+.l24-intro-ug__route-svg { display: block; width: 100%; height: auto; }
+
+/* ===== TOC ===== */
+.ym-toc {
+  max-width: 820px; margin: 24px auto 0; padding: 0 24px 32px;
+  text-align: center; font-family: system-ui, sans-serif;
+}
+.ym-toc__title {
+  font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: #64748b; margin: 0 0 12px;
+}
+.ym-toc__list {
+  list-style: none; padding: 0; margin: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px;
+}
+.ym-toc__list a {
+  display: inline-block; padding: 8px 12px; border-radius: 8px;
+  background: #fff7f7; color: #a31830; text-decoration: none;
+  font-size: 0.88rem; font-weight: 600; border: 1px solid #fecaca;
+}
+.ym-toc__list a:hover { background: #fef2f2; }
+
+/* ===== CTA ===== */
+.ym-cta {
+  margin: 28px 0; padding: 22px 24px; border-radius: 10px;
+  background: linear-gradient(135deg, #f8fafc 0%, #fff7f7 100%);
+  border: 1px solid #fecaca; border-left: 4px solid #a31830;
+}
+.ym-cta--primary { border-left-color: #a31830; }
+.ym-cta--legis24.ym-cta--bottom {
+  border-left-color: #4338ca;
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  border-color: #c4b5fd;
+}
+.ym-cta p { margin: 0 0 14px; line-height: 1.55; color: #334155; font-size: 0.98rem; }
+.ym-cta h3 { margin: 0 0 12px; color: #1a365d; font-size: 1.1rem; font-weight: 800; }
+.ym-cta a[href] {
+  display: inline-block; background: #a31830; color: #fff !important;
+  padding: 12px 22px; border-radius: 8px; font-weight: 700;
+  text-decoration: none; font-size: 0.93rem;
+}
+.ym-cta a[href]:hover { background: #8b1528; }
+.ym-cta--legis24.ym-cta--bottom a[href] { background: #4338ca; }
+.ym-cta--legis24.ym-cta--bottom a[href]:hover { background: #312e81; }
+
+/* ===== FAQ ===== */
+.l24-faq {
+  margin-top: 2.5em; padding: 28px 24px; background: #f8fafc;
+  border: 1px solid #e2e8f0; border-radius: 12px;
+}
+.l24-faq > h2 { margin-top: 0 !important; color: #1a365d; }
+.l24-faq__item {
+  margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #e2e8f0;
+}
+.l24-faq__item:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.l24-faq__q { margin: 0 0 8px; font-size: 1.05rem; color: #1a365d; font-weight: 700; }
+.l24-faq__a { margin: 0; color: #334155; font-size: 0.97rem; line-height: 1.6; }
+
+/* ===== JSON-LD hidden ===== */
+.l24-jsonld-ug { display: none !important; }
+
+/* ===== SOURCES ===== */
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .l24-sources {
+  margin-top: 2em; font-size: 0.88rem; color: #64748b;
+  border-top: 1px solid #e2e8f0; padding-top: 1.2em;
+}
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .l24-sources li { margin-bottom: 0.3em; }
+.vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page .l24-sources a { color: #64748b; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .l24-intro-ug__grid { grid-template-columns: 1fr; }
+  .l24-hero-vs-kassaciya-zapret__inner { grid-template-columns: 1fr !important; }
+  .l24-hero-vs-kassaciya-zapret {
+    min-height: auto !important; padding: 96px 20px 56px !important;
+  }
+  .l24-hero-vs-kassaciya-zapret__visual { order: -1; max-height: 320px; overflow: hidden; }
+}
+
+.ym-cta__text { margin: 0 0 14px; line-height: 1.55; color: #334155; font-size: 0.98rem; }
+.ym-cta__actions { margin: 0; }
+.ym-cta__btn { display: inline-block; background: #a31830; color: #fff !important; padding: 12px 22px; border-radius: 8px; font-weight: 700; text-decoration: none; font-size: 0.93rem; }
+.ym-cta__btn:hover { background: #8b1528; }
+.ym-cta--legis24 { border-left-color: #4338ca; background: linear-gradient(135deg, #f5f3ff 0%, #fff7f7 100%); border-color: #c4b5fd; }
+.ym-cta--legis24 .ym-cta__btn { background: #4338ca; }
+.ym-cta--legis24 .ym-cta__btn:hover { background: #312e81; }
+
+</style>
+
+<main id="primary" class="site-main vs-kassaciya-zapret-obvinitelnyh-prognozov-zashchita-2026-page" role="main" tabindex="-1" itemscope itemtype="https://schema.org/Article">
+<meta itemprop="headline" content="ВС запретил кассации предрешать обвинительный приговор: защита при отмене оправдания">
+<meta itemprop="description" content="Дайджест ВС РФ 22.08.2026: кассация не вправе «предрешать» обвинительный приговор при отмене оправдания. Дела № 53-УД26-9-К8, смягчающие по факту, ne bis in idem — защита в кассации.">
+<meta itemprop="inLanguage" content="ru-RU">
+
+<section id="l24-hero-vs-kassaciya-zapret" class="l24-hero-vs-kassaciya-zapret" aria-label="ВС запретил кассации предрешать обвинительный приговор — защита при отмене оправдания">
+  <style>
+    .l24-hero-vs-kassaciya-zapret {
+      position: relative;
+      min-height: 88vh;
+      min-height: 88dvh;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 112px 24px 72px;
+      background: linear-gradient(150deg, #fefefe 0%, #fff7f7 38%, #f0f0f8 100%);
+      color: #0f172a;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      overflow: hidden;
+    }
+    .l24-hero-vs-kassaciya-zapret::before {
+      content: "";
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 42% 38% at 88% 10%, rgba(163,24,48,0.08) 0%, transparent 55%),
+        radial-gradient(ellipse 36% 32% at 6% 88%, rgba(26,54,93,0.05) 0%, transparent 52%);
+      pointer-events: none;
+    }
+    .l24-hero-vs-kassaciya-zapret__inner {
+      position: relative; z-index: 1;
+      max-width: 1200px; margin: 0 auto; width: 100%;
+      display: grid; grid-template-columns: 1.05fr 0.95fr;
+      gap: 44px; align-items: center;
+    }
+    .l24-hero-vs-kassaciya-zapret__badge {
+      display: inline-flex; align-items: center; gap: 10px;
+      margin: 0 0 18px; padding: 8px 14px; border-radius: 999px;
+      background: rgba(255,255,255,0.95); border: 1px solid rgba(163,24,48,0.18);
+      font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em;
+      text-transform: uppercase; color: #334155;
+    }
+    .l24-hero-vs-kassaciya-zapret__badge-mark {
+      width: 8px; height: 8px; border-radius: 50%;
+      background: #a31830; flex-shrink: 0;
+    }
+    .l24-hero-vs-kassaciya-zapret__h1 {
+      margin: 0 0 18px;
+      font-size: clamp(1.35rem, 2.9vw, 2.1rem);
+      line-height: 1.22; font-weight: 800; color: #0f172a; letter-spacing: -0.02em;
+    }
+    .l24-hero-vs-kassaciya-zapret__h1-accent { color: #a31830; }
+    .l24-hero-vs-kassaciya-zapret__sub {
+      margin: 0 0 26px; max-width: 42em;
+      font-size: clamp(0.98rem, 1.45vw, 1.08rem);
+      line-height: 1.58; color: #475569;
+    }
+    .l24-hero-vs-kassaciya-zapret__facts {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      margin: 0 0 26px; padding: 0; list-style: none;
+    }
+    .l24-hero-vs-kassaciya-zapret__fact {
+      font-size: 0.76rem; font-weight: 700;
+      padding: 7px 12px; border-radius: 8px;
+      background: #fff; border: 1px solid #e2e8f0; color: #334155;
+    }
+    .l24-hero-vs-kassaciya-zapret__fact--red  { border-color: #fecaca; color: #a31830; background: #fff7f7; }
+    .l24-hero-vs-kassaciya-zapret__fact--navy { border-color: #93c5fd; color: #1a365d; background: #eff6ff; }
+    .l24-hero-vs-kassaciya-zapret__fact--blue { border-color: #c4b5fd; color: #4338ca; background: #f5f3ff; }
+    .l24-hero-vs-kassaciya-zapret__fact--ok   { border-color: #a7f3d0; color: #047857; background: #ecfdf5; }
+    .l24-hero-vs-kassaciya-zapret__cta {
+      display: inline-block; background: #a31830; color: #fff !important;
+      padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 0.95rem;
+      text-decoration: none; box-shadow: 0 4px 14px rgba(163,24,48,0.25);
+    }
+    .l24-hero-vs-kassaciya-zapret__cta:hover { background: #8b1528; }
+    .l24-hero-vs-kassaciya-zapret__visual {
+      display: flex; justify-content: center; align-items: center;
+    }
+    @media (max-width: 900px) {
+      .l24-hero-vs-kassaciya-zapret__inner { grid-template-columns: 1fr; }
+      .l24-hero-vs-kassaciya-zapret {
+        min-height: auto; padding: 96px 20px 56px;
+      }
+      .l24-hero-vs-kassaciya-zapret__visual { order: -1; max-height: 320px; overflow: hidden; }
+    }
+  </style>
+  <div class="l24-hero-vs-kassaciya-zapret__inner">
+    <div class="l24-hero-vs-kassaciya-zapret__content">
+      <div class="l24-hero-vs-kassaciya-zapret__badge">
+        <span class="l24-hero-vs-kassaciya-zapret__badge-mark" aria-hidden="true"></span>
+        UG · дайджест ВС РФ · 22.08.2026 · № 53-УД26-9-К8
+      </div>
+      <h1 class="l24-hero-vs-kassaciya-zapret__h1">
+        <span class="l24-hero-vs-kassaciya-zapret__h1-accent">ВС запретил кассации предрешать обвинительный приговор:</span> защита при отмене оправдания
+      </h1>
+      <p class="l24-hero-vs-kassaciya-zapret__sub">
+        Дайджест ВС РФ 22.08.2026 — кассация не подменяет суды первой инстанции, смягчающие учитываются по факту, ne bis in idem
+      </p>
+      <ul class="l24-hero-vs-kassaciya-zapret__facts">
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--ok">оправдательный приговор</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--red">обвинительный прогноз</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact">№ 53-УД26-9-К8</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--navy">ч. 1 ст. 286 УК</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--blue">ст. 73 УК</li>
+        <li class="l24-hero-vs-kassaciya-zapret__fact l24-hero-vs-kassaciya-zapret__fact--blue">ne bis in idem</li>
+      </ul>
+      <a class="l24-hero-vs-kassaciya-zapret__cta" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по защите в кассации</a>
+    </div>
+    <div class="l24-hero-vs-kassaciya-zapret__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 440" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:520px" role="img" aria-label="Схема инстанций: оправдание, запрет обвинительного прогноза кассации, позиция ВС РФ 22.08.2026">
+        <defs>
+          <linearGradient id="hkz-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fafafa"/>
+            <stop offset="100%" stop-color="#fff7f7"/>
+          </linearGradient>
+          <linearGradient id="hkz-navy" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1e3a5f"/>
+            <stop offset="100%" stop-color="#0f172a"/>
+          </linearGradient>
+          <linearGradient id="hkz-crimson" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#a31830"/>
+            <stop offset="100%" stop-color="#8b1528"/>
+          </linearGradient>
+          <pattern id="hkz-dots" width="14" height="14" patternUnits="userSpaceOnUse">
+            <circle cx="7" cy="7" r="1" fill="#fecaca" opacity="0.45"/>
+          </pattern>
+          <filter id="hkz-sh" x="-8%" y="-8%" width="116%" height="116%">
+            <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.1"/>
+          </filter>
+          <marker id="hkz-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#94a3b8"/>
+          </marker>
+          <marker id="hkz-arrow-red" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#a31830"/>
+          </marker>
+        </defs>
+
+        <!-- Background card -->
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hkz-bg)" stroke="#fecaca" stroke-width="1.2"/>
+        <rect x="10" y="12" width="500" height="416" rx="16" fill="url(#hkz-dots)" opacity="0.45"/>
+
+        <!-- VS header badge -->
+        <g filter="url(#hkz-sh)" transform="translate(148,18)">
+          <rect x="0" y="28" width="224" height="48" rx="5" fill="url(#hkz-navy)"/>
+          <polygon points="112,4 218,28 6,28" fill="#1a3a6e"/>
+          <text x="112" y="50" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="800" letter-spacing="0.04em">ВС РФ · ДАЙДЖЕСТ 22.08.2026</text>
+          <text x="112" y="64" text-anchor="middle" fill="#93c5fd" font-size="5.5">запрет «обвинительных прогнозов» кассации</text>
+        </g>
+
+        <!-- Vertical court ladder -->
+        <!-- Level 1: first instance -->
+        <g filter="url(#hkz-sh)" transform="translate(44,108)">
+          <rect x="0" y="0" width="132" height="72" rx="8" fill="#fff" stroke="#a7f3d0" stroke-width="1.5"/>
+          <rect x="0" y="0" width="132" height="18" rx="8" fill="#ecfdf5"/>
+          <rect x="0" y="10" width="132" height="8" fill="#ecfdf5"/>
+          <text x="66" y="13" text-anchor="middle" fill="#047857" font-size="5.5" font-weight="800">СУД 1 ИНСТАНЦИИ</text>
+          <rect x="14" y="28" width="104" height="32" rx="5" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+          <path d="M28,48 L36,56 L52,40" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="66" y="44" text-anchor="middle" fill="#065f46" font-size="6.5" font-weight="800">ОПРАВДАНИЕ</text>
+          <text x="66" y="54" text-anchor="middle" fill="#64748b" font-size="4.8">февраль 2025 · Красноярск</text>
+        </g>
+
+        <!-- Level 2: appeal (aligned) -->
+        <g filter="url(#hkz-sh)" transform="translate(44,196)">
+          <rect x="0" y="0" width="132" height="56" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+          <rect x="0" y="0" width="132" height="16" rx="8" fill="#f8fafc"/>
+          <rect x="0" y="8" width="132" height="8" fill="#f8fafc"/>
+          <text x="66" y="12" text-anchor="middle" fill="#475569" font-size="5.5" font-weight="700">АПЕЛЛЯЦИЯ</text>
+          <text x="66" y="34" text-anchor="middle" fill="#334155" font-size="5.8" font-weight="600">согласилась с оправданием</text>
+          <text x="66" y="44" text-anchor="middle" fill="#94a3b8" font-size="4.6">без изменений</text>
+        </g>
+
+        <!-- Level 3: cassation (problem) -->
+        <g filter="url(#hkz-sh)" transform="translate(44,270)">
+          <rect x="0" y="0" width="132" height="72" rx="8" fill="#fff7f7" stroke="#fecaca" stroke-width="1.5"/>
+          <rect x="0" y="0" width="132" height="18" rx="8" fill="#fef2f2"/>
+          <rect x="0" y="10" width="132" height="8" fill="#fef2f2"/>
+          <text x="66" y="13" text-anchor="middle" fill="#a31830" font-size="5.5" font-weight="800">8-й КСОЮ · КАССАЦИЯ</text>
+          <text x="66" y="34" text-anchor="middle" fill="#991b1b" font-size="5.8" font-weight="700">отмена оправдания</text>
+          <text x="66" y="44" text-anchor="middle" fill="#64748b" font-size="4.6">№ 7У-208/2026</text>
+          <line x1="18" y1="52" x2="114" y2="52" stroke="#fecaca" stroke-width="1"/>
+          <text x="66" y="62" text-anchor="middle" fill="#a31830" font-size="4.8" font-weight="700">«незаконное освобождение»</text>
+        </g>
+
+        <!-- Legal flow arrows (left column) -->
+        <line x1="110" y1="180" x2="110" y2="196" stroke="#94a3b8" stroke-width="2" marker-end="url(#hkz-arrow)"/>
+        <line x1="110" y1="252" x2="110" y2="270" stroke="#94a3b8" stroke-width="2" marker-end="url(#hkz-arrow)"/>
+
+        <!-- Illegal forecast arrow (cassation → guilty) -->
+        <path d="M176,306 C240,306 260,220 320,168" fill="none" stroke="#a31830" stroke-width="2.2" stroke-dasharray="7,4" marker-end="url(#hkz-arrow-red)"/>
+        <text x="248" y="248" fill="#a31830" font-size="5.5" font-weight="800" transform="rotate(-32 248 248)">ОБВИНИТЕЛЬНЫЙ ПРОГНОЗ</text>
+
+        <!-- VS shield blocking forecast -->
+        <g filter="url(#hkz-sh)" transform="translate(318,118)">
+          <circle cx="52" cy="52" r="46" fill="#eff6ff" stroke="#1a365d" stroke-width="2"/>
+          <circle cx="52" cy="52" r="38" fill="none" stroke="#93c5fd" stroke-width="1.2" stroke-dasharray="4,3"/>
+          <path d="M52,18 L72,28 L72,52 C72,66 62,76 52,82 C42,76 32,66 32,52 L32,28 Z" fill="url(#hkz-navy)"/>
+          <path d="M44,52 L50,58 L62,44" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="52" y="96" text-anchor="middle" fill="#1a365d" font-size="5.8" font-weight="800">ВС: НЕ ПРЕДРЕШАТЬ</text>
+          <text x="52" y="106" text-anchor="middle" fill="#64748b" font-size="4.6">№ 53-УД26-9-К8</text>
+        </g>
+
+        <!-- Red prohibition bar across forecast -->
+        <line x1="292" y1="188" x2="368" y2="132" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+        <line x1="292" y1="132" x2="368" y2="188" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+
+        <!-- Right panel: digest blocks -->
+        <g filter="url(#hkz-sh)" transform="translate(196,356)">
+          <rect x="0" y="0" width="300" height="58" rx="8" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+          <rect x="0" y="0" width="300" height="16" rx="8" fill="#f8fafc"/>
+          <rect x="0" y="8" width="300" height="8" fill="#f8fafc"/>
+          <text x="150" y="12" text-anchor="middle" fill="#475569" font-size="5" font-weight="700">БЛОКИ ДАЙДЖЕСТА · ЗАЩИТА UG</text>
+          <rect x="10" y="22" width="88" height="28" rx="5" fill="#fff7f7" stroke="#fecaca" stroke-width="1"/>
+          <text x="54" y="34" text-anchor="middle" fill="#a31830" font-size="4.6" font-weight="700">прогнозы</text>
+          <text x="54" y="44" text-anchor="middle" fill="#64748b" font-size="4">дело 53</text>
+          <rect x="106" y="22" width="88" height="28" rx="5" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1"/>
+          <text x="150" y="34" text-anchor="middle" fill="#4338ca" font-size="4.6" font-weight="700">ст. 73</text>
+          <text x="150" y="44" text-anchor="middle" fill="#64748b" font-size="4">дело 56</text>
+          <rect x="202" y="22" width="88" height="28" rx="5" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+          <text x="246" y="34" text-anchor="middle" fill="#1a365d" font-size="4.6" font-weight="700">ne bis in idem</text>
+          <text x="246" y="44" text-anchor="middle" fill="#64748b" font-size="4">дело 75</text>
+        </g>
+
+        <!-- Boundary line: cassation ≠ first instance -->
+        <g transform="translate(196,88)">
+          <rect x="0" y="0" width="148" height="22" rx="6" fill="url(#hkz-crimson)"/>
+          <text x="74" y="14" text-anchor="middle" fill="#fff" font-size="5.5" font-weight="800">КАССАЦИЯ ≠ СУД ПО ФАКТАМ</text>
+        </g>
+
+        <!-- Document stack: acquittal restored path -->
+        <g transform="translate(196,118)">
+          <rect x="0" y="8" width="56" height="68" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1" opacity="0.7"/>
+          <rect x="6" y="4" width="56" height="68" rx="4" fill="#fff" stroke="#cbd5e1" stroke-width="1" opacity="0.85"/>
+          <rect x="12" y="0" width="56" height="68" rx="4" fill="#fff" stroke="#86efac" stroke-width="1.2"/>
+          <line x1="20" y1="14" x2="58" y2="14" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="20" y1="22" x2="54" y2="22" stroke="#e2e8f0" stroke-width="1"/>
+          <line x1="20" y1="30" x2="50" y2="30" stroke="#e2e8f0" stroke-width="1"/>
+          <text x="40" y="48" text-anchor="middle" fill="#047857" font-size="5" font-weight="800">ст. 401.16</text>
+          <text x="40" y="58" text-anchor="middle" fill="#64748b" font-size="4.2">УПК РФ</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="l24-intro-ug">
+  <div class="l24-intro-ug__grid">
+    <div class="l24-intro-ug__text">
+      <p>22 августа 2026 года РАПСИ опубликовал дайджест практики СК по уголовным делам ВС РФ. Центральный блок — запрет кассации <strong>«предрешать» обвинительный приговор</strong> при отмене оправдательного решения. Опорный кейс — дело № <strong>53-УД26-9-К8</strong>: чиновница Красноярска, <strong>ч. 1 ст. 286 УК РФ</strong>, оправдание → отмена <strong>8-м КСОЮ</strong> → ответ ВС 05.08.2026.</p>
+      <p>Для защитников на стадии <strong>кассации уголовного дела</strong> это карта рисков: кассационный суд проверяет законность, но не подменяет суд первой инстанции. Параллельно дайджест фиксирует <strong>фактический учёт смягчающих</strong> (дело № 56), запрет <strong>госпошлины</strong> по гражданскому иску в УП (дело № 49) и смежную практику <strong>ne bis in idem</strong> (дело № 75).</p>
+      <div class="l24-intro-ug__brief">Материал разбирает четыре сценария августовской практики, чек-лист «4 признака обвинительного прогноза», границы полномочий кассации и алгоритм кассационной жалобы в ВС после незаконной отмены оправдания.</div>
+    </div>
+    <div class="l24-intro-ug__decor">
+      <ul class="l24-intro-ug__chips">
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--accent">ч. 1 ст. 286 УК</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--warn">обвинительный прогноз</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--accent">дело № 53-УД26-9-К8</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--ok">оправдательный приговор</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--blue">ст. 73 УК · дело 56</li>
+        <li class="l24-intro-ug__chip">ne bis in idem · дело 75</li>
+        <li class="l24-intro-ug__chip">ст. 131 УПК · дело 49</li>
+        <li class="l24-intro-ug__chip">8-й КСОЮ</li>
+        <li class="l24-intro-ug__chip l24-intro-ug__chip--blue">ч. 7 ст. 401.16 УПК</li>
+        <li class="l24-intro-ug__chip">дайджест 22.08.2026</li>
+      </ul>
+      <svg class="l24-intro-ug__route-svg" viewBox="0 0 390 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Маршрут дела № 53: оправдание → кассация отменила → ВС вернул в кассацию">
+        <defs>
+          <marker id="introk-arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7Z" fill="#4338ca"/></marker>
+          <marker id="introk-red" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7Z" fill="#a31830"/></marker>
+          <marker id="introk-grn" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7Z" fill="#059669"/></marker>
+        </defs>
+        <rect x="4" y="38" width="66" height="48" rx="6" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.2"/>
+        <text x="37" y="57" text-anchor="middle" fill="#047857" font-size="6" font-weight="700">1-я инст.</text>
+        <text x="37" y="68" text-anchor="middle" fill="#065f46" font-size="5.5">оправдание</text>
+        <text x="37" y="78" text-anchor="middle" fill="#065f46" font-size="5.5">фев. 2025</text>
+        <line x1="72" y1="62" x2="82" y2="62" stroke="#a31830" stroke-width="1.5" marker-end="url(#introk-red)"/>
+        <rect x="86" y="38" width="72" height="48" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.2"/>
+        <text x="122" y="55" text-anchor="middle" fill="#991b1b" font-size="5.5" font-weight="700">8-й КСОЮ</text>
+        <text x="122" y="66" text-anchor="middle" fill="#b91c1c" font-size="5.5">отменил</text>
+        <text x="122" y="77" text-anchor="middle" fill="#b91c1c" font-size="5">прогноз вины</text>
+        <line x1="160" y1="62" x2="170" y2="62" stroke="#4338ca" stroke-width="1.5" marker-end="url(#introk-arr)"/>
+        <rect x="174" y="38" width="64" height="48" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1.2"/>
+        <text x="206" y="55" text-anchor="middle" fill="#334155" font-size="5.5" font-weight="700">Апелл.</text>
+        <text x="206" y="66" text-anchor="middle" fill="#64748b" font-size="5.5">согласилась</text>
+        <text x="206" y="77" text-anchor="middle" fill="#64748b" font-size="5">с оправданием</text>
+        <line x1="240" y1="62" x2="250" y2="62" stroke="#059669" stroke-width="1.5" marker-end="url(#introk-grn)"/>
+        <rect x="254" y="24" width="128" height="76" rx="7" fill="#0f172a" stroke="#4338ca" stroke-width="1.2"/>
+        <text x="318" y="46" text-anchor="middle" fill="#e2e8f0" font-size="6.5" font-weight="700">ВС РФ</text>
+        <text x="318" y="58" text-anchor="middle" fill="#93c5fd" font-size="5.5">отменил кассацию</text>
+        <text x="318" y="70" text-anchor="middle" fill="#6ee7b7" font-size="5.5">новое кассац. рассмотр.</text>
+        <text x="318" y="83" text-anchor="middle" fill="#fcd34d" font-size="5">05.08.2026</text>
+        <text x="197" y="20" text-anchor="middle" fill="#64748b" font-size="6" font-weight="600">№ 53-УД26-9-К8 · запрет обвинительных прогнозов</text>
+        <text x="197" y="116" text-anchor="middle" fill="#94a3b8" font-size="5.5">дайджест РАПСИ 22.08.2026 · Красноярск · ч. 1 ст. 286 УК</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<nav class="ym-toc" aria-label="Содержание статьи">
+  <p class="ym-toc__title">Содержание</p>
+  <ul class="ym-toc__list">
+    <li><a href="#l24-h2-1">Дайджест ВС: обвинительные прогнозы</a></li>
+    <li><a href="#l24-h2-2">Дело № 53-УД26-9-К8</a></li>
+    <li><a href="#l24-h2-3">Границы полномочий кассации</a></li>
+    <li><a href="#l24-boris-kassaciya-prognoz-matrix">Чек-лист 4 признаков</a></li>
+    <li><a href="#l24-h2-4">Смягчающие: дело № 56</a></li>
+    <li><a href="#l24-h2-5">Ne bis in idem</a></li>
+    <li><a href="#l24-h2-6">Госпошлина ст. 131 УПК</a></li>
+    <li><a href="#l24-h2-7">Кассационная жалоба в ВС</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+</nav>
+
+<div class="l24-longread-wrap">
+
+<p>22 августа 2026 года РАПСИ опубликовал дайджест практики Судебной коллегии по уголовным делам Верховного Суда РФ (автор подборки — Анна Шубина). Центральный блок — запрет кассации <strong>«предрешать» обвинительный приговор</strong> при отмене <strong>оправдательного</strong> решения. Опорный кейс — дело № <strong>53-УД26-9-К8</strong>: чиновница Красноярска, <strong>ч. 1 ст. 286 УК РФ</strong>, оправдание в феврале 2025 года, отмена <strong>8-м КСОЮ</strong>, ответ ВС 05.08.2026.</p>
+
+<p>Для целевой аудитории UG — должностные лица, предприниматели и их защитники на стадии <strong>кассации уголовного дела</strong> — это не абстрактная «новость о ВС», а карта <strong>уголовных рисков</strong> после отмены оправдания: кассационный суд проверяет законность, но не подменяет суд первой инстанции и не «назначает» виновность заранее. Параллельно дайджест фиксирует <strong>фактический учёт смягчающих</strong> (дело № <strong>56-УД26-21-К9</strong>, фермер Шек, <strong>ст. 73 УК</strong>), запрет <strong>госпошлины</strong> по гражданскому иску в УП (дело № <strong>49-УД26-17-К6</strong>, <strong>ст. 131 УПК</strong>). Смежная августовская практика — <strong>ne bis in idem</strong> по делу № <strong>75-УД26-4-КЗ</strong> (наркотики, ОПГ), в дайджест 22.08 не входит, но важна для стратегии <strong>защиты по уголовному делу</strong> в кассации.</p>
+
+<p>Ниже — разбор четырёх сценариев августовской практики, границы полномочий <strong>кассационного суда уголовное дело</strong>, отличие от материала о <a href="/vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026/">условном сроке и ужесточении кассацией</a> и пошаговый алгоритм <strong>кассационной жалобы по уголовному делу</strong> в ВС после незаконной отмены оправдания.</p>
+
+<aside class="ym-cta ym-cta--primary" role="complementary">
+  <p>Оправдательный приговор отменён кассацией с формулировками «незаконное освобождение»? Проверьте постановление на признаки обвинительного прогноза и сроки жалобы в ВС.</p>
+  <a href="https://advokat-vsem.ru/" rel="noopener noreferrer" target="_blank">Консультация по защите в кассации — бесплатно</a>
+</aside>
+
+<h2 id="l24-h2-1">Дайджест ВС РФ 22.08.2026: кассация и «обвинительные прогнозы»</h2>
+
+<p>Канонический источник — <a href="https://rapsinews.ru/judicial_analyst/20260822/312125625.html">дайджест РАПСИ 22.08.2026</a>: еженедельная подборка по уголовным делам ВС. Вводные вопросы дайджеста и четыре блоки практики:</p>
+
+<table>
+<thead>
+<tr><th>№</th><th>Тема блока</th><th>Дело ВС</th><th>Отдельная статья РАПСИ</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>«Обвинительные прогнозы» — кассация не предрешает виновность</td><td>№ 53-УД26-9-К8</td><td><a href="https://rapsinews.ru/judicial_analyst/20260819/312116745.html">19.08.2026</a></td></tr>
+<tr><td>2</td><td>«Реальная оценка обстоятельств» — смягчающие и посткриминальное поведение</td><td>№ 56-УД26-21-К9</td><td><a href="https://rapsinews.ru/judicial_analyst/20260821/312122491.html">21.08.2026</a></td></tr>
+<tr><td>3</td><td>Оправдание по терроризму ≠ свобода мнения / журналистика</td><td>*(номер в дайджесте не указан)*</td><td>—</td></tr>
+<tr><td>4</td><td>Госпошлина по гражданскому иску в УП не взыскивается</td><td>№ 49-УД26-17-К6</td><td><a href="https://rapsinews.ru/judicial_analyst/20260820/312120224.html">20.08.2026</a></td></tr>
+</tbody>
+</table>
+
+<p>Для SEO и практики защиты ядро материала — блок 1 (оправдательный приговор и <strong>отмена оправдательного приговора кассация</strong>) плюс блок 2 (<strong>смягчающие обстоятельства приговор</strong>, <strong>условное осуждение ст 73 ук</strong>). Блок 4 закрывает частый «скрытый» риск для осуждённых — незаконное взыскание пошлины. Дело № 75-УД26-4-КЗ (<strong>ne bis in idem уголовное дело</strong>) — отдельная <a href="https://rapsinews.ru/judicial_analyst/20260818/312113749.html">практика 18.08.2026</a>, логически дополняет дайджест.</p>
+
+<h3 id="l24-h3-1-1">Что такое «предрешение обвинительного приговора» кассацией</h3>
+
+<p>В деле № 53-УД26-9-К8 ВС сформулировал запрет, который в обзорах назвали «обвинительными прогнозами». <strong>Кассационный суд уголовное дело</strong> не вправе:</p>
+
+<ol><li>считать доказанными факты, которые нижестоящие суды <strong>опровергли</strong> или <strong>не установили</strong>;</li><li><strong>предрешать достоверность</strong> доказательств вместо проверки законности их получения и оценки в приговоре;</li><li><strong>предрешать применение</strong> уголовного закона и <strong>меру наказания</strong> для нового рассмотрения.</li></ol>
+
+<p>Цитата ВС (РАПСИ 19.08 / дайджест 22.08):</p>
+
+<blockquote>«Суд кассационной инстанции не вправе предрешать вопросы о доказанности или недоказанности обвинения, принимать решения о применении судом первой или апелляционной инстанции того или иного уголовного закона и о мере наказания, предрешать выводы, которые могут быть сделаны судом первой или апелляционной инстанции при повторном рассмотрении данного уголовного дела».</blockquote>
+
+<p>В деле № 53 <strong>8-й КСОЮ</strong> (дело <strong>№ 7У-208/2026</strong>) отменил оправдательный приговор, установил обстоятельства <strong>не подтверждённые</strong> судами первой и апелляционной инстанций, указал на «незаконное и необоснованное освобождение» от ответственности — по оценке ВС кассация нарушила <strong>все три</strong> запреты и фактически <strong>подменила</strong> суды первой и апелляционной инстанций. Вторичные источники (ugpr.ru) ссылаются на <strong>ч. 7 ст. 401.16 УПК РФ</strong> — запрет кассации предрешать выводы при повторном рассмотрении.</p>
+
+<p>Практический чек-лист «4 признака обвинительного прогноза» для жалобы в ВС:</p>
+
+<ul><li>кассация <strong>установила факты</strong>, не найденные судом первой инстанции;</li><li>оценила <strong>достоверность</strong> доказательств вместо проверки законности;</li><li>использовала формулировки «незаконное освобождение» / предрешила <strong>обвинительный</strong> исход;</li><li>определила <strong>статью</strong> или <strong>меру наказания</strong> для нового рассмотрения.</li></ul>
+
+<h3 id="l24-h3-1-2">Почему позиция ВС важна для защиты обвиняемого</h3>
+
+<p><strong>Защита обвиняемого в суде</strong> на стадии кассации часто упирается в иллюзию: «высшая инстанция уже всё решила». Дайджест <strong>вс рф уголовное дело 2026</strong> разрушает эту иллюзию для сценария <strong>оправдали → кассация отменила</strong>.</p>
+
+<p>Если <strong>кассационное определение вс рф</strong> или постановление КСОЮ содержит обвинительный прогноз, это не финал, а <strong>процессуальное нарушение</strong>, которое ВС может отменить и направить дело на <strong>новое кассационное рассмотрение в ином составе</strong> — как в деле № 53. Оправдательный приговор <strong>окончательно не восстановлен</strong>, но защита получает аргумент: нижестоящая кассация вышла за рамки <strong>кассационной инстанции уголовный процесс</strong>.</p>
+
+<p>Для бизнеса и должностных лиц угол UG — <strong>уголовные риски</strong> при экономических и коррупционных эпизодах (ст. 159, 286 УК): отмена оправдания без соблюдения границ кассации создаёт риск «пересуда» без полноценного досудебного и судебного разбирательства по доказательствам. Общий контекст стадий — в материале <a href="/zashchita-po-ugolovnomu-delu-stadiya-proverki/">о защите на стадии проверки</a>; граница гражданского и уголовного при долгах — <a href="/statya-159-177-uk-pri-dolgah-granica/">ст. 159 и 177 УК</a> и <a href="/ugolovnye-riski-pri-dolgah/">уголовные риски при долгах</a>.</p>
+
+<h2 id="l24-h2-2">Дело № 53-УД26-9-К8: отмена оправдательного приговора и ответ ВС</h2>
+
+<p>Опорный кейс дайджеста — <strong>превышение должностных полномочий приговор</strong> по <strong>ч. 1 ст. 286 УК РФ</strong>. Обвиняемая — заместитель руководителя департамента муниципального имущества и земельных отношений <strong>Красноярска</strong>.</p>
+
+<h3 id="l24-h3-2-1">Оправдание → отмена кассацией → отмена ВС: хронология</h3>
+
+<table>
+<thead>
+<tr><th>Этап</th><th>Дата / инстанция</th><th>Итог</th></tr>
+</thead>
+<tbody>
+<tr><td>Фабула</td><td>2021</td><td>Соглашение о перераспределении земель → участок <strong>11 753 кв. м</strong> передан в аренду компании; продажа без торгов за <strong>1,37 млн руб.</strong> (15% кадастровой стоимости) под видом размещения объекта коммунального обслуживания. Обвинение: ущерб городу <strong>7,78 млн руб.</strong></td></tr>
+<tr><td>Суд 1 инстанции</td><td><strong>Февраль 2025</strong>, Центральный районный суд Красноярска</td><td><strong>Оправдательный приговор</strong>: регламент соблюдён, проект согласован, кадастровый учёт и регистрация в Росреестре, правовая экспертиза; <strong>умысел</strong> и <strong>существенность нарушения</strong> интересов государства <strong>не доказаны</strong></td></tr>
+<tr><td>Апелляция</td><td>Красноярский областной суд</td><td>Согласился с оправданием</td></tr>
+<tr><td>Кассация</td><td><strong>8-й КСОЮ</strong>, дело <strong>№ 7У-208/2026</strong></td><td>Отменил оправдательный приговор, направил на <strong>новое рассмотрение</strong>; установил обстоятельства, не подтверждённые нижестоящими судами</td></tr>
+<tr><td>ВС РФ</td><td>Определение <strong>05.08.2026</strong>, дело <strong>№ 53-УД26-9-К8</strong></td><td>Отменил постановление кассации; направил на <strong>новое кассационное рассмотрение в ином составе</strong></td></tr>
+</tbody>
+</table>
+
+<p>Итог для лица: оправдание <strong>не восстановлено окончательно</strong>, но <strong>отмена приговора верховным судом</strong> по процессуальным основаниям — рабочий прецедент для жалобы при аналогичных нарушениях кассации.</p>
+
+<h3 id="l24-h3-2-2">Ошибки кассации, на которые указал Верховный Суд</h3>
+
+<p>ВС указал: кассация <strong>заново оценила доказательства</strong>, признала доказанными факты, опровергнутые в приговоре, и <strong>предрешила обвинительный исход</strong>. Формулировка 8-го КСОЮ о «незаконном освобождении» — пример того, как кассация <strong>подменяет</strong> вопрос о виновности, который должен решаться при <strong>новом рассмотрении</strong> суда первой или апелляционной инстанции.</p>
+
+<p>Для <strong>защиты по уголовному делу кассация</strong> в ВС после такой отмены оправдания аргументы жалобы:</p>
+
+<ul><li>перечисление конкретных фактов, которые кассация «установила» вопреки приговору;</li><li>ссылка на цитату ВС о запрете предрешения (<strong>обвинительный приговор кассация</strong>);</li><li>указание на <strong>ч. 7 ст. 401.16 УПК РФ</strong>;</li><li>просьба об отмене постановления кассации и направлении на новое рассмотрение <strong>в ином составе</strong> (как в деле № 53).</li></ul>
+
+<aside class="ym-cta ym-cta--legis24" role="complementary">
+<p class="ym-cta__text">Кассация отменила оправдательный приговор и «предрешила» виновность? Разберём постановление кассации, сопоставим выводы с приговором суда первой инстанции и подготовим жалобу в ВС по линии дела № 53-УД26-9-К8.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Консультация по отмене оправдания кассацией</a></p>
+</aside>
+
+<h2 id="l24-h2-3">Границы полномочий кассации: защита от подмены суда первой инстанции</h2>
+
+<p><strong>Кассация уголовное дело защита</strong> строится на разграничении инстанций. Кассационный суд проверяет <strong>законность</strong> судебных решений: соблюдение процессуального закона, правильность применения уголовного закона, назначение наказания <strong>в рамках того, что уже установлено</strong> нижестоящими судами. Он <strong>не</strong> является «вторым судом по фактам» и <strong>не</strong> вправе подменять оценку доказательств, если она не выходит за рамки закона.</p>
+
+<h3 id="l24-h3-3-1">Когда кассация вправе отменить оправдательный приговор</h3>
+
+<p>Отмена <strong>оправдательного приговора</strong> кассацией <strong>законна</strong>, если нижестоящий суд <strong>нарушил уголовно-процессуальный закон</strong> или <strong>неправильно применил уголовный закон</strong> — например, необоснованно исключил доказательства, не рассмотрел ходатайства, нарушил правила оценки доказательств <strong>в процессуальном смысле</strong>. Кассация вправе указать на <strong>процессуальные дефекты</strong>, требующие <strong>нового судебного разбирательства</strong>.</p>
+
+<p>Кассация <strong>не вправе</strong> при отмене оправдания:</p>
+
+<ul><li>самостоятельно «доказать» виновность;</li><li>заменить выводы суда первой инстанции о <strong>недоказанности</strong> умысла или состава;</li><li>назначить конкретную <strong>меру наказания</strong> или «предсказать» обвинительный приговор.</li></ul>
+
+<p>Дело № 53 — иллюстрация второго сценария: кассация вышла за рамки проверки законности.</p>
+
+<section id="l24-boris-kassaciya-prognoz-matrix" class="l24-boris-kass-prog" aria-label="4 признака обвинительного прогноза кассации — чек-лист для жалобы в ВС РФ">
+<style>
+.l24-boris-kass-prog {
+  --bk-navy: #0f2744;
+  --bk-navy-soft: #1a365d;
+  --bk-gold: #ecc94b;
+  --bk-gold-soft: #fde68a;
+  --bk-red: #f87171;
+  --bk-red-soft: #fecaca;
+  --bk-red-bg: rgba(248, 113, 113, 0.12);
+  --bk-blue: #818cf8;
+  --bk-ok: #34d399;
+  --bk-muted: #a0aec0;
+  --bk-txt: #e2e8f0;
+  margin: 48px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.l24-boris-kass-prog__shell {
+  background: linear-gradient(152deg, var(--bk-navy) 0%, #122a42 48%, var(--bk-navy-soft) 100%);
+  border: 1px solid rgba(236, 201, 75, 0.24);
+  border-radius: 14px;
+  padding: 32px 28px 24px;
+  color: var(--bk-txt);
+  box-shadow: 0 18px 48px rgba(15, 39, 68, 0.32);
+}
+.l24-boris-kass-prog__eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bk-gold);
+}
+.l24-boris-kass-prog__title {
+  margin: 0 0 10px;
+  font-size: clamp(1.15rem, 2.4vw, 1.42rem);
+  line-height: 1.25;
+  color: #fff;
+  font-weight: 700;
+}
+.l24-boris-kass-prog__lead {
+  margin: 0 0 24px;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--bk-muted);
+  max-width: 72ch;
+}
+.l24-boris-kass-prog__lead strong { color: #fff; }
+.l24-boris-kass-prog__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 22px;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+.l24-boris-kass-prog__matrix-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.l24-boris-kass-prog__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.l24-boris-kass-prog__card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 14px 12px;
+  border-top: 3px solid var(--bk-red);
+}
+.l24-boris-kass-prog__card:nth-child(2) { border-top-color: #fb923c; }
+.l24-boris-kass-prog__card:nth-child(3) { border-top-color: var(--bk-gold); }
+.l24-boris-kass-prog__card:nth-child(4) { border-top-color: var(--bk-blue); }
+.l24-boris-kass-prog__card-n {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--bk-gold);
+  margin-bottom: 6px;
+}
+.l24-boris-kass-prog__card-t {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: #cbd5e1;
+  font-weight: 600;
+}
+.l24-boris-kass-prog__card-t em {
+  font-style: normal;
+  color: var(--bk-red-soft);
+}
+.l24-boris-kass-prog__verdict {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  background: rgba(236, 201, 75, 0.1);
+  border: 1px solid rgba(236, 201, 75, 0.32);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: var(--bk-muted);
+}
+.l24-boris-kass-prog__verdict strong { color: var(--bk-gold-soft); }
+.l24-boris-kass-prog__foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.l24-boris-kass-prog__tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--bk-txt);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.l24-boris-kass-prog__tag--case { border-color: rgba(236, 201, 75, 0.5); color: var(--bk-gold); }
+.l24-boris-kass-prog__tag--law { border-color: rgba(129, 140, 248, 0.45); color: #c7d2fe; }
+.l24-boris-kass-prog__tag--warn { border-color: rgba(248, 113, 113, 0.45); color: var(--bk-red-soft); }
+@media (max-width: 860px) {
+  .l24-boris-kass-prog__split { grid-template-columns: 1fr; }
+  .l24-boris-kass-prog__shell { padding: 24px 18px 20px; }
+}
+@media (max-width: 480px) {
+  .l24-boris-kass-prog__cards { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="l24-boris-kass-prog__shell">
+  <p class="l24-boris-kass-prog__eyebrow">UG · чек-лист защиты · дело № 53-УД26-9-К8 · дайджест ВС 22.08.2026</p>
+  <h3 class="l24-boris-kass-prog__title">4 признака обвинительного прогноза кассации</h3>
+  <p class="l24-boris-kass-prog__lead">Если постановление кассации содержит <strong>хотя бы один</strong> из признаков ниже, защита вправе ссылаться на позицию ВС: кассация проверяет <strong>законность</strong>, но не подменяет суд первой инстанции и не «назначает» виновность. В деле № 53 <strong>8-й КСОЮ</strong> нарушил <strong>все четыре</strong> — ВС направил дело на новое кассационное рассмотрение в ином составе.</p>
+
+<div class="l24-boris-kass-prog__split">
+    <svg class="l24-boris-kass-prog__matrix-svg" viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="bkProgT bkProgD">
+      <title id="bkProgT">Матрица 4 признаков обвинительного прогноза кассации по делу № 53-УД26-9-К8</title>
+      <desc id="bkProgD">Центр — запрет кассации предрешать виновность; четыре квадранта: новые факты, оценка достоверности, незаконное освобождение, статья и мера наказания</desc>
+      <defs>
+        <marker id="bkProg-arr" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+          <polygon points="0 0, 7 3, 0 6" fill="#f87171"/>
+        </marker>
+        <filter id="bkProg-glow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.35"/>
+        </filter>
+      </defs>
+
+<!-- Фоновая сетка 2×2 -->
+      <rect x="24" y="24" width="472" height="312" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2"/>
+      <line x1="260" y1="24" x2="260" y2="336" stroke="rgba(236,201,75,0.22)" stroke-width="1.5" stroke-dasharray="5,4"/>
+      <line x1="24" y1="180" x2="496" y2="180" stroke="rgba(236,201,75,0.22)" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+<!-- Центральный хаб -->
+      <circle cx="260" cy="180" r="52" fill="#1a365d" stroke="#ecc94b" stroke-width="2.2" filter="url(#bkProg-glow)"/>
+      <text x="260" y="168" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="800" font-family="system-ui,sans-serif" letter-spacing="0.04em">ЗАПРЕТ ВС</text>
+      <text x="260" y="182" text-anchor="middle" fill="#fff" font-size="6.2" font-weight="700" font-family="system-ui,sans-serif">кассация ≠</text>
+      <text x="260" y="194" text-anchor="middle" fill="#fff" font-size="6.2" font-weight="700" font-family="system-ui,sans-serif">суд по фактам</text>
+      <text x="260" y="208" text-anchor="middle" fill="#94a3b8" font-size="5.5" font-family="system-ui,sans-serif">№ 53 · 05.08.2026</text>
+
+<!-- Стрелки нарушений к центру -->
+      <path d="M118 118 L210 158" fill="none" stroke="#f87171" stroke-width="1.4" marker-end="url(#bkProg-arr)" opacity="0.85"/>
+      <path d="M402 118 L310 158" fill="none" stroke="#fb923c" stroke-width="1.4" marker-end="url(#bkProg-arr)" opacity="0.85"/>
+      <path d="M118 242 L210 202" fill="none" stroke="#ecc94b" stroke-width="1.4" marker-end="url(#bkProg-arr)" opacity="0.85"/>
+      <path d="M402 242 L310 202" fill="none" stroke="#818cf8" stroke-width="1.4" marker-end="url(#bkProg-arr)" opacity="0.85"/>
+
+<!-- Квадрант 1 — верхний левый -->
+      <rect x="36" y="36" width="210" height="132" rx="10" fill="rgba(248,113,113,0.1)" stroke="#f87171" stroke-width="1.2"/>
+      <text x="48" y="58" fill="#fecaca" font-size="8" font-weight="800" font-family="system-ui,sans-serif">1 · НОВЫЕ ФАКТЫ</text>
+      <text x="48" y="78" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">Установила обстоятельства,</text>
+      <text x="48" y="92" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">не найденные судами</text>
+      <text x="48" y="106" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">1–2 инстанций</text>
+      <text x="48" y="128" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">8-й КСОЮ · № 7У-208/2026</text>
+      <text x="48" y="148" fill="#fca5a5" font-size="6" font-weight="700" font-family="system-ui,sans-serif">✕ нарушение</text>
+
+<!-- Квадрант 2 — верхний правый -->
+      <rect x="274" y="36" width="210" height="132" rx="10" fill="rgba(251,146,60,0.08)" stroke="#fb923c" stroke-width="1.2"/>
+      <text x="286" y="58" fill="#fed7aa" font-size="8" font-weight="800" font-family="system-ui,sans-serif">2 · ДОСТОВЕРНОСТЬ</text>
+      <text x="286" y="78" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">Оценила достоверность</text>
+      <text x="286" y="92" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">доказательств вместо</text>
+      <text x="286" y="106" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">проверки законности</text>
+      <text x="286" y="128" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">заново оценила док-ва</text>
+      <text x="286" y="148" fill="#fdba74" font-size="6" font-weight="700" font-family="system-ui,sans-serif">✕ нарушение</text>
+
+<!-- Квадрант 3 — нижний левый -->
+      <rect x="36" y="192" width="210" height="132" rx="10" fill="rgba(236,201,75,0.08)" stroke="#ecc94b" stroke-width="1.2"/>
+      <text x="48" y="214" fill="#fde68a" font-size="8" font-weight="800" font-family="system-ui,sans-serif">3 · ОБВИНИТ. ИСХОД</text>
+      <text x="48" y="234" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">«Незаконное и</text>
+      <text x="48" y="248" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">необоснованное</text>
+      <text x="48" y="262" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">освобождение»</text>
+      <text x="48" y="284" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">предрешила виновность</text>
+      <text x="48" y="304" fill="#fde68a" font-size="6" font-weight="700" font-family="system-ui,sans-serif">✕ нарушение</text>
+
+<!-- Квадрант 4 — нижний правый -->
+      <rect x="274" y="192" width="210" height="132" rx="10" fill="rgba(129,140,248,0.1)" stroke="#818cf8" stroke-width="1.2"/>
+      <text x="286" y="214" fill="#c7d2fe" font-size="8" font-weight="800" font-family="system-ui,sans-serif">4 · СТАТЬЯ / МЕРА</text>
+      <text x="286" y="234" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">Определила статью УК</text>
+      <text x="286" y="248" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">или меру наказания</text>
+      <text x="286" y="262" fill="#cbd5e1" font-size="6.5" font-family="system-ui,sans-serif">для нового рассмотрения</text>
+      <text x="286" y="284" fill="#94a3b8" font-size="5.8" font-style="italic" font-family="system-ui,sans-serif">ч. 7 ст. 401.16 УПК</text>
+      <text x="286" y="304" fill="#a5b4fc" font-size="6" font-weight="700" font-family="system-ui,sans-serif">✕ нарушение</text>
+
+<!-- Нижняя легенда: граница полномочий -->
+      <rect x="24" y="344" width="472" height="0" fill="none"/>
+      <text x="260" y="352" text-anchor="middle" fill="#64748b" font-size="6" font-weight="700" font-family="system-ui,sans-serif" letter-spacing="0.05em">КАССАЦИЯ → ПРОВЕРКА ЗАКОННОСТИ · НЕ ПОДМЕНА СУДА 1 ИНСТАНЦИИ</text>
+    </svg>
+
+<div class="l24-boris-kass-prog__cards" role="list" aria-label="Чек-лист признаков для кассационной жалобы">
+      <div class="l24-boris-kass-prog__card" role="listitem">
+        <span class="l24-boris-kass-prog__card-n">Признак 1</span>
+        <p class="l24-boris-kass-prog__card-t">Кассация <em>установила факты</em>, не найденные судом первой или апелляционной инстанции</p>
+      </div>
+      <div class="l24-boris-kass-prog__card" role="listitem">
+        <span class="l24-boris-kass-prog__card-n">Признак 2</span>
+        <p class="l24-boris-kass-prog__card-t">Оценила <em>достоверность</em> доказательств вместо проверки законности их получения и оценки в приговоре</p>
+      </div>
+      <div class="l24-boris-kass-prog__card" role="listitem">
+        <span class="l24-boris-kass-prog__card-n">Признак 3</span>
+        <p class="l24-boris-kass-prog__card-t">Использовала формулировки «незаконное освобождение» — <em>предрешила обвинительный</em> исход нового рассмотрения</p>
+      </div>
+      <div class="l24-boris-kass-prog__card" role="listitem">
+        <span class="l24-boris-kass-prog__card-n">Признак 4</span>
+        <p class="l24-boris-kass-prog__card-t">Определила <em>статью УК</em> или <em>меру наказания</em> для суда при повторном рассмотрении</p>
+      </div>
+    </div>
+  </div>
+
+<p class="l24-boris-kass-prog__verdict"><strong>Дело № 53-УД26-9-К8:</strong> оправдательный приговор (февраль 2025, Красноярск) → отмена 8-м КСОЮ с нарушением всех четырёх признаков → ВС 05.08.2026 отменил постановление кассации и направил дело на <strong>новое кассационное рассмотрение в ином составе</strong>. Нормативный якорь жалобы — <strong>ч. 7 ст. 401.16 УПК РФ</strong>.</p>
+
+<div class="l24-boris-kass-prog__foot">
+    <span class="l24-boris-kass-prog__tag l24-boris-kass-prog__tag--case">№ 53-УД26-9-К8</span>
+    <span class="l24-boris-kass-prog__tag l24-boris-kass-prog__tag--law">ч. 7 ст. 401.16 УПК</span>
+    <span class="l24-boris-kass-prog__tag l24-boris-kass-prog__tag--warn">8-й КСОЮ · № 7У-208/2026</span>
+    <span class="l24-boris-kass-prog__tag">ч. 1 ст. 286 УК</span>
+    <span class="l24-boris-kass-prog__tag">дайджест 22.08.2026</span>
+  </div>
+</div>
+</section>
+
+<h3 id="l24-h3-3-2">Апелляция и кассация: различие для стратегии защиты</h3>
+
+<table>
+<thead>
+<tr><th>Критерий</th><th>Апелляция</th><th>Кассация</th></tr>
+</thead>
+<tbody>
+<tr><td>Объект проверки</td><td>Неправильность приговора / постановления, <strong>новая оценка</strong> доказательств в пределах закона</td><td><strong>Законность</strong> решения, процессуальные нарушения</td></tr>
+<tr><td>Отмена оправдания</td><td>Возможна при ошибках по факту и закону</td><td>Возможна при <strong>процессуальных</strong> нарушениях, без предрешения виновности</td></tr>
+<tr><td>Стратегия защиты</td><td>Доводы по доказательствам, составу, смягчающим</td><td>Доводы о <strong>выходе кассации за полномочия</strong>, обвинительный прогноз</td></tr>
+<tr><td>Следующий шаг после отмены</td><td>Новое рассмотрение в суде 1 инстанции / апелляции</td><td>Новое рассмотрение в той инстанции, которую указал суд</td></tr>
+</tbody>
+</table>
+
+<p>При <strong>отмена оправдательного приговора кассация</strong> нижестоящих судов защита должна параллельно готовить линию в <strong>ВС РФ</strong> (кассационная жалоба / представление) и линию на <strong>новое рассмотрение</strong> в суде первой инстанции — с акцентом на доказательства, уже признанные судом при оправдании.</p>
+
+<h2 id="l24-h2-4">Смягчающие обстоятельства: фактический учёт в приговоре (дело № 56-УД26-21-К9)</h2>
+
+<p>Второй блок дайджеста 22.08 — не про полномочия кассации при оправдании, а про <strong>назначение наказания</strong> при уже признанной виновности. Дело № <strong>56-УД26-21-К9</strong> — <strong>мошенничество посевные площади приговор</strong>: фермер <strong>Владимир Шек</strong>, гендиректор СХ компаний «Восток» и «Сатурн», <strong>Приморский край</strong>.</p>
+
+<h3 id="l24-h3-4-1">Какие смягчающие суд проигнорировал</h3>
+
+<p><strong>2014–2017</strong> — завышение данных о посевных площадях <strong>риса и сои</strong> для получения госсубсидий; мошенничество и <strong>покушение</strong> на мошенничество в особо крупном размере <strong>с использованием служебного положения</strong>.</p>
+
+<p><strong>2025</strong> — Фрунзенский районный суд Владивостока: <strong>5 лет</strong> колонии общего режима + <strong>штраф 900 000 руб.</strong> Мотив реального срока: вред <strong>государству</strong> (Минсельхоз Приморья), «исправление невозможно без изоляции».</p>
+
+<p>Смягчающие <strong>перечислены</strong>, но учтены <strong>формально</strong>:</p>
+
+<ul><li>работа, семья, <strong>3 ребёнка</strong> на иждивении;</li><li>отсутствие отягчающих;</li><li>положительные характеристики;</li><li>благотворительность;</li><li><strong>полное возмещение ущерба</strong>;</li><li>помощь болеющим родственникам;</li><li>заболевания.</li></ul>
+
+<p>Апелляция — без изменений. <strong>9-й КСОЮ</strong> (дело <strong>№ 7У-3724/2025</strong>) не нашёл оснований для смягчения; исключил запрет руководящей деятельности.</p>
+
+<p>ВС согласился с <strong>виновностью</strong>, но указал: вывод о реальном сроке <strong>противоречив</strong> при перечисленных смягчающих; суд <strong>формально</strong> сослался на обстоятельства, <strong>фактически не учёл</strong> их; не проанализировал <strong>посткриминальное поведение</strong> (после деяния не замечен в предосудительном). Цитата ВС (РАПСИ 21.08):</p>
+
+<blockquote>«Общие и частные превентивные меры могут быть реализованы и без реального лишения свободы (осужденного), а поэтому в отношении последнего необходимо применить правила ст. 73 УК РФ».</blockquote>
+
+<h3 id="l24-h3-4-2">Условное осуждение по ст. 73 УК: когда кассация обязана его применить</h3>
+
+<p>ВС применил <strong>ст. 73 УК РФ</strong> — наказание <strong>условное</strong>, Шек <strong>освобождён из колонии</strong>. В материалах РАПСИ и pravo.ru <strong>штраф 900 000 руб.</strong> <strong>не отменялся</strong>.</p>
+
+<p>Отличие от дела № 53: ВС <strong>сам изменил</strong> приговор (реальный → условный), а не возвращал в кассацию. Отличие от <a href="/vs-uslovnyy-srok-moshennichestvo-st-73-kassaciya-zashchita-2026/">материала об условном сроке и ужесточении</a> (дело № <strong>18-УД26-4-К4</strong>): там кассация <strong>ужесточила</strong> условный приговор; здесь ВС <strong>смягчил</strong> реальный срок при формальном перечислении смягчающих. Общая тема — <strong>ст. 73</strong> и кассация, но <strong>фабула</strong> (госсубсидии, Приморье) и <strong>механизм</strong> (прямое изменение приговора ВС) различаются.</p>
+
+<p>Для <strong>защиты по уголовному делу кассация</strong> при уже осуждённом клиенте аргументы:</p>
+
+<ul><li>смягчающие не «для галочки» — нужен <strong>фактический</strong> анализ каждого;</li><li><strong>полное возмещение ущерба</strong> + посткриминальное поведение — основание для <strong>условного осуждения ст 73 ук</strong>;</li><li>формальная отсылка к «вреду государству» без оценки личности и реабилитации — ошибка, которую ВС отменяет.</li></ul>
+
+<aside class="ym-cta ym-cta--legis24" role="complementary">
+<p class="ym-cta__text">Реальный срок при перечисленных смягчающих и полном возмещении ущерба — аргумент для кассации и ВС по линии дела № 56. Оценим приговор на предмет формального учёта смягчающих и применения ст. 73 УК.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с условным осуждением в кассации</a></p>
+</aside>
+
+<h2 id="l24-h2-5">Ne bis in idem: запрет повторного осуждения (дело № 75-УД26-4-КЗ)</h2>
+
+<p>Дело № <strong>75-УД26-4-КЗ</strong> не входит в дайджест 22.08, но закрывает сценарий <strong>повторное осуждение за те же деяния</strong> — критичный <strong>уголовный риск</strong> при нескольких эпизодах и особом порядке.</p>
+
+<h3 id="l24-h3-5-1">Принцип ne bis in idem в уголовном процессе РФ</h3>
+
+<p>Житель <strong>Карелии</strong>. <strong>2018</strong> — приговор за незаконный оборот наркотиков <strong>в составе организованной группы</strong>. <strong>2020</strong> — повторное осуждение <strong>в особом порядке</strong> за <strong>участие в ОПГ</strong> с перечислением <strong>тех же эпизодов</strong> сбыта <strong>тех же</strong> наркотиков при <strong>тех же</strong> обстоятельствах.</p>
+
+<p>Определение ВС <strong>13.08.2026</strong>: признание вины и особый порядок <strong>не дают</strong> права осудить дважды. Основания — <strong>п. 6 ч. 1 ст. 24 УПК РФ</strong>, <strong>ч. 1 ст. 50 Конституции РФ</strong> («<strong>никто не может быть повторно осужден</strong> за одно и то же преступление»). Приговор 2020 и последующие акты <strong>отменены</strong>, дело <strong>прекращено</strong> — имеется вступивший в силу приговор по тому же обвинению.</p>
+
+<p>Нюанс (перекрёстная ссылка РАПСИ): прекращение <strong>не влечёт реабилитацию</strong>, т.к. лицо уже осуждено за те же деяния по первому приговору.</p>
+
+<h3 id="l24-h3-5-2">Как использовать запрет повторного осуждения в кассационной жалобе</h3>
+
+<p>В жалобе в ВС при <strong>ne bis in idem уголовное дело</strong>:</p>
+
+<ol><li>Сопоставить <strong>эпизоды</strong>, <strong>объекты</strong> и <strong>обстоятельства</strong> двух приговоров (не только формальную квалификацию).</li><li>Указать на <strong>вступивший в силу</strong> приговор по первому эпизоду.</li><li>Сослаться на <strong>ч. 1 ст. 50 Конституции</strong> и <strong>п. 6 ч. 1 ст. 24 УПК</strong>.</li><li>Просить <strong>отмену</strong> второго приговора и <strong>прекращение</strong> дела — как в деле № 75.</li></ol>
+
+<p>Связка с дайджестом 22.08: все четыре линии (обвинительный прогноз, смягчающие, ne bis in idem, госпошлина) — варианты, когда <strong>отмена приговора верховным судом</strong> — не исключение, а инструмент защиты.</p>
+
+<h2 id="l24-h2-6">Госпошлина по гражданскому иску в уголовном деле: позиция ВС (ст. 131 УПК)</h2>
+
+<p>Четвёртый блок дайджеста — дело № <strong>49-УД26-17-К6</strong>: <strong>гражданский иск госпошлина уголовное дело</strong>.</p>
+
+<h3 id="l24-h3-6-1">Ст. 131 УПК и судебные расходы: что изменила практика ВС</h3>
+
+<p>Фабула: осуждение за <strong>умышленное причинение легкого вреда здоровью</strong> (июнь 2023, два потерпевших). Мировой судья: обязательные работы + взыскание <strong>7 000 руб.</strong> госпошлины лично + <strong>8 204 руб.</strong> солидарно с соучастником в пользу бюджета района. Апелляция усилила наказание; <strong>взыскание пошлины сохранялось на всех стадиях</strong>.</p>
+
+<p>Позиция ВС: <strong>исключил</strong> взыскание пошлины из судебных решений. Нормы:</p>
+
+<ul><li><strong>ч. 2 ст. 44 УПК</strong> — гражданский истец в УП <strong>освобождён</strong> от госпошлины;</li><li><strong>п. 4 ч. 1 ст. 333.36 НК</strong> — льгота истцам о вреде от преступления;</li><li><strong>ст. 131 УПК</strong> — перечень процессуальных издержек <strong>закрытый</strong>, госпошлина <strong>не входит</strong>.</li></ul>
+
+<p>Цитата ВС (РАПСИ 20.08):</p>
+
+<blockquote>«С осужденного можно взыскать только те процессуальные издержки, которые прямо перечислены в статье 131 УПК РФ. Взыскание государственной пошлины к таким издержкам не относится».</blockquote>
+
+<p>Практический шаг: проверить приговор / постановление — если с осуждённого взыскана пошлина по гражданскому иску в УП, это основание для <strong>кассационной жалобы</strong> с отсылкой к делу № 49 и <strong>ст. 131 УПК</strong>.</p>
+
+<h2 id="l24-h2-7">Кассационная жалоба: алгоритм защиты после отмены оправдания</h2>
+
+<p>Сводный блок для лица, чьё <strong>оправдание отменено кассацией</strong> нижестоящих судов — <strong>кассационная жалоба по уголовному делу</strong> в ВС РФ.</p>
+
+<h3 id="l24-h3-7-1">Сроки и основания кассационной жалобы в ВС РФ</h3>
+
+<p><strong>Кассационная жалоба по уголовному делу</strong> в Верховный Суд подаётся после вступления в силу постановления кассационного суда общей юрисдикции (8-й–10-й КСОЮ) — в сроки <strong>ст. 401.5 УПК РФ</strong> (как правило, <strong>3 месяца</strong> с даты вступления в силу обжалуемого постановления кассации, если не пропущен с учётом процессуальных особенностей).</p>
+
+<p>Основания при отмене оправдания:</p>
+
+<ul><li>кассация <strong>предрешила</strong> виновность / обвинительный приговор (<strong>дело № 53</strong>);</li><li>кассация <strong>установила факты</strong> вопреки приговору;</li><li>нарушение <strong>ч. 7 ст. 401.16 УПК РФ</strong>;</li><li>иные <strong>процессуальные</strong> нарушения при отмене оправдательного приговора.</li></ul>
+
+<p>Параллельно — контроль сроков <strong>нового рассмотрения</strong> в суде первой инстанции после отмены оправдания кассацией.</p>
+
+<h3 id="l24-h3-7-2">Доказательства и аргументация: «кассация не суд первой инстанции»</h3>
+
+<p>Структура жалобы:</p>
+
+<ol><li><strong>Краткая фабула</strong> и итог оправдательного приговора (что именно суд первой инстанции <strong>не доказал</strong>).</li><li><strong>Выписки</strong> из постановления кассации с формулировками обвинительного прогноза («незаконное освобождение», установление фактов, мера наказания).</li><li><strong>Сравнительная таблица</strong>: выводы суда 1 инстанции vs выводы кассации.</li><li><strong>Цитата ВС</strong> из дела № 53 о запрете предрешения.</li><li><strong>Просительная часть</strong>: отмена постановления кассации, направление на <strong>новое кассационное рассмотрение в ином составе</strong> (или восстановление оправдательного приговора, если нарушения исключают отмену).</li></ol>
+
+<p>Роль <strong>адвокат по уголовным делам</strong>: фиксация процессуальных нарушений кассации, подготовка к <strong>новому рассмотрению</strong> с опорой на доказательства оправдания, отслеживание линий по смягчающим (<strong>дело № 56</strong>), ne bis in idem (<strong>дело № 75</strong>) и госпошлине (<strong>дело № 49</strong>) при смежных вопросах в том же деле.</p>
+
+<aside class="ym-cta ym-cta--legis24" role="complementary">
+<p class="ym-cta__text">Срок кассационной жалобы в ВС — три месяца. Зафиксируем обвинительный прогноз в постановлении кассации, подготовим сравнительную таблицу выводов и просительную часть по делу № 53.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Помощь с кассационной жалобой в ВС</a></p>
+</aside>
+
+<ul class="l24-sources">
+  <li>РАПСИ, дайджест 22.08.2026: <a href="https://rapsinews.ru/judicial_analyst/20260822/312125625.html" target="_blank" rel="noopener noreferrer">rapsinews.ru</a></li>
+  <li>РАПСИ, дело № 53-УД26-9-К8 (19.08.2026): <a href="https://rapsinews.ru/judicial_analyst/20260819/312116745.html" target="_blank" rel="noopener noreferrer">rapsinews.ru</a></li>
+  <li>РАПСИ, дело № 56-УД26-21-К9 (21.08.2026): <a href="https://rapsinews.ru/judicial_analyst/20260821/312122491.html" target="_blank" rel="noopener noreferrer">rapsinews.ru</a></li>
+  <li>РАПСИ, дело № 49-УД26-17-К6 (20.08.2026): <a href="https://rapsinews.ru/judicial_analyst/20260820/312120224.html" target="_blank" rel="noopener noreferrer">rapsinews.ru</a></li>
+  <li>РАПСИ, дело № 75-УД26-4-КЗ (18.08.2026): <a href="https://rapsinews.ru/judicial_analyst/20260818/312113749.html" target="_blank" rel="noopener noreferrer">rapsinews.ru</a></li>
+  <li>ugpr.ru, ч. 7 ст. 401.16 УПК: <a href="https://www.ugpr.ru/news/10112-vs-vernul-na-peresmotr-delo-opravdannoy-chinovnicy-kassaciya-predreshila-vyvody" target="_blank" rel="noopener noreferrer">ugpr.ru</a></li>
+</ul>
+<p><em>Материал носит информационно-аналитический характер и не является юридической консультацией. Для оценки конкретной ситуации обратитесь к специалисту по уголовному праву.</em></p>
+
+<section id="faq" class="l24-faq" aria-label="Часто задаваемые вопросы">
+<h2>Частые вопросы (FAQ)</h2>
+<div class="l24-faq__item"><h3 class="l24-faq__q">Чем эта позиция ВС отличается от дела об условном сроке (vs-uslovnyy-srok)?</h3><p class="l24-faq__a">В деле № 18-УД26-4-К4 кассация ужесточила обвинительный условный приговор — ВС восстановил его при отсутствии конкретного нарушения («поворот к худшему»). В дайджесте 22.08.2026 ядро — дело № 53-УД26-9-К8: кассация отменила оправдательный приговор и предрешила виновность («обвинительный прогноз»). ВС направил дело на новое кассационное рассмотрение в ином составе. Разные типы приговора, разные запреты кассации, разный исход.</p></div>
+<div class="l24-faq__item"><h3 class="l24-faq__q">Можно ли оспорить отмену оправдания после кассации нижестоящих судов?</h3><p class="l24-faq__a">Да. Постановление 8–10 КСОЮ обжалуется в ВС РФ в сроки ст. 401.5 УПК РФ (как правило, 3 месяца). Дело № 53 показывает: если кассация предрешила обвинительный исход, ВС отменяет её решение. Оправдательный приговор автоматически не восстанавливается, но защита получает аргументы для нового кассационного рассмотрения и для суда первой инстанции при повторном разбирательстве.</p></div>
+<div class="l24-faq__item"><h3 class="l24-faq__q">Что такое «обвинительный прогноз» кассации?</h3><p class="l24-faq__a">Термин из практики ВС по делу № 53-УД26-9-К8: кассация не вправе предрешать доказанность обвинения, достоверность доказательств, применение УК и меру наказания для нового рассмотрения. Если постановление кассации устанавливает факты вопреки оправдательному приговору или использует формулировки вроде «незаконное освобождение», это обвинительный прогноз — основание для жалобы в ВС со ссылкой на ч. 7 ст. 401.16 УПК РФ.</p></div>
+<div class="l24-faq__item"><h3 class="l24-faq__q">Учитывает ли суд смягчающие «для галочки» или по факту?</h3><p class="l24-faq__a">По делу № 56-УД26-21-К9 ВС указал: формальное перечисление смягчающих без их фактической оценки — ошибка. Признаки: мотивировка наказания не ссылается на смягчающие; реальный срок объясняется только «вредом государству» при полном возмещении ущерба; не анализировалось посткриминальное поведение. Сопоставьте мотивировочную часть приговора с перечнем ст. 61 УК — если каждое смягчающее не получило оценки, это аргумент для кассации и применения ст. 73 УК.</p></div>
+<div class="l24-faq__item"><h3 class="l24-faq__q">Можно ли взыскать госпошлину с осуждённого по гражданскому иску в уголовном деле?</h3><p class="l24-faq__a">Нет. По делу № 49-УД26-17-К6 ВС исключил взыскание госпошлины: ч. 2 ст. 44 УПК освобождает гражданского истца в УП от пошлины, п. 4 ч. 1 ст. 333.36 НК даёт льготу, а ст. 131 УПК содержит закрытый перечень издержек — госпошлина в него не входит. Если в приговоре есть взыскание пошлины по гражданскому иску, это основание для кассационной жалобы.</p></div>
+<div class="l24-faq__item"><h3 class="l24-faq__q">Что такое ne bis in idem и как использовать в кассационной жалобе?</h3><p class="l24-faq__a">Принцип «не судить дважды за одно и то же» (ч. 1 ст. 50 Конституции, п. 6 ч. 1 ст. 24 УПК). По делу № 75-УД26-4-КЗ ВС отменил повторное осуждение в особом порядке за те же эпизоды сбыта наркотиков. В жалобе сопоставьте эпизоды двух приговоров, укажите на вступивший в силу первый приговор и просите отмену второго и прекращение дела.</p></div>
+</section>
+
+<aside class="ym-cta ym-cta--legis24 ym-cta--bottom" role="complementary">
+<p class="ym-cta__text">Дайджест ВС 22.08.2026 — четыре линии защиты в кассации: запрет «обвинительных прогнозов» при отмене оправдания, фактический учёт смягчающих, ne bis in idem, исключение незаконной госпошлины. Обсудите вашу ситуацию с юристом по уголовным делам до истечения процессуальных сроков.</p>
+<p class="ym-cta__actions"><a class="ym-cta__btn" href="https://advokat-vsem.ru/" target="_blank" rel="noopener noreferrer">Обсудить защиту в уголовном деле</a></p>
+</aside>
+
+</div>
+
+<div class="l24-jsonld-ug" hidden aria-hidden="true">
+<pre aria-hidden="true">{"@context": "https://schema.org", "@type": "Article", "headline": "ВС запретил кассации предрешать обвинительный приговор: защита при отмене оправдания", "description": "Дайджест ВС РФ 22.08.2026: кассация не вправе «предрешать» обвинительный приговор при отмене оправдания. Дела № 53-УД26-9-К8, смягчающие по факту, ne bis in idem — защита в кассации.", "inLanguage": "ru-RU", "datePublished": "2026-08-25", "author": {"@type": "Organization", "name": "Legis24"}, "publisher": {"@type": "Organization", "name": "Legis24"}}</pre>
+<pre aria-hidden="true">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Чем эта позиция ВС отличается от дела об условном сроке (vs-uslovnyy-srok)?", "acceptedAnswer": {"@type": "Answer", "text": "В деле № 18-УД26-4-К4 кассация ужесточила обвинительный условный приговор — ВС восстановил его при отсутствии конкретного нарушения («поворот к худшему»). В дайджесте 22.08.2026 ядро — дело № 53-УД26-9-К8: кассация отменила оправдательный приговор и предрешила виновность («обвинительный прогноз»). ВС направил дело на новое кассационное рассмотрение в ином составе. Разные типы приговора, разные запреты кассации, разный исход."}}, {"@type": "Question", "name": "Можно ли оспорить отмену оправдания после кассации нижестоящих судов?", "acceptedAnswer": {"@type": "Answer", "text": "Да. Постановление 8–10 КСОЮ обжалуется в ВС РФ в сроки ст. 401.5 УПК РФ (как правило, 3 месяца). Дело № 53 показывает: если кассация предрешила обвинительный исход, ВС отменяет её решение. Оправдательный приговор автоматически не восстанавливается, но защита получает аргументы для нового кассационного рассмотрения и для суда первой инстанции при повторном разбирательстве."}}, {"@type": "Question", "name": "Что такое «обвинительный прогноз» кассации?", "acceptedAnswer": {"@type": "Answer", "text": "Термин из практики ВС по делу № 53-УД26-9-К8: кассация не вправе предрешать доказанность обвинения, достоверность доказательств, применение УК и меру наказания для нового рассмотрения. Если постановление кассации устанавливает факты вопреки оправдательному приговору или использует формулировки вроде «незаконное освобождение», это обвинительный прогноз — основание для жалобы в ВС со ссылкой на ч. 7 ст. 401.16 УПК РФ."}}, {"@type": "Question", "name": "Учитывает ли суд смягчающие «для галочки» или по факту?", "acceptedAnswer": {"@type": "Answer", "text": "По делу № 56-УД26-21-К9 ВС указал: формальное перечисление смягчающих без их фактической оценки — ошибка. Признаки: мотивировка наказания не ссылается на смягчающие; реальный срок объясняется только «вредом государству» при полном возмещении ущерба; не анализировалось посткриминальное поведение. Сопоставьте мотивировочную часть приговора с перечнем ст. 61 УК — если каждое смягчающее не получило оценки, это аргумент для кассации и применения ст. 73 УК."}}, {"@type": "Question", "name": "Можно ли взыскать госпошлину с осуждённого по гражданскому иску в уголовном деле?", "acceptedAnswer": {"@type": "Answer", "text": "Нет. По делу № 49-УД26-17-К6 ВС исключил взыскание госпошлины: ч. 2 ст. 44 УПК освобождает гражданского истца в УП от пошлины, п. 4 ч. 1 ст. 333.36 НК даёт льготу, а ст. 131 УПК содержит закрытый перечень издержек — госпошлина в него не входит. Если в приговоре есть взыскание пошлины по гражданскому иску, это основание для кассационной жалобы."}}, {"@type": "Question", "name": "Что такое ne bis in idem и как использовать в кассационной жалобе?", "acceptedAnswer": {"@type": "Answer", "text": "Принцип «не судить дважды за одно и то же» (ч. 1 ст. 50 Конституции, п. 6 ч. 1 ст. 24 УПК). По делу № 75-УД26-4-КЗ ВС отменил повторное осуждение в особом порядке за те же эпизоды сбыта наркотиков. В жалобе сопоставьте эпизоды двух приговоров, укажите на вступивший в силу первый приговор и просите отмену второго и прекращение дела."}}]}</pre>
+</div>
+
+</main>
+<!-- /wp:html -->
