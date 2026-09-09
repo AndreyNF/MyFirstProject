@@ -38,11 +38,12 @@
 
 ## M03 — Разовая идентификация по 115-ФЗ
 
-- **status:** free
+- **status:** published
 - **slug:** razovaya-identifikaciya-115fz-migswap
 - **type:** legal
 - **h1:** Разовая идентификация перед обменом в Telegram: зачем нужна и как пройти
 - **primary_query:** идентификация 115 фз обмен криптовалюты
+- **wp_post_id:** 600
 
 ---
 

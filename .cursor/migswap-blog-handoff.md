@@ -1,20 +1,20 @@
 # MigSwap BLOG — handoff
 
-## M02 prodazha-tsifrovyh-aktivov-telegram-sbp
+## M03 — Разовая идентификация по 115-ФЗ
+
+- topic_id: M03
+- slug: razovaya-identifikaciya-115fz-migswap
+- wp_post_id: 600
+- status: draft_wp
+- QA: OK (9478 chars, bot 10, site 4)
 
 === MIGSWAP BLOG RESEARCH ===
-- topic_id: M02
-- gate: PASS
-- research-notes.md + research-notes-gate.json
+PASS — research-notes-gate.json
 
 === MIGSWAP BLOG WRITER ===
-- article.html (8514 chars)
-- bot_links: 10, site_links: 4
-- QA: OK
+article.html + article.meta.json — validate OK
 
 === MIGSWAP BLOG PUBLISH ===
-- wp_post_id: 598
-- status: publish (live 2026-09-09)
-- method: blob → wordpress_create_post_from_blob
+wordpress_create_post → post_id 600, draft
 
 === MIGSWAP BLOG (PIPELINE DONE) ===
