@@ -14,7 +14,7 @@
 
 === MIGSWAP BLOG PUBLISH ===
 - wp_post_id: 598
-- status: draft
+- status: publish (live 2026-09-09)
 - method: blob → wordpress_create_post_from_blob
 
 === MIGSWAP BLOG (PIPELINE DONE) ===
