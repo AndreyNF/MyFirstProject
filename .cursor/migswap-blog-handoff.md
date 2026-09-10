@@ -1,20 +1,20 @@
 # MigSwap BLOG — handoff
 
-## M03 razovaya-identifikaciya-115fz-migswap
+## M05 pokupka-tsifrovyh-aktivov-qr-sbp
 
 === MIGSWAP BLOG RESEARCH ===
-- topic_id: M03
+- topic_id: M05
 - gate: PASS
-- research-notes.md + research-notes-gate.json
+- path: memory/blog/articles/M05-pokupka-tsifrovyh-aktivov-qr-sbp/research-notes-gate.json
 
 === MIGSWAP BLOG WRITER ===
-- article.html (8666 chars)
-- bot_links: 11, site_links: 4
-- QA: OK
+- title: Покупка цифровых активов в Telegram: оплата QR по СБП пошагово
+- chars: 8509, bot_links: 9, site_links: 3
+- path: memory/blog/articles/M05-pokupka-tsifrovyh-aktivov-qr-sbp/article.html
 
 === MIGSWAP BLOG PUBLISH ===
-- wp_post_id: 601
+- wp_post_id: 605
 - status: draft
-- method: wordpress_update_post
+- permalink: https://advokat-vsem.online/?p=605
 
 === MIGSWAP BLOG (PIPELINE DONE) ===
