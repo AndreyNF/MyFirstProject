@@ -49,11 +49,12 @@
 
 ## M04 — Как отличить официального бота
 
-- **status:** free
+- **status:** published
 - **slug:** oficialnyj-bot-migswap-antifrod
 - **type:** antifraud
 - **h1:** Как проверить официального бота MigSwap и не попасть на подделку
 - **primary_query:** migswap официальный бот мошенники
+- **wp_post_id:** 603
 
 ---
 
