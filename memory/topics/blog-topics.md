@@ -71,11 +71,12 @@
 
 ## M06 — Лимиты и лимиты сделок
 
-- **status:** free
+- **status:** published
 - **slug:** limity-operacij-migswap
 - **type:** legal
 - **h1:** Лимиты обмена в MigSwap: суммы, количество сделок и что видно до оплаты
 - **primary_query:** лимиты обмен usdt сбп
+- **wp_post_id:** 608
 
 ---
 

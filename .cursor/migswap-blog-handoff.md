@@ -1,20 +1,19 @@
 # MigSwap BLOG — handoff
 
-## M05 pokupka-tsifrovyh-aktivov-qr-sbp
-
-=== MIGSWAP BLOG RESEARCH ===
-- topic_id: M05
+## === MIGSWAP BLOG RESEARCH ===
+- topic_id: M06
+- slug: limity-operacij-migswap
 - gate: PASS
-- research-notes.md + research-notes-gate.json
+- path: memory/blog/articles/M06-limity-operacij-migswap/research-notes-gate.json
 
-=== MIGSWAP BLOG WRITER ===
-- article.html (8540 chars)
-- bot_links: 10, site_links: 4
-- QA: OK
+## === MIGSWAP BLOG WRITER ===
+- title: Лимиты обмена в MigSwap: суммы, количество сделок и что видно до оплаты
+- QA: OK (8658 chars, bot 9, site 4)
+- path: memory/blog/articles/M06-limity-operacij-migswap/article.html
 
-=== MIGSWAP BLOG PUBLISH ===
-- wp_post_id: 607
+## === MIGSWAP BLOG PUBLISH ===
+- wp_post_id: 608
 - status: draft
-- method: wordpress_create_post
+- permalink: https://advokat-vsem.online/?p=608
 
-=== MIGSWAP BLOG (PIPELINE DONE) ===
+## === MIGSWAP BLOG (PIPELINE DONE) ===
