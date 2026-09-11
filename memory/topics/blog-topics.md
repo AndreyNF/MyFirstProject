@@ -60,11 +60,12 @@
 
 ## M05 — Покупка: рубли → кошелёк
 
-- **status:** free
+- **status:** published
 - **slug:** pokupka-tsifrovyh-aktivov-qr-sbp
 - **type:** instruction
 - **h1:** Покупка цифровых активов в Telegram: оплата QR по СБП пошагово
 - **primary_query:** купить usdt telegram сбп qr
+- **wp_post_id:** 606
 
 ---
 

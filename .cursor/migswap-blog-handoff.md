@@ -1,20 +1,21 @@
 # MigSwap BLOG — handoff
 
-## M04 oficialnyj-bot-migswap-antifrod
-
-=== MIGSWAP BLOG RESEARCH ===
-- topic_id: M04
+## === MIGSWAP BLOG RESEARCH ===
+- topic_id: M05
+- slug: pokupka-tsifrovyh-aktivov-qr-sbp
 - gate: PASS
-- research-notes.md + research-notes-gate.json
+- path: memory/blog/articles/M05-pokupka-tsifrovyh-aktivov-qr-sbp/research-notes.md
 
-=== MIGSWAP BLOG WRITER ===
-- article.html (8790 chars)
-- bot_links: 8, site_links: 4
+## === MIGSWAP BLOG WRITER ===
+- title: Покупка цифровых активов в Telegram: оплата QR по СБП пошагово
+- chars: 8892
+- bot_links: 10 / site_links: 3
 - QA: OK
+- path: memory/blog/articles/M05-pokupka-tsifrovyh-aktivov-qr-sbp/article.html
 
-=== MIGSWAP BLOG PUBLISH ===
-- wp_post_id: 603
+## === MIGSWAP BLOG PUBLISH ===
+- wp_post_id: 606
 - status: draft
 - method: wordpress_create_post
 
-=== MIGSWAP BLOG (PIPELINE DONE) ===
+## === MIGSWAP BLOG (PIPELINE DONE) ===
