@@ -1,0 +1,4 @@
+memory/site.env.local
+.env
+.env.local
+*.env.local
