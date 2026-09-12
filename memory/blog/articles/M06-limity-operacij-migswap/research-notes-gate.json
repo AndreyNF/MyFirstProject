@@ -1,0 +1,13 @@
+{
+  "topic_id": "M06",
+  "slug": "limity-operacij-migswap",
+  "status": "PASS",
+  "checked_at": "2026-09-11T15:05:00Z",
+  "required_fields_present": true,
+  "utility_verdict": "PASS",
+  "sources_verified": [
+    "https://migswap.com",
+    "https://t.me/MigSwap_bot",
+    "memory/brief/fact-bank.md"
+  ]
+}
