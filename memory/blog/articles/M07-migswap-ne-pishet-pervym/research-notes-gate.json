@@ -1,0 +1,9 @@
+{
+  "topic_id": "M07",
+  "slug": "migswap-ne-pishet-pervym",
+  "status": "PASS",
+  "checked_at": "2026-09-12T09:05:00Z",
+  "primary_query": "migswap мошенники пишут первыми",
+  "sources_verified": ["https://migswap.com", "https://t.me/MigSwap_bot", "memory/brief/fact-bank.md"],
+  "utility_verdict": "PASS — антифрод-угол «не пишем первыми» с официальными фактами"
+}

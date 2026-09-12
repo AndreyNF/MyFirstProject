@@ -1,19 +1,12 @@
-# MigSwap BLOG — handoff
+# MigSwap BLOG — новая сессия
 
-## === MIGSWAP BLOG RESEARCH ===
-- topic_id: M06
-- slug: limity-operacij-migswap
-- gate: PASS
-- path: memory/blog/articles/M06-limity-operacij-migswap/research-notes-gate.json
+=== MIGSWAP BLOG RESEARCH ===
+topic_id: M07 | slug: migswap-ne-pishet-pervym | gate: PASS
 
-## === MIGSWAP BLOG WRITER ===
-- title: Лимиты обмена в MigSwap: суммы, количество сделок и что видно до оплаты
-- QA: OK (8658 chars, bot 9, site 4)
-- path: memory/blog/articles/M06-limity-operacij-migswap/article.html
+=== MIGSWAP BLOG WRITER ===
+article.html + article.meta.json | QA: OK | chars: 8573 | bot: 10 | site: 6
 
-## === MIGSWAP BLOG PUBLISH ===
-- wp_post_id: 608
-- status: draft
-- permalink: https://advokat-vsem.online/?p=608
+=== MIGSWAP BLOG PUBLISH ===
+wp_post_id: 610 | status: draft | permalink: https://advokat-vsem.online/?p=610
 
-## === MIGSWAP BLOG (PIPELINE DONE) ===
+=== MIGSWAP BLOG (PIPELINE DONE) ===

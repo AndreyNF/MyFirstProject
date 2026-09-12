@@ -8,3 +8,4 @@
 | 2026-09-10 | M04 | oficialnyj-bot-migswap-antifrod | 603 | draft_wp | Как проверить официального бота MigSwap и не попасть на подделку |
 | 2026-09-11 | M05 | pokupka-tsifrovyh-aktivov-qr-sbp | 607 | draft_wp | Покупка цифровых активов в Telegram: оплата QR по СБП пошагово |
 | 2026-09-11 | M06 | limity-operacij-migswap | 608 | draft_wp | Лимиты обмена в MigSwap: суммы, количество сделок и что видно до оплаты |
+| 2026-09-12 | M07 | migswap-ne-pishet-pervym | 610 | draft_wp | Почему MigSwap не пишет вам первым и как это защищает от мошенников |
