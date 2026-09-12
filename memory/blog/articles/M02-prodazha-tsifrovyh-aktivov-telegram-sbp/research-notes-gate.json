@@ -1,0 +1,9 @@
+{
+  "topic_id": "M02",
+  "slug": "prodazha-tsifrovyh-aktivov-telegram-sbp",
+  "status": "PASS",
+  "checked_at": "2026-09-08T18:50:00Z",
+  "required_fields_present": true,
+  "utility_verdict": "PASS",
+  "sources_verified": ["https://migswap.com", "memory/brief/fact-bank.md"]
+}
