@@ -1,19 +1,19 @@
-# MigSwap BLOG — новая сессия
+# MigSwap BLOG — handoff
 
-## === MIGSWAP BLOG RESEARCH ===
-- topic_id: M07
-- slug: migswap-ne-pishet-pervym
+## M08 istekshaya-zayavka-podderzhka-migswap (2026-09-12)
+
+=== MIGSWAP BLOG RESEARCH ===
+- topic_id: M08
 - gate: PASS
-- path: memory/blog/articles/M07-migswap-ne-pishet-pervym/research-notes.md
+- research-notes.md + research-notes-gate.json
 
-## === MIGSWAP BLOG WRITER ===
-- title: Почему MigSwap не пишет вам первым и как это защищает от мошенников
-- chars: 8986, bot_links: 10, site_links: 4
-- path: memory/blog/articles/M07-migswap-ne-pishet-pervym/article.html
+=== MIGSWAP BLOG WRITER ===
+- article.html (8732 chars), article.meta.json
+- bot_links: 10, site_links: 4
 
-## === MIGSWAP BLOG PUBLISH ===
-- wp_post_id: 610
-- status: draft
-- permalink: https://advokat-vsem.online/?p=610
+=== MIGSWAP BLOG PUBLISH ===
+- wp_post_id: 612, status: draft
+- permalink: https://advokat-vsem.online/?p=612
+- method: wordpress_create_post_from_blob
 
-## === MIGSWAP BLOG (PIPELINE DONE) ===
+=== MIGSWAP BLOG (PIPELINE DONE) ===
