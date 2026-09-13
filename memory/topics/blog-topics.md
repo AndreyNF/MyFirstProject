@@ -82,8 +82,9 @@
 
 ## M07 — Антифрод: сервис не пишет первым
 
-- **status:** free
+- **status:** published
 - **slug:** migswap-ne-pishet-pervym
 - **type:** antifraud
 - **h1:** Почему MigSwap не пишет вам первым и как это защищает от мошенников
 - **primary_query:** migswap мошенники пишут первыми
+- **wp_post_id:** 610
