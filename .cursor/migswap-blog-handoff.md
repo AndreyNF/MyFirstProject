@@ -1,18 +1,20 @@
 # MigSwap BLOG — новая сессия
 
-## === MIGSWAP BLOG RESEARCH ===
-- topic_id: M07
-- slug: migswap-ne-pishet-pervym
-- gate: PASS
+=== MIGSWAP BLOG RESEARCH ===
+topic_id: M08
+slug: istekshaya-zayavka-podderzhka-migswap
+gate: PASS
 
-## === MIGSWAP BLOG WRITER ===
-- chars: 8729
-- bot_links: 11, site_links: 5
-- QA: OK
+=== MIGSWAP BLOG WRITER ===
+title: Истёкшая заявка в MigSwap: что делать, если не успели оплатить или перевод опоздал
+chars: 8732
+bot_links: 10
+site_links: 4
+QA: OK
 
-## === MIGSWAP BLOG PUBLISH ===
-- wp_post_id: 610
-- status: draft
-- permalink: https://advokat-vsem.online/?p=610
+=== MIGSWAP BLOG PUBLISH ===
+post_id: 612
+status: draft
+permalink: https://advokat-vsem.online/?p=612
 
-## === MIGSWAP BLOG (PIPELINE DONE) ===
+=== MIGSWAP BLOG (PIPELINE DONE) ===
