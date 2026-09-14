@@ -1,20 +1,12 @@
-# MigSwap BLOG — новая сессия
+# MigSwap BLOG — handoff
 
-=== MIGSWAP BLOG RESEARCH ===
-topic_id: M09
-slug: vybor-seti-usdt-migswap
-gate: PASS
-path: memory/blog/articles/M09-vybor-seti-usdt-migswap/research-notes.md
+## Session 2026-09-14 M10
 
-=== MIGSWAP BLOG WRITER ===
-title: Как выбрать сеть USDT в MigSwap: TRC20, ERC20 и Solana без ошибки
-path: memory/blog/articles/M09-vybor-seti-usdt-migswap/article.html
-bot_links: 9 | site_links: 4 | chars: 9251
-QA: OK
-
-=== MIGSWAP BLOG PUBLISH ===
-post_id: 615
+topic_id: M10
+slug: schet-sbp-telefon-migswap
+title: Счёт СБП и номер телефона: почему рубли в MigSwap приходят только на привязанный банк
+type: legal
+qa: OK (8844 chars, bot 10, site 4)
+wp_post_id: 616
 status: draft
-permalink: https://advokat-vsem.online/?p=615
-
-=== MIGSWAP BLOG (PIPELINE DONE) ===
+permalink: https://advokat-vsem.online/?p=616
