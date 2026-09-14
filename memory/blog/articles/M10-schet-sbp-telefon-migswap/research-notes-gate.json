@@ -1,0 +1,13 @@
+{
+  "topic_id": "M10",
+  "slug": "schet-sbp-telefon-migswap",
+  "status": "PASS",
+  "checked_at": "2026-09-14T15:05:00Z",
+  "required_fields_present": true,
+  "utility_verdict": "PASS",
+  "sources_verified": [
+    "https://migswap.com",
+    "https://t.me/MigSwap_bot",
+    "memory/brief/fact-bank.md"
+  ]
+}

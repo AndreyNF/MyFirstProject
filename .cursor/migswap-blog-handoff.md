@@ -1,20 +1,18 @@
 # MigSwap BLOG — новая сессия
 
 === MIGSWAP BLOG RESEARCH ===
-topic_id: M09
-slug: vybor-seti-usdt-migswap
+topic_id: M10
+slug: schet-sbp-telefon-migswap
 gate: PASS
-path: memory/blog/articles/M09-vybor-seti-usdt-migswap/research-notes.md
 
 === MIGSWAP BLOG WRITER ===
-title: Как выбрать сеть USDT в MigSwap: TRC20, ERC20 и Solana без ошибки
-path: memory/blog/articles/M09-vybor-seti-usdt-migswap/article.html
-bot_links: 9 | site_links: 4 | chars: 9251
-QA: OK
+article: memory/blog/articles/M10-schet-sbp-telefon-migswap/article.html
+meta: memory/blog/articles/M10-schet-sbp-telefon-migswap/article.meta.json
+chars: 9220 | bot_links: 13 | site_links: 5
 
 === MIGSWAP BLOG PUBLISH ===
-post_id: 615
+post_id: 617
 status: draft
-permalink: https://advokat-vsem.online/?p=615
+permalink: https://advokat-vsem.online/?p=617
 
 === MIGSWAP BLOG (PIPELINE DONE) ===
