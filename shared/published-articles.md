@@ -10,3 +10,4 @@
 | 2026-09-11 | M06 | limity-operacij-migswap | 608 | draft_wp | Лимиты обмена в MigSwap: суммы, количество сделок и что видно до оплаты |
 | 2026-09-13 | M07 | migswap-ne-pishet-pervym | 610 | draft_wp | Почему MigSwap не пишет вам первым и как это защищает от мошенников |
 | 2026-09-13 | M08 | istekshaya-zayavka-podderzhka-migswap | 612 | draft_wp | Истёкшая заявка в MigSwap: что делать, если не успели оплатить или перевод опоздал |
+| 2026-09-14 | M09 | vybor-seti-usdt-migswap | 615 | draft_wp | Как выбрать сеть USDT в MigSwap: TRC20, ERC20 и Solana без ошибки |
