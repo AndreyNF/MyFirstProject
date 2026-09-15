@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-09-15",
+  "topic_id": "B03",
+  "serp_runs": [
+    {
+      "query_id": "primary",
+      "query": "жалоба в УФНС на решение налоговой 2026",
+      "result_count": 5,
+      "searched_at": "2026-09-15",
+      "results": [
+        {
+          "title": "Я хочу обжаловать решение по налоговой проверке | ФНС России",
+          "url": "https://www.nalog.gov.ru/rn77/fl/interest/control/appealfl/",
+          "snippet": "Сроки на подачу жалобы, апелляционный порядок, обязательный досудебный этап"
+        },
+        {
+          "title": "НК РФ Статья 139.1. Порядок и сроки подачи апелляционной жалобы",
+          "url": "https://www.consultant.ru/document/cons_doc_LAW_19671/dc1297afa1e5e9bdc8650a159f76cb88a8671650/",
+          "snippet": "Жалоба через вынесший решение орган, 3 дня на пересылку"
+        },
+        {
+          "title": "Статья 139 НК РФ. Порядок и сроки подачи жалобы",
+          "url": "https://pravo.ppt.ru/kodeks/nk/st-139",
+          "snippet": "1 год на вступившее в силу решение"
+        },
+        {
+          "title": "Сроки обжalования решений ФНС 2026",
+          "url": "https://vitvet.com/articles/nalogi/nalogovye_spory/srok_obzhalovaniya/",
+          "snippet": "Таблица сроков апелляции и жалобы"
+        },
+        {
+          "title": "Досудебный порядок обжалования | ФНС",
+          "url": "https://www.nalog.gov.ru/rn27/apply_fts/pretrial/9745242/",
+          "snippet": "Позиция ФНС по досудебному обжалованию"
+        }
+      ]
+    }
+  ],
+  "note": "Agent supplemented with Cursor WebSearch; DuckDuckGo step optional."
+}

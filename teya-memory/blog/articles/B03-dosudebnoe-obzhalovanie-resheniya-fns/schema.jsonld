@@ -1,0 +1,146 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://advokat-vsem.online/blog/dosudebnoe-obzhalovanie-resheniya-fns/#article",
+      "headline": "Досудебное обжалование решения ФНС: жалоба в УФНС - сроки, порядок, образец",
+      "description": "Как подать жалобу в УФНС на решение налоговой: сроки апелляции и жалобы, порядок через ИФНС, образец структуры и типичные ошибки.",
+      "datePublished": "2026-09-15",
+      "dateModified": "2026-09-15",
+      "inLanguage": "ru-RU",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://advokat-vsem.online/blog/dosudebnoe-obzhalovanie-resheniya-fns/"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://advokat-vsem.online/blog/dosudebnoe-obzhalovanie-resheniya-fns/cover.png",
+        "width": 1200,
+        "height": 675
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Александр Смирнов",
+        "jobTitle": "Ведущий архитектор ИИ-систем и автоматизации Teya",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Legis24"
+        },
+        "sameAs": [
+          "https://habr.com/ru/users/alex_smirnov_ai/",
+          "https://github.com/alex-smirnov-teya",
+          "https://www.linkedin.com/in/alexander-smirnov-dummy-ai"
+        ]
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Legis24",
+        "url": "https://advokat-vsem.ru/"
+      },
+      "keywords": "жалоба в УФНС на решение налоговой, досудебное обжалование налоговой, апелляционная жалоба ФНС"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://advokat-vsem.online/blog/dosudebnoe-obzhalovanie-resheniya-fns/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Обязательно ли обжаловать решение в УФНС перед судом?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, в общем случае суд возможен только после досудебного обжалования в вышестоящем налоговом органе (п. 2 ст. 138 НК РФ)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Сколько дней на апелляционную жалобу?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "До вступления решения в силу - фактически 1 месяц с даты вручения. После вступления - жалоба в общем порядке в течение 1 года."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Куда нести жалобу - в ИФНС или сразу в УФНС?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Через инспекцию, вынесшую решение. Она пересылает документ в УФНС в течение 3 дней."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Приостанавливает ли жалоба взыскание доначислений?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Нет, подача жалобы не приостанавливает исполнение обжалуемого акта, кроме случаев, указанных в законе."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Сколько рассматривает жалобу УФНС?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "По материалам проверки - 1 месяц с продлением ещё на 1 месяц. По иным жалобам - 15 дней с продлением ещё на 15 дней."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Можно ли подать жалобу через личный кабинет?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Да, если сервис доступен для вашего типа документа. Сохраните электронное подтверждение так же тщательно, как бумажную отметку."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Что если пропустил срок апелляции?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Подайте жалобу в общем порядке в течение 1 года со дня вынесения решения. Позиция сложнее, но досудебный спор сохраняется."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://advokat-vsem.online/blog/dosudebnoe-obzhalovanie-resheniya-fns/#howto",
+      "name": "Как подать жалобу в УФНС на решение налоговой",
+      "description": "Пошаговый порядок досудебного обжалования решения ФНС через инспекцию в вышестоящий УФНС.",
+      "totalTime": "P30D",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Личный кабинет налогоплательщика или бумажная подача в ИФНС"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "Зафиксировать дату вручения",
+          "text": "Определите, успеваете ли на апелляцию или нужна жалоба в общем порядке."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Собрать пакет документов",
+          "text": "Подготовьте копию решения, акт проверки, возражения и доказательства отправки."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Оформить жалобу",
+          "text": "Укажите реквизиты, описание решения, доводы и просьбу об отмене или изменении."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Подать через ИФНС",
+          "text": "Передайте жалобу в инспекцию, вынесшую решение, и получите отметку о принятии."
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Контролировать рассмотрение",
+          "text": "Убедитесь в пересылке в УФНС и дождитесь ответа в установленный срок."
+        }
+      ]
+    }
+  ]
+}
