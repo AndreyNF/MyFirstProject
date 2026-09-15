@@ -10,7 +10,11 @@
 | primary_query | жалоба в УФНС на решение налоговой |
 | char_count | 8683 |
 | article-qa | PASS |
-| wp_status | publish (handoff only) |
+| wp_status | **published** |
+| wp_post_id | 620 |
+| wp_url | https://advokat-vsem.online/?p=620 |
+| wp_media_id | 619 |
+| published_at | 2026-09-15T09:43:06Z |
 
 ### Gates
 

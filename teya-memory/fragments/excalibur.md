@@ -3,7 +3,8 @@
 **Run:** 2026-09-15  
 **topic_id:** B03  
 **slug:** dosudebnoe-obzhalovanie-resheniya-fns  
-**status:** handoff ready (WP publish — Директор)
+**status:** ✅ published (WP post_id 620)
+**wp_url:** https://advokat-vsem.online/?p=620
 
 ## Артефакты
 
