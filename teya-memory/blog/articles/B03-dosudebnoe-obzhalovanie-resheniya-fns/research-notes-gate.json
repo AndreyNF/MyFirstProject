@@ -1,0 +1,24 @@
+{
+  "gate": "research-notes",
+  "status": "PASS",
+  "article_dir": "teya-memory/blog/articles/B03-dosudebnoe-obzhalovanie-resheniya-fns",
+  "notes": "teya-memory/blog/articles/B03-dosudebnoe-obzhalovanie-resheniya-fns/research-notes.md",
+  "context": "teya-memory/blog/articles/B03-dosudebnoe-obzhalovanie-resheniya-fns/research-context.json",
+  "errors": [],
+  "warnings": [
+    "technical topic has no obvious official docs/developer documentation URL"
+  ],
+  "metrics": {
+    "today_iso": "2026-09-15",
+    "prefer_sources_after": "2026-06-17",
+    "source_urls": 14,
+    "source_domains": 7,
+    "source_table_rows": 13,
+    "accessed_at": 13,
+    "github_urls": 3,
+    "official_doc_urls": 0,
+    "action_outline_items": 7,
+    "pain_solution_rows": 7,
+    "technical_topic": true
+  }
+}

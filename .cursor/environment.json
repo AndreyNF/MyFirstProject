@@ -1,0 +1,5 @@
+{
+  "install": "python3 -m pip install --user -r requirements.txt 2>/dev/null || true",
+  "start": "",
+  "terminals": []
+}

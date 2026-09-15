@@ -1,0 +1,17 @@
+{
+  "source": "/workspace/teya-memory/blog/articles/B03-dosudebnoe-obzhalovanie-resheniya-fns/article.html",
+  "total_links": 1,
+  "failed_count": 0,
+  "verdict": "pass",
+  "links": [
+    {
+      "url": "https://advokat-vsem.ru/",
+      "status": 200,
+      "ok": true,
+      "method": "HEAD",
+      "error": null,
+      "kind": "external",
+      "skipped": false
+    }
+  ]
+}

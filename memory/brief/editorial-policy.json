@@ -1,0 +1,104 @@
+{
+  "policy_id": "legis24-utility-only-v1",
+  "allowed_search_intent": [
+    "how_to",
+    "checklist",
+    "comparison",
+    "troubleshooting",
+    "workflow",
+    "parent_guide",
+    "informational",
+    "transactional",
+    "informational + transactional",
+    "guide"
+  ],
+  "rejected_search_intent": [
+    "news",
+    "opinion",
+    "case_study"
+  ],
+  "allowed_article_mode": ["B", "guide", "checklist", "comparison", "workflow", "deep-dive"],
+  "topic_title_must_match": [
+    "как",
+    "чек",
+    "гайд",
+    "порядок",
+    "срок",
+    "обжал",
+    "жалоб",
+    "что делать",
+    "образец",
+    "инструк"
+  ],
+  "article_required_signals": {
+    "min_numbered_steps": 5,
+    "min_actionable_h2": 3,
+    "min_faq_pairs": 5,
+    "min_recommendation_markers": 8,
+    "min_pain_markers": 2,
+    "min_outcome_markers": 2,
+    "requires_workflow_or_table_or_checklist": true
+  },
+  "recommendation_markers_ru": [
+    "рекоменду",
+    "не стоит",
+    "лучше",
+    "избегайте",
+    "проверьте",
+    "подайте",
+    "направьте",
+    "сохраните",
+    "не делайте",
+    "важно",
+    "следует",
+    "нужно",
+    "обязательно",
+    "можно",
+    "нельзя"
+  ],
+  "pain_markers_ru": [
+    "боль",
+    "проблем",
+    "ошиб",
+    "страх",
+    "риск",
+    "срок",
+    "пропуст",
+    "доначисл",
+    "штраф",
+    "потер"
+  ],
+  "outcome_markers_ru": [
+    "результат",
+    "получите",
+    "сможете",
+    "проверьте",
+    "определите",
+    "успеете",
+    "зарегистрир",
+    "направите"
+  ],
+  "water_phrases_ru": [
+    "в современном мире",
+    "давайте разберёмся",
+    "давайте разберемся",
+    "подводя итог",
+    "в заключение",
+    "стоит отметить",
+    "не секрет что",
+    "на сегодняшний день",
+    "в этой статье"
+  ],
+  "meta_ab_rules": {
+    "title_seo_min_len": 35,
+    "title_seo_max_len": 75,
+    "title_ctr_min_len": 40,
+    "title_ctr_max_len": 100,
+    "title_aeo_min_len": 35,
+    "title_aeo_max_len": 90,
+    "title_ctr_must_have_emoji_or_hook": true,
+    "title_aeo_must_be_question": true,
+    "description_seo_min_len": 100,
+    "description_seo_max_len": 180
+  }
+}

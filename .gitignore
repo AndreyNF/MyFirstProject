@@ -1,0 +1,10 @@
+memory/site.env.local
+.cursor/excalibur-blog-handoff.md
+.cursor/excalibur-blog-fragments/
+*.local
+__pycache__/
+*.pyc
+.env
+.DS_Store
+node_modules/
+tmp/

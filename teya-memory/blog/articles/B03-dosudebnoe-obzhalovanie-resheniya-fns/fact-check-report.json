@@ -1,0 +1,73 @@
+{
+  "article": "teya-memory/blog/articles/B03-dosudebnoe-obzhalovanie-resheniya-fns/article.html",
+  "fact_bank_source": "teya-memory/research/fact-bank.md",
+  "verdict": "pass",
+  "total_extracted_facts": 9,
+  "verified_facts_count": 9,
+  "unverified_facts_count": 0,
+  "facts": [
+    {
+      "fact": "2014 года",
+      "kind": "date_or_year",
+      "context": "в общем порядке и не потерять досудебный этап. С 2014 года суд почти всегда возможен только после жалобы в в",
+      "verified": true,
+      "reason": "Numerical value '2014' matched in fact-bank context"
+    },
+    {
+      "fact": "2026",
+      "kind": "date_or_year",
+      "context": "ешение налоговой\" - экспертная оценка на сентябрь 2026 (Вордстат недоступен). Частые вопросы Обязательно",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "3 дней",
+      "kind": "metric_or_duration",
+      "context": "раньше: инспекция пересылает её в УФНС в течение 3 дней, и этот резерв тоже нужен. Нужна помощь с текстом",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "24 часов",
+      "kind": "metric_or_duration",
+      "context": "доводами? Подготовим жалобу в УФНС - документ от 24 часов после получения материалов; вы сами направляете е",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "5 дней",
+      "kind": "metric_or_duration",
+      "context": "ором экземпляре. Контролируйте пересылку: через 3-5 дней уточните, ушла ли жалоба в УФНС. Дождитесь ответа",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "15 дней",
+      "kind": "metric_or_duration",
+      "context": "яц с продлением ещё на 1 месяц. По иным жалобам - 15 дней с продлением ещё на 15 дней. Можно ли подать жало",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "2014",
+      "kind": "large_number",
+      "context": "в общем порядке и не потерять досудебный этап. С 2014 года суд почти всегда возможен только после жалобы",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "101",
+      "kind": "large_number",
+      "context": "Апелляционная жалоба - обжалование решения по ст. 101 НК РФ, которое ещё не вступило в силу. Жалоба в об",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    },
+    {
+      "fact": "138",
+      "kind": "large_number",
+      "context": "алования в вышестоящем налоговом органе (п. 2 ст. 138 НК РФ). Сколько дней на апелляционную жалобу? До в",
+      "verified": true,
+      "reason": "Exact match found in fact-bank"
+    }
+  ]
+}
