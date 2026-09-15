@@ -1,0 +1,41 @@
+[project]
+site_name = Legis24
+theme_slug = legis24-blog
+language = ru-RU
+region = Россия
+primary_goal = leads
+public_site_url = https://advokat-vsem.ru
+
+[business]
+company_name = Legis24
+short_description = Юридический аналитический центр: подготовка документов для налоговых споров за 24 часа
+legal_name = Legis24
+city = Москва
+country = Россия
+
+[contacts]
+email = order@advokat-vsem.ru
+cta_url = https://advokat-vsem.ru/
+cta_text = Заказать документ на advokat-vsem.ru
+
+[design]
+style_notes = тёмно-синий (#1e40af), белый, минимализм, документы/печати на русском
+brand_colors = #1e40af, #FFFFFF, #E85D4C
+allow_mcp_image_generation = yes
+
+[content]
+niche = налоговые споры, арбитражные дела, защита бизнеса от ФНС
+target_audience = директора и собственники бизнеса, бухгалтеры, юристы
+blog_required = yes
+starter_blog_posts = 3
+
+[seo]
+wordstat_region = 225
+priority_search = yandex,google
+robots_host = advokat-vsem.ru
+
+[wordpress]
+wp_url = https://advokat-vsem.online
+blog_path = /blog/
+publish_mode = mcp_kovcheg
+allow_publish = yes
